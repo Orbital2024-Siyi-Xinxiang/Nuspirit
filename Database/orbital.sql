@@ -21,8 +21,40 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: users; Type: TABLE; Schema: public; Owner: wulalasmacbook
+-- Name: users; Type: TABLE; Schema: public; Owner: emma
 --
+--
+-- Name: user_location; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.user_location (
+    user_id integer NOT NULL,
+    latitude numeric(10, 6) NOT NULL,
+    longitude numeric(10, 6) NOT NULL,
+    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
+);
+
+ALTER TABLE public.user_location OWNER TO emma;
+
+--
+-- Name: user_wallet; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.user_wallet (
+    user_id integer NOT NULL,
+    balance numeric(10, 2) NOT NULL,
+    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE public.user_wallet OWNER TO emma;
+
+--
+-- Name: user_assets; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.user_assets (
+    user_id integer NOT NULL,
+    asset_name character varying(50) NOT NULL,
+    quantity integer NOT NULL,
+    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE public.user_assets OWNER TO emma;
 
 CREATE TABLE public.users (
     user_id integer NOT NULL,
@@ -33,10 +65,10 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO wulalasmacbook;
+ALTER TABLE public.users OWNER TO emma;
 
 --
--- Name: users_user_id_seq; Type: SEQUENCE; Schema: public; Owner: wulalasmacbook
+-- Name: users_user_id_seq; Type: SEQUENCE; Schema: public; Owner: emma
 --
 
 CREATE SEQUENCE public.users_user_id_seq
@@ -48,24 +80,24 @@ CREATE SEQUENCE public.users_user_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.users_user_id_seq OWNER TO wulalasmacbook;
+ALTER SEQUENCE public.users_user_id_seq OWNED BY NONE;
 
 --
--- Name: users_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: wulalasmacbook
+-- Name: users_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: emma
 --
 
 ALTER SEQUENCE public.users_user_id_seq OWNED BY public.users.user_id;
 
 
 --
--- Name: users user_id; Type: DEFAULT; Schema: public; Owner: wulalasmacbook
+-- Name: users user_id; Type: DEFAULT; Schema: public; Owner: emma
 --
 
 ALTER TABLE ONLY public.users ALTER COLUMN user_id SET DEFAULT nextval('public.users_user_id_seq'::regclass);
 
 
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: wulalasmacbook
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: emma
 --
 
 COPY public.users (user_id, username, password, email, creation_date) FROM stdin;
@@ -79,14 +111,14 @@ COPY public.users (user_id, username, password, email, creation_date) FROM stdin
 
 
 --
--- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: wulalasmacbook
+-- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: emma
 --
 
 SELECT pg_catalog.setval('public.users_user_id_seq', 9, true);
 
 
 --
--- Name: users users_email_key; Type: CONSTRAINT; Schema: public; Owner: wulalasmacbook
+-- Name: users users_email_key; Type: CONSTRAINT; Schema: public; Owner: emma
 --
 
 ALTER TABLE ONLY public.users
@@ -94,7 +126,7 @@ ALTER TABLE ONLY public.users
 
 
 --
--- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: wulalasmacbook
+-- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: emma
 --
 
 ALTER TABLE ONLY public.users
@@ -102,7 +134,7 @@ ALTER TABLE ONLY public.users
 
 
 --
--- Name: users users_username_key; Type: CONSTRAINT; Schema: public; Owner: wulalasmacbook
+-- Name: users users_username_key; Type: CONSTRAINT; Schema: public; Owner: emma
 --
 
 ALTER TABLE ONLY public.users
@@ -112,4 +144,3 @@ ALTER TABLE ONLY public.users
 --
 -- PostgreSQL database dump complete
 --
-
