@@ -20,9 +20,7 @@ SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
---
--- Name: users; Type: TABLE; Schema: public; Owner: emma
---
+
 --
 -- Name: user_location; Type: TABLE; Schema: public; Owner: emma
 --
@@ -35,26 +33,11 @@ CREATE TABLE public.user_location (
 
 ALTER TABLE public.user_location OWNER TO emma;
 
---
--- Name: user_wallet; Type: TABLE; Schema: public; Owner: emma
---
-CREATE TABLE public.user_wallet (
-    user_id integer NOT NULL,
-    balance numeric(10, 2) NOT NULL,
-    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
-);
-ALTER TABLE public.user_wallet OWNER TO emma;
+
 
 --
--- Name: user_assets; Type: TABLE; Schema: public; Owner: emma
+-- Name: users; Type: TABLE; Schema: public; Owner: emma
 --
-CREATE TABLE public.user_assets (
-    user_id integer NOT NULL,
-    asset_name character varying(50) NOT NULL,
-    quantity integer NOT NULL,
-    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
-);
-ALTER TABLE public.user_assets OWNER TO emma;
 
 CREATE TABLE public.users (
     user_id integer NOT NULL,
@@ -63,7 +46,6 @@ CREATE TABLE public.users (
     email character varying(100) NOT NULL,
     creation_date timestamp without time zone DEFAULT CURRENT_TIMESTAMP
 );
-
 
 ALTER TABLE public.users OWNER TO emma;
 
@@ -80,13 +62,9 @@ CREATE SEQUENCE public.users_user_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.users_user_id_seq OWNED BY NONE;
-
---
--- Name: users_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: emma
---
-
 ALTER SEQUENCE public.users_user_id_seq OWNED BY public.users.user_id;
+
+
 
 
 --
@@ -144,3 +122,69 @@ ALTER TABLE ONLY public.users
 --
 -- PostgreSQL database dump complete
 --
+
+
+
+
+
+
+
+
+-------------------------------
+-- Furniture Market Database --
+-------------------------------
+-- Name: market; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.market (
+    id integer NOT NULL,
+    asset_name character varying(50) NOT NULL,
+    price numeric(10, 2) NOT NULL,
+    icon character varying(255) NOT NULL,
+    quantity integer NOT NULL,
+    category character varying(50) NOT NULL,
+    brand_label character varying(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+ALTER TABLE public.market OWNER TO emma;
+
+--
+-- Name: users_assets; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.users_assets (
+    user_id integer NOT NULL,
+    asset_name character varying(50) NOT NULL,
+    asset_id integer NOT NULL,
+    quantity integer NOT NULL,
+    latitude numeric(10, 6) NOT NULL,
+    longitude numeric(10, 6) NOT NULL,
+    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
+    
+    PRIMARY KEY (user_id, asset_id),
+    FOREIGN KEY (user_id) REFERENCES public.users (user_id),
+    FOREIGN KEY (asset_id) REFERENCES public.market (id)
+
+);
+ALTER TABLE public.users_assets OWNER TO emma;
+
+
+--
+-- Name: user_wallet; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.user_wallet (
+    user_id integer NOT NULL,
+    balance numeric(10, 2) NOT NULL,
+    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE public.user_wallet OWNER TO emma;
+
+
+--
+-- Name: user_assets; Type: TABLE; Schema: public; Owner: emma
+--
+CREATE TABLE public.user_assets (
+    user_id integer NOT NULL,
+
+    quantity integer NOT NULL,
+    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE public.user_assets OWNER TO emma;
