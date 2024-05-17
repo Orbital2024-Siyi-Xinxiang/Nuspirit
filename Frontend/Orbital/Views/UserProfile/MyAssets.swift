@@ -14,5 +14,5 @@ struct MyAssets: View {
 }
 
 #Preview {
-    MyAssets()
+    MyAssets().previewInterfaceOrientation(.landscapeLeft)
 }

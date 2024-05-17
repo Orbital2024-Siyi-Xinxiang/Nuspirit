@@ -14,5 +14,5 @@ struct MainMapView: View {
 }
 
 #Preview {
-    MainMapView()
+    MainMapView().previewInterfaceOrientation(.landscapeLeft)
 }
