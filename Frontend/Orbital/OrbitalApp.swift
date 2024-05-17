@@ -7,6 +7,8 @@
 
 import SwiftUI
 import FirebaseCore
+import Firebase
+import FirebaseAuth
 
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
@@ -24,8 +26,9 @@ struct OrbitalApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePageView() //
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+    
         }
     }
 }
