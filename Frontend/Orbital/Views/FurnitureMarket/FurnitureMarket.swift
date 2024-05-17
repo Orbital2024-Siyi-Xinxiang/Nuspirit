@@ -69,7 +69,7 @@ struct FurnitureMarketView: View {
 
 struct FurnitureMarketView_Previews: PreviewProvider {
     static var previews: some View {
-        FurnitureMarketView()
+        FurnitureMarketView().previewInterfaceOrientation(.landscapeLeft)
             .previewLayout(.fixed(width: 896, height: 414)) // iPhone 11 Landscape
     }
 }

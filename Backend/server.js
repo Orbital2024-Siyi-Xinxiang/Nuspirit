@@ -1,6 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Pool } = require('pg');
+
+const cors = require('cors');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const { exec } = require('child_process');
+
 require('dotenv').config();
 
 const admin = require('firebase-admin');
@@ -26,6 +32,32 @@ pool.query('SELECT NOW()', (err, res) => {
         console.log('Database connection successful', res.rows[0]);
     }
 });
+
+
+
+// import dumped database
+pool.connect((err) => {
+    if (err) {
+      console.error('Connection error', err.stack);
+    } else {
+      console.log('Connected to the database');
+  
+      // Import the dump file
+      exec(`psql -U your_username -d orbital_db -f /path/to/orbital.sql`, (err, stdout, stderr) => {
+        if (err) {
+          console.error('Error importing dump file', err);
+        } else {
+          console.log('Dump file imported successfully');
+        }
+      });
+    }
+  });
+
+
+
+
+
+
 
 // Example route using async/await to query PostgreSQL
 app.get('/data', async (req, res) => {

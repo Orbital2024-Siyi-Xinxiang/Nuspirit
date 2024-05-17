@@ -51,7 +51,7 @@ struct SignInView: View {
 // Preview provider for SwiftUI canvas
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        SignInView()
+        SignInView().previewInterfaceOrientation(.landscapeLeft)
     }
 }
 
