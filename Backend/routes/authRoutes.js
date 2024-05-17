@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const admin = require('firebase-admin');
 const router = express.Router();
-const pool = require('./db');  // Adjust path as necessary
+const pool = require('../config/db');  // Adjust path as necessary
 
 // POST /register
 router.post('/register', async (req, res) => {

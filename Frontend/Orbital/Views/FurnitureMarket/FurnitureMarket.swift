@@ -22,7 +22,7 @@ struct FurnitureMarketView: View {
             Button(action: {
                 // Code to navigate to the user balance page
             }) {
-                Text("View Balance")
+                Text("Top up wallet")
                     .font(.headline)
                     .padding()
                     .background(Color.blue)
@@ -40,5 +40,6 @@ struct FurnitureMarketView: View {
 struct FurnitureMarketView_Previews: PreviewProvider {
     static var previews: some View {
         FurnitureMarketView()
+            .previewLayout(.fixed(width: 896, height: 414)) // iPhone 11 Landscape
     }
 }
