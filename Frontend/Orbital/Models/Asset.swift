@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Asset: Identifiable, Codable {
+    var id: Int
+    var name: String
+    var price: Double
+    var icon: String
+}

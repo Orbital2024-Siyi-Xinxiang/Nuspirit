@@ -34,6 +34,9 @@
 		B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssets.swift */; };
 		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
+		B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* AssetView.swift */; };
+		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
+		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		B5C92A522BF7CF1C00121E42 /* MyAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssets.swift; sourceTree = "<group>"; };
 		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		B5C92A592BF7D69C00121E42 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
+		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F74782BF62FFC0048447E /* FurnitureMarket.swift */,
+				B5C92A592BF7D69C00121E42 /* AssetView.swift */,
 				B56F74762BF62F370048447E /* Cart.swift */,
 			);
 			path = FurnitureMarket;
@@ -233,7 +240,9 @@
 			isa = PBXGroup;
 			children = (
 				B5C92A552BF7CFA300121E42 /* Purchase.swift */,
+				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
+				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -383,8 +392,11 @@
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
+				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
 				5BC6DE162BF0A7A40031650B /* Orbital.xcdatamodeld in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService.swift in Sources */,
+				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
+				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
 				5BC6DE412BF0C1270031650B /* RegisterView.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,

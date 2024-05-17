@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Purchase: Codable {
+    var userId: Int
+    var assetId: Int
+}
