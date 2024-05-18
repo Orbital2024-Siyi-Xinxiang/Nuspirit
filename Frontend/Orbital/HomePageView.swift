@@ -34,6 +34,6 @@ struct HomePageView: View {
 // Preview provider for SwiftUI canvas
 struct HomePageView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePageView()
+        HomePageView().previewInterfaceOrientation(.landscapeLeft)
     }
 }

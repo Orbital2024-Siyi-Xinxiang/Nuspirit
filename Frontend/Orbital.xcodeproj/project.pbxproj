@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */; };
-		5BC6DE0C2BF0A7A10031650B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE0B2BF0A7A10031650B /* ContentView.swift */; };
 		5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */; };
 		5BC6DE112BF0A7A40031650B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE102BF0A7A40031650B /* Preview Assets.xcassets */; };
 		5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE122BF0A7A40031650B /* Persistence.swift */; };
@@ -32,6 +31,13 @@
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
 		B56F74952BF63F8C0048447E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* Launch Screen.storyboard */; };
+		B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssets.swift */; };
+		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
+		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
+		B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* AssetView.swift */; };
+		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
+		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
+		B5C92A602BF856E900121E42 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5F2BF856E900121E42 /* LaunchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +60,6 @@
 /* Begin PBXFileReference section */
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalApp.swift; sourceTree = "<group>"; };
-		5BC6DE0B2BF0A7A10031650B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC6DE102BF0A7A40031650B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BC6DE122BF0A7A40031650B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -75,6 +80,13 @@
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
 		B56F74942BF63F8C0048447E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B5C92A522BF7CF1C00121E42 /* MyAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssets.swift; sourceTree = "<group>"; };
+		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		B5C92A592BF7D69C00121E42 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
+		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
+		B5C92A5F2BF856E900121E42 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,12 +142,13 @@
 		5BC6DE082BF0A7A10031650B /* Orbital */ = {
 			isa = PBXGroup;
 			children = (
+				B5C92A542BF7CF6400121E42 /* Models */,
 				B56F74852BF631DB0048447E /* GoogleService-Info.plist */,
 				5BC6DE3F2BF0C0F80031650B /* Views */,
 				5BC6DE3A2BF0AC130031650B /* Services */,
 				5BC6DE3D2BF0ACA90031650B /* Constants.swift */,
+				5BC6DE422BF0C3AB0031650B /* HomePageView.swift */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
-				5BC6DE0B2BF0A7A10031650B /* ContentView.swift */,
 				5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */,
 				5BC6DE122BF0A7A40031650B /* Persistence.swift */,
 				5BC6DE142BF0A7A40031650B /* Orbital.xcdatamodeld */,
@@ -192,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F74782BF62FFC0048447E /* FurnitureMarket.swift */,
+				B5C92A592BF7D69C00121E42 /* AssetView.swift */,
 				B56F74762BF62F370048447E /* Cart.swift */,
 			);
 			path = FurnitureMarket;
@@ -201,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F748C2BF632B70048447E /* MyIsland.swift */,
+				B5C92A522BF7CF1C00121E42 /* MyAssets.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -209,9 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				B56F74942BF63F8C0048447E /* Launch Screen.storyboard */,
+				B5C92A5F2BF856E900121E42 /* LaunchController.swift */,
 				5BC6DE402BF0C1270031650B /* RegisterView.swift */,
 				5BC6DE442BF0C3CF0031650B /* SignInView.swift */,
-				5BC6DE422BF0C3AB0031650B /* HomePageView.swift */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -222,6 +237,17 @@
 				B56F74872BF632330048447E /* MainMapView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B5C92A542BF7CF6400121E42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5C92A552BF7CFA300121E42 /* Purchase.swift */,
+				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
+				B5C92A572BF7CFB800121E42 /* Asset.swift */,
+				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,15 +395,21 @@
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
+				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
 				5BC6DE162BF0A7A40031650B /* Orbital.xcdatamodeld in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService.swift in Sources */,
+				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
+				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
 				5BC6DE412BF0C1270031650B /* RegisterView.swift in Sources */,
-				5BC6DE0C2BF0A7A10031650B /* ContentView.swift in Sources */,
+				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
+				B5C92A602BF856E900121E42 /* LaunchController.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B56F74772BF62F370048447E /* Cart.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* HomePageView.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
+				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
+				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
