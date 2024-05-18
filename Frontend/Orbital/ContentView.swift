@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomePageView: View {
+struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
@@ -32,8 +32,8 @@ struct HomePageView: View {
 }
 
 // Preview provider for SwiftUI canvas
-struct HomePageView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePageView().previewInterfaceOrientation(.landscapeLeft)
+        ContentView().previewInterfaceOrientation(.landscapeLeft)
     }
 }
