@@ -207,9 +207,9 @@
 		5BC6DE3F2BF0C0F80031650B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B56F74922BF63F000048447E /* Launch */,
 				B5C92A612BF8792100121E42 /* Venues */,
 				B56F74932BF63F110048447E /* Main */,
-				B56F74922BF63F000048447E /* Launch */,
 				B56F748B2BF632900048447E /* UserProfile */,
 				B56F74892BF632500048447E /* FurnitureMarket */,
 			);
