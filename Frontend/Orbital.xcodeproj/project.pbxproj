@@ -38,6 +38,13 @@
 		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
 		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
 		B5C92A602BF856E900121E42 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5F2BF856E900121E42 /* LaunchController.swift */; };
+		B5C92A662BF879C300121E42 /* COM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A652BF879C300121E42 /* COM1.swift */; };
+		B5C92A682BF879CF00121E42 /* COM2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A672BF879CF00121E42 /* COM2.swift */; };
+		B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A6A2BF879E000121E42 /* COM3.swift */; };
+		B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A6C2BF879F900121E42 /* SRC.swift */; };
+		B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A6E2BF87A0300121E42 /* ERC.swift */; };
+		B5C92A712BF87A1300121E42 /* RC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A702BF87A1300121E42 /* RC4.swift */; };
+		B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A722BF87A2700121E42 /* Finefood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +94,13 @@
 		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
 		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
 		B5C92A5F2BF856E900121E42 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		B5C92A652BF879C300121E42 /* COM1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM1.swift; sourceTree = "<group>"; };
+		B5C92A672BF879CF00121E42 /* COM2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM2.swift; sourceTree = "<group>"; };
+		B5C92A6A2BF879E000121E42 /* COM3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM3.swift; sourceTree = "<group>"; };
+		B5C92A6C2BF879F900121E42 /* SRC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRC.swift; sourceTree = "<group>"; };
+		B5C92A6E2BF87A0300121E42 /* ERC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERC.swift; sourceTree = "<group>"; };
+		B5C92A702BF87A1300121E42 /* RC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC4.swift; sourceTree = "<group>"; };
+		B5C92A722BF87A2700121E42 /* Finefood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finefood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +207,7 @@
 		5BC6DE3F2BF0C0F80031650B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B5C92A612BF8792100121E42 /* Venues */,
 				B56F74932BF63F110048447E /* Main */,
 				B56F74922BF63F000048447E /* Launch */,
 				B56F748B2BF632900048447E /* UserProfile */,
@@ -248,6 +263,44 @@
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B5C92A612BF8792100121E42 /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				B5C92A642BF8797B00121E42 /* SOC */,
+				B5C92A632BF8797200121E42 /* FOS */,
+				B5C92A622BF8793500121E42 /* UniversityTown */,
+			);
+			path = Venues;
+			sourceTree = "<group>";
+		};
+		B5C92A622BF8793500121E42 /* UniversityTown */ = {
+			isa = PBXGroup;
+			children = (
+				B5C92A6C2BF879F900121E42 /* SRC.swift */,
+				B5C92A6E2BF87A0300121E42 /* ERC.swift */,
+				B5C92A702BF87A1300121E42 /* RC4.swift */,
+				B5C92A722BF87A2700121E42 /* Finefood.swift */,
+			);
+			path = UniversityTown;
+			sourceTree = "<group>";
+		};
+		B5C92A632BF8797200121E42 /* FOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FOS;
+			sourceTree = "<group>";
+		};
+		B5C92A642BF8797B00121E42 /* SOC */ = {
+			isa = PBXGroup;
+			children = (
+				B5C92A652BF879C300121E42 /* COM1.swift */,
+				B5C92A672BF879CF00121E42 /* COM2.swift */,
+				B5C92A6A2BF879E000121E42 /* COM3.swift */,
+			);
+			path = SOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,10 +450,15 @@
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
 				5BC6DE162BF0A7A40031650B /* Orbital.xcdatamodeld in Sources */,
+				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
+				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService.swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
 				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
 				5BC6DE412BF0C1270031650B /* RegisterView.swift in Sources */,
+				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
+				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
+				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				B5C92A602BF856E900121E42 /* LaunchController.swift in Sources */,
@@ -410,6 +468,8 @@
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
+				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
