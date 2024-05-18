@@ -26,7 +26,7 @@ struct OrbitalApp: App {
     // @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            HomePageView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
+            ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
     
         }
