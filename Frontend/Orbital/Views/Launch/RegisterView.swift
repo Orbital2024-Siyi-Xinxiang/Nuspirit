@@ -58,7 +58,7 @@ struct RegisterView: View {
 // Preview provider for SwiftUI canvas
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
-        RegisterView()
+        RegisterView().previewInterfaceOrientation(.landscapeLeft)
     }
 }
 

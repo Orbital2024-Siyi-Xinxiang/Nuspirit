@@ -1,6 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Pool } = require('pg');
+
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const { exec } = require('child_process');
+
 require('dotenv').config();
 
 const admin = require('firebase-admin');
@@ -27,6 +32,32 @@ pool.query('SELECT NOW()', (err, res) => {
     }
 });
 
+
+
+// // import dumped database
+pool.connect((err) => {
+    if (err) {
+      console.error('Connection error', err.stack);
+    } else {
+      console.log('Connected to the database');
+  
+      // Import the dump file
+      exec(`psql -U emma -d orbital_db -f ../Database/orbital.sql`, (err, stdout, stderr) => {
+        if (err) {
+          console.error('Error importing dump file', err);
+        } else {
+          console.log('Dump database imported successfully');
+        }
+      });
+    }
+  });
+
+
+
+
+
+
+
 // Example route using async/await to query PostgreSQL
 app.get('/data', async (req, res) => {
     try {
@@ -43,6 +74,81 @@ app.get('/data', async (req, res) => {
 // Import routes
 const authRoutes = require('./routes/authRoutes.js');
 app.use('/api/auth', authRoutes);
+
+
+
+
+
+
+
+
+
+
+// furniture markets
+// Fetch market assets
+app.get('/market', async (req, res) => {
+    try {
+      const result = await pool.query('SELECT * FROM market');
+      res.json(result.rows);
+    } catch (err) {
+      res.status(500).send(err.message);
+    }
+  });
+  
+
+  // Purchase an asset
+  app.post('/purchase', async (req, res) => {
+    const { userId, assetId } = req.body;
+    const client = await pool.connect();
+    
+    try {
+      await client.query('BEGIN');
+      
+      // Get user and asset details
+      const userResult = await client.query('SELECT * FROM users WHERE id = $1', [userId]);
+      const assetResult = await client.query('SELECT * FROM market WHERE id = $1', [assetId]);
+  
+      if (userResult.rows.length === 0 || assetResult.rows.length === 0) {
+        throw new Error('User or asset not found');
+      }
+  
+      const user = userResult.rows[0];
+      const asset = assetResult.rows[0];
+  
+      if (user.balance < asset.price) {
+        throw new Error('Insufficient balance');
+      }
+  
+      if (asset.quantity <= 0) {
+        throw new Error('Asset out of stock');
+      }
+  
+      // Update user balance and assets
+      const newBalance = user.balance - asset.price;
+      const newAssets = [...user.assets, { id: asset.id, name: asset.name, icon: asset.icon }];
+      await client.query('UPDATE users SET balance = $1, assets = $2 WHERE id = $3', [newBalance, JSON.stringify(newAssets), userId]);
+  
+      // Update asset quantity
+      const newQuantity = asset.quantity - 1;
+      await client.query('UPDATE market SET quantity = $1 WHERE id = $2', [newQuantity, assetId]);
+  
+      await client.query('COMMIT');
+      res.send({ message: 'Purchase successful' });
+    } catch (err) {
+      await client.query('ROLLBACK');
+      res.status(500).send(err.message);
+    } finally {
+      client.release();
+    }
+  });
+
+
+
+
+
+
+
+
 
 
 

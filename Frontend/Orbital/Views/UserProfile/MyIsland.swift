@@ -14,5 +14,5 @@ struct MyIsland: View {
 }
 
 #Preview {
-    MyIsland()
+    MyIsland().previewInterfaceOrientation(.landscapeLeft)
 }
