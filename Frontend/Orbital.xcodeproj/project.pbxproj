@@ -37,6 +37,7 @@
 		B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* AssetView.swift */; };
 		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
 		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
+		B5C92A602BF856E900121E42 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5F2BF856E900121E42 /* LaunchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		B5C92A592BF7D69C00121E42 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
 		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
 		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
+		B5C92A5F2BF856E900121E42 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F74942BF63F8C0048447E /* Launch Screen.storyboard */,
+				B5C92A5F2BF856E900121E42 /* LaunchController.swift */,
 				5BC6DE402BF0C1270031650B /* RegisterView.swift */,
 				5BC6DE442BF0C3CF0031650B /* SignInView.swift */,
 			);
@@ -400,6 +403,7 @@
 				5BC6DE412BF0C1270031650B /* RegisterView.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
+				B5C92A602BF856E900121E42 /* LaunchController.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B56F74772BF62F370048447E /* Cart.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* HomePageView.swift in Sources */,
