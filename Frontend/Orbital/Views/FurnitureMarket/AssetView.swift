@@ -55,6 +55,6 @@ struct AssetView: View {
 
 struct AssetView_Previews: PreviewProvider {
     static var previews: some View {
-        AssetView(asset: Asset(id: 1, name: "Gold", price: 1000, icon: "dollarsign.circle")).previewInterfaceOrientation(.landscapeLeft) // iPhone 11 Landscape
+        AssetView(asset: Asset(id: 1, cat: "Currency", name: "Gold", price: 1000, icon: "dollarsign.circle")).previewInterfaceOrientation(.landscapeLeft) // iPhone 11 Landscape
     }
 }
