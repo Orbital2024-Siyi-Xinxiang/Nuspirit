@@ -6,6 +6,10 @@ struct ContentView: View {
             ZStack() {
                 ZStack() {
                     NavigationLink(destination: RegisterView()) {
+                        Text("Sign In")
+                            .font(Font.custom("Press Start 2P", size: 20))
+                            .foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.23))
+                            .offset(x: 0, y: 3.50)
                         
                         Rectangle()
                             .foregroundColor(.clear)
@@ -15,10 +19,7 @@ struct ContentView: View {
                             .offset(x: -0.50, y: -0.50)
                         
                         
-                        Text("Sign In")
-                            .font(Font.custom("Press Start 2P", size: 20))
-                            .foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.23))
-                            .offset(x: 0, y: 3.50)
+
                     }
                 }
                 .frame(width: 292, height: 67)
@@ -26,6 +27,10 @@ struct ContentView: View {
                 
                 ZStack() {
                     NavigationLink(destination: SignInView()) {
+                        Text("Sign Up")
+                            .font(Font.custom("Press Start 2P", size: 20))
+                            .foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.23))
+                            .offset(x: -1, y: 3.50)
                         
                         Rectangle()
                             .foregroundColor(.clear)
@@ -34,10 +39,7 @@ struct ContentView: View {
                             .cornerRadius(20)
                             .offset(x: -0.50, y: -0.50)
                         
-                        Text("Sign Up")
-                            .font(Font.custom("Press Start 2P", size: 20))
-                            .foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.23))
-                            .offset(x: -1, y: 3.50)
+
                     }
                 }
                 .frame(width: 292, height: 67)
