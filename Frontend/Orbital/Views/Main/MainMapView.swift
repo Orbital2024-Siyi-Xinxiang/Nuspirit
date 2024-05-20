@@ -9,7 +9,6 @@ import SwiftUI
 import MapKit
 
 struct MainMapView: UIViewRepresentable {
-//    typealias UIViewType = <#type#>
     
     @ObservedObject var locationManager = LocationManager()
 
