@@ -406,6 +406,7 @@ struct FurnitureMarketView: View {
             AsyncImage(url: URL(string: "https://via.placeholder.com/218x173"))
           )
           .offset(x: 85, y: 95.50)
+          
         Rectangle()
           .foregroundColor(.clear)
           .frame(width: 78, height: 66)
@@ -425,6 +426,6 @@ struct FurnitureMarketView: View {
 
 struct FurnitureMarketView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+      FurnitureMarketView().previewInterfaceOrientation(.landscapeLeft)
   }
 }
