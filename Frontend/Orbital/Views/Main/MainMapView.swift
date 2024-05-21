@@ -7,10 +7,14 @@
 
 import SwiftUI
 import MapKit
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseAuth
 
 struct MainMapView: UIViewRepresentable {
     
     @ObservedObject var locationManager = LocationManager()
+    let db = Firestore.firestore()
 
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
