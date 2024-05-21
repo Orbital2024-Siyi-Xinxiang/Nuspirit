@@ -52,8 +52,6 @@
 		B5110A8B2BFC776D00208FC4 /* FirebaseMessaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8A2BFC776D00208FC4 /* FirebaseMessaging.swift */; };
 		B5110A8D2BFC777B00208FC4 /* FirebaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8C2BFC777B00208FC4 /* FirebaseStorage.swift */; };
 		B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */; };
-		B5110A922BFCFD2C00208FC4 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A912BFCFD2C00208FC4 /* ObservableObject.swift */; };
-		B5110A942BFCFD4900208FC4 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A932BFCFD4900208FC4 /* CustomOverlayView.swift */; };
 		B56F74772BF62F370048447E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* Cart.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74862BF631DB0048447E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B56F74852BF631DB0048447E /* GoogleService-Info.plist */; };
@@ -115,8 +113,6 @@
 		B5110A8A2BFC776D00208FC4 /* FirebaseMessaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMessaging.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirebaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorage.swift; sourceTree = "<group>"; };
 		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		B5110A912BFCFD2C00208FC4 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
-		B5110A932BFCFD4900208FC4 /* CustomOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
 		B56F74762BF62F370048447E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74852BF631DB0048447E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -326,8 +322,6 @@
 			isa = PBXGroup;
 			children = (
 				B56F74872BF632330048447E /* MainMapView.swift */,
-				B5110A912BFCFD2C00208FC4 /* ObservableObject.swift */,
-				B5110A932BFCFD4900208FC4 /* CustomOverlayView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -564,7 +558,6 @@
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService.swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
-				B5110A942BFCFD4900208FC4 /* CustomOverlayView.swift in Sources */,
 				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
 				5BC6DE412BF0C1270031650B /* RegisterView.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
@@ -573,7 +566,6 @@
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
-				B5110A922BFCFD2C00208FC4 /* ObservableObject.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B56F74772BF62F370048447E /* Cart.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* ContentView.swift in Sources */,
