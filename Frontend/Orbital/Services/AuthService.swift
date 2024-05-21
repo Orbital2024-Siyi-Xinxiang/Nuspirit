@@ -33,6 +33,7 @@ class AuthService {
                 DispatchQueue.main.async {
                     completion(false, "Registration failed: \(error.localizedDescription)")
                 }
+                
                 return
             }
             
