@@ -23,7 +23,7 @@ import SwiftUI
 struct OrbitalApp: App {
     let persistenceController = PersistenceController.shared
 
-    // @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
             ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
