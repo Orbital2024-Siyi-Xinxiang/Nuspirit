@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FirebaseAuth
 
 class AuthService {
     static let shared = AuthService()
