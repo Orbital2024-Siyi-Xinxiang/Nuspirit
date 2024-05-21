@@ -8,18 +8,17 @@ const { exec } = require('child_process');
 
 require('dotenv').config();
 
-const admin = require('firebase-admin');
-const serviceAccount = require('./config/firebaseAccountKey.json'); // Download this from Firebase Console
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
-});
+// const admin = require('firebase-admin');
+// const serviceAccount = require('./config/firebaseAccountKey.json'); // Download this from Firebase Console
+// admin.initializeApp({
+//     credential: admin.credential.cert(serviceAccount)
+// });
 
 
 const sqlFiles = [
     '../Database/orbital.sql',
     '../Database/market.sql',
     '../Database/contact.sql',
-    '../Database/users.sql',
 ];
 
 const app = express();
