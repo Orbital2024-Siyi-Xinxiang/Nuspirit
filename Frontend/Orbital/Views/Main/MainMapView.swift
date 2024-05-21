@@ -6,13 +6,31 @@
 //
 
 import SwiftUI
+import MapKit
 
-struct MainMapView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct MainMapView: UIViewRepresentable {
+    
+    @ObservedObject var locationManager = LocationManager()
+
+    func makeUIView(context: Context) -> MKMapView {
+        let mapView = MKMapView()
+        mapView.showsUserLocation = true
+        mapView.userTrackingMode = .follow
+        return mapView
+    }
+
+    
+    func updateUIView(_ view: MKMapView, context: Context) {
+        if let location = locationManager.location {
+            let region = MKCoordinateRegion(
+                center: location.coordinate,
+                span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+            )
+            view.setRegion(region, animated: true)
+        }
     }
 }
 
 #Preview {
-    MainMapView().previewInterfaceOrientation(.landscapeLeft)
+    MainMapView().edgesIgnoringSafeArea(.all).previewInterfaceOrientation(.landscapeLeft)
 }
