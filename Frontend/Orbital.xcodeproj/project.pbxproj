@@ -51,6 +51,7 @@
 		B5110A892BFC762100208FC4 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = B5110A882BFC762100208FC4 /* FirebaseVertexAI-Preview */; };
 		B5110A8B2BFC776D00208FC4 /* FirebaseMessaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8A2BFC776D00208FC4 /* FirebaseMessaging.swift */; };
 		B5110A8D2BFC777B00208FC4 /* FirebaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8C2BFC777B00208FC4 /* FirebaseStorage.swift */; };
+		B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */; };
 		B56F74772BF62F370048447E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* Cart.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74862BF631DB0048447E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B56F74852BF631DB0048447E /* GoogleService-Info.plist */; };
@@ -111,6 +112,7 @@
 		B5110A0B2BFB81F000208FC4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B5110A8A2BFC776D00208FC4 /* FirebaseMessaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMessaging.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirebaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorage.swift; sourceTree = "<group>"; };
+		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		B56F74762BF62F370048447E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74852BF631DB0048447E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 		5BC6DE3F2BF0C0F80031650B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B5110A8E2BFC7C9C00208FC4 /* Community */,
 				B56F74922BF63F000048447E /* Launch */,
 				B5C92A612BF8792100121E42 /* Venues */,
 				B56F74932BF63F110048447E /* Main */,
@@ -275,6 +278,14 @@
 				B56F74892BF632500048447E /* FurnitureMarket */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B5110A8E2BFC7C9C00208FC4 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */,
+			);
+			path = Community;
 			sourceTree = "<group>";
 		};
 		B56F74892BF632500048447E /* FurnitureMarket */ = {
@@ -559,6 +570,7 @@
 				B56F74772BF62F370048447E /* Cart.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* ContentView.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
+				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
 				B5110A8D2BFC777B00208FC4 /* FirebaseStorage.swift in Sources */,

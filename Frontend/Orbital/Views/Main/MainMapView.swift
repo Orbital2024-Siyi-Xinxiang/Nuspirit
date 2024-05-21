@@ -5,11 +5,15 @@
 //  Created by Xu Siyi on 16/5/24.
 //
 
+
+// using firebase messaging SDK for community interactions
 import SwiftUI
 import MapKit
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
+
+
 
 struct MainMapView: UIViewRepresentable {
     
@@ -31,6 +35,26 @@ struct MainMapView: UIViewRepresentable {
                 span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
             )
             view.setRegion(region, animated: true)
+        }
+        
+        
+        // Fetch other users and display on the map
+        db.collection("users").getDocuments { (snapshot, error) in
+            guard let documents = snapshot?.documents else { return }
+            for document in documents {
+                let data = document.data()
+                let username = data["username"] as? String ?? "Unknown"
+                let latitude = data["latitude"] as? CLLocationDegrees ?? 0.0
+                let longitude = data["longitude"] as? CLLocationDegrees ?? 0.0
+                let privacySetting = data["privacySetting"] as? Bool ?? true
+
+                if privacySetting {
+                    let annotation = MKPointAnnotation()
+                    annotation.title = username
+                    annotation.coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+                    view.addAnnotation(annotation)
+                }
+            }
         }
     }
 }
