@@ -33,6 +33,7 @@ class AuthService {
                 DispatchQueue.main.async {
                     completion(false, "Registration failed: \(error.localizedDescription)")
                 }
+                
                 return
             }
             
@@ -56,6 +57,8 @@ class AuthService {
         }.resume()
     }
 
+    
+    
     func login(username: String, password: String, completion: @escaping (Bool, String) -> Void) {
         guard let url = URL(string: "\(baseUrl)/auth/login") else {
             completion(false, "Invalid URL")
