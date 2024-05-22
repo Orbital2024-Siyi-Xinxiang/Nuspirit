@@ -15,6 +15,9 @@ struct SignUpViewControllerWrapper: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: SignInViewController, context: Context) {}
+    
+
+
 }
 
 struct SignUpView_Previews: PreviewProvider {
