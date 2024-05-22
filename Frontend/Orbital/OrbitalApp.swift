@@ -12,6 +12,8 @@ import FirebaseAuth
 import FirebaseAuthUI
 import AuthenticationServices
 import GoogleSignIn
+import FirebaseFirestore
+import FirebaseStorage
 
 @main
 struct OrbitalApp: App {
@@ -24,6 +26,10 @@ struct OrbitalApp: App {
     var body: some Scene {
         WindowGroup {
             ZStack {
+                if showingSettings {
+                    SettingsOverlay()
+                }
+                
                 LandingView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .onAppear {
@@ -39,14 +45,26 @@ struct OrbitalApp: App {
                             multiFactorString += info.displayName ?? "[DispayName]"
                             multiFactorString += " "
                             }
-                        navigateToMainMapView()
+//                        navigateToMainMapView()
                         }
+                    
+                                        // Fetch all users
+                    print("\n\n\nFetching all users\n\n\n")
+                    let db = Firestore.firestore()
+                    db.collection("users").getDocuments { (querySnapshot, error) in
+                        if let error = error {
+                            print("Error getting documents: \(error)")
+                        } else {
+                            for document in querySnapshot!.documents {
+                                let data = document.data()
+                                print(data)
+                            }
+                        }
+                    }
                         
                     }
                 
-                if showingSettings {
-                    SettingsOverlay()
-                }
+
                 
                 VStack {
                     HStack {

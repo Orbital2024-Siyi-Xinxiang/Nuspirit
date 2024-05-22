@@ -41,14 +41,42 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
             db.collection("users").document(user.uid).setData([
                 "email": user.email ?? "",
                 "displayName": user.displayName ?? ""
+                
             ]) { err in
                 if let err = err {
                     print("Error adding user: \(err)")
                 } else {
                     print("User added successfully")
+
+
+                    // Fetch all users
+                    db.collection("users").getDocuments { (querySnapshot, error) in
+                        if let error = error {
+                            print("Error getting documents: \(error)")
+                        } else {
+                            for document in querySnapshot!.documents {
+                                let data = document.data()
+                                print(data)
+                            }
+                        }
+                    }
+
+
                     // Navigate to the sign-in page or show a success message
+                    DispatchQueue.main.async {
+                        // Assuming you have a method to navigate to the main view
+                        self.navigateToMainAppView()
+                    }
                 }
             }
+        } else {
+            if let error = error {
+                print("Error signing in: \(error.localizedDescription)")
+            }
         }
+    }
+    
+    func navigateToMainAppView() {
+        LandingView()
     }
 }
