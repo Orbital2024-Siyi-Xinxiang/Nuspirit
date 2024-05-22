@@ -11,62 +11,42 @@ import FirebaseAuth
 import FirebaseAuthUI
 
 struct SettingsOverlay: View {
-    @State private var showSettings = false
-
+    @State private var showingSignOut = false
+    
     var body: some View {
         VStack {
             Spacer()
             HStack {
                 Spacer()
-
-                VStack {
+                if showingSignOut {
                     Button(action: {
-                        withAnimation {
-                            showSettings.toggle()
-                        }
+                        signOut()
                     }) {
-                        Image(systemName: "gearshape.fill") // Placeholder image for settings
-                            .resizable()
-                            .frame(width: 30, height: 30)
+                        Text("Sign Out")
                             .padding()
-                    }
-
-                    if showSettings {
-                        VStack(spacing: 10) {
-                            Button(action: {
-                                // Add action for other buttons if needed
-                            }) {
-                                Image(systemName: "bell.fill") // Placeholder for another setting
-                                    .resizable()
-                                    .frame(width: 30, height: 30)
-                            }
-
-                            Button(action: {
-                                signOut()
-                            }) {
-                                Image(systemName: "arrowshape.turn.up.left.fill") // Placeholder for sign out
-                                    .resizable()
-                                    .frame(width: 30, height: 30)
-                            }
-                        }
-                        .transition(.move(edge: .trailing))
+                            .background(Color.red)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
                     }
                 }
-                .padding()
+                Button(action: {
+                    showingSignOut.toggle()
+                }) {
+                    Image(systemName: "gearshape.fill")
+                        .foregroundColor(.blue)
+                        .padding()
+                }
             }
         }
+        .padding()
     }
-
-    func signOut() {
+    
+    private func signOut() {
         do {
             try Auth.auth().signOut()
-            if let authUI = FUIAuth.defaultAuthUI() {
-                try authUI.signOut()
-            }
-            print("User signed out")
-            // Handle UI updates or redirection after sign out
-        } catch let signOutError as NSError {
-            print("Error signing out: %@", signOutError)
+            // Navigate back to the landing page
+        } catch {
+            print("Error signing out: \(error.localizedDescription)")
         }
     }
 }

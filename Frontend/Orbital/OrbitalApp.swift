@@ -15,6 +15,7 @@ import GoogleSignIn
 
 @main
 struct OrbitalApp: App {
+    @State private var showingSettings = false
     
     let persistenceController = PersistenceController.shared
     
@@ -25,17 +26,43 @@ struct OrbitalApp: App {
             ZStack {
                 LandingView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-//                .onAppear {
-//                    if let user = Auth.auth().currentUser {
-//                        navigateToMainMapView()
-//                    }
-//                }
-//                
-//                // add settings service globally
-                SettingsOverlay()
+                .onAppear {
+                    if let user = Auth.auth().currentUser {
+                        // The user's ID, unique to the Firebase project.
+                        // Do NOT use this value to authenticate with your backend server,
+                        // if you have one. Use getTokenWithCompletion:completion: instead.
+                        let uid = user.uid
+                        let email = user.email
+                        let photoURL = user.photoURL
+                        var multiFactorString = "MultiFactor: "
+                        for info in user.multiFactor.enrolledFactors {
+                            multiFactorString += info.displayName ?? "[DispayName]"
+                            multiFactorString += " "
+                            }
+                        navigateToMainMapView()
+                        }
+                        
+                    }
+                
+                if showingSettings {
+                    SettingsOverlay()
+                }
+                
+                VStack {
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            showingSettings.toggle()
+                        }) {
+                            Image(systemName: "gearshape")
+                                .foregroundColor(.blue)
+                                .padding()
+                        }
+                    }
+                    Spacer()
+                }
+                
             }
-//            ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
     
         }
     }

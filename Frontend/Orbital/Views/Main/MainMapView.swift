@@ -17,6 +17,7 @@ import Firebase
 
 
 struct MainMapView: UIViewRepresentable {
+    
     let db = FirestoreService.shared.db
     @ObservedObject var locationManager = LocationManager()
     
