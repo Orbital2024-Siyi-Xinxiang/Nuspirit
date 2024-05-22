@@ -87,6 +87,8 @@
 		B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */; };
 		B5FE65B82BFDAB43000D375A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B72BFDAB43000D375A /* LocationManager.swift */; };
 		B5FE65BA2BFDBAC6000D375A /* ManageUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B92BFDBAC6000D375A /* ManageUsers.swift */; };
+		B5FE65BD2BFDCD42000D375A /* OrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */; };
+		B5FE65BF2BFDD782000D375A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BE2BFDD782000D375A /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +159,8 @@
 		B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOverlay.swift; sourceTree = "<group>"; };
 		B5FE65B72BFDAB43000D375A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Services/LocationManager.swift; sourceTree = "<group>"; };
 		B5FE65B92BFDBAC6000D375A /* ManageUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUsers.swift; sourceTree = "<group>"; };
+		B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationViewController.swift; sourceTree = "<group>"; };
+		B5FE65BE2BFDD782000D375A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +250,7 @@
 		5BC6DE082BF0A7A10031650B /* Orbital */ = {
 			isa = PBXGroup;
 			children = (
+				B5FE65BB2BFDCD2C000D375A /* Controllers */,
 				B5FE65B02BFD96DB000D375A /* Orbital.entitlements */,
 				B5FE65AD2BFD8CEC000D375A /* GoogleService-Info.plist */,
 				B5C92A782BF8904400121E42 /* Info.plist */,
@@ -420,6 +425,15 @@
 				B5C92A6A2BF879E000121E42 /* COM3.swift */,
 			);
 			path = SOC;
+			sourceTree = "<group>";
+		};
+		B5FE65BB2BFDCD2C000D375A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */,
+				B5FE65BE2BFDD782000D375A /* SignInViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -599,6 +613,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FE65BD2BFDCD42000D375A /* OrientationViewController.swift in Sources */,
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				B5C92A772BF88D8900121E42 /* SplashScreenView.swift in Sources */,
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
@@ -630,6 +645,7 @@
 				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
 				B5110A8D2BFC777B00208FC4 /* FirebaseStorage.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B5FE65BF2BFDD782000D375A /* SignInViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationManager.swift in Sources */,
@@ -805,10 +821,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to show your position on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -837,10 +856,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to show your position on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

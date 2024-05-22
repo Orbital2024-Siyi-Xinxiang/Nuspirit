@@ -9,7 +9,10 @@ struct RegisterView: View {
     @State private var isSuccess = false
 
     var body: some View {
-        VStack(spacing: 10) {  // Reduced default spacing between elements
+        VStack(spacing: 10) {
+            OrientationViewController(supportedOrientations: .landscape)
+                .frame(width: 0, height: 0) // Hidden but functional
+
             TextField("Username", text: $username)
                 .autocapitalization(.none)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -29,7 +32,7 @@ struct RegisterView: View {
             Button("Show/Hide") {
                 showingPassword.toggle()
             }
-            .padding(.vertical, 5)  // Reduced padding for a closer appearance
+            .padding(.vertical, 5)
 
             TextField("Email", text: $email)
                 .autocapitalization(.none)
@@ -43,22 +46,15 @@ struct RegisterView: View {
                 }
             }
             .padding()
-            .background(Color.green)  // Style the pbutton with a blue background
+            .background(Color.green)
             .foregroundColor(.white)
             .cornerRadius(8)
-            .padding(.top, 30)  // Increased padding to separate from other fields
+            .padding(.top, 30)
 
             Text(message)
                 .foregroundColor(isSuccess ? .green : .red)
                 .padding()
         }
+        .padding()
     }
 }
-
-// Preview provider for SwiftUI canvas
-struct RegisterView_Previews: PreviewProvider {
-    static var previews: some View {
-        RegisterView().previewInterfaceOrientation(.landscapeLeft)
-    }
-}
-
