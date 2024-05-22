@@ -12,7 +12,7 @@ import MapKit
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
-
+import Firebase
 
 
 struct MainMapView: UIViewRepresentable {

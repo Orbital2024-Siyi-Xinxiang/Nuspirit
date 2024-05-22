@@ -84,6 +84,7 @@
 		B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65A52BFD0BF9000D375A /* FirebaseStorageUI */; };
 		B5FE65AA2BFD6F79000D375A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5FE65A92BFD6F79000D375A /* GoogleService-Info.plist */; };
 		B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */; };
+		B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		B5FE65AE2BFD8CF5000D375A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B5FE65AF2BFD8CF9000D375A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
+		B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F74872BF632330048447E /* MainMapView.swift */,
+				B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 			files = (
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				B5C92A772BF88D8900121E42 /* SplashScreenView.swift in Sources */,
+				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
