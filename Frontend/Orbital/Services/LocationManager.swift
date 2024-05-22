@@ -9,20 +9,24 @@ import Foundation
 import CoreLocation
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
-    private var locationManager = CLLocationManager()
-
-    @Published var location: CLLocation? = nil
-
+    private let locationManager = CLLocationManager()
+    @Published var location: CLLocation?
+    
     override init() {
         super.init()
-        self.locationManager.delegate = self
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        self.locationManager.requestWhenInUseAuthorization()
-        self.locationManager.startUpdatingLocation()
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization() // Request permission to use location services
+        locationManager.startUpdatingLocation()
     }
-
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let location = locations.last else { return }
-        self.location = location
+        guard let newLocation = locations.last else { return }
+        location = newLocation
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("Failed to find user's location: \(error.localizedDescription)")
     }
 }
+
