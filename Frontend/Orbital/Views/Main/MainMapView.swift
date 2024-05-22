@@ -12,6 +12,7 @@ import MapKit
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
+import FirebaseAuthUI
 import Firebase
 
 

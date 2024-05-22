@@ -86,6 +86,7 @@
 		B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */; };
 		B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */; };
 		B5FE65B82BFDAB43000D375A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B72BFDAB43000D375A /* LocationManager.swift */; };
+		B5FE65BA2BFDBAC6000D375A /* ManageUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B92BFDBAC6000D375A /* ManageUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,7 @@
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
 		B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOverlay.swift; sourceTree = "<group>"; };
 		B5FE65B72BFDAB43000D375A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Services/LocationManager.swift; sourceTree = "<group>"; };
+		B5FE65B92BFDBAC6000D375A /* ManageUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUsers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 				5BC6DE3D2BF0ACA90031650B /* Constants.swift */,
 				5BC6DE422BF0C3AB0031650B /* ContentView.swift */,
 				B5FE65B72BFDAB43000D375A /* LocationManager.swift */,
+				B5FE65B92BFDBAC6000D375A /* ManageUsers.swift */,
 				B5AC287B2BFAD928006FB264 /* src */,
 				B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
@@ -611,6 +614,7 @@
 				5BC6DE412BF0C1270031650B /* RegisterView.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
 				B5FE65B82BFDAB43000D375A /* LocationManager.swift in Sources */,
+				B5FE65BA2BFDBAC6000D375A /* ManageUsers.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* FirebaseMessaging.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
