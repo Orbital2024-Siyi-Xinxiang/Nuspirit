@@ -16,6 +16,7 @@ import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
 import UIKit
+import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     var window: UIWindow?
@@ -31,6 +32,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     func application(_ application: UIApplication,
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
+
+        // set landing view
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = UIHostingController(rootView: LandingView())
+        self.window?.makeKeyAndVisible()
+        // return true
         let authUI = FUIAuth.defaultAuthUI()
         // You need to adopt a FUIAuthDelegate protocol to receive callback
         authUI?.delegate = self
@@ -97,6 +104,20 @@ extension AppDelegate: MessagingDelegate {
     
 }
 
+extension AppDelegate {
+    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+        if user != nil {
+            // User is signed in, navigate to MainMapView
+            let mainMapView = UIHostingController(rootView: MainMapView())
+            self.window?.rootViewController = mainMapView
+            window?.makeKeyAndVisible()
+            
+        } else if let error = error {
+            // Handle error
+            print("Error signing in: \(error.localizedDescription)")
+        }
+    }
+}
 
 // to access FCM registration token at any time, use this method:
 //Messaging.messaging().token { token, error in
