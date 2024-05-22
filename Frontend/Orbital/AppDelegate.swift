@@ -34,9 +34,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         FirebaseApp.configure()
 
         // set landing view
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = UIHostingController(rootView: LandingView())
-        self.window?.makeKeyAndVisible()
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.rootViewController = UIHostingController(rootView: LandingView())
+//        self.window?.makeKeyAndVisible()
         // return true
         let authUI = FUIAuth.defaultAuthUI()
         // You need to adopt a FUIAuthDelegate protocol to receive callback
@@ -57,6 +57,19 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         return true
     }
     
+//    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+//        if user != nil {
+//            // User is signed in, navigate to MainMapView
+//            let mainMapView = UIHostingController(rootView: MainMapView())
+//            self.window?.rootViewController = mainMapView
+//            window?.makeKeyAndVisible()
+//            
+//        } else if let error = error {
+//            // Handle error
+//            print("Error signing in: \(error.localizedDescription)")
+//        }
+//    }
+//    
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
         if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
@@ -105,18 +118,7 @@ extension AppDelegate: MessagingDelegate {
 }
 
 extension AppDelegate {
-    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
-        if user != nil {
-            // User is signed in, navigate to MainMapView
-            let mainMapView = UIHostingController(rootView: MainMapView())
-            self.window?.rootViewController = mainMapView
-            window?.makeKeyAndVisible()
-            
-        } else if let error = error {
-            // Handle error
-            print("Error signing in: \(error.localizedDescription)")
-        }
-    }
+
 }
 
 // to access FCM registration token at any time, use this method:

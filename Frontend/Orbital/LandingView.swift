@@ -1,81 +1,40 @@
 import SwiftUI
-import Firebase
-import FirebaseAuthUI
-import FirebaseGoogleAuthUI
-import FirebaseOAuthUI
-import FirebaseEmailAuthUI
-//import FirebaseAppleAuthUI
-import FirebasePhoneAuthUI
-import FirebaseFacebookAuthUI
-import FirebaseAnonymousAuthUI
-//import FirebaseGitHubAuthUI
 
 struct LandingView: View {
     var body: some View {
-//        VStack {
-        Text("Welcome to Our App")
-            .font(.largeTitle)
-            .padding()
-        
-        Button(action: {
-            showSignInView()
-        }) {
-            Text("Get Started")
-                .padding()
-                .background(Color.blue)
-                .foregroundColor(.white)
-                .cornerRadius(8)
-        }
-        .padding()
-            
-//            Button(action: {
-//                showSignUpView()
-//            }) {
-//                Text("Sign Up")
-//                    .padding()
-//                    .background(Color.green)
-//                    .foregroundColor(.white)
-//                    .cornerRadius(8)
-//            }
-//            .padding()
-//        }
-    }
-    
-    private func showSignInView() {
-        let authUI = FUIAuth.defaultAuthUI()
-        authUI?.delegate = UIApplication.shared.delegate as? FUIAuthDelegate
-        
-        // Set the sign-in providers
-        let providers: [FUIAuthProvider] = [
-            FUIGoogleAuth(),
-            FUIOAuth.appleAuthProvider(),
-            FUIEmailAuth()
-        ]
-        authUI?.providers = providers
-        
-        let authViewController = authUI!.authViewController()
-        if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
-            rootViewController.present(authViewController, animated: true, completion: nil)
+        NavigationView {
+            VStack(spacing: 20) {
+                Spacer()
+                Image(systemName: "house")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                Text("Welcome to NUSspirit")
+                    .font(.largeTitle)
+                    .bold()
+                Spacer()
+                NavigationLink(destination: SignInView()) {
+                    Text("Sign In")
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding(.horizontal)
+                
+                NavigationLink(destination: SignUpView()) {
+                    Text("Sign Up")
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding(.horizontal)
+                Spacer()
+            }
         }
     }
-    
-//    private func showSignUpView() {
-//        let authUI = FUIAuth.defaultAuthUI()
-//        authUI?.delegate = UIApplication.shared.delegate as? FUIAuthDelegate
-//        
-//        // Set the sign-up providers
-//        let providers: [FUIAuthProvider] = [
-//            FUIGoogleAuth(),
-//            FUIOAuth.appleAuthProvider(),
-//            FUIEmailAuth()
-//        ]
-//        authUI?.providers = providers
-//        
-//        let authViewController = authUI!.authViewController()
-//        if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
-//            rootViewController.present(authViewController, animated: true, completion: nil)
-//        }
-//    }
 }
 
 struct LandingView_Previews: PreviewProvider {
