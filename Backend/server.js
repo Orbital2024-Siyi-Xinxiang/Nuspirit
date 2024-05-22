@@ -13,7 +13,7 @@ const admin = require('firebase-admin');
 const serviceAccount = require('./config/firebaseAccountKey.json'); // Download this from Firebase Console
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://<your-project-id>.firebaseio.com'
+    databaseURL: 'https://orbital2024-9f1b1.firebaseio.com'
 });
 module.exports = admin;
 const db = admin.firestore();

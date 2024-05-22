@@ -15,8 +15,19 @@ import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
+import UIKit
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
+    var window: UIWindow?
+    var orientationLock = UIInterfaceOrientationMask.all
+    
+    // set orientation to all
+    // set orientation lock
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return self.orientationLock
+    }
+    
+    // set up appDelegate configurations for notifications and firebase authentication
     func application(_ application: UIApplication,
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
@@ -37,6 +48,14 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         application.registerForRemoteNotifications()
 
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
+        if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
+            return true
+        }
+        return false
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
