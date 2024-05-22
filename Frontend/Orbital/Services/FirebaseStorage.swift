@@ -34,21 +34,21 @@ class FirestoreService {
         }
     }
     
-    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
-        if let user = user {
-            
-            db.collection("users").document(user.uid).setData([
-                "email": user.email ?? "",
-                "displayName": user.displayName ?? ""
-            ]) { err in
-                if let err = err {
-                    print("Error writing document: \(err)")
-                } else {
-                    print("Document successfully written!")
-                }
-            }
-        }
-    }
+//    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+//        if let user = user {
+//            
+//            db.collection("users").document(user.uid).setData([
+//                "email": user.email ?? "",
+//                "displayName": user.displayName ?? ""
+//            ]) { err in
+//                if let err = err {
+//                    print("Error writing document: \(err)")
+//                } else {
+//                    print("Document successfully written!")
+//                }
+//            }
+//        }
+//    }
 }
 
 

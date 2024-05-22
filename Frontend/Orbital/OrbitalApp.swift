@@ -23,15 +23,28 @@ struct OrbitalApp: App {
     var body: some Scene {
         WindowGroup {
             ZStack {
-                ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
+                LandingView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                
-                // add settings service globally
+//                .onAppear {
+//                    if let user = Auth.auth().currentUser {
+//                        navigateToMainMapView()
+//                    }
+//                }
+//                
+//                // add settings service globally
                 SettingsOverlay()
             }
 //            ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
     
+        }
+    }
+    
+    private func navigateToMainMapView() {
+        if let window = UIApplication.shared.windows.first {
+            window.rootViewController = UIHostingController(rootView: MainMapView())
+            window.makeKeyAndVisible()
+//            SettingsOverlay()
         }
     }
 }

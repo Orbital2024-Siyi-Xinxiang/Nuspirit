@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { Pool } = require('pg');
+// const { Pool } = require('pg');
 
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
@@ -20,64 +20,64 @@ const db = admin.firestore();
 
 
 
-const sqlFiles = [
-    '../Database/orbital.sql',
-    '../Database/market.sql',
-    '../Database/contact.sql',
-];
+// const sqlFiles = [
+//     '../Database/orbital.sql',
+//     '../Database/market.sql',
+//     '../Database/contact.sql',
+// ];
 
 const app = express();
 app.use(bodyParser.json());
 
 // PostgreSQL pool setup
-const pool = new Pool({
-    connectionString: `postgresql://${process.env.DB_USER}:${process.env.DB_PASS}@localhost:5432/${process.env.DB_NAME}`
-});
+// const pool = new Pool({
+//     connectionString: `postgresql://${process.env.DB_USER}:${process.env.DB_PASS}@localhost:5432/${process.env.DB_NAME}`
+// });
 
-// test database connection
-pool.query('SELECT NOW()', (err, res) => {
-    if (err) {
-        console.log('Database connection unsuccessful', err);
-    } else {
-        console.log('Database connection successful', res.rows[0]);
-    }
-});
+// // test database connection
+// pool.query('SELECT NOW()', (err, res) => {
+//     if (err) {
+//         console.log('Database connection unsuccessful', err);
+//     } else {
+//         console.log('Database connection successful', res.rows[0]);
+//     }
+// });
 
 // // import dumped database
-pool.connect((err) => {
-    if (err) {
-        console.error('Connection error', err.stack);
-    } else {
-        console.log('Connected to the database');
+// pool.connect((err) => {
+//     if (err) {
+//         console.error('Connection error', err.stack);
+//     } else {
+//         console.log('Connected to the database');
 
-        sqlFiles.forEach((file) => {
-            // Import the dump file
-            exec(`psql -U emma -d orbital_db -f ${file}`, (err, stdout, stderr) => {
-                if (err) {
-                    console.error(`Error importing ${file}`, err);
-                } else {
-                    console.log(`${file} imported successfully`);
-                }
-            });
-        });
-    }
-});
-
-
+//         sqlFiles.forEach((file) => {
+//             // Import the dump file
+//             exec(`psql -U emma -d orbital_db -f ${file}`, (err, stdout, stderr) => {
+//                 if (err) {
+//                     console.error(`Error importing ${file}`, err);
+//                 } else {
+//                     console.log(`${file} imported successfully`);
+//                 }
+//             });
+//         });
+//     }
+// });
 
 
 
 
-// Example route using async/await to query PostgreSQL
-app.get('/data', async(req, res) => {
-    try {
-        const result = await pool.query('SELECT * FROM users');
-        res.json(result.rows);
-    } catch (err) {
-        console.error(err);
-        res.status(500).send('Server Error');
-    }
-});
+
+
+// // Example route using async/await to query PostgreSQL
+// app.get('/data', async(req, res) => {
+//     try {
+//         const result = await pool.query('SELECT * FROM users');
+//         res.json(result.rows);
+//     } catch (err) {
+//         console.error(err);
+//         res.status(500).send('Server Error');
+//     }
+// });
 
 
 
@@ -86,71 +86,84 @@ const authRoutes = require('./routes/authRoutes.js');
 app.use('/api/auth', authRoutes);
 
 
+// Example route to add user to Firestore
+app.post('/addUser', async(req, res) => {
+    const { uid, email, displayName } = req.body;
 
-
-
-
-
-
-
-
-// furniture markets
-// Fetch market assets
-app.get('/market', async(req, res) => {
     try {
-        const result = await pool.query('SELECT * FROM market');
-        res.json(result.rows);
-    } catch (err) {
-        res.status(500).send(err.message);
+        await db.collection('users').doc(uid).set({
+            email: email,
+            displayName: displayName
+        });
+        res.status(200).send('User added successfully');
+    } catch (error) {
+        res.status(500).send(error.message);
     }
 });
 
 
-// Purchase an asset
-app.post('/purchase', async(req, res) => {
-    const { userId, assetId } = req.body;
-    const client = await pool.connect();
 
-    try {
-        await client.query('BEGIN');
 
-        // Get user and asset details
-        const userResult = await client.query('SELECT * FROM users WHERE id = $1', [userId]);
-        const assetResult = await client.query('SELECT * FROM market WHERE id = $1', [assetId]);
 
-        if (userResult.rows.length === 0 || assetResult.rows.length === 0) {
-            throw new Error('User or asset not found');
-        }
 
-        const user = userResult.rows[0];
-        const asset = assetResult.rows[0];
 
-        if (user.balance < asset.price) {
-            throw new Error('Insufficient balance');
-        }
+// // furniture markets
+// // Fetch market assets
+// app.get('/market', async(req, res) => {
+//     try {
+//         const result = await pool.query('SELECT * FROM market');
+//         res.json(result.rows);
+//     } catch (err) {
+//         res.status(500).send(err.message);
+//     }
+// });
 
-        if (asset.quantity <= 0) {
-            throw new Error('Asset out of stock');
-        }
 
-        // Update user balance and assets
-        const newBalance = user.balance - asset.price;
-        const newAssets = [...user.assets, { id: asset.id, name: asset.name, icon: asset.icon }];
-        await client.query('UPDATE users SET balance = $1, assets = $2 WHERE id = $3', [newBalance, JSON.stringify(newAssets), userId]);
+// // Purchase an asset
+// app.post('/purchase', async(req, res) => {
+//     const { userId, assetId } = req.body;
+//     const client = await pool.connect();
 
-        // Update asset quantity
-        const newQuantity = asset.quantity - 1;
-        await client.query('UPDATE market SET quantity = $1 WHERE id = $2', [newQuantity, assetId]);
+//     try {
+//         await client.query('BEGIN');
 
-        await client.query('COMMIT');
-        res.send({ message: 'Purchase successful' });
-    } catch (err) {
-        await client.query('ROLLBACK');
-        res.status(500).send(err.message);
-    } finally {
-        client.release();
-    }
-});
+//         // Get user and asset details
+//         const userResult = await client.query('SELECT * FROM users WHERE id = $1', [userId]);
+//         const assetResult = await client.query('SELECT * FROM market WHERE id = $1', [assetId]);
+
+//         if (userResult.rows.length === 0 || assetResult.rows.length === 0) {
+//             throw new Error('User or asset not found');
+//         }
+
+//         const user = userResult.rows[0];
+//         const asset = assetResult.rows[0];
+
+//         if (user.balance < asset.price) {
+//             throw new Error('Insufficient balance');
+//         }
+
+//         if (asset.quantity <= 0) {
+//             throw new Error('Asset out of stock');
+//         }
+
+//         // Update user balance and assets
+//         const newBalance = user.balance - asset.price;
+//         const newAssets = [...user.assets, { id: asset.id, name: asset.name, icon: asset.icon }];
+//         await client.query('UPDATE users SET balance = $1, assets = $2 WHERE id = $3', [newBalance, JSON.stringify(newAssets), userId]);
+
+//         // Update asset quantity
+//         const newQuantity = asset.quantity - 1;
+//         await client.query('UPDATE market SET quantity = $1 WHERE id = $2', [newQuantity, assetId]);
+
+//         await client.query('COMMIT');
+//         res.send({ message: 'Purchase successful' });
+//     } catch (err) {
+//         await client.query('ROLLBACK');
+//         res.status(500).send(err.message);
+//     } finally {
+//         client.release();
+//     }
+// });
 
 
 
