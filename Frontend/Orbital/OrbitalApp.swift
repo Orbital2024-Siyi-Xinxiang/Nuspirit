@@ -6,24 +6,16 @@
 //
 
 import SwiftUI
- import FirebaseCore
- import Firebase
- import FirebaseAuth
-
- class AppDelegate: NSObject, UIApplicationDelegate {
-   func application(_ application: UIApplication,
-                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-     FirebaseApp.configure()
-
-     return true
-   }
- }
+import FirebaseCore
+import Firebase
+import FirebaseAuth
 
 @main
 struct OrbitalApp: App {
+    
     let persistenceController = PersistenceController.shared
 
-     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left

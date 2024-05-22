@@ -54,7 +54,6 @@
 		B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */; };
 		B56F74772BF62F370048447E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* Cart.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
-		B56F74862BF631DB0048447E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B56F74852BF631DB0048447E /* GoogleService-Info.plist */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
 		B56F74952BF63F8C0048447E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */; };
@@ -83,6 +82,8 @@
 		B5FE65A22BFD0BF9000D375A /* FirebaseOAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65A12BFD0BF9000D375A /* FirebaseOAuthUI */; };
 		B5FE65A42BFD0BF9000D375A /* FirebasePhoneAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65A32BFD0BF9000D375A /* FirebasePhoneAuthUI */; };
 		B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65A52BFD0BF9000D375A /* FirebaseStorageUI */; };
+		B5FE65AA2BFD6F79000D375A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5FE65A92BFD6F79000D375A /* GoogleService-Info.plist */; };
+		B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,7 +126,6 @@
 		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		B56F74762BF62F370048447E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
-		B56F74852BF631DB0048447E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
 		B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -145,6 +145,11 @@
 		B5C92A742BF88A6E00121E42 /* market.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = market.storyboard; path = Orbital/Views/FurnitureMarket/market.storyboard; sourceTree = SOURCE_ROOT; };
 		B5C92A762BF88D8900121E42 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		B5C92A782BF8904400121E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5FE65A92BFD6F79000D375A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5FE65AD2BFD8CEC000D375A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5FE65AE2BFD8CF5000D375A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5FE65AF2BFD8CF9000D375A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +218,7 @@
 		5BC6DDFD2BF0A7A10031650B = {
 			isa = PBXGroup;
 			children = (
+				B5FE65A92BFD6F79000D375A /* GoogleService-Info.plist */,
 				5BC6DE082BF0A7A10031650B /* Orbital */,
 				5BC6DE1E2BF0A7A40031650B /* OrbitalTests */,
 				5BC6DE282BF0A7A40031650B /* OrbitalUITests */,
@@ -233,9 +239,9 @@
 		5BC6DE082BF0A7A10031650B /* Orbital */ = {
 			isa = PBXGroup;
 			children = (
+				B5FE65AD2BFD8CEC000D375A /* GoogleService-Info.plist */,
 				B5C92A782BF8904400121E42 /* Info.plist */,
 				B5C92A542BF7CF6400121E42 /* Models */,
-				B56F74852BF631DB0048447E /* GoogleService-Info.plist */,
 				5BC6DE3F2BF0C0F80031650B /* Views */,
 				5BC6DE3A2BF0AC130031650B /* Services */,
 				5BC6DE3D2BF0ACA90031650B /* Constants.swift */,
@@ -243,6 +249,7 @@
 				B5AC287B2BFAD928006FB264 /* src */,
 				B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
+				B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */,
 				5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */,
 				5BC6DE122BF0A7A40031650B /* Persistence.swift */,
 				5BC6DE142BF0A7A40031650B /* Orbital.xcdatamodeld */,
@@ -262,6 +269,7 @@
 		5BC6DE1E2BF0A7A40031650B /* OrbitalTests */ = {
 			isa = PBXGroup;
 			children = (
+				B5FE65AE2BFD8CF5000D375A /* GoogleService-Info.plist */,
 				5BC6DE1F2BF0A7A40031650B /* OrbitalTests.swift */,
 			);
 			path = OrbitalTests;
@@ -270,6 +278,7 @@
 		5BC6DE282BF0A7A40031650B /* OrbitalUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B5FE65AF2BFD8CF9000D375A /* GoogleService-Info.plist */,
 				5BC6DE292BF0A7A40031650B /* OrbitalUITests.swift */,
 				5BC6DE2B2BF0A7A40031650B /* OrbitalUITestsLaunchTests.swift */,
 			);
@@ -552,9 +561,9 @@
 			files = (
 				5BC6DE112BF0A7A40031650B /* Preview Assets.xcassets in Resources */,
 				B5C92A752BF88A6E00121E42 /* market.storyboard in Resources */,
+				B5FE65AA2BFD6F79000D375A /* GoogleService-Info.plist in Resources */,
 				5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */,
 				B56F74952BF63F8C0048447E /* LaunchScreen.storyboard in Resources */,
-				B56F74862BF631DB0048447E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +610,7 @@
 				B56F74772BF62F370048447E /* Cart.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* ContentView.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
+				B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */,
 				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
@@ -789,6 +799,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -818,6 +830,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
