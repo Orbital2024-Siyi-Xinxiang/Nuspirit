@@ -16,6 +16,9 @@ admin.initializeApp({
     databaseURL: 'https://<your-project-id>.firebaseio.com'
 });
 module.exports = admin;
+const db = admin.firestore();
+
+
 
 const sqlFiles = [
     '../Database/orbital.sql',
