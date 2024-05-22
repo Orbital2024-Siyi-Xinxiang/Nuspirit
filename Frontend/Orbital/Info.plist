@@ -8,6 +8,11 @@
 	<string>We need your location to show your position on the map</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need your location to show your position on the map</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UILaunchScreen</key>
