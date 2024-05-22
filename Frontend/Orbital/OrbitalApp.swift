@@ -24,7 +24,7 @@ struct OrbitalApp: App {
         WindowGroup {
             ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-    
+
         }
     }
 }
