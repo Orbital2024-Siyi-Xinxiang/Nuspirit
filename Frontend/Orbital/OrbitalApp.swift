@@ -22,8 +22,15 @@ struct OrbitalApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
+            ZStack {
+                ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
+                // add settings service globally
+                SettingsOverlay()
+            }
+//            ContentView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
     
         }
     }

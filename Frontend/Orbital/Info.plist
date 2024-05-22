@@ -4,10 +4,10 @@
 <dict>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<true/>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string></string>
+	<string>We need your location to show your position on the map</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to show your position on the map</string>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UILaunchScreen</key>

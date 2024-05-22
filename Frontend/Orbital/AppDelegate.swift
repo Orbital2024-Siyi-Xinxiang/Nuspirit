@@ -88,3 +88,6 @@ extension AppDelegate: MessagingDelegate {
 //    self.fcmRegTokenMessage.text  = "Remote FCM registration token: \(token)"
 //  }
 //}
+
+// auto enable initiation of notification settings
+//Messaging.messaging().autoInitEnabled = true
