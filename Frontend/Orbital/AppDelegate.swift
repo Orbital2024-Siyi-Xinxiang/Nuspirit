@@ -34,9 +34,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         FirebaseApp.configure()
 
         // set landing view
-//        self.window = UIWindow(frame: UIScreen.main.bounds)
-//        self.window?.rootViewController = UIHostingController(rootView: LandingView())
-//        self.window?.makeKeyAndVisible()
+       self.window = UIWindow(frame: UIScreen.main.bounds)
+       self.window?.rootViewController = UIHostingController(rootView: LandingView())
+       self.window?.makeKeyAndVisible()
         // return true
         let authUI = FUIAuth.defaultAuthUI()
         // You need to adopt a FUIAuthDelegate protocol to receive callback

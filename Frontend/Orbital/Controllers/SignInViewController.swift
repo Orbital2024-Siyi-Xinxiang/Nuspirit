@@ -23,14 +23,16 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
         authUI?.delegate = self
         
         let providers: [FUIAuthProvider] = [
-            FUIEmailAuth(),
             FUIGoogleAuth(),
-            FUIOAuth.appleAuthProvider()
+            FUIOAuth.appleAuthProvider(),
+            FUIEmailAuth()
         ]
         authUI?.providers = providers
         
         let authViewController = authUI!.authViewController()
-        self.present(authViewController, animated: true, completion: nil)
+        if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
+            rootViewController.present(authViewController, animated: true, completion: nil)
+        }
     }
     
     func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
