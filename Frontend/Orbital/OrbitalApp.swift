@@ -9,11 +9,15 @@ import SwiftUI
 import FirebaseCore
 import Firebase
 import FirebaseAuth
+import FirebaseAuthUI
+import AuthenticationServices
+import GoogleSignIn
 
 @main
 struct OrbitalApp: App {
     
     let persistenceController = PersistenceController.shared
+    
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
