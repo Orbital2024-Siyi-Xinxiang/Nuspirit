@@ -58,7 +58,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
 }
 
 // MARK: - MessagingDelegate
-
+// For Firebase cloud messaging registration token
 extension AppDelegate: MessagingDelegate {
     func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         print("FCM registration token: \(String(describing: fcmToken))")
@@ -67,4 +67,16 @@ extension AppDelegate: MessagingDelegate {
         NotificationCenter.default.post(name: Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
         // Send the token to your server or use it as needed
     }
+    
 }
+
+
+// to access FCM registration token at any time, use this method:
+//Messaging.messaging().token { token, error in
+//  if let error = error {
+//    print("Error fetching FCM registration token: \(error)")
+//  } else if let token = token {
+//    print("FCM registration token: \(token)")
+//    self.fcmRegTokenMessage.text  = "Remote FCM registration token: \(token)"
+//  }
+//}
