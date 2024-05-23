@@ -1,34 +1,30 @@
-//
-//  OrbitalApp.swift
-//  Orbital
-//
-//  Created by Wulala's Macbook on 12/5/24.
-//
-
 import SwiftUI
-// import FirebaseCore
-// import Firebase
-// import FirebaseAuth
-
-// class AppDelegate: NSObject, UIApplicationDelegate {
-//   func application(_ application: UIApplication,
-//                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-//     FirebaseApp.configure()
-
-//     return true
-//   }
-// }
+import FirebaseCore
+import Firebase
+import FirebaseAuth
+import FirebaseAuthUI
+import AuthenticationServices
+import GoogleSignIn
+import FirebaseFirestore
+import FirebaseStorage
+import FirebaseMessaging
+import FirebaseGoogleAuthUI
 
 @main
 struct OrbitalApp: App {
+    @State private var showSettingsOverlay = false
+
     let persistenceController = PersistenceController.shared
 
-    // @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
-            HomePageView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-    
-        }
+            
+                    LandingView()
+                        .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                }
+            
+        
     }
 }
