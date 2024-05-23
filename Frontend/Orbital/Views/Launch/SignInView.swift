@@ -11,7 +11,8 @@ import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
 import UIKit
-
+import FirebaseStorage
+import FirebaseFirestore
 
 
 struct SignInView: View {
