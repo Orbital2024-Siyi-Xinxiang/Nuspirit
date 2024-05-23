@@ -46,26 +46,6 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         self.window?.makeKeyAndVisible()
         
         
-//        let authUI = FUIAuth.defaultAuthUI()
-//        // You need to adopt a FUIAuthDelegate protocol to receive callback
-//        authUI?.delegate = self
-//        
-//        let providers: [FUIAuthProvider] = [
-//            FUIGoogleAuth(),
-//            FUIOAuth.appleAuthProvider(),
-//            FUIEmailAuth(),
-////            FUIEmailAuth(authAuthUI: FUIAuth.defaultAuthUI()!,
-////                                        signInMethod: FIREmailLinkAuthSignInMethod,
-////                                        forceSameDevice: false,
-////                                        allowNewEmailAccounts: true,
-////                                        actionCodeSetting: actionCodeSettings)
-//        ]
-//        authUI?.providers = providers
-//        
-//        let authViewController = authUI!.authViewController()
-//        
-//        
-        
         
         // register remote notifications
         UNUserNotificationCenter.current().delegate = self
