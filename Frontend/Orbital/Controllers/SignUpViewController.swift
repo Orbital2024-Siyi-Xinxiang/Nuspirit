@@ -12,6 +12,7 @@ import FirebaseOAuthUI
 import FirebasePhoneAuthUI
 import UIKit
 import SwiftUI
+import GoogleSignIn
 
 class SignUpViewController: UIViewController, FUIAuthDelegate {
 //    var actionCodeSettings = ActionCodeSettings()
@@ -24,9 +25,10 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
+        let googleAuthProvider = FUIGoogleAuth(authUI: authUI!)
         
         let providers: [FUIAuthProvider] = [
-            FUIGoogleAuth(),
+            googleAuthProvider,
             FUIOAuth.appleAuthProvider(),
             FUIEmailAuth(),
 //            FUIEmailAuth(authAuthUI: FUIAuth.defaultAuthUI()!,
