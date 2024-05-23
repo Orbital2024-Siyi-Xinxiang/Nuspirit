@@ -16,7 +16,7 @@ import FirebaseAuthUI
 import Firebase
 
 
-struct MainMapViewRepresentable: UIViewRepresentable {
+struct MainMapView: UIViewRepresentable {
     @ObservedObject var locationManager = LocationManager()
 
     

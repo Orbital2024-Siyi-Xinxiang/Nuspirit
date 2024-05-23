@@ -20,7 +20,7 @@ import FirebaseGoogleAuthUI
 
 @main
 struct OrbitalApp: App {
-    @State private var showingSettings = false
+    @State public var showingSettings = false
     
     let persistenceController = PersistenceController.shared
     
@@ -72,19 +72,19 @@ struct OrbitalApp: App {
                 
 
                 
-                VStack {
-                    HStack {
-                        Spacer()
-                        Button(action: {
-                            showingSettings.toggle()
-                        }) {
-                            Image(systemName: "gearshape")
-                                .foregroundColor(.blue)
-                                .padding()
-                        }
-                    }
-                    Spacer()
-                }
+//                VStack {
+//                    HStack {
+//                        Spacer()
+//                        Button(action: {
+//                            showingSettings.toggle()
+//                        }) {
+//                            Image(systemName: "gearshape")
+//                                .foregroundColor(.blue)
+//                                .padding()
+//                        }
+//                    }
+//                    Spacer()
+//                }
                 
             }
     
