@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+class LocationService: NSObject, ObservableObject, CLLocationManagerDelegate {
     private let locationManager = CLLocationManager()
     @Published var location: CLLocation?
     
@@ -25,7 +25,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         location = newLocation
     }
     
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+    func locationService(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Failed to find user's location: \(error.localizedDescription)")
     }
 }

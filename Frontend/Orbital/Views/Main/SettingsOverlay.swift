@@ -9,43 +9,41 @@ import SwiftUI
 import FirebaseCore
 import FirebaseAuth
 import FirebaseAuthUI
+import SwiftUI
 
 struct SettingsOverlay: View {
-    @State private var showingSignOut = false
-    
+    @Binding var showSettingsOverlay: Bool
+
     var body: some View {
         VStack {
             Spacer()
             HStack {
                 Spacer()
-                if showingSignOut {
-                    Button(action: {
-                        signOut()
-                    }) {
-                        Text("Sign Out")
-                            .padding()
-                            .background(Color.red)
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                    }
-                }
                 Button(action: {
-                    showingSignOut.toggle()
+                    showSettingsOverlay = false
+                    signOut()
                 }) {
-                    Image(systemName: "gearshape.fill")
-                        .foregroundColor(.blue)
+                    Text("Sign Out")
                         .padding()
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
                 }
+                .padding()
+                .background(Color.black.opacity(0.6))
+                .cornerRadius(12)
             }
         }
         .padding()
     }
-    
+
     private func signOut() {
         do {
             try Auth.auth().signOut()
-            LandingView()
-            
+            if let window = UIApplication.shared.windows.first {
+                window.rootViewController = UIHostingController(rootView: LandingView())
+                window.makeKeyAndVisible()
+            }
         } catch {
             print("Error signing out: \(error.localizedDescription)")
         }
@@ -54,6 +52,6 @@ struct SettingsOverlay: View {
 
 struct SettingsOverlay_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsOverlay()
+        SettingsOverlay(showSettingsOverlay: .constant(true))
     }
 }

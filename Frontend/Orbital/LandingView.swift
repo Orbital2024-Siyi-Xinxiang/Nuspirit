@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct LandingView: View {
+
+
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -21,7 +23,7 @@ struct LandingView: View {
                         .cornerRadius(10)
                 }
                 .padding(.horizontal)
-                
+
                 NavigationLink(destination: SignUpView()) {
                     Text("Sign Up")
                         .frame(maxWidth: .infinity)
@@ -37,8 +39,8 @@ struct LandingView: View {
     }
 }
 
-struct LandingView_Previews: PreviewProvider {
-    static var previews: some View {
-        LandingView()
-    }
-}
+//struct LandingView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LandingView(isSignedIn: .constant(false))
+//    }
+//}
