@@ -87,18 +87,40 @@ struct SignInView: View {
                 errorMessage = error.localizedDescription
             } else {
                 isSignedIn = true
-                Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-                  // ...
+                print("User Signed In successfully")
+                if let user = Auth.auth().currentUser {
+                    // The user's ID, unique to the Firebase project.
+                    // Do NOT use this value to authenticate with your backend server,
+                    // if you have one. Use getTokenWithCompletion:completion: instead.
+                    let uid = user.uid
+                    let email = user.email
+                    let photoURL = user.photoURL
+                    var multiFactorString = "MultiFactor: "
+                    let displayName = user.displayName
+                    for info in user.multiFactor.enrolledFactors {
+                        multiFactorString += info.displayName ?? "[DispayName]"
+                        multiFactorString += " "
+                        }
+//                        navigateToMainMapView()
+                    
+                    // store user in firestore
+                    let db = Firestore.firestore()
+                    db.collection("users_credentials").document(uid).setData([
+                        "display_name": displayName ?? "",
+                        "email": email ?? "",
+                        "password": password
+                    ]) { err in
+                        if let err = err {
+                            print("Error adding user: \(err)")
+                        } else {
+                            print("User added successfully")
+                        }
+                        
+                    }
                 }
             }
         }
     }
-    
-    
-    
-
-    // Unhashed nonce.
-    fileprivate var currentNonce: String?
 }
 
 struct SignInView_Previews: PreviewProvider {

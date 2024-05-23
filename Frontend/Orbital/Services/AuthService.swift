@@ -10,7 +10,7 @@ import FirebaseAuth
 
 class AuthService {
     static let shared = AuthService()
-    let baseUrl = "http://localhost:3000/api"
+    let baseUrl = "http://172.31.106.4:3000/api"
     
     func register(username: String, password: String, email: String, completion: @escaping (Bool, String) -> Void) {
         guard let url = URL(string: "\(baseUrl)/auth/register") else {

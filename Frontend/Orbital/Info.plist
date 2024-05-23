@@ -13,6 +13,29 @@
 			</array>
 		</dict>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>REVERSED_CLIENT_ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1037292088990-9d2c95hqakf9174ag9bjvdhmh3okhbq7</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>CLIENT_ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>1037292088990-vcev9u57isa3a2ebq4tph3st6apgc6vc.apps.googleusercontent.com</string>
+			</array>
+		</dict>
+	</array>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<true/>
 	<key>MKDirectionsApplicationSupportedModes</key>
