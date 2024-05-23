@@ -2,12 +2,16 @@
 -- PostgreSQL database dump
 --
 
+
 -- Dumped from database version 16.3 (Postgres.app)
 -- Dumped by pg_dump version 16.3 (Postgres.app)
 
-SET statement_timeout = 0;
+
+
+
+SET statement_timeout =  0;
 SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
+SET idle_in_transaction_session_timeout  0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SELECT pg_catalog.set_config('search_path', '', false);
@@ -177,14 +181,3 @@ CREATE TABLE public.user_wallet (
 );
 ALTER TABLE public.user_wallet OWNER TO emma;
 
-
---
--- Name: user_assets; Type: TABLE; Schema: public; Owner: emma
---
-CREATE TABLE public.user_assets (
-    user_id integer NOT NULL,
-
-    quantity integer NOT NULL,
-    last_updated timestamp without time zone DEFAULT CURRENT_TIMESTAMP
-);
-ALTER TABLE public.user_assets OWNER TO emma;
