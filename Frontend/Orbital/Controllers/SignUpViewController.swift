@@ -13,7 +13,7 @@ import FirebasePhoneAuthUI
 import UIKit
 import SwiftUI
 
-class SignInViewController: UIViewController, FUIAuthDelegate {
+class SignUpViewController: UIViewController, FUIAuthDelegate {
 //    var actionCodeSettings = ActionCodeSettings()
 //    actionCodeSettings.url = URL(string: "https://example.appspot.com")
 //    actionCodeSettings.handleCodeInApp = true
@@ -43,39 +43,12 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
         }
     }
     
-    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?)  {
         if let user = user {
-            let db = Firestore.firestore()
-            db.collection("users").document(user.uid).setData([
-                "email": user.email ?? "",
-                "displayName": user.displayName ?? ""
+            DispatchQueue.main.async {
+                // Assuming you have a method to navigate to the main view
                 
-            ]) { err in
-                if let err = err {
-                    print("Error adding user: \(err)")
-                } else {
-                    print("User added successfully")
-
-
-                    // Fetch all users
-                    db.collection("users").getDocuments { (querySnapshot, error) in
-                        if let error = error {
-                            print("Error getting documents: \(error)")
-                        } else {
-                            for document in querySnapshot!.documents {
-                                let data = document.data()
-                                print(data)
-                            }
-                        }
-                    }
-
-
-                    // Navigate to the sign-in page or show a success message
-                    DispatchQueue.main.async {
-                        // Assuming you have a method to navigate to the main view
-                        self.navigateToMainAppView()
-                    }
-                }
+                self.navigateToMainAppView()
             }
         } else {
             if let error = error {
@@ -85,6 +58,13 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
     }
     
     func navigateToMainAppView() {
-        LandingView()
+        let mainMapView = MainMapView()
+        let hostingController = UIHostingController(rootView: mainMapView)
+        if let window = UIApplication.shared.windows.first {
+            window.rootViewController = hostingController
+            window.makeKeyAndVisible()
+        }
     }
 }
+
+

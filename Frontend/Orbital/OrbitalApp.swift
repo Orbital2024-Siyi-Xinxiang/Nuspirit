@@ -15,9 +15,10 @@ import GoogleSignIn
 import FirebaseFirestore
 import FirebaseStorage
 
+
 @main
 struct OrbitalApp: App {
-    @State private var showingSettings = false
+    @State private var showingSettings = true
     
     let persistenceController = PersistenceController.shared
     
@@ -33,6 +34,7 @@ struct OrbitalApp: App {
                 LandingView().previewInterfaceOrientation(.landscapeLeft) // preview landscape left
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .onAppear {
+                    print("App is running")
                     if let user = Auth.auth().currentUser {
                         // The user's ID, unique to the Firebase project.
                         // Do NOT use this value to authenticate with your backend server,
@@ -62,7 +64,7 @@ struct OrbitalApp: App {
                         }
                     }
                         
-                    }
+                }
                 
 
                 

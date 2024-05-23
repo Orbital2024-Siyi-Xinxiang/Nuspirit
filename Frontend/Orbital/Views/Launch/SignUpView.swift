@@ -1,6 +1,4 @@
 import SwiftUI
-import FirebaseAuth
-import FirebaseAuthUI
 
 struct SignUpView: View {
     var body: some View {
@@ -9,15 +7,14 @@ struct SignUpView: View {
 }
 
 struct SignUpViewControllerWrapper: UIViewControllerRepresentable {
-    func makeUIViewController(context: Context) -> SignInViewController {
-        let viewController = SignInViewController()
+    func makeUIViewController(context: Context) -> SignUpViewController {
+        let viewController = SignUpViewController()
         return viewController
     }
     
-    func updateUIViewController(_ uiViewController: SignInViewController, context: Context) {}
-    
-
-
+    func updateUIViewController(_ uiViewController: SignUpViewController, context: Context) {
+        // Do nothing
+    }
 }
 
 struct SignUpView_Previews: PreviewProvider {

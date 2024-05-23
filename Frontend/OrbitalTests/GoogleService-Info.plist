@@ -19,16 +19,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>orbital2024-9f1b1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<true/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:1037292088990:ios:01127b1207e3cbe058558f</string>
+	<key>DATABASE_URL</key>
+	<string>https://orbital2024-9f1b1-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
 </plist>

@@ -15,6 +15,8 @@ import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
+import FirebaseEmailAuthUI
+import FirebaseEmailAuthUI
 import UIKit
 import SwiftUI
 
@@ -31,17 +33,38 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     // set up appDelegate configurations for notifications and firebase authentication
     func application(_ application: UIApplication,
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        FirebaseApp.configure()
-
-        // set landing view
-       self.window = UIWindow(frame: UIScreen.main.bounds)
-       self.window?.rootViewController = UIHostingController(rootView: LandingView())
-       self.window?.makeKeyAndVisible()
-        // return true
-        let authUI = FUIAuth.defaultAuthUI()
-        // You need to adopt a FUIAuthDelegate protocol to receive callback
-        authUI?.delegate = self
         
+        // configure firebase authentication
+        
+        FirebaseApp.configure()
+        // set landing view
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = UIHostingController(rootView: LandingView())
+        self.window?.makeKeyAndVisible()
+        
+        
+//        let authUI = FUIAuth.defaultAuthUI()
+//        // You need to adopt a FUIAuthDelegate protocol to receive callback
+//        authUI?.delegate = self
+//        
+//        let providers: [FUIAuthProvider] = [
+//            FUIGoogleAuth(),
+//            FUIOAuth.appleAuthProvider(),
+//            FUIEmailAuth(),
+////            FUIEmailAuth(authAuthUI: FUIAuth.defaultAuthUI()!,
+////                                        signInMethod: FIREmailLinkAuthSignInMethod,
+////                                        forceSameDevice: false,
+////                                        allowNewEmailAccounts: true,
+////                                        actionCodeSetting: actionCodeSettings)
+//        ]
+//        authUI?.providers = providers
+//        
+//        let authViewController = authUI!.authViewController()
+//        
+//        
+        
+        
+        // register remote notifications
         UNUserNotificationCenter.current().delegate = self
         
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
@@ -57,18 +80,18 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         return true
     }
     
-//    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
-//        if user != nil {
-//            // User is signed in, navigate to MainMapView
-//            let mainMapView = UIHostingController(rootView: MainMapView())
-//            self.window?.rootViewController = mainMapView
-//            window?.makeKeyAndVisible()
-//            
-//        } else if let error = error {
-//            // Handle error
-//            print("Error signing in: \(error.localizedDescription)")
-//        }
-//    }
+//   func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+//       if user != nil {
+//           // User is signed in, navigate to MainMapView
+//           let mainMapView = UIHostingController(rootView: MainMapView())
+//           self.window?.rootViewController = mainMapView
+//           window?.makeKeyAndVisible()
+//           
+//       } else if let error = error {
+//           // Handle error
+//           print("Error signing in: \(error.localizedDescription)")
+//       }
+//   }
 //    
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
@@ -117,9 +140,6 @@ extension AppDelegate: MessagingDelegate {
     
 }
 
-extension AppDelegate {
-
-}
 
 // to access FCM registration token at any time, use this method:
 //Messaging.messaging().token { token, error in
