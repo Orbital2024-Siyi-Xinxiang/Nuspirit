@@ -13,6 +13,7 @@ import FirebasePhoneAuthUI
 import UIKit
 
 
+
 struct SignInView: View {
     @State private var email: String = ""
     @State private var password: String = ""
@@ -92,6 +93,12 @@ struct SignInView: View {
             }
         }
     }
+    
+    
+    
+
+    // Unhashed nonce.
+    fileprivate var currentNonce: String?
 }
 
 struct SignInView_Previews: PreviewProvider {
