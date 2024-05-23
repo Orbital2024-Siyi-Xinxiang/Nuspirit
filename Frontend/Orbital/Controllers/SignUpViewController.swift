@@ -47,6 +47,9 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
     
     func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?)  {
         if let user = user {
+            FirestoreService.shared.addUserCredential(uid: user.uid, email: user.email ?? "", userid: user.uid, password: "", display_name: user.displayName ?? "")
+            print("User signed in")
+            
             DispatchQueue.main.async {
                 // Assuming you have a method to navigate to the main view
                 

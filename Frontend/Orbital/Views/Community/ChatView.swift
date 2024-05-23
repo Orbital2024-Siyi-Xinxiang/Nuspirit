@@ -14,7 +14,7 @@ struct ChatView: View {
     @State private var messages: [Message] = []
     let currentUserID: String
     let recipientID: String
-    let db = FirestoreService.shared.db
+    let db = Firestore.firestore()
 
     var body: some View {
         VStack {
