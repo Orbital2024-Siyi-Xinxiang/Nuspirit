@@ -77,7 +77,7 @@ struct SignInView: View {
         }
         .padding()
         .fullScreenCover(isPresented: $isSignedIn) {
-            MainMapView()
+            MainMapView(showSettingsOverlay: $isSignedIn)
         }
     }
     
