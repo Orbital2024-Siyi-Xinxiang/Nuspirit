@@ -63,7 +63,7 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
     }
     
     func navigateToMainAppView() {
-        let mainMapView = MainMapView(showSettingsOverlay: Binding.constant(true))
+        let mainMapView = OrientationViewControllerWrapper(supportedOrientation: .landscape, content: AnyView(MainMapView(showSettingsOverlay: Binding.constant(true))))
         let hostingController = UIHostingController(rootView: mainMapView)
         if let window = UIApplication.shared.windows.first {
             window.rootViewController = hostingController

@@ -20,7 +20,7 @@ struct OrbitalApp: App {
 
     var body: some Scene {
         WindowGroup {
-
+            
                     LandingView()
                         .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 }
