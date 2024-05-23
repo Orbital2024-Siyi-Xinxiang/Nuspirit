@@ -12,9 +12,9 @@ import FirebaseFirestore
 struct ChatView: View {
     @State private var message = ""
     @State private var messages: [Message] = []
-    let db = Firestore.firestore()
     let currentUserID: String
     let recipientID: String
+    let db = Firestore.firestore()
 
     var body: some View {
         VStack {

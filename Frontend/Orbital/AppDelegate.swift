@@ -15,15 +15,39 @@ import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
+import FirebaseEmailAuthUI
+import FirebaseEmailAuthUI
+import UIKit
+import SwiftUI
+import GoogleSignIn
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
+    var window: UIWindow?
+    var orientationLock = UIInterfaceOrientationMask.all
+    
+    // set orientation to all
+    // set orientation lock
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return self.orientationLock
+    }
+    
+    // set up appDelegate configurations for notifications and firebase authentication
     func application(_ application: UIApplication,
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        FirebaseApp.configure()
-        let authUI = FUIAuth.defaultAuthUI()
-        // You need to adopt a FUIAuthDelegate protocol to receive callback
-        authUI?.delegate = self
         
+        // configure firebase authentication
+        
+        FirebaseApp.configure()
+        // set landing view
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = UIHostingController(rootView: LandingView())
+        self.window?.makeKeyAndVisible()
+        
+        
+        
+        // register remote notifications
         UNUserNotificationCenter.current().delegate = self
         
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
@@ -39,6 +63,33 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         return true
     }
     
+//   func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+//       if user != nil {
+//           // User is signed in, navigate to MainMapView
+//           let mainMapView = UIHostingController(rootView: MainMapView())
+//           self.window?.rootViewController = mainMapView
+//           window?.makeKeyAndVisible()
+//           
+//       } else if let error = error {
+//           // Handle error
+//           print("Error signing in: \(error.localizedDescription)")
+//       }
+//   }
+//    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
+        if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
+            return true
+        }
+        return false
+    }
+    
+//    func application(_ app: UIApplication,
+//                     open url: URL,
+//                     options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+//      return GIDSignIn.sharedInstance.handle(url)
+//    }
+//    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
     }

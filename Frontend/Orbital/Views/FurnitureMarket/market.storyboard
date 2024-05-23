@@ -93,18 +93,10 @@
                                 <rect key="frame" x="160" y="203" width="114" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGP-ol-owB">
-                                <rect key="frame" x="226" y="0.0" width="282" height="77"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wFa-Vq-kRf" colorLabel="IBBuiltInLabel-Yellow">
-                                <rect key="frame" x="341" y="37" width="443" height="318"/>
+                                <rect key="frame" x="212" y="64" width="443" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <skView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xm4-ZD-OTb">
-                                        <rect key="frame" x="66" y="73" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </skView>
                                     <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66U-sH-uud">
                                         <rect key="frame" x="-78" y="274" width="443" height="44"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -117,6 +109,10 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="zDr-Qa-M1t"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="b6q-8u-BYR"/>
                             </scrollView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGP-ol-owB">
+                                <rect key="frame" x="620" y="33" width="209" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iMR-VJ-3HY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
