@@ -1,122 +1,130 @@
-//import SwiftUI
-//
-//struct SignInView: View {
-//    @State private var username = ""
-//    @State private var password = ""
-//    @State private var showingPassword = false  // State to toggle password visibility
-//    @State private var message = ""
-//    @State private var isSuccess = false  // Add this line to track success
-//
-//    var body: some View {
-//        VStack {
-//            TextField("Username", text: $username)
-//                .autocapitalization(.none)
-//                .textFieldStyle(RoundedBorderTextFieldStyle())
-//                .padding()
-//
-//            if showingPassword {
-//                TextField("Password", text: $password)
-//                    .autocapitalization(.none)
-//                    .textFieldStyle(RoundedBorderTextFieldStyle())
-//                    .padding(.horizontal)
-//            } else {
-//                SecureField("Password", text: $password)
-//                    .textFieldStyle(RoundedBorderTextFieldStyle())
-//                    .padding(.horizontal)
-//            }
-//
-//            Button("Show/Hide") {
-//                showingPassword.toggle()  // Toggle the password visibility
-//            }
-//
-//            Button("Sign In") {
-//                AuthService.shared.login(username: username, password: password) { success, message in
-//                    self.message = message
-//                    self.isSuccess = success  // Update success status based on the API response
-//                }
-//            }
-//            .padding()
-//            .background(Color.green)
-//            .foregroundColor(.white)
-//            .cornerRadius(8)
-//            .padding(.top, 30)
-//
-//            Text(message)
-//                .foregroundColor(isSuccess ? .green : .red)
-//                .padding()
-//        }
-//    }
-//}
-//
-//// Preview provider for SwiftUI canvas
-//struct SignInView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SignInView().previewInterfaceOrientation(.landscapeLeft)
-//    }
-//}
-//
-
-
-// SignInView.swift
 import SwiftUI
+import FirebaseAuth
+import Foundation
+import FirebaseCore
+import Firebase
+import FirebaseAuth
+import FirebaseAuthUI
+import UserNotifications
+import FirebaseFacebookAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseOAuthUI
+import FirebasePhoneAuthUI
+import UIKit
+
+
 
 struct SignInView: View {
-    @State private var username = ""
-    @State private var password = ""
-    @State private var message = ""
-    @State private var isSuccess = false
-    @State private var showingPassword = false
-
+    @State private var email: String = ""
+    @State private var password: String = ""
+    @State private var showingPassword: Bool = false
+    @State private var errorMessage: String?
+    @State private var isSignedIn: Bool = false
+    
     var body: some View {
-        NavigationView {
-            VStack {
-                TextField("Username", text: $username)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
-                
+        VStack(spacing: 20) {
+            Text("Welcome to NUSspirit")
+                .font(.largeTitle)
+                .bold()
+            
+            TextField("Email", text: $email)
+                .padding()
+                .background(Color(.secondarySystemBackground))
+                .cornerRadius(10)
+            
+            HStack {
                 if showingPassword {
                     TextField("Password", text: $password)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
                 } else {
                     SecureField("Password", text: $password)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
                 }
-
-                Button("Show/Hide") {
+                Button(action: {
                     showingPassword.toggle()
+                }) {
+                    Image(systemName: showingPassword ? "eye.slash" : "eye")
+                        .foregroundColor(.gray)
                 }
-
-                NavigationLink(isActive: $isSuccess) {
-                    MainMapView()
-                } label: {
-                    EmptyView()
-                }
-
-                Button("Sign In") {
-                    AuthService.shared.login(username: username, password: password) { success, message in
-                        self.message = message
-                        self.isSuccess = success
+            }
+            .padding()
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(10)
+            
+            if let errorMessage = errorMessage {
+                Text(errorMessage)
+                    .foregroundColor(.red)
+            }
+            
+            Button(action: {
+                signIn()
+            }) {
+                Text("Sign In")
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            .padding(.horizontal)
+            
+            Button(action: {
+                // Navigate to forgot password view
+            }) {
+                Text("Forgot Password?")
+                    .foregroundColor(.blue)
+            }
+            
+            Spacer()
+        }
+        .padding()
+        .fullScreenCover(isPresented: $isSignedIn) {
+            MainMapView()
+        }
+    }
+    
+    private func signIn() {
+        Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+            if let error = error {
+                errorMessage = error.localizedDescription
+            } else {
+                isSignedIn = true
+                print("User Signed In successfully")
+                if let user = Auth.auth().currentUser {
+                    // The user's ID, unique to the Firebase project.
+                    // Do NOT use this value to authenticate with your backend server,
+                    // if you have one. Use getTokenWithCompletion:completion: instead.
+                    let uid = user.uid
+                    let email = user.email
+                    let photoURL = user.photoURL
+                    var multiFactorString = "MultiFactor: "
+                    let displayName = user.displayName
+                    for info in user.multiFactor.enrolledFactors {
+                        multiFactorString += info.displayName ?? "[DispayName]"
+                        multiFactorString += " "
+                        }
+//                        navigateToMainMapView()
+                    
+                    // store user in firestore
+                    let db = Firestore.firestore()
+                    db.collection("users_credentials").document(uid).setData([
+                        "display_name": displayName ?? "",
+                        "email": email ?? "",
+                        "password": password
+                    ]) { err in
+                        if let err = err {
+                            print("Error adding user: \(err)")
+                        } else {
+                            print("User added successfully")
+                        }
+                        
                     }
                 }
-                .padding()
-                .background(Color.green)
-                .foregroundColor(.white)
-                .cornerRadius(8)
-                .padding(.top, 30)
-
-                Text(message)
-                    .foregroundColor(isSuccess ? .green : .red)
-                    .padding()
             }
         }
     }
 }
 
-// Preview provider for SwiftUI canvas
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        SignInView().previewInterfaceOrientation(.landscapeLeft)
+        SignInView()
     }
 }
