@@ -14,6 +14,8 @@ import AuthenticationServices
 import GoogleSignIn
 import FirebaseFirestore
 import FirebaseStorage
+import FirebaseMessaging
+import FirebaseGoogleAuthUI
 
 
 @main

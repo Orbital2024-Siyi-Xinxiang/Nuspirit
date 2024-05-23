@@ -19,6 +19,9 @@ import FirebaseEmailAuthUI
 import FirebaseEmailAuthUI
 import UIKit
 import SwiftUI
+import GoogleSignIn
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     var window: UIWindow?
@@ -101,6 +104,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         return false
     }
     
+//    func application(_ app: UIApplication,
+//                     open url: URL,
+//                     options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+//      return GIDSignIn.sharedInstance.handle(url)
+//    }
+//    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
     }
