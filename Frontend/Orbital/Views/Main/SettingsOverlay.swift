@@ -44,7 +44,8 @@ struct SettingsOverlay: View {
     private func signOut() {
         do {
             try Auth.auth().signOut()
-            // Navigate back to the landing page
+            LandingView()
+            
         } catch {
             print("Error signing out: \(error.localizedDescription)")
         }
