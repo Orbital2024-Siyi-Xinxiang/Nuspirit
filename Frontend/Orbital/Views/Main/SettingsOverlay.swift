@@ -13,28 +13,42 @@ import SwiftUI
 
 struct SettingsOverlay: View {
     @Binding var showSettingsOverlay: Bool
+    @State private var showSettings = false
 
     var body: some View {
         VStack {
             Spacer()
             HStack {
                 Spacer()
-                Button(action: {
-                    showSettingsOverlay = false
-                    signOut()
-                }) {
-                    Text("Sign Out")
-                        .padding()
-                        .background(Color.red)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+                if showSettings {
+                    Button(action: {
+                        showSettingsOverlay = false
+                        signOut()
+                    }) {
+                        Text("Sign Out")
+                            .padding()
+                            .background(Color.red)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    .padding()
+                    .background(Color.black.opacity(0.6))
+                    .cornerRadius(12)
                 }
-                .padding()
-                .background(Color.black.opacity(0.6))
-                .cornerRadius(12)
             }
+            .padding()
+                }
+                
+        
+        Button(action: {
+            showSettings.toggle()
+        }) {
+            Image(systemName: "gear")
+                .padding()
+                .background(Color.white)
+                .foregroundColor(.black)
+                .clipShape(Circle())
         }
-        .padding()
     }
 
     private func signOut() {

@@ -105,19 +105,19 @@ struct SignInView: View {
 //                        navigateToMainMapView()
                     
                     // store user in firestore
-                    let db = Firestore.firestore()
-                    db.collection("users_credentials").document(uid).setData([
-                        "display_name": displayName ?? "",
-                        "email": email ?? "",
-                        "password": password
-                    ]) { err in
-                        if let err = err {
-                            print("Error adding user: \(err)")
-                        } else {
-                            print("User added successfully")
-                        }
-                        
-                    }
+//                    let db = Firestore.firestore()
+//                    db.collection("users_credentials").document(uid).setData([
+//                        "display_name": displayName ?? "",
+//                        "email": email ?? "",
+//                        "password": password
+//                    ]) { err in
+//                        if let err = err {
+//                            print("Error adding user: \(err)")
+//                        } else {
+//                            print("User added successfully")
+//                        }
+//                        
+//                    }
                 }
             }
         }
