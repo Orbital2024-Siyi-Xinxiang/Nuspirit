@@ -13,8 +13,11 @@ import FirebasePhoneAuthUI
 import UIKit
 import SwiftUI
 
-
 class SignInViewController: UIViewController, FUIAuthDelegate {
+//    var actionCodeSettings = ActionCodeSettings()
+//    actionCodeSettings.url = URL(string: "https://example.appspot.com")
+//    actionCodeSettings.handleCodeInApp = true
+//    actionCodeSettings.setAndroidPackageName("com.firebase.example", installIfNotAvailable: false, minimumVersion: "12")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +28,12 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
         let providers: [FUIAuthProvider] = [
             FUIGoogleAuth(),
             FUIOAuth.appleAuthProvider(),
-            FUIEmailAuth()
+            FUIEmailAuth(),
+//            FUIEmailAuth(authAuthUI: FUIAuth.defaultAuthUI()!,
+//                                        signInMethod: FIREmailLinkAuthSignInMethod,
+//                                        forceSameDevice: false,
+//                                        allowNewEmailAccounts: true,
+//                                        actionCodeSetting: actionCodeSettings)
         ]
         authUI?.providers = providers
         
