@@ -21,6 +21,7 @@ const db = admin.firestore();
 
 
 
+// using postgresql(already deprecated, don't use!)
 // const sqlFiles = [
 //     '../Database/orbital.sql',
 //     '../Database/market.sql',
@@ -90,11 +91,10 @@ app.use('/api/auth', authRoutes);
 // Example route to add user to Firestore
 app.post('/addUser', async(req, res) => {
     const { uid, email, displayName } = req.body;
-
     try {
         await db.collection('users').doc(uid).set({
-            email: email,
-            displayName: displayName
+            'email': email,
+            'displayName': displayName
         });
         res.status(200).send('User added successfully');
     } catch (error) {
