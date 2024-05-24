@@ -1,5 +1,8 @@
 import SwiftUI
 import MapKit
+import CoreLocation
+import Foundation
+
 
 struct MainMapView: View {
     @StateObject private var locationManager = LocationManager()
