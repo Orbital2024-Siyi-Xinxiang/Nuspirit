@@ -23,6 +23,8 @@ import GoogleSignIn
 import FBSDKCoreKit
 import FBSDKLoginKit
 
+
+
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     var window: UIWindow?
     var orientationLock = UIInterfaceOrientationMask.all
