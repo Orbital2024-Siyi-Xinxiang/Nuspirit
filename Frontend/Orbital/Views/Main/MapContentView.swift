@@ -7,10 +7,12 @@ struct MapContentView: View {
         center: CLLocationCoordinate2D(latitude: 1.2966, longitude: 103.7764), // NUS coordinates
         span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     )
+    @State private var userTrackingMode: MKUserTrackingMode = .follow
+    
 
     var body: some View {
         ZStack {
-            MapViewRepresentable(region: $region, locationService: locationService)
+            MapViewRepresentable(region: $region, locationService: locationService, userTrackingMode: $userTrackingMode)
                 .edgesIgnoringSafeArea(.all)
         }
         .onReceive(locationService.$location) { location in

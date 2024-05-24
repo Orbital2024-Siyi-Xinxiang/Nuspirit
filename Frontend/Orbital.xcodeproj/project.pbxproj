@@ -72,6 +72,9 @@
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
 		B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */; };
+		B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E782C00CC7100F322C3 /* Frontier.swift */; };
+		B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E7A2C00CC7E00F322C3 /* MedScienceLib.swift */; };
+		B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */; };
 		B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssets.swift */; };
 		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
@@ -160,6 +163,9 @@
 		B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapOverlay.swift; sourceTree = "<group>"; };
 		B5B85E722C003EA100F322C3 /* MapContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
 		B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		B5B85E782C00CC7100F322C3 /* Frontier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frontier.swift; sourceTree = "<group>"; };
+		B5B85E7A2C00CC7E00F322C3 /* MedScienceLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedScienceLib.swift; sourceTree = "<group>"; };
+		B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralLib.swift; sourceTree = "<group>"; };
 		B5C92A522BF7CF1C00121E42 /* MyAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssets.swift; sourceTree = "<group>"; };
 		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
@@ -401,6 +407,13 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		B5B85E7F2C00CCF300F322C3 /* Hostels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hostels;
+			sourceTree = "<group>";
+		};
 		B5C92A542BF7CF6400121E42 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,9 +428,11 @@
 		B5C92A612BF8792100121E42 /* Venues */ = {
 			isa = PBXGroup;
 			children = (
+				B5B85E7F2C00CCF300F322C3 /* Hostels */,
 				B5C92A642BF8797B00121E42 /* SOC */,
 				B5C92A632BF8797200121E42 /* FOS */,
 				B5C92A622BF8793500121E42 /* UniversityTown */,
+				B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */,
 			);
 			path = Venues;
 			sourceTree = "<group>";
@@ -436,6 +451,8 @@
 		B5C92A632BF8797200121E42 /* FOS */ = {
 			isa = PBXGroup;
 			children = (
+				B5B85E782C00CC7100F322C3 /* Frontier.swift */,
+				B5B85E7A2C00CC7E00F322C3 /* MedScienceLib.swift */,
 			);
 			path = FOS;
 			sourceTree = "<group>";
@@ -649,6 +666,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FE65BD2BFDCD42000D375A /* OrientationViewController.swift in Sources */,
+				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				B5C92A772BF88D8900121E42 /* SplashScreenView.swift in Sources */,
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
@@ -660,6 +678,7 @@
 				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
 				B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */,
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
+				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
 				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
@@ -675,6 +694,7 @@
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B56F74772BF62F370048447E /* Cart.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
+				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
 				B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */,
 				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
