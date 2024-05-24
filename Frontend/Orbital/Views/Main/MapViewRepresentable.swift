@@ -11,13 +11,16 @@ extension CLLocationCoordinate2D: Equatable {
 struct MapViewRepresentable: UIViewRepresentable {
     @Binding var region: MKCoordinateRegion
     @ObservedObject var locationService: LocationService
-
+    @Binding var userTrackingMode: MKUserTrackingMode
+    
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
         mapView.showsUserLocation = true
         mapView.setRegion(region, animated: false)
 
+        mapView.userTrackingMode = userTrackingMode
+        
         // Define the bounding box for the NUS region
         let nusCoordinate = CLLocationCoordinate2D(latitude: 1.2966, longitude: 103.7764)
         let nusTopLeft = CLLocationCoordinate2D(latitude: 1.310306, longitude: 103.764663)
@@ -62,7 +65,12 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
             return MKOverlayRenderer(overlay: overlay)
         }
-
+        
+        // make user location center
+        func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
+            parent.region.center = userLocation.coordinate
+        }
+        
         // Customize user location annotation view
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             if annotation is MKUserLocation {
