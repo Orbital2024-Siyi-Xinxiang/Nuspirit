@@ -89,7 +89,7 @@
 		B5C92A712BF87A1300121E42 /* RC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A702BF87A1300121E42 /* RC4.swift */; };
 		B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A722BF87A2700121E42 /* Finefood.swift */; };
 		B5C92A752BF88A6E00121E42 /* market.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C92A742BF88A6E00121E42 /* market.storyboard */; };
-		B5C92A772BF88D8900121E42 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A762BF88D8900121E42 /* SplashScreenView.swift */; };
+		B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */; };
 		B5FE65942BFD0BF8000D375A /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */; };
 		B5FE65962BFD0BF9000D375A /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65952BFD0BF9000D375A /* FirebaseAuthUI */; };
 		B5FE65982BFD0BF9000D375A /* FirebaseDatabaseUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65972BFD0BF9000D375A /* FirebaseDatabaseUI */; };
@@ -180,7 +180,7 @@
 		B5C92A702BF87A1300121E42 /* RC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC4.swift; sourceTree = "<group>"; };
 		B5C92A722BF87A2700121E42 /* Finefood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finefood.swift; sourceTree = "<group>"; };
 		B5C92A742BF88A6E00121E42 /* market.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = market.storyboard; path = Orbital/Views/FurnitureMarket/market.storyboard; sourceTree = SOURCE_ROOT; };
-		B5C92A762BF88D8900121E42 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashScreenView(Deprecated).swift"; sourceTree = "<group>"; };
 		B5C92A782BF8904400121E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
@@ -388,7 +388,7 @@
 		B56F74922BF63F000048447E /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				B5C92A762BF88D8900121E42 /* SplashScreenView.swift */,
+				B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */,
 				5BC6DE402BF0C1270031650B /* SignUpView.swift */,
 				5BC6DE442BF0C3CF0031650B /* SignInView.swift */,
 			);
@@ -668,7 +668,7 @@
 				B5FE65BD2BFDCD42000D375A /* OrientationViewController.swift in Sources */,
 				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
-				B5C92A772BF88D8900121E42 /* SplashScreenView.swift in Sources */,
+				B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */,
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */,
