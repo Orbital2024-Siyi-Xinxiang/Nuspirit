@@ -69,6 +69,7 @@
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AE2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040B02BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
+		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
 		B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */; };
@@ -161,6 +162,7 @@
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
+		B5B3E4482C01905A008799F2 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapOverlay.swift; sourceTree = "<group>"; };
 		B5B85E722C003EA100F322C3 /* MapContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
 		B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				B5110A772BFC762100208FC4 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				B5110A852BFC762100208FC4 /* FirebaseStorage in Frameworks */,
 				B5110A692BFC762100208FC4 /* FirebaseDynamicLinks in Frameworks */,
+				B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */,
 				B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */,
 				B5110A892BFC762100208FC4 /* FirebaseVertexAI-Preview in Frameworks */,
 				B5110A6D2BFC762100208FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
@@ -266,6 +269,7 @@
 				5BC6DE1E2BF0A7A40031650B /* OrbitalTests */,
 				5BC6DE282BF0A7A40031650B /* OrbitalUITests */,
 				5BC6DE072BF0A7A10031650B /* Products */,
+				B5B3E4472C01905A008799F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -409,6 +413,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		B5B3E4472C01905A008799F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3E4482C01905A008799F2 /* UnityFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5B85E7F2C00CCF300F322C3 /* Hostels */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,6 +548,7 @@
 				B5FE65A52BFD0BF9000D375A /* FirebaseStorageUI */,
 				B52F7BF12BFF8D8100DA131C /* GoogleSignIn */,
 				B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */,
+				B5B3E44D2C01908D008799F2 /* Algorithms */,
 			);
 			productName = Orbital;
 			productReference = 5BC6DE062BF0A7A10031650B /* Orbital.app */;
@@ -613,6 +626,7 @@
 				B5110A512BFC762100208FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				B5FE65922BFD0BF8000D375A /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
 				B52F7BF02BFF8D8100DA131C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				B5B3E44C2C01908D008799F2 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = 5BC6DE072BF0A7A10031650B /* Products */;
 			projectDirPath = "";
@@ -1067,6 +1081,14 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		B5B3E44C2C01908D008799F2 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 		B5FE65922BFD0BF8000D375A /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
@@ -1227,6 +1249,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B52F7BF02BFF8D8100DA131C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		B5B3E44D2C01908D008799F2 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B3E44C2C01908D008799F2 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 		B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */ = {
 			isa = XCSwiftPackageProductDependency;
