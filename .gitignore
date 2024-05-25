@@ -1,3 +1,4 @@
 
-./UnityScenes/iosBuild
-./UnityScenes/iosBuild_BurstDebugInformation_DoNotShip
+UnityScenes/iosBuild/
+UnityScenes/iosBuild_BurstDebugInformation_DoNotShip/
+UnityScenes/Library/
