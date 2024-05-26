@@ -1,31 +1,23 @@
 ﻿<Properties StartupConfiguration="{EF2553DF-5388-06C9-B78C-31A531B8BC2F}|">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a4e24720-5699-4832-a364-29273527ef14" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyViewController.designer.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cfe00dc2-be24-451c-befd-10002dfac319" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/SampleScene.unity">
     <Files>
       <File FileName="Assets/Scenes/SampleScene.unity" Line="1" Column="1" />
-      <File FileName="MyViewController.xib" />
-      <File FileName="MyViewController.cs" Line="1" Column="1" />
-      <File FileName="MyViewController.designer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UnityScenes" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Adaptive Performance" expanded="True" />
-              <Node name="Scenes" expanded="True">
-                <Node name="NewBehaviourScript.cs" selected="True" />
-              </Node>
-            </Node>
+          <Node name="UnityScenes" selected="True">
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
