@@ -60,11 +60,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scenes/NewPlayableBehaviour.cs" />
-    <Compile Include="Assets/Scenes/NewBehaviourScript.cs" />
+    <Compile Include="Assets/Code/Scripts/IsometricCamera.cs" />
+    <Compile Include="Assets/Code/Scripts/NewPlayableBehaviour.cs" />
+    <Compile Include="Assets/Code/Scripts/PlayController.cs" />
+    <Compile Include="Assets/Code/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Scenes/NewSurfaceShader.shader" />
+    <None Include="Assets/Code/Shaders/NewSurfaceShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
