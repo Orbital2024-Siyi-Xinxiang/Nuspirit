@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{EF2553DF-5388-06C9-B78C-31A531B8BC2F}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="401a400f-4b6f-471e-9bf6-78bfc4d58375" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/Scripts/IsometricCamera.cs">
     <Files>
-      <File FileName="Assets/Scenes/SampleScene.unity" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/NewBehaviourScript.cs" Line="38" Column="1" />
-      <File FileName="MyCollectionViewCell.xib" />
-      <File FileName="MyCollectionViewCell.cs" />
-      <File FileName="MyCollectionViewCell.designer.cs" Line="6" Column="1" />
       <File FileName="Assets/Code/Scripts/IsometricCamera.cs" Line="18" Column="18" />
-      <File FileName="Assets/Code/Scripts/PlayController.cs" Line="13" Column="10" />
+      <File FileName="Assets/Code/Scripts/PlayController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,27 +16,21 @@
           <Node name="UnityScenes">
             <Node name="Assets" expanded="True">
               <Node name="Code" expanded="True">
-                <Node name="Scripts" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="IsometricCamera.cs" selected="True" />
+                </Node>
                 <Node name="Shaders" expanded="True" />
               </Node>
               <Node name="Levels" expanded="True">
                 <Node name="Scenes" expanded="True" />
               </Node>
               <Node name="Settings" expanded="True" />
-              <Node name="Utilities" expanded="True">
-                <Node name="Materials" selected="True" />
-              </Node>
+              <Node name="Utilities" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="66ee99d6-5076-44c6-bad6-66d21653a4be" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
