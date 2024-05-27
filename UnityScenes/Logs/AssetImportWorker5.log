@@ -1441,3 +1441,559 @@ Received Import Request.
 Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/UnderRoof_SquareTile_Flat_Basecolor_B.png using Guid(46051bfe159f5314f90283dcf264b697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61659185f828d2a7b28c425e2d43a620') in 0.013660 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+[usbmuxd] Attached: 3 00008110-001250421A8A401E
+[usbmuxd] Attached: 3 00008110-001250421A8A401E
+[usbmuxd] Detached: 3 00008110-001250421A8A401E
+[usbmuxd] Detached: 3 00008110-001250421A8A401E
+========================================================================
+Received Import Request.
+  Time since last request: 19467.563318 seconds.
+  path: Assets/Assets/Sprites/Holiday/dudeHolidayBunny/dudeBoredBody.png
+  artifactKey: Guid(c3f73a45db301744caa32379e72a230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/Holiday/dudeHolidayBunny/dudeBoredBody.png using Guid(c3f73a45db301744caa32379e72a230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1973cdc2205df0785c26a4858a5a37a3') in 2.082501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 197.747358 seconds.
+  path: Assets/2DGamekit/Art/Animations
+  artifactKey: Guid(60d6468d5df18ac4cbc21a0a30b6854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations using Guid(60d6468d5df18ac4cbc21a0a30b6854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7858cf76916c84504c2a6152692a3ba') in 0.030288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.071486 seconds.
+  path: Assets/2DGamekit/Art/Animations/AnimationClips
+  artifactKey: Guid(36730a4e23e7d0b46b3f09df36838721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations/AnimationClips using Guid(36730a4e23e7d0b46b3f09df36838721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1162033ae582c67d6f11ddad59b648ae') in 0.003135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.376562 seconds.
+  path: Assets/2DGamekit/Art/Animations/AnimationClips/Enemies
+  artifactKey: Guid(feea0de7fc2b7854ab39006ead0e33fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations/AnimationClips/Enemies using Guid(feea0de7fc2b7854ab39006ead0e33fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dbee6ca0ba6446c93a869d701d7873') in 0.003245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.297709 seconds.
+  path: Assets/2DGamekit/Art/Animations/AnimationClips/Enemies/Gunner
+  artifactKey: Guid(e0ce07c6c3264fc4f904822920daea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations/AnimationClips/Enemies/Gunner using Guid(e0ce07c6c3264fc4f904822920daea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936e7965126fbe6e689dbe016e08f4c7') in 0.002329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.809371 seconds.
+  path: Assets/2DGamekit/Art/Animations/AnimationClips/Enemies/Gunner/Death.anim
+  artifactKey: Guid(ebf596ab273a91a41bab0a1f9d5ccd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations/AnimationClips/Enemies/Gunner/Death.anim using Guid(ebf596ab273a91a41bab0a1f9d5ccd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2353e8c7bfbd14e32d28169b94e33fe') in 0.245623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.867486 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00002.png
+  artifactKey: Guid(95c10ebb487592c41a105bae9bbc0963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00002.png using Guid(95c10ebb487592c41a105bae9bbc0963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2872551314e6f2c3dda01a7a3d83b0f') in 1.274643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00005.png
+  artifactKey: Guid(23cd8a4138dd7f649a92c7aa1319426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00005.png using Guid(23cd8a4138dd7f649a92c7aa1319426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e9eb1ec0640c533d7472b62b1abc6a') in 0.033369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00038.png
+  artifactKey: Guid(de33650728d87d04f8ad080dbfccb18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00038.png using Guid(de33650728d87d04f8ad080dbfccb18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20417aa1b1598d9970f5dc42e61ac0fe') in 0.080958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00036.png
+  artifactKey: Guid(a343c86ea432f0c4298d304cbd043190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00036.png using Guid(a343c86ea432f0c4298d304cbd043190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc47d23f1e70827ad9c9a91fee5990a5') in 0.060918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00057.png
+  artifactKey: Guid(54e697a067ad3044b860c851d50c70bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00057.png using Guid(54e697a067ad3044b860c851d50c70bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063e3d6a50170b4083c0c547aed1ff66') in 0.021793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00061.png
+  artifactKey: Guid(5e63c4f303525024690b459650692b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00061.png using Guid(5e63c4f303525024690b459650692b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7362992f1a682afe75fa2251de11815f') in 0.015634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00014.png
+  artifactKey: Guid(7e626afd30f5ca846b07cfb497371015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00014.png using Guid(7e626afd30f5ca846b07cfb497371015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911a7e95641ccc59102ebbd45140aab5') in 0.021476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00015.png
+  artifactKey: Guid(45f652d8c4b24f541ad81ef01323c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00015.png using Guid(45f652d8c4b24f541ad81ef01323c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a242b75ac97cca877877021249234fc') in 0.043648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00047.png
+  artifactKey: Guid(a32c35e7ff59950478a4726b77324699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00047.png using Guid(a32c35e7ff59950478a4726b77324699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2903cd8cfa0b5d10324cc3872951b1') in 0.031108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00075.png
+  artifactKey: Guid(2fb95ca541e7853469c88fee4f981892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00075.png using Guid(2fb95ca541e7853469c88fee4f981892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2290f4e7e73ffb6727895329455047a') in 0.010974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00011.png
+  artifactKey: Guid(3ec107d065c5a804e8477144652443ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00011.png using Guid(3ec107d065c5a804e8477144652443ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8985c28ef916c5442ccc82131210cc72') in 0.010526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00050.png
+  artifactKey: Guid(247c8bb87fc1d294f95179468f169338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00050.png using Guid(247c8bb87fc1d294f95179468f169338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a57486cce3293722a46a180979165af') in 0.017412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00016.png
+  artifactKey: Guid(d6893dbb8927b2246a982eca2cf2087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00016.png using Guid(d6893dbb8927b2246a982eca2cf2087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1436bbf49762a0cd3d13bd28e186bb4') in 0.029654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00034.png
+  artifactKey: Guid(ad99f26f5d3e8d84689d7fe86c83dc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00034.png using Guid(ad99f26f5d3e8d84689d7fe86c83dc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0733a92a520e364199b331b5f3a1f6e') in 0.010869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00037.png
+  artifactKey: Guid(23a3ed5dd1ea6424eb0d4e95b8761532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00037.png using Guid(23a3ed5dd1ea6424eb0d4e95b8761532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db89e23e9425cee8eab27d97854045c') in 0.008772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00026.png
+  artifactKey: Guid(54e32ff8b0359704bbc5a578f3ed1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00026.png using Guid(54e32ff8b0359704bbc5a578f3ed1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353bf4e55b8bcd4ffbe381515ce0f2fd') in 0.011109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00077.png
+  artifactKey: Guid(4b72986855fb98b4ca4b99a9d3058844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00077.png using Guid(4b72986855fb98b4ca4b99a9d3058844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b10c208beeeb749b61b499dedc2fdce') in 0.013859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00051.png
+  artifactKey: Guid(8fdf0ab282e127f4d83959d976b73f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00051.png using Guid(8fdf0ab282e127f4d83959d976b73f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e49219531ea603a2ed613d41543d36') in 0.036292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00004.png
+  artifactKey: Guid(b80a9ba83cd05624ba7b3e22601fe964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00004.png using Guid(b80a9ba83cd05624ba7b3e22601fe964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00c97faf72871fd8ff56cf0e8b84e1b') in 0.021442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00025.png
+  artifactKey: Guid(0ced34e62d372a645bb121cc0c1db00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00025.png using Guid(0ced34e62d372a645bb121cc0c1db00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7117bc87cbec8d4c07144385114a07ec') in 0.021597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001425 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00087.png
+  artifactKey: Guid(397b7306871b81648afd52257da8487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00087.png using Guid(397b7306871b81648afd52257da8487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155608d50f731184471ae9ef9757b7dd') in 0.017348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00041.png
+  artifactKey: Guid(5e61fa4cba7dfd94ca3c13c4a891e2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00041.png using Guid(5e61fa4cba7dfd94ca3c13c4a891e2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9feb147eae51e30a4650bffa5218ba9') in 0.022915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00024.png
+  artifactKey: Guid(a1c09aa02b0803148852a339151f3f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00024.png using Guid(a1c09aa02b0803148852a339151f3f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20620a9aec436eb4e1506aadbe878091') in 0.013848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00021.png
+  artifactKey: Guid(2728866c4bcbfe2439bdac83eb08792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00021.png using Guid(2728866c4bcbfe2439bdac83eb08792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b916a492dbece252e9d4f4703e3c22e6') in 0.011724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00083.png
+  artifactKey: Guid(fc4420e9c77ab9041acbfbb6be848aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00083.png using Guid(fc4420e9c77ab9041acbfbb6be848aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b40485004fe95743ead2ea87e7da71') in 0.012948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00009.png
+  artifactKey: Guid(7226a982c20f5a5478edd50039f75e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00009.png using Guid(7226a982c20f5a5478edd50039f75e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5ec8074934521061beabe0db663b54') in 0.018891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00027.png
+  artifactKey: Guid(e835770d315c86646825eac4f2931998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00027.png using Guid(e835770d315c86646825eac4f2931998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7b7c673d8b380d552e48417bfb8e10') in 0.030263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00084.png
+  artifactKey: Guid(8dad7135f6722de49b67e9dd96b02699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00084.png using Guid(8dad7135f6722de49b67e9dd96b02699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1716ed343b1d4a7ca99e329f202e4770') in 0.019890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00006.png
+  artifactKey: Guid(06d46a1af28d93e46ade29b81a663b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00006.png using Guid(06d46a1af28d93e46ade29b81a663b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e85f1ff0f3a7a734d3e0c7ab29e28a') in 0.021057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001821 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00076.png
+  artifactKey: Guid(ada2e20c21b7e4e48b7355db2069c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00076.png using Guid(ada2e20c21b7e4e48b7355db2069c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f708840115ba1fd7518ec39ca73991e') in 0.025931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00082.png
+  artifactKey: Guid(837a67a4ffae9fa44baab522824aee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00082.png using Guid(837a67a4ffae9fa44baab522824aee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc2440828bef2bbdc0a624827087be9') in 0.032572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00086.png
+  artifactKey: Guid(2982a5a0517da6b4caa09551aafddaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00086.png using Guid(2982a5a0517da6b4caa09551aafddaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff607bbf4ded662d0b79f02b83be066a') in 0.021282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00023.png
+  artifactKey: Guid(a0f4b130178e68c44a88916008810613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00023.png using Guid(a0f4b130178e68c44a88916008810613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b88d15e46dc83ee075f3e7f84667690') in 0.017735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00088.png
+  artifactKey: Guid(c86730cfab1de35409b503b50ce075d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00088.png using Guid(c86730cfab1de35409b503b50ce075d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cf686c0fb7a191297b537525f32e6c') in 0.038986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00012.png
+  artifactKey: Guid(9d39bfedf1f84844db67044bdb9b5e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00012.png using Guid(9d39bfedf1f84844db67044bdb9b5e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3a8473c3fe8882848fa9839204092b') in 0.014865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00048.png
+  artifactKey: Guid(6822859db5e0d874db5b3caa2e5bb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00048.png using Guid(6822859db5e0d874db5b3caa2e5bb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd025a5f7ca649452d98db6b0fc15d8c3') in 0.027037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00059.png
+  artifactKey: Guid(52e08eec4fe81cc4394c4368e470ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00059.png using Guid(52e08eec4fe81cc4394c4368e470ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e80d1338623a2aecf4ef86b93306ec') in 0.022609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00067.png
+  artifactKey: Guid(7580aa9d0825c91429002da4986c8057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00067.png using Guid(7580aa9d0825c91429002da4986c8057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d64bb863486d341cb72a137053a0c1') in 0.025029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00089.png
+  artifactKey: Guid(a737aa43858830c47a518a0d7c207c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00089.png using Guid(a737aa43858830c47a518a0d7c207c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd04aa219b04bd9f76f5c2ef19a5108') in 0.011677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00056.png
+  artifactKey: Guid(9672b2bbde12f9849b014bc5d07e21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00056.png using Guid(9672b2bbde12f9849b014bc5d07e21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbeaf5ee1e3db7e35a1718b0b4ada43') in 0.011855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00085.png
+  artifactKey: Guid(a063072f43e5c4446811438b201e9455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00085.png using Guid(a063072f43e5c4446811438b201e9455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74344e4d07eee2402624ee2f35b392db') in 0.012427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00052.png
+  artifactKey: Guid(7fd41e7f3a49f10468d303bbc5596085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00052.png using Guid(7fd41e7f3a49f10468d303bbc5596085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d154562ed24e261bd98d0c0082b73a7') in 0.010159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00072.png
+  artifactKey: Guid(c4094f79621478943862645197328bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00072.png using Guid(c4094f79621478943862645197328bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6553959c2992bce5399bce013e8bc1a') in 0.010589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00018.png
+  artifactKey: Guid(e7b17e75b36a39b4e8638095001d83ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00018.png using Guid(e7b17e75b36a39b4e8638095001d83ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3772255b3557647318370b38b00f8c1') in 0.009659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.032568 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00044.png
+  artifactKey: Guid(4d6581a2c0e393347afbf67f9d865e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00044.png using Guid(4d6581a2c0e393347afbf67f9d865e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2057aaf04846a3eef6e76571d03d7422') in 0.010720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00008.png
+  artifactKey: Guid(600ee2a4f226ff1428b22b2381f47eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00008.png using Guid(600ee2a4f226ff1428b22b2381f47eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64095033ae7834bf5cd8fd48421cfeb1') in 0.030359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002119 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00032.png
+  artifactKey: Guid(46e6c0748d0b43c439c591555dd1937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00032.png using Guid(46e6c0748d0b43c439c591555dd1937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7623d91596256090224286ec2d93a7ac') in 0.016659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00028.png
+  artifactKey: Guid(7ae27ac4ef8d123468e07430469759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00028.png using Guid(7ae27ac4ef8d123468e07430469759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3305349f9bc334a8a6542324f8f9679') in 0.019279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00042.png
+  artifactKey: Guid(1f13d92ed10a5e446b3d6bc3523447de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00042.png using Guid(1f13d92ed10a5e446b3d6bc3523447de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f550547f424a3ebc7fcc358de55b21') in 0.019237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00079.png
+  artifactKey: Guid(f24a40c4758fed44eba4264501e4cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00079.png using Guid(f24a40c4758fed44eba4264501e4cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25729acc820922c5d0b234d15521d912') in 0.008089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00046.png
+  artifactKey: Guid(75c679fd12c286743b27578c999e5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00046.png using Guid(75c679fd12c286743b27578c999e5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90aefc9ea917b4a30c05500958c75a0') in 0.008615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00049.png
+  artifactKey: Guid(d0795ae1d1912474ca5399cbf5ff7cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00049.png using Guid(d0795ae1d1912474ca5399cbf5ff7cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a509f6003c58e9f4bc4d87d88200f4') in 0.008844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00035.png
+  artifactKey: Guid(42e35ca9d3e10f549a3281253220025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00035.png using Guid(42e35ca9d3e10f549a3281253220025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46f69b15ee473ad856178c33bebf702') in 0.008982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00045.png
+  artifactKey: Guid(19e1845940d9c46489a2fb20b396adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00045.png using Guid(19e1845940d9c46489a2fb20b396adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ada25ac9f0c2502cb0a109e8abc8fb7') in 0.009060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00010.png
+  artifactKey: Guid(701690d88998aea4ca8715f8b39e2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00010.png using Guid(701690d88998aea4ca8715f8b39e2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9862dbde258d22e1246392784988b5eb') in 0.008942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00078.png
+  artifactKey: Guid(077cd51c100eb584d8977c1582f2457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00078.png using Guid(077cd51c100eb584d8977c1582f2457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727d3dd285182fff197f11e254a45e49') in 0.007332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00060.png
+  artifactKey: Guid(6b09c048596ce9b4590cbedf25c6963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00060.png using Guid(6b09c048596ce9b4590cbedf25c6963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f608cf05fda7335dc8d42f19032d0d7c') in 0.008663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00074.png
+  artifactKey: Guid(e8bdd94344713e244a31394bf2416408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00074.png using Guid(e8bdd94344713e244a31394bf2416408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37845326dd77b2d7107943f8162fcc6') in 0.010601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00039.png
+  artifactKey: Guid(3ea5e0b73dc69e240811a8705ccc3881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00039.png using Guid(3ea5e0b73dc69e240811a8705ccc3881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad369c07ed511ef677b06a59b8c30703') in 0.024577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00071.png
+  artifactKey: Guid(9872b0b114b6bdf40b6b86ba42a4aea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Gunner/Death/Gunner_EPICDEATH_2s_00071.png using Guid(9872b0b114b6bdf40b6b86ba42a4aea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4603006c24db649cad125085a070b60d') in 0.025716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.909994 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathAll01.ogg
+  artifactKey: Guid(400c44a256b5eeb46897fd93bd481a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathAll01.ogg using Guid(400c44a256b5eeb46897fd93bd481a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d817bf229e04a73b4f951526011bfe') in 1.302874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 43.664734 seconds.
+  path: Assets/Assets/Sprites/General/dudeBlueShirt/dudeBoredBody.png
+  artifactKey: Guid(e14f98a8ac3ad476f8be244e2f3fccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/General/dudeBlueShirt/dudeBoredBody.png using Guid(e14f98a8ac3ad476f8be244e2f3fccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd850068ad25bf75a8085303d0a49bae8') in 0.689422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.004738 seconds.
+  path: Assets/Assets/Sprites/General/dudeBlueShirt/dudeIdle.png
+  artifactKey: Guid(fd0d8247a01962a448f99f1d7040b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/General/dudeBlueShirt/dudeIdle.png using Guid(fd0d8247a01962a448f99f1d7040b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d0adbde459d502dadccd81be148b8') in 0.097640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
