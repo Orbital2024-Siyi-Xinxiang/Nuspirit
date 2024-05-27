@@ -361,3 +361,103 @@ Received Import Request.
 Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(d2df937a5cef6a242b319bd0fcc0e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53c44521fff8b5d7efb7cb2b5060879') in 0.481555 seconds
 Number of updated asset objects reloaded before import = 2
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 893.370602 seconds.
+  path: Assets/2DGamekit/Prefabs/GlobalLight2D.prefab
+  artifactKey: Guid(77213b8c908e37840bb794abb1a44914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/GlobalLight2D.prefab using Guid(77213b8c908e37840bb794abb1a44914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3973d6d2cb1614e6d1e77ec6db3dcf6') in 1.136201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/2DGamekit/Prefabs/MainCamera.prefab
+  artifactKey: Guid(bb0018ce3a8caa643b44f8487c34bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/MainCamera.prefab using Guid(bb0018ce3a8caa643b44f8487c34bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5507a23ac328ad429548c4a13ad5e9') in 0.133551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.595583 seconds.
+  path: Assets/2DGamekit/Prefabs/Audio
+  artifactKey: Guid(44c768a24ba31ef4b92353a3ef64e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Audio using Guid(44c768a24ba31ef4b92353a3ef64e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81af152099102feca2ceeae7b0771433') in 0.001269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088328 seconds.
+  path: Assets/2DGamekit/Prefabs/Audio/BackgroundMusicPlayer.prefab
+  artifactKey: Guid(9c48d4101c920ef47a787da13f097d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Audio/BackgroundMusicPlayer.prefab using Guid(9c48d4101c920ef47a787da13f097d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cbe12c7af2d3c096f9b8dd71935f05') in 0.003475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 57.826015 seconds.
+  path: Assets/2DGamekit/Prefabs/Enemies/Chomper.prefab
+  artifactKey: Guid(9a2f32836e0e10248b425c273622a735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Enemies/Chomper.prefab using Guid(9a2f32836e0e10248b425c273622a735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '5d5bcfc5075e5ec3daf772dc3bc6d8c0') in 2.067133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.432366 seconds.
+  path: Assets/2DGamekit/Prefabs/Environment/Spikes.prefab
+  artifactKey: Guid(4ff9f7a332b4ae44bb62aaee6eacc033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Environment/Spikes.prefab using Guid(4ff9f7a332b4ae44bb62aaee6eacc033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19501d5afc0f9bf04f41d523ba8f736f') in 0.081099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 8.502545 seconds.
+  path: Assets/2DGamekit/Prefabs/Interactables/DestructableColumn.prefab
+  artifactKey: Guid(c57359a20b483084f9310f1d0b46f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Interactables/DestructableColumn.prefab using Guid(c57359a20b483084f9310f1d0b46f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '2ff2e5c6a924f5ad63cf8d4bc4fae0f6') in 0.729325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2DGamekit/Prefabs/Interactables/PressurePad.prefab
+  artifactKey: Guid(daebb73bab52a3b4d8eab37c26a8a62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Interactables/PressurePad.prefab using Guid(daebb73bab52a3b4d8eab37c26a8a62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e3650f599f141e51cd1e8d5bd10c90') in 0.063640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2DGamekit/Prefabs/Interactables/PushableBox.prefab
+  artifactKey: Guid(afbffe7f4d780a848bb3211bd9c32278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Interactables/PushableBox.prefab using Guid(afbffe7f4d780a848bb3211bd9c32278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '4f14374190e837caa88a20db0c3b31d2') in 0.033758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2DGamekit/Prefabs/Interactables/HealthPickup.prefab
+  artifactKey: Guid(6ce14eb040a43734b9fb27d9a62d91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Interactables/HealthPickup.prefab using Guid(6ce14eb040a43734b9fb27d9a62d91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'a70ce7ee4090dc70204f1409f51c28b4') in 0.284704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DGamekit/Prefabs/Interactables/ReusableSwitch.prefab
+  artifactKey: Guid(40cc899f594768746b6d70b3f2530c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/Interactables/ReusableSwitch.prefab using Guid(40cc899f594768746b6d70b3f2530c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b630f676c03a03c3ba22384e33a5da0f') in 0.010911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
