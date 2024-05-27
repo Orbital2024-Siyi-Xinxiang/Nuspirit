@@ -51,7 +51,7 @@ public class AnimationSprites : MonoBehaviour
         anim.SetBool("Walking", walking);
     }
 
-    public void Bored()
+    /// public void Bored()
     {
         anim.SetTrigger("Bored");
     }
