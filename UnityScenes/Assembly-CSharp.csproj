@@ -231,7 +231,6 @@
     <None Include="Assets/2DGamekit/Utilities/Shaders/NormalMappedTile.shader" />
     <None Include="Assets/karsiori/Pixel Art Flower Pack/Pixel Art Flower Pack - Read Me.txt" />
     <None Include="Assets/2DGamekit/Utilities/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" />
-    <None Include="Assets/Settings/ThirdParty/Backyard - Free/Readme.txt" />
     <None Include="Assets/2DGamekit/Utilities/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/2DGamekit/Utilities/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" />
     <None Include="Assets/2DGamekit/Utilities/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" />
