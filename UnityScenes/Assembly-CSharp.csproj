@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/2DGamekit/Scripts/Utility/Helpers.cs" />
-    <Compile Include="Assets/Code/Scripts/IsometricCamera.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenTrack.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/AI/MissileGolem.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherMixerBehaviour.cs" />
@@ -74,7 +73,6 @@
     <Compile Include="Assets/2DGamekit/Scripts/Objects/Platforms/PlatformCatcher.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Objects/Pushables/PressurePad.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Core/InteractOnButton2D.cs" />
-    <Compile Include="Assets/Code/Scripts/NewPlayableBehaviour.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlMixerBehaviour.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Utility/SetMaterialRenderQueue.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/AI/GunnerProjectile.cs" />
@@ -144,7 +142,6 @@
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/PushingSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/MeleeAttackSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Core/InteractOnButton.cs" />
-    <Compile Include="Assets/Code/Scripts/PlayController.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/IDataPersister.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/CrouchWithGunSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Utility/PhysicsHelper.cs" />
@@ -162,7 +159,6 @@
     <Compile Include="Assets/2DGamekit/Scripts/Audio/BackgroundMusicPlayer.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/TutorialInfo.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneMeleeAttackSMB.cs" />
-    <Compile Include="Assets/Code/Scripts/GameManager.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextTrack.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/SceneController.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerCharacter.cs" />
@@ -226,7 +222,6 @@
     <None Include="Assets/2DGamekit/Utilities/Shaders/UnityStandardParticles.cginc" />
     <None Include="Assets/2DGamekit/Utilities/Shaders/FrostedGlass.shader" />
     <None Include="Assets/2DGamekit/Utilities/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" />
-    <None Include="Assets/Code/Shaders/NewSurfaceShader.shader" />
     <None Include="Assets/2DGamekit/Utilities/Shaders/NormalMappedSprite-Animated.shader" />
     <None Include="Assets/2DGamekit/Utilities/Shaders/NormalMappedSprite.shader" />
     <None Include="Assets/2DGamekit/Utilities/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" />
