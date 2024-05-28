@@ -14,6 +14,7 @@ public class AnimationSprites : MonoBehaviour
     private Animator anim;
 
 
+
     private void OnValidate()
     {
         // Find replacement body sprite
