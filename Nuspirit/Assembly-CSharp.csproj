@@ -72,6 +72,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" />
     <Compile Include="Assets/Scripts/Firestore/FirestoreImageLoader.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementState.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets/Scripts/SpiritualIsland/PlayerControl/InputManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/Scripts/Firestore/FirebaseInitializer.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
@@ -104,6 +107,8 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
