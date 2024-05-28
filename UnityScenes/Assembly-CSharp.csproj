@@ -87,13 +87,16 @@
     <Compile Include="Assets/2DGamekit/Scripts/Utility/RuleTile.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/UI/HealthUI.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Utility/PriorityQueue.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/IBuildingState.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/UI/MenuActivityController.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/SceneTransitionDestination.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/MonoBehaviours/VFXController.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Objects/Platforms/FallthroughReseter.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/RemovingState.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Utility/OpenURL.cs" />
     <Compile Include="Assets/_Complete-Game/Scripts/Enemy.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/PlacementState.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/LocomotionWithGunSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Utility/AutoCameraSetup.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Core/ObjectPool.cs" />
@@ -113,6 +116,7 @@
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/RespawnSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Objects/Pushables/Pushable.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextMixerBehaviour.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/InputManager.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Audio/MixerSliderLink.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/MonoBehaviours/Damageable.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenClip.cs" />
@@ -128,8 +132,10 @@
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoScriptPlayableTrack.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Core/InteractOnCollision2D.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Localization/OriginalPhrases.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/PlacementSystem.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Objects/HubDoor.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherBehaviour.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/ObjectPlacer.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationTrack.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" />
     <Compile Include="Assets/Assets/Scripts/AnimationSprites.cs" />
@@ -156,6 +162,7 @@
     <Compile Include="Assets/2DGamekit/Scripts/Objects/HealthPickup.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoPlayableBehaviour.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Localization/TranslatedPhrases.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/ObjectsDatabaseSO.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperAttackSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Audio/BackgroundMusicPlayer.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/TutorialInfo.cs" />
@@ -164,6 +171,7 @@
     <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/SceneController.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerCharacter.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Effect/SpriteColorChange.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/SoundFeedback.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/AI/InstantiateObject.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Audio/AudioSurface.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Objects/WeaponPickup.cs" />
@@ -184,9 +192,11 @@
     <Compile Include="Assets/2DGamekit/Scripts/AI/GunnerBeamController.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Core/Checkpoint.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/CrouchSMB.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/PreviewSystem.cs" />
     <Compile Include="Assets/_Complete-Game/Scripts/GameManager.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Effect/GunnerShieldEffect.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Effect/GunnerLightning.cs" />
+    <Compile Include="Assets/Grid-Placement-System-Unity-2022/GridData.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerInput.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperPatrolSMB.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/CharacterStateSetter.cs" />
