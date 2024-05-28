@@ -106,6 +106,7 @@
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlClip.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextBehaviour.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Core/InteractOnTrigger.cs" />
+    <Compile Include="Assets/Assets/Scripts/UIManager.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/AI/BT.cs" />
     <Compile Include="Assets/_Complete-Game/Scripts/BoardManager.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenMixerBehaviour.cs" />

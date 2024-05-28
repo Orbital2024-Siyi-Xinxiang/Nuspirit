@@ -11,7 +11,7 @@ public class GridLocator : MonoBehaviour {
 
 
 
-	/*void OnValidate()
+	void OnValidate()
     {
         List<AnimationSprites> dudes = GetComponent<DudeControlUnit>().dudes;
 
@@ -33,5 +33,5 @@ public class GridLocator : MonoBehaviour {
             }
             print(column * gridSize.x + " " + row * gridSize.y + " " + 0f);
         }
-    }*/
+    }
 }
