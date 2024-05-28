@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56606
+50931
 Successfully changed project path to: /Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Nuspirit
 /Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Nuspirit
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/emma/Desktop/Repos/Orbital2024/Mono
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8438156288] Host "[IP] 172.31.106.4 [Port] 0 [Flags] 2 [Guid] 99062905 [EditorId] 99062905 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8695090176] Host "[IP] 172.31.106.4 [Port] 0 [Flags] 2 [Guid] 4110358990 [EditorId] 4110358990 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8438156288] Host "[IP] 172.31.106.4 [Port] 0 [Flags] 2 [Guid] 99062905 [EditorId] 99062905 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8695090176] Host "[IP] 172.31.106.4 [Port] 0 [Flags] 2 [Guid] 4110358990 [EditorId] 4110358990 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 14.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,7 +76,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56298
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56743
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -84,52 +84,52 @@ Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/Uni
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Registered in 0.009361 seconds.
-- Loaded All Assemblies, in  0.341 seconds
+Registered in 0.004031 seconds.
+- Loaded All Assemblies, in  0.283 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for VisionOS target not found
-objc[16298]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x14efbc5d8) and /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x14efe45d8). One of the two will be used. Which one is undefined.
+objc[26743]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x16327c5d8) and /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x1632cc5d8). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
-[usbmuxd] Send listen message
 Native extension for iOS target not found
+[usbmuxd] Send listen message
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 97 ms
+Android Extension - Scanning For ADB Devices 89 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.401 seconds
-Domain Reload Profiling: 742ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  0.388 seconds
+Domain Reload Profiling: 672ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (45ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
 	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (135ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
+			TypeCache.Refresh (120ms)
 				TypeCache.ScanAssembly (109ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (401ms)
+	FinalizeReload (388ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
+		SetupLoadedEditorAssemblies (351ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (256ms)
+			InitializePlatformSupportModulesInManaged (245ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (69ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,8 +137,8 @@ Domain Reload Profiling: 742ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.626 seconds
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
 Native extension for VisionOS target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -155,48 +155,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.543 seconds
-Domain Reload Profiling: 1170ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 1144ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (456ms)
-		LoadAssemblies (359ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (363ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (113ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (543ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (460ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (400ms)
+		SetupLoadedEditorAssemblies (341ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4295 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (61.8 KB). Loaded Objects now: 4748.
-Memory consumption went from 163.0 MB to 162.9 MB.
-Total: 3.604250 ms (FindLiveObjects: 0.182750 ms CreateObjectMapping: 0.075500 ms MarkObjects: 3.201667 ms  DeleteObjects: 0.143916 ms)
+Unloading 76 unused Assets / (61.4 KB). Loaded Objects now: 4747.
+Memory consumption went from 163.3 MB to 163.3 MB.
+Total: 3.734125 ms (FindLiveObjects: 0.159792 ms CreateObjectMapping: 0.046583 ms MarkObjects: 3.180584 ms  DeleteObjects: 0.346417 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -213,683 +213,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16816.739038 seconds.
-  path: Assets/Scenes/SpiritualIslandBackground.prefab
-  artifactKey: Guid(630687296655d43b4ae4914636c160b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SpiritualIslandBackground.prefab using Guid(630687296655d43b4ae4914636c160b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedd9e88126307a2644b3493c2567fe0') in 0.540962 seconds
+  Time since last request: 1475.387606 seconds.
+  path: Assets/ThirdParty/Backyard - Free/sample_ground.png
+  artifactKey: Guid(554eb3f7771ceeb4ca590c856d92dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Backyard - Free/sample_ground.png using Guid(554eb3f7771ceeb4ca590c856d92dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea37bf4cf53ab9672b4a047adbb441a') in 0.198590 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 190.521514 seconds.
-  path: Assets/ThirdParty/Backyard - Free/Separate Tiles/GrassTile.asset
-  artifactKey: Guid(b0e004f08c0a347d5afd54738f2a9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Backyard - Free/Separate Tiles/GrassTile.asset using Guid(b0e004f08c0a347d5afd54738f2a9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc94d78d44e5cff58492fa99e8084ed9') in 0.706741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 453.550035 seconds.
-  path: Assets/Scenes/SpiritualIslandBackground.prefab
-  artifactKey: Guid(630687296655d43b4ae4914636c160b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SpiritualIslandBackground.prefab using Guid(630687296655d43b4ae4914636c160b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8987fcfa85e0e8a05e971725656653d9') in 0.900698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 824.694786 seconds.
-  path: Assets/ThirdParty/Backyard - Free/Separate Tiles/Materials/backyard_40.mat
-  artifactKey: Guid(87101d2c23e134825a8187a73db9c7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Backyard - Free/Separate Tiles/Materials/backyard_40.mat using Guid(87101d2c23e134825a8187a73db9c7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e05f77e486daa9a2feb7686a5b2a04') in 1.151891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 394.051791 seconds.
-  path: Assets/ThirdParty/Backyard - Free/Separate Tiles/Grass2.asset
-  artifactKey: Guid(f1cd4fd68877240c8b787a73b9972603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Backyard - Free/Separate Tiles/Grass2.asset using Guid(f1cd4fd68877240c8b787a73b9972603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d633ef6f531e07fe63d733d092cf165') in 0.724740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1151.130491 seconds.
-  path: Assets/UI Toolkit/PanelSettings.asset
-  artifactKey: Guid(f8fbcc04fbe354bbeb25c5bf6e8f7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(f8fbcc04fbe354bbeb25c5bf6e8f7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c9976c80ffea91adaf9ccf2d455330') in 0.604453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x315e87000 may have been prematurely finalized
-- Loaded All Assemblies, in  1.188 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.513 seconds
-Domain Reload Profiling: 2701ms
-	BeginReloadAssembly (785ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (111ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (342ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (530ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (71ms)
-			TypeCache.Refresh (59ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1513ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (124ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (237ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4282 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (109.5 KB). Loaded Objects now: 4797.
-Memory consumption went from 170.8 MB to 170.6 MB.
-Total: 6.110833 ms (FindLiveObjects: 0.197083 ms CreateObjectMapping: 0.060125 ms MarkObjects: 5.681333 ms  DeleteObjects: 0.171458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Attached: 3 00008110-001250421A8A401E
-[usbmuxd] Attached: 3 00008110-001250421A8A401E
-[usbmuxd] Detached: 3 00008110-001250421A8A401E
-[usbmuxd] Detached: 3 00008110-001250421A8A401E
-========================================================================
-Received Import Request.
-  Time since last request: 10822.317932 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/IndoorDecorations/tulips-with-pot .png
-  artifactKey: Guid(37335546de9b64b8f8e312650f76b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/IndoorDecorations/tulips-with-pot .png using Guid(37335546de9b64b8f8e312650f76b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b873f26ea9b6dc4fe47a9bde0fae30f2') in 3.010171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.916207 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/animals/dove/4.png
-  artifactKey: Guid(7a38ccb68f9404dc99fb1d4f3611eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/animals/dove/4.png using Guid(7a38ccb68f9404dc99fb1d4f3611eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476e50a08acf7e25705a4043c2aceebd') in 0.060070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/animals/dove/8.png
-  artifactKey: Guid(f47ca373848014779ac9508ecfeb2cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/animals/dove/8.png using Guid(f47ca373848014779ac9508ecfeb2cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9048dec6ab8f8b1a615cf77f9b16edfe') in 0.012608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/AppIcons/Assets.xcassets/AppIcon.appiconset/29.png
-  artifactKey: Guid(1056bbebbdd0a41359ef6f2cef0281eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/AppIcons/Assets.xcassets/AppIcon.appiconset/29.png using Guid(1056bbebbdd0a41359ef6f2cef0281eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24e3671e47d2f75338a7491ae0a41f5') in 0.020278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.917904 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/AppIcons/Assets.xcassets/AppIcon.appiconset/80.png
-  artifactKey: Guid(a1f2fe1da57eb4b339ed7c17bfddd66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/AppIcons/Assets.xcassets/AppIcon.appiconset/80.png using Guid(a1f2fe1da57eb4b339ed7c17bfddd66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43a3477bd6848021af1ab6361440ad1') in 0.078219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.082457 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/AppIcons/Assets.xcassets/AppIcon.appiconset/120.png
-  artifactKey: Guid(075bf6d8638284600b49b6167c7e5fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/AppIcons/Assets.xcassets/AppIcon.appiconset/120.png using Guid(075bf6d8638284600b49b6167c7e5fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd47cdc39af4e947166101403991950a') in 0.033075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.231101 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/IndoorDecorations/cat.png
-  artifactKey: Guid(39a9a2539f2574a54b4e97f5b97017bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/FurnitureMarketDesign/IndoorDecorations/cat.png using Guid(39a9a2539f2574a54b4e97f5b97017bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1b2d0cb2b070e01a86a2b877c9b33d') in 0.320856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/UserProfileDesign/avatars/pixil-frame-0 8.png
-  artifactKey: Guid(ccdbea9caa9544d558de8d97615ff61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/UserProfileDesign/avatars/pixil-frame-0 8.png using Guid(ccdbea9caa9544d558de8d97615ff61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d40e1011796ae0b00b6b9fac749f1e') in 0.018039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.258167 seconds.
-  path: Assets/ThirdParty/AppUtilities/Utilities/UserProfileDesign/avatars/pixil-frame-0 16.png
-  artifactKey: Guid(8685682af898d43c3bf6e0b3958f6154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AppUtilities/Utilities/UserProfileDesign/avatars/pixil-frame-0 16.png using Guid(8685682af898d43c3bf6e0b3958f6154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f80c9e0c6e23fb539b8d20ece2d3f92') in 0.010389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.470364 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0032.png
-  artifactKey: Guid(caa385c08da8a4043af8188578ecb2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0032.png using Guid(caa385c08da8a4043af8188578ecb2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b344a6621abf387f58c4e00311b186') in 0.167788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.427742 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0116.png
-  artifactKey: Guid(a276542e5d816403a96dca61f742ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0116.png using Guid(a276542e5d816403a96dca61f742ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a913ad38a03dc057dd7af22ed7652a') in 0.145518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.046561 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0119.png
-  artifactKey: Guid(3e9d6d0c308794dc3bd1412ba9647904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0119.png using Guid(3e9d6d0c308794dc3bd1412ba9647904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e7c7e545561c62befd55b0c9f26086') in 0.042882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.016759 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0131.png
-  artifactKey: Guid(2c7a04a2bcb4a4bc4b43e6ed0c29e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0131.png using Guid(2c7a04a2bcb4a4bc4b43e6ed0c29e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300b445f68b392c0d0126068d0d60c23') in 0.009873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.953681 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0146.png
-  artifactKey: Guid(16ab784fd392b4ac5ba18ac69c207f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0146.png using Guid(16ab784fd392b4ac5ba18ac69c207f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefe9716050779188179abe3b8e08dd9') in 0.009614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.036152 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0148.png
-  artifactKey: Guid(82adb4f351f2540cc815180e7236f55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0148.png using Guid(82adb4f351f2540cc815180e7236f55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f769d32d794e3e3ef1e5409b32ed5d') in 0.007951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.269721 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0154.png
-  artifactKey: Guid(55169066a3fcb427d87dd958cfa22f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0154.png using Guid(55169066a3fcb427d87dd958cfa22f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdc81e5197d79a84bdcdc8c55e902d1') in 0.019301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.028583 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0156.png
-  artifactKey: Guid(77da2dace02a0447b926cfd957d7543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0156.png using Guid(77da2dace02a0447b926cfd957d7543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c64baadc2b9ed3d629dafaa2d3b255') in 0.006777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.119155 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0161.png
-  artifactKey: Guid(5fe41a92576a54ab18c255ef1ee574e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0161.png using Guid(5fe41a92576a54ab18c255ef1ee574e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04e3c509f8339d772649ed7849eaa26') in 0.008368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.260200 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0168.png
-  artifactKey: Guid(4d2549fff07eb4aafb716c889e26711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0168.png using Guid(4d2549fff07eb4aafb716c889e26711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4a01cd8e1e918eac99fa53dcadbf1') in 0.006158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.105402 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0172.png
-  artifactKey: Guid(f84cdbcf0913947ee8ad638423c16ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0172.png using Guid(f84cdbcf0913947ee8ad638423c16ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511fd43db6159d0032395e2731b98de') in 0.009029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002367 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0174.png
-  artifactKey: Guid(0f978b7313ce4428a91bfdd33ee20139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0174.png using Guid(0f978b7313ce4428a91bfdd33ee20139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7078231c070fd7c685bc1fdf8335f7b9') in 0.010838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.209621 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0213.png
-  artifactKey: Guid(8167d6f9642c6474b8a4cb612a66f7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0213.png using Guid(8167d6f9642c6474b8a4cb612a66f7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42385df14d99ab6b41e63603d566f68e') in 0.148489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.302307 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0228.png
-  artifactKey: Guid(e17b46562fc7448dd910b3364ee360f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0228.png using Guid(e17b46562fc7448dd910b3364ee360f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddadccab1513a11f14e302b1d75815d') in 0.020741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.058958 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0231.png
-  artifactKey: Guid(84111fd594b104017b481053d0d1be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0231.png using Guid(84111fd594b104017b481053d0d1be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3145a2521eed7f76d22ca886b67e567c') in 0.010651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0232.png
-  artifactKey: Guid(adbeedee6d0c542ac872a2ceecc57422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0232.png using Guid(adbeedee6d0c542ac872a2ceecc57422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf1824e4e6441a4fa8d92d0867465c9') in 0.007475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.058302 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0235.png
-  artifactKey: Guid(6573a99e9a4134569a620f935fc4d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0235.png using Guid(6573a99e9a4134569a620f935fc4d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60e6b881b88de0274e03d9c176276dc') in 0.008595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.608686 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0244.png
-  artifactKey: Guid(b43dcc0ec7c65408293819c842b5e008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0244.png using Guid(b43dcc0ec7c65408293819c842b5e008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796c10f61ab0a468a7cb2cac1f1713ee') in 0.007020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.039687 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0246.png
-  artifactKey: Guid(5f198760d016d4739b1a09a91b085d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0246.png using Guid(5f198760d016d4739b1a09a91b085d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e490177a80c03e01f5475d95b8fd7a5') in 0.006716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0248.png
-  artifactKey: Guid(7ea34f7c73e344455bc099d50a96fa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0248.png using Guid(7ea34f7c73e344455bc099d50a96fa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b551882abbb776c2716a3e135d03d9e1') in 0.006806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.051566 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0249.png
-  artifactKey: Guid(1db65b0512a4144f2aa5f4809995f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0249.png using Guid(1db65b0512a4144f2aa5f4809995f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695cfb4077f2ed640c7cc12c2bda8db0') in 0.006801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0251.png
-  artifactKey: Guid(c8c234dc940af412d9d4fcd078ed6aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0251.png using Guid(c8c234dc940af412d9d4fcd078ed6aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35ae26b99e7bba7fe08c1232c3e89d7') in 0.008073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.285054 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0258.png
-  artifactKey: Guid(b3b1bb3e986694c0d9a87b72320b427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0258.png using Guid(b3b1bb3e986694c0d9a87b72320b427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea6b22e12e4fffa40bfeceffd660b72') in 0.010511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.793670 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0265.png
-  artifactKey: Guid(e47fecf3bad3b45ec85af13ceae47d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0265.png using Guid(e47fecf3bad3b45ec85af13ceae47d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45de74c7ccef684ef27eac7682b85396') in 0.014064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.111242 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0269.png
-  artifactKey: Guid(4c5dc2b1483f3492fabb84bf78d89fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0269.png using Guid(4c5dc2b1483f3492fabb84bf78d89fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256a74a5391558cedd55321aad4339ef') in 0.005980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0271.png
-  artifactKey: Guid(7d98a69bedd5642ab87e5688efb235dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0271.png using Guid(7d98a69bedd5642ab87e5688efb235dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cf3a7a196d574c286947e4eb04f2da') in 0.006184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.691129 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0285.png
-  artifactKey: Guid(196e1f34d070a45e79552930a6f265d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0285.png using Guid(196e1f34d070a45e79552930a6f265d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eebfa97c041087fabc492fbe587cf1') in 0.005029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.046080 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0287.png
-  artifactKey: Guid(d79819deee2564b41bd6a472309837e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0287.png using Guid(d79819deee2564b41bd6a472309837e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d427c666beb037881aa49bdd26ee131') in 0.013419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.044305 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0289.png
-  artifactKey: Guid(1ca4c1d591b9a46ec9d345e6aaf992fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0289.png using Guid(1ca4c1d591b9a46ec9d345e6aaf992fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e6490256eea53c17e0818cec9ed1e7') in 0.006588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0291.png
-  artifactKey: Guid(b3369b7969c7d46b8be2b4ce399613db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0291.png using Guid(b3369b7969c7d46b8be2b4ce399613db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989426306a4c8a20b6cfe9888ba2ffd4') in 0.006358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.162938 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0294.png
-  artifactKey: Guid(ef32cf93212184cd696fc262930417b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0294.png using Guid(ef32cf93212184cd696fc262930417b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b7380371feec6ee96993c5833628ba') in 0.027237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.011135 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0296.png
-  artifactKey: Guid(5120bb0d440ca4374bbbd5c323ddb60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0296.png using Guid(5120bb0d440ca4374bbbd5c323ddb60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ca644b75d40ce67a869cb0f1b0f65') in 0.006099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.039630 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0299.png
-  artifactKey: Guid(645fd3bb97b0942e391d4ea6ecac92f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0299.png using Guid(645fd3bb97b0942e391d4ea6ecac92f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c72b2654592ce1f21efce65405a611d') in 0.010431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.555891 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0303.png
-  artifactKey: Guid(673b7b2f4ada9422ab70a660c4effccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0303.png using Guid(673b7b2f4ada9422ab70a660c4effccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dabd445ec8bfe8f228b42b15fca34a5') in 0.005902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.059109 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0305.png
-  artifactKey: Guid(c1d99a9637e294cc29b593fe6743c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0305.png using Guid(c1d99a9637e294cc29b593fe6743c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cd1176d212ecf2f6fbeeb260e8a718') in 0.033966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0306.png
-  artifactKey: Guid(615f97de840c844debf0eac3488ca6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0306.png using Guid(615f97de840c844debf0eac3488ca6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7791656093d3985cd9546f3ee12938') in 0.006763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.039871 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0313.png
-  artifactKey: Guid(6869cc11e700748ca842c68eea7dfb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0313.png using Guid(6869cc11e700748ca842c68eea7dfb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdbd88fb9c96990fa48b946c526be44') in 0.005611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0313.png
-  artifactKey: Guid(13535523f97be41e0b88935cb0f5b345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0313.png using Guid(13535523f97be41e0b88935cb0f5b345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d3f69829d14a89d901a872dddf4bbf') in 0.006154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0314.png
-  artifactKey: Guid(b2f3573b2e9f243eeaaead9e76c52823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0314.png using Guid(b2f3573b2e9f243eeaaead9e76c52823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29f553a9989830a720b5cd19307e292') in 0.013091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.031001 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0317.png
-  artifactKey: Guid(ec68653d24b2a4e9e89f8a22cf9d100d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0317.png using Guid(ec68653d24b2a4e9e89f8a22cf9d100d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78d80f57b25010d55a075cceeff8b7c') in 0.007792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.043100 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0319.png
-  artifactKey: Guid(87786650616184d3d9d891480c626bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0319.png using Guid(87786650616184d3d9d891480c626bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfac70fc1fed2a4039ca813d1e6c6d49') in 0.004418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0320.png
-  artifactKey: Guid(d87985c8b3a794c139db31cec1540851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0320.png using Guid(d87985c8b3a794c139db31cec1540851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b945679efd5ea1d42a766f0efd3e6d') in 0.004779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.103709 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0326.png
-  artifactKey: Guid(731455a03baaa408fa4a4241568c632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0326.png using Guid(731455a03baaa408fa4a4241568c632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141eda899032f71099802fa6f89a3dda') in 0.006081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0328.png
-  artifactKey: Guid(8c66aa07bbed94681b34e8868419d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0328.png using Guid(8c66aa07bbed94681b34e8868419d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09f305c8ac427bdb0cd16bdbc6cf9a2') in 0.004928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0327.png
-  artifactKey: Guid(e596c3a6a99e84461b97be0ccaccf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0327.png using Guid(e596c3a6a99e84461b97be0ccaccf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f9d2ef4e4e3a224d36ebc3b6f03d76') in 0.007543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.008351 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0330.png
-  artifactKey: Guid(dda46bc2960614b74a82b4c4096a8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0330.png using Guid(dda46bc2960614b74a82b4c4096a8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3cc9511fb830025b819b127c7ebc3a') in 0.004438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.020811 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0332.png
-  artifactKey: Guid(76dd75e427e034676832fd0e8c4432c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0332.png using Guid(76dd75e427e034676832fd0e8c4432c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e190089d16f91143d773d7892419fa3b') in 0.004970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0334.png
-  artifactKey: Guid(3298e52bd425f4429b0cbc6a26a9d62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0334.png using Guid(3298e52bd425f4429b0cbc6a26a9d62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ff714e387fd4e43d79e4c4378c93e') in 0.007802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.043886 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0335.png
-  artifactKey: Guid(19b62d4f44bb7461d8a7070e5a3558d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0335.png using Guid(19b62d4f44bb7461d8a7070e5a3558d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e047fe0d6a127505fb158973912ed711') in 0.025522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0337.png
-  artifactKey: Guid(fa27a93c0f7fe4f02b7cdc2cfac51f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0337.png using Guid(fa27a93c0f7fe4f02b7cdc2cfac51f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b6b44b5e955a9eaf5cccedc67ffe62') in 0.006315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.711344 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0346.png
-  artifactKey: Guid(3179f12e8fc1d4179be07980d85eec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0346.png using Guid(3179f12e8fc1d4179be07980d85eec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10ebd85b9c263bbd6141532328de16') in 0.008096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001081 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0347.png
-  artifactKey: Guid(452ab7f961f5245cf8c7459513c09e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0347.png using Guid(452ab7f961f5245cf8c7459513c09e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e185a58dec25f7d40b88d076db560da8') in 0.012876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.062809 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0349.png
-  artifactKey: Guid(f50c311a504a643b1b90e671025f33a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0349.png using Guid(f50c311a504a643b1b90e671025f33a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0ed54fc7c0b52a27400e389de0939c') in 0.005533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0351.png
-  artifactKey: Guid(88722fcbc9c2743e4a851f2a90834e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0351.png using Guid(88722fcbc9c2743e4a851f2a90834e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c5d853044ec953dbe1341a95b14d65') in 0.006419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.126972 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0352.png
-  artifactKey: Guid(f3d6f13b481174b9a967f9c50beea8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0352.png using Guid(f3d6f13b481174b9a967f9c50beea8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65efaba1c24788014eb48403f4f3ff9b') in 0.006960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.080342 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0356.png
-  artifactKey: Guid(79948ca57292f4b309120e9ef7eb2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0356.png using Guid(79948ca57292f4b309120e9ef7eb2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348a2089b528c1e893e28efb9d3d9c00') in 0.015643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.037910 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0359.png
-  artifactKey: Guid(58315a552193740d3ae47f61e3078aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0359.png using Guid(58315a552193740d3ae47f61e3078aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae4596e1e3adf1a7351ee7c31078f11') in 0.006679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.026181 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0361.png
-  artifactKey: Guid(5b51ff2ee40734fcf8ac675aac5ca4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (White)/tile_0361.png using Guid(5b51ff2ee40734fcf8ac675aac5ca4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91acad500499a1ccc1dae73810fef5b') in 0.005411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0362.png
-  artifactKey: Guid(1d3095a2b7fcd4fd4b7a0f29168dc230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0362.png using Guid(1d3095a2b7fcd4fd4b7a0f29168dc230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa4cb2b863ed1972c405aa82df97157') in 0.005664 seconds
-Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044910 seconds.
-  path: Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0365.png
-  artifactKey: Guid(f0625af0aeb9f474bbe804aad32d85a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/kenney_1-bit-input-prompts-pixel-16/Tiles (Black)/tile_0365.png using Guid(f0625af0aeb9f474bbe804aad32d85a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1ee4f10223a977ca36066c46f61aed') in 0.006887 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdParty/Backyard - Free/SampleGround.asset
+  artifactKey: Guid(4d271a5752df847039d76de562b13a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Backyard - Free/SampleGround.asset using Guid(4d271a5752df847039d76de562b13a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe46eca9e238cb061367b3f8e9e872c7') in 0.036109 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
