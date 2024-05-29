@@ -12,13 +12,13 @@ struct MapViewRepresentable: UIViewRepresentable {
     @Binding var region: MKCoordinateRegion
     @ObservedObject var locationService: LocationService
     @Binding var userTrackingMode: MKUserTrackingMode
-    
+    @Binding var annotations: [CustomMapOverlay]
+
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
         mapView.showsUserLocation = true
         mapView.setRegion(region, animated: false)
-
         mapView.userTrackingMode = userTrackingMode
         
         // Define the bounding box for the NUS region
@@ -34,10 +34,13 @@ struct MapViewRepresentable: UIViewRepresentable {
             size: MKMapSize(width: bottomRightMapPoint.x - topLeftMapPoint.x, height: bottomRightMapPoint.y - topLeftMapPoint.y)
         )
 
-        // Add the custom map overlay
         let overlay = CustomMapOverlay(
-            coordinate: nusCoordinate,
-            boundingMapRect: boundingMapRect
+            coordinate1: nusCoordinate,
+            coordinate2: nusCoordinate,  // Use the same coordinate for the initial overlay
+            title: "NUS",
+            levels: 0,
+            capacity: 0,
+            buildingID: "initial_overlay"
         )
         mapView.addOverlay(overlay)
 
@@ -82,13 +85,32 @@ struct MapViewRepresentable: UIViewRepresentable {
                     annotationView?.annotation = annotation
                 }
 
-                // Load custom symbol from Assets
                 annotationView?.image = UIImage(named: "TestChar")
-                annotationView?.frame.size = CGSize(width: 30, height: 30) // Set the size to 30x30 pixels
+                annotationView?.frame.size = CGSize(width: 30, height: 30)
 
                 return annotationView
-            }
+            } else if let customAnnotation = annotation as? CustomMapOverlay {
+                let identifier = "BuildingAnnotation"
+                var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKPinAnnotationView
+                
+                if annotationView == nil {
+                    annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+                    annotationView?.canShowCallout = true
+                    
+                    let button = UIButton(type: .detailDisclosure)
+                    button.setTitle("Enter", for: .normal)
+                    annotationView?.rightCalloutAccessoryView = button
 
+                    let imageView = UIImageView(image: UIImage(systemName: "photo"))
+                    imageView.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+                    annotationView?.leftCalloutAccessoryView = imageView
+                } else {
+                    annotationView?.annotation = annotation
+                }
+                
+                return annotationView
+            }
+            
             return nil
         }
 
@@ -119,6 +141,12 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
 
             parent.region = mapView.region
+        }
+    }
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        if let customAnnotation = view.annotation as? CustomMapOverlay {
+            parent.selectedBuildingID = customAnnotation.buildingID
         }
     }
 }

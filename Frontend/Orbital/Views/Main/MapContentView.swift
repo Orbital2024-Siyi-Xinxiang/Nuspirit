@@ -8,12 +8,24 @@ struct MapContentView: View {
         span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     )
     @State private var userTrackingMode: MKUserTrackingMode = .follow
-    
+    @State private var annotations: [CustomMapOverlay] = []
 
     var body: some View {
         ZStack {
             MapViewRepresentable(region: $region, locationService: locationService, userTrackingMode: $userTrackingMode)
                 .edgesIgnoringSafeArea(.all)
+            NavigationLink(
+                destination: BuildingView(buildingID: selectedBuildingID ?? ""),
+                isActive: Binding(
+                    get: { selectedBuildingID != nil },
+                    set: { if !$0 { selectedBuildingID = nil } }
+                )
+            ) {
+                EmptyView()
+            }
+        }
+        .onAppear{
+            fetchVenueData()
         }
         .onReceive(locationService.$location) { location in
             guard let location = location else { return }
@@ -41,7 +53,35 @@ struct MapContentView: View {
             region.center = newCenter
         }
     }
+    
+    private func fetchVenueData() {
+        let db = Firestore.firestore()
+        db.collection("key_venues").getDocuments { snapshot, error in
+            guard let documents = snapshot?.documents else { return }
+            var newAnnotations: [CustomMapOverlay] = []
+            for document in documents {
+                let data = document.data()
+                guard let name = data["name"] as? String,
+                      let levels = data["levels"] as? Int,
+                      let capacity = data["capacity"] as? Int,
+                      let coordinates = data["coordinates"] as? [GeoPoint], coordinates.count == 2 else { continue }
+                
+                let coordinate1 = CLLocationCoordinate2D(
+                    latitude: coordinates[0].latitude,
+                    longitude: coordinates[0].longitude)
+                let coordinate2 = CLLocationCoordinate2D(
+                    latitude: coordinates[1].latitude,
+                    longitude: coordinates[1].longitude)
+                
+                let annotation = CustomMapOverlay(coordinate1: coordinate1, coordinate2: coordinate2, title: name, levels: levels, capacity: capacity, buildingID: document.documentID)
+                newAnnotations.append(annotation)
+            }
+            annotations = newAnnotations
+        }
+    }
 }
+
+
 
 struct MapContentView_Previews: PreviewProvider {
     static var previews: some View {
