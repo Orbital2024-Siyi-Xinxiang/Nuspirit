@@ -23,6 +23,7 @@ with open('/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/ThirdParty/bu
 
 # Extract coordinates from the GeoJSON data
 buildings = []
+key_buildings = []
 
 if geojson_data:
     for feature in geojson_data['features']:
@@ -31,11 +32,30 @@ if geojson_data:
         else:
             coordinates1 = [feature['bbox'][0], feature['bbox'][1]]
             coordinates2 = [feature['bbox'][2], feature['bbox'][3]]
-            id = feature.get('id', None)[8:-1] # Extract the building ID
+            id = feature.get('id', None) # Extract the building ID
+            properties = feature.get('properties', None)
             buildings.append({
                 'name': id,
                 'coordinates': [coordinates1, coordinates2]
             })
+            if properties:
+                if properties.get('name') != 'null':
+                    if properties.get('name') != 'null':
+                        id = ''.join(filter(str.isdigit, id))  # Extract only numeric characters from the ID
+                        key_buildings.append({
+                            'id': id,
+                            'coordinates': [coordinates1, coordinates2],
+                            'name': properties['name'],
+                            'levels': properties.get("building:levels", 1),
+                            'capacity': properties.get('capacity', 0)
+                        })
+                    # key_buildings.append({
+                    #     'id': id,
+                    #     'coordinates': [coordinates1, coordinates2],
+                    #     'name': properties['name'],
+                    #     'levels': properties.get("building:levels", 1),
+                    #     'capacity': properties.get('capacity', 0)
+                    # })
 
 
 # Print the extracted building data
@@ -45,4 +65,6 @@ for building in buildings:
 
 # Optionally, save to a JSON file
 with open('/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/ThirdParty/buildings_data.json', 'w') as json_file:
-    json.dump(buildings, json_file, indent=4)
+    json.dump(buildings, json_file, indent = 4)
+with open('/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/ThirdParty/key_buildings_data.json', 'w') as json_file:
+    json.dump(key_buildings, json_file, indent = 4)
