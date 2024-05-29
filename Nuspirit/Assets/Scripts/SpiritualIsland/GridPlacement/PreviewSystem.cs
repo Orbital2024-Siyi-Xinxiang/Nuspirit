@@ -1,16 +1,28 @@
 using UnityEngine;
 
-public class Previdew : MonoBehaviour
+public class PreviewSystem : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameObject previewPrefab;
+    private GameObject previewInstance;
+
+    public void ShowPreview(Vector3Int cellPosition)
     {
-        
+        if (previewInstance == null)
+        {
+            previewInstance = Instantiate(previewPrefab, cellPosition, Quaternion.identity);
+        }
+        else
+        {
+            previewInstance.transform.position = cellPosition;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void HidePreview()
     {
-        
+        if (previewInstance != null)
+        {
+            Destroy(previewInstance);
+            previewInstance = null;
+        }
     }
 }

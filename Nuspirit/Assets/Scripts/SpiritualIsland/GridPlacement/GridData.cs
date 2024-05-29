@@ -1,18 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using System.Collections.Generic;
 
 public class GridData : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Tilemap tilemap;  // Add this line to define the Tilemap
+
+    // A dictionary to keep track of occupied cells
+    private Dictionary<Vector3Int, GameObject> occupiedCells = new Dictionary<Vector3Int, GameObject>();
+
+    public bool IsCellOccupied(Vector3Int cellPosition)
     {
-        
+        return occupiedCells.ContainsKey(cellPosition);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OccupyCell(Vector3Int cellPosition, GameObject gameObject)
     {
-        
+        if (!occupiedCells.ContainsKey(cellPosition))
+        {
+            occupiedCells[cellPosition] = gameObject;
+        }
+    }
+
+    public void FreeCell(Vector3Int cellPosition)
+    {
+        if (occupiedCells.ContainsKey(cellPosition))
+        {
+            occupiedCells.Remove(cellPosition);
+        }
     }
 }

@@ -1,16 +1,8 @@
 using UnityEngine;
 
-public class IBuildingState : MonoBehaviour
+public interface IBuildingState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void OnEnterState();
+    void OnUpdate();
+    void OnExitState();
 }
