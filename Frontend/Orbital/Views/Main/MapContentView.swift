@@ -1,5 +1,23 @@
+import Foundation
+import FirebaseCore
+import Firebase
+import FirebaseAuth
+import FirebaseAuthUI
+import UserNotifications
+import FirebaseFacebookAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseOAuthUI
+import FirebasePhoneAuthUI
+import FirebaseEmailAuthUI
+import FirebaseEmailAuthUI
+import UIKit
 import SwiftUI
+import GoogleSignIn
+import FBSDKCoreKit
+import FBSDKLoginKit
 import MapKit
+import FirebaseFirestore
+import FirebaseFirestoreUI
 
 struct MapContentView: View {
     @StateObject private var locationService = LocationService.shared
@@ -9,10 +27,11 @@ struct MapContentView: View {
     )
     @State private var userTrackingMode: MKUserTrackingMode = .follow
     @State private var annotations: [CustomMapOverlay] = []
+    @State private var selectedBuildingID: String? = nil
 
     var body: some View {
         ZStack {
-            MapViewRepresentable(region: $region, locationService: locationService, userTrackingMode: $userTrackingMode)
+            MapViewRepresentable(region: $region, locationService: locationService, userTrackingMode: $userTrackingMode, annotations: $annotations, selectedBuildingID: $selectedBuildingID)
                 .edgesIgnoringSafeArea(.all)
             NavigationLink(
                 destination: BuildingView(buildingID: selectedBuildingID ?? ""),
@@ -73,7 +92,23 @@ struct MapContentView: View {
                     latitude: coordinates[1].latitude,
                     longitude: coordinates[1].longitude)
                 
-                let annotation = CustomMapOverlay(coordinate1: coordinate1, coordinate2: coordinate2, title: name, levels: levels, capacity: capacity, buildingID: document.documentID)
+                // Calculate the top left and bottom right points for the bounding box
+                let topLeftMapPoint = MKMapPoint(coordinate1)
+                let bottomRightMapPoint = MKMapPoint(coordinate2)
+                
+                // Calculate the bounding map rectangle
+                let boundingMapRect = MKMapRect(
+                    origin: MKMapPoint(
+                        x: min(topLeftMapPoint.x, bottomRightMapPoint.x),
+                        y: min(topLeftMapPoint.y, bottomRightMapPoint.y)
+                    ),
+                    size: MKMapSize(
+                        width: abs(topLeftMapPoint.x - bottomRightMapPoint.x),
+                        height: abs(topLeftMapPoint.y - bottomRightMapPoint.y)
+                    )
+                )
+                
+                let annotation = CustomMapOverlay(coordinate1: coordinate1, coordinate2: coordinate2, title: name, levels: levels, capacity: capacity, buildingID: document.documentID, boundingMapRect: boundingMapRect)
                 newAnnotations.append(annotation)
             }
             annotations = newAnnotations

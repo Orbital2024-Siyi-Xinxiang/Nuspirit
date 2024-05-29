@@ -1,16 +1,8 @@
 import MapKit
-import SwiftUI
 
-<<<<<<< Updated upstream
-class CustomMapOverlay: NSObject, MKOverlay {
-    var coordinate: CLLocationCoordinate2D
+class CustomMapOverlay: NSObject, MKAnnotation, MKOverlay {
     var boundingMapRect: MKMapRect
-
-    init(coordinate: CLLocationCoordinate2D, boundingMapRect: MKMapRect) {
-        self.coordinate = coordinate
-        self.boundingMapRect = boundingMapRect
-=======
-class CustomMapOverlay: NSObject, MKAnnotation {
+    
     var coordinate: CLLocationCoordinate2D {
         return coordinate1
     }
@@ -21,14 +13,14 @@ class CustomMapOverlay: NSObject, MKAnnotation {
     var capacity: Int
     var buildingID: String
 
-    init(coordinate1: CLLocationCoordinate2D, coordinate2: CLLocationCoordinate2D, title: String, levels: Int, capacity: Int, buildingID: String) {
+    init(coordinate1: CLLocationCoordinate2D, coordinate2: CLLocationCoordinate2D, title: String, levels: Int, capacity: Int, buildingID: String, boundingMapRect: MKMapRect) {
         self.coordinate1 = coordinate1
         self.coordinate2 = coordinate2
         self.title = title
         self.levels = levels
         self.capacity = capacity
         self.buildingID = buildingID
->>>>>>> Stashed changes
+        self.boundingMapRect = boundingMapRect
     }
 }
 
@@ -36,12 +28,23 @@ class CustomMapOverlayRenderer: MKOverlayRenderer {
     override func draw(_ mapRect: MKMapRect, zoomScale: MKZoomScale, in context: CGContext) {
         guard let overlay = overlay as? CustomMapOverlay else { return }
         
-        let rect1 = self.rect(for: MKMapPoint(overlay.coordinate1))
-        let rect2 = self.rect(for: MKMapPoint(overlay.coordinate2))
+        let point1 = MKMapPoint(overlay.coordinate1)
+        let point2 = MKMapPoint(overlay.coordinate2)
         
-        let rect = CGRect(x: min(rect1.origin.x, rect2.origin.x), y: min(rect1.origin.y, rect2.origin.y), width: abs(rect1.origin.x - rect2.origin.x), height: abs(rect1.origin.y - rect2.origin.y))
-
+        let rect = MKMapRect(
+            origin: MKMapPoint(
+                x: min(point1.x, point2.x),
+                y: min(point1.y, point2.y)
+            ),
+            size: MKMapSize(
+                width: abs(point1.x - point2.x),
+                height: abs(point1.y - point2.y)
+            )
+        )
+        
+        let contextRect = self.rect(for: rect)
+        
         context.setFillColor(UIColor.red.withAlphaComponent(0.5).cgColor)
-        context.fill(rect)
+        context.fill(contextRect)
     }
 }
