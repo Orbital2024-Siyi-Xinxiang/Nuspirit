@@ -104,9 +104,8 @@ struct MapViewRepresentable: UIViewRepresentable {
 
                 annotationView?.image = UIImage(named: "TestChar")
                 annotationView?.frame.size = CGSize(width: 30, height: 30)
-
-                return annotationView
-            } else if let customAnnotation = annotation as? CustomMapOverlay {
+                
+            } else if annotation is CustomMapOverlay {
                 let identifier = "BuildingAnnotation"
                 var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
                 
@@ -133,10 +132,10 @@ struct MapViewRepresentable: UIViewRepresentable {
 
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
             var newCenter = mapView.region.center
-            let maxLatitude = 1.310306
-            let minLatitude = 1.287961
-            let maxLongitude = 103.788603
-            let minLongitude = 103.764663
+            let maxLatitude = 1.310306 + 0.005
+            let minLatitude = 1.287961 - 0.005
+            let maxLongitude = 103.788603 + 0.005
+            let minLongitude = 103.764663 - 0.005
 
             // Restrict the center coordinates
             if newCenter.latitude > maxLatitude {
