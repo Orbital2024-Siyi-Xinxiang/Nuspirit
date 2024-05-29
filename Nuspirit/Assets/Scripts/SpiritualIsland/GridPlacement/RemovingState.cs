@@ -1,16 +1,26 @@
 using UnityEngine;
 
-public class RemovingState : MonoBehaviour
+public class RemovingState : MonoBehaviour, IBuildingState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private GridData gridData;
+
     void Start()
     {
-        
+        gridData = FindObjectOfType<GridData>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnEnterState()
     {
-        
+        // Implement logic for entering the removing state
+    }
+
+    public void OnUpdate()
+    {
+        // Implement logic for updating the removing state
+    }
+
+    public void OnExitState()
+    {
+        // Implement logic for exiting the removing state
     }
 }

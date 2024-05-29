@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class PlacementSystem : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public ObjectPlacer objectPlacer;
+
     void Start()
     {
-        
+        objectPlacer.enabled = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Ensure the object placer updates each frame
     }
 }
