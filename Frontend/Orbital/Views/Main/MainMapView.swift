@@ -5,20 +5,11 @@ import Foundation
 
 
 struct MainMapView: View {
-//    @StateObject private var locationManager = LocationManager()
-//    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
-//                                                   span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
     @Binding var showSettingsOverlay: Bool
 
     var body: some View {
         NavigationView {
             ZStack {
-//                Map(coordinateRegion: $region, showsUserLocation: true)
-//                    .onAppear {
-//                        if let userLocation = locationManager.userLocation {
-//                            region.center = userLocation.coordinate
-//                        }
-//                    }
                 MapContentView()
                 
                 if showSettingsOverlay {

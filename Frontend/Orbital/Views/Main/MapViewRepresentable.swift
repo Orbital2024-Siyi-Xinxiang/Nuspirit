@@ -86,10 +86,10 @@ struct MapViewRepresentable: UIViewRepresentable {
             return MKOverlayRenderer(overlay: overlay)
         }
         
-        // Make user location center
-        func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
-            parent.region.center = userLocation.coordinate
-        }
+//        // Make user location center
+//        func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
+//            parent.region.center = userLocation.coordinate
+//        }
         
         // Customize user location annotation view
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
