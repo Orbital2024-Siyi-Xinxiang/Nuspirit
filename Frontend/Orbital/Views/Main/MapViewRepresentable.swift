@@ -23,6 +23,7 @@ extension CLLocationCoordinate2D: Equatable {
     }
 }
 
+
 struct MapViewRepresentable: UIViewRepresentable {
     @Binding var region: MKCoordinateRegion
     @ObservedObject var locationService: LocationService
@@ -36,36 +37,14 @@ struct MapViewRepresentable: UIViewRepresentable {
         mapView.showsUserLocation = true
         mapView.setRegion(region, animated: false)
         mapView.userTrackingMode = userTrackingMode
-        
-        // Define the bounding box for the NUS region
-        let nusCoordinate = CLLocationCoordinate2D(latitude: 1.2966, longitude: 103.7764)
-        let nusTopLeft = CLLocationCoordinate2D(latitude: 1.310306, longitude: 103.764663)
-        let nusBottomRight = CLLocationCoordinate2D(latitude: 1.287961, longitude: 103.788603)
-
-        let topLeftMapPoint = MKMapPoint(nusTopLeft)
-        let bottomRightMapPoint = MKMapPoint(nusBottomRight)
-
-        let boundingMapRect = MKMapRect(
-            origin: topLeftMapPoint,
-            size: MKMapSize(width: bottomRightMapPoint.x - topLeftMapPoint.x, height: bottomRightMapPoint.y - topLeftMapPoint.y)
-        )
-
-        let overlay = CustomMapOverlay(
-            coordinate1: nusCoordinate,
-            coordinate2: nusCoordinate,  // Use the same coordinate for the initial overlay
-            title: "NUS",
-            levels: 0,
-            capacity: 0,
-            buildingID: "initial_overlay",
-            boundingMapRect: boundingMapRect
-        )
-        mapView.addOverlay(overlay)
 
         return mapView
     }
 
     func updateUIView(_ mapView: MKMapView, context: Context) {
         mapView.setRegion(region, animated: true)
+        mapView.removeOverlays(mapView.overlays)
+        mapView.addOverlays(annotations)
     }
 
     func makeCoordinator() -> Coordinator {
@@ -85,12 +64,7 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
             return MKOverlayRenderer(overlay: overlay)
         }
-        
-//        // Make user location center
-//        func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
-//            parent.region.center = userLocation.coordinate
-//        }
-        
+
         // Customize user location annotation view
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             if annotation is MKUserLocation {
@@ -105,28 +79,8 @@ struct MapViewRepresentable: UIViewRepresentable {
                 annotationView?.image = UIImage(named: "TestChar")
                 annotationView?.frame.size = CGSize(width: 30, height: 30)
                 
-            } else if annotation is CustomMapOverlay {
-                let identifier = "BuildingAnnotation"
-                var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
-                
-                if annotationView == nil {
-                    annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-                    annotationView?.canShowCallout = true
-                    
-                    let button = UIButton(type: .detailDisclosure)
-                    button.setTitle("Enter", for: .normal)
-                    annotationView?.rightCalloutAccessoryView = button
-
-                    let imageView = UIImageView(image: UIImage(systemName: "photo"))
-                    imageView.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-                    annotationView?.leftCalloutAccessoryView = imageView
-                } else {
-                    annotationView?.annotation = annotation
-                }
-                
                 return annotationView
             }
-            
             return nil
         }
 
@@ -157,7 +111,7 @@ struct MapViewRepresentable: UIViewRepresentable {
 
             parent.region = mapView.region
         }
-        
+
         func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
             if let customAnnotation = view.annotation as? CustomMapOverlay {
                 parent.selectedBuildingID = customAnnotation.buildingID
@@ -165,3 +119,4 @@ struct MapViewRepresentable: UIViewRepresentable {
         }
     }
 }
+

@@ -1,10 +1,10 @@
 import MapKit
 
-class CustomMapOverlay: NSObject, MKAnnotation, MKOverlay {
+class CustomMapOverlay: NSObject, MKOverlay {
     var boundingMapRect: MKMapRect
     
     var coordinate: CLLocationCoordinate2D {
-        return coordinate1
+        return boundingMapRect.origin.coordinate
     }
     var coordinate1: CLLocationCoordinate2D
     var coordinate2: CLLocationCoordinate2D
