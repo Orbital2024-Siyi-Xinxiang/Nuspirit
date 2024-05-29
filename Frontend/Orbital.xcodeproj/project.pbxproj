@@ -69,10 +69,7 @@
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AE2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040B02BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
-		B5A8283A2C02306D0003E026 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5A828392C02306D0003E026 /* MainViewController.mm */; };
 		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
-		B5B3E4542C01D6E2008799F2 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4522C01D6E2008799F2 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B5B3E45B2C01DF1F008799F2 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E45A2C01DF1F008799F2 /* UnityFramework.framework */; };
 		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
@@ -130,20 +127,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B5B3E4552C01D6E2008799F2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B5B3E4542C01D6E2008799F2 /* UnityFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalApp.swift; sourceTree = "<group>"; };
@@ -181,7 +164,6 @@
 		B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A828382C02306C0003E026 /* Orbital-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbital-Bridging-Header.h"; sourceTree = "<group>"; };
-		B5A828392C02306D0003E026 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
 		B5B3E4482C01905A008799F2 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B3E4522C01D6E2008799F2 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B3E4562C01D6ED008799F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -224,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
-				B5B3E45B2C01DF1F008799F2 /* UnityFramework.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -312,7 +293,6 @@
 		5BC6DE082BF0A7A10031650B /* Orbital */ = {
 			isa = PBXGroup;
 			children = (
-				B5A828392C02306D0003E026 /* MainViewController.mm */,
 				B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */,
 				B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */,
 				B5FE65BB2BFDCD2C000D375A /* Controllers */,
@@ -533,7 +513,6 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
-				B5B3E4552C01D6E2008799F2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -758,7 +737,6 @@
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */,
-				B5A8283A2C02306D0003E026 /* MainViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
