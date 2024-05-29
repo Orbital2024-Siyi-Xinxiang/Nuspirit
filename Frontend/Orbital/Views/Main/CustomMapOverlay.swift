@@ -1,14 +1,31 @@
 import MapKit
 
-class CustomMapOverlay: NSObject, MKOverlay {
-    var coordinate: CLLocationCoordinate2D
-    var boundingMapRect: MKMapRect
+//class CustomMapOverlay: NSObject, MKOverlay {
+//    var coordinate: CLLocationCoordinate2D
+//    var boundingMapRect: MKMapRect
+//
+//    init(coordinate: CLLocationCoordinate2D, boundingMapRect: MKMapRect) {
+//        self.coordinate = coordinate
+//        self.boundingMapRect = boundingMapRect
+//    }
+//}
 
-    init(coordinate: CLLocationCoordinate2D, boundingMapRect: MKMapRect) {
+class CustomMapOverlay: MKAnnotation {
+    var coordinate1: CLLocationCoordinate2D
+    var coordinate2: CLLocationCoordinate2D
+    var title: String?
+    var subtitle: String?
+    var buildingID: String
+    var
+    
+    init(coordinate: CLLocationCoordinate2D, title: String, subtitle: String, buildingID: String) {
         self.coordinate = coordinate
-        self.boundingMapRect = boundingMapRect
+        self.title = title
+        self.subtitle = subtitle
+        self.buildingID = buildingID
     }
 }
+
 
 class CustomMapOverlayRenderer: MKOverlayRenderer {
     override func draw(_ mapRect: MKMapRect, zoomScale: MKZoomScale, in context: CGContext) {
