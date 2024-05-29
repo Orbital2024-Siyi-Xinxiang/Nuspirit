@@ -7,10 +7,15 @@
 
 import Foundation
 
-struct Asset: Identifiable, Codable {
+
+struct Asset: Identifiable, Equatable {
     var id: Int
     var cat: String
     var name: String
     var price: Double
     var icon: String
+
+    static func ==(lhs: Asset, rhs: Asset) -> Bool {
+        return lhs.id == rhs.id
+    }
 }

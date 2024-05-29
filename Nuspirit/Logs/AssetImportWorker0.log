@@ -2652,3 +2652,15 @@ Memory consumption went from 229.7 MB to 227.3 MB.
 Total: 9.190583 ms (FindLiveObjects: 0.362416 ms CreateObjectMapping: 0.170875 ms MarkObjects: 6.575667 ms  DeleteObjects: 2.078125 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Attached: 1 00008110-001250421A8A401E
+[usbmuxd] Attached: 1 00008110-001250421A8A401E
+[usbmuxd] Detached: 1 00008110-001250421A8A401E
+[usbmuxd] Detached: 1 00008110-001250421A8A401E
+[usbmuxd] Attached: 2 00008110-001250421A8A401E
+[usbmuxd] Attached: 2 00008110-001250421A8A401E
+[usbmuxd] Detached: 2 00008110-001250421A8A401E
+[usbmuxd] Detached: 2 00008110-001250421A8A401E
+[usbmuxd] Attached: 3 00008110-001250421A8A401E
+[usbmuxd] Attached: 3 00008110-001250421A8A401E
+[usbmuxd] Detached: 3 00008110-001250421A8A401E
+[usbmuxd] Detached: 3 00008110-001250421A8A401E
