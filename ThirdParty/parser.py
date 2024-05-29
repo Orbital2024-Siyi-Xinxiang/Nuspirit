@@ -39,16 +39,23 @@ if geojson_data:
                 'coordinates': [coordinates1, coordinates2]
             })
             if properties:
-                if properties.get('name') != 'null':
-                    if properties.get('name') != 'null':
-                        id = ''.join(filter(str.isdigit, id))  # Extract only numeric characters from the ID
-                        key_buildings.append({
-                            'id': id,
-                            'coordinates': [coordinates1, coordinates2],
-                            'name': properties['name'],
-                            'levels': properties.get("building:levels", 1),
-                            'capacity': properties.get('capacity', 0)
-                        })
+                if properties.get('name'):
+                    # if properties.get('name') != 'null':
+                    id = ''.join(filter(str.isdigit, id))  # Extract only numeric characters from the ID
+                    levels = properties.get("building:levels")
+                    capacity = properties.get('capacity')
+                    if not levels:
+                        levels = 1
+                    if not capacity:
+                        capacity = 0
+                    
+                    key_buildings.append({
+                        'id': id,
+                        'coordinates': [coordinates1, coordinates2],
+                        'name': properties['name'],
+                        'levels': int(properties.get("building:levels") or 1),
+                        'capacity': int(properties.get('capacity') or 0)
+                    })
                     # key_buildings.append({
                     #     'id': id,
                     #     'coordinates': [coordinates1, coordinates2],
