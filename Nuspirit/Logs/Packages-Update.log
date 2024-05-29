@@ -1,8 +1,15 @@
 
+<<<<<<< Updated upstream
 === Mon May 27 19:50:52 2024
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
+=======
+=== Tue May 28 02:28:33 2024
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+>>>>>>> Stashed changes
 
 The following packages were added:
   com.unity.modules.ai@1.0.0
@@ -36,6 +43,7 @@ The following packages were added:
   com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
+<<<<<<< Updated upstream
 The following packages were updated:
   com.unity.collab-proxy from version 1.15.12 to 2.3.1
   com.unity.feature.2d from version 1.0.0 to 2.0.0
@@ -58,3 +66,5 @@ The following packages were updated:
   com.unity.ugui from version 1.0.0 to 2.0.0
 The following packages were removed:
   com.unity.textmeshpro@3.0.6
+=======
+>>>>>>> Stashed changes
