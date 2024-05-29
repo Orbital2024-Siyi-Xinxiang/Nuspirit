@@ -75,10 +75,14 @@ struct MapContentView: View {
     
     private func fetchVenueData() {
         let db = Firestore.firestore()
+        print("\n start fetching data from firebase \n")
         db.collection("key_venues").getDocuments { snapshot, error in
             guard let documents = snapshot?.documents else { return }
             var newAnnotations: [CustomMapOverlay] = []
+            var i = 0
             for document in documents {
+                i += 1
+            
                 let data = document.data()
                 guard let name = data["name"] as? String,
                       let levels = data["levels"] as? Int,
@@ -106,12 +110,17 @@ struct MapContentView: View {
                         width: abs(topLeftMapPoint.x - bottomRightMapPoint.x),
                         height: abs(topLeftMapPoint.y - bottomRightMapPoint.y)
                     )
+                    
                 )
                 
                 let annotation = CustomMapOverlay(coordinate1: coordinate1, coordinate2: coordinate2, title: name, levels: levels, capacity: capacity, buildingID: document.documentID, boundingMapRect: boundingMapRect)
                 newAnnotations.append(annotation)
+                
+                print("added annotation", i)
+                print(name)
             }
             annotations = newAnnotations
+            print(annotations)
         }
     }
 }
