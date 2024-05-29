@@ -5838,3 +5838,40 @@ Memory consumption went from 175.8 MB to 175.6 MB.
 Total: 15.124666 ms (FindLiveObjects: 0.911042 ms CreateObjectMapping: 0.234166 ms MarkObjects: 11.403333 ms  DeleteObjects: 2.575541 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 493.563283 seconds.
+  path: Assets/Scripts/SpiritualIsland/GridPlacement
+  artifactKey: Guid(c87557b9f221f4d52a6e408ada500621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiritualIsland/GridPlacement using Guid(c87557b9f221f4d52a6e408ada500621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c6dcfa12ce2b18d8af6079957b1df89c') in 0.314065125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404347 seconds.
+  path: Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs
+  artifactKey: Guid(96bb1cc610d434cd19f33f67b3723cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs using Guid(96bb1cc610d434cd19f33f67b3723cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '9240ea2828759c1669f7fcc737ed36b5') in 0.004866334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.56 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4612 unused Assets / (1.1 MB). Loaded Objects now: 5224.
+Memory consumption went from 165.8 MB to 164.7 MB.
+Total: 76.594959 ms (FindLiveObjects: 1.370459 ms CreateObjectMapping: 0.144917 ms MarkObjects: 74.216667 ms  DeleteObjects: 0.861750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.015757 seconds.
+  path: Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs
+  artifactKey: Guid(96bb1cc610d434cd19f33f67b3723cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs using Guid(96bb1cc610d434cd19f33f67b3723cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a873f7542a25cf8895120703ce054ede') in 0.002078583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
