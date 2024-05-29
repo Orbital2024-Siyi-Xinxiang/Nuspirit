@@ -1,6 +1,21 @@
+import Foundation
+import FirebaseCore
+import Firebase
+import FirebaseAuth
+import FirebaseAuthUI
+import UserNotifications
+import FirebaseFacebookAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseOAuthUI
+import FirebasePhoneAuthUI
+import FirebaseEmailAuthUI
+import FirebaseEmailAuthUI
+import UIKit
 import SwiftUI
+import GoogleSignIn
+import FBSDKCoreKit
+import FBSDKLoginKit
 import MapKit
-
 // Extension to make CLLocationCoordinate2D conform to Equatable
 extension CLLocationCoordinate2D: Equatable {
     public static func ==(lhs: CLLocationCoordinate2D, rhs: CLLocationCoordinate2D) -> Bool {
@@ -13,6 +28,7 @@ struct MapViewRepresentable: UIViewRepresentable {
     @ObservedObject var locationService: LocationService
     @Binding var userTrackingMode: MKUserTrackingMode
     @Binding var annotations: [CustomMapOverlay]
+    @Binding var selectedBuildingID: String?
 
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
@@ -40,7 +56,8 @@ struct MapViewRepresentable: UIViewRepresentable {
             title: "NUS",
             levels: 0,
             capacity: 0,
-            buildingID: "initial_overlay"
+            buildingID: "initial_overlay",
+            boundingMapRect: boundingMapRect
         )
         mapView.addOverlay(overlay)
 
@@ -69,7 +86,7 @@ struct MapViewRepresentable: UIViewRepresentable {
             return MKOverlayRenderer(overlay: overlay)
         }
         
-        // make user location center
+        // Make user location center
         func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
             parent.region.center = userLocation.coordinate
         }
@@ -91,10 +108,10 @@ struct MapViewRepresentable: UIViewRepresentable {
                 return annotationView
             } else if let customAnnotation = annotation as? CustomMapOverlay {
                 let identifier = "BuildingAnnotation"
-                var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKPinAnnotationView
+                var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
                 
                 if annotationView == nil {
-                    annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+                    annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
                     annotationView?.canShowCallout = true
                     
                     let button = UIButton(type: .detailDisclosure)
@@ -113,7 +130,6 @@ struct MapViewRepresentable: UIViewRepresentable {
             
             return nil
         }
-
 
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
             var newCenter = mapView.region.center
@@ -142,12 +158,11 @@ struct MapViewRepresentable: UIViewRepresentable {
 
             parent.region = mapView.region
         }
-    }
-    
-    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        if let customAnnotation = view.annotation as? CustomMapOverlay {
-            parent.selectedBuildingID = customAnnotation.buildingID
+        
+        func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+            if let customAnnotation = view.annotation as? CustomMapOverlay {
+                parent.selectedBuildingID = customAnnotation.buildingID
+            }
         }
     }
 }
-
