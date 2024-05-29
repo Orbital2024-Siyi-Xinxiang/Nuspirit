@@ -58,7 +58,7 @@
 		B52F7BEA2BFF87AD00DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
-		B56F74772BF62F370048447E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* Cart.swift */; };
+		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
@@ -69,10 +69,7 @@
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AE2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040B02BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
-		B5A8283A2C02306D0003E026 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5A828392C02306D0003E026 /* MainViewController.mm */; };
 		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
-		B5B3E4542C01D6E2008799F2 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4522C01D6E2008799F2 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B5B3E45B2C01DF1F008799F2 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E45A2C01DF1F008799F2 /* UnityFramework.framework */; };
 		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
@@ -130,20 +127,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B5B3E4552C01D6E2008799F2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B5B3E4542C01D6E2008799F2 /* UnityFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalApp.swift; sourceTree = "<group>"; };
@@ -169,7 +152,7 @@
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B56F74762BF62F370048447E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		B56F74762BF62F370048447E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
@@ -181,7 +164,6 @@
 		B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A828382C02306C0003E026 /* Orbital-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbital-Bridging-Header.h"; sourceTree = "<group>"; };
-		B5A828392C02306D0003E026 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
 		B5B3E4482C01905A008799F2 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B3E4522C01D6E2008799F2 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B3E4562C01D6ED008799F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -224,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
-				B5B3E45B2C01DF1F008799F2 /* UnityFramework.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -312,7 +293,6 @@
 		5BC6DE082BF0A7A10031650B /* Orbital */ = {
 			isa = PBXGroup;
 			children = (
-				B5A828392C02306D0003E026 /* MainViewController.mm */,
 				B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */,
 				B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */,
 				B5FE65BB2BFDCD2C000D375A /* Controllers */,
@@ -405,7 +385,7 @@
 				B5C92A742BF88A6E00121E42 /* market.storyboard */,
 				B56F74782BF62FFC0048447E /* FurnitureMarket.swift */,
 				B5C92A592BF7D69C00121E42 /* AssetView.swift */,
-				B56F74762BF62F370048447E /* Cart.swift */,
+				B56F74762BF62F370048447E /* CartView.swift */,
 			);
 			path = FurnitureMarket;
 			sourceTree = "<group>";
@@ -533,7 +513,6 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
-				B5B3E4552C01D6E2008799F2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -743,7 +722,7 @@
 				B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
-				B56F74772BF62F370048447E /* Cart.swift in Sources */,
+				B56F74772BF62F370048447E /* CartView.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
 				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
@@ -758,7 +737,6 @@
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */,
-				B5A8283A2C02306D0003E026 /* MainViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
