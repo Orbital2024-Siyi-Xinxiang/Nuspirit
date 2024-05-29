@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "com.unity.2d.animation": {
       "version": "10.1.1",
       "depth": 1,
@@ -309,6 +310,8 @@
       "source": "builtin",
       "dependencies": {}
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
@@ -356,12 +359,15 @@
         "com.unity.modules.animation": "1.0.0"
       }
     },
+<<<<<<< Updated upstream
     "com.unity.modules.hierarchycore": {
       "version": "1.0.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.modules.imageconversion": {
       "version": "1.0.0",
       "depth": 0,
@@ -450,8 +456,12 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
+<<<<<<< Updated upstream
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.hierarchycore": "1.0.0"
+=======
+        "com.unity.modules.jsonserialize": "1.0.0"
+>>>>>>> Stashed changes
       }
     },
     "com.unity.modules.umbra": {
