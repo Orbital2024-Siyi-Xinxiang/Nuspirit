@@ -59,6 +59,7 @@
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
 		B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AD2C078F4D0060F578 /* BuildingView.swift */; };
+		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
@@ -154,6 +155,7 @@
 		B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
+		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		B56F74762BF62F370048447E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
@@ -450,6 +452,7 @@
 				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
+				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -737,6 +740,7 @@
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
 				B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
