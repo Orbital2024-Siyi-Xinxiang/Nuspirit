@@ -1,16 +1,10 @@
-using UnityEngine;
+using UnityEditor;
 
-public class Pl : MonoBehaviour
+public class AssetBundleCreator
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [MenuItem("Assets/Build AssetBundles")]
+    static void BuildAllAssetBundles()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundles", BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows);
     }
 }
