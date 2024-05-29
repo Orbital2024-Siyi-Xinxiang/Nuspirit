@@ -6,75 +6,77 @@ struct FurnitureMarketView: View {
     @State private var assets: [Asset] = [] // Populate this with your assets
 
     var body: some View {
-        HStack {
-            // Left: Category buttons
-            VStack {
-                ForEach(getCategories(), id: \.self) { category in
-                    Button(action: {
-                        selectedCategory = category
-                        assets = getAssets(for: category)
-                    }) {
-                        Text(category)
-                            .padding()
-                            .background(selectedCategory == category ? Color.gray : Color.clear)
-                            .cornerRadius(10)
-                    }
-                }
-            }
-            .padding()
-
-            // Middle: Asset collection
-            ScrollView {
-                LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3), spacing: 16) {
-                    ForEach(assets) { asset in
-                        VStack {
-                            Image(systemName: asset.icon)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 100, height: 100)
-                                .background(selectedAsset == asset ? Color.yellow : Color.clear)
-                                .onTapGesture {
-                                    selectedAsset = asset
-                                }
-                            Text("$\(asset.price, specifier: "%.2f")")
+        NavigationView {
+            HStack {
+                // Left: Category buttons
+                VStack {
+                    ForEach(getCategories(), id: \.self) { category in
+                        Button(action: {
+                            selectedCategory = category
+                            assets = getAssets(for: category)
+                        }) {
+                            Text(category)
+                                .padding()
+                                .background(selectedCategory == category ? Color.gray : Color.clear)
+                                .cornerRadius(10)
                         }
                     }
                 }
                 .padding()
-            }
-
-            // Right: Asset preview
-            if let selectedAsset = selectedAsset {
+                
+                // Middle: Asset collection
+                ScrollView {
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3), spacing: 16) {
+                        ForEach(assets) { asset in
+                            VStack {
+                                Image(systemName: asset.icon)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 100, height: 100)
+                                    .background(selectedAsset == asset ? Color.yellow : Color.clear)
+                                    .onTapGesture {
+                                        selectedAsset = asset
+                                    }
+                                Text("$\(asset.price, specifier: "%.2f")")
+                            }
+                        }
+                    }
+                    .padding()
+                }
+                
+                // Right: Asset preview
+                if let selectedAsset = selectedAsset {
+                    VStack {
+                        Image(systemName: selectedAsset.icon)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 200, height: 200)
+                        Text(selectedAsset.name)
+                        Text("$\(selectedAsset.price, specifier: "%.2f")")
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Top right: Cart button and balance
                 VStack {
-                    Image(systemName: selectedAsset.icon)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 200, height: 200)
-                    Text(selectedAsset.name)
-                    Text("$\(selectedAsset.price, specifier: "%.2f")")
+                    HStack {
+                        Text("Balance: $1000.00")
+                        // Replace with actual balance
+                        NavigationLink(destination: CartView()) {
+                            Image(systemName: "cart")
+                                .resizable()
+                                .frame(width: 30, height: 30)
+                        }
+                        
+                    }
+                    Spacer()
                 }
                 .padding()
             }
-
-            Spacer()
-
-            // Top right: Cart button and balance
-            VStack {
-                HStack {
-                    Text("Balance: $1000.00") // Replace with actual balance
-                    Button(action: {
-                        // Navigate to cart view
-                    }) {
-                        Image(systemName: "cart")
-                            .resizable()
-                            .frame(width: 30, height: 30)
-                    }
-                }
-                Spacer()
-            }
             .padding()
         }
-        .padding()
     }
 
     func getCategories() -> [String] {
