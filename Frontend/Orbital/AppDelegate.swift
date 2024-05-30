@@ -40,12 +40,17 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
         // configure firebase authentication
-        
+        print("\n\n\nloading unity host window ... \n\n\n")
         FirebaseApp.configure()
         // set landing view
+        
+        
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = UIHostingController(rootView: LandingView())
         self.window?.makeKeyAndVisible()
+        
+        Unity.shared.setHostMainWindow(window)
+       
         
         
         
@@ -62,22 +67,11 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         
         application.registerForRemoteNotifications()
 
+        print("finished loading unity :)")
         return true
     }
     
-//   func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
-//       if user != nil {
-//           // User is signed in, navigate to MainMapView
-//           let mainMapView = UIHostingController(rootView: MainMapView())
-//           self.window?.rootViewController = mainMapView
-//           window?.makeKeyAndVisible()
-//           
-//       } else if let error = error {
-//           // Handle error
-//           print("Error signing in: \(error.localizedDescription)")
-//       }
-//   }
-//    
+    
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
         if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
@@ -86,12 +80,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         return false
     }
     
-//    func application(_ app: UIApplication,
-//                     open url: URL,
-//                     options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
-//      return GIDSignIn.sharedInstance.handle(url)
-//    }
-//    
+
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
     }
@@ -132,15 +121,3 @@ extension AppDelegate: MessagingDelegate {
 }
 
 
-// to access FCM registration token at any time, use this method:
-//Messaging.messaging().token { token, error in
-//  if let error = error {
-//    print("Error fetching FCM registration token: \(error)")
-//  } else if let token = token {
-//    print("FCM registration token: \(token)")
-//    self.fcmRegTokenMessage.text  = "Remote FCM registration token: \(token)"
-//  }
-//}
-
-// auto enable initiation of notification settings
-//Messaging.messaging().autoInitEnabled = true

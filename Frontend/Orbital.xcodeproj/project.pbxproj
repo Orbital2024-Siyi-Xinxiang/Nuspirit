@@ -52,6 +52,8 @@
 		B5110A8B2BFC776D00208FC4 /* FirebaseMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */; };
 		B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */; };
 		B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */; };
+		B517B6D62C08FA0100B9A739 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B517B6D52C08FA0100B9A739 /* UnityFramework.framework */; };
+		B517B6D72C08FA0100B9A739 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B517B6D52C08FA0100B9A739 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B52F7BE62BFF87A200DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */; };
 		B52F7BE82BFF87A800DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */; };
 		B52F7BEA2BFF87AD00DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */; };
@@ -66,8 +68,8 @@
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
 		B56F74952BF63F8C0048447E /* LaunchNuspirit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */; };
-		B575CCBB2C08DD6600CBE537 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B575CCB92C08DD5000CBE537 /* UnityFramework.framework */; };
-		B575CCBC2C08DD6600CBE537 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B575CCB92C08DD5000CBE537 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
+		B575CCC52C08EF4600CBE537 /* UnityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* UnityViewController.swift */; };
 		B5A040A42BFEFE47006B92E8 /* nuspirit.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A22BFEFE47006B92E8 /* nuspirit.p8 */; };
 		B5A040A82BFEFE51006B92E8 /* nuspirit.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A62BFEFE51006B92E8 /* nuspirit.p8 */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -134,13 +136,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B575CCBD2C08DD6600CBE537 /* Embed Frameworks */ = {
+		B517B6C82C08F62A00B9A739 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B575CCBC2C08DD6600CBE537 /* UnityFramework.framework in Embed Frameworks */,
+				B517B6D72C08FA0100B9A739 /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +170,7 @@
 		B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMessagingService.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B517B6D52C08FA0100B9A739 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -181,7 +184,8 @@
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
 		B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchNuspirit.storyboard; sourceTree = "<group>"; };
-		B575CCB92C08DD5000CBE537 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
+		B575CCC42C08EF4600CBE537 /* UnityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityViewController.swift; sourceTree = "<group>"; };
 		B5A040A22BFEFE47006B92E8 /* nuspirit.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nuspirit.p8; sourceTree = "<group>"; };
 		B5A040A62BFEFE51006B92E8 /* nuspirit.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nuspirit.p8; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -226,10 +230,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B517B6D62C08FA0100B9A739 /* UnityFramework.framework in Frameworks */,
 				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
-				B575CCBB2C08DD6600CBE537 /* UnityFramework.framework in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
 				B5110A6B2BFC762100208FC4 /* FirebaseFirestore in Frameworks */,
 				B5110A572BFC762100208FC4 /* FirebaseAnalyticsSwift in Frameworks */,
@@ -376,6 +380,7 @@
 				B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */,
 				B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */,
 				B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */,
+				B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -448,7 +453,7 @@
 		B5B3E4472C01905A008799F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B575CCB92C08DD5000CBE537 /* UnityFramework.framework */,
+				B517B6D52C08FA0100B9A739 /* UnityFramework.framework */,
 				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -520,6 +525,7 @@
 		B5FE65BB2BFDCD2C000D375A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B575CCC42C08EF4600CBE537 /* UnityViewController.swift */,
 				B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */,
 				B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */,
 			);
@@ -536,7 +542,7 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
-				B575CCBD2C08DD6600CBE537 /* Embed Frameworks */,
+				B517B6C82C08F62A00B9A739 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -744,8 +750,10 @@
 				B5110A8B2BFC776D00208FC4 /* FirebaseMessagingService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
+				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */,
+				B575CCC52C08EF4600CBE537 /* UnityViewController.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B56F74772BF62F370048447E /* CartView.swift in Sources */,

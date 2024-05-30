@@ -53,3 +53,15 @@ class NotificationService {
 
 
 // Use the NotificationService class to send notifications to a device token. The sendNotification method sends a notification to the device token with a title and body. Replace YOUR_SERVER_KEY with your server key.
+// to access FCM registration token at any time, use this method:
+//Messaging.messaging().token { token, error in
+//  if let error = error {
+//    print("Error fetching FCM registration token: \(error)")
+//  } else if let token = token {
+//    print("FCM registration token: \(token)")
+//    self.fcmRegTokenMessage.text  = "Remote FCM registration token: \(token)"
+//  }
+//}
+
+// auto enable initiation of notification settings
+//Messaging.messaging().autoInitEnabled = true

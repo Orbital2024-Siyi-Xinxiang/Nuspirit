@@ -34,7 +34,11 @@ struct MainMapView: View {
                         }
                         .padding()
 
-                        NavigationLink(destination: MyIslandView()) {
+                        Button(action: {
+                            Unity.shared.show() 
+                            // for launching Unity here
+                            
+                        })  {
                             VStack {
                                 Image(systemName: "leaf.arrow.circlepath")
                                     .resizable()
