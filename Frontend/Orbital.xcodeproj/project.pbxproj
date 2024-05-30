@@ -65,7 +65,15 @@
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
+<<<<<<< Updated upstream
 		B56F74952BF63F8C0048447E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */; };
+=======
+		B56F74952BF63F8C0048447E /* LaunchNuspirit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */; };
+		B575CCBB2C08DD6600CBE537 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B575CCB92C08DD5000CBE537 /* UnityFramework.framework */; };
+		B575CCBC2C08DD6600CBE537 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B575CCB92C08DD5000CBE537 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B575CCBF2C08E7C000CBE537 /* UnityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCBE2C08E7C000CBE537 /* UnityViewController.swift */; };
+		B575CCC12C08E8FF00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC02C08E8FF00CBE537 /* UnityFrameworkService.swift */; };
+>>>>>>> Stashed changes
 		B5A040A42BFEFE47006B92E8 /* nuspirit.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A22BFEFE47006B92E8 /* nuspirit.p8 */; };
 		B5A040A82BFEFE51006B92E8 /* nuspirit.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A62BFEFE51006B92E8 /* nuspirit.p8 */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -162,7 +170,14 @@
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+=======
+		B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchNuspirit.storyboard; sourceTree = "<group>"; };
+		B575CCB92C08DD5000CBE537 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B575CCBE2C08E7C000CBE537 /* UnityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityViewController.swift; sourceTree = "<group>"; };
+		B575CCC02C08E8FF00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		B5A040A22BFEFE47006B92E8 /* nuspirit.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nuspirit.p8; sourceTree = "<group>"; };
 		B5A040A62BFEFE51006B92E8 /* nuspirit.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nuspirit.p8; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -360,6 +375,7 @@
 				B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */,
 				B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */,
 				B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */,
+				B575CCC02C08E8FF00CBE537 /* UnityFrameworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -508,6 +524,7 @@
 			children = (
 				B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */,
 				B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */,
+				B575CCBE2C08E7C000CBE537 /* UnityViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -710,6 +727,7 @@
 				B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */,
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
+				B575CCBF2C08E7C000CBE537 /* UnityViewController.swift in Sources */,
 				B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
@@ -748,6 +766,7 @@
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
+				B575CCC12C08E8FF00CBE537 /* UnityFrameworkService.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
