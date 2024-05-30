@@ -1,0 +1,139 @@
+{
+  "player_build_data": [
+    {
+      "type": "il2cppData",
+      "msg": {
+        "build_event_id": "d105b5db94078490b9065eb666264614",
+        "node_executed": true,
+        "attribute_total_count_eager_static_constructor": 18,
+        "attribute_total_count_set_option": 0,
+        "attribute_total_count_generate_into_own_cpp_file": 0,
+        "attribute_total_count_ignore_by_deep_profiler": 25,
+        "extra_types_total_count": 0,
+        "option_extra_types_file_count": 0,
+        "option_debug_assembly_name_count": 0,
+        "option_additional_cpp_count": 0,
+        "option_emit_null_checks": true,
+        "option_enable_stacktrace": false,
+        "option_enable_deep_profiler": true,
+        "option_enable_stats": false,
+        "option_enable_array_bounds_check": true,
+        "option_enable_divide_by_zero_check": false,
+        "option_emit_comments": false,
+        "option_disable_generic_sharing": false,
+        "option_maximum_recursive_generic_depth": -1,
+        "option_generic_virtual_method_iterations": -1,
+        "option_code_generation_option": [
+          "EnableInlining"
+        ],
+        "option_file_generation_option": [],
+        "option_generics_option": [],
+        "option_feature": [],
+        "option_diagnostic_option": [],
+        "option_convert_to_cpp": true,
+        "option_compile_cpp": false,
+        "option_development_mode": false,
+        "option_enable_debugger": true,
+        "option_generate_usym_file": false,
+        "option_jobs": 12
+      },
+      "version": 1
+    },
+    {
+      "type": "playerBuildTimingData",
+      "msg": {
+        "build_event_id": "d105b5db94078490b9065eb666264614",
+        "build_player": 43149,
+        "preprocess_player": 297,
+        "produce_player_script_assemblies": 4499,
+        "build_scripts_dlls": 22,
+        "writing_asset_files": 2311,
+        "postprocess_built_player": 25157,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 505
+          },
+          {
+            "name": "Csc",
+            "duration": 505
+          },
+          {
+            "name": "il2cpp.exe",
+            "duration": 5032
+          },
+          {
+            "name": "UnityLinker.exe",
+            "duration": 3160
+          }
+        ]
+      },
+      "version": 1
+    },
+    {
+      "type": "unityLinkerData",
+      "msg": {
+        "build_event_id": "d105b5db94078490b9065eb666264614",
+        "node_executed": true,
+        "attribute_marked_count_always_link_assembly": 1,
+        "attribute_swept_count_always_link_assembly": 0,
+        "attribute_total_count_always_link_assembly": 1,
+        "attribute_marked_count_preserve": 60,
+        "attribute_total_count_preserve": 53,
+        "attribute_total_count_preserve_body": 0,
+        "attribute_marked_count_required_member": 242,
+        "attribute_swept_count_required_member": 30,
+        "attribute_total_count_required_member": 272,
+        "attribute_marked_count_require_derived": 16,
+        "attribute_swept_count_require_derived": 0,
+        "attribute_total_count_require_derived": 1,
+        "attribute_marked_count_require_implementors": 3,
+        "attribute_swept_count_require_implementors": 8,
+        "attribute_total_count_require_implementors": 12,
+        "attribute_total_count_required_interface": 0,
+        "attribute_marked_count_require_attribute_usages": 635,
+        "attribute_total_count_require_attribute_usages": 2,
+        "attribute_total_count_dynamic_dependency": 0,
+        "attribute_marked_count_dynamic_dependency": 108,
+        "attribute_swept_count_dynamic_dependency": -108,
+        "assembly_counts_total_in": 115,
+        "assembly_counts_link": 58,
+        "assembly_counts_copy": 4,
+        "assembly_counts_delete": 53,
+        "assembly_counts_total_out": 62,
+        "unresolved_stubbing_total_count": 0,
+        "unresolved_stubbing_missing_interface_method_count": 0,
+        "unresolved_stubbing_missing_abstract_class_method_count": 0,
+        "unresolved_stubbing_missing_type_count": 0,
+        "unresolved_stubbing_missing_method_count": 0,
+        "unrecognized_reflection_access_total_count": 606,
+        "unrecognized_reflection_access_core_count": 363,
+        "unrecognized_reflection_access_unity_count": 142,
+        "unrecognized_reflection_access_user_count": 101,
+        "recognized_reflection_access_total_count": 106,
+        "recognized_reflection_access_core_count": 82,
+        "recognized_reflection_access_unity_count": 19,
+        "recognized_reflection_access_user_count": 5,
+        "link_xml_total_count": 11,
+        "link_xml_embedded_count": 2,
+        "link_xml_embedded_unity_count": 0,
+        "link_xml_embedded_user_count": 1,
+        "link_xml_file_count": 9,
+        "link_xml_assembly_preserve_all_total_count": 0,
+        "link_xml_assembly_preserve_all_unity_count": 0,
+        "link_xml_assembly_preserve_all_core_count": 0,
+        "link_xml_assembly_preserve_all_user_count": 0,
+        "engine_module_total_in": 67,
+        "engine_module_deleted": 35,
+        "engine_module_total_out": 32,
+        "option_rule_set": "Conservative",
+        "option_enable_report": false,
+        "option_enable_snapshot": false,
+        "option_enable_engine_module_stripping": true,
+        "option_unity_root_strategy": "UltraConservative",
+        "option_enable_ildump": false
+      },
+      "version": 1
+    }
+  ]
+}
