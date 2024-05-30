@@ -38,16 +38,42 @@ struct MapViewRepresentable: UIViewRepresentable {
         mapView.setRegion(region, animated: false)
         mapView.userTrackingMode = userTrackingMode
 
+        // Add the initial image overlay
+        let initialOverlay = createInitialOverlay()
+        mapView.addOverlay(initialOverlay)
+        
+        mapView.addOverlays(overlays)
+        mapView.addAnnotations(annotations)
+
         return mapView
     }
 
     func updateUIView(_ mapView: MKMapView, context: Context) {
         mapView.setRegion(region, animated: true)
+        
+        // Update venue overlays and annotations
         mapView.removeOverlays(mapView.overlays)
+        let initialOverlay = createInitialOverlay()
+        mapView.addOverlay(initialOverlay)
         mapView.addOverlays(overlays)
-
-        mapView.removeAnnotations(mapView.annotations)
+        
+//        mapView.removeAnnotations(mapView.annotations)
         mapView.addAnnotations(annotations)
+    }
+    
+    private func createInitialOverlay() -> ImageOverlay {
+        let nusCoordinate = CLLocationCoordinate2D(latitude: 1.2966, longitude: 103.7764)
+        let nusTopLeft = CLLocationCoordinate2D(latitude: 1.310306, longitude: 103.764663)
+        let nusBottomRight = CLLocationCoordinate2D(latitude: 1.287961, longitude: 103.788603)
+        let topLeftMapPoint = MKMapPoint(nusTopLeft)
+        let bottomRightMapPoint = MKMapPoint(nusBottomRight)
+        let boundingMapRect = MKMapRect(
+            origin: topLeftMapPoint,
+            size: MKMapSize(width: bottomRightMapPoint.x - topLeftMapPoint.x, height: bottomRightMapPoint.y - topLeftMapPoint.y)
+        )
+        
+        let image = UIImage(named: "TestMap")!
+        return ImageOverlay(coordinate: nusCoordinate, boundingMapRect: boundingMapRect, image: image)
     }
 
     func makeCoordinator() -> Coordinator {
@@ -60,9 +86,12 @@ struct MapViewRepresentable: UIViewRepresentable {
         init(_ parent: MapViewRepresentable) {
             self.parent = parent
         }
+        
 
         func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-            if let overlay = overlay as? CustomMapOverlay {
+            if let overlay = overlay as? ImageOverlay {
+                return ImageOverlayRenderer(overlay: overlay, overlayImage: overlay.image)
+            } else if let overlay = overlay as? CustomMapOverlay {
                 return CustomMapOverlayRenderer(overlay: overlay)
             }
             return MKOverlayRenderer(overlay: overlay)

@@ -447,7 +447,7 @@
 "Assets/Scripts/AssetBundles/AssetBundleLoader.cs"
 "Assets/Scripts/Firestore/FirebaseInitializer.cs"
 "Assets/Scripts/Firestore/FirestoreImageLoader.cs"
-"Assets/Scripts/SpiritualIsland/GridPlacement/BuildingStateManager.cs"
+"Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs"
 "Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs"
 "Assets/Scripts/SpiritualIsland/GridPlacement/GridManager.cs"
 "Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs"
