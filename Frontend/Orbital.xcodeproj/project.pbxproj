@@ -82,6 +82,9 @@
 		B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E7A2C00CC7E00F322C3 /* MedScienceLib.swift */; };
 		B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */; };
 		B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E802C00E52A00F322C3 /* EusoffHall.swift */; };
+		B5C30FD22C089D4B0042AFC5 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C30FD12C089D4B0042AFC5 /* UnityFramework.framework */; };
+		B5C30FD32C089D4B0042AFC5 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5C30FD12C089D4B0042AFC5 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5C30FD82C08A3980042AFC5 /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C30FD72C08A3980042AFC5 /* Unity.swift */; };
 		B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssets.swift */; };
 		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
@@ -130,6 +133,20 @@
 			remoteInfo = Orbital;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5C30FD42C089D4B0042AFC5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B5C30FD32C089D4B0042AFC5 /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +201,9 @@
 		B5B85E7A2C00CC7E00F322C3 /* MedScienceLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedScienceLib.swift; sourceTree = "<group>"; };
 		B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralLib.swift; sourceTree = "<group>"; };
 		B5B85E802C00E52A00F322C3 /* EusoffHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EusoffHall.swift; sourceTree = "<group>"; };
+		B5C30FD12C089D4B0042AFC5 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C30FD52C089D5E0042AFC5 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C30FD72C08A3980042AFC5 /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
 		B5C92A522BF7CF1C00121E42 /* MyAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssets.swift; sourceTree = "<group>"; };
 		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
@@ -213,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C30FD22C089D4B0042AFC5 /* UnityFramework.framework in Frameworks */,
 				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
@@ -319,6 +340,7 @@
 				5BC6DE142BF0A7A40031650B /* Orbital.xcdatamodeld */,
 				5BC6DE0F2BF0A7A40031650B /* Preview Content */,
 				B5A828382C02306C0003E026 /* Orbital-Bridging-Header.h */,
+				B5C30FD72C08A3980042AFC5 /* Unity.swift */,
 			);
 			path = Orbital;
 			sourceTree = "<group>";
@@ -434,6 +456,8 @@
 		B5B3E4472C01905A008799F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5C30FD52C089D5E0042AFC5 /* UnityFramework.framework */,
+				B5C30FD12C089D4B0042AFC5 /* UnityFramework.framework */,
 				B5B3E45A2C01DF1F008799F2 /* UnityFramework.framework */,
 				B5B3E4582C01D74D008799F2 /* UnityFramework.framework */,
 				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
@@ -525,6 +549,7 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
+				B5C30FD42C089D4B0042AFC5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -729,6 +754,7 @@
 				5BC6DE412BF0C1270031650B /* SignUpView.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
+				B5C30FD82C08A3980042AFC5 /* Unity.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* FirebaseMessagingService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,

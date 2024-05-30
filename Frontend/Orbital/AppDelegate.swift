@@ -47,6 +47,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         self.window?.rootViewController = UIHostingController(rootView: LandingView())
         self.window?.makeKeyAndVisible()
         
+        Unity.shared.setHostMainWindow(window)
         
         
         // register remote notifications
