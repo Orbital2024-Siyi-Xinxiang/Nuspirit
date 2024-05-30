@@ -23,12 +23,12 @@ extension CLLocationCoordinate2D: Equatable {
     }
 }
 
-
 struct MapViewRepresentable: UIViewRepresentable {
     @Binding var region: MKCoordinateRegion
     @ObservedObject var locationService: LocationService
     @Binding var userTrackingMode: MKUserTrackingMode
-    @Binding var annotations: [CustomMapOverlay]
+    @Binding var annotations: [CustomAnnotation]
+    @Binding var overlays: [CustomMapOverlay]
     @Binding var selectedBuildingID: String?
 
     func makeUIView(context: Context) -> MKMapView {
@@ -44,7 +44,10 @@ struct MapViewRepresentable: UIViewRepresentable {
     func updateUIView(_ mapView: MKMapView, context: Context) {
         mapView.setRegion(region, animated: true)
         mapView.removeOverlays(mapView.overlays)
-        mapView.addOverlays(annotations)
+        mapView.addOverlays(overlays)
+
+        mapView.removeAnnotations(mapView.annotations)
+        mapView.addAnnotations(annotations)
     }
 
     func makeCoordinator() -> Coordinator {
@@ -65,7 +68,6 @@ struct MapViewRepresentable: UIViewRepresentable {
             return MKOverlayRenderer(overlay: overlay)
         }
 
-        // Customize user location annotation view
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             if annotation is MKUserLocation {
                 let identifier = "UserLocation"
@@ -78,6 +80,25 @@ struct MapViewRepresentable: UIViewRepresentable {
 
                 annotationView?.image = UIImage(named: "TestChar")
                 annotationView?.frame.size = CGSize(width: 30, height: 30)
+                
+                return annotationView
+            } else if let customAnnotation = annotation as? CustomAnnotation {
+                let identifier = "CustomAnnotation"
+                var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
+                
+                if annotationView == nil {
+                    annotationView = MKMarkerAnnotationView(annotation: customAnnotation, reuseIdentifier: identifier)
+                    annotationView?.canShowCallout = true
+                    
+                    let button = UIButton(type: .detailDisclosure)
+                    annotationView?.rightCalloutAccessoryView = button
+
+                    let imageView = UIImageView(image: UIImage(systemName: "photo"))
+                    imageView.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+                    annotationView?.leftCalloutAccessoryView = imageView
+                } else {
+                    annotationView?.annotation = customAnnotation
+                }
                 
                 return annotationView
             }
@@ -105,7 +126,7 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
 
             // Only update the center if it needs to be restricted
-            if newCenter != mapView.region.center {
+            if !(newCenter == mapView.region.center) {
                 mapView.setCenter(newCenter, animated: true)
             }
 
@@ -113,10 +134,9 @@ struct MapViewRepresentable: UIViewRepresentable {
         }
 
         func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-            if let customAnnotation = view.annotation as? CustomMapOverlay {
+            if let customAnnotation = view.annotation as? CustomAnnotation {
                 parent.selectedBuildingID = customAnnotation.buildingID
             }
         }
     }
 }
-
