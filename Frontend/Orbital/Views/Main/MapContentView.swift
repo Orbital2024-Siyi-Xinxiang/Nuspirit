@@ -26,12 +26,13 @@ struct MapContentView: View {
         span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     )
     @State private var userTrackingMode: MKUserTrackingMode = .follow
-    @State private var annotations: [CustomMapOverlay] = []
+    @State private var annotations: [CustomAnnotation] = []
+    @State private var overlays: [CustomMapOverlay] = []
     @State private var selectedBuildingID: String? = nil
 
     var body: some View {
         ZStack {
-            MapViewRepresentable(region: $region, locationService: locationService, userTrackingMode: $userTrackingMode, annotations: $annotations, selectedBuildingID: $selectedBuildingID)
+            MapViewRepresentable(region: $region, locationService: locationService, userTrackingMode: $userTrackingMode, annotations: $annotations, overlays: $overlays, selectedBuildingID: $selectedBuildingID)
                 .edgesIgnoringSafeArea(.all)
             NavigationLink(
                 destination: BuildingView(buildingID: selectedBuildingID ?? ""),
@@ -78,25 +79,33 @@ struct MapContentView: View {
         print("\n start fetching data from firebase \n")
         db.collection("key_venues").getDocuments { snapshot, error in
             guard let documents = snapshot?.documents else { return }
-            var newAnnotations: [CustomMapOverlay] = []
+            var newAnnotations: [CustomAnnotation] = []
+            var newOverlays: [CustomMapOverlay] = []
+
             for document in documents {
                 let data = document.data()
                 guard let name = data["name"] as? String,
                       let levels = data["levels"] as? Int,
                       let capacity = data["capacity"] as? Int,
                       let coordinates = data["coordinates"] as? [GeoPoint], coordinates.count == 2 else { continue }
-                
+
                 let coordinate1 = CLLocationCoordinate2D(
                     latitude: coordinates[0].latitude,
                     longitude: coordinates[0].longitude)
                 let coordinate2 = CLLocationCoordinate2D(
                     latitude: coordinates[1].latitude,
                     longitude: coordinates[1].longitude)
-                
+
+                // Calculate the center of the bounding box for the annotation
+                let centerCoordinate = CLLocationCoordinate2D(
+                    latitude: (coordinate1.latitude + coordinate2.latitude) / 2,
+                    longitude: (coordinate1.longitude + coordinate2.longitude) / 2
+                )
+
                 // Calculate the top left and bottom right points for the bounding box
                 let topLeftMapPoint = MKMapPoint(coordinate1)
                 let bottomRightMapPoint = MKMapPoint(coordinate2)
-                
+
                 // Calculate the bounding map rectangle
                 let boundingMapRect = MKMapRect(
                     origin: MKMapPoint(
@@ -108,13 +117,20 @@ struct MapContentView: View {
                         height: abs(topLeftMapPoint.y - bottomRightMapPoint.y)
                     )
                 )
-                
-                let annotation = CustomMapOverlay(coordinate1: coordinate1, coordinate2: coordinate2, title: name, levels: levels, capacity: capacity, buildingID: document.documentID, boundingMapRect: boundingMapRect)
+
+                let overlay = CustomMapOverlay(coordinate1: coordinate1, coordinate2: coordinate2, title: name, levels: levels, capacity: capacity, buildingID: document.documentID, boundingMapRect: boundingMapRect)
+                let annotation = CustomAnnotation(coordinate: centerCoordinate, title: name, subtitle: "Levels: \(levels), Capacity: \(capacity)", buildingID: document.documentID)
+
+                newOverlays.append(overlay)
                 newAnnotations.append(annotation)
             }
+
             annotations = newAnnotations
-            print(annotations)
+            overlays = newOverlays
+            print("Annotations: \(annotations)")
+            print("Overlays: \(overlays)")
         }
+
     }
 }
 
