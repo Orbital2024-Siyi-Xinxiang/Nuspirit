@@ -58,6 +58,9 @@
 		B52F7BEA2BFF87AD00DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
+		B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AD2C078F4D0060F578 /* BuildingView.swift */; };
+		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
+		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
 		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
@@ -152,6 +155,9 @@
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
+		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		B56F74762BF62F370048447E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
@@ -395,6 +401,7 @@
 			children = (
 				B56F748C2BF632B70048447E /* MyIsland.swift */,
 				B5C92A522BF7CF1C00121E42 /* MyAssets.swift */,
+				B54FD3B12C07FF140060F578 /* UserProfileView.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -448,6 +455,7 @@
 				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
+				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -460,6 +468,7 @@
 				B5C92A632BF8797200121E42 /* FOS */,
 				B5C92A622BF8793500121E42 /* UniversityTown */,
 				B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */,
+				B54FD3AD2C078F4D0060F578 /* BuildingView.swift */,
 			);
 			path = Venues;
 			sourceTree = "<group>";
@@ -705,6 +714,7 @@
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
 				5BC6DE162BF0A7A40031650B /* Orbital.xcdatamodeld in Sources */,
+				B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */,
 				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
 				B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */,
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
@@ -726,6 +736,7 @@
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
 				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
+				B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */,
 				B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */,
 				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
@@ -733,6 +744,7 @@
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
 				B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
