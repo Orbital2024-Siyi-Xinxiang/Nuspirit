@@ -1,6 +1,5 @@
-# Nuspirit
-
-For orbital 2024
+# NUS Orbital 2024
+# Nuspirit: a multi-functional study metaverse for NUS students
 
 to run backend server:
 
