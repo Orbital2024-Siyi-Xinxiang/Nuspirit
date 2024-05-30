@@ -34,6 +34,7 @@ struct SettingsOverlay: View {
                     .padding()
                     .background(Color.black.opacity(0.6))
                     
+                    
                 }
             }
             .padding()

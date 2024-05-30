@@ -1,0 +1,382 @@
+Unity Editor version:    6000.0.0b16 (1ddb887463a9)
+Branch:                  trunk
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        18432 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Nuspirit
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53645
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Nuspirit
+/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Nuspirit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8695090176]  Target information:
+
+Player connection [8695090176]  * "[IP] 10.249.52.167 [Port] 0 [Flags] 2 [Guid] 1223994926 [EditorId] 1223994926 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8695090176]  * "[IP] 169.254.7.100 [Port] 0 [Flags] 2 [Guid] 1223994926 [EditorId] 1223994926 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8695090176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8695090176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+Refreshing native plugins compatible for Editor in 14.92 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.0b16 (1ddb887463a9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Nuspirit/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.021654 seconds.
+- Loaded All Assemblies, in  0.467 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+[usbmuxd] Attached: 9 00008110-001250421A8A401E
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 342 ms
+Native extension for WindowsStandalone target not found
+objc[70052]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x1403f0600) and /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x140468600). One of the two will be used. Which one is undefined.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+[usbmuxd] Attached: 9 00008110-001250421A8A401E
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.869 seconds
+Domain Reload Profiling: 2336ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1529ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(InitializeMessage const&)::$_11::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+- Loaded All Assemblies, in  1.494 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 2423ms
+	BeginReloadAssembly (892ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (527ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.78 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4665 unused Assets / (484.4 KB). Loaded Objects now: 5220.
+Memory consumption went from 129.3 MB to 128.8 MB.
+Total: 23.717625 ms (FindLiveObjects: 1.761959 ms CreateObjectMapping: 0.244250 ms MarkObjects: 18.596209 ms  DeleteObjects: 3.111500 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fe07000 may have been prematurely finalized
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+- Loaded All Assemblies, in  0.708 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1613ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (109ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (200ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.75 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4663 unused Assets / (286.6 KB). Loaded Objects now: 5223.
+Memory consumption went from 135.2 MB to 134.9 MB.
+Total: 10.508125 ms (FindLiveObjects: 1.146292 ms CreateObjectMapping: 0.231083 ms MarkObjects: 7.133750 ms  DeleteObjects: 1.996084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 116934.082259 seconds.
+  path: 
+  artifactKey: Guid(87cc95a27b6314be896d13e3b1ec5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(87cc95a27b6314be896d13e3b1ec5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00003375 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '87cc95a27b6314be896d13e3b1ec5051'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID>> const&, core::vector<PostprocessorInfo, core::allocator<PostprocessorInfo, 0ul>> const&, TransientArtifactProvider const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #3 ImportAssetWithAutoReleasePool(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID>> const&, core::vector<PostprocessorInfo, core::allocator<PostprocessorInfo, 0ul>> const&, TransientArtifactProvider const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #4 AssetImportWorker::Import(AssetResolver&, ImportAssetInputs const&, TransientArtifactProvider const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #5 invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_13::operator()() const
+ #6 _dispatch_client_callout
+ #7 _dispatch_async_and_wait_invoke
+ #8 _dispatch_client_callout
+ #9 _dispatch_main_queue_drain
+ #10 _dispatch_main_queue_callback_4CF
+ #11 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #12 __CFRunLoopRun
+ #13 CFRunLoopRunSpecific
+ #14 RunCurrentEventLoopInMode
+ #15 ReceiveNextEventCommon
+ #16 _BlockUntilNextEventMatchingListInModeWithFilter
+ #17 _DPSNextEvent
+ #18 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #19 -[NSApplication run]
+ #20 NSApplicationMain
+ #21 EditorMain(int, char const**)
+ #22 main
+ #23 start
+
+  ERROR: Unknown asset with GUID '87cc95a27b6314be896d13e3b1ec5051'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
