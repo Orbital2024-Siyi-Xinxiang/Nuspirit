@@ -5272,3 +5272,4160 @@ Number of updated asset objects reloaded before import = 0Number of asset object
 [usbmuxd] Attached: 1 00008110-001250421A8A401E
 [usbmuxd] Detached: 1 00008110-001250421A8A401E
 [usbmuxd] Detached: 1 00008110-001250421A8A401E
+[usbmuxd] Attached: 2 00008110-001250421A8A401E
+[usbmuxd] Attached: 2 00008110-001250421A8A401E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5604 unused Assets / (1.0 MB). Loaded Objects now: 6213.
+Memory consumption went from 167.5 MB to 166.5 MB.
+Total: 243.219917 ms (FindLiveObjects: 2.388500 ms CreateObjectMapping: 0.187333 ms MarkObjects: 239.410292 ms  DeleteObjects: 1.231667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x31b687000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.020 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 2935ms
+	BeginReloadAssembly (1038ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (109ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (348ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (902ms)
+		LoadAssemblies (1029ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (67ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (200ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (911ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5657 unused Assets / (1.9 MB). Loaded Objects now: 6216.
+Memory consumption went from 184.7 MB to 182.8 MB.
+Total: 14.032250 ms (FindLiveObjects: 0.392125 ms CreateObjectMapping: 0.205416 ms MarkObjects: 11.135792 ms  DeleteObjects: 2.298083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4547.508905 seconds.
+  path: Assets/Scripts/iosIntegration/NewMonoBehaviourScript.cs
+  artifactKey: Guid(c111e74bcbd094c18b799ac7f4f7868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/iosIntegration/NewMonoBehaviourScript.cs using Guid(c111e74bcbd094c18b799ac7f4f7868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '09f853a2d56ea6b88cd0b63f0637853c') in 0.002483667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5604 unused Assets / (1.2 MB). Loaded Objects now: 6216.
+Memory consumption went from 174.5 MB to 173.3 MB.
+Total: 19.224625 ms (FindLiveObjects: 0.443667 ms CreateObjectMapping: 0.151208 ms MarkObjects: 17.630125 ms  DeleteObjects: 0.998958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x31878b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.061 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.910 seconds
+Domain Reload Profiling: 2975ms
+	BeginReloadAssembly (872ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (211ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (1111ms)
+		LoadAssemblies (1189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (264ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (259ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5657 unused Assets / (3.6 MB). Loaded Objects now: 6218.
+Memory consumption went from 189.9 MB to 186.3 MB.
+Total: 22.551583 ms (FindLiveObjects: 0.653458 ms CreateObjectMapping: 0.236125 ms MarkObjects: 17.502917 ms  DeleteObjects: 4.158417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.392065 seconds.
+  path: Assets/Scripts/iosIntegration/QuitUnity.cs
+  artifactKey: Guid(c111e74bcbd094c18b799ac7f4f7868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/iosIntegration/QuitUnity.cs using Guid(c111e74bcbd094c18b799ac7f4f7868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b18cee30fd2eb373b1472a9d07b5c736') in 0.0020205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5604 unused Assets / (1.9 MB). Loaded Objects now: 6218.
+Memory consumption went from 179.3 MB to 177.4 MB.
+Total: 130.888000 ms (FindLiveObjects: 1.628500 ms CreateObjectMapping: 0.178250 ms MarkObjects: 125.677333 ms  DeleteObjects: 3.400208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 180.390291 seconds.
+  path: Assets/Scripts/iosIntegration/QuitUnity.cs
+  artifactKey: Guid(c111e74bcbd094c18b799ac7f4f7868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/iosIntegration/QuitUnity.cs using Guid(c111e74bcbd094c18b799ac7f4f7868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '907b8f9144e122657497a2799aff17fe') in 0.002867042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x318a87000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.734 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Assertion failed on expression: 'pred(*previous, *i)'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
+ #4 MonoScriptManager::CollectGarbage()
+ #5 MonoManager::FinalizeReload()
+ #6 ScriptingInitializer::FinalizeReload()
+ #7 AssetImportWorkerClient::ReloadScriptingDomain()
+ #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #9 _dispatch_client_callout
+ #10 _dispatch_async_and_wait_invoke
+ #11 _dispatch_client_callout
+ #12 _dispatch_main_queue_drain
+ #13 _dispatch_main_queue_callback_4CF
+ #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #15 __CFRunLoopRun
+ #16 CFRunLoopRunSpecific
+ #17 RunCurrentEventLoopInMode
+ #18 ReceiveNextEventCommon
+ #19 _BlockUntilNextEventMatchingListInModeWithFilter
+ #20 _DPSNextEvent
+ #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #22 -[NSApplication run]
+ #23 NSApplicationMain
+ #24 EditorMain(int, char const**)
+ #25 main
+ #26 start
+
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.812 seconds
+Domain Reload Profiling: 2550ms
+	BeginReloadAssembly (837ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (87ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (216ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (827ms)
+		LoadAssemblies (948ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (231ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5657 unused Assets / (2.2 MB). Loaded Objects now: 6220.
+Memory consumption went from 194.7 MB to 192.5 MB.
+Total: 13.720542 ms (FindLiveObjects: 0.357334 ms CreateObjectMapping: 0.201792 ms MarkObjects: 10.856625 ms  DeleteObjects: 2.304041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
