@@ -77,11 +77,11 @@
 			<string></string>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We will need to make use of your location to present relevant information about offers around you.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We will need to make use of your location to present relevant information about offers around you.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We will need to make use of your location to present relevant information about offers around you.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We will need to make use of your location to present relevant information about offers around you.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We will need to make use of your location to present relevant information about offers around you.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We will need to make use of your location to present relevant information about offers around you.</string>
 </dict>
 </plist>
