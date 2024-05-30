@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CategorySelectionManager : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class CategorySelectionManager : MonoBehaviour
             GameObject buttonObject = Instantiate(categoryButtonPrefab, categoryButtonContainer);
             Button button = buttonObject.GetComponent<Button>();
             button.onClick.AddListener(() => OnCategorySelected(category));
-            Text buttonText = buttonObject.GetComponentInChildren<Text>();
+            TextMeshProUGUI buttonText = buttonObject.GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = category;
         }
     }
@@ -50,7 +51,7 @@ public class CategorySelectionManager : MonoBehaviour
                 GameObject buttonObject = Instantiate(assetButtonPrefab, assetButtonContainer);
                 Button button = buttonObject.GetComponent<Button>();
                 button.onClick.AddListener(() => OnAssetSelected(objectData.prefab));
-                Text buttonText = buttonObject.GetComponentInChildren<Text>();
+                TextMeshProUGUI buttonText = buttonObject.GetComponentInChildren<TextMeshProUGUI>();
                 buttonText.text = objectData.prefab.name;
             }
         }
