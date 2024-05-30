@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using System;
+using System.Collections;
 
 public class ObjectPlacer : MonoBehaviour
 {
@@ -20,18 +22,21 @@ public class ObjectPlacer : MonoBehaviour
         InputManager.OnTouch -= HandleTouch;
     }
 
-    void HandleTouch(Vector2 touchPosition)
+    void HandleTouch(Vector2 touchPosition, bool isDragging)
     {
         Vector3 worldPosition = mainCamera.ScreenToWorldPoint(touchPosition);
         Vector3Int cellPosition = gridData.tilemap.WorldToCell(worldPosition);
 
         if (objectToPlace != null)
         {
-            PlaceObject(cellPosition);
-        }
-        else
-        {
-            PreviewObject(cellPosition);
+            if (isDragging)
+            {
+                PreviewObject(cellPosition);
+            }
+            else
+            {
+                PlaceObject(cellPosition);
+            }
         }
     }
 
@@ -70,8 +75,6 @@ public class ObjectPlacer : MonoBehaviour
 
     void HighlightCell(Vector3Int cellPosition, bool highlight)
     {
-        // Implement logic to highlight the cell
-        // Example: Change the color of the tile
         TileBase tile = gridData.tilemap.GetTile(cellPosition);
         if (tile != null)
         {

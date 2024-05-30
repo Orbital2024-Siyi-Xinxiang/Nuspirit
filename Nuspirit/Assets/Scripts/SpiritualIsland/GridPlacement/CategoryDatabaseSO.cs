@@ -1,16 +1,7 @@
 using UnityEngine;
 
-public class CategoryDatabaseSO : MonoBehaviour
+[CreateAssetMenu(fileName = "CategoryDatabase", menuName = "ScriptableObjects/CategoryDatabase")]
+public class CategoryDatabaseSO : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string[] categories;
 }

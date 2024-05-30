@@ -4,9 +4,8 @@ using System.Collections.Generic;
 
 public class GridData : MonoBehaviour
 {
-    public Tilemap tilemap;  // Add this line to define the Tilemap
+    public Tilemap tilemap; // Ensure this is set in the inspector
 
-    // A dictionary to keep track of occupied cells
     private Dictionary<Vector3Int, GameObject> occupiedCells = new Dictionary<Vector3Int, GameObject>();
 
     public bool IsCellOccupied(Vector3Int cellPosition)
