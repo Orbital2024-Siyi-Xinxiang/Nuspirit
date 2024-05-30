@@ -380,3 +380,555 @@ Message: Unknown asset with GUID '87cc95a27b6314be896d13e3b1ec5051'
   ERROR: Unknown asset with GUID '87cc95a27b6314be896d13e3b1ec5051'
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.81 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4613 unused Assets / (1.1 MB). Loaded Objects now: 5223.
+Memory consumption went from 125.0 MB to 123.9 MB.
+Total: 224.548541 ms (FindLiveObjects: 2.253500 ms CreateObjectMapping: 0.177625 ms MarkObjects: 220.826000 ms  DeleteObjects: 1.290042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fe07000 may have been prematurely finalized
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+- Loaded All Assemblies, in  2.013 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 2928ms
+	BeginReloadAssembly (866ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (248ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (235ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (1078ms)
+		LoadAssemblies (966ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (210ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (200ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.54 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4663 unused Assets / (1.8 MB). Loaded Objects now: 5225.
+Memory consumption went from 138.7 MB to 136.9 MB.
+Total: 9.433542 ms (FindLiveObjects: 0.319917 ms CreateObjectMapping: 0.171458 ms MarkObjects: 7.197833 ms  DeleteObjects: 1.744084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.69 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4613 unused Assets / (1.0 MB). Loaded Objects now: 5225.
+Memory consumption went from 128.8 MB to 127.9 MB.
+Total: 291.668750 ms (FindLiveObjects: 1.148208 ms CreateObjectMapping: 0.141000 ms MarkObjects: 289.229208 ms  DeleteObjects: 1.148292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.22 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4613 unused Assets / (132.0 KB). Loaded Objects now: 5225.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 39.208583 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.138833 ms MarkObjects: 37.699417 ms  DeleteObjects: 0.887666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.35 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4613 unused Assets / (0.7 MB). Loaded Objects now: 5225.
+Memory consumption went from 128.2 MB to 127.5 MB.
+Total: 14.132500 ms (FindLiveObjects: 0.382334 ms CreateObjectMapping: 0.144583 ms MarkObjects: 12.718417 ms  DeleteObjects: 0.886625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x33f6c7000 may have been prematurely finalized
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+- Loaded All Assemblies, in  1.878 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.867 seconds
+Domain Reload Profiling: 2747ms
+	BeginReloadAssembly (1137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (183ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (354ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (181ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4663 unused Assets / (1.6 MB). Loaded Objects now: 5227.
+Memory consumption went from 141.5 MB to 139.9 MB.
+Total: 11.029000 ms (FindLiveObjects: 0.591750 ms CreateObjectMapping: 0.231459 ms MarkObjects: 7.002500 ms  DeleteObjects: 3.202291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.61 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4613 unused Assets / (1.0 MB). Loaded Objects now: 5227.
+Memory consumption went from 131.7 MB to 130.7 MB.
+Total: 106.093542 ms (FindLiveObjects: 0.647292 ms CreateObjectMapping: 0.157625 ms MarkObjects: 104.483667 ms  DeleteObjects: 0.804042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.18 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4613 unused Assets / (0.6 MB). Loaded Objects now: 5227.
+Memory consumption went from 131.3 MB to 130.8 MB.
+Total: 181.766875 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.148292 ms MarkObjects: 179.212500 ms  DeleteObjects: 1.959708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fec7000 may have been prematurely finalized
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+- Loaded All Assemblies, in  1.727 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.708 seconds
+Domain Reload Profiling: 2437ms
+	BeginReloadAssembly (687ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (106ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (198ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (973ms)
+		LoadAssemblies (841ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.82 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4663 unused Assets / (1.0 MB). Loaded Objects now: 5229.
+Memory consumption went from 144.7 MB to 143.7 MB.
+Total: 8.303000 ms (FindLiveObjects: 0.488583 ms CreateObjectMapping: 0.169083 ms MarkObjects: 6.117458 ms  DeleteObjects: 1.527250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fec7000 may have been prematurely finalized
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+Asset path could not be found for script compilation file '/Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs'
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 AssertImplementation(int, char const*, int, int, char const*)
+ #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
+ #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
+ #6 MonoManager::AnalyzeDomain(bool)
+ #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
+ #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
+ #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
+ #10 AssetImportWorkerClient::ReloadScriptingDomain()
+ #11 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+ #12 _dispatch_client_callout
+ #13 _dispatch_async_and_wait_invoke
+ #14 _dispatch_client_callout
+ #15 _dispatch_main_queue_drain
+ #16 _dispatch_main_queue_callback_4CF
+ #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+ #18 __CFRunLoopRun
+ #19 CFRunLoopRunSpecific
+ #20 RunCurrentEventLoopInMode
+ #21 ReceiveNextEventCommon
+ #22 _BlockUntilNextEventMatchingListInModeWithFilter
+ #23 _DPSNextEvent
+ #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #25 -[NSApplication run]
+ #26 NSApplicationMain
+ #27 EditorMain(int, char const**)
+ #28 main
+ #29 start
+
+- Loaded All Assemblies, in  1.905 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 2633ms
+	BeginReloadAssembly (1082ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (108ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (382ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (1017ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.68 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4663 unused Assets / (1.5 MB). Loaded Objects now: 5231.
+Memory consumption went from 148.6 MB to 147.1 MB.
+Total: 7.698042 ms (FindLiveObjects: 0.304250 ms CreateObjectMapping: 0.198959 ms MarkObjects: 5.863625 ms  DeleteObjects: 1.330500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
