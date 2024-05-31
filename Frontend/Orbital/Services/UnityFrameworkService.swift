@@ -15,11 +15,24 @@ class Unity: UIResponder, UIApplicationDelegate {
         ufw?.appController() != nil
     }
 
+    func preload() {
+        if !isInitialized {
+            DispatchQueue.global(qos: .background).async {
+                self.initWindow()
+            }
+        }
+    }
+    
     func show() {
         if isInitialized {
-            showWindow()
+            DispatchQueue.main.async {
+                self.showWindow()
+            }
         } else {
-            initWindow()
+            preload()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { // Adjust delay as needed
+                self.showWindow()
+            }
         }
     }
 
@@ -84,8 +97,11 @@ class Unity: UIResponder, UIApplicationDelegate {
 extension Unity: UnityFrameworkListener {
 
     func unityDidUnload(_ notification: Notification!) {
+        self.unloadWindow()
         ufw?.unregisterFrameworkListener(self)
         ufw = nil
+        
         hostMainWindow?.makeKeyAndVisible()
+        
     }
 }
