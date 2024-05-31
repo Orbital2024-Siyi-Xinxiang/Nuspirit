@@ -3,7 +3,6 @@ import MapKit
 import CoreLocation
 import Foundation
 
-
 struct MainMapView: View {
     @Binding var showSettingsOverlay: Bool
 
@@ -35,7 +34,7 @@ struct MainMapView: View {
                         .padding()
 
                         Button(action: {
-//                            Unity.shared.show() 
+//                            Unity.shared.show()
                             // for launching Unity here
                             
                         })  {
@@ -56,10 +55,27 @@ struct MainMapView: View {
                     }
                     .padding()
                 }
+                .padding(.trailing)
+                
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            showSettingsOverlay.toggle()
+                        }) {
+                            Image(systemName: "gear")
+                                .padding()
+                                .background(Color.white)
+                                .foregroundColor(.black)
+                                .clipShape(Circle())
+                        }
+                        .padding()
+                    }
+                }
             }
             .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
-
