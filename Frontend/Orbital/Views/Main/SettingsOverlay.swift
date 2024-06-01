@@ -1,10 +1,3 @@
-//
-//  SettingsOverlayView.swift
-//  Orbital
-//
-//  Created by Xu Siyi on 22/5/24.
-//
-
 import SwiftUI
 import FirebaseCore
 import FirebaseAuth
@@ -21,25 +14,33 @@ struct SettingsOverlay: View {
             HStack {
                 Spacer()
                 if showSettings {
-                    Button(action: {
-                        showSettingsOverlay = false
-                        signOut()
-                    }) {
-                        Text("Sign Out")
-                            .padding()
-                            .background(Color.red)
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
+                    VStack {
+                        NavigationLink(destination: UserProfileView()) {
+                            Text("User Profile")
+                                .padding()
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                        }
+                        .padding(.bottom, 10)
+                        
+                        Button(action: {
+                            showSettingsOverlay = false
+                            signOut()
+                        }) {
+                            Text("Sign Out")
+                                .padding()
+                                .background(Color.red)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                        }
                     }
                     .padding()
                     .background(Color.black.opacity(0.6))
-                    
-                    
                 }
             }
             .padding()
-                }
-                
+        }
         
         Button(action: {
             showSettings.toggle()
@@ -50,6 +51,7 @@ struct SettingsOverlay: View {
                 .foregroundColor(.black)
                 .clipShape(Circle())
         }
+        .padding()
     }
 
     private func signOut() {
