@@ -63,24 +63,24 @@ struct MainMapView: View {
                 }
                 .padding(.trailing)
                 
-                VStack {
-                    Spacer()
-                    HStack {
-                        Spacer()
-                        Button(action: {
-                            showSettingsOverlay.toggle()
-                        }) {
-                            Image(systemName: "gear")
-                                .padding()
-                                .background(Color.white)
-                                .foregroundColor(.black)
-                                .clipShape(Circle())
-                        }
-                        .padding()
-                    }
+//                VStack {
+//                    Spacer()
+//                    HStack {
+//                        Spacer()
+//                        Button(action: {
+//                            showSettingsOverlay.toggle()
+//                        }) {
+//                            Image(systemName: "gear")
+//                                .padding()
+//                                .background(Color.white)
+//                                .foregroundColor(.black)
+//                                .clipShape(Circle())
+//                        }
+//                        .padding()
+//                    }
+//                }
                 }
-            }
-            .navigationBarHidden(true)
+                .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
