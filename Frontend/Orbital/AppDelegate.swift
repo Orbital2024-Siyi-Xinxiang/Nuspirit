@@ -49,8 +49,8 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         self.window?.rootViewController = UIHostingController(rootView: LandingView())
         self.window?.makeKeyAndVisible()
         
-        Unity.shared.setHostMainWindow(window)
-        Unity.shared.preload()
+//        Unity.shared.setHostMainWindow(window)
+//        Unity.shared.preload()
        
         // register remote notifications
         UNUserNotificationCenter.current().delegate = self
