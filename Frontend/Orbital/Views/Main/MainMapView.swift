@@ -20,11 +20,8 @@ struct MainMapView: View {
                 HStack {
                     Spacer()
                     VStack(spacing: 20) {
-                        Button(action: {
-//                            Unity.shared.show()
-                            // for launching Unity here
-                            
-                        }) {
+                        NavigationLink(destination: FurnitureMarketView())
+                        {
                             VStack {
                                 Image(systemName: "cart.fill")
                                     .resizable()
