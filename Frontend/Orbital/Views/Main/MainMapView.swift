@@ -1,8 +1,9 @@
+
+
 import SwiftUI
 import MapKit
 import CoreLocation
 import Foundation
-
 
 struct MainMapView: View {
     @Binding var showSettingsOverlay: Bool
@@ -19,7 +20,8 @@ struct MainMapView: View {
                 HStack {
                     Spacer()
                     VStack(spacing: 20) {
-                        NavigationLink(destination: FurnitureMarketView()) {
+                        NavigationLink(destination: FurnitureMarketView())
+                        {
                             VStack {
                                 Image(systemName: "cart.fill")
                                     .resizable()
@@ -34,7 +36,11 @@ struct MainMapView: View {
                         }
                         .padding()
 
-                        NavigationLink(destination: MyIslandView()) {
+                        Button(action: {
+//                            Unity.shared.show()
+                            // for launching Unity here
+                            
+                        })  {
                             VStack {
                                 Image(systemName: "leaf.arrow.circlepath")
                                     .resizable()
@@ -52,10 +58,27 @@ struct MainMapView: View {
                     }
                     .padding()
                 }
-            }
-            .navigationBarHidden(true)
+                .padding(.trailing)
+                
+//                VStack {
+//                    Spacer()
+//                    HStack {
+//                        Spacer()
+//                        Button(action: {
+//                            showSettingsOverlay.toggle()
+//                        }) {
+//                            Image(systemName: "gear")
+//                                .padding()
+//                                .background(Color.white)
+//                                .foregroundColor(.black)
+//                                .clipShape(Circle())
+//                        }
+//                        .padding()
+//                    }
+//                }
+                }
+                .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
-

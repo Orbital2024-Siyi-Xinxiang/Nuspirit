@@ -14,6 +14,7 @@ import UIKit
 import SwiftUI
 import GoogleSignIn
 
+
 class SignUpViewController: UIViewController, FUIAuthDelegate {
 //    var actionCodeSettings = ActionCodeSettings()
 //    actionCodeSettings.url = URL(string: "https://example.appspot.com")
@@ -26,7 +27,7 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
         let googleAuthProvider = FUIGoogleAuth(authUI: authUI!)
-        
+
         let providers: [FUIAuthProvider] = [
             googleAuthProvider,
             FUIOAuth.appleAuthProvider(),
@@ -71,5 +72,3 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         }
     }
 }
-
-

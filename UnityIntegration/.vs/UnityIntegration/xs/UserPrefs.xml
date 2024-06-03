@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{4888495C-A43F-D15A-FF40-4727F1640F6F}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbf85e1c-67a4-49a2-a5ca-0a3777728fba" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SpiritualIsland/ModeManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs" Line="25" Column="6" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" Line="35" Column="11" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectDatabaseSO.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" Line="8" Column="17" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs" Line="13" Column="28" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/InputManager.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/ViewControl/Quit.cs" Line="26" Column="30" />
+      <File FileName="MyCollectionViewCell.xib" />
+      <File FileName="MyCollectionViewCell.cs" />
+      <File FileName="MyCollectionViewCell.designer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnityIntegration" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Firestore" expanded="True" />
+                <Node name="SpiritualIsland" expanded="True">
+                  <Node name="GridPlacement" expanded="True">
+                    <Node name="CategorySelectionManager.cs" selected="True" />
+                  </Node>
+                  <Node name="PlayerControl" expanded="True" />
+                </Node>
+                <Node name="ViewControl" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
