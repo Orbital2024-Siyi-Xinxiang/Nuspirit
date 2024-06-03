@@ -1,7 +1,2 @@
-UnityScenes/iosBuild/
-UnityScenes/iosBuild_BurstDebugInformation_DoNotShip/
-UnityScenes/Library/
-Nuspirit/Library/
-Nuspirit/iosBuild/
-Nuspirit/iosBuild_BurstDebugInformation_DoNotShip/
-Nuspirit/Assets/Firebase/Plugins/
+UnityIntegration/iosBuild
+UnityIntegration/Library
