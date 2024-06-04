@@ -2,10 +2,8 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    public delegate void OnTouchDelegate(Vector2 position, bool isDragging);
-    public static event OnTouchDelegate OnTouch;
-
-    private bool isDragging;
+    public delegate void TouchAction(Vector2 position, bool isDragging);
+    public static event TouchAction OnTouch;
 
     void Update()
     {
@@ -14,21 +12,24 @@ public class InputManager : MonoBehaviour
             Touch touch = Input.GetTouch(0);
             Vector2 touchPosition = touch.position;
 
-            switch (touch.phase)
+            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
             {
-                case TouchPhase.Began:
-                    isDragging = false;
-                    OnTouch?.Invoke(touchPosition, isDragging);
-                    break;
-                case TouchPhase.Moved:
-                    isDragging = true;
-                    OnTouch?.Invoke(touchPosition, isDragging);
-                    break;
-                case TouchPhase.Ended:
-                    isDragging = false;
-                    OnTouch?.Invoke(touchPosition, isDragging);
-                    break;
+                OnTouch?.Invoke(touchPosition, true);
             }
+            else if (touch.phase == TouchPhase.Ended)
+            {
+                OnTouch?.Invoke(touchPosition, false);
+            }
+        }
+        else if (Input.GetMouseButton(0))
+        {
+            Vector2 mousePosition = Input.mousePosition;
+            OnTouch?.Invoke(mousePosition, true);
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            Vector2 mousePosition = Input.mousePosition;
+            OnTouch?.Invoke(mousePosition, false);
         }
     }
 }

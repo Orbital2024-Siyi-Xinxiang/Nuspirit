@@ -1,20 +1,24 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PreviewSystem : MonoBehaviour
 {
-    public GameObject previewPrefab;
     private GameObject previewInstance;
+    public Tilemap customPlacementTilemap;
+    public Tile highlightTile;
 
-    public void ShowPreview(Vector3Int cellPosition)
+    public void UpdatePreview(Vector3Int cellPosition, GameObject previewPrefab)
     {
         if (previewInstance == null)
         {
-            previewInstance = Instantiate(previewPrefab, cellPosition, Quaternion.identity);
+            previewInstance = Instantiate(previewPrefab, customPlacementTilemap.CellToWorld(cellPosition), Quaternion.identity);
         }
         else
         {
-            previewInstance.transform.position = cellPosition;
+            previewInstance.transform.position = customPlacementTilemap.CellToWorld(cellPosition);
+            previewInstance.SetActive(true);
         }
+        HighlightCell(cellPosition);
     }
 
     public void HidePreview()
@@ -24,5 +28,16 @@ public class PreviewSystem : MonoBehaviour
             Destroy(previewInstance);
             previewInstance = null;
         }
+        ClearHighlights();
+    }
+
+    private void HighlightCell(Vector3Int cellPosition)
+    {
+        customPlacementTilemap.SetTile(cellPosition, highlightTile);
+    }
+
+    private void ClearHighlights()
+    {
+        customPlacementTilemap.ClearAllTiles();
     }
 }
