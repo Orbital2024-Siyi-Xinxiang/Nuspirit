@@ -1,32 +1,24 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
 
 public class CategorySelectionManager : MonoBehaviour
 {
-    // selectiom databases
     public CategoryDatabaseSO categoryDatabase;
-    public ObjectsDatabaseSO objectsDatabase;
-
     public Transform categoryButtonContainer;
-    public Transform assetButtonContainer;
-
     public GameObject categoryButtonPrefab;
-    public GameObject assetButtonPrefab;
-
-    public ObjectPlacer objectPlacer;
-
-    private string selectedCategory;
+    public GameObject assetSelectionUI;
+    public AssetSelectionManager assetSelectionManager;
 
     void Start()
     {
+        assetSelectionUI.SetActive(false);
         PopulateCategoryButtons();
-
     }
 
     void PopulateCategoryButtons()
     {
+        //print(
         foreach (var categoryItem in categoryDatabase.categories)
         {
             string category = categoryItem.category;
@@ -34,40 +26,27 @@ public class CategorySelectionManager : MonoBehaviour
 
             GameObject buttonObject = Instantiate(categoryButtonPrefab, categoryButtonContainer);
             Button button = buttonObject.GetComponent<Button>();
-            button.onClick.AddListener(() => OnCategorySelected(category));
             TextMeshProUGUI buttonText = buttonObject.GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = category;
-        }
-    }
+            // Add LayoutElement and set preferred size
+            LayoutElement layoutElement = buttonObject.AddComponent<LayoutElement>();
+            layoutElement.preferredWidth = 80;
+            layoutElement.preferredHeight = 50;
 
-    public  void OnCategorySelected(string category)
-    {
-        selectedCategory = category;
-        PopulateAssetButtons(category);
-    }
-
-    void PopulateAssetButtons(string category)
-    {
-        foreach (Transform child in assetButtonContainer)
-        {
-            Destroy(child.gameObject);
+            button.onClick.AddListener(() => OnCategorySelected(category));
         }
 
-        foreach (var objectData in objectsDatabase.objects)
-        {
-            if (objectData.category == category)
-            {
-                GameObject buttonObject = Instantiate(assetButtonPrefab, assetButtonContainer);
-                Button button = buttonObject.GetComponent<Button>();
-                button.onClick.AddListener(() => OnAssetSelected(objectData.prefab));
-                TextMeshProUGUI buttonText = buttonObject.GetComponentInChildren<TextMeshProUGUI>();
-                buttonText.text = objectData.prefab.name;
-            }
-        }
+        HorizontalLayoutGroup horizontalLayoutGroup = categoryButtonContainer.GetComponent<HorizontalLayoutGroup>();
+        horizontalLayoutGroup.childControlWidth = true;
+        horizontalLayoutGroup.childControlHeight = true;
+        horizontalLayoutGroup.childScaleWidth = true;
+        horizontalLayoutGroup.childScaleHeight = true;
     }
 
-    void OnAssetSelected(GameObject assetPrefab)
+    public void OnCategorySelected(string category)
     {
-        objectPlacer.SetObjectToPlace(assetPrefab);
+        //print("hey!");
+        assetSelectionUI.SetActive(true);
+        assetSelectionManager.onCategorySelected(category);
     }
 }

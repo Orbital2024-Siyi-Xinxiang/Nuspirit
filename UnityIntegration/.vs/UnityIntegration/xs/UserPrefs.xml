@@ -1,26 +1,24 @@
 ﻿<Properties StartupConfiguration="{4888495C-A43F-D15A-FF40-4727F1640F6F}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbf85e1c-67a4-49a2-a5ca-0a3777728fba" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpiritualIsland/ModeManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/ModeManager.cs" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs" Line="25" Column="6" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" Line="35" Column="11" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" Line="14" Column="44" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectDatabaseSO.cs" Line="22" Column="1" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" Line="8" Column="17" />
+      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs" Line="13" Column="28" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementState.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/InputManager.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/InputManager.cs" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/ViewControl/Quit.cs" Line="26" Column="30" />
-      <File FileName="MyCollectionViewCell.xib" />
-      <File FileName="MyCollectionViewCell.cs" />
-      <File FileName="MyCollectionViewCell.designer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/AssetSelectionManager.cs" Line="54" Column="6" />
+      <File FileName="Assets/Scripts/ViewControl/NewMonoBehaviour.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,7 +29,7 @@
                 <Node name="Firestore" expanded="True" />
                 <Node name="SpiritualIsland" expanded="True">
                   <Node name="GridPlacement" expanded="True">
-                    <Node name="CategorySelectionManager.cs" selected="True" />
+                    <Node name="ObjectDatabaseSO.cs" selected="True" />
                   </Node>
                   <Node name="PlayerControl" expanded="True" />
                 </Node>
@@ -44,7 +42,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0aea6328-160a-4513-b739-0cfb6acb55c2" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

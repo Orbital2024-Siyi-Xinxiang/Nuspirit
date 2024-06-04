@@ -1,16 +1,16 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using System;
-using System.Collections;
 
 public class ObjectPlacer : MonoBehaviour
 {
     public Camera mainCamera;
     public GridData gridData;
-    public GameObject previewObjectPrefab;
-    private GameObject previewObjectInstance;
+    public InputManager inputManager;
+
     private GameObject objectToPlace;
-    private Vector3Int lastCellPosition;
+    private GameObject currentPreviewObject;
+
+    public PreviewSystem previewSystem;
 
     void OnEnable()
     {
@@ -22,44 +22,16 @@ public class ObjectPlacer : MonoBehaviour
         InputManager.OnTouch -= HandleTouch;
     }
 
-    void HandleTouch(Vector2 touchPosition, bool isDragging)
+    public void SetObjectToPlace(GameObject prefab)
     {
-        Vector3 worldPosition = mainCamera.ScreenToWorldPoint(touchPosition);
-        Vector3Int cellPosition = gridData.tilemap.WorldToCell(worldPosition);
-
-        if (objectToPlace != null)
+        objectToPlace = prefab;
+        if (currentPreviewObject != null)
         {
-            if (isDragging)
-            {
-                PreviewObject(cellPosition);
-            }
-            else
-            {
-                PlaceObject(cellPosition);
-            }
-        }
-    }
-
-    void PreviewObject(Vector3Int cellPosition)
-    {
-        if (previewObjectInstance == null)
-        {
-            previewObjectInstance = Instantiate(previewObjectPrefab, gridData.tilemap.CellToWorld(cellPosition), Quaternion.identity);
-        }
-        else
-        {
-            previewObjectInstance.transform.position = gridData.tilemap.CellToWorld(cellPosition);
+            Destroy(currentPreviewObject);
         }
 
-        if (lastCellPosition != cellPosition)
-        {
-            HighlightCell(cellPosition, true);
-            if (lastCellPosition != null)
-            {
-                HighlightCell(lastCellPosition, false);
-            }
-            lastCellPosition = cellPosition;
-        }
+        currentPreviewObject = Instantiate(objectToPlace);
+        currentPreviewObject.SetActive(false);
     }
 
     void PlaceObject(Vector3Int cellPosition)
@@ -68,23 +40,64 @@ public class ObjectPlacer : MonoBehaviour
         {
             GameObject placedObject = Instantiate(objectToPlace, gridData.tilemap.CellToWorld(cellPosition), Quaternion.identity);
             gridData.OccupyCell(cellPosition, placedObject);
-            Destroy(previewObjectInstance);
-            previewObjectInstance = null;
         }
-    }
 
-    void HighlightCell(Vector3Int cellPosition, bool highlight)
-    {
-        TileBase tile = gridData.tilemap.GetTile(cellPosition);
-        if (tile != null)
+        if (currentPreviewObject != null)
         {
-            Color color = highlight ? Color.yellow : Color.white;
-            gridData.tilemap.SetColor(cellPosition, color);
+            Destroy(currentPreviewObject);
+            currentPreviewObject = null;
+        }
+
+        previewSystem.enabled = false;
+    }
+
+    private void HandleTouch(Vector2 position, bool isDragging)
+    {
+        if (objectToPlace == null || currentPreviewObject == null) return;
+
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, Camera.main.nearClipPlane));
+        Vector3Int cellPosition = gridData.tilemap.WorldToCell(worldPosition);
+
+        if (isDragging)
+        {
+            currentPreviewObject.transform.position = worldPosition;
+            currentPreviewObject.SetActive(true);
+        }
+        else
+        {
+            PlaceObject(cellPosition);
+            previewSystem.HidePreview();
         }
     }
 
-    public void SetObjectToPlace(GameObject newObject)
-    {
-        objectToPlace = newObject;
-    }
+    //void Update()
+    //{
+    //    // Check for mouse input (for desktop)
+    //    if (Input.GetMouseButton(0))
+    //    {
+    //        Vector3 mousePosition = Input.mousePosition;
+    //        HandleTouch(mousePosition, true);
+    //    }
+    //    else if (Input.GetMouseButtonUp(0))
+    //    {
+    //        Vector3 mousePosition = Input.mousePosition;
+    //        HandleTouch(mousePosition, false);
+    //    }
+
+    //    // Check for touch input (for mobile)
+    //    if (Input.touchCount > 0)
+    //    {
+    //        Touch touch = Input.GetTouch(0);
+    //        Vector2 touchPosition = touch.position;
+
+    //        if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
+    //        {
+    //            HandleTouch(touchPosition, true);
+    //        }
+    //        else if (touch.phase == TouchPhase.Ended)
+    //        {
+    //            HandleTouch(touchPosition, false);
+    //        }
+    //    }
+    //}
 }
