@@ -58,6 +58,7 @@
 		B52F7BEA2BFF87AD00DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
+		B549FD1E2C1042D5009223B9 /* ContactsSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */; };
 		B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AD2C078F4D0060F578 /* BuildingView.swift */; };
 		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
@@ -162,6 +163,7 @@
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsSwipe.swift; sourceTree = "<group>"; };
 		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 				B5C92A522BF7CF1C00121E42 /* MyAssets.swift */,
 				B54FD3B12C07FF140060F578 /* UserProfileView.swift */,
 				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
+				B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -738,6 +741,7 @@
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* FirebaseMessagingService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
+				B549FD1E2C1042D5009223B9 /* ContactsSwipe.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
 				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
