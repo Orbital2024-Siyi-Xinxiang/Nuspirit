@@ -69,6 +69,10 @@
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
 		B56F74952BF63F8C0048447E /* LaunchNuspirit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */; };
 		B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442332C11ACB9009F6616 /* Starbucks.swift */; };
+		B57442362C11FEF2009F6616 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442352C11FEF2009F6616 /* Onboarding.swift */; };
+		B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442372C11FF2C009F6616 /* UserInfo.swift */; };
+		B574423A2C120287009F6616 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442392C120287009F6616 /* InfoCardView.swift */; };
+		B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423B2C1202A1009F6616 /* StartButtonView.swift */; };
 		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
 		B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */; };
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
@@ -175,6 +179,10 @@
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
 		B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchNuspirit.storyboard; sourceTree = "<group>"; };
 		B57442332C11ACB9009F6616 /* Starbucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starbucks.swift; sourceTree = "<group>"; };
+		B57442352C11FEF2009F6616 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B57442372C11FF2C009F6616 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		B57442392C120287009F6616 /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		B574423B2C1202A1009F6616 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
 		B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnityViewController(Unused).swift"; sourceTree = "<group>"; };
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
@@ -427,6 +435,9 @@
 				B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */,
 				5BC6DE402BF0C1270031650B /* SignUpView.swift */,
 				5BC6DE442BF0C3CF0031650B /* SignInView.swift */,
+				B57442352C11FEF2009F6616 /* Onboarding.swift */,
+				B57442392C120287009F6616 /* InfoCardView.swift */,
+				B574423B2C1202A1009F6616 /* StartButtonView.swift */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -469,6 +480,7 @@
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
 				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
+				B57442372C11FF2C009F6616 /* UserInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -728,6 +740,7 @@
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
+				B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */,
 				B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */,
 				B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
@@ -754,6 +767,7 @@
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B56F74772BF62F370048447E /* CartView.swift in Sources */,
+				B57442362C11FEF2009F6616 /* Onboarding.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
 				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
@@ -763,7 +777,9 @@
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
+				B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */,
 				B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */,
+				B574423A2C120287009F6616 /* InfoCardView.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
 				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
