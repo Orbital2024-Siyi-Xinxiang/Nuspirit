@@ -4,6 +4,8 @@ struct InfoCardView: View {
     // MARK: - PROPERTIES
     
     var user: UserInfo
+    @Binding var isOnboardingCompleted: Bool
+    
     @State private var isAnimating: Bool = false
     @State private var nickname: String = ""
     @State private var selectedStatus: String = "Alumni"
@@ -75,7 +77,7 @@ struct InfoCardView: View {
                 }
                 
                 // BUTTON: START
-                StartButtonView()
+                StartButtonView(isOnboardingCompleted: $isOnboardingCompleted, nickname: $nickname, selectedStatus: $selectedStatus, selectedLevel: $selectedLevel, selectedFaculty: $selectedFaculty, selectedMajor: $selectedMajor)
             } //: VSTACK
         } //: ZSTACK
         .onAppear {

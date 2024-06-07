@@ -72,7 +72,7 @@
 		B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442352C11FEF2009F6616 /* OnboardingView.swift */; };
 		B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442372C11FF2C009F6616 /* UserInfo.swift */; };
 		B574423A2C120287009F6616 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442392C120287009F6616 /* InfoCardView.swift */; };
-		B574423C2C1202A1009F6616 /* SkipButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423B2C1202A1009F6616 /* SkipButtonView.swift */; };
+		B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423B2C1202A1009F6616 /* StartButtonView.swift */; };
 		B574423E2C129410009F6616 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423D2C129410009F6616 /* UserData.swift */; };
 		B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423F2C12953F009F6616 /* FirebaseAuthService.swift */; };
 		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
@@ -184,7 +184,7 @@
 		B57442352C11FEF2009F6616 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B57442372C11FF2C009F6616 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		B57442392C120287009F6616 /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
-		B574423B2C1202A1009F6616 /* SkipButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipButtonView.swift; sourceTree = "<group>"; };
+		B574423B2C1202A1009F6616 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		B574423D2C129410009F6616 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		B574423F2C12953F009F6616 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
 		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
@@ -442,7 +442,7 @@
 				5BC6DE442BF0C3CF0031650B /* SignInView.swift */,
 				B57442352C11FEF2009F6616 /* OnboardingView.swift */,
 				B57442392C120287009F6616 /* InfoCardView.swift */,
-				B574423B2C1202A1009F6616 /* SkipButtonView.swift */,
+				B574423B2C1202A1009F6616 /* StartButtonView.swift */,
 				B574423D2C129410009F6616 /* UserData.swift */,
 			);
 			path = Launch;
@@ -748,7 +748,7 @@
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
-				B574423C2C1202A1009F6616 /* SkipButtonView.swift in Sources */,
+				B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */,
 				B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */,
 				B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
