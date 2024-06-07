@@ -3,13 +3,12 @@ import Firebase
 import FirebaseFirestore
 
 struct StartButtonView: View {
-    @AppStorage("isOnboardingCompleted") var isOnboardingCompleted: Bool?
-    
-    @State private var nickname: String = ""
-    @State private var selectedStatus: String = "Alumni"
-    @State private var selectedLevel: String = "Undergraduate"
-    @State private var selectedFaculty: String = ""
-    @State private var selectedMajor: String = ""
+    @Binding var isOnboardingCompleted: Bool
+    @Binding var nickname: String
+    @Binding var selectedStatus: String
+    @Binding var selectedLevel: String
+    @Binding var selectedFaculty: String
+    @Binding var selectedMajor: String
     
     var body: some View {
         Button(action: {
@@ -34,7 +33,7 @@ struct StartButtonView: View {
         guard let userId = Auth.auth().currentUser?.uid else { return }
 
         let db = Firestore.firestore()
-        db.collection("users").document(userId).setData([
+        db.collection("users_profiles").document(userId).setData([
             "nickname": nickname,
             "status": selectedStatus,
             "level": selectedLevel,

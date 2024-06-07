@@ -3,7 +3,6 @@ import FirebaseAuth
 import Foundation
 import FirebaseCore
 import Firebase
-import FirebaseAuth
 import FirebaseAuthUI
 import UserNotifications
 import FirebaseFacebookAuthUI
@@ -14,13 +13,13 @@ import UIKit
 import FirebaseStorage
 import FirebaseFirestore
 
-
 struct SignInView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var showingPassword: Bool = false
     @State private var errorMessage: String?
     @State private var isSignedIn: Bool = false
+    @State private var showOnboarding: Bool = false
     
     var body: some View {
         VStack(spacing: 20) {
@@ -78,7 +77,10 @@ struct SignInView: View {
         }
         .padding()
         .fullScreenCover(isPresented: $isSignedIn) {
-            MainMapView(showSettingsOverlay: $isSignedIn)
+            MainMapView(showSettingsOverlay: Binding.constant(true))
+        }
+        .fullScreenCover(isPresented: $showOnboarding) {
+            OnBoardingView(isOnboardingCompleted: $showOnboarding)
         }
     }
     
@@ -87,45 +89,24 @@ struct SignInView: View {
             if let error = error {
                 errorMessage = error.localizedDescription
             } else {
-                isSignedIn = true
-                print("User Signed In successfully")
                 if let user = Auth.auth().currentUser {
-                    // The user's ID, unique to the Firebase project.
-                    // Do NOT use this value to authenticate with your backend server,
-                    // if you have one. Use getTokenWithCompletion:completion: instead.
                     let uid = user.uid
-                    let email = user.email
-                    let photoURL = user.photoURL
-                    var multiFactorString = "MultiFactor: "
-                    let displayName = user.displayName
-                    for info in user.multiFactor.enrolledFactors {
-                        multiFactorString += info.displayName ?? "[DispayName]"
-                        multiFactorString += " "
-                        }
-//                        navigateToMainMapView()
-                    
-                    // store user in firestore
-//                    let db = Firestore.firestore()
-//                    db.collection("users_credentials").document(uid).setData([
-//                        "display_name": displayName ?? "",
-//                        "email": email ?? "",
-//                        "password": password
-//                    ]) { err in
-//                        if let err = err {
-//                            print("Error adding user: \(err)")
-//                        } else {
-//                            print("User added successfully")
-//                        }
-//                        
-//                    }
+                    checkUserExists(uid: uid)
                 }
             }
         }
     }
-}
-
-struct SignInView_Previews: PreviewProvider {
-    static var previews: some View {
-        SignInView()
+    
+    private func checkUserExists(uid: String) {
+        let db = Firestore.firestore()
+        let docRef = db.collection("users_profiles").document(uid)
+        
+        docRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                isSignedIn = true
+            } else {
+                showOnboarding = true
+            }
+        }
     }
 }
