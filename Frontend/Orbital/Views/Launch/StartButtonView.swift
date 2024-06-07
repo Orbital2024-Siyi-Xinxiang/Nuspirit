@@ -9,33 +9,24 @@ struct StartButtonView: View {
     @Binding var selectedLevel: String
     @Binding var selectedFaculty: String
     @Binding var selectedMajor: String
-
-    @State private var navigateToMainMapView: Bool = false
-
+    
     var body: some View {
-        NavigationView {
-            VStack {
-                Button(action: {
-                    saveUserData()
-                }) {
-                    HStack(spacing: 8) {
-                        Text("Start")
-                        Image(systemName: "arrow.right.circle")
-                            .imageScale(.large)
-                    }
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 10)
-                    .background(
-                        Capsule().strokeBorder(Color.white, lineWidth: 1.25)
-                    )
-                }
-                .accentColor(Color.white)
-
-                NavigationLink(destination: MainMapView(showSettingsOverlay: .constant(true)), isActive: $navigateToMainMapView) {
-                    EmptyView()
-                }
+        Button(action: {
+            saveUserData()
+            isOnboardingCompleted = true
+        }) {
+            HStack(spacing: 8) {
+                Text("Start")
+                Image(systemName: "arrow.right.circle")
+                    .imageScale(.large)
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .background(
+                Capsule().strokeBorder(Color.white, lineWidth: 1.25)
+            )
         }
+        .accentColor(Color.white)
     }
 
     func saveUserData() {
@@ -53,8 +44,6 @@ struct StartButtonView: View {
                 print("Error writing document: \(error)")
             } else {
                 print("Document successfully written!")
-                isOnboardingCompleted = true
-                navigateToMainMapView = true
             }
         }
     }
