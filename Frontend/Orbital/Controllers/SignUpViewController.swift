@@ -12,6 +12,7 @@ import FirebaseOAuthUI
 import FirebasePhoneAuthUI
 import SwiftUI
 import GoogleSignIn
+abseil-cpp-binary
 
 class SignUpViewController: UIViewController, FUIAuthDelegate {
     override func viewDidLoad() {
@@ -77,3 +78,5 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         }
     }
 }
+
+
