@@ -14,6 +14,7 @@ struct StartButtonView: View {
         Button(action: {
             saveUserData()
             isOnboardingCompleted = true
+            SignUpViewController().navigateToMainAppView()
         }) {
             HStack(spacing: 8) {
                 Text("Start")
