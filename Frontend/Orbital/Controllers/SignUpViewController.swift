@@ -64,8 +64,11 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         let mainMapView = OrientationViewControllerWrapper(supportedOrientation: .landscape, content: AnyView(MainMapView(showSettingsOverlay: Binding.constant(true))))
         let hostingController = UIHostingController(rootView: mainMapView)
         if let window = UIApplication.shared.windows.first {
-            window.rootViewController = hostingController
-            window.makeKeyAndVisible()
+            UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: {
+                window.rootViewController = hostingController
+            }) { completed in
+                window.makeKeyAndVisible()
+            }
         }
     }
 
@@ -73,8 +76,11 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         let onboardingView = OrientationViewControllerWrapper(supportedOrientation: .landscape, content: AnyView(OnBoardingView(isOnboardingCompleted: Binding.constant(false))))
         let hostingController = UIHostingController(rootView: onboardingView)
         if let window = UIApplication.shared.windows.first {
-            window.rootViewController = hostingController
-            window.makeKeyAndVisible()
+            UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: {
+                window.rootViewController = hostingController
+            }) { completed in
+                window.makeKeyAndVisible()
+            }
         }
     }
 }
