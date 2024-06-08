@@ -44,6 +44,7 @@ struct InfoCardView: View {
                     TextField("Enter your preferred display name", text: $nickname)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
+                    
                 } else if user.data == "isStudentOrNot" {
                     Picker("Select your status", selection: $selectedStatus) {
                         Text("Alumni").tag("Alumni")
@@ -52,6 +53,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
+                    
                 } else if user.data == "levelOfStudy" {
                     Picker("Select your level of study", selection: $selectedLevel) {
                         Text("Undergraduate").tag("Undergraduate")
@@ -59,7 +61,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
-                } else if user.data == "faculty" && selectedStatus == "Current Student" {
+                } else if user.data == "faculty" /*&& selectedStatus == "Current Student"*/ {
                     TextField("Search or select your faculty", text: $selectedFaculty)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
@@ -70,7 +72,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(MenuPickerStyle())
                     .padding()
-                } else if user.data == "major" && selectedStatus == "Current Student" {
+                } else if user.data == "major" /*&& selectedStatus == "Current Student"*/ {
                     TextField("Search or select your major", text: $selectedMajor)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
