@@ -1,11 +1,16 @@
 import SwiftUI
+import FirebaseAuth
+import FirebaseCore
+import FirebaseFirestore
+
 
 struct InfoCardView: View {
     // MARK: - PROPERTIES
     
     var user: UserInfo
     @Binding var isOnboardingCompleted: Bool
-    
+    @Binding var currentCardIndex: Int
+
     @State private var isAnimating: Bool = false
     @State private var nickname: String = ""
     @State private var selectedStatus: String = "Alumni"
@@ -44,7 +49,6 @@ struct InfoCardView: View {
                     TextField("Enter your preferred display name", text: $nickname)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-                    
                 } else if user.data == "isStudentOrNot" {
                     Picker("Select your status", selection: $selectedStatus) {
                         Text("Alumni").tag("Alumni")
@@ -58,6 +62,7 @@ struct InfoCardView: View {
                     Picker("Select your level of study", selection: $selectedLevel) {
                         Text("Undergraduate").tag("Undergraduate")
                         Text("Postgraduate").tag("Postgraduate")
+                        
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
@@ -78,8 +83,9 @@ struct InfoCardView: View {
                         .padding()
                 }
                 
-                // BUTTON: START
-                StartButtonView(isOnboardingCompleted: $isOnboardingCompleted, nickname: $nickname, selectedStatus: $selectedStatus, selectedLevel: $selectedLevel, selectedFaculty: $selectedFaculty, selectedMajor: $selectedMajor)
+                if currentCardIndex == totalCards - 1 {
+                    StartButtonView(isOnboardingCompleted: $isOnboardingCompleted, nickname: $nickname, selectedStatus: $selectedStatus, selectedLevel: $selectedLevel, selectedFaculty: $selectedFaculty, selectedMajor: $selectedMajor, currentCardIndex: $currentCardIndex)
+                } 
             } //: VSTACK
         } //: ZSTACK
         .onAppear {
@@ -92,4 +98,11 @@ struct InfoCardView: View {
         .cornerRadius(20)
         .padding(.horizontal, 20)
     }
+    
+
+    
 }
+
+// Add totalCards variable to represent the total number of cards
+let totalCards = 5
+

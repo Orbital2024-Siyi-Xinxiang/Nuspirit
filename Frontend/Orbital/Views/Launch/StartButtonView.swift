@@ -9,15 +9,20 @@ struct StartButtonView: View {
     @Binding var selectedLevel: String
     @Binding var selectedFaculty: String
     @Binding var selectedMajor: String
-    
+    @Binding var currentCardIndex: Int
+
     var body: some View {
         Button(action: {
-            saveUserData()
+            saveUserData(currentCardIndex: currentCardIndex)
+//            if currentCardIndex == totalCards - 1 {
             isOnboardingCompleted = true
             SignUpViewController().navigateToMainAppView()
+//            } else {
+//                currentCardIndex += 1
+//            }
         }) {
             HStack(spacing: 8) {
-                Text("Start")
+                Text(currentCardIndex == totalCards - 1 ? "Start" : "Continue")
                 Image(systemName: "arrow.right.circle")
                     .imageScale(.large)
             }
@@ -30,22 +35,66 @@ struct StartButtonView: View {
         .accentColor(Color.white)
     }
 
-    func saveUserData() {
+    func saveUserData(currentCardIndex: Int) {
         guard let userId = Auth.auth().currentUser?.uid else { return }
-
+        
+//        print(nickname, selectedStatus, selectedLevel, selectedFaculty, selectedMajor)
         let db = Firestore.firestore()
-        db.collection("users_profiles").document(userId).setData([
-            "nickname": nickname,
-            "status": selectedStatus,
-            "level": selectedLevel,
-            "faculty": selectedFaculty,
-            "major": selectedMajor
-        ]) { error in
-            if let error = error {
-                print("Error writing document: \(error)")
-            } else {
-                print("Document successfully written!")
+        if (currentCardIndex == 0) {
+            db.collection("users_profiles").document(userId).setData([
+                "nickname": nickname,
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 1) {
+            db.collection("users_profiles").document(userId).setData([
+                "status": selectedStatus,
+ 
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 2) {
+            db.collection("users_profiles").document(userId).setData([
+
+                "level": selectedLevel
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 3) {
+            db.collection("users_profiles").document(userId).setData([
+
+                "faculty": selectedFaculty,
+
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 4) {
+            db.collection("users_profiles").document(userId).setData([
+                "major": selectedMajor
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
             }
         }
+
     }
 }
