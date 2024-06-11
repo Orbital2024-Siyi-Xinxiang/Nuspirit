@@ -49,7 +49,7 @@ struct InfoCardView: View {
                     TextField("Enter your preferred display name", text: $nickname)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-                    saveUserData(currentCardIndex: currentCardIndex)
+    
                 } else if user.data == "isStudentOrNot" {
                     Picker("Select your status", selection: $selectedStatus) {
                         Text("Alumni").tag("Alumni")
@@ -58,7 +58,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
-                    saveUserData(currentCardIndex: currentCardIndex)
+                    
                 } else if user.data == "levelOfStudy" {
                     Picker("Select your level of study", selection: $selectedLevel) {
                         Text("Undergraduate").tag("Undergraduate")
@@ -67,7 +67,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
-                    saveUserData(currentCardIndex: currentCardIndex)
+                    
                 } else if user.data == "faculty" /*&& selectedStatus == "Current Student"*/ {
                     TextField("Search or select your faculty", text: $selectedFaculty)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -79,23 +79,26 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(MenuPickerStyle())
                     .padding()
-                    saveUserData(currentCardIndex: currentCardIndex)
+
                 } else if user.data == "major" /*&& selectedStatus == "Current Student"*/ {
                     TextField("Search or select your major", text: $selectedMajor)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-                    saveUserData(currentCardIndex: currentCardIndex)
                 }
+                
+                
                 
                 if currentCardIndex == totalCards - 1 {
                     StartButtonView(isOnboardingCompleted: $isOnboardingCompleted, nickname: $nickname, selectedStatus: $selectedStatus, selectedLevel: $selectedLevel, selectedFaculty: $selectedFaculty, selectedMajor: $selectedMajor, currentCardIndex: $currentCardIndex)
-                } 
+
+                }
             } //: VSTACK
         } //: ZSTACK
         .onAppear {
             withAnimation(.easeOut(duration: 0.5)) {
                 isAnimating = true
             }
+            saveUserData(currentCardIndex: currentCardIndex)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(LinearGradient(gradient: Gradient(colors: user.gradientColors), startPoint: .top, endPoint: .bottom))
