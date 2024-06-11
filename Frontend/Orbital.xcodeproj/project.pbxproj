@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B55A5662C0C90500094BEEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B55A5652C0C90500094BEEB /* README.md */; };
 		5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */; };
 		5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */; };
 		5BC6DE112BF0A7A40031650B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE102BF0A7A40031650B /* Preview Assets.xcassets */; };
@@ -52,23 +53,39 @@
 		B5110A8B2BFC776D00208FC4 /* FirebaseMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */; };
 		B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */; };
 		B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */; };
-		B52F7BE42BFF879B00DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */; };
 		B52F7BE62BFF87A200DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */; };
 		B52F7BE82BFF87A800DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */; };
 		B52F7BEA2BFF87AD00DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
-		B56F74772BF62F370048447E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* Cart.swift */; };
+		B549FD1E2C1042D5009223B9 /* ContactsSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */; };
+		B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AD2C078F4D0060F578 /* BuildingView.swift */; };
+		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
+		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
+		B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */; };
+		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
 		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
-		B56F74952BF63F8C0048447E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */; };
+		B56F74952BF63F8C0048447E /* LaunchNuspirit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */; };
+		B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442332C11ACB9009F6616 /* Starbucks.swift */; };
+		B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442352C11FEF2009F6616 /* OnboardingView.swift */; };
+		B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442372C11FF2C009F6616 /* UserInfo.swift */; };
+		B574423A2C120287009F6616 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442392C120287009F6616 /* InfoCardView.swift */; };
+		B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423B2C1202A1009F6616 /* StartButtonView.swift */; };
+		B574423E2C129410009F6616 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423D2C129410009F6616 /* UserData.swift */; };
+		B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423F2C12953F009F6616 /* FirebaseAuthService.swift */; };
+		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
+		B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */; };
+		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040A42BFEFE47006B92E8 /* nuspirit.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A22BFEFE47006B92E8 /* nuspirit.p8 */; };
 		B5A040A82BFEFE51006B92E8 /* nuspirit.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A62BFEFE51006B92E8 /* nuspirit.p8 */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AE2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040B02BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
+		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
+		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
 		B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */; };
@@ -91,6 +108,7 @@
 		B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A722BF87A2700121E42 /* Finefood.swift */; };
 		B5C92A752BF88A6E00121E42 /* market.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C92A742BF88A6E00121E42 /* market.storyboard */; };
 		B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */; };
+		B5EC50E92C08DB7A0096BBEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */; };
 		B5FE65942BFD0BF8000D375A /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */; };
 		B5FE65962BFD0BF9000D375A /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65952BFD0BF9000D375A /* FirebaseAuthUI */; };
 		B5FE65982BFD0BF9000D375A /* FirebaseDatabaseUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65972BFD0BF9000D375A /* FirebaseDatabaseUI */; };
@@ -104,7 +122,7 @@
 		B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */; };
 		B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */; };
 		B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */; };
-		B5FE65BD2BFDCD42000D375A /* OrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */; };
+		B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */; };
 		B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +144,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B55A5652C0C90500094BEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalApp.swift; sourceTree = "<group>"; };
 		5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,21 +165,39 @@
 		B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMessagingService.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B517B6D52C08FA0100B9A739 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE72BFF87A800DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE92BFF87AD00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B56F74762BF62F370048447E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsSwipe.swift; sourceTree = "<group>"; };
+		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
+		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlay.swift; sourceTree = "<group>"; };
+		B56F74762BF62F370048447E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
-		B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchNuspirit.storyboard; sourceTree = "<group>"; };
+		B57442332C11ACB9009F6616 /* Starbucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starbucks.swift; sourceTree = "<group>"; };
+		B57442352C11FEF2009F6616 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B57442372C11FF2C009F6616 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		B57442392C120287009F6616 /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		B574423B2C1202A1009F6616 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		B574423D2C129410009F6616 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B574423F2C12953F009F6616 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
+		B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnityViewController(Unused).swift"; sourceTree = "<group>"; };
+		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A22BFEFE47006B92E8 /* nuspirit.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nuspirit.p8; sourceTree = "<group>"; };
 		B5A040A62BFEFE51006B92E8 /* nuspirit.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nuspirit.p8; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AD2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AF2BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
+		B5A828382C02306C0003E026 /* Orbital-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbital-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5B3E4562C01D6ED008799F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapOverlay.swift; sourceTree = "<group>"; };
 		B5B85E722C003EA100F322C3 /* MapContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
 		B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
@@ -188,7 +225,7 @@
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
 		B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOverlay.swift; sourceTree = "<group>"; };
 		B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUserService.swift; sourceTree = "<group>"; };
-		B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationViewController.swift; sourceTree = "<group>"; };
+		B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrientationViewController(Unused).swift"; sourceTree = "<group>"; };
 		B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +234,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -232,6 +270,7 @@
 				B5110A772BFC762100208FC4 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				B5110A852BFC762100208FC4 /* FirebaseStorage in Frameworks */,
 				B5110A692BFC762100208FC4 /* FirebaseDynamicLinks in Frameworks */,
+				B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */,
 				B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */,
 				B5110A892BFC762100208FC4 /* FirebaseVertexAI-Preview in Frameworks */,
 				B5110A6D2BFC762100208FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
@@ -260,12 +299,14 @@
 		5BC6DDFD2BF0A7A10031650B = {
 			isa = PBXGroup;
 			children = (
+				5B55A5652C0C90500094BEEB /* README.md */,
 				B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */,
 				B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */,
 				5BC6DE082BF0A7A10031650B /* Orbital */,
 				5BC6DE1E2BF0A7A40031650B /* OrbitalTests */,
 				5BC6DE282BF0A7A40031650B /* OrbitalUITests */,
 				5BC6DE072BF0A7A10031650B /* Products */,
+				B5B3E4472C01905A008799F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -292,13 +333,14 @@
 				5BC6DE3A2BF0AC130031650B /* Services */,
 				5BC6DE3D2BF0ACA90031650B /* Constants.swift */,
 				5BC6DE422BF0C3AB0031650B /* LandingView.swift */,
-				B56F74942BF63F8C0048447E /* LaunchScreen.storyboard */,
+				B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
 				B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */,
 				5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */,
 				5BC6DE122BF0A7A40031650B /* Persistence.swift */,
 				5BC6DE142BF0A7A40031650B /* Orbital.xcdatamodeld */,
 				5BC6DE0F2BF0A7A40031650B /* Preview Content */,
+				B5A828382C02306C0003E026 /* Orbital-Bridging-Header.h */,
 			);
 			path = Orbital;
 			sourceTree = "<group>";
@@ -338,10 +380,12 @@
 			isa = PBXGroup;
 			children = (
 				5BC6DE3B2BF0AC470031650B /* AuthService(Deprecated).swift */,
+				B574423F2C12953F009F6616 /* FirebaseAuthService.swift */,
 				B5110A0B2BFB81F000208FC4 /* LocationService.swift */,
 				B5110A8A2BFC776D00208FC4 /* FirebaseMessagingService.swift */,
 				B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */,
 				B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */,
+				B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -373,7 +417,7 @@
 				B5C92A742BF88A6E00121E42 /* market.storyboard */,
 				B56F74782BF62FFC0048447E /* FurnitureMarket.swift */,
 				B5C92A592BF7D69C00121E42 /* AssetView.swift */,
-				B56F74762BF62F370048447E /* Cart.swift */,
+				B56F74762BF62F370048447E /* CartView.swift */,
 			);
 			path = FurnitureMarket;
 			sourceTree = "<group>";
@@ -383,6 +427,9 @@
 			children = (
 				B56F748C2BF632B70048447E /* MyIsland.swift */,
 				B5C92A522BF7CF1C00121E42 /* MyAssets.swift */,
+				B54FD3B12C07FF140060F578 /* UserProfileView.swift */,
+				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
+				B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -393,6 +440,10 @@
 				B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */,
 				5BC6DE402BF0C1270031650B /* SignUpView.swift */,
 				5BC6DE442BF0C3CF0031650B /* SignInView.swift */,
+				B57442352C11FEF2009F6616 /* OnboardingView.swift */,
+				B57442392C120287009F6616 /* InfoCardView.swift */,
+				B574423B2C1202A1009F6616 /* StartButtonView.swift */,
+				B574423D2C129410009F6616 /* UserData.swift */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -403,10 +454,20 @@
 				B56F74872BF632330048447E /* MainMapView.swift */,
 				B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */,
 				B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */,
+				B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */,
 				B5B85E722C003EA100F322C3 /* MapContentView.swift */,
 				B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B5B3E4472C01905A008799F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B517B6D52C08FA0100B9A739 /* UnityFramework.framework */,
+				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B5B85E7F2C00CCF300F322C3 /* Hostels */ = {
@@ -424,6 +485,8 @@
 				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
+				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
+				B57442372C11FF2C009F6616 /* UserInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -436,6 +499,7 @@
 				B5C92A632BF8797200121E42 /* FOS */,
 				B5C92A622BF8793500121E42 /* UniversityTown */,
 				B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */,
+				B54FD3AD2C078F4D0060F578 /* BuildingView.swift */,
 			);
 			path = Venues;
 			sourceTree = "<group>";
@@ -445,6 +509,7 @@
 			children = (
 				B5C92A6C2BF879F900121E42 /* SRC.swift */,
 				B5C92A6E2BF87A0300121E42 /* ERC.swift */,
+				B57442332C11ACB9009F6616 /* Starbucks.swift */,
 				B5C92A702BF87A1300121E42 /* RC4.swift */,
 				B5C92A722BF87A2700121E42 /* Finefood.swift */,
 			);
@@ -473,8 +538,9 @@
 		B5FE65BB2BFDCD2C000D375A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */,
 				B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */,
-				B5FE65BC2BFDCD42000D375A /* OrientationViewController.swift */,
+				B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -536,6 +602,7 @@
 				B5FE65A52BFD0BF9000D375A /* FirebaseStorageUI */,
 				B52F7BF12BFF8D8100DA131C /* GoogleSignIn */,
 				B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */,
+				B5B3E44D2C01908D008799F2 /* Algorithms */,
 			);
 			productName = Orbital;
 			productReference = 5BC6DE062BF0A7A10031650B /* Orbital.app */;
@@ -589,6 +656,7 @@
 				TargetAttributes = {
 					5BC6DE052BF0A7A10031650B = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1540;
 					};
 					5BC6DE1A2BF0A7A40031650B = {
 						CreatedOnToolsVersion = 15.3;
@@ -613,6 +681,7 @@
 				B5110A512BFC762100208FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				B5FE65922BFD0BF8000D375A /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
 				B52F7BF02BFF8D8100DA131C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				B5B3E44C2C01908D008799F2 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = 5BC6DE072BF0A7A10031650B /* Products */;
 			projectDirPath = "";
@@ -633,8 +702,9 @@
 				5BC6DE112BF0A7A40031650B /* Preview Assets.xcassets in Resources */,
 				B5C92A752BF88A6E00121E42 /* market.storyboard in Resources */,
 				5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */,
+				5B55A5662C0C90500094BEEB /* README.md in Resources */,
 				B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */,
-				B56F74952BF63F8C0048447E /* LaunchScreen.storyboard in Resources */,
+				B56F74952BF63F8C0048447E /* LaunchNuspirit.storyboard in Resources */,
 				B52F7BE62BFF87A200DA131C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,6 +714,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A040AE2BFF07EB006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */,
+				B5EC50E92C08DB7A0096BBEA /* GoogleService-Info.plist in Resources */,
 				B5A040A42BFEFE47006B92E8 /* nuspirit.p8 in Resources */,
 				B52F7BE82BFF87A800DA131C /* GoogleService-Info.plist in Resources */,
 			);
@@ -654,7 +725,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A040B02BFF07F0006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */,
-				B52F7BE42BFF879B00DA131C /* GoogleService-Info.plist in Resources */,
 				B52F7BEA2BFF87AD00DA131C /* GoogleService-Info.plist in Resources */,
 				B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */,
 				B5A040A82BFEFE51006B92E8 /* nuspirit.p8 in Resources */,
@@ -668,16 +738,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5FE65BD2BFDCD42000D375A /* OrientationViewController.swift in Sources */,
+				B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */,
+				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
 				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
+				B574423E2C129410009F6616 /* UserData.swift in Sources */,
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */,
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */,
 				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
+				B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */,
+				B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */,
+				B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */,
 				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
 				5BC6DE162BF0A7A40031650B /* Orbital.xcdatamodeld in Sources */,
+				B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */,
 				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
 				B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */,
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
@@ -690,26 +766,35 @@
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* FirebaseMessagingService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
+				B549FD1E2C1042D5009223B9 /* ContactsSwipe.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
+				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */,
+				B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
-				B56F74772BF62F370048447E /* Cart.swift in Sources */,
+				B56F74772BF62F370048447E /* CartView.swift in Sources */,
+				B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
 				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
+				B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */,
 				B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */,
 				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssets.swift in Sources */,
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
+				B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */,
 				B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */,
+				B574423A2C120287009F6616 /* InfoCardView.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */,
+				B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,7 +959,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Orbital/Orbital.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
@@ -882,11 +969,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to show your position on the map";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchNuspirit.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -897,7 +985,10 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Orbital/Orbital-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -908,7 +999,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Orbital/Orbital.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
@@ -916,11 +1009,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to show your position on the map";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchNuspirit.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -931,7 +1025,9 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Orbital/Orbital-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -944,6 +1040,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -963,6 +1060,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -979,12 +1077,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.OrbitalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -996,12 +1097,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.OrbitalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1065,6 +1169,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 6.0.0;
+			};
+		};
+		B5B3E44C2C01908D008799F2 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
 			};
 		};
 		B5FE65922BFD0BF8000D375A /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
@@ -1227,6 +1339,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B52F7BF02BFF8D8100DA131C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		B5B3E44D2C01908D008799F2 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B3E44C2C01908D008799F2 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 		B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */ = {
 			isa = XCSwiftPackageProductDependency;
