@@ -187,9 +187,10 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
 
             // Only update the center if it needs to be restricted
-            if !(newCenter == mapView.region.center) {
-                mapView.setCenter(newCenter, animated: true)
-            }
+            // for testing user location can comment
+//            if !(newCenter == mapView.region.center) {
+//                mapView.setCenter(newCenter, animated: true)
+//            }
 
             parent.region = mapView.region
         }
