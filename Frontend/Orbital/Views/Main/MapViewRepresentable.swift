@@ -153,8 +153,8 @@ struct MapViewRepresentable: UIViewRepresentable {
             } else if newCenter.longitude < minLongitude {
                 newCenter.longitude = minLongitude
             }
-
-            // Only update the center if it needs to be restricted
+//
+//             Only update the center if it needs to be restricted
             if !(newCenter == mapView.region.center) {
                 mapView.setCenter(newCenter, animated: true)
             }
