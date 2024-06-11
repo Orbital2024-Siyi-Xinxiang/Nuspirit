@@ -10,32 +10,22 @@ import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
-import UIKit
 import SwiftUI
 import GoogleSignIn
 
+
 class SignUpViewController: UIViewController, FUIAuthDelegate {
-//    var actionCodeSettings = ActionCodeSettings()
-//    actionCodeSettings.url = URL(string: "https://example.appspot.com")
-//    actionCodeSettings.handleCodeInApp = true
-//    actionCodeSettings.setAndroidPackageName("com.firebase.example", installIfNotAvailable: false, minimumVersion: "12")
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
         let googleAuthProvider = FUIGoogleAuth(authUI: authUI!)
-        
+
         let providers: [FUIAuthProvider] = [
             googleAuthProvider,
             FUIOAuth.appleAuthProvider(),
             FUIEmailAuth(),
-//            FUIEmailAuth(authAuthUI: FUIAuth.defaultAuthUI()!,
-//                                        signInMethod: FIREmailLinkAuthSignInMethod,
-//                                        forceSameDevice: false,
-//                                        allowNewEmailAccounts: true,
-//                                        actionCodeSetting: actionCodeSettings)
         ]
         authUI?.providers = providers
         
@@ -45,15 +35,23 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         }
     }
     
-    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?)  {
+    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
         if let user = user {
-            FirestoreService.shared.addUserCredential(uid: user.uid, email: user.email ?? "", userid: user.uid, password: "", display_name: user.displayName ?? "")
-            print("User signed in")
+            let db = Firestore.firestore()
+            let docRef = db.collection("users_profiles").document(user.uid)
             
-            DispatchQueue.main.async {
-                // Assuming you have a method to navigate to the main view
-                
-                self.navigateToMainAppView()
+            docRef.getDocument { (document, error) in
+                if let document = document, document.exists {
+                    print("User profile exists, navigating to main app view.")
+                    DispatchQueue.main.async {
+                        self.navigateToMainAppView()
+                    }
+                } else {
+                    print("User profile does not exist, navigating to onboarding.")
+                    DispatchQueue.main.async {
+                        self.navigateToOnboardingView()
+                    }
+                }
             }
         } else {
             if let error = error {
@@ -66,8 +64,23 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         let mainMapView = OrientationViewControllerWrapper(supportedOrientation: .landscape, content: AnyView(MainMapView(showSettingsOverlay: Binding.constant(true))))
         let hostingController = UIHostingController(rootView: mainMapView)
         if let window = UIApplication.shared.windows.first {
-            window.rootViewController = hostingController
-            window.makeKeyAndVisible()
+            UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: {
+                window.rootViewController = hostingController
+            }) { completed in
+                window.makeKeyAndVisible()
+            }
+        }
+    }
+
+    func navigateToOnboardingView() {
+        let onboardingView = OrientationViewControllerWrapper(supportedOrientation: .landscape, content: AnyView(OnBoardingView(isOnboardingCompleted: Binding.constant(false))))
+        let hostingController = UIHostingController(rootView: onboardingView)
+        if let window = UIApplication.shared.windows.first {
+            UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: {
+                window.rootViewController = hostingController
+            }) { completed in
+                window.makeKeyAndVisible()
+            }
         }
     }
 }
