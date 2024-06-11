@@ -49,6 +49,7 @@ struct InfoCardView: View {
                     TextField("Enter your preferred display name", text: $nickname)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
+                    saveUserData(currentCardIndex: currentCardIndex)
                 } else if user.data == "isStudentOrNot" {
                     Picker("Select your status", selection: $selectedStatus) {
                         Text("Alumni").tag("Alumni")
@@ -57,7 +58,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
-                    
+                    saveUserData(currentCardIndex: currentCardIndex)
                 } else if user.data == "levelOfStudy" {
                     Picker("Select your level of study", selection: $selectedLevel) {
                         Text("Undergraduate").tag("Undergraduate")
@@ -66,6 +67,7 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                     .padding()
+                    saveUserData(currentCardIndex: currentCardIndex)
                 } else if user.data == "faculty" /*&& selectedStatus == "Current Student"*/ {
                     TextField("Search or select your faculty", text: $selectedFaculty)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -77,10 +79,12 @@ struct InfoCardView: View {
                     }
                     .pickerStyle(MenuPickerStyle())
                     .padding()
+                    saveUserData(currentCardIndex: currentCardIndex)
                 } else if user.data == "major" /*&& selectedStatus == "Current Student"*/ {
                     TextField("Search or select your major", text: $selectedMajor)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
+                    saveUserData(currentCardIndex: currentCardIndex)
                 }
                 
                 if currentCardIndex == totalCards - 1 {
@@ -99,6 +103,68 @@ struct InfoCardView: View {
         .padding(.horizontal, 20)
     }
     
+    func saveUserData(currentCardIndex: Int) {
+        guard let userId = Auth.auth().currentUser?.uid else { return }
+        
+//        print(nickname, selectedStatus, selectedLevel, selectedFaculty, selectedMajor)
+        let db = Firestore.firestore()
+        if (currentCardIndex == 0) {
+            db.collection("users_profiles").document(userId).setData([
+                "nickname": nickname,
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 1) {
+            db.collection("users_profiles").document(userId).setData([
+                "status": selectedStatus,
+ 
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 2) {
+            db.collection("users_profiles").document(userId).setData([
+
+                "level": selectedLevel
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 3) {
+            db.collection("users_profiles").document(userId).setData([
+
+                "faculty": selectedFaculty,
+
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        } else if (currentCardIndex == 4) {
+            db.collection("users_profiles").document(userId).setData([
+                "major": selectedMajor
+            ]) { error in
+                if let error = error {
+                    print("Error writing document: \(error)")
+                } else {
+                    print("Document successfully written!")
+                }
+            }
+        }
+
+    }
 
     
 }
