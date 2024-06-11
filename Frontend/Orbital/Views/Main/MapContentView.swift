@@ -47,6 +47,10 @@ struct MapContentView: View {
         .onAppear{
             fetchVenueData()
         }
+        
+        
+        // update center when center changes
+        
 //        .onReceive(locationService.$location) { location in
 //            guard let location = location else { return }
 //
@@ -131,6 +135,27 @@ struct MapContentView: View {
             print("Overlays: \(overlays)")
         }
 
+    }
+    
+    private func fetchUserLocations() {
+        let db = Firestore.firestore()
+        db.collection("users-locations").addSnapshotListener { snapshot, error in
+            guard let documents = snapshot?.documents else { return }
+            var newAnnotations: [CustomAnnotation] = []
+            
+            for document in documents {
+                let data = document.data()
+                guard let latitude = data["latitude"] as? Double,
+                      let longitude = data["longitude"] as? Double,
+                      let userID = document.documentID as? String else { continue }
+                
+                let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+                let annotation = CustomAnnotation(coordinate: coordinate, title: "User \(userID)", subtitle: "Details", buildingID: userID)
+                newAnnotations.append(annotation)
+            }
+            
+            annotations = newAnnotations
+        }
     }
 }
 
