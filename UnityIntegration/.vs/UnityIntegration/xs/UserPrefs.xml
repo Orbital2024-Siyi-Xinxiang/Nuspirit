@@ -27,9 +27,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Firestore" expanded="True" />
                 <Node name="SpiritualIsland" expanded="True">
-                  <Node name="GridPlacement" expanded="True">
-                    <Node name="AssetSelectionManager.cs" selected="True" />
-                  </Node>
+                  <Node name="GridPlacement" expanded="True" />
                   <Node name="PlayerControl" expanded="True" />
                 </Node>
                 <Node name="ViewControl" expanded="True" />
