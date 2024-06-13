@@ -6,7 +6,7 @@ target 'Orbital' do
   use_frameworks!
 
   # Pods for Orbital
-  pod 'Firebase/InAppMessaging'
+  # pod 'Firebase/InAppMessaging'
 
 
   target 'OrbitalTests' do
