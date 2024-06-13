@@ -13,13 +13,13 @@ struct StartButtonView: View {
 
     var body: some View {
         Button(action: {
-//            saveUserData(currentCardIndex: currentCardIndex)
-//            if currentCardIndex == totalCards - 1 {
-            isOnboardingCompleted = true
-            SignUpViewController().navigateToMainAppView()
-//            } else {
-//                currentCardIndex += 1
-//            }
+            if currentCardIndex == totalCards - 1 {
+                saveUserData()
+                isOnboardingCompleted = true
+                SignUpViewController().navigateToMainAppView()
+            } else {
+                currentCardIndex += 1
+            }
         }) {
             HStack(spacing: 8) {
                 Text(currentCardIndex == totalCards - 1 ? "Start" : "Continue")
@@ -35,5 +35,21 @@ struct StartButtonView: View {
         .accentColor(Color.white)
     }
 
-
+    func saveUserData() {
+        guard let userId = Auth.auth().currentUser?.uid else { return }
+        let db = Firestore.firestore()
+        db.collection("users_profiles").document(userId).setData([
+            "nickname": nickname,
+            "status": selectedStatus,
+            "level": selectedLevel,
+            "faculty": selectedFaculty,
+            "major": selectedMajor
+        ]) { error in
+            if let error = error {
+                print("Error writing document: \(error)")
+            } else {
+                print("Document successfully written!")
+            }
+        }
+    }
 }
