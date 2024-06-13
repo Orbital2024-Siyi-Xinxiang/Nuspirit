@@ -22,6 +22,7 @@ import SwiftUI
 import GoogleSignIn
 import FBSDKCoreKit
 import FBSDKLoginKit
+import FirebaseInAppMessaging
 
 
 
