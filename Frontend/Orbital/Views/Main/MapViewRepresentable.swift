@@ -101,6 +101,7 @@ struct MapViewRepresentable: UIViewRepresentable {
             if annotation is MKUserLocation {
                 let identifier = "UserLocation"
                 var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
+                
                 if annotationView == nil {
                     annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
                 } else {
@@ -111,6 +112,7 @@ struct MapViewRepresentable: UIViewRepresentable {
                 annotationView?.frame.size = CGSize(width: 30, height: 30)
                 
                 return annotationView
+                
             } else if let customAnnotation = annotation as? CustomAnnotation {
                 let identifier = "CustomAnnotation"
                 var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
@@ -130,8 +132,38 @@ struct MapViewRepresentable: UIViewRepresentable {
                 }
                 
                 return annotationView
+            } else if let userAnnotation = annotation as? UserAnnotation {
+                let identifier = "UserAnnotation"
+                var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
+                
+                if annotationView == nil {
+                    annotationView = MKMarkerAnnotationView(annotation: userAnnotation, reuseIdentifier: identifier)
+                    annotationView?.canShowCallout = true
+                    
+                    let button = UIButton(type: .detailDisclosure)
+                    annotationView?.rightCalloutAccessoryView = button
+
+                    let imageView = UIImageView(image: userAnnotation.profileImage ?? UIImage(systemName: "person.crop.circle"))
+                    imageView.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+                    annotationView?.leftCalloutAccessoryView = imageView
+                } else {
+                    annotationView?.annotation = userAnnotation
+                }
+                
+                annotationView?.detailCalloutAccessoryView = createDetailView(for: userAnnotation)
+                
+                return annotationView
             }
             return nil
+        }
+        
+        private func createDetailView(for annotation: UserAnnotation) -> UIView {
+            let detailView = UIView()
+            let majorLabel = UILabel()
+            majorLabel.text = annotation.major ?? "Unknown Major"
+            detailView.addSubview(majorLabel)
+            
+            return detailView
         }
 
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
@@ -155,9 +187,10 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
 
             // Only update the center if it needs to be restricted
-            if !(newCenter == mapView.region.center) {
-                mapView.setCenter(newCenter, animated: true)
-            }
+            // for testing user location can comment
+//            if !(newCenter == mapView.region.center) {
+//                mapView.setCenter(newCenter, animated: true)
+//            }
 
             parent.region = mapView.region
         }
@@ -168,4 +201,5 @@ struct MapViewRepresentable: UIViewRepresentable {
             }
         }
     }
+    
 }

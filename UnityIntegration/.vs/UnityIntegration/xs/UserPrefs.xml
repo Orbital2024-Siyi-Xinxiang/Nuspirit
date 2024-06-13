@@ -1,38 +1,33 @@
 ﻿<Properties StartupConfiguration="{4888495C-A43F-D15A-FF40-4727F1640F6F}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbf85e1c-67a4-49a2-a5ca-0a3777728fba" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpiritualIsland/GridPlacement/AssetSelectionManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpiritualIsland/ModeManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs" Line="25" Column="6" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" Line="35" Column="11" />
+      <File FileName="Assets/Scripts/SpiritualIsland/ModeManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs" Line="19" Column="8" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" Line="37" Column="10" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectDatabaseSO.cs" Line="22" Column="1" />
       <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" Line="8" Column="17" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs" Line="13" Column="28" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/InputManager.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/ViewControl/Quit.cs" Line="26" Column="30" />
-      <File FileName="MyCollectionViewCell.xib" />
-      <File FileName="MyCollectionViewCell.cs" />
-      <File FileName="MyCollectionViewCell.designer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementState.cs" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/PlayerControl/InputManager.cs" Line="34" Column="6" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/AssetSelectionManager.cs" Line="61" Column="1" />
+      <File FileName="Assets/Scripts/ViewControl/QuitButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ViewControl/SceneManager.cs" Line="16" Column="36" />
+      <File FileName="Assets/Scripts/Firestore/FirebaseInitializer.cs" Line="10" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UnityIntegration" expanded="True">
+          <Node name="UnityIntegration">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Firestore" expanded="True" />
                 <Node name="SpiritualIsland" expanded="True">
-                  <Node name="GridPlacement" expanded="True">
-                    <Node name="CategorySelectionManager.cs" selected="True" />
-                  </Node>
+                  <Node name="GridPlacement" expanded="True" />
                   <Node name="PlayerControl" expanded="True" />
                 </Node>
                 <Node name="ViewControl" expanded="True" />
@@ -43,8 +38,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="41b72b44-a7e2-47b6-b3e0-a8ceae243650" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

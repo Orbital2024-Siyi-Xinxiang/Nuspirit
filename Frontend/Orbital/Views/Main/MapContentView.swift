@@ -18,6 +18,9 @@ import FBSDKLoginKit
 import MapKit
 import FirebaseFirestore
 import FirebaseFirestoreUI
+import CoreLocation
+
+
 
 struct MapContentView: View {
     @StateObject private var locationService = LocationService.shared
@@ -47,6 +50,13 @@ struct MapContentView: View {
         .onAppear{
             fetchVenueData()
         }
+        .onChange(of: locationService.location) { newLocation in
+            detectVenueProximity(location: newLocation?.location)
+        }
+
+        
+        // update center when center changes
+        
 //        .onReceive(locationService.$location) { location in
 //            guard let location = location else { return }
 //
@@ -132,6 +142,70 @@ struct MapContentView: View {
         }
 
     }
+    
+    private func fetchUserLocations() {
+        let db = Firestore.firestore()
+        db.collection("users-locations").addSnapshotListener { snapshot, error in
+            guard let documents = snapshot?.documents else { return }
+            var newAnnotations: [CustomAnnotation] = []
+            
+            for document in documents {
+                let data = document.data()
+                guard let latitude = data["latitude"] as? Double,
+                      let longitude = data["longitude"] as? Double,
+                      let userID = document.documentID as? String else { continue }
+                
+                let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+                let annotation = CustomAnnotation(coordinate: coordinate, title: "User \(userID)", subtitle: "Details", buildingID: userID)
+                newAnnotations.append(annotation)
+            }
+            
+            annotations = newAnnotations
+        }
+    }
+    
+    
+    private func detectVenueProximity(location: CLLocation?) {
+        guard let location = location else { return }
+
+        for annotation in annotations {
+            let venueLocation = CLLocation(latitude: annotation.coordinate.latitude, longitude: annotation.coordinate.longitude)
+            let distance = location.distance(from: venueLocation)
+            
+            if distance < 50 { // 50 meters range
+                showInAppMessage(for: annotation.buildingID)
+
+            } else {
+                NotificationService.shared.unsubscribeFromVenueTopic(buildingID: annotation.buildingID)
+            }
+        }
+    }
+
+
+       private func showInAppMessage(for buildingID: String) {
+           let db = Firestore.firestore()
+           db.collection("key_venues").document(buildingID).getDocument { document, error in
+               if let document = document, document.exists {
+                   let data = document.data()
+                   let venueName = data?["name"] as? String ?? "Unknown"
+                   
+                   let alert = UIAlertController(title: "Detected Venue", message: "You are near \(venueName). Enter?", preferredStyle: .alert)
+                   alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { _ in
+                       self.selectedBuildingID = buildingID
+                       NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
+                   }))
+                   alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+                   
+                   if let window = UIApplication.shared.windows.first {
+                       window.rootViewController?.present(alert, animated: true, completion: nil)
+                   }
+               }
+           }
+       }
+    
+    
+    
+    
 }
 
 

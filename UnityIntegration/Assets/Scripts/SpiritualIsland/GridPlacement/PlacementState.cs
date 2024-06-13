@@ -6,7 +6,7 @@ public class PlacementState : MonoBehaviour, IBuildingState
 
     void Start()
     {
-        objectPlacer = FindObjectOfType<ObjectPlacer>();
+        //objectPlacer = FindObjectOfType<ObjectPlacer>();
     }
 
     public void OnEnterState()
