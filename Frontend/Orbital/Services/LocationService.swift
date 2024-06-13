@@ -11,9 +11,19 @@ import FirebaseAuth
 import FirebaseCore
 
 struct IdentifiableLocation: Identifiable {
+    
     let id = UUID()
     let location: CLLocation
 }
+
+extension IdentifiableLocation: Equatable {
+    static func == (lhs: IdentifiableLocation, rhs: IdentifiableLocation) -> Bool {
+        lhs.location.coordinate.latitude == rhs.location.coordinate.latitude &&
+        lhs.location.coordinate.longitude == rhs.location.coordinate.longitude
+    }
+}
+
+
 
 class LocationService: NSObject, CLLocationManagerDelegate, ObservableObject {
     static let shared = LocationService()
