@@ -135,11 +135,10 @@ extension AppDelegate: MessagingDelegate {
         
         let dataDict: [String: String] = ["token": fcmToken ?? ""]
         NotificationCenter.default.post(name: Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
+        
         // Send the token to your server or use it as needed
         
     }
-    
-    
 }
 
 
