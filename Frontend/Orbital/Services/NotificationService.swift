@@ -35,6 +35,7 @@ class NotificationService {
             "notification": ["title": title, "body": body],
             "data": ["user": "test_id"]
         ]
+        
         let request = NSMutableURLRequest(url: url)
         request.httpMethod = "POST"
         request.httpBody = try? JSONSerialization.data(withJSONObject: paramString, options: .prettyPrinted)
