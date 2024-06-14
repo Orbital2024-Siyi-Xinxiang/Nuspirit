@@ -2,8 +2,7 @@ import cv2
 import numpy as np
 import pytesseract
 
-image_base_path = "./../Utilities/MapsNUS/SOC/"
-image_path = image_base_path + "COM1_01.jpg"
+image_path = "Utilities/MapsNUS/SOC/COM1_01.jpg"
 
 def preprocess_image(image_path):
     image = cv2.imread(image_path)
