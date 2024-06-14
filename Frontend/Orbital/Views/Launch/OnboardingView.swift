@@ -10,7 +10,7 @@ struct OnBoardingView: View {
     @State private var selectedLevel: String = "Undergraduate"
     @State private var selectedFaculty: String = ""
     @State private var selectedMajor: String = ""
-    
+
     var users: [UserInfo] = UserData
 
     var body: some View {
