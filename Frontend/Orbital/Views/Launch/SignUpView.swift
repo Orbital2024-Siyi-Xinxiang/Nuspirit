@@ -1,4 +1,17 @@
+import UIKit
+import FirebaseEmailAuthUI
+import Foundation
+import FirebaseCore
+import Firebase
+import FirebaseAuth
+import FirebaseAuthUI
+import UserNotifications
+import FirebaseFacebookAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseOAuthUI
+import FirebasePhoneAuthUI
 import SwiftUI
+import GoogleSignIn
 
 struct SignUpView: View {
     var body: some View {
