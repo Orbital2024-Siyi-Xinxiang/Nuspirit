@@ -110,3 +110,11 @@ struct SignInView: View {
         }
     }
 }
+
+
+// preview
+struct SignInView_Previews: PreviewProvider {
+    static var previews: some View {
+        SignInView()
+    }
+}
