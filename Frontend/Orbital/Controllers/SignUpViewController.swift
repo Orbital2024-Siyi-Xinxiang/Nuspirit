@@ -1,38 +1,34 @@
 import UIKit
-import FirebaseEmailAuthUI
-import Foundation
-import FirebaseCore
 import Firebase
-import FirebaseAuth
 import FirebaseAuthUI
-import UserNotifications
-import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
-import FirebasePhoneAuthUI
+import FirebaseEmailAuthUI
 import SwiftUI
-import GoogleSignIn
-
 
 class SignUpViewController: UIViewController, FUIAuthDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Setup Firebase Auth UI
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
         let googleAuthProvider = FUIGoogleAuth(authUI: authUI!)
-
         let providers: [FUIAuthProvider] = [
             googleAuthProvider,
             FUIOAuth.appleAuthProvider(),
             FUIEmailAuth(),
         ]
         authUI?.providers = providers
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
+        // Present Firebase Auth UI
+        let authUI = FUIAuth.defaultAuthUI()
         let authViewController = authUI!.authViewController()
-        if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
-            rootViewController.present(authViewController, animated: true, completion: nil)
-        }
+        self.present(authViewController, animated: true, completion: nil)
     }
     
     func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
@@ -73,7 +69,7 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
     }
 
     func navigateToOnboardingView() {
-        let onboardingView = OrientationViewControllerWrapper(supportedOrientation: .landscape, content: AnyView(OnBoardingView(isOnboardingCompleted: Binding.constant(false))))
+        let onboardingView = OrientationViewControllerWrapper(supportedOrientation: .portrait, content: AnyView(OnBoardingView(isOnboardingCompleted: Binding.constant(false))))
         let hostingController = UIHostingController(rootView: onboardingView)
         if let window = UIApplication.shared.windows.first {
             UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: {
@@ -85,4 +81,12 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
     }
 }
 
+struct SignUpViewControllerWrapper: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> SignUpViewController {
+        return SignUpViewController()
+    }
 
+    func updateUIViewController(_ uiViewController: SignUpViewController, context: Context) {
+        // No need to update anything
+    }
+}
