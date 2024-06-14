@@ -19,3 +19,4 @@ struct Asset: Identifiable, Equatable {
         return lhs.id == rhs.id
     }
 }
+
