@@ -23,30 +23,40 @@ struct SignInView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Welcome to NUSspirit")
+            Text("Sign in to NUSspirit")
                 .font(.largeTitle)
                 .bold()
-            
+                .foregroundColor(Color(red: 0.719, green: 0.383, blue: 0.136))
+                
             TextField("Email", text: $email)
                 .padding()
-                .background(Color(.secondarySystemBackground))
+                .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))
+                .background(Color(red: 0.973, green: 0.83, blue: 0.729, opacity: 0.688))
                 .cornerRadius(10)
+                 // Change text color here
+                .textFieldStyle(PlainTextFieldStyle())
+    
             
             HStack {
                 if showingPassword {
                     TextField("Password", text: $password)
+                        .font(.title)
+                        .foregroundColor(Color("AccentColor")) // Change text color here
+                        .textFieldStyle(PlainTextFieldStyle())
                 } else {
                     SecureField("Password", text: $password)
+                        .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))// Change text color here
+                        .textFieldStyle(PlainTextFieldStyle())
                 }
                 Button(action: {
                     showingPassword.toggle()
                 }) {
                     Image(systemName: showingPassword ? "eye.slash" : "eye")
-                        .foregroundColor(.gray)
+                        .foregroundColor(Color(red: 0.408, green: 0.247, blue: 0.137))
                 }
             }
             .padding()
-            .background(Color(.secondarySystemBackground))
+            .background(Color(red: 0.977, green: 0.883, blue: 0.811))
             .cornerRadius(10)
             
             if let errorMessage = errorMessage {
@@ -60,8 +70,8 @@ struct SignInView: View {
                 Text("Sign In")
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
+                    .background(Color(red: 0.723, green: 0.382, blue: 0.141))
+                    .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))
                     .cornerRadius(10)
             }
             .padding(.horizontal)
@@ -70,7 +80,7 @@ struct SignInView: View {
                 // Navigate to forgot password view
             }) {
                 Text("Forgot Password?")
-                    .foregroundColor(.blue)
+                    .foregroundColor(Color(red: 0.722, green: 0.378, blue: 0.142))
             }
             
             Spacer()
@@ -108,5 +118,13 @@ struct SignInView: View {
                 showOnboarding = true
             }
         }
+    }
+}
+
+
+// preview
+struct SignInView_Previews: PreviewProvider {
+    static var previews: some View {
+        SignInView()
     }
 }
