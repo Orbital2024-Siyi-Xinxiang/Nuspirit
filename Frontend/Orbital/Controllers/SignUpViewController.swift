@@ -7,6 +7,8 @@ import FirebaseEmailAuthUI
 import SwiftUI
 
 class SignUpViewController: UIViewController, FUIAuthDelegate {
+    var onDismiss: (() -> Void)?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,6 +54,7 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
         } else {
             if let error = error {
                 print("Error signing in: \(error.localizedDescription)")
+                self.onDismiss?()
             }
         }
     }
@@ -66,6 +69,7 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
                 window.makeKeyAndVisible()
             }
         }
+        self.onDismiss?()
     }
 
     func navigateToOnboardingView() {
@@ -78,15 +82,36 @@ class SignUpViewController: UIViewController, FUIAuthDelegate {
                 window.makeKeyAndVisible()
             }
         }
+        self.onDismiss?()
     }
 }
 
+
+
 struct SignUpViewControllerWrapper: UIViewControllerRepresentable {
+    @Binding var isPresented: Bool
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+
     func makeUIViewController(context: Context) -> SignUpViewController {
-        return SignUpViewController()
+        let viewController = SignUpViewController()
+        viewController.onDismiss = {
+            self.isPresented = false
+        }
+        return viewController
     }
 
     func updateUIViewController(_ uiViewController: SignUpViewController, context: Context) {
         // No need to update anything
+    }
+
+    class Coordinator: NSObject, UINavigationControllerDelegate {
+        var parent: SignUpViewControllerWrapper
+
+        init(_ parent: SignUpViewControllerWrapper) {
+            self.parent = parent
+        }
     }
 }

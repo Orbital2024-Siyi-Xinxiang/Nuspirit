@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct MyAssets: View {
+struct MyAssetsView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    MyAssets().previewInterfaceOrientation(.landscapeLeft)
+    MyAssetsView().previewInterfaceOrientation(.landscapeLeft)
 }
