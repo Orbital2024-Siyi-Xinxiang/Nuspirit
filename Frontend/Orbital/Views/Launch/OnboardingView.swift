@@ -33,3 +33,10 @@ struct OnBoardingView: View {
         .padding(.vertical, 20)
     }
 }
+
+// preview
+struct OnBoardingView_Previews: PreviewProvider {
+    static var previews: some View {
+        OnBoardingView(isOnboardingCompleted: .constant(false))
+    }
+}
