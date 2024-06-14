@@ -84,6 +84,7 @@
 		B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */; };
 		B5B05A3E2C1BF338009AFE94 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */; };
 		B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3F2C1BF436009AFE94 /* Contact.swift */; };
+		B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */; };
 		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
 		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
@@ -201,6 +202,7 @@
 		B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		B5B05A3F2C1BF436009AFE94 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B5B3E4562C01D6ED008799F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapOverlay.swift; sourceTree = "<group>"; };
 		B5B85E722C003EA100F322C3 /* MapContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC6DE3B2BF0AC470031650B /* AuthService(Deprecated).swift */,
+				B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */,
 				B574423F2C12953F009F6616 /* FirebaseAuthService.swift */,
 				B5110A0B2BFB81F000208FC4 /* LocationService.swift */,
 				B5110A8A2BFC776D00208FC4 /* NotificationService.swift */,
@@ -853,6 +856,7 @@
 				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
+				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
 				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,

@@ -2,7 +2,9 @@ import cv2
 import numpy as np
 import pytesseract
 
-image_path = "./../Utilities/MapsNUS/SOC/COM1_B1.jpg"
+image_base_path = "./../Utilities/MapsNUS/SOC/"
+image_path = image_base_path + "COM1_01.jpg"
+
 def preprocess_image(image_path):
     image = cv2.imread(image_path)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -36,7 +38,7 @@ def identify_areas(image, contours):
 
 def main():
     # Load and preprocess the image
-    binary_image, original_image = preprocess_image('/mnt/data/COM1_01.jpg')
+    binary_image, original_image = preprocess_image(image_path)
 
     # Detect contours
     contours = detect_contours(binary_image)

@@ -39,4 +39,3 @@ struct EditUserProfileView: View {
         .padding()
     }
 }
-
