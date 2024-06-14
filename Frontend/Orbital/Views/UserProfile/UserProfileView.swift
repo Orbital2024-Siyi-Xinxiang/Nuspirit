@@ -15,129 +15,9 @@ struct UserProfileView: View {
             ScrollView {
                 if let userProfile = userProfile {
                     VStack(alignment: .center) {
-                        // Profile Image
-                        if let imageUrl = imageUrl {
-                                   AsyncImage(url: imageUrl) { phase in
-                                       switch phase {
-                                       case .empty:
-                                           ProgressView()
-                                       case .success(let image):
-                                           image.resizable()
-                                               .frame(width: 100, height: 100)
-                                               .clipShape(Circle())
-                                               .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                                               .shadow(radius: 10)
-                                               .onTapGesture {
-                                                   showFullProfileImage = true
-                                               }
-                                               .sheet(isPresented: $showFullProfileImage) {
-                                                   VStack {
-                                                       AsyncImage(url: imageUrl) { phase in
-                                                           switch phase {
-                                                           case .empty:
-                                                               ProgressView()
-                                                           case .success(let image):
-                                                               image.resizable()
-                                                                   .aspectRatio(contentMode: .fit)
-                                                                   .onTapGesture {
-                                                                       showFullProfileImage = false
-                                                                   }
-                                                                   .padding()
-                                                           case .failure:
-                                                               Image(systemName: "person.crop.circle.fill.badge.exclamationmark")
-                                                           @unknown default:
-                                                               EmptyView()
-                                                           }
-                                                       }
-                                                       Button("Upload New Image") {
-                                                           isShowingImagePicker = true
-                                                       }
-                                                       .padding()
-                                                   }
-                                               }
-                                               .sheet(isPresented: $isShowingImagePicker) {
-                                                   ImagePicker(image: Binding(
-                                                       get: { userProfile.profileImage },
-                                                       set: { newImage in
-                                                           userProfile.profileImage = newImage
-                                                           uploadProfileImage(image: newImage)
-                                                       }
-                                                   ))
-                                               }
-                                       case .failure:
-                                           Image(systemName: "person.crop.circle.fill.badge.exclamationmark")
-                                       @unknown default:
-                                           EmptyView()
-                                       }
-                                   }
-                               } else {
-                                   ProgressView()
-                               }
-                        Text(userProfile.displayName)
-                            .font(.title)
-                            .fontWeight(.bold)
-                            .padding(.top, 8)
-
-                        // User Information
-                        Group {
-                            Text("Faculty: \(userProfile.faculty)")
-                            Text("Level: \(userProfile.level)")
-                            Text("Major: \(userProfile.major)")
-                            Text("Nickname: \(userProfile.nickname)")
-                            Text("Status: \(userProfile.status)")
-                        }
-                        .padding(.top, 4)
-
-                        // Navigation Links
-                        VStack(alignment: .leading) {
-                            NavigationLink(destination: FurnitureMarketView()) {
-                                Text("Furniture Market")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding(.bottom, 4)
-                            }
-                            NavigationLink(destination: MyAssetsView()) {
-                                Text("My Assets")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding(.bottom, 4)
-                            }
-                            NavigationLink(destination: MyIslandView()) {
-                                Text("My Island")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding(.bottom, 4)
-                            }
-                            NavigationLink(destination: SystemSettingsView()) {
-                                Text("System Settings")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding(.bottom, 4)
-                            }
-                            NavigationLink(destination: ContactsView()) {
-                                Text("User Contacts")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                            }
-                        }
-                        .padding(.top, 16)
-
-                        Spacer()
+                        ProfileImageView(imageUrl: $imageUrl, showFullProfileImage: $showFullProfileImage, isShowingImagePicker: $isShowingImagePicker)
+                        UserInfoView(userProfile: userProfile)
+                        NavigationLinksView()
                     }
                     .padding()
                     .navigationBarTitle("User Profile", displayMode: .inline)
@@ -147,7 +27,7 @@ struct UserProfileView: View {
                         Text("Edit")
                     })
                     .sheet(isPresented: $isEditing) {
-                        EditUserProfileView(userProfile: $userProfile, saveChanges: saveUserProfile)
+                        EditUserProfileWrapper(userProfile: $userProfile, saveChanges: saveUserProfile)
                     }
                 } else {
                     ProgressView()
@@ -173,7 +53,7 @@ struct UserProfileView: View {
 
                     self.userProfile = UserProfile(
                         displayName: displayName,
-                        profileImage: UIImage(systemName: "person.crop.circle.fill")!,
+                        profileImage: UIImage(systemName: "person.crop.circle.fill") ?? UIImage(),
                         faculty: faculty,
                         level: level,
                         major: major,
@@ -240,5 +120,153 @@ struct UserProfileView: View {
                 }
             }
         }
+    }
+}
+
+struct EditUserProfileWrapper: View {
+    @Binding var userProfile: UserProfile?
+    var saveChanges: (UserProfile) -> Void
+
+    var body: some View {
+        if let userProfile = userProfile {
+            EditUserProfileView(userProfile: Binding(
+                get: { userProfile },
+                set: { newValue in
+                    self.userProfile = newValue
+                }
+            ), saveChanges: saveChanges)
+        } else {
+            Text("No user profile found")
+        }
+    }
+}
+
+
+struct ProfileImageView: View {
+    @Binding var imageUrl: URL?
+    @Binding var showFullProfileImage: Bool
+    @Binding var isShowingImagePicker: Bool
+
+    var body: some View {
+        if let imageUrl = imageUrl {
+            AsyncImage(url: imageUrl) { phase in
+                switch phase {
+                case .empty:
+                    ProgressView()
+                case .success(let image):
+                    image.resizable()
+                        .frame(width: 100, height: 100)
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                        .shadow(radius: 10)
+                        .onTapGesture {
+                            showFullProfileImage = true
+                        }
+                        .sheet(isPresented: $showFullProfileImage) {
+                            VStack {
+                                AsyncImage(url: imageUrl) { phase in
+                                    switch phase {
+                                    case .empty:
+                                        ProgressView()
+                                    case .success(let image):
+                                        image.resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .onTapGesture {
+                                                showFullProfileImage = false
+                                            }
+                                            .padding()
+                                    case .failure:
+                                        Image(systemName: "person.crop.circle.fill.badge.exclamationmark")
+                                    @unknown default:
+                                        EmptyView()
+                                    }
+                                }
+                                Button("Upload New Image") {
+                                    isShowingImagePicker = true
+                                }
+                                .padding()
+                            }
+                        }
+                case .failure:
+                    Image(systemName: "person.crop.circle.fill.badge.exclamationmark")
+                @unknown default:
+                    EmptyView()
+                }
+            }
+        } else {
+            ProgressView()
+        }
+    }
+}
+
+struct UserInfoView: View {
+    var userProfile: UserProfile
+
+    var body: some View {
+        Group {
+            Text(userProfile.displayName)
+                .font(.title)
+                .fontWeight(.bold)
+                .padding(.top, 8)
+
+            Text("Faculty: \(userProfile.faculty)")
+            Text("Level: \(userProfile.level)")
+            Text("Major: \(userProfile.major)")
+            Text("Nickname: \(userProfile.nickname)")
+            Text("Status: \(userProfile.status)")
+        }
+        .padding(.top, 4)
+    }
+}
+
+struct NavigationLinksView: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            NavigationLink(destination: FurnitureMarketView()) {
+                Text("Furniture Market")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.bottom, 4)
+            }
+            NavigationLink(destination: MyAssetsView()) {
+                Text("My Assets")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.bottom, 4)
+            }
+            NavigationLink(destination: MyIslandView()) {
+                Text("My Island")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.bottom, 4)
+            }
+            NavigationLink(destination: SystemSettingsView()) {
+                Text("System Settings")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.bottom, 4)
+            }
+            NavigationLink(destination: ContactsView()) {
+                Text("User Contacts")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+        }
+        .padding(.top, 16)
     }
 }

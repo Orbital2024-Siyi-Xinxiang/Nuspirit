@@ -58,7 +58,6 @@
 		B52F7BE62BFF87A200DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
-		B549FD1E2C1042D5009223B9 /* ContactsSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */; };
 		B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AD2C078F4D0060F578 /* BuildingView.swift */; };
 		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
@@ -83,6 +82,8 @@
 		B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A372C1BEDE3009AFE94 /* EditUserProfile.swift */; };
 		B5B05A3A2C1BEE5E009AFE94 /* SystemSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */; };
 		B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */; };
+		B5B05A3E2C1BF338009AFE94 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */; };
+		B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3F2C1BF436009AFE94 /* Contact.swift */; };
 		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
 		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
@@ -173,7 +174,6 @@
 		B517B6D52C08FA0100B9A739 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsSwipe.swift; sourceTree = "<group>"; };
 		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
@@ -199,6 +199,8 @@
 		B5B05A372C1BEDE3009AFE94 /* EditUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserProfile.swift; sourceTree = "<group>"; };
 		B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSettingsView.swift; sourceTree = "<group>"; };
 		B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		B5B05A3F2C1BF436009AFE94 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		B5B3E4562C01D6ED008799F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapOverlay.swift; sourceTree = "<group>"; };
 		B5B85E722C003EA100F322C3 /* MapContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
@@ -446,7 +448,7 @@
 				B54FD3B12C07FF140060F578 /* UserProfileView.swift */,
 				B5B05A372C1BEDE3009AFE94 /* EditUserProfile.swift */,
 				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
-				B549FD1D2C1042D5009223B9 /* ContactsSwipe.swift */,
+				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
 				B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */,
 			);
 			path = UserProfile;
@@ -510,6 +512,7 @@
 				B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */,
 				B57442372C11FF2C009F6616 /* UserInfo.swift */,
 				B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */,
+				B5B05A3F2C1BF436009AFE94 /* Contact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -857,8 +860,8 @@
 				B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* NotificationService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
-				B549FD1E2C1042D5009223B9 /* ContactsSwipe.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
+				B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */,
 				B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */,
 				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
 				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
@@ -879,6 +882,7 @@
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
 				B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */,
 				B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */,
+				B5B05A3E2C1BF338009AFE94 /* ContactDetailView.swift in Sources */,
 				B574423A2C120287009F6616 /* InfoCardView.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
 				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
