@@ -30,7 +30,7 @@ struct SignInView: View {
                 
             TextField("Email", text: $email)
                 .padding()
-                .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))
+//                .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))
                 .background(Color(red: 0.973, green: 0.83, blue: 0.729, opacity: 0.688))
                 .cornerRadius(10)
                  // Change text color here
@@ -41,11 +41,11 @@ struct SignInView: View {
                 if showingPassword {
                     TextField("Password", text: $password)
                         .font(.title)
-                        .foregroundColor(Color("AccentColor")) // Change text color here
+//                        .foregroundColor(Color("AccentColor")) // Change text color here
                         .textFieldStyle(PlainTextFieldStyle())
                 } else {
                     SecureField("Password", text: $password)
-                        .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))// Change text color here
+//                        .foregroundColor(Color(hue: 0.088, saturation: 0.198, brightness: 0.988))// Change text color here
                         .textFieldStyle(PlainTextFieldStyle())
                 }
                 Button(action: {
