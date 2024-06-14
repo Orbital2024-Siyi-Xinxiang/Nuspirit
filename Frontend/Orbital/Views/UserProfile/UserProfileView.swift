@@ -15,7 +15,7 @@ struct UserProfileView: View {
             ScrollView {
                 if let userProfile = userProfile {
                     VStack(alignment: .center) {
-                        ProfileImageView(imageUrl: $imageUrl, showFullProfileImage: $showFullProfileImage, isShowingImagePicker: $isShowingImagePicker)
+                        ProfileImageView(imageUrl: $imageUrl, showFullProfileImage: $showFullProfileImage, isShowingImagePicker: $isShowingImagePicker, uploadProfileImage: uploadProfileImage)
                         UserInfoView(userProfile: userProfile)
                         NavigationLinksView()
                     }
@@ -146,55 +146,87 @@ struct ProfileImageView: View {
     @Binding var imageUrl: URL?
     @Binding var showFullProfileImage: Bool
     @Binding var isShowingImagePicker: Bool
+    var uploadProfileImage: (UIImage) -> Void
 
     var body: some View {
-        if let imageUrl = imageUrl {
-            AsyncImage(url: imageUrl) { phase in
-                switch phase {
-                case .empty:
-                    ProgressView()
-                case .success(let image):
-                    image.resizable()
-                        .frame(width: 100, height: 100)
-                        .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                        .shadow(radius: 10)
-                        .onTapGesture {
-                            showFullProfileImage = true
-                        }
-                        .sheet(isPresented: $showFullProfileImage) {
-                            VStack {
-                                AsyncImage(url: imageUrl) { phase in
-                                    switch phase {
-                                    case .empty:
-                                        ProgressView()
-                                    case .success(let image):
-                                        image.resizable()
-                                            .aspectRatio(contentMode: .fit)
-                                            .onTapGesture {
-                                                showFullProfileImage = false
-                                            }
-                                            .padding()
-                                    case .failure:
-                                        Image(systemName: "person.crop.circle.fill.badge.exclamationmark")
-                                    @unknown default:
-                                        EmptyView()
-                                    }
-                                }
-                                Button("Upload New Image") {
-                                    isShowingImagePicker = true
-                                }
-                                .padding()
+        VStack {
+            if let imageUrl = imageUrl {
+                AsyncImage(url: imageUrl) { phase in
+                    switch phase {
+                    case .empty:
+                        Image(systemName: "person.crop.circle.fill")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .clipShape(Circle())
+                            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                            .shadow(radius: 10)
+                            .onTapGesture {
+                                showFullProfileImage = true
                             }
-                        }
-                case .failure:
-                    Image(systemName: "person.crop.circle.fill.badge.exclamationmark")
-                @unknown default:
-                    EmptyView()
+                    case .success(let image):
+                        image.resizable()
+                            .frame(width: 100, height: 100)
+                            .clipShape(Circle())
+                            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                            .shadow(radius: 10)
+                            .onTapGesture {
+                                showFullProfileImage = true
+                            }
+                            .sheet(isPresented: $showFullProfileImage) {
+                                VStack {
+                                    AsyncImage(url: imageUrl) { phase in
+                                        switch phase {
+                                        case .empty:
+                                            ProgressView()
+                                        case .success(let image):
+                                            image.resizable()
+                                                .aspectRatio(contentMode: .fit)
+                                                .onTapGesture {
+                                                    showFullProfileImage = false
+                                                }
+                                                .padding()
+                                        case .failure:
+                                            Image(systemName: "person.crop.circle.fill")
+                                        @unknown default:
+                                            EmptyView()
+                                        }
+                                    }
+                                    Button("Upload New Image") {
+                                        isShowingImagePicker = true
+                                    }
+                                    .padding()
+                                }
+                            }
+                    case .failure:
+                        Image(systemName: "person.crop.circle.fill")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .clipShape(Circle())
+                            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                            .shadow(radius: 10)
+                            .onTapGesture {
+                                showFullProfileImage = true
+                            }
+                    @unknown default:
+                        EmptyView()
+                    }
                 }
+            } else {
+                Image(systemName: "person.crop.circle.fill")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                    .shadow(radius: 10)
+                    .onTapGesture {
+                        isShowingImagePicker = true
+                    }
             }
-        } else {
-            ProgressView()
+        }
+        .sheet(isPresented: $isShowingImagePicker) {
+            ImagePicker(sourceType: .photoLibrary) { image in
+                uploadProfileImage(image)
+            }
         }
     }
 }
@@ -268,5 +300,12 @@ struct NavigationLinksView: View {
             }
         }
         .padding(.top, 16)
+    }
+}
+
+// preview userProfile view
+struct UserProfileView_Previews: PreviewProvider {
+    static var previews: some View {
+        UserProfileView()
     }
 }
