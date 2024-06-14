@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct LandingView: View {
-
-
+    @State private var showSignUp = false
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -24,7 +24,9 @@ struct LandingView: View {
                 }
                 .padding(.horizontal)
 
-                NavigationLink(destination: SignUpView()) {
+                Button(action: {
+                    showSignUp = true
+                }) {
                     Text("Sign Up")
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -35,13 +37,15 @@ struct LandingView: View {
                 .padding(.horizontal)
                 Spacer()
             }
+            .sheet(isPresented: $showSignUp) {
+                SignUpViewControllerWrapper()
+            }
         }
     }
 }
-/*
- struct LandingView_Previews: PreviewProvider {
- static var previews: some View {
- LandingView(isSignedIn: .constant(false))
- }
- }
- */
+
+struct LandingView_Previews: PreviewProvider {
+    static var previews: some View {
+        LandingView()
+    }
+}
