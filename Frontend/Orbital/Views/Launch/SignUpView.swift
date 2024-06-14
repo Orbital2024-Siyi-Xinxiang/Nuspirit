@@ -21,6 +21,7 @@ struct SignUpView: View {
 
 struct SignUpViewControllerWrapper: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> SignUpViewController {
+        
         let viewController = SignUpViewController()
         return viewController
     }
