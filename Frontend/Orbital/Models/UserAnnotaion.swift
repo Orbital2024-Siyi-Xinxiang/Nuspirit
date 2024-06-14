@@ -26,3 +26,9 @@ class UserAnnotation: NSObject, MKAnnotation {
         self.major = major
     }
 }
+// preview
+struct UserAnnotation_Previews: PreviewProvider {
+    static var previews: some View {
+        Text("Hello, World!")
+    }
+}
