@@ -1,0 +1,2065 @@
+fileFormatVersion: 2
+guid: 7aa4c1845bfd74c5493f9b8185a21d3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4631590715511094382
+    second: IndustrialSpriteSheet_0
+  - first:
+      213: 6581938172855241798
+    second: IndustrialSpriteSheet_1
+  - first:
+      213: -6167935104663439050
+    second: IndustrialSpriteSheet_2
+  - first:
+      213: 5336762716932294480
+    second: IndustrialSpriteSheet_3
+  - first:
+      213: 2834460794423899916
+    second: IndustrialSpriteSheet_4
+  - first:
+      213: 6598432727976046676
+    second: IndustrialSpriteSheet_5
+  - first:
+      213: -9213380987617702376
+    second: IndustrialSpriteSheet_6
+  - first:
+      213: -1001300090659938685
+    second: IndustrialSpriteSheet_7
+  - first:
+      213: -2503789695114837503
+    second: IndustrialSpriteSheet_8
+  - first:
+      213: -3466228953840432850
+    second: IndustrialSpriteSheet_9
+  - first:
+      213: 3253070185111132896
+    second: IndustrialSpriteSheet_10
+  - first:
+      213: -7758608152532710528
+    second: IndustrialSpriteSheet_11
+  - first:
+      213: -5336008503929187434
+    second: IndustrialSpriteSheet_12
+  - first:
+      213: 4442964986613257877
+    second: IndustrialSpriteSheet_13
+  - first:
+      213: -7007559330493850509
+    second: IndustrialSpriteSheet_14
+  - first:
+      213: 5238677881617966902
+    second: IndustrialSpriteSheet_15
+  - first:
+      213: -5701923075350786109
+    second: IndustrialSpriteSheet_16
+  - first:
+      213: -7376142839490852424
+    second: IndustrialSpriteSheet_17
+  - first:
+      213: -8175772060230661833
+    second: IndustrialSpriteSheet_18
+  - first:
+      213: 3630699814385795912
+    second: IndustrialSpriteSheet_19
+  - first:
+      213: -5608321384068783016
+    second: IndustrialSpriteSheet_20
+  - first:
+      213: -6985792672727811149
+    second: IndustrialSpriteSheet_21
+  - first:
+      213: 7094741373074664260
+    second: IndustrialSpriteSheet_22
+  - first:
+      213: 3009341037377967779
+    second: IndustrialSpriteSheet_23
+  - first:
+      213: -3581804276147220719
+    second: IndustrialSpriteSheet_24
+  - first:
+      213: -3866589694131205508
+    second: IndustrialSpriteSheet_25
+  - first:
+      213: 5451889100159095634
+    second: IndustrialSpriteSheet_26
+  - first:
+      213: -7103587845725199407
+    second: IndustrialSpriteSheet_27
+  - first:
+      213: 5003159832965168461
+    second: IndustrialSpriteSheet_28
+  - first:
+      213: 8571964350208359385
+    second: IndustrialSpriteSheet_29
+  - first:
+      213: 3555140263770767018
+    second: IndustrialSpriteSheet_30
+  - first:
+      213: 6657505759868304569
+    second: IndustrialSpriteSheet_31
+  - first:
+      213: -1751397637184647753
+    second: IndustrialSpriteSheet_32
+  - first:
+      213: 6963272273337235612
+    second: IndustrialSpriteSheet_33
+  - first:
+      213: 2268611148006309260
+    second: IndustrialSpriteSheet_34
+  - first:
+      213: 3386768062707745106
+    second: IndustrialSpriteSheet_35
+  - first:
+      213: -7622109712334811306
+    second: IndustrialSpriteSheet_36
+  - first:
+      213: -1755997736084810168
+    second: IndustrialSpriteSheet_37
+  - first:
+      213: -4569502578693394543
+    second: IndustrialSpriteSheet_38
+  - first:
+      213: -3284452031582029952
+    second: IndustrialSpriteSheet_39
+  - first:
+      213: -8899032845925296880
+    second: IndustrialSpriteSheet_40
+  - first:
+      213: 691577370649846444
+    second: IndustrialSpriteSheet_41
+  - first:
+      213: 156885305576425899
+    second: IndustrialSpriteSheet_42
+  - first:
+      213: -9162422004593800922
+    second: IndustrialSpriteSheet_43
+  - first:
+      213: 5911927642208559621
+    second: IndustrialSpriteSheet_44
+  - first:
+      213: -285093745374974342
+    second: IndustrialSpriteSheet_45
+  - first:
+      213: 6466485272785348669
+    second: IndustrialSpriteSheet_46
+  - first:
+      213: -2700314938320357929
+    second: IndustrialSpriteSheet_47
+  - first:
+      213: 7808889097565995685
+    second: IndustrialSpriteSheet_48
+  - first:
+      213: -7532621406034499609
+    second: IndustrialSpriteSheet_49
+  - first:
+      213: 8365725977293595743
+    second: IndustrialSpriteSheet_50
+  - first:
+      213: -4657827559848354407
+    second: IndustrialSpriteSheet_51
+  - first:
+      213: 6503989451832797805
+    second: IndustrialSpriteSheet_52
+  - first:
+      213: 6933133852065842984
+    second: IndustrialSpriteSheet_53
+  - first:
+      213: -5045997061214749462
+    second: IndustrialSpriteSheet_54
+  - first:
+      213: 3848502814218981628
+    second: IndustrialSpriteSheet_55
+  - first:
+      213: -7212093906599024232
+    second: IndustrialSpriteSheet_56
+  - first:
+      213: -2554112001857146005
+    second: IndustrialSpriteSheet_57
+  - first:
+      213: 7366228877921883151
+    second: IndustrialSpriteSheet_58
+  - first:
+      213: -688540962341843724
+    second: IndustrialSpriteSheet_59
+  - first:
+      213: -5935979694450589415
+    second: IndustrialSpriteSheet_60
+  - first:
+      213: -7877009641490573042
+    second: IndustrialSpriteSheet_61
+  - first:
+      213: 523637793324069532
+    second: IndustrialSpriteSheet_62
+  - first:
+      213: 5856727336241407477
+    second: IndustrialSpriteSheet_63
+  - first:
+      213: 7680469006610185835
+    second: IndustrialSpriteSheet_64
+  - first:
+      213: 9184299582296488122
+    second: IndustrialSpriteSheet_65
+  - first:
+      213: 1664264922771995118
+    second: IndustrialSpriteSheet_66
+  - first:
+      213: 2219177354964921230
+    second: IndustrialSpriteSheet_67
+  - first:
+      213: 446088475706545188
+    second: IndustrialSpriteSheet_68
+  - first:
+      213: 8899227157355891714
+    second: IndustrialSpriteSheet_69
+  - first:
+      213: 4175619949330882443
+    second: IndustrialSpriteSheet_70
+  - first:
+      213: -6621961248154875445
+    second: IndustrialSpriteSheet_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 431
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293c6f098c849bfb0800000000000000
+      internalID: -4631590715511094382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cce9645edb75b50800000000000000
+      internalID: 6581938172855241798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 431
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639bfd093b7176aa0800000000000000
+      internalID: -6167935104663439050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0574c496a6dff0a40800000000000000
+      internalID: 5336762716932294480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07786d2317065720800000000000000
+      internalID: 2834460794423899916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450f2592b97529b50800000000000000
+      internalID: 6598432727976046676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e85bc6ece732080800000000000000
+      internalID: -9213380987617702376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ed5a66fdaaa12f0800000000000000
+      internalID: -1001300090659938685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 432
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1028566b980c04dd0800000000000000
+      internalID: -2503789695114837503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29ca20a12b75efc0800000000000000
+      internalID: -3466228953840432850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 431
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea96fc091a352d20800000000000000
+      internalID: 3253070185111132896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 431
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b86dcfdf2e35490800000000000000
+      internalID: -7758608152532710528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 432
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69356dc7980b2f5b0800000000000000
+      internalID: -5336008503929187434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d4909d1598ad30800000000000000
+      internalID: 4442964986613257877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c9073aae520ce90800000000000000
+      internalID: -7007559330493850509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 383
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637e88217c583b840800000000000000
+      internalID: 5238677881617966902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf0d1d4c23bed0b0800000000000000
+      internalID: -5701923075350786109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 383
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b94b9ffa2da2a990800000000000000
+      internalID: -7376142839490852424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7394369d0a2d98e80800000000000000
+      internalID: -8175772060230661833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 383
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843ca82be36d26230800000000000000
+      internalID: 3630699814385795912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8546a545a6d3b22b0800000000000000
+      internalID: -5608321384068783016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb3883939a7d0f90800000000000000
+      internalID: -6985792672727811149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44be16370b5957260800000000000000
+      internalID: 7094741373074664260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 383
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a65be4bab353c920800000000000000
+      internalID: 3009341037377967779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f0541fcffda4ec0800000000000000
+      internalID: -3581804276147220719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8f15c82d175ac0800000000000000
+      internalID: -3866589694131205508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2539ec1504009ab40800000000000000
+      internalID: 5451889100159095634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d364c0ad7cfa6d90800000000000000
+      internalID: -7103587845725199407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 335
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d34663c5bce6540800000000000000
+      internalID: 5003159832965168461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db3b79092cb5f670800000000000000
+      internalID: 8571964350208359385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaebeb4eb35665130800000000000000
+      internalID: 3555140263770767018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc31133736346c50800000000000000
+      internalID: 6657505759868304569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 335
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd8627d029c1b7e0800000000000000
+      internalID: -1751397637184647753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98b7965d3382a060800000000000000
+      internalID: 6963272273337235612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d386ac1d9bb7f10800000000000000
+      internalID: 2268611148006309260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 288
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2514552fb97300f20800000000000000
+      internalID: 3386768062707745106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f8a3da993d83690800000000000000
+      internalID: -7622109712334811306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846564adc5171a7e0800000000000000
+      internalID: -1755997736084810168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fafbc6d9dd590c0800000000000000
+      internalID: -4569502578693394543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0873ebf67484b62d0800000000000000
+      internalID: -3284452031582029952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d61696c8408480800000000000000
+      internalID: -8899032845925296880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2684854f9f89900800000000000000
+      internalID: 691577370649846444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba98c5daa5e5d2200800000000000000
+      internalID: 156885305576425899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 287
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629c6fd3bb988d080800000000000000
+      internalID: -9162422004593800922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 223
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50267ab2ed26b0250800000000000000
+      internalID: 5911927642208559621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 223
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e2d33cfb42b0cf0800000000000000
+      internalID: -285093745374974342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 223
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d386aad38129db950800000000000000
+      internalID: 6466485272785348669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 239
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5fbb7dedd868ad0800000000000000
+      internalID: -2700314938320357929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a287dec24fbe5c60800000000000000
+      internalID: 7808889097565995685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 223
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e76fc1adb0c67790800000000000000
+      internalID: -7532621406034499609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 240
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54a7dce377091470800000000000000
+      internalID: 8365725977293595743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dd63633821c5fb0800000000000000
+      internalID: -4657827559848354407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aa16362ffc24a50800000000000000
+      internalID: 6503989451832797805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 158
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ce905180773060800000000000000
+      internalID: 6933133852065842984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 159
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec31ac586409f9b0800000000000000
+      internalID: -5045997061214749462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 159
+        width: 130
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf01d965be0a86530800000000000000
+      internalID: 3848502814218981628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899e762adce79eb90800000000000000
+      internalID: -7212093906599024232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b633eb4aaa8fd8cd0800000000000000
+      internalID: -2554112001857146005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 95
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0412c2f22a1a3660800000000000000
+      internalID: 7366228877921883151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 95
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc0f4e84afc176f0800000000000000
+      internalID: -688540962341843724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91147560be92f9da0800000000000000
+      internalID: -5935979694450589415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 95
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0990aa177d3fa290800000000000000
+      internalID: -7877009641490573042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 124
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92fc067cc5544700800000000000000
+      internalID: 523637793324069532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 130
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f52df66b76474150800000000000000
+      internalID: 5856727336241407477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 132
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb56f5ed1869a60800000000000000
+      internalID: 7680469006610185835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 135
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8fc814fcf257f70800000000000000
+      internalID: 9184299582296488122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 132
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9b7fd2128a81710800000000000000
+      internalID: 1664264922771995118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b6640fb0a1cce10800000000000000
+      internalID: 2219177354964921230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 95
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42452ecea13d03600800000000000000
+      internalID: 446088475706545188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c05b113f7608b70800000000000000
+      internalID: 8899227157355891714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 15
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fd6e47838c2f930800000000000000
+      internalID: 4175619949330882443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 15
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9835754511a14a0800000000000000
+      internalID: -6621961248154875445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IndustrialSpriteSheet_0: -4631590715511094382
+      IndustrialSpriteSheet_1: 6581938172855241798
+      IndustrialSpriteSheet_10: 3253070185111132896
+      IndustrialSpriteSheet_11: -7758608152532710528
+      IndustrialSpriteSheet_12: -5336008503929187434
+      IndustrialSpriteSheet_13: 4442964986613257877
+      IndustrialSpriteSheet_14: -7007559330493850509
+      IndustrialSpriteSheet_15: 5238677881617966902
+      IndustrialSpriteSheet_16: -5701923075350786109
+      IndustrialSpriteSheet_17: -7376142839490852424
+      IndustrialSpriteSheet_18: -8175772060230661833
+      IndustrialSpriteSheet_19: 3630699814385795912
+      IndustrialSpriteSheet_2: -6167935104663439050
+      IndustrialSpriteSheet_20: -5608321384068783016
+      IndustrialSpriteSheet_21: -6985792672727811149
+      IndustrialSpriteSheet_22: 7094741373074664260
+      IndustrialSpriteSheet_23: 3009341037377967779
+      IndustrialSpriteSheet_24: -3581804276147220719
+      IndustrialSpriteSheet_25: -3866589694131205508
+      IndustrialSpriteSheet_26: 5451889100159095634
+      IndustrialSpriteSheet_27: -7103587845725199407
+      IndustrialSpriteSheet_28: 5003159832965168461
+      IndustrialSpriteSheet_29: 8571964350208359385
+      IndustrialSpriteSheet_3: 5336762716932294480
+      IndustrialSpriteSheet_30: 3555140263770767018
+      IndustrialSpriteSheet_31: 6657505759868304569
+      IndustrialSpriteSheet_32: -1751397637184647753
+      IndustrialSpriteSheet_33: 6963272273337235612
+      IndustrialSpriteSheet_34: 2268611148006309260
+      IndustrialSpriteSheet_35: 3386768062707745106
+      IndustrialSpriteSheet_36: -7622109712334811306
+      IndustrialSpriteSheet_37: -1755997736084810168
+      IndustrialSpriteSheet_38: -4569502578693394543
+      IndustrialSpriteSheet_39: -3284452031582029952
+      IndustrialSpriteSheet_4: 2834460794423899916
+      IndustrialSpriteSheet_40: -8899032845925296880
+      IndustrialSpriteSheet_41: 691577370649846444
+      IndustrialSpriteSheet_42: 156885305576425899
+      IndustrialSpriteSheet_43: -9162422004593800922
+      IndustrialSpriteSheet_44: 5911927642208559621
+      IndustrialSpriteSheet_45: -285093745374974342
+      IndustrialSpriteSheet_46: 6466485272785348669
+      IndustrialSpriteSheet_47: -2700314938320357929
+      IndustrialSpriteSheet_48: 7808889097565995685
+      IndustrialSpriteSheet_49: -7532621406034499609
+      IndustrialSpriteSheet_5: 6598432727976046676
+      IndustrialSpriteSheet_50: 8365725977293595743
+      IndustrialSpriteSheet_51: -4657827559848354407
+      IndustrialSpriteSheet_52: 6503989451832797805
+      IndustrialSpriteSheet_53: 6933133852065842984
+      IndustrialSpriteSheet_54: -5045997061214749462
+      IndustrialSpriteSheet_55: 3848502814218981628
+      IndustrialSpriteSheet_56: -7212093906599024232
+      IndustrialSpriteSheet_57: -2554112001857146005
+      IndustrialSpriteSheet_58: 7366228877921883151
+      IndustrialSpriteSheet_59: -688540962341843724
+      IndustrialSpriteSheet_6: -9213380987617702376
+      IndustrialSpriteSheet_60: -5935979694450589415
+      IndustrialSpriteSheet_61: -7877009641490573042
+      IndustrialSpriteSheet_62: 523637793324069532
+      IndustrialSpriteSheet_63: 5856727336241407477
+      IndustrialSpriteSheet_64: 7680469006610185835
+      IndustrialSpriteSheet_65: 9184299582296488122
+      IndustrialSpriteSheet_66: 1664264922771995118
+      IndustrialSpriteSheet_67: 2219177354964921230
+      IndustrialSpriteSheet_68: 446088475706545188
+      IndustrialSpriteSheet_69: 8899227157355891714
+      IndustrialSpriteSheet_7: -1001300090659938685
+      IndustrialSpriteSheet_70: 4175619949330882443
+      IndustrialSpriteSheet_71: -6621961248154875445
+      IndustrialSpriteSheet_8: -2503789695114837503
+      IndustrialSpriteSheet_9: -3466228953840432850
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
