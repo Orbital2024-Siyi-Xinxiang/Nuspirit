@@ -1,8 +1,14 @@
 import SwiftUI
+import Firebase
+import FirebaseCore
+import FirebaseStorage
+import FirebaseFirestore
+
 
 struct AssetView: View {
     let asset: Asset
     @State private var purchaseMessage: String = ""
+    @Binding var balance: Double
 
     var body: some View {
         VStack {
@@ -15,38 +21,41 @@ struct AssetView: View {
             Text("$\(asset.price, specifier: "%.2f")")
                 .font(.title)
 
-            Button(action: purchaseAsset) {
+            Button(action: {
+                purchaseAsset()
+            }) {
                 Text("Purchase")
+                    .padding()
+                    .background(Color.green)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
             }
         }
     }
 
     func purchaseAsset() {
         // Implement the purchase logic here
-        guard let url = URL(string: "http://localhost:3000/purchase") else { return }
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.setValue("Application/json", forHTTPHeaderField: "Content-Type")
+        let userId = "current_user_id" // Replace with actual user ID
+        let db = Firestore.firestore()
+        let assetPrice = asset.price
 
-        let purchase = Purchase(userId: 1, assetId: asset.id) // Replace with actual user ID
-        guard let encoded = try? JSONEncoder().encode(purchase) else { return }
-
-        request.httpBody = encoded
-
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            if let data = data {
-                if let responseMessage = try? JSONDecoder().decode(PurchaseResponse.self, from: data) {
-                    DispatchQueue.main.async {
-                        self.purchaseMessage = responseMessage.message
-                    }
+        if balance >= assetPrice {
+            balance -= assetPrice
+            db.collection("users_tokens").document(userId).updateData(["studyToken": balance]) { error in
+                if let error = error {
+                    print("Error updating balance: \(error)")
+                } else {
+                    purchaseMessage = "Purchase successful"
                 }
             }
-        }.resume()
+        } else {
+            purchaseMessage = "Insufficient balance"
+        }
     }
 }
 
 struct AssetView_Previews: PreviewProvider {
     static var previews: some View {
-        AssetView(asset: Asset(id: 1, cat: "Currency", name: "Gold", price: 1000, icon: "dollarsign.circle")).previewInterfaceOrientation(.landscapeLeft)
+        AssetView(asset: Asset(id: 1, cat: "Currency", name: "Gold", price: 1000, icon: "dollarsign.circle"), balance: .constant(1000.0)).previewInterfaceOrientation(.landscapeLeft)
     }
 }
