@@ -1,0 +1,3018 @@
+fileFormatVersion: 2
+guid: 241ea14f6dbc8409589c201481605d70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7637393938412737178
+    second: AcidBubbles_0
+  - first:
+      213: 938914723076561265
+    second: AcidBubbles_1
+  - first:
+      213: -5691201664122844567
+    second: AcidBubbles_2
+  - first:
+      213: 7596327172270463521
+    second: AcidBubbles_3
+  - first:
+      213: -4562827719821043289
+    second: AcidBubbles_4
+  - first:
+      213: 6217359228725272111
+    second: AcidBubbles_5
+  - first:
+      213: -2577030676190691165
+    second: AcidBubbles_6
+  - first:
+      213: -8211614510647376351
+    second: AcidBubbles_7
+  - first:
+      213: -6524546796078200532
+    second: AcidBubbles_8
+  - first:
+      213: -7454332906334586431
+    second: AcidBubbles_9
+  - first:
+      213: 1073285969949929503
+    second: AcidBubbles_10
+  - first:
+      213: 9026313435711871196
+    second: AcidBubbles_11
+  - first:
+      213: -4969735358801086562
+    second: AcidBubbles_12
+  - first:
+      213: -2476438334981711852
+    second: AcidBubbles_13
+  - first:
+      213: -2418026545528125871
+    second: AcidBubbles_14
+  - first:
+      213: 7280921330878470551
+    second: AcidBubbles_15
+  - first:
+      213: -1566686619971888099
+    second: AcidBubbles_16
+  - first:
+      213: 4757195822178190931
+    second: AcidBubbles_17
+  - first:
+      213: -6672694227448593937
+    second: AcidBubbles_18
+  - first:
+      213: -4542363157859711277
+    second: AcidBubbles_19
+  - first:
+      213: -5577139313396079825
+    second: AcidBubbles_20
+  - first:
+      213: 6946249480239239104
+    second: AcidBubbles_21
+  - first:
+      213: -1153807606499129427
+    second: AcidBubbles_22
+  - first:
+      213: -3797405727881170666
+    second: AcidBubbles_23
+  - first:
+      213: -3298524728304597974
+    second: AcidBubbles_24
+  - first:
+      213: 215795498700644734
+    second: AcidBubbles_25
+  - first:
+      213: 2091811744009965241
+    second: AcidBubbles_26
+  - first:
+      213: -8186282195444846232
+    second: AcidBubbles_27
+  - first:
+      213: 692438898888634926
+    second: AcidBubbles_28
+  - first:
+      213: -8441643826236615773
+    second: AcidBubbles_29
+  - first:
+      213: -2051584261181286170
+    second: AcidBubbles_30
+  - first:
+      213: -8629060969899762659
+    second: AcidBubbles_31
+  - first:
+      213: 4441005227878083918
+    second: AcidBubbles_32
+  - first:
+      213: 6013543358343979809
+    second: AcidBubbles_33
+  - first:
+      213: -6706890758684948695
+    second: AcidBubbles_34
+  - first:
+      213: 7039711995203130739
+    second: AcidBubbles_35
+  - first:
+      213: 7643956436353831842
+    second: AcidBubbles_36
+  - first:
+      213: -5118654972732809019
+    second: AcidBubbles_37
+  - first:
+      213: -6480974679534178100
+    second: AcidBubbles_38
+  - first:
+      213: -3342423348010277650
+    second: AcidBubbles_39
+  - first:
+      213: 8742779962086532777
+    second: AcidBubbles_40
+  - first:
+      213: -6734765324215631255
+    second: AcidBubbles_41
+  - first:
+      213: 2825206106286237113
+    second: AcidBubbles_42
+  - first:
+      213: -9093606664053451956
+    second: AcidBubbles_43
+  - first:
+      213: -4198187630703520546
+    second: AcidBubbles_44
+  - first:
+      213: -8964558730452689111
+    second: AcidBubbles_45
+  - first:
+      213: 270013167393279493
+    second: AcidBubbles_46
+  - first:
+      213: -8117826298738895565
+    second: AcidBubbles_47
+  - first:
+      213: 8094114744091900485
+    second: AcidBubbles_48
+  - first:
+      213: 8278870077029841790
+    second: AcidBubbles_49
+  - first:
+      213: -5679729138239781663
+    second: AcidBubbles_50
+  - first:
+      213: -1932632254883535608
+    second: AcidBubbles_51
+  - first:
+      213: -8536620951446476532
+    second: AcidBubbles_52
+  - first:
+      213: 7317648838436667841
+    second: AcidBubbles_53
+  - first:
+      213: 8794925890778405987
+    second: AcidBubbles_54
+  - first:
+      213: -9098137618439884876
+    second: AcidBubbles_55
+  - first:
+      213: 8226263569122436826
+    second: AcidBubbles_56
+  - first:
+      213: -4128374994896733440
+    second: AcidBubbles_57
+  - first:
+      213: 1263229380095336418
+    second: AcidBubbles_58
+  - first:
+      213: 6685386048986552613
+    second: AcidBubbles_59
+  - first:
+      213: -7465363931984719131
+    second: AcidBubbles_60
+  - first:
+      213: 8949320749730684395
+    second: AcidBubbles_61
+  - first:
+      213: 2286676650384784851
+    second: AcidBubbles_62
+  - first:
+      213: 6768243031706097392
+    second: AcidBubbles_63
+  - first:
+      213: -5264546280829023864
+    second: AcidBubbles_64
+  - first:
+      213: -5209290265117595918
+    second: AcidBubbles_65
+  - first:
+      213: 5206878348245152228
+    second: AcidBubbles_66
+  - first:
+      213: 4637570738756437398
+    second: AcidBubbles_67
+  - first:
+      213: 5276352292465726218
+    second: AcidBubbles_68
+  - first:
+      213: 2677672854757099580
+    second: AcidBubbles_69
+  - first:
+      213: 4956355704822606435
+    second: AcidBubbles_70
+  - first:
+      213: -9200002195366118276
+    second: AcidBubbles_71
+  - first:
+      213: 3263885013658215875
+    second: AcidBubbles_72
+  - first:
+      213: 1284953071246283597
+    second: AcidBubbles_73
+  - first:
+      213: -2113608906170982977
+    second: AcidBubbles_74
+  - first:
+      213: 2884872536007479055
+    second: AcidBubbles_75
+  - first:
+      213: 5087996808278247797
+    second: AcidBubbles_76
+  - first:
+      213: -7055079669693475686
+    second: AcidBubbles_77
+  - first:
+      213: 521968079772394029
+    second: AcidBubbles_78
+  - first:
+      213: -4738938923828286112
+    second: AcidBubbles_79
+  - first:
+      213: 6595960116969964570
+    second: AcidBubbles_80
+  - first:
+      213: 6336171477484620619
+    second: AcidBubbles_81
+  - first:
+      213: -6808302803716946267
+    second: AcidBubbles_82
+  - first:
+      213: -8816583932048138919
+    second: AcidBubbles_83
+  - first:
+      213: 6885105611349925116
+    second: AcidBubbles_84
+  - first:
+      213: -8837564888348150350
+    second: AcidBubbles_85
+  - first:
+      213: 6816045907727881570
+    second: AcidBubbles_86
+  - first:
+      213: -2078659382986999506
+    second: AcidBubbles_87
+  - first:
+      213: -7664707017139065505
+    second: AcidBubbles_88
+  - first:
+      213: 7406356853544058873
+    second: AcidBubbles_89
+  - first:
+      213: -475865630897101341
+    second: AcidBubbles_90
+  - first:
+      213: 3235865884377680724
+    second: AcidBubbles_91
+  - first:
+      213: -1407781999572841243
+    second: AcidBubbles_92
+  - first:
+      213: -6663232690351162676
+    second: AcidBubbles_93
+  - first:
+      213: -4218766430366957956
+    second: AcidBubbles_94
+  - first:
+      213: -1837577103830405394
+    second: AcidBubbles_95
+  - first:
+      213: -2168443845281500481
+    second: AcidBubbles_96
+  - first:
+      213: -4278096635084808371
+    second: AcidBubbles_97
+  - first:
+      213: -4116915108077356902
+    second: AcidBubbles_98
+  - first:
+      213: 4677562505045211000
+    second: AcidBubbles_99
+  - first:
+      213: 4927035164427869980
+    second: AcidBubbles_100
+  - first:
+      213: 8932428939433428037
+    second: AcidBubbles_101
+  - first:
+      213: -874782407376738481
+    second: AcidBubbles_102
+  - first:
+      213: -3527541892635442108
+    second: AcidBubbles_103
+  - first:
+      213: -6667087400790458277
+    second: AcidBubbles_104
+  - first:
+      213: -4536786333412832551
+    second: AcidBubbles_105
+  - first:
+      213: -554708892756180564
+    second: AcidBubbles_106
+  - first:
+      213: -5279809689379139890
+    second: AcidBubbles_107
+  - first:
+      213: -1767961914102697312
+    second: AcidBubbles_108
+  - first:
+      213: -4469511389488671325
+    second: AcidBubbles_109
+  - first:
+      213: -2262444589700205877
+    second: AcidBubbles_110
+  - first:
+      213: -7924492677866315695
+    second: AcidBubbles_111
+  - first:
+      213: 2079427617086381602
+    second: AcidBubbles_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AcidBubbles_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 420
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66def2b7da6820690800000000000000
+      internalID: -7637393938412737178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 409
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179dc5f47f1b70d00800000000000000
+      internalID: 938914723076561265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 400
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a88d06d3ac401b0800000000000000
+      internalID: -5691201664122844567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 392
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a14dce0539b6960800000000000000
+      internalID: 7596327172270463521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 265
+        width: 111
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9d2cc1d549da0c0800000000000000
+      internalID: -4562827719821043289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273
+        width: 111
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e9a2d074f784650800000000000000
+      internalID: 6217359228725272111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 277
+        width: 111
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a08e52f04c8c3cd0800000000000000
+      internalID: -2577030676190691165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 273
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1268b6c0c1c7a0e80800000000000000
+      internalID: -8211614510647376351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 273
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29885be1472475a0800000000000000
+      internalID: -6524546796078200532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 273
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9fb6867b3ec8890800000000000000
+      internalID: -7454332906334586431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 285
+        width: 111
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10b64537e315ee00800000000000000
+      internalID: 1073285969949929503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_11
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 284
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd811fe0f38e34d70800000000000000
+      internalID: 9026313435711871196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 272
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9776fe9504f70bb0800000000000000
+      internalID: -4969735358801086562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 277
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418514f747ce1add0800000000000000
+      internalID: -2476438334981711852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 279
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156c4580ba1717ed0800000000000000
+      internalID: -2418026545528125871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 272
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799539cdf570b0560800000000000000
+      internalID: 7280921330878470551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 279
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cd73ed1d2024ae0800000000000000
+      internalID: -1566686619971888099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 265
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35647e34564f40240800000000000000
+      internalID: 4757195822178190931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 267
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1802e14f3d563a0800000000000000
+      internalID: -6672694227448593937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_19
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 266
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d643fe36c846f0c0800000000000000
+      internalID: -4542363157859711277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_20
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 269
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23292ae7550a92b0800000000000000
+      internalID: -5577139313396079825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_21
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 266
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfc6e67919066060800000000000000
+      internalID: 6946249480239239104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_22
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 269
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7c973581adcffe0800000000000000
+      internalID: -1153807606499129427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_23
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 273
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611fb992c97ec4bc0800000000000000
+      internalID: -3797405727881170666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 173
+        width: 110
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2400966c394932d0800000000000000
+      internalID: -3298524728304597974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 183
+        width: 110
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e712e2cdcd8aef200800000000000000
+      internalID: 215795498700644734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 220
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be44b2c2bb970d10800000000000000
+      internalID: 2091811744009965241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 208
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861b76d47bb746e80800000000000000
+      internalID: -8186282195444846232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_28
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 220
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e227be482890c9900800000000000000
+      internalID: 692438898888634926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 231
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a31cc07aa149da80800000000000000
+      internalID: -8441643826236615773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_30
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 237
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8d185fbfe4783e0800000000000000
+      internalID: -2051584261181286170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_31
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 230
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cdfef34ca6f3880800000000000000
+      internalID: -8629060969899762659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 236
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d635da9be91ad30800000000000000
+      internalID: 4441005227878083918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_33
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 236
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123a083c2d5647350800000000000000
+      internalID: 6013543358343979809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 232
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927cb3db3665ce2a0800000000000000
+      internalID: -6706890758684948695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_35
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 217
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375932bf2c412b160800000000000000
+      internalID: 7039711995203130739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_36
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 217
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a35e6321e9c41a60800000000000000
+      internalID: 7643956436353831842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_37
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 223
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0697e0c62e6f8b0800000000000000
+      internalID: -5118654972732809019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 218
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0701cddd3fe06a0800000000000000
+      internalID: -6480974679534178100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_39
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 227
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee420e48ca35d91d0800000000000000
+      internalID: -3342423348010277650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_40
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 217
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a62295ed08945970800000000000000
+      internalID: 8742779962086532777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_41
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 203
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9624284be9e4982a0800000000000000
+      internalID: -6734765324215631255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_42
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 203
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5a47e2cf5253720800000000000000
+      internalID: 2825206106286237113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_43
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 211
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4318f54be40dc180800000000000000
+      internalID: -9093606664053451956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_44
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 203
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed45a73c79a0db5c0800000000000000
+      internalID: -4198187630703520546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_45
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 197
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f9d37b45d779380800000000000000
+      internalID: -8964558730452689111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_46
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 207
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e872f8b874fb300800000000000000
+      internalID: 270013167393279493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_47
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 210
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335185bcdffa75f80800000000000000
+      internalID: -8117826298738895565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_48
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 200
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a79dca972145070800000000000000
+      internalID: 8094114744091900485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_49
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 209
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b79f2c87474e270800000000000000
+      internalID: 8278870077029841790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_50
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 211
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e448c6f07c8d21b0800000000000000
+      internalID: -5679729138239781663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_51
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 197
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80564362439ed25e0800000000000000
+      internalID: -1932632254883535608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_52
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 189
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0920ee3974d78980800000000000000
+      internalID: -8536620951446476532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_53
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 195
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1411619d28d8560800000000000000
+      internalID: 7317648838436667841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_54
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 183
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c9bb9008add0a70800000000000000
+      internalID: 8794925890778405987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_55
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 199
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfa54f3a0cecb180800000000000000
+      internalID: -9098137618439884876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_56
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 204
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6a74aa12f892270800000000000000
+      internalID: 8226263569122436826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_57
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 195
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b3391b0d015b6c0800000000000000
+      internalID: -4128374994896733440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_58
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 202
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef5b66ad64e78110800000000000000
+      internalID: 1263229380095336418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_59
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 178
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529123cd03347cc50800000000000000
+      internalID: 6685386048986552613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_60
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 179
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2990b9e03b56890800000000000000
+      internalID: -7465363931984719131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 180
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beddabc6ecf523c70800000000000000
+      internalID: 8949320749730684395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_62
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd7d565c48ebbf10800000000000000
+      internalID: 2286676650384784851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_63
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 179
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6da5a7d21aded50800000000000000
+      internalID: 6768243031706097392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_64
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 175
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8890593ec0390f6b0800000000000000
+      internalID: -5264546280829023864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 180
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6e3c79a12e4b7b0800000000000000
+      internalID: -5209290265117595918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 188
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e133df354c824840800000000000000
+      internalID: 5206878348245152228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_67
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 187
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695c2581406fb5040800000000000000
+      internalID: 4637570738756437398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_68
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 178
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03dc36647e593940800000000000000
+      internalID: 5276352292465726218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_69
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 179
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38c0844641092520800000000000000
+      internalID: 2677672854757099580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_70
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 187
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aae6ee04388c440800000000000000
+      internalID: 4956355704822606435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_71
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 175
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c736c3fb6035080800000000000000
+      internalID: -9200002195366118276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_72
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 183
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5a1da8026ab4d20800000000000000
+      internalID: 3263885013658215875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 187
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d439ea4a20215d110800000000000000
+      internalID: 1284953071246283597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_74
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 178
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd9391f5e3faa2e0800000000000000
+      internalID: -2113608906170982977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 179
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f810b6940290820800000000000000
+      internalID: 2884872536007479055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_76
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 174
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5790fb7c3223c9640800000000000000
+      internalID: 5087996808278247797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_77
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 175
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9417d97b62571e90800000000000000
+      internalID: -7055079669693475686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_78
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 186
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d222deaf3376e3700800000000000000
+      internalID: 521968079772394029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_79
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 185
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d61f02828eb3eb0800000000000000
+      internalID: -4738938923828286112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_80
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 183
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1483ac87ce898b50800000000000000
+      internalID: 6595960116969964570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_81
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 172
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bce67636a9ee750800000000000000
+      internalID: 6336171477484620619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_82
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 173
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6c7250cac0481a0800000000000000
+      internalID: -6808302803716946267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_83
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 175
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d9ad540a335a580800000000000000
+      internalID: -8816583932048138919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_84
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc9f8d131fcc8f50800000000000000
+      internalID: 6885105611349925116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_85
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 175
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b53b86be89aa5580800000000000000
+      internalID: -8837564888348150350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_86
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 173
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26510eed3a5779e50800000000000000
+      internalID: 6816045907727881570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_87
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 175
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29f60ced4e1723e0800000000000000
+      internalID: -2078659382986999506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_88
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d6bf7c39d71a590800000000000000
+      internalID: -7664707017139065505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_89
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 175
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff547515aa8c660800000000000000
+      internalID: 7406356853544058873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_90
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 173
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5af8ddab26569f0800000000000000
+      internalID: -475865630897101341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_91
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 175
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0323a0ea18ec20800000000000000
+      internalID: 3235865884377680724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_92
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 175
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec854aeabd867ce0800000000000000
+      internalID: -1407781999572841243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_93
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 146
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca39d3eb217783a0800000000000000
+      internalID: -6663232690351162676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_94
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 147
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e72a7984ee375c0800000000000000
+      internalID: -4218766430366957956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_95
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 155
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee2cc62c5d9f76e0800000000000000
+      internalID: -1837577103830405394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_96
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb23d96cfc328e1e0800000000000000
+      internalID: -2168443845281500481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_97
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 152
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fd9f6d6c521a4c0800000000000000
+      internalID: -4278096635084808371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 146
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a983c948587cdd6c0800000000000000
+      internalID: -4116915108077356902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_99
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 147
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877f7e7c05a0ae040800000000000000
+      internalID: 4677562505045211000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_100
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 155
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fd493a068506440800000000000000
+      internalID: 4927035164427869980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_101
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544495c5bcc56fb70800000000000000
+      internalID: 8932428939433428037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_102
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 152
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f476c8809062cd3f0800000000000000
+      internalID: -874782407376738481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_103
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 146
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444c72f9657ab0fc0800000000000000
+      internalID: -3527541892635442108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_104
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 147
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50076d255fb973a0800000000000000
+      internalID: -6667087400790458277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_105
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 155
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dac41fddd81a01c0800000000000000
+      internalID: -4536786333412832551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_106
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1848573374d48f0800000000000000
+      internalID: -554708892756180564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_107
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 152
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece04e6af095ab6b0800000000000000
+      internalID: -5279809689379139890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_108
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 146
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a23d759100f677e0800000000000000
+      internalID: -1767961914102697312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_109
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 147
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a517fd521b19f1c0800000000000000
+      internalID: -4469511389488671325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_110
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 155
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc23ae2f1ae2a90e0800000000000000
+      internalID: -2262444589700205877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_111
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150289e25eb860290800000000000000
+      internalID: -7924492677866315695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubbles_112
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 152
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e1294866c9bdc10800000000000000
+      internalID: 2079427617086381602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

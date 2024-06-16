@@ -61,20 +61,26 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/ScriptableObjects/VenueSolidObjectsSO.cs" />
-    <Compile Include="Assets/Scripts/ScriptableObjects/VenueTransferPointsSO.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBackground.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/Venue.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerPosition.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerController.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/VirtualJoystick.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/VenueManager.cs" />
-    <Compile Include="Assets/Scripts/ScriptableObjects/VenueFacility.cs" />
-    <Compile Include="Assets/Scripts/ScriptableObjects/VenueBackground.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueIInteractable.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/GameStateManager.cs" />
-    <Compile Include="Assets/Scripts/ScriptableObjects/VenueIInteractablesSO.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueOtherUser.cs" />
     <Compile Include="Assets/Scripts/MapTransfer.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBookable.cs" />
     <Compile Include="Assets/Playables/VenuePlayableBehaviour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Art/Fonts/OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
