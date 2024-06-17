@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MSL-Atrium-1st-level79275747-da89-4585-a06f-dfae062e6842_0: 6738217278915176290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

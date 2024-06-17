@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bush 1 (no flowers) - RED_0: -3996180843639017318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

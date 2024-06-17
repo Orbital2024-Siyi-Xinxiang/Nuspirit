@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Eusoff-Temasek-Hall_0: 1724847613248880105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

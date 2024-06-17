@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wooden Grid 1 - YELLOW_0: -1144874171531786087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TownPlazaLevel1_0: 7592664591639246423
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

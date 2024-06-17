@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GunnerProjectileTrail_0: -91315042169680133
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

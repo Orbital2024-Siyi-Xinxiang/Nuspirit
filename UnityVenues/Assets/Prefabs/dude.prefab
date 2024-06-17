@@ -49,6 +49,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -121,7 +124,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &9525296
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -129,12 +132,13 @@ Animator:
   m_GameObject: {fileID: 149024}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3c14ce4e9833484895ec55f99d74f43, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7edec035b9e14635878e336720980b4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -149,34 +153,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 149024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294335c35f152144899f48c12eab5989, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6edadbfe11f42cabe2aef905341a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dudeSprites:
-  - {fileID: 21300000, guid: 5b6dc5e69c67c7f47821dedd46ee6e55, type: 3}
-  - {fileID: 21300002, guid: 5b6dc5e69c67c7f47821dedd46ee6e55, type: 3}
-  - {fileID: 21300004, guid: 5b6dc5e69c67c7f47821dedd46ee6e55, type: 3}
-  - {fileID: 21300028, guid: 680b987d958e0f34685b2f562ad39212, type: 3}
-  - {fileID: 21300030, guid: 680b987d958e0f34685b2f562ad39212, type: 3}
-  - {fileID: 21300032, guid: 680b987d958e0f34685b2f562ad39212, type: 3}
-  - {fileID: 21300034, guid: 680b987d958e0f34685b2f562ad39212, type: 3}
-  - {fileID: 21300036, guid: 680b987d958e0f34685b2f562ad39212, type: 3}
-  - {fileID: 21300038, guid: 680b987d958e0f34685b2f562ad39212, type: 3}
-  - {fileID: 21300008, guid: 8b5336a94b3f16f4e8800b0ddf87e9ce, type: 3}
-  - {fileID: 21300010, guid: 8b5336a94b3f16f4e8800b0ddf87e9ce, type: 3}
-  - {fileID: 21300012, guid: 8b5336a94b3f16f4e8800b0ddf87e9ce, type: 3}
-  - {fileID: 21300014, guid: 8b5336a94b3f16f4e8800b0ddf87e9ce, type: 3}
-  - {fileID: 21300016, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300018, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300020, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300022, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300024, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300026, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300028, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  - {fileID: 21300030, guid: 6d955515b4d2832458aaf82d306b17c5, type: 3}
-  dudeRender: {fileID: 21250230}
-  dudeHandRender: {fileID: 21289264}
-  anim: {fileID: 9525296}
+  moveSpeed: 0
+  isMoving: 0
+  input: {x: 0, y: 0}
+  solidObjectLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &181886
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +211,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bush 2 - PINK_0: 3241039204031313383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,20 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
-public static class GameStateManager
+public class GameStateManager : MonoBehaviour
 {
+
+
+
     public static bool justTransferred = false;
+
+    private void Start()
+    {
+        
+    }
+
+    private void Update()
+    {
+        
+    }
 }

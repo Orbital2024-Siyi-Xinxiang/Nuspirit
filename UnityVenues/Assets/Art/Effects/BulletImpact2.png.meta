@@ -685,7 +685,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BulletImpact2_0: -6162859191535432121
+      BulletImpact2_1: 6359123589986380195
+      BulletImpact2_10: 7452869966530898392
+      BulletImpact2_11: -1991216134633764930
+      BulletImpact2_12: -5634422365780498172
+      BulletImpact2_13: 1298954916693144469
+      BulletImpact2_14: -2502465468221198985
+      BulletImpact2_15: -8747368200188541846
+      BulletImpact2_16: -3327205082879939000
+      BulletImpact2_17: 2366540719130706977
+      BulletImpact2_18: 4711512213728226313
+      BulletImpact2_19: -5948387421639158510
+      BulletImpact2_2: 2885662251703929150
+      BulletImpact2_3: 1249843665664649017
+      BulletImpact2_4: -3258514256357521110
+      BulletImpact2_5: -8482408056533915104
+      BulletImpact2_6: -645119525339064580
+      BulletImpact2_7: -2265399638512579133
+      BulletImpact2_8: -990550080722137475
+      BulletImpact2_9: 5547694431628757416
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
