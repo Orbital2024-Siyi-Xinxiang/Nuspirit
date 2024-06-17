@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bush 1 - TEAL 2_0: -5785799369604454502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

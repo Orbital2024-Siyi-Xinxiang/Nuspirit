@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        SetPlayerScale((new Vector3(4.5f, 4.5f, 4.5f)));
         // Ensure only one instance of the player exists
         if (instance == null)
         {
@@ -143,5 +144,10 @@ public class PlayerController : MonoBehaviour
             return false;
         }
         return true;
+    }
+
+    public void SetPlayerScale(Vector3 scale)
+    {
+        transform.localScale = scale;
     }
 }

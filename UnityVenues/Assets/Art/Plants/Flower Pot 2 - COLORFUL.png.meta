@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flower Pot 2 - COLORFUL_0: 5166816106566935327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

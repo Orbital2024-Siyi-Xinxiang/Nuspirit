@@ -310,7 +310,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChomperBits_0: 69812776137254189
+      ChomperBits_1: -6178191616625604262
+      ChomperBits_2: 4872681964418958840
+      ChomperBits_3: 2163722326459303183
+      ChomperBits_4: -335002063329943461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

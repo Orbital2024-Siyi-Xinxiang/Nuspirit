@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clb_floorplan_L1_0: 8871935129935089442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

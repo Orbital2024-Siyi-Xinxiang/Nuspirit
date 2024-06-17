@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flower 12 - RED_0: 3012660539309562748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

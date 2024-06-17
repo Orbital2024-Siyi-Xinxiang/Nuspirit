@@ -1,7 +1,9 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "VenueSolidObjectsSO", menuName = "Scriptable Objects/VenueSolidObjectsSO")]
+[CreateAssetMenu(fileName = "VenueSolidObject", menuName = "Scriptable Objects/VenueSolidObject")]
 public class VenueSolidObject : ScriptableObject
 {
     public string id;
+    public string objectName;
+    public Vector2 position;
 }

@@ -235,7 +235,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OptionsCloseButton_0: 7466077293203605869
+      OptionsCloseButton_1: 3710000043167483479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

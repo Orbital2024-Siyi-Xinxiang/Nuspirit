@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wooden Grid 2 - PURPLE_0: 3793519784889597942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
