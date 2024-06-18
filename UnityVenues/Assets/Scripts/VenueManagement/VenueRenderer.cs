@@ -3,16 +3,16 @@ using UnityEngine.Tilemaps;
 
 public class VenueRenderer : MonoBehaviour
 {
-    public Venue currentVenue;
+    private Venue currentVenue;
     public GameObject backgroundPrefab; // Prefab with Tilemap component
     private Tilemap backgroundTilemap;
     private Camera mainCamera;
 
-    private void Start()
+    public void Initialize(Venue venue)
     {
+        currentVenue = venue;
         mainCamera = Camera.main;
         InitializeBackground();
-
     }
 
     private void InitializeBackground()
@@ -31,7 +31,7 @@ public class VenueRenderer : MonoBehaviour
         {
             VenueBackground venueBackground = currentVenue.venueBackground;
 
-            if (venueBackground.tiles != null)
+            if (venueBackground.tileSet != null && venueBackground.tileSet.tiles != null)
             {
                 // Load tiles within the initial view
                 LoadVisibleTiles();
@@ -60,10 +60,10 @@ public class VenueRenderer : MonoBehaviour
                 if (!backgroundTilemap.HasTile(tilePosition))
                 {
                     // Load tile from the venueBackground data
-                    int index = x + y * currentVenue.venueBackground.tiles.Length;
-                    if (index >= 0 && index < currentVenue.venueBackground.tiles.Length)
+                    int index = x + y * currentVenue.venueBackground.tileSet.tiles.Length;
+                    if (index >= 0 && index < currentVenue.venueBackground.tileSet.tiles.Length)
                     {
-                        TileBase tile = currentVenue.venueBackground.tiles[index];
+                        TileBase tile = currentVenue.venueBackground.tileSet.tiles[index];
                         backgroundTilemap.SetTile(tilePosition, tile);
                     }
                 }
@@ -71,11 +71,9 @@ public class VenueRenderer : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
         // Implement lazy rendering based on camera zoom level and position
         LoadVisibleTiles();
     }
-
 }

@@ -8289,3 +8289,179 @@ Number of updated asset objects reloaded before import = 0Number of asset object
 
 [usbmuxd] Detached: 1 00008110-001250421A8A401E
 [usbmuxd] Detached: 1 00008110-001250421A8A401E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5570 unused Assets / (0.9 MB). Loaded Objects now: 6167.
+Memory consumption went from 172.1 MB to 171.1 MB.
+Total: 22.180583 ms (FindLiveObjects: 0.463333 ms CreateObjectMapping: 0.138792 ms MarkObjects: 20.560750 ms  DeleteObjects: 1.016750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5570 unused Assets / (1.0 MB). Loaded Objects now: 6167.
+Memory consumption went from 172.0 MB to 171.0 MB.
+Total: 23.704125 ms (FindLiveObjects: 0.443416 ms CreateObjectMapping: 0.143625 ms MarkObjects: 21.994167 ms  DeleteObjects: 1.122458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5571 unused Assets / (412.3 KB). Loaded Objects now: 6168.
+Memory consumption went from 171.9 MB to 171.5 MB.
+Total: 32.840667 ms (FindLiveObjects: 0.513875 ms CreateObjectMapping: 0.151000 ms MarkObjects: 31.165625 ms  DeleteObjects: 1.009125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5572 unused Assets / (1.4 MB). Loaded Objects now: 6169.
+Memory consumption went from 171.8 MB to 170.4 MB.
+Total: 11.443750 ms (FindLiveObjects: 0.392875 ms CreateObjectMapping: 0.147875 ms MarkObjects: 9.928500 ms  DeleteObjects: 0.974125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4024.468606 seconds.
+  path: Assets/Scripts/ScriptableObjects/VenueModels/NewMonoBehaviourScript.cs
+  artifactKey: Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/VenueModels/NewMonoBehaviourScript.cs using Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '005bf3c8cdbd6e6fab8067048c33f01e') in 0.006103709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5572 unused Assets / (1.3 MB). Loaded Objects now: 6169.
+Memory consumption went from 171.7 MB to 170.4 MB.
+Total: 22.879167 ms (FindLiveObjects: 0.547833 ms CreateObjectMapping: 0.171833 ms MarkObjects: 20.942375 ms  DeleteObjects: 1.215833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.757208 seconds.
+  path: Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs
+  artifactKey: Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs using Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'd90aa97fdc1bfb4d299d76c935f78dba') in 0.000852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5572 unused Assets / (0.6 MB). Loaded Objects now: 6169.
+Memory consumption went from 171.6 MB to 170.9 MB.
+Total: 66.587709 ms (FindLiveObjects: 0.795500 ms CreateObjectMapping: 0.166625 ms MarkObjects: 64.453833 ms  DeleteObjects: 1.170750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 177.770999 seconds.
+  path: Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs
+  artifactKey: Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs using Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2bb12fa903fc682641407c63ce48f7d5') in 0.001174792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5572 unused Assets / (0.8 MB). Loaded Objects now: 6169.
+Memory consumption went from 171.5 MB to 170.7 MB.
+Total: 12.586083 ms (FindLiveObjects: 0.372584 ms CreateObjectMapping: 0.149958 ms MarkObjects: 11.054250 ms  DeleteObjects: 1.008542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.984725 seconds.
+  path: Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs
+  artifactKey: Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs using Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2bb12fa903fc682641407c63ce48f7d5') in 0.000353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x3173e7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.821 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1652ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (159ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (467ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (211ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5622 unused Assets / (2.2 MB). Loaded Objects now: 6171.
+Memory consumption went from 189.6 MB to 187.4 MB.
+Total: 13.756791 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.196042 ms MarkObjects: 10.671333 ms  DeleteObjects: 2.565833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.433874 seconds.
+  path: Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs
+  artifactKey: Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs using Guid(6b87b6fdd46974731a57562cddc542b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e1f6fd75c98ead08fbb7ccd1ddbf69c3') in 0.001700167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
