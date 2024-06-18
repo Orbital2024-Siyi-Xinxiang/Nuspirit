@@ -4,11 +4,7 @@ using UnityEngine;
 public class Venue: ScriptableObject
 {
     public string id;
-
     public Texture2D floorPlan; // Assuming floorplans are stored as textures
-
-    public Vector2 dimensions; // Dimensions of the background in world units
-    public Vector3[] pointsOfInterest; // Array of points of interest in the venue
 
     public VenueBackground venueBackground;
     public VenueInteractable[] venueInteractables;
