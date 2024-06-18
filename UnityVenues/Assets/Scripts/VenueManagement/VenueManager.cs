@@ -1,13 +1,8 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class VenueManager : MonoBehaviour
 {
-    // need to be passed manually at the start
     public VenueDatabase venueDatabase;
-    public Texture2D[] textures; // Array to hold your textures
-    public string venueId;
-
     public GameObject bookablePrefab;
     public GameObject facilityPrefab;
     public GameObject solidObjectPrefab;
@@ -15,8 +10,8 @@ public class VenueManager : MonoBehaviour
     public GameObject transferPointPrefab;
     public GameObject venueRendererPrefab;
 
-    
-    
+    public string venueId;
+    public Texture2D[] textures; // Array to hold your textures
 
     private void Start()
     {
@@ -30,13 +25,17 @@ public class VenueManager : MonoBehaviour
 
         if (venue != null)
         {
-            // Create TileSet from textures
-            TileSet tileSet = ScriptableObject.CreateInstance<TileSet>();
+            // Identify and slice textures
+            Texture2D venueTexture = FindTextureById(venueId);
+            if (venueTexture != null)
+            {
+                // Create TileSet from the identified texture
+                TileSet tileSet = ScriptableObject.CreateInstance<TileSet>();
+                tileSet.tiles = TileUtility.ConvertTexturesToTiles(new Texture2D[] { venueTexture });
 
-            tileSet.tiles = TileUtility.ConvertTexturesToTiles(textures);
-
-            // Assign the TileSet to the VenueBackground
-            venue.venueBackground.tileSet = tileSet;
+                // Assign the TileSet to the VenueBackground
+                venue.venueBackground.tileSet = tileSet;
+            }
 
             // Instantiate the VenueRenderer and pass the venue data
             GameObject venueRendererObject = Instantiate(venueRendererPrefab, Vector3.zero, Quaternion.identity);
@@ -46,6 +45,18 @@ public class VenueManager : MonoBehaviour
             // Instantiate other venue objects
             InstantiateObjects(venue);
         }
+    }
+
+    private Texture2D FindTextureById(string id)
+    {
+        foreach (var texture in textures)
+        {
+            if (texture.name == id)
+            {
+                return texture;
+            }
+        }
+        return null;
     }
 
     private void InstantiateObjects(Venue venue)
