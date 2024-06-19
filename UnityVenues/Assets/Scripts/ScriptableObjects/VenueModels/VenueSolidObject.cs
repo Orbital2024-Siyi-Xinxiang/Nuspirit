@@ -4,6 +4,7 @@ using UnityEngine;
 public class VenueSolidObject : ScriptableObject
 {
     public string id;
-    public string objectName;
     public Vector2 position;
+    public Vector2 size;
+    public GameObject solidObject;
 }

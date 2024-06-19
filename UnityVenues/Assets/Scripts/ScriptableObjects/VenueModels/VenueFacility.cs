@@ -4,6 +4,8 @@ using UnityEngine;
 public class VenueFacility : ScriptableObject
 {
     public string id;
-    public string facilityName;
+    public string category;
     public Vector2 position;
+    public Vector2 size;
+    public GameObject facility;
 }

@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -7,6 +6,7 @@ public class VenueBackground : ScriptableObject
 {
     public string id;
     public TileSet tileSet;
+    public Tilemap background;
 }
 
 
