@@ -14,7 +14,7 @@ public class VenueManager : MonoBehaviour
     public GameObject solidObjectPrefab;
     public GameObject interactablePrefab;
     public GameObject transferPointPrefab;
-    public GameObject venueRendererPrefab;
+
 
     
 
