@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewMonoBehaviour : MonoBehaviour
+public class Facility : MonoBehaviour
 {
 	// Use this for initialization
 	void Start()

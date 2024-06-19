@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50067
+62368
 -job-worker-count
 5
 -background-job-worker-count
@@ -68,14 +68,14 @@ Successfully changed project path to: /Users/emma/Desktop/Repos/Orbital2024/Mono
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8329317376]  Target information:
 
-Player connection [8329317376]  * "[IP] 10.249.96.218 [Port] 0 [Flags] 2 [Guid] 3747983710 [EditorId] 3747983710 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8329317376]  * "[IP] 10.249.96.218 [Port] 0 [Flags] 2 [Guid] 3978771011 [EditorId] 3978771011 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8329317376] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8329317376] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Library Redirect Path: Library/
 [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-Refreshing native plugins compatible for Editor in 14.95 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 16.06 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.0b16 (1ddb887463a9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Resources/UnitySubsystems
@@ -90,7 +90,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56950
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56001
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -101,8 +101,8 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.007705 seconds.
-- Loaded All Assemblies, in  0.341 seconds
+Registered in 0.006268 seconds.
+- Loaded All Assemblies, in  0.374 seconds
 Native extension for LinuxStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -110,9 +110,9 @@ Native extension for LinuxStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 193 ms
+Android Extension - Scanning For ADB Devices 76 ms
 Native extension for WindowsStandalone target not found
-objc[53950]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x1364f8600) and /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x136570600). One of the two will be used. Which one is undefined.
+objc[95001]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x17e3ec600) and /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x31a01c600). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -120,35 +120,35 @@ Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.674 seconds
-Domain Reload Profiling: 1015ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (102ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (148ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (674ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (555ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (626ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (383ms)
+			InitializePlatformSupportModulesInManaged (258ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -158,40 +158,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-Asset path could not be found for script compilation file '/Assets/Scripts/ScriptableObjects/VenueModels/VenueOtherUser.cs'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptInfoScraper::GetAssemblyScrapedMonoScripts(core::basic_string_ref<char>, ScriptingImagePtr, ScriptingClassPtr, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<ScrapedMonoScriptInfo, core::allocator<ScrapedMonoScriptInfo, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&, core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>>&) const
- #4 MonoScriptInfoScraper::ScanForSourceGeneratedMonoScriptInfo(core::hash_set<core::basic_string<char, core::StringStorageDefault<char>>, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
- #5 MonoScriptInfoScraper::BuildScriptInfoCaches(core::hash_map<core::basic_string<char, core::StringStorageDefault<char>>, bool, core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>> const&)
- #6 MonoManager::AnalyzeDomain(bool)
- #7 MonoManager::LoadAllAssembliesAndSetupDomain(DomainReloadingData&, dynamic_bitset)
- #8 MonoManager::ReloadAssembly(AssemblyLoadReason)
- #9 LoadDomainAndUserAssemblies(AssemblyLoadReason)
- #10 AssetImportWorkerClient::ReloadScriptingDomain()
- #11 invocation function for block in AssetImportWorkerClient::HandleMessage(InitializeMessage const&)::$_11::operator()() const
- #12 _dispatch_client_callout
- #13 _dispatch_async_and_wait_invoke
- #14 _dispatch_client_callout
- #15 _dispatch_main_queue_drain
- #16 _dispatch_main_queue_callback_4CF
- #17 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #18 __CFRunLoopRun
- #19 CFRunLoopRunSpecific
- #20 RunCurrentEventLoopInMode
- #21 ReceiveNextEventCommon
- #22 _BlockUntilNextEventMatchingListInModeWithFilter
- #23 _DPSNextEvent
- #24 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #25 -[NSApplication run]
- #26 NSApplicationMain
- #27 EditorMain(int, char const**)
- #28 main
- #29 start
-
-- Loaded All Assemblies, in  1.232 seconds
-Refreshing native plugins compatible for Editor in 3.48 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.262 seconds
+Refreshing native plugins compatible for Editor in 13.06 ms, found 6 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
@@ -200,7 +168,7 @@ Native extension for WindowsStandalone target not found
 Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.24 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.50 ms, found 6 plugins.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -209,207 +177,65 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.918 seconds
-Domain Reload Profiling: 2148ms
+- Finished resetting the current domain, in  0.950 seconds
+Domain Reload Profiling: 2212ms
 	BeginReloadAssembly (585ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (35ms)
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (572ms)
-		LoadAssemblies (350ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (408ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (149ms)
-			BuildScriptInfoCaches (80ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (53ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (918ms)
+	FinalizeReload (951ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (759ms)
+		SetupLoadedEditorAssemblies (791ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (221ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.86 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5662 unused Assets / (1.9 MB). Loaded Objects now: 6181.
-Memory consumption went from 136.9 MB to 135.0 MB.
-Total: 14.616166 ms (FindLiveObjects: 0.568167 ms CreateObjectMapping: 0.175208 ms MarkObjects: 12.244208 ms  DeleteObjects: 1.628208 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 9719.785083 seconds.
-  path: Assets/Art/Tiles/Untitled_206.asset
-  artifactKey: Guid(43de33a5bc6fa41cb80afc7dde50fc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Tiles/Untitled_206.asset using Guid(43de33a5bc6fa41cb80afc7dde50fc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '316e023561cfb49907b857b8148427fb') in 0.233947083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Art/Tiles/Untitled_214.asset
-  artifactKey: Guid(d14b4c7706fd3436fb18c60d0b6940bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Tiles/Untitled_214.asset using Guid(d14b4c7706fd3436fb18c60d0b6940bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '6d02e7320b4a38762d341c8b5ea6af0a') in 0.027342708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Assets/Art/Tiles/Untitled_213.asset
-  artifactKey: Guid(f32a361ee3d534c6989e2a77edf1ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Tiles/Untitled_213.asset using Guid(f32a361ee3d534c6989e2a77edf1ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '60c7361ed74e77aa0ea3391490819136') in 0.004881333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5670 unused Assets / (1.8 MB). Loaded Objects now: 6205.
+Memory consumption went from 141.4 MB to 139.6 MB.
+Total: 12.508375 ms (FindLiveObjects: 0.497917 ms CreateObjectMapping: 0.173708 ms MarkObjects: 10.228709 ms  DeleteObjects: 1.607417 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.80 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 6.44 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5590 unused Assets / (1.5 MB). Loaded Objects now: 6189.
-Memory consumption went from 130.7 MB to 129.2 MB.
-Total: 35.745667 ms (FindLiveObjects: 0.480125 ms CreateObjectMapping: 0.152375 ms MarkObjects: 33.730792 ms  DeleteObjects: 1.380000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 9144.271542 seconds.
-  path: Assets/Prefabs/VenueFacility.prefab
-  artifactKey: Guid(819f433c90d2340a49a81b780fcb2f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VenueFacility.prefab using Guid(819f433c90d2340a49a81b780fcb2f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'e0bd486ce68bcebf5bed568b6f0936b2') in 0.015948833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.098803 seconds.
-  path: Assets/Prefabs/VenueInteractable.prefab
-  artifactKey: Guid(b91a3df319e0441ebbafebfdbc230ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VenueInteractable.prefab using Guid(b91a3df319e0441ebbafebfdbc230ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'd436a522e8e14f406989004b645cb861') in 0.001167292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.017203 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
-  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '91e850ff01122a73f21c18f0bb22674a') in 0.080050916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.466853 seconds.
-  path: Assets/Prefabs/TilePalette/Background.prefab
-  artifactKey: Guid(b4041398a6d61415b94e82a0beca12a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TilePalette/Background.prefab using Guid(b4041398a6d61415b94e82a0beca12a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '7c6d4e0ed6eb13e8118508faf53eed22') in 0.202088875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 732
-
-========================================================================
-Received Import Request.
-  Time since last request: 344.087091 seconds.
-  path: Assets/Prefabs/SolidObjects.prefab
-  artifactKey: Guid(d7516ab50d210440a8afe300cdd3a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SolidObjects.prefab using Guid(d7516ab50d210440a8afe300cdd3a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '5c9c5c5995b5e67790e0cf3ed2b6d173') in 0.05942175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.029982 seconds.
-  path: Assets/Prefabs/SolidObjects.prefab
-  artifactKey: Guid(d7516ab50d210440a8afe300cdd3a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SolidObjects.prefab using Guid(d7516ab50d210440a8afe300cdd3a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '6da2e0e6c6217e214e997b650e08c106') in 0.009381792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 263.056316 seconds.
-  path: Assets/Prefabs/SolidObjects.prefab
-  artifactKey: Guid(d7516ab50d210440a8afe300cdd3a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SolidObjects.prefab using Guid(d7516ab50d210440a8afe300cdd3a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '87c4e88992ba04902b09bef6af0a3c4b') in 0.035936375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.18 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5590 unused Assets / (1.4 MB). Loaded Objects now: 7272.
-Memory consumption went from 132.8 MB to 131.4 MB.
-Total: 51.367625 ms (FindLiveObjects: 0.525541 ms CreateObjectMapping: 0.141084 ms MarkObjects: 49.994000 ms  DeleteObjects: 0.705417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 7621.975412 seconds.
-  path: Assets/Databases/Venues/COM1L1.asset
-  artifactKey: Guid(79be4ed095b964bbd8488c73030c66f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Databases/Venues/COM1L1.asset using Guid(79be4ed095b964bbd8488c73030c66f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '71f5c940f751b6e8380d020a81993758') in 0.008297667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.376813 seconds.
-  path: Assets/Scripts/Firebase/FirebaseFirestoreManager.cs
-  artifactKey: Guid(1879252547b324a9fa381abbdd8aa486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Firebase/FirebaseFirestoreManager.cs using Guid(1879252547b324a9fa381abbdd8aa486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '7bbca163b6dc3573e98d4a77846e765a') in 0.000354167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.499106 seconds.
-  path: Assets/Firebase/Plugins/Firebase.Platform.dll
-  artifactKey: Guid(7d3eec03d7e241a48941e038118c5e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Firebase/Plugins/Firebase.Platform.dll using Guid(7d3eec03d7e241a48941e038118c5e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'a478d95c9301923635187607a3fe4f1c') in 0.000302333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.70 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5590 unused Assets / (0.8 MB). Loaded Objects now: 7272.
-Memory consumption went from 132.6 MB to 131.8 MB.
-Total: 35.393917 ms (FindLiveObjects: 0.706375 ms CreateObjectMapping: 0.149958 ms MarkObjects: 33.668667 ms  DeleteObjects: 0.868416 ms)
+Unloading 5599 unused Assets / (1.0 MB). Loaded Objects now: 6205.
+Memory consumption went from 131.2 MB to 130.2 MB.
+Total: 23.386208 ms (FindLiveObjects: 0.443417 ms CreateObjectMapping: 0.147417 ms MarkObjects: 21.126833 ms  DeleteObjects: 1.667125 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x32a287000 may have been prematurely finalized
+Thread 0x17fc87000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.701 seconds
-Refreshing native plugins compatible for Editor in 2.28 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 6 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
@@ -418,1223 +244,52 @@ Native extension for WindowsStandalone target not found
 Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.04 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.34 ms, found 6 plugins.
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.634 seconds
-Domain Reload Profiling: 1337ms
-	BeginReloadAssembly (307ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (133ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (346ms)
-		LoadAssemblies (319ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (98ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (635ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (506ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (152ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.28 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5660 unused Assets / (1.7 MB). Loaded Objects now: 7274.
-Memory consumption went from 152.9 MB to 151.2 MB.
-Total: 10.311125 ms (FindLiveObjects: 0.260625 ms CreateObjectMapping: 0.173333 ms MarkObjects: 8.874500 ms  DeleteObjects: 1.002166 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310fdb000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.492 seconds
-Refreshing native plugins compatible for Editor in 2.76 ms, found 7 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.33 ms, found 7 plugins.
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.645 seconds
-Domain Reload Profiling: 1138ms
-	BeginReloadAssembly (140ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (305ms)
-		LoadAssemblies (223ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (99ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (645ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (523ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (269ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.54 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5660 unused Assets / (1.8 MB). Loaded Objects now: 7276.
-Memory consumption went from 159.3 MB to 157.4 MB.
-Total: 9.041166 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.145375 ms MarkObjects: 7.509458 ms  DeleteObjects: 1.063083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310fdb000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.566 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 7 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.53 ms, found 7 plugins.
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.644 seconds
-Domain Reload Profiling: 1212ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1619ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
+		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (287ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (101ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (644ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (526ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (268ms)
-			ProcessInitializeOnLoadMethodAttributes (159ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.62 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5660 unused Assets / (2.0 MB). Loaded Objects now: 7278.
-Memory consumption went from 165.7 MB to 163.7 MB.
-Total: 9.121083 ms (FindLiveObjects: 0.261375 ms CreateObjectMapping: 0.199208 ms MarkObjects: 7.696417 ms  DeleteObjects: 0.963667 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.04 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5593 unused Assets / (1.1 MB). Loaded Objects now: 7281.
-Memory consumption went from 153.3 MB to 152.2 MB.
-Total: 32.609375 ms (FindLiveObjects: 0.420167 ms CreateObjectMapping: 0.116500 ms MarkObjects: 31.200791 ms  DeleteObjects: 0.871167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310fdb000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 2.11 ms, found 7 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 7 plugins.
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.710 seconds
-Domain Reload Profiling: 1248ms
-	BeginReloadAssembly (144ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (253ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (107ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (710ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (585ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (160ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.51 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5663 unused Assets / (1.9 MB). Loaded Objects now: 7283.
-Memory consumption went from 171.8 MB to 169.9 MB.
-Total: 9.424291 ms (FindLiveObjects: 0.500875 ms CreateObjectMapping: 0.147834 ms MarkObjects: 7.726583 ms  DeleteObjects: 1.048000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310f4f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.769 seconds
-Refreshing native plugins compatible for Editor in 3.25 ms, found 7 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.48 ms, found 7 plugins.
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.886 seconds
-Domain Reload Profiling: 1657ms
-	BeginReloadAssembly (257ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (47ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (108ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (323ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (886ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (712ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (364ms)
-			ProcessInitializeOnLoadMethodAttributes (220ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.42 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5664 unused Assets / (2.2 MB). Loaded Objects now: 7286.
-Memory consumption went from 178.3 MB to 176.2 MB.
-Total: 12.236250 ms (FindLiveObjects: 0.342334 ms CreateObjectMapping: 0.193208 ms MarkObjects: 10.399250 ms  DeleteObjects: 1.299500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.24 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5588 unused Assets / (0.9 MB). Loaded Objects now: 7280.
-Memory consumption went from 165.8 MB to 164.9 MB.
-Total: 31.634416 ms (FindLiveObjects: 0.743291 ms CreateObjectMapping: 0.194375 ms MarkObjects: 28.775500 ms  DeleteObjects: 1.918125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.37 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5597 unused Assets / (0.9 MB). Loaded Objects now: 7289.
-Memory consumption went from 165.6 MB to 164.7 MB.
-Total: 37.696500 ms (FindLiveObjects: 0.562708 ms CreateObjectMapping: 0.219667 ms MarkObjects: 35.818209 ms  DeleteObjects: 1.095333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.48 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5597 unused Assets / (0.6 MB). Loaded Objects now: 7289.
-Memory consumption went from 165.4 MB to 164.7 MB.
-Total: 25.898792 ms (FindLiveObjects: 0.625667 ms CreateObjectMapping: 0.161708 ms MarkObjects: 24.041584 ms  DeleteObjects: 1.069000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.60 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5597 unused Assets / (0.6 MB). Loaded Objects now: 7289.
-Memory consumption went from 165.2 MB to 164.6 MB.
-Total: 29.188334 ms (FindLiveObjects: 0.642333 ms CreateObjectMapping: 0.174625 ms MarkObjects: 27.094917 ms  DeleteObjects: 1.276000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.13 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5597 unused Assets / (0.7 MB). Loaded Objects now: 7289.
-Memory consumption went from 164.8 MB to 164.1 MB.
-Total: 38.676584 ms (FindLiveObjects: 0.713250 ms CreateObjectMapping: 0.148500 ms MarkObjects: 36.817458 ms  DeleteObjects: 0.995625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.46 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5597 unused Assets / (1.4 MB). Loaded Objects now: 7289.
-Memory consumption went from 164.6 MB to 163.2 MB.
-Total: 29.345334 ms (FindLiveObjects: 0.583875 ms CreateObjectMapping: 0.158333 ms MarkObjects: 27.550083 ms  DeleteObjects: 1.052167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.02 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (1.4 MB). Loaded Objects now: 7290.
-Memory consumption went from 164.4 MB to 163.0 MB.
-Total: 11.773708 ms (FindLiveObjects: 0.380375 ms CreateObjectMapping: 0.141042 ms MarkObjects: 10.286083 ms  DeleteObjects: 0.965875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 20274.391296 seconds.
-  path: Assets/Scripts/SceneLoader.cs
-  artifactKey: Guid(a23545b7469314b829b29015bf4c76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneLoader.cs using Guid(a23545b7469314b829b29015bf4c76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'e33783c5f492377a93139e20adbfc812') in 0.012273292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.42 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (1.2 MB). Loaded Objects now: 7290.
-Memory consumption went from 164.3 MB to 163.1 MB.
-Total: 54.225833 ms (FindLiveObjects: 0.587291 ms CreateObjectMapping: 0.165792 ms MarkObjects: 51.868291 ms  DeleteObjects: 1.604209 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 777.355890 seconds.
-  path: Assets/Scripts/SceneLoader.cs
-  artifactKey: Guid(a23545b7469314b829b29015bf4c76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneLoader.cs using Guid(a23545b7469314b829b29015bf4c76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '5b795d182af42216afe1b9a83ffa243d') in 0.001668208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.125095 seconds.
-  path: Assets/Scripts/Firebase
-  artifactKey: Guid(3be09ccdbf4f1434d9c9c65219351d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Firebase using Guid(3be09ccdbf4f1434d9c9c65219351d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '98b9d2deefc1e85d7d7bae2c9ca6c5c0') in 0.002209083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.79 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5599 unused Assets / (1.4 MB). Loaded Objects now: 7291.
-Memory consumption went from 164.1 MB to 162.7 MB.
-Total: 31.903292 ms (FindLiveObjects: 0.552167 ms CreateObjectMapping: 0.149292 ms MarkObjects: 30.209041 ms  DeleteObjects: 0.992083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.782510 seconds.
-  path: Assets/Scripts/Firebase/FirebaseImageLoader.cs
-  artifactKey: Guid(0cce75d18cc4a46979f9448eb4395ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Firebase/FirebaseImageLoader.cs using Guid(0cce75d18cc4a46979f9448eb4395ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'b9ea76e688f3214c9f2251fde771acd0') in 0.000875792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.49 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5599 unused Assets / (1.0 MB). Loaded Objects now: 7291.
-Memory consumption went from 163.9 MB to 162.9 MB.
-Total: 41.792000 ms (FindLiveObjects: 0.562500 ms CreateObjectMapping: 0.156292 ms MarkObjects: 39.716417 ms  DeleteObjects: 1.356125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 13.00 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (0.8 MB). Loaded Objects now: 7290.
-Memory consumption went from 163.7 MB to 162.9 MB.
-Total: 35.008750 ms (FindLiveObjects: 0.612375 ms CreateObjectMapping: 0.169417 ms MarkObjects: 33.065792 ms  DeleteObjects: 1.160041 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-[usbmuxd] Attached: 2 00008110-001250421A8A401E
-[usbmuxd] Attached: 2 00008110-001250421A8A401E
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 13.44 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (0.8 MB). Loaded Objects now: 7290.
-Memory consumption went from 163.5 MB to 162.7 MB.
-Total: 28.706208 ms (FindLiveObjects: 1.020375 ms CreateObjectMapping: 0.180375 ms MarkObjects: 26.265125 ms  DeleteObjects: 1.237416 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3570.382518 seconds.
-  path: Assets/Scripts/ScriptableObjects/Venue.cs
-  artifactKey: Guid(d09518ef07d094ea6bf337c50d6906e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Venue.cs using Guid(d09518ef07d094ea6bf337c50d6906e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '7d631f86ae4134e2b19c47ad4d003b3d') in 0.007295417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 13.18 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (0.6 MB). Loaded Objects now: 7290.
-Memory consumption went from 163.3 MB to 162.6 MB.
-Total: 37.338583 ms (FindLiveObjects: 0.973917 ms CreateObjectMapping: 0.299375 ms MarkObjects: 33.928291 ms  DeleteObjects: 1.985750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310f4f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.062 seconds
-Refreshing native plugins compatible for Editor in 3.72 ms, found 7 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.48 ms, found 7 plugins.
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.945 seconds
-Domain Reload Profiling: 2009ms
-	BeginReloadAssembly (475ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (46ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (182ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (521ms)
-		LoadAssemblies (533ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
+		AnalyzeDomain (169ms)
 			TypeCache.Refresh (16ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (149ms)
+			BuildScriptInfoCaches (145ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (945ms)
+	FinalizeReload (909ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (756ms)
+		SetupLoadedEditorAssemblies (744ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (88ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (372ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (400ms)
 			ProcessInitializeOnLoadMethodAttributes (214ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.36 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 3.03 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5668 unused Assets / (2.5 MB). Loaded Objects now: 7292.
-Memory consumption went from 181.9 MB to 179.4 MB.
-Total: 12.731166 ms (FindLiveObjects: 0.474083 ms CreateObjectMapping: 0.192167 ms MarkObjects: 10.207625 ms  DeleteObjects: 1.855291 ms)
+Unloading 5668 unused Assets / (2.3 MB). Loaded Objects now: 6208.
+Memory consumption went from 151.6 MB to 149.4 MB.
+Total: 12.124833 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.189791 ms MarkObjects: 10.016708 ms  DeleteObjects: 1.591208 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-[usbmuxd] Detached: 2 00008110-001250421A8A401E
-[usbmuxd] Detached: 2 00008110-001250421A8A401E
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.40 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (2.5 MB). Loaded Objects now: 7292.
-Memory consumption went from 169.5 MB to 167.0 MB.
-Total: 45.195792 ms (FindLiveObjects: 0.806542 ms CreateObjectMapping: 0.157500 ms MarkObjects: 41.563000 ms  DeleteObjects: 2.666750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.31 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (1.3 MB). Loaded Objects now: 7292.
-Memory consumption went from 169.3 MB to 168.0 MB.
-Total: 33.409959 ms (FindLiveObjects: 0.516000 ms CreateObjectMapping: 0.159416 ms MarkObjects: 31.339334 ms  DeleteObjects: 1.394542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.93 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (1.1 MB). Loaded Objects now: 7292.
-Memory consumption went from 169.1 MB to 168.0 MB.
-Total: 30.254375 ms (FindLiveObjects: 0.623750 ms CreateObjectMapping: 0.176584 ms MarkObjects: 27.275708 ms  DeleteObjects: 2.177375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.06 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5598 unused Assets / (0.9 MB). Loaded Objects now: 7292.
-Memory consumption went from 169.0 MB to 168.0 MB.
-Total: 34.845042 ms (FindLiveObjects: 0.884583 ms CreateObjectMapping: 0.305167 ms MarkObjects: 31.758583 ms  DeleteObjects: 1.892833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310f4f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.912 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 6 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.27 ms, found 6 plugins.
-Failed while parsing XML file ProjectSettings/GvhProjectSettings.xml
-System.Xml.XmlException: Root element is missing.
-  at System.Xml.XmlTextReaderImpl.Throw (System.Exception e) [0x00027] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReaderImpl.ThrowWithoutLineInfo (System.String res) [0x00017] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReaderImpl.ParseDocumentContent () [0x0035d] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReaderImpl.Read () [0x0008c] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReader.Read () [0x00000] in <7bf7140070584cf996282003fbcdc961>:0 
-  at Google.XmlUtilities+Reader..ctor (System.Xml.XmlTextReader xmlReader) [0x0001d] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:69 
-  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x00047] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:108 
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, BindingsManagedSpan*, void*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
- #4  (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #5  (Mono JIT Code) [DebugLogHandler.cs:9] UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
- #6  (Mono JIT Code) [Logger.cs:60] UnityEngine.Logger:Log (UnityEngine.LogType,object)
- #7  (Mono JIT Code) [Debug.bindings.cs:130] UnityEngine.Debug:LogError (object)
- #8  (Mono JIT Code) [Logger.cs:136] Google.Logger:Log (string,Google.LogLevel)
- #9  (Mono JIT Code) [XmlUtilities.cs:149] Google.XmlUtilities:ParseXmlTextFileElements (string,Google.Logger,Google.XmlUtilities/ParseElement)
- #10  (Mono JIT Code) [ProjectSettings.cs:777] Google.ProjectSettings:Load ()
- #11  (Mono JIT Code) [ProjectSettings.cs:558] Google.ProjectSettings:LoadIfEmpty ()
- #12  (Mono JIT Code) [ProjectSettings.cs:606] Google.ProjectSettings:GetBool (string,bool,Google.SettingsLocation)
- #13  (Mono JIT Code) [ProjectSettings.cs:619] Google.ProjectSettings:GetBool (string,bool)
- #14  (Mono JIT Code) [IOSResolver.cs:1039] Google.IOSResolver:get_VerboseLoggingEnabled ()
- #15  (Mono JIT Code) [IOSResolver.cs:727] Google.IOSResolver:.cctor ()
- #16  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
- #17 mono_jit_runtime_invoke
- #18 do_runtime_invoke
- #19 mono_runtime_class_init_full
- #20 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw
- #21  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #22  (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
- #23  (Mono JIT Code) [EditorAssemblies.cs:118] UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
- #24  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #25 mono_jit_runtime_invoke
- #26 do_runtime_invoke
- #27 mono_runtime_invoke
- #28 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #29 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #30 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #31 MonoManager::SetupLoadedEditorAssemblies()
- #32 MonoManager::FinalizeReload()
- #33 ScriptingInitializer::FinalizeReload()
- #34 AssetImportWorkerClient::ReloadScriptingDomain()
- #35 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #36 _dispatch_client_callout
- #37 _dispatch_async_and_wait_invoke
- #38 _dispatch_client_callout
- #39 _dispatch_main_queue_drain
- #40 _dispatch_main_queue_callback_4CF
- #41 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #42 __CFRunLoopRun
- #43 CFRunLoopRunSpecific
- #44 RunCurrentEventLoopInMode
- #45 ReceiveNextEventCommon
- #46 _BlockUntilNextEventMatchingListInModeWithFilter
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.962 seconds
-Domain Reload Profiling: 1877ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (487ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (963ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (789ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (106ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (369ms)
-			ProcessInitializeOnLoadMethodAttributes (224ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.04 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5667 unused Assets / (2.4 MB). Loaded Objects now: 7294.
-Memory consumption went from 187.6 MB to 185.2 MB.
-Total: 13.126667 ms (FindLiveObjects: 0.482334 ms CreateObjectMapping: 0.239083 ms MarkObjects: 10.450042 ms  DeleteObjects: 1.954916 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310f4f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.752 seconds
-Refreshing native plugins compatible for Editor in 3.13 ms, found 6 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.45 ms, found 6 plugins.
-Failed while parsing XML file ProjectSettings/GvhProjectSettings.xml
-System.Xml.XmlException: Root element is missing.
-  at System.Xml.XmlTextReaderImpl.Throw (System.Exception e) [0x00027] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReaderImpl.ThrowWithoutLineInfo (System.String res) [0x00017] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReaderImpl.ParseDocumentContent () [0x0035d] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReaderImpl.Read () [0x0008c] in <7bf7140070584cf996282003fbcdc961>:0 
-  at System.Xml.XmlTextReader.Read () [0x00000] in <7bf7140070584cf996282003fbcdc961>:0 
-  at Google.XmlUtilities+Reader..ctor (System.Xml.XmlTextReader xmlReader) [0x0001d] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:69 
-  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x00047] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:108 
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, BindingsManagedSpan*, void*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
- #4  (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #5  (Mono JIT Code) [DebugLogHandler.cs:9] UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
- #6  (Mono JIT Code) [Logger.cs:60] UnityEngine.Logger:Log (UnityEngine.LogType,object)
- #7  (Mono JIT Code) [Debug.bindings.cs:130] UnityEngine.Debug:LogError (object)
- #8  (Mono JIT Code) [Logger.cs:136] Google.Logger:Log (string,Google.LogLevel)
- #9  (Mono JIT Code) [XmlUtilities.cs:149] Google.XmlUtilities:ParseXmlTextFileElements (string,Google.Logger,Google.XmlUtilities/ParseElement)
- #10  (Mono JIT Code) [ProjectSettings.cs:777] Google.ProjectSettings:Load ()
- #11  (Mono JIT Code) [ProjectSettings.cs:558] Google.ProjectSettings:LoadIfEmpty ()
- #12  (Mono JIT Code) [ProjectSettings.cs:606] Google.ProjectSettings:GetBool (string,bool,Google.SettingsLocation)
- #13  (Mono JIT Code) [ProjectSettings.cs:619] Google.ProjectSettings:GetBool (string,bool)
- #14  (Mono JIT Code) [IOSResolver.cs:1039] Google.IOSResolver:get_VerboseLoggingEnabled ()
- #15  (Mono JIT Code) [IOSResolver.cs:727] Google.IOSResolver:.cctor ()
- #16  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
- #17 mono_jit_runtime_invoke
- #18 do_runtime_invoke
- #19 mono_runtime_class_init_full
- #20 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw
- #21  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #22  (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
- #23  (Mono JIT Code) [EditorAssemblies.cs:118] UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
- #24  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #25 mono_jit_runtime_invoke
- #26 do_runtime_invoke
- #27 mono_runtime_invoke
- #28 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #29 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #30 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #31 MonoManager::SetupLoadedEditorAssemblies()
- #32 MonoManager::FinalizeReload()
- #33 ScriptingInitializer::FinalizeReload()
- #34 AssetImportWorkerClient::ReloadScriptingDomain()
- #35 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #36 _dispatch_client_callout
- #37 _dispatch_async_and_wait_invoke
- #38 _dispatch_client_callout
- #39 _dispatch_main_queue_drain
- #40 _dispatch_main_queue_callback_4CF
- #41 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #42 __CFRunLoopRun
- #43 CFRunLoopRunSpecific
- #44 RunCurrentEventLoopInMode
- #45 ReceiveNextEventCommon
- #46 _BlockUntilNextEventMatchingListInModeWithFilter
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.877 seconds
-Domain Reload Profiling: 1633ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (540ms)
-		LoadAssemblies (345ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (200ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (878ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (706ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (358ms)
-			ProcessInitializeOnLoadMethodAttributes (217ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.58 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5667 unused Assets / (3.7 MB). Loaded Objects now: 7296.
-Memory consumption went from 193.9 MB to 190.2 MB.
-Total: 13.627042 ms (FindLiveObjects: 0.405375 ms CreateObjectMapping: 0.234291 ms MarkObjects: 10.759000 ms  DeleteObjects: 2.228000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 24274.749169 seconds.
-  path: Assets/Art/UserCaracter.png
-  artifactKey: Guid(a299b95ca7ac24ac8afa864e457a1648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UserCaracter.png using Guid(a299b95ca7ac24ac8afa864e457a1648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '436a478fbfe18b65076c85f516477c42') in 0.19974575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x310f4f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.722 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 6 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
- #0 PlatformStacktrace::GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 AssertImplementation(int, char const*, int, int, char const*)
- #3 MonoScriptManager::CollectGarbageIn(vector_set<PPtr<MonoScript>, std::__1::less<PPtr<MonoScript>>, stl_allocator<PPtr<MonoScript>, (MemLabelIdentifier)86, 16>>&)
- #4 MonoScriptManager::CollectGarbage()
- #5 MonoManager::FinalizeReload()
- #6 ScriptingInitializer::FinalizeReload()
- #7 AssetImportWorkerClient::ReloadScriptingDomain()
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_drain
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 start
-
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.60 ms, found 6 plugins.
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.838 seconds
-Domain Reload Profiling: 1563ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (82ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (485ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (140ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (839ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (683ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (348ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.44 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5668 unused Assets / (2.8 MB). Loaded Objects now: 7334.
-Memory consumption went from 200.8 MB to 198.0 MB.
-Total: 12.307250 ms (FindLiveObjects: 0.362333 ms CreateObjectMapping: 0.205417 ms MarkObjects: 10.091750 ms  DeleteObjects: 1.647542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
