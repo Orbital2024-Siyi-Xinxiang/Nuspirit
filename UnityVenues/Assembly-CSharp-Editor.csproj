@@ -62,6 +62,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\VenueModels\VenueSolidLayer.cs" />
+    <Compile Include="Assets\Scripts\UI\NewMonoBehaviour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.PackageManagerResolver.dll" />
+    <None Include="Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.179_manifest.txt" />
+    <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll" />
+    <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.VersionHandlerImpl.dll" />
+    <None Include="Assets/Firebase/Editor/FirebaseFirestore_version-12.0.0_manifest.txt" />
+    <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.JarResolver.dll" />
+    <None Include="Assets/Firebase/Editor/StorageDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/AuthDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/FirestoreDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/AppDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/FirebaseStorage_version-12.0.0_manifest.txt" />
+    <None Include="Assets/Firebase/Editor/FirebaseAuth_version-12.0.0_manifest.txt" />
+    <None Include="Assets/Firebase/Editor/Firebase.Editor.dll" />
+    <None Include="Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -622,6 +640,58 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library/PackageCache/com.unity.analytics/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Firestore">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets/ExternalDependencyManager/Editor/1.2.179/Google.JarResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets/ExternalDependencyManager/Editor/1.2.179/Google.VersionHandlerImpl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Assets/ExternalDependencyManager/Editor/1.2.179/Google.PackageManagerResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Storage">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">

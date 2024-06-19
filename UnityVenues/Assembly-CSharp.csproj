@@ -65,29 +65,58 @@
     <Compile Include="Assets/Scripts/ScriptableObjects/Venue.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
+    <Compile Include="Assets/Scripts/VenueObjects/Interactable.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/TileUnity.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerPosition.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerController.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/VirtualJoystick.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/VenueManager.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
+    <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
+    <Compile Include="Assets/Scripts/Firebase/FirebaseStorageManager.cs" />
+    <Compile Include="Assets/Scripts/VenueObjects/SolidObject.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/Interactables.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueIInteractable.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
+    <Compile Include="Assets/Scripts/VenueObjects/TransferPoint.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/AssetManagement/AssetManager.cs" />
     <Compile Include="Assets/Scripts/GameStateManager.cs" />
     <Compile Include="Assets/Scripts/MultiPlayer/UserManager.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs" />
+    <Compile Include="Assets/Scripts/VenueObjects/Facility.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/VenueRenderer.cs" />
-    <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueOtherUser.cs" />
+    <Compile Include="Assets/Scripts/VenueObjects/Bookable.cs" />
+    <Compile Include="Assets/Scripts/UI/QuitButton.cs" />
     <Compile Include="Assets/Scripts/MapTransfer.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBookable.cs" />
+    <Compile Include="Assets/Scripts/SceneLoader.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Playables/VenuePlayableBehaviour.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/Bookables.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppFirestore.dll" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppStorage.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.App.dll" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-firestore-unity/maven-metadata.xml" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.dll" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Firestore.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.TaskExtension.dll" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml" />
     <None Include="Assets/Art/Fonts/OFL.txt" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Auth.dll" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/maven-metadata.xml" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Auth.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Firestore.dll" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_0_0.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Platform.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Storage.dll" />
+    <None Include="Assets/Firebase/Plugins/Google.MiniJson.dll" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Storage.dll" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.App.dll" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-storage-unity/maven-metadata.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -564,6 +593,34 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library/PackageCache/com.unity.analytics/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Firestore">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Storage">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">

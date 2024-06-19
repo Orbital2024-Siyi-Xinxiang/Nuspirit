@@ -4,8 +4,10 @@ using UnityEngine;
 public class VenueInteractable : ScriptableObject
 {
     public string id;
-    public string interactableName;
-    public Vector2 position;
+    public string category; // e.g., "stairs", "chair"
 
-    public string interactionType; // e.g., "stairs", "chair"
+    public Vector2 position;
+    public Vector2 size;
+    public GameObject interactable;
+
 }
