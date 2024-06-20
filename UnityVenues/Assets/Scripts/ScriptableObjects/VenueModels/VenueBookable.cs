@@ -41,5 +41,5 @@ public class VenueBookable : ScriptableObject
         set { _booked = value; }
     }
 
-    public GameObject bookable;
+    public Bookable bookable;
 }
