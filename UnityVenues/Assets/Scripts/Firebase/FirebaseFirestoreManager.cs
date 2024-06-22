@@ -33,7 +33,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
     // Use this for initialization
     public void InitializeDatabase(int Id)
     {
-        print("start initializing database");
+        Debug.Log("start initializing database");
 
        venueId = Id;
        StartCoroutine(LoadVenueDataAsync(venueId.ToString()));
@@ -42,12 +42,12 @@ public class FirebaseFirestoreManager : MonoBehaviour
     private IEnumerator LoadVenueDataAsync(string venueId)
     {
         FirebaseFirestore firestore = FirebaseFirestore.DefaultInstance;
-        print("successfully created firestore instance");
+        // Debug.Log("successfully created firestore instance");
 
         // Fetch document from Firestore
         DocumentReference docRef = firestore.Collection("venues").Document(venueId);
 
-        print("Start fetching snapshot");
+        // Debug.Log("Start fetching snapshot");
         
         var task = docRef.GetSnapshotAsync();
         yield return new WaitUntil(() => task.IsCompleted);
@@ -55,7 +55,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         DocumentSnapshot snapshot = task.Result;
 
 
-        print("snapshot fetched successfully!");
+        // Debug.Log("snapshot fetched successfully!");
 
         if (snapshot.Exists)
         {

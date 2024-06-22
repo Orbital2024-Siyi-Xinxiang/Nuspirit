@@ -15,7 +15,7 @@ public class GameStateManager : MonoBehaviour
 
     private void Start()
     {
-        print("start");
+        Debug.Log("start");
 
         venueManager.Initialize(testLevelId);
         firebaseFirestoreManager.InitializeDatabase(testVenueId);

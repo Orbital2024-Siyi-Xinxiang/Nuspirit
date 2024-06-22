@@ -8,4 +8,6 @@ public class VenueTransferPoint : ScriptableObject
     public string id;
     public Vector2 position;
     public List<string> to;
+
+    public TransferPoint transferPoint;
 }

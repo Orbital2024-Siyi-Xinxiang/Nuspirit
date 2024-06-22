@@ -2,15 +2,20 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public VenueInteractable interactableData;
+
     void Start()
     {
-        
+        interactableData = ScriptableObject.CreateInstance<VenueInteractable>();
     }
 
-    // Update is called once per frame
+    public void Initialize(VenueInteractable interactableData)
+    {
+        this.interactableData = interactableData;
+    }
+
     void Update()
     {
-        
+        // Interactable-specific update logic can be added here
     }
 }

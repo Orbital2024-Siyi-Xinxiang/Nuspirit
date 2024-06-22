@@ -3,16 +3,20 @@ using System.Collections;
 
 public class SolidObject : MonoBehaviour
 {
-	// Use this for initialization
-	void Start()
-	{
+    public VenueSolidObject solidObjectData;
 
-	}
+    void Start()
+    {
+        solidObjectData = ScriptableObject.CreateInstance<VenueSolidObject>();
+    }
 
-	// Update is called once per frame
-	void Update()
-	{
-			
-	}
+    public void Initialize(VenueSolidObject solidObjectData)
+    {
+        this.solidObjectData = solidObjectData;
+    }
+
+    void Update()
+    {
+        // SolidObject-specific update logic can be added here
+    }
 }
-
