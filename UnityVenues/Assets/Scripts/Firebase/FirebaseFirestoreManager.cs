@@ -198,7 +198,8 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
                 if (snapshot.Exists)
                 {
-                    VenueBookable venueBookable = snapshot.ConvertTo<VenueBookable>();
+                    VenueBookable venueBookable = ScriptableObject.CreateInstance<VenueBookable>();
+                    venueBookable = snapshot.ConvertTo<VenueBookable>();
 
                     // Assign additional fields if they are not part of the automatic conversion
                     venueBookable.id = id.ToString();
