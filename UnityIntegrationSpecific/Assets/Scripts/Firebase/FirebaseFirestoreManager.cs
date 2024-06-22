@@ -145,33 +145,19 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
 
 
+            // Start the background and bookables loading tasks
             var backgroundTask = LoadVenueBackgroundAsync(backgroundId.GetValueOrDefault(default_background_id), levelId);
-            //var solidLayerTask = LoadVenueSolidLayerAsync(solidLayerId.GetValueOrDefault(default_solid_layer_id), levelId);
             var bookablesTask = LoadVenueBookablesAsync(bookableIds, levelId);
             //var facilitiesTask = LoadVenueFacilitiesAsync(facilityIds, levelId);
             //var interactablesTask = LoadVenueInteractablesAsync(interactableIds, levelId);
             //var solidObjectsTask = LoadVenueSolidObjectsAsync(solidObjectIds, levelId);
             //var transferPointsTask = LoadVenueTransferPointsAsync(transferPointIds, levelId);
 
-            venue.venueBackground = await backgroundTask;
-            venue.venueBookables = await bookablesTask;
+            // Process background independently
+            _ = ProcessBackgroundAsync(backgroundTask, venueRenderer, venue, levelId);
 
-            // directly start rendering when id matches
-            if (levelId == venueRenderer.venue.id)
-            {
-                //print("passed to venueRenderer");
-                await venueRenderer.InitializeBackground();
-                //print("passed to venueManager");
-                await venueManager.InitializeBookables();
-
-            }
-
-            
-            //venue.venueSolidLayer = await solidLayerTask;
-            //venue.venueInteractables = await interactablesTask;
-            //venue.venueSolidObjects = await solidObjectsTask;
-            //venue.venueTransferPoints = await transferPointsTask;
-            //venue.venueFacilities = await facilitiesTask;
+            // Process bookables independently
+            _ = ProcessBookablesAsync(bookablesTask, venueManager, venue, levelId);
 
         }
         else
@@ -385,7 +371,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         }
     }
 
-    private async Task ProcessBookablesAsync(Task<VenueBookables> bookablesTask, VenueManager venueManager, Venue venue, string levelId)
+    private async Task ProcessBookablesAsync(Task<VenueBookable[]> bookablesTask, VenueManager venueManager, Venue venue, string levelId)
     {
         venue.venueBookables = await bookablesTask;
         if (levelId == venueRenderer.venue.id)

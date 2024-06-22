@@ -23,64 +23,43 @@ public class VenueRenderer : MonoBehaviour
         //print("venue renderer initialized");
     }
 
-    public Task InitializeBackground()
+    public async Task InitializeBackground()
     {
         print($"start rendering background for {venue.id}");
 
         GameObject gridObject = GameObject.Find("TilemapGrid");
-        // Create a new GameObject for the Tilemap and make it a child of the Grid
         GameObject tilemapObject = Instantiate(backgroundPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-
         tilemapObject.transform.SetParent(gridObject.transform, false);
 
-        // Add a Tilemap component to the Tilemap GameObject
         Tilemap backgroundTilemap = tilemapObject.GetComponent<Tilemap>();
 
         if (venue.venueBackground != null)
         {
-            // Render the tiles based on the current venue
-            print("render!!!!!!!!!");
-            venue.venueBackground.background = RenderTiles(backgroundTilemap, venue.venueBackground.tileSet, venue.venueBackground.dimension);
+            await RenderTilesAsync(backgroundTilemap, venue.venueBackground.tileSet, venue.venueBackground.dimension);
         }
-        return Task.CompletedTask;
     }
 
-    public Task InitializeSolidLayer()
+    public async Task InitializeSolidLayer()
     {
-        print($"start rendering solidLayer for {venue.id}");
-        // Create a new GameObject for the Grid
-        GameObject gridObject = GameObject.Find("TilemapGrid");
-        // Add a Grid component to the Grid GameObject
-        Grid grid = gridObject.GetComponent<Grid>();
+        print($"start rendering solid layer for {venue.id}");
 
-        // Create a new GameObject for the Tilemap and make it a child of the Grid
-        GameObject tilemapObject = new GameObject("SolidLayerTilemap");
+        GameObject gridObject = GameObject.Find("TilemapGrid");
+        GameObject tilemapObject = Instantiate(backgroundPrefab, new Vector3(0, 0, 0), Quaternion.identity);
         tilemapObject.transform.SetParent(gridObject.transform, false);
 
-        // Add a Tilemap component to the Tilemap GameObject
         Tilemap solidLayerTilemap = tilemapObject.GetComponent<Tilemap>();
 
-        if (venue.venueSolidLayer != null)
+        if (venue.venueBackground != null)
         {
-            // Render the tiles based on the current venue
-            venue.venueSolidLayer.solidLayer = RenderTiles(solidLayerTilemap, venue.venueSolidLayer.tileSet, venue.venueSolidLayer.dimension);
+            await RenderTilesAsync(solidLayerTilemap, venue.venueSolidLayer.tileSet, venue.venueSolidLayer.dimension);
         }
-        return Task.CompletedTask;
     }
 
-    //public async Task<Tilemap> RenderTilesAsync(Tilemap tilemapToRender, TileSet tileSet, Vector2 dimension)
-    //{
-    //    // Run CPU-bound work on a background thread
-    //    return await Task.Run(() => RenderTiles(tilemapToRender, tileSet, dimension));
-    //}
 
-    private Tilemap RenderTiles(Tilemap tilemapToRender, TileSet tileSet, Vector2 dimension)
+    private async Task RenderTilesAsync(Tilemap tilemapToRender, TileSet tileSet, Vector2 dimension)
     {
         print("rendering tiles ...");
-        //print(tileSet.tiles);
-        //print(dimension);
 
-        // Corrected calculations to ensure proper tiling
         int numOfRows = (int)(dimension.x / TileUtility.gridSize);
         int numOfColumns = (int)(dimension.y / TileUtility.gridSize);
 
@@ -96,13 +75,14 @@ public class VenueRenderer : MonoBehaviour
                         TileBase tile = tileSet.tiles[index];
                         tilemapToRender.SetTile(new Vector3Int(x, y, 0), tile);
                     }
+
+                    // Optional: yield every few tiles to allow the UI to update
+                    if ((x * y) % 10 == 0)
+                    {
+                        await Task.Yield();
+                    }
                 }
             }
-
-            // Complete the background object and assign it back to the scriptable object
-            return tilemapToRender;
         }
-
-        return null;
     }
 }
