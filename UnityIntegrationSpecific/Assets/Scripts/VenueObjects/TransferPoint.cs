@@ -3,16 +3,20 @@ using System.Collections;
 
 public class TransferPoint : MonoBehaviour
 {
-	// Use this for initialization
-	void Start()
-	{
+    public VenueTransferPoint transferPointData;
 
-	}
+    void Start()
+    {
+        transferPointData = ScriptableObject.CreateInstance<VenueTransferPoint>();
+    }
 
-	// Update is called once per frame
-	void Update()
-	{
-			
-	}
+    public void Initialize(VenueTransferPoint transferPointData)
+    {
+        this.transferPointData = transferPointData;
+    }
+
+    void Update()
+    {
+        // TransferPoint-specific update logic can be added here
+    }
 }
-

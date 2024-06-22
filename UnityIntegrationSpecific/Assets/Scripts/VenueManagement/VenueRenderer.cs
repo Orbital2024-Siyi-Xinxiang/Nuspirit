@@ -25,7 +25,7 @@ public class VenueRenderer : MonoBehaviour
 
     public async Task InitializeBackground()
     {
-        print($"start rendering background for {venue.id}");
+        Debug.Log($"start rendering background for {venue.id}");
 
         GameObject gridObject = GameObject.Find("TilemapGrid");
         GameObject tilemapObject = Instantiate(backgroundPrefab, new Vector3(0, 0, 0), Quaternion.identity);
@@ -41,21 +41,21 @@ public class VenueRenderer : MonoBehaviour
 
     public async Task InitializeSolidLayer()
     {
-        print($"start rendering solid layer for {venue.id}");
+        Debug.Log($"start rendering solid layer for {venue.id}");
 
         GameObject gridObject = GameObject.Find("TilemapGrid");
-        GameObject tilemapObject = Instantiate(backgroundPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        GameObject tilemapObject = Instantiate(solidLayerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
         tilemapObject.transform.SetParent(gridObject.transform, false);
 
         Tilemap solidLayerTilemap = tilemapObject.GetComponent<Tilemap>();
 
-        if (venue.venueBackground != null)
+        if (venue.venueSolidLayer != null)
         {
             await RenderTilesAsync(solidLayerTilemap, venue.venueSolidLayer.tileSet, venue.venueSolidLayer.dimension);
         }
     }
 
-
+    // render tiles async so that don't have to wait for the whole map to be rendered
     private async Task RenderTilesAsync(Tilemap tilemapToRender, TileSet tileSet, Vector2 dimension)
     {
         print("rendering tiles ...");

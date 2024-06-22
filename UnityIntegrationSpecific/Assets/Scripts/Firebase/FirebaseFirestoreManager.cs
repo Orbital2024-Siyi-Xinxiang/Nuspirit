@@ -37,7 +37,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
         venueId = Id;
 
-        //print($"VenueID: {venueId}");
+        //Debug.Log($"VenueID: {venueId}");
 
         StartCoroutine(LoadVenueDataAsync(venueId.ToString()));
     }
@@ -50,7 +50,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         // Fetch document from Firestore
         DocumentReference docRef = firestore.Collection("venues").Document(venueId);
 
-        //print("Start fetching snapshot");
+        //Debug.Log("Start fetching snapshot");
 
         var task = docRef.GetSnapshotAsync();
         yield return new WaitUntil(() => task.IsCompleted);
@@ -58,7 +58,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         DocumentSnapshot snapshot = task.Result;
 
 
-        //print("snapshot fetched successfully!");
+        //Debug.Log("snapshot fetched successfully!");
 
         if (snapshot.Exists)
         {
@@ -81,7 +81,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
                 venue.name = "venue " + levelId.ToString();
 
                 venue.id = levelId.ToString();
-                //print("current venue" + venue.id);s
+                //Debug.Log("current venue" + venue.id);s
                 // Add the venue to the database
 
                 venueDatabase.AddVenue(venue);
@@ -99,7 +99,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
     private IEnumerator RunLoadVenueDetailsAsync(Venue venue)
     {
-        //print("start loading venue details");
+        //Debug.Log("start loading venue details");
 
         var task = LoadVenueDetailsAsync(venue);
         yield return new WaitUntil(() => task.IsCompleted);
@@ -120,18 +120,18 @@ public class FirebaseFirestoreManager : MonoBehaviour
         DocumentSnapshot snapshot = task.Result;
         if (snapshot.Exists)
         {
-            // print("start loading venue detail for " + venue.id);
+            // Debug.Log("start loading venue detail for " + venue.id);
             string levelId = venue.id;
-            //print("start retrieving scriptable objects");
+            //Debug.Log("start retrieving scriptable objects");
 
             // Retrieve the scriptable object IDs for this venue level
             int? backgroundId = snapshot.TryGetValue<int>("background", out int backgroundTemp) ? (int?)backgroundTemp : null;
-            //int? solidLayerId = snapshot.TryGetValue<int>("solid_layer", out int solidLayerTemp) ? (int?)solidLayerTemp : null;
+            int? solidLayerId = snapshot.TryGetValue<int>("solid_layer", out int solidLayerTemp) ? (int?)solidLayerTemp : null;
             List<int> bookableIds = snapshot.TryGetValue<List<int>>("bookables", out List<int> bookableTemp) ? bookableTemp : new List<int>();
-            //List<int> facilityIds = snapshot.TryGetValue<List<int>>("facilities", out List<int> facilityTemp) ? facilityTemp : new List<int>();
-            //List<int> interactableIds = snapshot.TryGetValue<List<int>>("interactables", out List<int> interactableTemp) ? interactableTemp : new List<int>();
-            //List<int> solidObjectIds = snapshot.TryGetValue<List<int>>("solid_objects", out List<int> solidObjectTemp) ? solidObjectTemp : new List<int>();
-            //List<int> transferPointIds = snapshot.TryGetValue<List<int>>("transferPoints", out List<int> transferPointTemp) ? transferPointTemp : new List<int>();
+            List<int> facilityIds = snapshot.TryGetValue<List<int>>("facilities", out List<int> facilityTemp) ? facilityTemp : new List<int>();
+            List<int> interactableIds = snapshot.TryGetValue<List<int>>("interactables", out List<int> interactableTemp) ? interactableTemp : new List<int>();
+            List<int> solidObjectIds = snapshot.TryGetValue<List<int>>("solid_objects", out List<int> solidObjectTemp) ? solidObjectTemp : new List<int>();
+            List<int> transferPointIds = snapshot.TryGetValue<List<int>>("transferPoints", out List<int> transferPointTemp) ? transferPointTemp : new List<int>();
 
             //print(backgroundId.HasValue ? backgroundId.ToString() : "No background ID");
             //print(solidLayerId.HasValue ? solidLayerId.ToString() : "No solid layer ID");
@@ -142,21 +142,23 @@ public class FirebaseFirestoreManager : MonoBehaviour
             //print("Transfer Point IDs: " + string.Join(", ", transferPointIds));
 
 
-
-
-
             // Start the background and bookables loading tasks
             var backgroundTask = LoadVenueBackgroundAsync(backgroundId.GetValueOrDefault(default_background_id), levelId);
+            var solidLayerTask = LoadVenueSolidLayerAsync(solidLayerId.GetValueOrDefault(default_solid_layer_id), levelId);
             var bookablesTask = LoadVenueBookablesAsync(bookableIds, levelId);
-            //var facilitiesTask = LoadVenueFacilitiesAsync(facilityIds, levelId);
-            //var interactablesTask = LoadVenueInteractablesAsync(interactableIds, levelId);
-            //var solidObjectsTask = LoadVenueSolidObjectsAsync(solidObjectIds, levelId);
-            //var transferPointsTask = LoadVenueTransferPointsAsync(transferPointIds, levelId);
+            var facilitiesTask = LoadVenueFacilitiesAsync(facilityIds, levelId);
+            var interactablesTask = LoadVenueInteractablesAsync(interactableIds, levelId);
+            var solidObjectsTask = LoadVenueSolidObjectsAsync(solidObjectIds, levelId);
+            var transferPointsTask = LoadVenueTransferPointsAsync(transferPointIds, levelId);
 
             // Process background independently
             _ = ProcessBackgroundAsync(backgroundTask, venueRenderer, venue, levelId);
-
-            // Process bookables independently
+            _ = ProcessSolidLayerAsync(solidLayerTask, venueRenderer, venue, levelId);
+            // Process objects of functions independently
+            _ = ProcessFacilitiesAsync(facilitiesTask, venueManager, venue, levelId);
+            _ = ProcessTransferPointsAsync(transferPointsTask, venueManager, venue, levelId);
+            _ = ProcessInteractablesAsync(interactablesTask, venueManager, venue, levelId);
+            _ = ProcessSolidObjectsAsync(solidObjectsTask, venueManager, venue, levelId);
             _ = ProcessBookablesAsync(bookablesTask, venueManager, venue, levelId);
 
         }
@@ -203,7 +205,6 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
     }
 
-
     private async Task<VenueSolidLayer> LoadVenueSolidLayerAsync(int solidLayerId, string levelId)
     {
         VenueSolidLayer venueSolidLayer = ScriptableObject.CreateInstance<VenueSolidLayer>();
@@ -225,22 +226,12 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
         venueSolidLayer.dimension = new Vector2(texture.width, texture.height);
         TileBase[] tiles = TileUtility.ConvertTextureToTiles(texture);
-
-        //print($"converted background {backgroundId} tiles successfully");
-
         TileSet tileSet = ScriptableObject.CreateInstance<TileSet>();
         tileSet.tiles = tiles;
         venueSolidLayer.tileSet = tileSet;
 
-        // start rendering background;
-        //print("venueBackground created successfully");
-
-        // same as background rendering
-
         return venueSolidLayer;
     }
-
-
 
     private async Task<VenueBookable[]> LoadVenueBookablesAsync(List<int> ids, string levelId)
     {
@@ -310,17 +301,78 @@ public class FirebaseFirestoreManager : MonoBehaviour
             }
         }
 
-
-
-
         return venueBookables.ToArray();
     }
 
     private async Task<VenueFacility[]> LoadVenueFacilitiesAsync(List<int> ids, string levelId)
     {
-        // Implementation to load venue facilities from Firestore
-        // Placeholder for now
-        return await Task.FromResult(new VenueFacility[0]);
+        FirebaseFirestore firestore = FirebaseFirestore.DefaultInstance;
+        List<VenueBookable> venueBookables = new List<VenueBookable>();
+
+        foreach (int id in ids)
+        {
+            try
+            {
+                DocumentReference docRef = firestore.Collection("venues_bookables").Document(id.ToString());
+                DocumentSnapshot snapshot = await docRef.GetSnapshotAsync();
+
+                if (snapshot.Exists)
+                {
+                    VenueBookable venueBookable = ScriptableObject.CreateInstance<VenueBookable>();
+                    venueBookables.Add(venueBookable);
+                    //venueBookable = snapshot.ConvertTo<VenueBookable>();
+
+                    // Retrieve fields, using default values if they are missing
+                    venueBookable.id = id.ToString();
+                    venueBookable.bookableName = snapshot.ContainsField("name") ? snapshot.GetValue<string>("name") : "study_room";
+                    // Parse color from HTML string
+                    string colorString = snapshot.ContainsField("color") ? snapshot.GetValue<string>("color") : "white";
+                    if (ColorUtility.TryParseHtmlString(colorString, out Color color))
+                    {
+                        venueBookable.color = color;
+                    }
+                    else
+                    {
+                        Debug.LogError($"Failed to parse color '{colorString}' for bookable {id}");
+                    }
+                    List<float> sizeList = snapshot.ContainsField("size") ? snapshot.GetValue<List<float>>("size") : new List<float> { 1f, 1f };
+
+                    if (sizeList != null && sizeList.Count == 2)
+                    {
+                        venueBookable.size = new Vector2(sizeList[0], sizeList[1]);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Invalid size data for venue {id}. Expected 2 elements, got {sizeList?.Count}");
+                    }
+
+                    venueBookable.capacity = snapshot.ContainsField("capacity") ? (snapshot.GetValue<int?>("capacity") ?? 10) : 10;
+                    // Convert position list to Vector2
+                    List<float> positionList = snapshot.ContainsField("position") ? snapshot.GetValue<List<float>>("position") : new List<float> { 1f, 1f };
+                    if (positionList != null && positionList.Count == 2)
+                    {
+                        venueBookable.position = new Vector2(positionList[0], positionList[1]);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Invalid position data for venue {id}. Expected 2 elements, got {positionList?.Count}");
+                    }
+
+                    // Assuming 'bookable' is a prefab or GameObject to be assigned later
+                    venueBookable.bookable = null;
+                }
+                else
+                {
+                    Debug.LogError($"Document with id {id} does not exist in Firestore.");
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"Error loading venue bookable with id {id}: {ex.Message}");
+            }
+        }
+
+        return venueBookables.ToArray();
     }
 
     private async Task<VenueInteractable[]> LoadVenueInteractablesAsync(List<int> ids, string levelId)
@@ -345,23 +397,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Async Processes to save time
-
     private async Task ProcessBackgroundAsync(Task<VenueBackground> backgroundTask, VenueRenderer venueRenderer, Venue venue, string levelId)
     {
         venue.venueBackground = await backgroundTask;
@@ -370,13 +406,57 @@ public class FirebaseFirestoreManager : MonoBehaviour
             await venueRenderer.InitializeBackground();
         }
     }
+    private async Task ProcessSolidLayerAsync(Task<VenueSolidLayer> solidLayerTask, VenueRenderer venueRenderer, Venue venue, string levelId)
+    {
+        venue.venueSolidLayer= await solidLayerTask;
+        if (levelId == venueRenderer.venue.id)
+        {
+            await venueRenderer.InitializeSolidLayer();
+        }
+    }
 
     private async Task ProcessBookablesAsync(Task<VenueBookable[]> bookablesTask, VenueManager venueManager, Venue venue, string levelId)
     {
         venue.venueBookables = await bookablesTask;
-        if (levelId == venueRenderer.venue.id)
+        if (levelId == venueManager.venue.id)
         {
             await venueManager.InitializeBookables();
+        }
+    }
+
+    private async Task ProcessFacilitiesAsync(Task<VenueFacility[]> facilitiesTask, VenueManager venueManager, Venue venue, string levelId)
+    {
+        venue.venueFacilities = await facilitiesTask;
+        if (levelId == venueManager.venue.id)
+        {
+            await venueManager.InitializeFacilities();
+        }
+    }
+
+    private async Task ProcessInteractablesAsync(Task<VenueInteractable[]> interactablesTask, VenueManager venueManager, Venue venue, string levelId)
+    {
+        venue.venueInteractables = await interactablesTask;
+        if (levelId == venueManager.venue.id)
+        {
+            await venueManager.InitializeInteractables();
+        }
+    }
+
+    private async Task ProcessSolidObjectsAsync(Task<VenueSolidObject[]> solidObjectsTask, VenueManager venueManager, Venue venue, string levelId)
+    {
+        venue.venueSolidObjects = await solidObjectsTask;
+        if (levelId == venueManager.venue.id)
+        {
+            await venueManager.InitializeSolidObjects();
+        }
+    }
+
+    private async Task ProcessTransferPointsAsync(Task<VenueTransferPoint[]> transferPointsTask, VenueManager venueManager, Venue venue, string levelId)
+    {
+        venue.venueTransferPoints = await transferPointsTask;
+        if (levelId == venueManager.venue.id)
+        {
+            await venueManager.InitializeTransferPoints();
         }
     }
 
