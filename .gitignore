@@ -12,3 +12,8 @@ AssetsImported/NUSpirit/Assets/Editor Default Resources
 AssetsImported/NUSpirit/Assets/Firebase
 AssetsImported/NUSpirit 2/Assets/Editor Default Resources
 AssetsImported/NUSpirit 2/Assets/Firebase
+
+UnityIntegrationSpecific/Library/
+UnityIntegrationSpecific/iosBuild/
+UnityIntegrationSpecific/Assets/Editor Default Resources
+UnityIntegrationSpecific/Assets/Firebase
