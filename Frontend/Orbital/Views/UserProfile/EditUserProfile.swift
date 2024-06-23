@@ -1,6 +1,5 @@
 import SwiftUI
 import Foundation
-import Firebase
 
 // Edit User Profile View
 struct EditUserProfileView: View {
