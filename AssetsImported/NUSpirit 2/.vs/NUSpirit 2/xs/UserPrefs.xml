@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{85C52B35-3B63-7CB4-0B17-A6330EB7B0D0}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e69deeb9-8b4c-483a-b449-cafd227d8453" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameStateManager.cs">
+    <Files>
+      <File FileName="Assets/GameStateManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NUSpirit 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="TutorialInfo" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

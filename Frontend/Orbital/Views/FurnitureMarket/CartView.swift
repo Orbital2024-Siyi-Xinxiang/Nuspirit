@@ -1,25 +1,26 @@
 import SwiftUI
+import FirebaseFirestore
+import Firebase
+import FirebaseCore
+import FirebaseAuth
 
 struct CartItem: Identifiable {
     let id = UUID()
-    let name: String
+    let asset: Asset
     var isSelected: Bool = false
 }
 
 struct CartView: View {
-    @State private var cartItems: [CartItem] = [
-        CartItem(name: "Cart Item 1"),
-        CartItem(name: "Cart Item 2"),
-        CartItem(name: "Cart Item 3")
-    ]
+    @Binding var balance: Double
+    @State private var cartItems: [CartItem] = []
     @State private var isSelectionMode: Bool = false
     @State private var selectAll: Bool = false
-    
+
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                Text("Balance: $100.00")
+                Text("Balance: $\(balance, specifier: "%.2f")")
                     .padding()
             }
             .padding(.top)
@@ -38,7 +39,7 @@ struct CartView: View {
                                     .foregroundColor(item.isSelected ? .blue : .gray)
                             }
                         }
-                        Text(item.name)
+                        Text(item.asset.name)
                             .onLongPressGesture {
                                 withAnimation {
                                     isSelectionMode = true
@@ -52,7 +53,7 @@ struct CartView: View {
                 Spacer()
                 if isSelectionMode {
                     Button(action: {
-                        // Handle checkout action
+                        checkout()
                     }) {
                         Text("Checkout")
                             .padding()
@@ -81,10 +82,29 @@ struct CartView: View {
             }
         }
     }
+
+    func checkout() {
+        // Handle checkout action
+        let selectedItems = cartItems.filter { $0.isSelected }
+        for item in selectedItems {
+            balance -= item.asset.price
+            cartItems.removeAll { $0.id == item.id }
+        }
+        // Update balance in Firestore
+        let userId = "current_user_id" // Replace with actual user ID
+        let db = Firestore.firestore()
+        db.collection("users_tokens").document(userId).updateData(["studyToken": balance]) { error in
+            if let error = error {
+                print("Error updating balance: \(error)")
+            } else {
+                print("Checkout successful")
+            }
+        }
+    }
 }
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {
-        CartView().previewInterfaceOrientation(.landscapeLeft)
+        CartView(balance: .constant(1000.0)).previewInterfaceOrientation(.landscapeLeft)
     }
 }

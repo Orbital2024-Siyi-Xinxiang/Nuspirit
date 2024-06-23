@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "1037292088990",
+    "firebase_url": "https://orbital2024-9f1b1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "orbital2024-9f1b1",
+    "storage_bucket": "orbital2024-9f1b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037292088990:ios:01127b1207e3cbe058558f",
+        "android_client_info": {
+          "package_name": "Chopeland.Orbital"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4dmP3SG2y5fBuko7BAPWBVw2xgH6sdJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037292088990-9d2c95hqakf9174ag9bjvdhmh3okhbq7.apps.googleusercontent.com"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
