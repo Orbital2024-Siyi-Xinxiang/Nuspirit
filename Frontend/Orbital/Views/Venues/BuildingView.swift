@@ -23,7 +23,7 @@ struct BuildingView: View {
             NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
         }
         .onDisappear {
-            NotificationService.shared.unsubscribeFromVenueTopic(buildingID: buildingID)
+            NotificationService.shared.unsubscribeFromCurrentTopic {}
         }
     }
 
