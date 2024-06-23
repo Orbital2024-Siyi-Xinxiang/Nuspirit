@@ -53,7 +53,7 @@ public class VenueManager : MonoBehaviour
 
     public Task InitializeFacilities()
     {
-        // Instantiate Bookables
+        // Instantiate Facilities GameObjects using facility prefab
         print($"start initializing facilities for {venue.id}");
 
         foreach (VenueFacility facilityData in venue.venueFacilities)

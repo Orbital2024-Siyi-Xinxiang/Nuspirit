@@ -5,14 +5,6 @@ public class Bookable : MonoBehaviour
 {
     public VenueBookable bookableData;
 
-    public List<int> available;
-
-    public List<int> slotBookable;
-
-    public List<int> booked;
-
-
-
     void Start()
     {
         bookableData = ScriptableObject.CreateInstance<VenueBookable>();

@@ -90,6 +90,7 @@
     <Compile Include="Assets/Scripts/MapTransfer.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBookable.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseInitializer.cs" />
+    <Compile Include="Assets/Scripts/VenueManagement/SpriteUtility.cs" />
     <Compile Include="Assets/Scripts/SceneLoader.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
