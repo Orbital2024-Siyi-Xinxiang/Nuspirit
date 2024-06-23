@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class Bookable : MonoBehaviour
 {
     public VenueBookable bookableData;
+    public GameObject bookVenueView;
 
     void Start()
     {

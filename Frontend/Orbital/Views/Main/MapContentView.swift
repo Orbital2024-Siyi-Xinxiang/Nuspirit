@@ -140,7 +140,7 @@ struct MapContentView: View {
             let venueLocation = CLLocation(latitude: annotation.coordinate.latitude, longitude: annotation.coordinate.longitude)
             let distance = location.distance(from: venueLocation)
             
-            if distance < 50 { // 50 meters range
+            if distance < 30 { // 50 meters range
                 if shouldShowMessage() {
                     showInAppMessage(for: annotation.buildingID)
                 }
