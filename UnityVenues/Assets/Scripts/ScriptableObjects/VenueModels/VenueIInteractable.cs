@@ -8,6 +8,6 @@ public class VenueInteractable : ScriptableObject
 
     public Vector2 position;
     public Vector2 size;
-    public GameObject interactable;
+    public Facility interactable;
 
 }

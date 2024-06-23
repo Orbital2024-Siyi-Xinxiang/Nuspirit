@@ -20,6 +20,7 @@ public static class TileUtility
 
     private static List<Sprite> SliceTexture(Texture2D texture, int sliceWidth, int sliceHeight)
     {
+        Debug.Log("start adding sprites!");
         List<Sprite> sprites = new List<Sprite>();
         int textureWidth = texture.width;
         int textureHeight = texture.height;
@@ -28,6 +29,8 @@ public static class TileUtility
         {
             for (int x = 0; x < textureWidth; x += sliceWidth)
             {
+                Debug.Log($"{x} , {y}  from {textureWidth}, {textureHeight}");
+
                 Rect rect = new Rect(x, y, sliceWidth, sliceHeight);
                 Sprite sprite = Sprite.Create(texture, rect, new Vector2(0.5f, 0.5f));
                 sprites.Add(sprite);

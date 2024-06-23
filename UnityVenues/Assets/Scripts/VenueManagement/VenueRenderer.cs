@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -16,10 +17,10 @@ public class VenueRenderer : MonoBehaviour
     {
         venue = venueDatabase.GetVenue(venueId);
 
-        InitializeBackground();
+        
     }
 
-    public void InitializeBackground()
+    public Task InitializeBackground()
     {
         // Create a new GameObject for the Grid
         GameObject gridObject = new GameObject("TilemapGrid");
@@ -41,6 +42,8 @@ public class VenueRenderer : MonoBehaviour
             // Render the tiles based on the current venue
             RenderTiles();
         }
+
+        return Task.CompletedTask;
     }
 
     public void RenderTiles()

@@ -18,12 +18,12 @@ public class VenueManager : MonoBehaviour
 
     
 
-    public async void Initialize(string venueId)
+    public void Initialize(string venueId)
     {
         venue = venueDatabase.GetVenue(venueId);
         // initializes  venueRenderer(fpr background tilemap rendering and solidLayer rendering)
 
-        await InitializeBookables();
+        
         //await InitializeFacilities();
         //await InitializeInteractables();
         //await InitializeSolidObjects();
@@ -33,7 +33,7 @@ public class VenueManager : MonoBehaviour
     public Task InitializeBookables()
     {
         // Instantiate Bookables
-        foreach (var bookableData in venue.venueBookables)
+        foreach (VenueBookable bookableData in venue.venueBookables)
         {
             GameObject obj = Instantiate(bookablePrefab, bookableData.position, Quaternion.identity);
             if (bookableData.size != default)
@@ -47,6 +47,7 @@ public class VenueManager : MonoBehaviour
 
             Bookable bookable = obj.GetComponent<Bookable>();
             bookable.Initialize(bookableData);
+            bookableData.bookable = bookable;
         }
 
         return Task.CompletedTask;
