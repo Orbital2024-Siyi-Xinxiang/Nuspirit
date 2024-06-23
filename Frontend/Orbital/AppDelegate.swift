@@ -11,10 +11,8 @@ import Firebase
 import FirebaseAuth
 import FirebaseAuthUI
 import UserNotifications
-import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
-import FirebasePhoneAuthUI
 import FirebaseEmailAuthUI
 import FirebaseEmailAuthUI
 import UIKit
@@ -23,8 +21,6 @@ import GoogleSignIn
 import FBSDKCoreKit
 import FBSDKLoginKit
 import FirebaseInAppMessaging
-
-
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     var window: UIWindow?

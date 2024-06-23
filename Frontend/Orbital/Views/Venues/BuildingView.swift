@@ -20,6 +20,10 @@ struct BuildingView: View {
         .navigationBarTitle("Building Details", displayMode: .inline)
         .onAppear {
             fetchVenueDetails()
+            NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
+        }
+        .onDisappear {
+            NotificationService.shared.unsubscribeFromVenueTopic(buildingID: buildingID)
         }
     }
 
