@@ -43,8 +43,8 @@ struct MapContentView: View {
                 detectVenueProximity(location: newLocation?.location)
             }
         }
-        .onChange(of: selectedBuildingID) { _ in
-            if selectedBuildingID != nil {
+        .onChange(of: selectedBuildingID) { newValue in
+            if newValue != nil {
                 // Stop showing messages if currently in a building
                 showMessageTimer?.invalidate()
             } else {
