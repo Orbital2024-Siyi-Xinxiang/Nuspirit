@@ -77,6 +77,8 @@
 		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
 		B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */; };
 		B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */; };
+		B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */; };
+		B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */; };
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -98,7 +100,7 @@
 		B5C92A532BF7CF1C00121E42 /* MyAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */; };
 		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
-		B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* AssetView.swift */; };
+		B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */; };
 		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
 		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
 		B5C92A662BF879C300121E42 /* COM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A652BF879C300121E42 /* COM1.swift */; };
@@ -194,6 +196,8 @@
 		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
 		B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnityViewController(Unused).swift"; sourceTree = "<group>"; };
 		B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContributionService.swift; sourceTree = "<group>"; };
+		B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyStatistics.swift; sourceTree = "<group>"; };
+		B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetchingService.swift; sourceTree = "<group>"; };
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -215,7 +219,7 @@
 		B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsView.swift; sourceTree = "<group>"; };
 		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
-		B5C92A592BF7D69C00121E42 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificAssetView.swift; sourceTree = "<group>"; };
 		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
 		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
 		B5C92A652BF879C300121E42 /* COM1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM1.swift; sourceTree = "<group>"; };
@@ -400,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC6DE3B2BF0AC470031650B /* AuthService(Deprecated).swift */,
+				B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */,
 				B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */,
 				B574423F2C12953F009F6616 /* FirebaseAuthService.swift */,
 				B5110A0B2BFB81F000208FC4 /* LocationService.swift */,
@@ -437,7 +442,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F74782BF62FFC0048447E /* FurnitureMarket.swift */,
-				B5C92A592BF7D69C00121E42 /* AssetView.swift */,
+				B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */,
 				B56F74762BF62F370048447E /* CartView.swift */,
 			);
 			path = FurnitureMarket;
@@ -453,6 +458,7 @@
 				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
 				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
 				B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */,
+				B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -832,10 +838,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */,
 				B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */,
 				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
 				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
 				B574423E2C129410009F6616 /* UserData.swift in Sources */,
+				B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */,
 				5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */,
 				B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */,
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
@@ -855,7 +863,7 @@
 				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */,
-				B5C92A5A2BF7D69C00121E42 /* AssetView.swift in Sources */,
+				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
 				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
 				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,

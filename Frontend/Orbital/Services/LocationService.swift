@@ -3,12 +3,10 @@
 //  Orbital
 //
 //  Created by Wulala's Macbook on 14/5/24.
-//
-import FirebaseFirestore
-import Foundation
 import CoreLocation
 import FirebaseAuth
-import FirebaseCore
+import Foundation
+import FirebaseFirestore
 
 struct IdentifiableLocation: Identifiable {
     
