@@ -1,26 +1,7 @@
-import Foundation
-import FirebaseCore
-import Firebase
-import FirebaseAuth
-import FirebaseAuthUI
-import UserNotifications
-import FirebaseFacebookAuthUI
-import FirebaseGoogleAuthUI
-import FirebaseOAuthUI
-import FirebasePhoneAuthUI
-import FirebaseEmailAuthUI
-import FirebaseEmailAuthUI
-import UIKit
 import SwiftUI
-import GoogleSignIn
-import FBSDKCoreKit
-import FBSDKLoginKit
-import MapKit
 import FirebaseFirestore
-import FirebaseFirestoreUI
-import CoreLocation
-
-
+import Firebase
+import MapKit
 
 struct MapContentView: View {
     @StateObject private var locationService = LocationService.shared
@@ -32,6 +13,9 @@ struct MapContentView: View {
     @State private var annotations: [CustomAnnotation] = []
     @State private var overlays: [CustomMapOverlay] = []
     @State private var selectedBuildingID: String? = nil
+
+    @State private var lastMessageTime: Date?
+    @State private var showMessageTimer: Timer?
 
     var body: some View {
         ZStack {
@@ -47,41 +31,21 @@ struct MapContentView: View {
                 EmptyView()
             }
         }
-        .onAppear{
+        .onAppear {
             fetchVenueData()
+            startMessageTimer()
+        }
+        .onDisappear {
+            showMessageTimer?.invalidate()
         }
         .onChange(of: locationService.location) { newLocation in
             detectVenueProximity(location: newLocation?.location)
         }
-
-        
-        // update center when center changes
-        
-//        .onReceive(locationService.$location) { location in
-//            guard let location = location else { return }
-//
-//            // Inline restrictRegion functionality
-//            var newCenter = location.location.coordinate
-//            let maxLatitude = 1.2966 + 0.005
-//            let minLatitude = 1.2966 - 0.005
-//            let maxLongitude = 103.7764 + 0.005
-//            let minLongitude = 103.7764 - 0.005
-//
-//            if newCenter.latitude > maxLatitude {
-//                newCenter.latitude = maxLatitude
-//            } else if newCenter.latitude < minLatitude {
-//                newCenter.latitude = minLatitude
-//            }
-//
-//            if newCenter.longitude > maxLongitude {
-//                newCenter.longitude = maxLongitude
-//            } else if newCenter.longitude < minLongitude {
-//                newCenter.longitude = minLongitude
-//            }
-//
-//            // Update the center while preserving the current span
-//            region.center = newCenter
-//        }
+        .onChange(of: selectedBuildingID) { _ in
+            if selectedBuildingID == nil {
+                NotificationService.shared.unsubscribeAll()
+            }
+        }
     }
     
     private func fetchVenueData() {
@@ -140,7 +104,6 @@ struct MapContentView: View {
             print("Annotations: \(annotations)")
             print("Overlays: \(overlays)")
         }
-
     }
     
     private func fetchUserLocations() {
@@ -164,7 +127,6 @@ struct MapContentView: View {
         }
     }
     
-    
     private func detectVenueProximity(location: CLLocation?) {
         guard let location = location else { return }
 
@@ -173,49 +135,58 @@ struct MapContentView: View {
             let distance = location.distance(from: venueLocation)
             
             if distance < 50 { // 50 meters range
-                showInAppMessage(for: annotation.buildingID)
-
+                if shouldShowMessage() {
+                    showInAppMessage(for: annotation.buildingID)
+                }
             } else {
                 NotificationService.shared.unsubscribeFromVenueTopic(buildingID: annotation.buildingID)
             }
         }
     }
 
+    private func shouldShowMessage() -> Bool {
+        guard let lastMessageTime = lastMessageTime else {
+            self.lastMessageTime = Date()
+            return true
+        }
+        let elapsedTime = Date().timeIntervalSince(lastMessageTime)
+        if elapsedTime >= 20 {
+            self.lastMessageTime = Date()
+            return true
+        }
+        return false
+    }
 
-       private func showInAppMessage(for buildingID: String) {
-           let db = Firestore.firestore()
-           db.collection("key_venues").document(buildingID).getDocument { document, error in
-               if let document = document, document.exists {
-                   let data = document.data()
-                   let venueName = data?["name"] as? String ?? "Unknown"
-                   
-                   let alert = UIAlertController(title: "Detected Venue", message: "You are near \(venueName). Enter?", preferredStyle: .alert)
-                   alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { _ in
-                       self.selectedBuildingID = buildingID
-                       NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
-                   }))
-                   alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
-                   
-                   if let window = UIApplication.shared.windows.first {
-                       window.rootViewController?.present(alert, animated: true, completion: nil)
-                   }
-               }
-           }
-       }
-    
-    
-    
-    
+    private func showInAppMessage(for buildingID: String) {
+        let db = Firestore.firestore()
+        db.collection("key_venues").document(buildingID).getDocument { document, error in
+            if let document = document, document.exists {
+                let data = document.data()
+                let venueName = data?["name"] as? String ?? "Unknown"
+                
+                let alert = UIAlertController(title: "Detected Venue", message: "You are near \(venueName). Enter?", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { _ in
+                    self.selectedBuildingID = buildingID
+                    NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
+                }))
+                alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+                
+                if let window = UIApplication.shared.windows.first {
+                    window.rootViewController?.present(alert, animated: true, completion: nil)
+                }
+            }
+        }
+    }
+
+    private func startMessageTimer() {
+        showMessageTimer = Timer.scheduledTimer(withTimeInterval: 20, repeats: true) { _ in
+            self.lastMessageTime = nil
+        }
+    }
 }
-
-
 
 struct MapContentView_Previews: PreviewProvider {
     static var previews: some View {
         MapContentView()
     }
 }
-
-
-
-
