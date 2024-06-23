@@ -5,7 +5,7 @@ import FirebaseStorage
 import FirebaseFirestore
 
 
-struct AssetView: View {
+struct SpecificAssetView: View {
     let asset: Asset
     @State private var purchaseMessage: String = ""
     @Binding var balance: Double
@@ -54,8 +54,3 @@ struct AssetView: View {
     }
 }
 
-struct AssetView_Previews: PreviewProvider {
-    static var previews: some View {
-        AssetView(asset: Asset(id: 1, cat: "Currency", name: "Gold", price: 1000, icon: "dollarsign.circle"), balance: .constant(1000.0)).previewInterfaceOrientation(.landscapeLeft)
-    }
-}
