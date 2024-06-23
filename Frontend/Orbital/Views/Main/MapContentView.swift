@@ -39,11 +39,17 @@ struct MapContentView: View {
             showMessageTimer?.invalidate()
         }
         .onChange(of: locationService.location) { newLocation in
-            detectVenueProximity(location: newLocation?.location)
+            if selectedBuildingID == nil {
+                detectVenueProximity(location: newLocation?.location)
+            }
         }
         .onChange(of: selectedBuildingID) { _ in
             if selectedBuildingID != nil {
-                // if currently in a building , don't show any messages
+                // Stop showing messages if currently in a building
+                showMessageTimer?.invalidate()
+            } else {
+                // Restart the timer when not in a building
+                startMessageTimer()
             }
         }
     }
@@ -139,7 +145,7 @@ struct MapContentView: View {
                     showInAppMessage(for: annotation.buildingID)
                 }
             } else {
-                NotificationService.shared.unsubscribeFromVenueTopic(buildingID: annotation.buildingID)
+                NotificationService.shared.unsubscribeFromCurrentTopic {}
             }
         }
     }
