@@ -1,8 +1,10 @@
-import SwiftUI
+import Foundation
 import FirebaseFirestore
 import Firebase
-import FirebaseCore
 import FirebaseAuth
+import FirebaseStorage
+import FirebaseAuthUI
+import SwiftUI
 
 struct FurnitureMarketView: View {
     @State private var selectedCategory: String? = nil

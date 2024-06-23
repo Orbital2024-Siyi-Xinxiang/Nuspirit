@@ -68,10 +68,16 @@
     <None Include="Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.179_manifest.txt" />
     <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll" />
     <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.VersionHandlerImpl.dll" />
+    <None Include="Assets/Firebase/Editor/FirebaseFirestore_version-12.0.0_manifest.txt" />
     <None Include="Assets/ExternalDependencyManager/Editor/1.2.179/Google.JarResolver.dll" />
+    <None Include="Assets/Firebase/Editor/StorageDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/AuthDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/FirestoreDependencies.xml" />
     <None Include="Assets/Firebase/Editor/AppDependencies.xml" />
     <None Include="Assets/Firebase/Editor/FirebaseAnalytics_version-12.0.0_manifest.txt" />
     <None Include="Assets/Firebase/Editor/AnalyticsDependencies.xml" />
+    <None Include="Assets/Firebase/Editor/FirebaseStorage_version-12.0.0_manifest.txt" />
+    <None Include="Assets/Firebase/Editor/FirebaseAuth_version-12.0.0_manifest.txt" />
     <None Include="Assets/Firebase/Editor/Firebase.Editor.dll" />
     <None Include="Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" />
   </ItemGroup>
@@ -662,6 +668,18 @@
     </Reference>
     <Reference Include="Firebase.Platform">
       <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Firestore">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Storage">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
