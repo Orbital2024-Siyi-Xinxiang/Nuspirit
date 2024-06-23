@@ -1,31 +1,10 @@
-//
-//  FirebaseMessaging.swift
-//  Orbital
-//
-//  Created by Xu Siyi on 21/5/24.
-//
-
-
-// before implementing this
-//Configure FCM:
-
-// Set up FCM for your project and get the server key.
-// Use UNUserNotificationCenter to handle notifications.
-
-
-//MainMapView displays other users on the map, respecting their privacy settings.
-//ChatView handles sending and receiving messages and friend requests.
-//NotificationService sends notifications using FCM.
-
-
-// Use the NotificationService class to send notifications to a device token. The sendNotification method sends a notification to the device token with a title and body. Replace YOUR_SERVER_KEY with your server key.
-
 import Foundation
 import Firebase
 import UserNotifications
 
 class NotificationService {
     static let shared = NotificationService()
+    private var subscribedTopic: String?
 
     func sendNotification(to token: String, title: String, body: String) {
         let urlString = "https://fcm.googleapis.com/fcm/send"
@@ -59,11 +38,15 @@ class NotificationService {
         db.collection("key_venues").document(buildingID).getDocument { document, error in
             if let document = document, document.exists {
                 if let venueName = document.data()?["name"] as? String {
-                    Messaging.messaging().subscribe(toTopic: venueName) { error in
-                        if let error = error {
-                            print("Error subscribing to topic: \(error)")
-                        } else {
-                            print("Subscribed to topic: \(venueName)")
+                    let topic = self.sanitizeTopicName(venueName)
+                    self.unsubscribeFromCurrentTopic {
+                        Messaging.messaging().subscribe(toTopic: topic) { error in
+                            if let error = error {
+                                print("Error subscribing to topic: \(error)")
+                            } else {
+                                print("Subscribed to topic: \(topic)")
+                                self.subscribedTopic = topic
+                            }
                         }
                     }
                 }
@@ -71,20 +54,25 @@ class NotificationService {
         }
     }
 
-    func unsubscribeFromVenueTopic(buildingID: String) {
-        let db = Firestore.firestore()
-        db.collection("key_venues").document(buildingID).getDocument { document, error in
-            if let document = document, document.exists {
-                if let venueName = document.data()?["name"] as? String {
-                    Messaging.messaging().unsubscribe(fromTopic: venueName) { error in
-                        if let error = error {
-                            print("Error unsubscribing from topic: \(error)")
-                        } else {
-                            print("Unsubscribed from topic: \(venueName)")
-                        }
-                    }
-                }
-            }
+    func unsubscribeFromCurrentTopic(completion: @escaping () -> Void) {
+        guard let topic = subscribedTopic else {
+            completion()
+            return
         }
+
+        Messaging.messaging().unsubscribe(fromTopic: topic) { error in
+            if let error = error {
+                print("Error unsubscribing from topic: \(error)")
+            } else {
+                print("Unsubscribed from topic: \(topic)")
+                self.subscribedTopic = nil
+            }
+            completion()
+        }
+    }
+
+    func sanitizeTopicName(_ name: String) -> String {
+        // Replace spaces with underscores and remove non-alphanumeric characters
+        return name.replacingOccurrences(of: " ", with: "_").filter { $0.isLetter || $0.isNumber || $0 == "_" }
     }
 }
