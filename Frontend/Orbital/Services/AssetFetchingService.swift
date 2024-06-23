@@ -71,7 +71,7 @@ class AssetFetchingService: ObservableObject {
                     cat: data["category"] as? String ?? "",
                     name: data["name"] as? String ?? "",
                     price: data["price"] as? Double ?? 0.0,
-                    icon: data["icon"] as? String ?? ""
+                    icon: document.documentID
                 )
                 guard data["is_public"] as? Bool == true else { continue }
 
@@ -107,7 +107,7 @@ class AssetFetchingService: ObservableObject {
     private func fetchImages(for assets: [Asset]) {
         let storageService = FirebaseStorageService()
         for asset in assets {
-            storageService.downloadImage(name: asset.icon) { image in
+            storageService.downloadImageAsset(name: asset.icon) { image in
                 if let image = image {
                     self.saveImageToLocalStorage(name: asset.icon, image: image)
                 }

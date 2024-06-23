@@ -5,8 +5,8 @@ import SwiftUI
 class FirebaseStorageService {
     private let storage = Storage.storage()
 
-    func downloadImage(name: String, completion: @escaping (UIImage?) -> Void) {
-        let pathReference = storage.reference(withPath: "images/\(name).png")
+    func downloadImageAsset(name: String, completion: @escaping (UIImage?) -> Void) {
+        let pathReference = storage.reference(withPath: "gs://orbital2024-9f1b1.appspot.com/\(name).png")
 
         // Check local cache first
         if let localImage = loadImageFromLocalStorage(name: name) {
