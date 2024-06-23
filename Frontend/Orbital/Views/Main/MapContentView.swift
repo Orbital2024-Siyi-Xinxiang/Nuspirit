@@ -42,8 +42,8 @@ struct MapContentView: View {
             detectVenueProximity(location: newLocation?.location)
         }
         .onChange(of: selectedBuildingID) { _ in
-            if selectedBuildingID == nil {
-                NotificationService.shared.unsubscribeAll()
+            if selectedBuildingID != nil {
+                // if currently in a building , don't show any messages
             }
         }
     }

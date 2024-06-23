@@ -1,10 +1,31 @@
+//
+//  FirebaseMessaging.swift
+//  Orbital
+//
+//  Created by Xu Siyi on 21/5/24.
+//
+
+
+// before implementing this
+//Configure FCM:
+
+// Set up FCM for your project and get the server key.
+// Use UNUserNotificationCenter to handle notifications.
+
+
+//MainMapView displays other users on the map, respecting their privacy settings.
+//ChatView handles sending and receiving messages and friend requests.
+//NotificationService sends notifications using FCM.
+
+
+// Use the NotificationService class to send notifications to a device token. The sendNotification method sends a notification to the device token with a title and body. Replace YOUR_SERVER_KEY with your server key.
+
 import Foundation
 import Firebase
 import UserNotifications
 
 class NotificationService {
     static let shared = NotificationService()
-    private var subscribedTopics: Set<String> = []
 
     func sendNotification(to token: String, title: String, body: String) {
         let urlString = "https://fcm.googleapis.com/fcm/send"
@@ -43,7 +64,6 @@ class NotificationService {
                             print("Error subscribing to topic: \(error)")
                         } else {
                             print("Subscribed to topic: \(venueName)")
-                            self.subscribedTopics.insert(venueName)
                         }
                     }
                 }
@@ -61,24 +81,10 @@ class NotificationService {
                             print("Error unsubscribing from topic: \(error)")
                         } else {
                             print("Unsubscribed from topic: \(venueName)")
-                            self.subscribedTopics.remove(venueName)
                         }
                     }
                 }
             }
         }
-    }
-
-    func unsubscribeAll() {
-        for topic in subscribedTopics {
-            Messaging.messaging().unsubscribe(fromTopic: topic) { error in
-                if let error = error {
-                    print("Error unsubscribing from topic: \(error)")
-                } else {
-                    print("Unsubscribed from topic: \(topic)")
-                }
-            }
-        }
-        subscribedTopics.removeAll()
     }
 }
