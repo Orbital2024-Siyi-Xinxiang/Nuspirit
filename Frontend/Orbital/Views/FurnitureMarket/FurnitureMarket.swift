@@ -1,10 +1,8 @@
-import Foundation
+import SwiftUI
 import FirebaseFirestore
 import Firebase
-import FirebaseAuth
+import FirebaseCore
 import FirebaseStorage
-import FirebaseAuthUI
-import SwiftUI
 
 struct FurnitureMarketView: View {
     @State private var selectedCategory: String? = nil
@@ -12,16 +10,18 @@ struct FurnitureMarketView: View {
     @State private var assets: [Asset] = []
     @State private var balance: Double = 1000.0
     
+    @StateObject private var assetService = AssetFetchingService()
+    
     var body: some View {
         NavigationView {
             VStack {
-                  HStack {
+                HStack {
                     // Left: Category buttons
                     VStack {
-                        ForEach(getCategories(), id: \.self) { category in
+                        ForEach(assetService.categories, id: \.self) { category in
                             Button(action: {
                                 selectedCategory = category
-                                assets = getAssets(for: category)
+                                assets = assetService.getAssets(for: category)
                             }) {
                                 Text(category)
                                     .padding()
@@ -37,15 +37,17 @@ struct FurnitureMarketView: View {
                         LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3), spacing: 16) {
                             ForEach(assets) { asset in
                                 VStack {
-                                    Image(systemName: asset.icon)
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 64, height: 64)
-                                        .background(selectedAsset == asset ? Color.yellow : Color.clear)
-                                        .onTapGesture {
-                                            selectedAsset = asset
-                                        }
-                                    Text("$\(asset.price, specifier: "%.2f")")
+                                    if let uiImage = UIImage(named: asset.icon) {
+                                        Image(uiImage: uiImage)
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 64, height: 64)
+                                            .background(selectedAsset == asset ? Color.yellow : Color.clear)
+                                            .onTapGesture {
+                                                selectedAsset = asset
+                                            }
+                                        Text("$\(asset.price, specifier: "%.2f")")
+                                    }
                                 }
                             }
                         }
@@ -55,10 +57,12 @@ struct FurnitureMarketView: View {
                     // Right: Asset preview
                     if let selectedAsset = selectedAsset {
                         VStack {
-                            Image(systemName: selectedAsset.icon)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 200, height: 200)
+                            if let uiImage = UIImage(named: selectedAsset.icon) {
+                                Image(uiImage: uiImage)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 200, height: 200)
+                            }
                             Text(selectedAsset.name)
                             Text("$\(selectedAsset.price, specifier: "%.2f")")
                             Button(action: {
@@ -90,27 +94,7 @@ struct FurnitureMarketView: View {
         }
         .onAppear {
             fetchBalance()
-        }
-    }
-
-    func getCategories() -> [String] {
-        return ["Furniture", "Housing", "Plant", "Animal", "Avatar"]
-    }
-
-    func getAssets(for category: String) -> [Asset] {
-        switch category {
-        case "Furniture":
-            return furnitureAssets
-        case "Housing":
-            return housingAssets
-        case "Plant":
-            return plantAssets
-        case "Animal":
-            return animalAssets
-        case "Avatar":
-            return avatarDesignAssets
-        default:
-            return []
+            assetService.fetchAssets()
         }
     }
 
@@ -144,11 +128,5 @@ struct FurnitureMarketView: View {
         } else {
             print("Insufficient balance")
         }
-    }
-}
-
-struct FurnitureMarketView_Previews: PreviewProvider {
-    static var previews: some View {
-        FurnitureMarketView().previewInterfaceOrientation(.landscapeLeft)
     }
 }

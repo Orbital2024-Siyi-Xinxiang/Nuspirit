@@ -79,6 +79,7 @@
 		B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */; };
 		B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */; };
 		B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */; };
+		B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */; };
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -198,6 +199,7 @@
 		B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContributionService.swift; sourceTree = "<group>"; };
 		B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyStatistics.swift; sourceTree = "<group>"; };
 		B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetchingService.swift; sourceTree = "<group>"; };
+		B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageService.swift; sourceTree = "<group>"; };
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 			children = (
 				5BC6DE3B2BF0AC470031650B /* AuthService(Deprecated).swift */,
 				B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */,
+				B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */,
 				B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */,
 				B574423F2C12953F009F6616 /* FirebaseAuthService.swift */,
 				B5110A0B2BFB81F000208FC4 /* LocationService.swift */,
@@ -884,6 +887,7 @@
 				B56F74772BF62F370048447E /* CartView.swift in Sources */,
 				B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
+				B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */,
 				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
 				B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */,
