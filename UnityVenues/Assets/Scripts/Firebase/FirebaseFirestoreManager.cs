@@ -33,6 +33,8 @@ public class FirebaseFirestoreManager : MonoBehaviour
     // Use this for initialization
     public void InitializeDatabase(int Id)
     {
+        Debug.Log("start initializing database");
+
        venueId = Id;
        StartCoroutine(LoadVenueDataAsync(venueId.ToString()));
     }
@@ -40,13 +42,21 @@ public class FirebaseFirestoreManager : MonoBehaviour
     private IEnumerator LoadVenueDataAsync(string venueId)
     {
         FirebaseFirestore firestore = FirebaseFirestore.DefaultInstance;
+        // Debug.Log("successfully created firestore instance");
 
         // Fetch document from Firestore
         DocumentReference docRef = firestore.Collection("venues").Document(venueId);
+
+        // Debug.Log("Start fetching snapshot");
+        
         var task = docRef.GetSnapshotAsync();
         yield return new WaitUntil(() => task.IsCompleted);
 
         DocumentSnapshot snapshot = task.Result;
+
+
+        // Debug.Log("snapshot fetched successfully!");
+
         if (snapshot.Exists)
         {
             // Fetch levels and venue name
@@ -66,7 +76,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Document does not exist!");
+            print("Document does not exist!");
         }
     }
 
@@ -101,15 +111,29 @@ public class FirebaseFirestoreManager : MonoBehaviour
             Venue venue = ScriptableObject.CreateInstance<Venue>();
             venue.id = levelId;
 
-            venue.venueBackground = await LoadVenueBackgroundAsync(backgroundId.GetValueOrDefault(default_background_id));
-            //venue.venueSolidLayer = await LoadVenueSolidLayerAsync(solidLayerId.GetValueOrDefault(default_solid_layer_id));
-            //if levelId == venueRenderer 's current initialized venue.id, then wait for bookable to finish and call 
+            var backgroundTask = LoadVenueBackgroundAsync(backgroundId.GetValueOrDefault(default_background_id));
+            var bookablesTask = LoadVenueBookablesAsync(bookableIds);
 
+            // Wait for both tasks to complete
+            await Task.WhenAll(backgroundTask, bookablesTask);
 
+            // Assign the results to the venue
+            venue.venueBackground = await backgroundTask;
+            venue.venueBookables = await bookablesTask;
 
-            venue.venueBookables = await LoadVenueBookablesAsync(bookableIds);
-            // if levelId == venueManager's current initlized venue.id, then wait for bookable to finish and call venueManager.InitializeBookables()
-            // same fro other objects
+            // Initialize the background
+
+            if (levelId == venueRenderer.venue.id)
+            {
+                await venueRenderer.InitializeBackground();
+            }
+
+            // Check and initialize bookables if needed
+            if (levelId == venueManager.venue.id)
+            {
+                await venueManager.InitializeBookables();
+            }
+
             venue.venueFacilities = await LoadVenueFacilitiesAsync(facilityIds);
             venue.venueInteractables = await LoadVenueInteractablesAsync(interactableIds);
             venue.venueSolidObjects = await LoadVenueSolidObjectsAsync(solidObjectIds);
@@ -124,7 +148,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Document does not exist!");
+            print("Document does not exist!");
         }
 
         return null;
@@ -144,7 +168,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
         if (texture == null)
         {
             // Handle error: use default texture
-            Debug.LogError($"Failed to load image with id: {backgroundId}. Using default texture.");
+            print($"Failed to load image with id: {backgroundId}. Using default texture.");
             texture = await firebaseStorageManager.LoadImageAsync($"gs://your-firebase-project-id.appspot.com/{default_background_id}.png");
         }
 
@@ -174,7 +198,8 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
                 if (snapshot.Exists)
                 {
-                    VenueBookable venueBookable = snapshot.ConvertTo<VenueBookable>();
+                    VenueBookable venueBookable = ScriptableObject.CreateInstance<VenueBookable>();
+                    venueBookable = snapshot.ConvertTo<VenueBookable>();
 
                     // Assign additional fields if they are not part of the automatic conversion
                     venueBookable.id = id.ToString();
@@ -188,7 +213,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
                     }
                     else
                     {
-                        Debug.LogWarning($"Failed to parse color '{colorString}' for venue {id}");
+                        print($"Failed to parse color '{colorString}' for venue {id}");
                     }
 
                     // Convert size list to Vector2
@@ -199,7 +224,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
                     }
                     else
                     {
-                        Debug.LogWarning($"Invalid size data for venue {id}. Expected 2 elements, got {sizeList?.Count}");
+                        print($"Invalid size data for venue {id}. Expected 2 elements, got {sizeList?.Count}");
                     }
 
                     venueBookable.capacity = snapshot.GetValue<int>("capacity");
@@ -212,7 +237,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
                     }
                     else
                     {
-                        Debug.LogWarning($"Invalid position data for venue {id}. Expected 2 elements, got {positionList?.Count}");
+                        print($"Invalid position data for venue {id}. Expected 2 elements, got {positionList?.Count}");
                     }
 
                     // Assuming 'bookable' is a prefab or GameObject to be assigned later
@@ -222,12 +247,12 @@ public class FirebaseFirestoreManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogWarning($"Document with id {id} does not exist in Firestore.");
+                    print($"Document with id {id} does not exist in Firestore.");
                 }
             }
             catch (System.Exception ex)
             {
-                Debug.LogError($"Error loading venue bookable with id {id}: {ex.Message}");
+                print($"Error loading venue bookable with id {id}: {ex.Message}");
             }
         }
 

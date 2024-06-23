@@ -7,5 +7,5 @@ public class VenueFacility : ScriptableObject
     public string category;
     public Vector2 position;
     public Vector2 size;
-    public GameObject facility;
+    public Facility facility;
 }
