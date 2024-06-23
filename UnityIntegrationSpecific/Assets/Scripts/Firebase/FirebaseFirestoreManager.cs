@@ -29,6 +29,9 @@ public class FirebaseFirestoreManager : MonoBehaviour
     public int venueLevels;
     public string venueName;
     public int venueId;
+    public Dictionary<string, Texture2D> venueFacilitiesDict;
+    public Dictionary<string, Texture2D> venueInteractablesDict;
+    public Dictionary<string, Texture2D> venueSolidObjectsDict;
 
     // Use this for initialization
     public void InitializeDatabase(int Id)
@@ -36,7 +39,9 @@ public class FirebaseFirestoreManager : MonoBehaviour
         Debug.Log("start initializing database");
 
         venueId = Id;
-
+        venueFacilitiesDict = new Dictionary<string, Texture2D>();
+        venueInteractablesDict = new Dictionary<string, Texture2D>();
+        venueSolidObjectsDict = new Dictionary<string, Texture2D>();
         //Debug.Log($"VenueID: {venueId}");
 
         StartCoroutine(LoadVenueDataAsync(venueId.ToString()));
@@ -169,6 +174,11 @@ public class FirebaseFirestoreManager : MonoBehaviour
 
         return null;
     }
+
+
+
+
+    // load models
 
     private async Task<VenueBackground> LoadVenueBackgroundAsync(int backgroundId, string levelId)
     {
@@ -307,59 +317,83 @@ public class FirebaseFirestoreManager : MonoBehaviour
     private async Task<VenueFacility[]> LoadVenueFacilitiesAsync(List<int> ids, string levelId)
     {
         FirebaseFirestore firestore = FirebaseFirestore.DefaultInstance;
-        List<VenueBookable> venueBookables = new List<VenueBookable>();
+        List<VenueFacility> venueFacilities = new List<VenueFacility>();
 
         foreach (int id in ids)
         {
             try
             {
-                DocumentReference docRef = firestore.Collection("venues_bookables").Document(id.ToString());
+                DocumentReference docRef = firestore.Collection("venues_facilities").Document(id.ToString());
                 DocumentSnapshot snapshot = await docRef.GetSnapshotAsync();
 
                 if (snapshot.Exists)
                 {
-                    VenueBookable venueBookable = ScriptableObject.CreateInstance<VenueBookable>();
-                    venueBookables.Add(venueBookable);
+                    VenueFacility venueFacility = ScriptableObject.CreateInstance<VenueFacility>();
+                    venueFacilities.Add(venueFacility);
                     //venueBookable = snapshot.ConvertTo<VenueBookable>();
 
                     // Retrieve fields, using default values if they are missing
-                    venueBookable.id = id.ToString();
-                    venueBookable.bookableName = snapshot.ContainsField("name") ? snapshot.GetValue<string>("name") : "study_room";
-                    // Parse color from HTML string
-                    string colorString = snapshot.ContainsField("color") ? snapshot.GetValue<string>("color") : "white";
-                    if (ColorUtility.TryParseHtmlString(colorString, out Color color))
-                    {
-                        venueBookable.color = color;
-                    }
-                    else
-                    {
-                        Debug.LogError($"Failed to parse color '{colorString}' for bookable {id}");
-                    }
+                    venueFacility.id = id.ToString();
+                    venueFacility.category = snapshot.ContainsField("category") ? snapshot.GetValue<string>("category") : "water_dispenser";
+                    venueFacility.name = "facility " + venueFacility.id + " " + venueFacility.category;
+
+
                     List<float> sizeList = snapshot.ContainsField("size") ? snapshot.GetValue<List<float>>("size") : new List<float> { 1f, 1f };
 
                     if (sizeList != null && sizeList.Count == 2)
                     {
-                        venueBookable.size = new Vector2(sizeList[0], sizeList[1]);
+                        venueFacility.size = new Vector2(sizeList[0], sizeList[1]);
                     }
                     else
                     {
                         Debug.LogError($"Invalid size data for venue {id}. Expected 2 elements, got {sizeList?.Count}");
                     }
 
-                    venueBookable.capacity = snapshot.ContainsField("capacity") ? (snapshot.GetValue<int?>("capacity") ?? 10) : 10;
-                    // Convert position list to Vector2
+               
+                    // assign position
                     List<float> positionList = snapshot.ContainsField("position") ? snapshot.GetValue<List<float>>("position") : new List<float> { 1f, 1f };
                     if (positionList != null && positionList.Count == 2)
                     {
-                        venueBookable.position = new Vector2(positionList[0], positionList[1]);
+                        venueFacility.position = new Vector2(positionList[0], positionList[1]);
                     }
                     else
                     {
                         Debug.LogError($"Invalid position data for venue {id}. Expected 2 elements, got {positionList?.Count}");
                     }
+                    Texture2D venueTexture;
+
+                    if (venueFacilitiesDict.TryGetValue(venueFacility.id, out venueTexture))
+                    {
+                        if (venueTexture != null)
+                        {
+                            Sprite sprite = SpriteUtility.ConvertToSprite(venueTexture);
+                            venueFacility.sprite = sprite;
+                        }
+                        else
+                        {
+                            venueFacilitiesDict.Remove(venueFacility.id);
+                        }
+                    }
+                    else
+                    {
+                        int imageId = snapshot.ContainsField("image") ? snapshot.GetValue<int>("image") : default_facility_id;
+                        string imageUrl = $"gs://orbital2024-9f1b1.appspot.com/venue_images/{imageId}.png";
+                        Texture2D texture = await firebaseStorageManager.LoadImageAsync(imageUrl);
+
+                        if (texture == null)
+                        {
+                            // Handle error: use default texture
+                            Debug.LogError($"Failed to load image with id: {imageId}. Using default texture.");
+                            texture = await firebaseStorageManager.LoadImageAsync($"gs://orbital2024-9f1b1.appspot.com/venue_images/{default_facility_id}.png");
+
+                        }
+
+                        Sprite sprite = SpriteUtility.ConvertToSprite(venueTexture);
+                        venueFacility.sprite = sprite;
+                    }
 
                     // Assuming 'bookable' is a prefab or GameObject to be assigned later
-                    venueBookable.bookable = null;
+                    venueFacility.facility = null;
                 }
                 else
                 {
@@ -372,21 +406,185 @@ public class FirebaseFirestoreManager : MonoBehaviour
             }
         }
 
-        return venueBookables.ToArray();
+        return venueFacilities.ToArray();
     }
 
     private async Task<VenueInteractable[]> LoadVenueInteractablesAsync(List<int> ids, string levelId)
     {
-        // Implementation to load venue interactables from Firestore
-        // Placeholder for now
-        return await Task.FromResult(new VenueInteractable[0]);
+        FirebaseFirestore firestore = FirebaseFirestore.DefaultInstance;
+        List<VenueInteractable> venueInteractables = new List<VenueInteractable>();
+
+        foreach (int id in ids)
+        {
+            try
+            {
+                DocumentReference docRef = firestore.Collection("venues_interactables").Document(id.ToString());
+                DocumentSnapshot snapshot = await docRef.GetSnapshotAsync();
+
+                if (snapshot.Exists)
+                {
+                    VenueInteractable venueInteractable = ScriptableObject.CreateInstance<VenueInteractable>();
+                    venueInteractables.Add(venueInteractable);
+
+                    venueInteractable.id = id.ToString();
+                    venueInteractable.category = snapshot.ContainsField("category") ? snapshot.GetValue<string>("category") : "default_category";
+                    venueInteractable.name = "interactable " + venueInteractable.id + " " + venueInteractable.category;
+
+                    List<float> sizeList = snapshot.ContainsField("size") ? snapshot.GetValue<List<float>>("size") : new List<float> { 1f, 1f };
+
+                    if (sizeList != null && sizeList.Count == 2)
+                    {
+                        venueInteractable.size = new Vector2(sizeList[0], sizeList[1]);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Invalid size data for interactable {id}. Expected 2 elements, got {sizeList?.Count}");
+                    }
+
+                    List<float> positionList = snapshot.ContainsField("position") ? snapshot.GetValue<List<float>>("position") : new List<float> { 1f, 1f };
+
+                    if (positionList != null && positionList.Count == 2)
+                    {
+                        venueInteractable.position = new Vector2(positionList[0], positionList[1]);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Invalid position data for interactable {id}. Expected 2 elements, got {positionList?.Count}");
+                    }
+
+                    Texture2D venueTexture;
+
+                    if (venueInteractablesDict.TryGetValue(venueInteractable.id, out venueTexture))
+                    {
+                        if (venueTexture != null)
+                        {
+                            Sprite sprite = SpriteUtility.ConvertToSprite(venueTexture);
+                            venueInteractable.sprite = sprite;
+                        }
+                        else
+                        {
+                            venueInteractablesDict.Remove(venueInteractable.id);
+                        }
+                    }
+                    else
+                    {
+                        int imageId = snapshot.ContainsField("image") ? snapshot.GetValue<int>("image") : default_interactable_id;
+                        string imageUrl = $"gs://orbital2024-9f1b1.appspot.com/venue_images/{imageId}.png";
+                        Texture2D texture = await firebaseStorageManager.LoadImageAsync(imageUrl);
+
+                        if (texture == null)
+                        {
+                            Debug.LogError($"Failed to load image with id: {imageId}. Using default texture.");
+                            texture = await firebaseStorageManager.LoadImageAsync($"gs://orbital2024-9f1b1.appspot.com/venue_images/{default_interactable_id}.png");
+                        }
+
+                        Sprite sprite = SpriteUtility.ConvertToSprite(venueTexture);
+                        venueInteractable.sprite = sprite;
+                    }
+
+                    venueInteractable.interactable = null;
+                }
+                else
+                {
+                    Debug.LogError($"Document with id {id} does not exist in Firestore.");
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"Error loading venue interactable with id {id}: {ex.Message}");
+            }
+        }
+
+        return venueInteractables.ToArray();
     }
 
     private async Task<VenueSolidObject[]> LoadVenueSolidObjectsAsync(List<int> ids, string levelId)
     {
-        // Implementation to load venue solid objects from Firestore
-        // Placeholder for now
-        return await Task.FromResult(new VenueSolidObject[0]);
+        FirebaseFirestore firestore = FirebaseFirestore.DefaultInstance;
+        List<VenueSolidObject> venueSolidObjects = new List<VenueSolidObject>();
+
+        foreach (int id in ids)
+        {
+            try
+            {
+                DocumentReference docRef = firestore.Collection("venues_solid_objects").Document(id.ToString());
+                DocumentSnapshot snapshot = await docRef.GetSnapshotAsync();
+
+                if (snapshot.Exists)
+                {
+                    VenueSolidObject venueSolidObject = ScriptableObject.CreateInstance<VenueSolidObject>();
+                    venueSolidObjects.Add(venueSolidObject);
+
+                    venueSolidObject.id = id.ToString();
+                    venueSolidObject.category = snapshot.ContainsField("category") ? snapshot.GetValue<string>("category") : "default_category";
+                    venueSolidObject.name = "solid object " + venueSolidObject.id + " " + venueSolidObject.category;
+
+                    List<float> sizeList = snapshot.ContainsField("size") ? snapshot.GetValue<List<float>>("size") : new List<float> { 1f, 1f };
+
+                    if (sizeList != null && sizeList.Count == 2)
+                    {
+                        venueSolidObject.size = new Vector2(sizeList[0], sizeList[1]);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Invalid size data for solid object {id}. Expected 2 elements, got {sizeList?.Count}");
+                    }
+
+                    List<float> positionList = snapshot.ContainsField("position") ? snapshot.GetValue<List<float>>("position") : new List<float> { 1f, 1f };
+
+                    if (positionList != null && positionList.Count == 2)
+                    {
+                        venueSolidObject.position = new Vector2(positionList[0], positionList[1]);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Invalid position data for solid object {id}. Expected 2 elements, got {positionList?.Count}");
+                    }
+
+                    Texture2D venueTexture;
+
+                    if (venueSolidObjectsDict.TryGetValue(venueSolidObject.id, out venueTexture))
+                    {
+                        if (venueTexture != null)
+                        {
+                            Sprite sprite = SpriteUtility.ConvertToSprite(venueTexture);
+                            venueSolidObject.sprite = sprite;
+                        }
+                        else
+                        {
+                            venueSolidObjectsDict.Remove(venueSolidObject.id);
+                        }
+                    }
+                    else
+                    {
+                        int imageId = snapshot.ContainsField("image") ? snapshot.GetValue<int>("image") : default_solid_object_id;
+                        string imageUrl = $"gs://orbital2024-9f1b1.appspot.com/venue_images/{imageId}.png";
+                        Texture2D texture = await firebaseStorageManager.LoadImageAsync(imageUrl);
+
+                        if (texture == null)
+                        {
+                            Debug.LogError($"Failed to load image with id: {imageId}. Using default texture.");
+                            texture = await firebaseStorageManager.LoadImageAsync($"gs://orbital2024-9f1b1.appspot.com/venue_images/{default_solid_object_id}.png");
+                        }
+
+                        Sprite sprite = SpriteUtility.ConvertToSprite(venueTexture);
+                        venueSolidObject.sprite = sprite;
+                    }
+
+                    venueSolidObject.solidObject = null;
+                }
+                else
+                {
+                    Debug.LogError($"Document with id {id} does not exist in Firestore.");
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"Error loading venue solid object with id {id}: {ex.Message}");
+            }
+        }
+
+        return venueSolidObjects.ToArray();
     }
 
     private async Task<VenueTransferPoint[]> LoadVenueTransferPointsAsync(List<int> ids, string levelId)
@@ -406,6 +604,7 @@ public class FirebaseFirestoreManager : MonoBehaviour
             await venueRenderer.InitializeBackground();
         }
     }
+
     private async Task ProcessSolidLayerAsync(Task<VenueSolidLayer> solidLayerTask, VenueRenderer venueRenderer, Venue venue, string levelId)
     {
         venue.venueSolidLayer= await solidLayerTask;
