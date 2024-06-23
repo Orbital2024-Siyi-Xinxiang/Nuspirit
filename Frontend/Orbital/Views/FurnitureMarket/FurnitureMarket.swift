@@ -11,11 +11,11 @@ struct FurnitureMarketView: View {
     @State private var selectedAsset: Asset? = nil
     @State private var assets: [Asset] = []
     @State private var balance: Double = 1000.0
-
+    
     var body: some View {
         NavigationView {
             VStack {
-                HStack {
+                  HStack {
                     // Left: Category buttons
                     VStack {
                         ForEach(getCategories(), id: \.self) { category in
@@ -40,7 +40,7 @@ struct FurnitureMarketView: View {
                                     Image(systemName: asset.icon)
                                         .resizable()
                                         .scaledToFit()
-                                        .frame(width: 100, height: 100)
+                                        .frame(width: 64, height: 64)
                                         .background(selectedAsset == asset ? Color.yellow : Color.clear)
                                         .onTapGesture {
                                             selectedAsset = asset
