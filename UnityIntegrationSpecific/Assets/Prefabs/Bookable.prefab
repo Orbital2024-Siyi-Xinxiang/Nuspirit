@@ -101,6 +101,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bookableData: {fileID: 0}
-  available: 
-  slotBookable: 
-  booked: 
+  bookVenueView: {fileID: 7753676368209874476, guid: 13074d8cac2454140b3839c4f2d772eb, type: 3}
+  closeButton: {fileID: 0}

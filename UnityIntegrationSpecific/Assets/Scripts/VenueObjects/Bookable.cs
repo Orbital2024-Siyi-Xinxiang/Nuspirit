@@ -1,14 +1,22 @@
 using UnityEngine;
-using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class Bookable : MonoBehaviour
 {
     public VenueBookable bookableData;
-    public GameObject bookVenueView;
+    public GameObject bookVenueView;  // Assign the UI panel in the inspector
+    public Button closeButton;  // Assign the close button in the inspector
 
     void Start()
     {
+        // Hide the bookVenueView when the game starts
+        bookVenueView.SetActive(false);
+
+        // Ensure bookableData is initialized
         bookableData = ScriptableObject.CreateInstance<VenueBookable>();
+
+        // Assign the CloseButton's onClick event to a method
+        closeButton.onClick.AddListener(HideBookVenueView);
     }
 
     public void Initialize(VenueBookable bookableData)
@@ -16,10 +24,20 @@ public class Bookable : MonoBehaviour
         this.bookableData = bookableData;
     }
 
-
-    // Update is called once per frame
     void Update()
     {
+        // Any additional update logic
+    }
 
+    void OnMouseDown()
+    {
+        // Show the bookVenueView when the gameObject is clicked
+        bookVenueView.SetActive(true);
+    }
+
+    void HideBookVenueView()
+    {
+        // Hide the bookVenueView
+        bookVenueView.SetActive(false);
     }
 }

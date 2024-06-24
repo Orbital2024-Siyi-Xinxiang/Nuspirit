@@ -6,10 +6,10 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VenueObjects/Bookable.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameStateManager.cs" />
-      <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" Line="34" Column="33" />
+      <File FileName="Assets/Scripts/GameStateManager.cs" Line="18" Column="36" />
+      <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" Line="25" Column="23" />
       <File FileName="Assets/Scripts/Firebase/FirebaseStorageManager.cs" />
       <File FileName="Assets/Art/Fonts/OFL.txt" />
       <File FileName="Assets/Scripts/MultiPlayer/UserManager.cs" />
@@ -29,10 +29,10 @@
       <File FileName="Assets/Scripts/VenueObjects/SolidObject.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
-      <File FileName="Assets/Scripts/VenueObjects/Bookable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/VenueObjects/Bookable.cs" Line="25" Column="6" />
       <File FileName="Assets/Scripts/VenueObjects/Facility.cs" />
-      <File FileName="Assets/Scripts/VenueObjects/Interactable.cs" />
-      <File FileName="Assets/Scripts/VenueObjects/TransferPoint.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/Interactable.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/VenueObjects/TransferPoint.cs" Line="23" Column="1" />
       <File FileName="Assets/Scripts/MapTransfer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -41,15 +41,8 @@
           <Node name="UnityIntegrationSpecific">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Firebase" expanded="True" />
-                <Node name="MultiPlayer" expanded="True" />
-                <Node name="ScriptableObjects" expanded="True">
-                  <Node name="VenueModels" expanded="True" />
-                </Node>
-                <Node name="VenueManagement" expanded="True" />
                 <Node name="VenueObjects" expanded="True" />
               </Node>
-              <Node name="TextMesh Pro" expanded="True" />
             </Node>
           </Node>
         </State>
