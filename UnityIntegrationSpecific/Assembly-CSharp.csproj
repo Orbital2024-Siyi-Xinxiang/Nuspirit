@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Firebase/FirebaseStorageManager.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/SolidObject.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl/PersistentUI.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBackground.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/Venue.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl/PersistentEventSystem.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/TransferPoint.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/AssetManagement/AssetManager.cs" />
@@ -83,7 +85,8 @@
     <Compile Include="Assets/Scripts/VenueObjects/Bookable.cs" />
     <Compile Include="Assets/Scripts/UI/QuitButton.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerController.cs" />
-    <Compile Include="Assets/Scripts/PlayerControl/VirtualJoystick.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl/Debugger.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl/Joystick.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/VenueManager.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/TileUtility.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
@@ -92,6 +95,7 @@
     <Compile Include="Assets/Scripts/Firebase/FirebaseInitializer.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/SpriteUtility.cs" />
     <Compile Include="Assets/Scripts/SceneLoader.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl/RemainVisible.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Playables/VenuePlayableBehaviour.cs" />
