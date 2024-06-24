@@ -17,7 +17,7 @@ MonoBehaviour:
     prefab: {fileID: 1558858724333871900, guid: 91724642d275f438fa57d39c84f535fa, type: 3}
     availableQuantity: 1
   - category: Housing
-    prefab: {fileID: 2455587721807534407, guid: d4855a7f4af2c46dda888be79a3684e3, type: 3}
+    prefab: {fileID: 358790745597758255, guid: dabc99471a26e4b81b84d7c005efe60d, type: 3}
     availableQuantity: 2
   - category: Vegetation
     prefab: {fileID: 883105186416925116, guid: df725d49d4d8f4c9a9d77c44b2b0203f, type: 3}
