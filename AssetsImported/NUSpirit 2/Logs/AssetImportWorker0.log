@@ -322,3 +322,48 @@ Memory consumption went from 143.7 MB to 142.4 MB.
 Total: 6.750375 ms (FindLiveObjects: 0.233333 ms CreateObjectMapping: 0.151833 ms MarkObjects: 5.451167 ms  DeleteObjects: 0.913625 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 572.968178 seconds.
+  path: Assets/Scripts/Joystick.cs
+  artifactKey: Guid(f39e64a1d24204ef8a5c273202a1a600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Joystick.cs using Guid(f39e64a1d24204ef8a5c273202a1a600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2b17a1ab653c9d2b9c591c0f397e4c82') in 0.004516083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.136358 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(e6db6454170df4e8480113bac5f1654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(e6db6454170df4e8480113bac5f1654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'eb1edb1a6ae7f1f989381d6281a6ee13') in 0.000475167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.091969 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(3285521a9f1614e378b55ec5f53382ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(3285521a9f1614e378b55ec5f53382ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2419ad5d131db5cfc8e4eaee4922444c') in 0.001396833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.035862 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4744b5359d800edef94611e03ff095c5') in 0.001345458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.888193 seconds.
+  path: Assets/GoogleService-Info.plist
+  artifactKey: Guid(44b49b4b6076f490ab5687eec59f4aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleService-Info.plist using Guid(44b49b4b6076f490ab5687eec59f4aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f04b90505f7f4b2d45cee216ab2f423e') in 0.043641333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
