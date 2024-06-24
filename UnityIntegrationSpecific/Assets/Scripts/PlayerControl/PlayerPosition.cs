@@ -5,6 +5,7 @@ public class PlayerPosition : MonoBehaviour
 {
     public static PlayerPosition instance;
     public Vector2 targetPosition;
+    public GameObject joystickCanvas;  // Add this line to reference the joystick canvas
 
     private void Awake()
     {
@@ -12,6 +13,7 @@ public class PlayerPosition : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(joystickCanvas);  // Add this line to keep the joystick canvas persistent
         }
         else
         {

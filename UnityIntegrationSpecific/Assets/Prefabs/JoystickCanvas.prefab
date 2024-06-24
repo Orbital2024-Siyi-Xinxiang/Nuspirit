@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 588609092293863933, guid: 8cbae3d06d17e49abbe4d7a25c028b68, type: 3}
+  m_Sprite: {fileID: 588609092293863933, guid: b990e4846498b477bb31855c822f36b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -124,7 +124,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 857112860631176884, guid: 9bd39bdb11ae4421ab8db50267ba938d, type: 3}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -188,7 +188,6 @@ GameObject:
   - component: {fileID: 2747556124836645153}
   - component: {fileID: 1966446612476900014}
   - component: {fileID: 5963907691036035658}
-  - component: {fileID: 3434771151276008624}
   m_Layer: 5
   m_Name: Joystick
   m_TagString: Untagged
@@ -244,7 +243,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4396289648107233872, guid: 9ed5981cbc1314b97b419d55274e312a, type: 3}
+  m_Sprite: {fileID: -4396289648107233872, guid: 721820911538348b6a505c4b742b05da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -254,15 +253,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3434771151276008624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4763545333438171859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f39e64a1d24204ef8a5c273202a1a600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

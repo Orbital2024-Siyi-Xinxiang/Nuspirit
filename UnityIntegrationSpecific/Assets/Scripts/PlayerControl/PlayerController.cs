@@ -6,17 +6,17 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public bool isMoving;
-    public Vector2 input; // vector2 is holding a 2D object with x and y coordinates 
+    public Vector2 input; // Vector2 is holding a 2D object with x and y coordinates 
     private Animator animator;
     public LayerMask solidObjectLayer;
 
     private static PlayerController instance;
     private Coroutine moveCoroutine;
     private BoxCollider2D boxCollider;
+    public Joystick joystick; // Reference to the joystick
 
     private void Awake()
     {
-        SetPlayerScale((new Vector3(4.5f, 4.5f, 4.5f)));
         // Ensure only one instance of the player exists
         if (instance == null)
         {
@@ -31,11 +31,11 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
 
-        // Adjust BoxCollider2D size and offset
+        // Adjust BoxCollider2D size and offset to cover the entire body
         if (boxCollider != null)
         {
-            boxCollider.size = new Vector2(0.5f, 0.1f); // Adjust these values as needed
-            boxCollider.offset = new Vector2(0f, -0.5f); // Adjust the offset as needed
+            boxCollider.size = new Vector2(1f, 2f); // Adjust these values as needed
+            boxCollider.offset = new Vector2(0f, 0f); // Adjust the offset as needed
         }
     }
 
@@ -73,7 +73,25 @@ public class PlayerController : MonoBehaviour
     {
         if (!isMoving)
         {
-            DetectMobileInput();
+            // Use joystick input if available, otherwise fallback to keyboard input
+            input.x = joystick.Horizontal();
+            input.y = joystick.Vertical();
+
+            if (input == Vector2.zero)
+            {
+                input.x = Input.GetAxisRaw("Horizontal");
+                input.y = Input.GetAxisRaw("Vertical");
+            }
+
+            // Ban diagonal movement
+            if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+            {
+                input.y = 0;
+            }
+            else
+            {
+                input.x = 0;
+            }
 
             if (input != Vector2.zero) // Vector2.zero is (0.0)
             {
@@ -94,60 +112,46 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isMoving", isMoving);
     }
 
-    private void DetectMobileInput()
-    {
-        input = Vector2.zero;
-
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
-            {
-                Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-                Vector2 direction = touchPosition - (Vector2)transform.position;
-
-                if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
-                {
-                    input.x = direction.x > 0 ? 1 : -1;
-                    input.y = 0;
-                }
-                else
-                {
-                    input.y = direction.y > 0 ? 1 : -1;
-                    input.x = 0;
-                }
-            }
-        }
-    }
-
     IEnumerator Move(Vector3 targetPos)
     {
         isMoving = true;
-        animator.SetBool("isMoving", true);
-
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            yield return null;
+            var nextPos = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+            if (IsWalkable(nextPos))
+            {
+                transform.position = nextPos;
+            }
+            else
+            {
+                break;
+            }
+            yield return new WaitForFixedUpdate(); // Use FixedUpdate for physics consistency
         }
 
-        transform.position = targetPos;
+        // Final position check
+        if (!IsWalkable(targetPos))
+        {
+            transform.position = targetPos; // Ensure target position is set correctly
+        }
         isMoving = false;
-        animator.SetBool("isMoving", false);
     }
 
     private bool IsWalkable(Vector3 targetPos)
     {
-        if (Physics2D.OverlapCircle(targetPos, 0.1f, solidObjectLayer) != null)
+        // Increase the radius of the overlap check for better detection of thin colliders
+        float detectionRadius = 0.2f;
+
+        // Check the entire box collider area
+        Vector2 colliderSize = boxCollider.size;
+        Vector2 colliderOffset = boxCollider.offset;
+        Vector2 colliderCenter = (Vector2)targetPos + colliderOffset;
+
+        Collider2D hitCollider = Physics2D.OverlapBox(colliderCenter, colliderSize, 0f, solidObjectLayer);
+        if (hitCollider != null)
         {
             return false;
         }
         return true;
-    }
-
-    public void SetPlayerScale(Vector3 scale)
-    {
-        transform.localScale = scale;
     }
 }

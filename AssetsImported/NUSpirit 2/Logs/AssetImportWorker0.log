@@ -367,3 +367,125 @@ Start importing Assets/GoogleService-Info.plist using Guid(44b49b4b6076f490ab568
  -> (artifact id: 'f04b90505f7f4b2d45cee216ab2f423e') in 0.043641333 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 2425.922577 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(923e8c2d52e124341963b8f769d9d9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(923e8c2d52e124341963b8f769d9d9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a73676f3dcb4b18f7e8902bc02250a06') in 0.001566292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x3403c7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.808 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1560ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (230ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (751ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4596 unused Assets / (1.1 MB). Loaded Objects now: 5246.
+Memory consumption went from 147.8 MB to 146.7 MB.
+Total: 6.686791 ms (FindLiveObjects: 0.245583 ms CreateObjectMapping: 0.165375 ms MarkObjects: 5.492584 ms  DeleteObjects: 0.782750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1975.335719 seconds.
+  path: Assets/Scenes/CLBLevel1New.unity
+  artifactKey: Guid(71d41caa4561447d5894815430d366a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CLBLevel1New.unity using Guid(71d41caa4561447d5894815430d366a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a1df0055f95a6afdeeecb5d6ad0f9801') in 0.006139125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274177 seconds.
+  path: Assets/Scenes/CLBLevel1Indoor.unity
+  artifactKey: Guid(7ad66697a48a74532a8e884d49a99b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CLBLevel1Indoor.unity using Guid(7ad66697a48a74532a8e884d49a99b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6bba86cbf34fca6931a3e5b02c024433') in 0.000740833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.445939 seconds.
+  path: Assets/Scenes/CLBLevel2.unity
+  artifactKey: Guid(ab2f6f338d1594014a9b6aeb342d6c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CLBLevel2.unity using Guid(ab2f6f338d1594014a9b6aeb342d6c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3a94697b250a024973693ead38e70aa5') in 0.000361625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.542940 seconds.
+  path: Assets/Scenes/CLBAreaOutdoor.unity
+  artifactKey: Guid(7db7ddd34255340158c4434952871053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CLBAreaOutdoor.unity using Guid(7db7ddd34255340158c4434952871053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5f7d71b9df5e3199d37fab12a23f0757') in 0.000359875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.758183 seconds.
+  path: Assets/Main Camera.prefab
+  artifactKey: Guid(9bd39bdb11ae4421ab8db50267ba938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Camera.prefab using Guid(9bd39bdb11ae4421ab8db50267ba938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b1a584c014a7b63486333320fa856c24') in 0.043894833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.532112 seconds.
+  path: Assets/JoystickCanvas.prefab
+  artifactKey: Guid(6fea94709f8ed498893b4becff49840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JoystickCanvas.prefab using Guid(6fea94709f8ed498893b4becff49840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '83d591554e57b5b30d49b265c89b614f') in 0.01436425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
