@@ -75,7 +75,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Scripts/ViewControl/QuitButton.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/CategoryDatabaseSO.cs" />
-    <Compile Include="Assets/Scripts/Firestore/FirebaseInitializer.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectDatabaseSO.cs" />
@@ -97,7 +96,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/PlayerControl/PlayerController.cs" />
-    <Compile Include="Assets/Scripts/Firestore/FirestoreImageLoader.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/Scripts/ViewControl/SceneManager.cs" />

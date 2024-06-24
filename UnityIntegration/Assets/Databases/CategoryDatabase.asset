@@ -16,7 +16,7 @@ MonoBehaviour:
   - category: Background
     prefab: {fileID: 5405471648659892686, guid: 77949f8329fce45feb0e111ec097aaf7, type: 3}
   - category: Vegetation
-    prefab: {fileID: 7817725382569335301, guid: 9c2165eb226004cc8b7605f7b4553a75, type: 3}
+    prefab: {fileID: 4768058051456922674, guid: e614b8bd1c8fe47d38043b7d7bb6db0c, type: 3}
   - category: Animals
     prefab: {fileID: 1400145107580030563, guid: 7588c0cec6c2340f98eb88b8e345d5a7, type: 3}
   - category: Housing
