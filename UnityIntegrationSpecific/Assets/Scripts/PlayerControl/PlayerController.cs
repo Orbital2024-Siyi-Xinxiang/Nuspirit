@@ -150,6 +150,7 @@ public class PlayerController : MonoBehaviour
         Collider2D hitCollider = Physics2D.OverlapBox(colliderCenter, colliderSize, 0f, solidObjectLayer);
         if (hitCollider != null)
         {
+            Debug.LogWarning("not walkable!!!!!");
             return false;
         }
         return true;
