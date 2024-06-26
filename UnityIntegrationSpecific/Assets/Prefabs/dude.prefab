@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6edadbfe11f42cabe2aef905341a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
+  moveSpeed: 1
   isMoving: 0
   input: {x: 0, y: 0}
   solidObjectLayer:

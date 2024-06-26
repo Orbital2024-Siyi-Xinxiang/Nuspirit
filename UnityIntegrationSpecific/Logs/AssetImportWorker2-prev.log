@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-56841
+49627
 -job-worker-count
 5
 -background-job-worker-count
@@ -66,18 +66,918 @@ Successfully changed project path to: /Users/emma/Desktop/Repos/Orbital2024/Mono
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8329317376]  Target information:
+Player connection [8441138176]  Target information:
 
-Player connection [8329317376]  * "[IP] 172.31.106.4 [Port] 0 [Flags] 2 [Guid] 3739078747 [EditorId] 3739078747 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8441138176]  * "[IP] 10.249.96.218 [Port] 0 [Flags] 2 [Guid] 1946063806 [EditorId] 1946063806 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8329317376]  * "[IP] 169.254.107.165 [Port] 0 [Flags] 2 [Guid] 3739078747 [EditorId] 3739078747 [Version] 1048832 [Id] OSXEditor(0,Xus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
-
-Player connection [8329317376] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8329317376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8441138176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8441138176] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Library Redirect Path: Library/
+Failed to load 'mem://ProjectSettings/TimeManager.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/DynamicsManager.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
 [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-Refreshing native plugins compatible for Editor in 13.36 ms, found 8 plugins.
+Failed to load 'mem://ProjectSettings/QualitySettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/EditorBuildSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/EditorSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/NavMeshAreas.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/Physics2DSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/GraphicsSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/UnityConnectSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/ClusterInputManager.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Unknown error occurred while loading 'mem://ProjectSettings/PresetManager.asset'.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/VFXManager.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/VersionControlSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/MemorySettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://ProjectSettings/MultiplayerManager.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://Library/MonoManager.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://Library/BuildSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://Library/InspectorExpandedItems.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://Library/AnnotationManager'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Failed to load 'mem://Library/EditorUserBuildSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Unknown error occurred while loading 'mem://UserSettings/EditorUserSettings.asset'.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Unknown error occurred while loading 'mem://Library/SpriteAtlasDatabase.asset'.
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 LogRepeatingStringWithFlags(core::basic_string<char, core::StringStorageDefault<char>> const&, LogMessageFlags, int)
+ #3 PrintSerializedFileLoadError(core::basic_string<char, core::StringStorageDefault<char>> const&, unsigned long, SerializedFileLoadError)
+ #4 SerializedFile::InitializeRead(core::basic_string<char, core::StringStorageDefault<char>> const&, ResourceImageGroup&, unsigned long, bool, TransferInstructionFlags, VFS::FileSize, VFS::FileSize, CacheReaderBase*)
+ #5 PersistentManager::GetStreamNameSpaceInternal(int)
+ #6 PersistentManager::GetSerializedFileIfObjectAvailable(int, long long, PersistentManager::LockFlags)
+ #7 PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+ #8 PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+ #9 PersistentManager::ReadObject(int, AwakeFromLoadMode)
+ #10 PPtr<Object>::operator Object*() const
+ #11 AssetDatabase::ProduceSingletonAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&, bool)
+ #12 AssetDatabase::ReloadSingletonAssets()
+ #13 InitializeAssetDatabaseV2(bool, bool, bool, int*)
+ #14 AssetDatabase::InitializeAssetDatabase(bool, bool, bool, int*)
+ #15 Application::InitializeProject()
+ #16 -[EditorApplication applicationDidFinishLaunching:]
+ #17 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #18 ___CFXRegistrationPost_block_invoke
+ #19 _CFXRegistrationPost
+ #20 _CFXNotificationPost
+ #21 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #22 -[NSApplication _postDidFinishNotification]
+ #23 -[NSApplication _sendFinishLaunchingNotification]
+ #24 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #25 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #26 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #27 _NSAppleEventManagerGenericHandler
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 _AppleEventsCheckInAppWithBlock
+ #30 aeProcessAppleEvent
+ #31 AEProcessAppleEvent
+ #32 _DPSNextEvent
+ #33 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #34 -[NSApplication run]
+ #35 NSApplicationMain
+ #36 EditorMain(int, char const**)
+ #37 main
+ #38 start
+
+Refreshing native plugins compatible for Editor in 4.38 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.0b16 (1ddb887463a9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Resources/UnitySubsystems
@@ -92,7 +992,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56415
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -103,56 +1003,54 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.009855 seconds.
-- Loaded All Assemblies, in  0.267 seconds
+Registered in 0.010479 seconds.
+- Loaded All Assemblies, in  0.337 seconds
 Native extension for LinuxStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-[usbmuxd] Attached: 15 00008110-001250421A8A401E
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 199 ms
+Android Extension - Scanning For ADB Devices 212 ms
 Native extension for WindowsStandalone target not found
-objc[80796]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x1493d4600) and /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x14acdc600). One of the two will be used. Which one is undefined.
+objc[36415]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x330158600) and /Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x330714600). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-[usbmuxd] Attached: 15 00008110-001250421A8A401E
 Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.565 seconds
-Domain Reload Profiling: 832ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1014ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (88ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (97ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (565ms)
+	FinalizeReload (677ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (533ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (342ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (66ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
+			InitializePlatformSupportModulesInManaged (397ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,8 +1059,8 @@ Domain Reload Profiling: 832ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.864 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.129 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
@@ -179,162 +1077,45 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.597 seconds
-Domain Reload Profiling: 1458ms
-	BeginReloadAssembly (463ms)
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1926ms
+	BeginReloadAssembly (602ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (345ms)
-		LoadAssemblies (234ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (300ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (91ms)
-			BuildScriptInfoCaches (30ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (597ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (130ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (800ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
+		SetupLoadedEditorAssemblies (650ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Launching external process: /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.65 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4655 unused Assets / (1.9 MB). Loaded Objects now: 5212.
-Memory consumption went from 124.6 MB to 122.7 MB.
-Total: 6.044458 ms (FindLiveObjects: 0.352291 ms CreateObjectMapping: 0.115666 ms MarkObjects: 4.400750 ms  DeleteObjects: 1.175125 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 267986.027270 seconds.
-  path: Assets/Prefabs/bookVenuePanel.prefab
-  artifactKey: Guid(13074d8cac2454140b3839c4f2d772eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bookVenuePanel.prefab using Guid(13074d8cac2454140b3839c4f2d772eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '06ce779ebe4dac1a2253151071235a0a') in 0.022560625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.373328 seconds.
-  path: Assets/Prefabs/Bookable.prefab
-  artifactKey: Guid(735ac8b65c96b4aacaef16b7262c909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bookable.prefab using Guid(735ac8b65c96b4aacaef16b7262c909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'da02f9f5b3edfed422280cac3d77d547') in 0.101494625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.538298 seconds.
-  path: Assets/Prefabs/Close Book Venue Scrollview.prefab
-  artifactKey: Guid(605aecf4d197740cc925e3e063fd7707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Close Book Venue Scrollview.prefab using Guid(605aecf4d197740cc925e3e063fd7707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '9084cb9eb91273c3843cc4596d23680e') in 0.00326825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.361926 seconds.
-  path: Assets/Prefabs/UI
-  artifactKey: Guid(d917d8c0f20d6413eb809a46ad83985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI using Guid(d917d8c0f20d6413eb809a46ad83985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'e24a9ab2ba7d6d84cbac5f126a09c354') in 0.0003005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.228389 seconds.
-  path: Assets/Prefabs/UI/Book Venue.prefab
-  artifactKey: Guid(7b919eb09dc594e52bc7756eb4cf774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Book Venue.prefab using Guid(7b919eb09dc594e52bc7756eb4cf774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '7435210129067da0ad6d4f5dffb00730') in 0.038028708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x32a707000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.523 seconds
-Refreshing native plugins compatible for Editor in 1.83 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.620 seconds
-Domain Reload Profiling: 1144ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (326ms)
-		LoadAssemblies (218ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (111ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (620ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (497ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (304ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 8 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4655 unused Assets / (0.7 MB). Loaded Objects now: 5224.
-Memory consumption went from 135.0 MB to 134.3 MB.
-Total: 7.169625 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.117167 ms MarkObjects: 5.497000 ms  DeleteObjects: 1.309542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-[usbmuxd] Detached: 15 00008110-001250421A8A401E
-[usbmuxd] Detached: 15 00008110-001250421A8A401E
-========================================================================
-Received Import Request.
-  Time since last request: 2468.981194 seconds.
-  path: Assets/Prefabs/Bookable.prefab
-  artifactKey: Guid(735ac8b65c96b4aacaef16b7262c909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bookable.prefab using Guid(735ac8b65c96b4aacaef16b7262c909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'c956032313f4ef40ce6eb97ca52bcb06') in 0.217546375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4661 unused Assets / (2.0 MB). Loaded Objects now: 5219.
+Memory consumption went from 126.6 MB to 124.6 MB.
+Total: 7.727792 ms (FindLiveObjects: 0.259458 ms CreateObjectMapping: 0.132625 ms MarkObjects: 5.918709 ms  DeleteObjects: 1.416833 ms)
 

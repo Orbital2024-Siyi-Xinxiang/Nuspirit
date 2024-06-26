@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      big_house_dark_with_roof_0: 928372956197655475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

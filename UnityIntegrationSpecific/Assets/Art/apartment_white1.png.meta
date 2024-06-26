@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      apartment_white1_0: 248416239115776431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

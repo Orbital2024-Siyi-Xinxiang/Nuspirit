@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      simple)blue_house_front_0: -5504572812838306773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

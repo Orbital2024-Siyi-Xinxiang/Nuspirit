@@ -5,7 +5,8 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
 {
     private RectTransform joystickBackground;
     private RectTransform joystickHandle;
-    private Vector2 inputVector;
+    public Vector2 inputVector;
+
     private static Joystick instance;
 
     void Awake()
