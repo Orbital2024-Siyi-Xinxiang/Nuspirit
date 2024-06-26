@@ -1,22 +1,14 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Bookable : MonoBehaviour
 {
     public VenueBookable bookableData;
-    public GameObject bookVenueView;  // Assign the UI panel in the inspector
-    public Button closeButton;  // Assign the close button in the inspector
 
     void Start()
     {
-        // Hide the bookVenueView when the game starts
-        bookVenueView.SetActive(false);
-
         // Ensure bookableData is initialized
         bookableData = ScriptableObject.CreateInstance<VenueBookable>();
 
-        // Assign the CloseButton's onClick event to a method
-        closeButton.onClick.AddListener(HideBookVenueView);
     }
 
     public void Initialize(VenueBookable bookableData)
@@ -31,13 +23,31 @@ public class Bookable : MonoBehaviour
 
     void OnMouseDown()
     {
-        // Show the bookVenueView when the gameObject is clicked
-        bookVenueView.SetActive(true);
+        Debug.Log("bookable touched!!!");
+        // For iOS, use touch input instead of mouse input
+        if (Application.platform == RuntimePlatform.IPhonePlayer || Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                ShowBookVenueView();
+            }
+        }
+        else
+        {
+            // For other platforms, use mouse input
+            ShowBookVenueView();
+        }
     }
 
-    void HideBookVenueView()
+    void ShowBookVenueView()
     {
-        // Hide the bookVenueView
-        bookVenueView.SetActive(false);
+        if (VenuePanel.Instance != null)
+        {
+            VenuePanel.Instance.ShowPanel();
+        }
+        else
+        {
+            Debug.LogError("VenuePanel instance not found");
+        }
     }
 }

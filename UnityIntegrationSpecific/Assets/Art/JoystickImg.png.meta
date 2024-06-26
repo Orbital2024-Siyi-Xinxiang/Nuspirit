@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JoystickImg_0: 588609092293863933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

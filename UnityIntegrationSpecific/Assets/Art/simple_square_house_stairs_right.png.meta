@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      simple_square_house_stairs_right_0: 5968355749858034819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
