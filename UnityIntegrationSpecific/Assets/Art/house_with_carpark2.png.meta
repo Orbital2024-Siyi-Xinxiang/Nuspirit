@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      house_with_carpark2_0: 3599295221775324184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      backyard__tree_and_bench_0: 312485150989483117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

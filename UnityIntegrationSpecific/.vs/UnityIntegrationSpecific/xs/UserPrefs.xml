@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{86828E5B-4526-0D16-AC61-853560DB1817}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c7bfc2d2-6d45-4f73-ba69-0692fe48ed70" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b632eae8-aed1-4a2a-b5fa-b964c5721e7b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VenueObjects/Bookable.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameStateManager.cs" Line="18" Column="36" />
-      <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" Line="25" Column="23" />
+      <File FileName="Assets/Scripts/GameStateManager.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
       <File FileName="Assets/Scripts/Firebase/FirebaseStorageManager.cs" />
       <File FileName="Assets/Art/Fonts/OFL.txt" />
       <File FileName="Assets/Scripts/MultiPlayer/UserManager.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueBookable.cs" />
-      <File FileName="Assets/Scripts/VenueManagement/VenueManager.cs" />
+      <File FileName="Assets/Scripts/VenueManagement/VenueManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueBackground.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueIInteractable.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/Venue.cs" />
-      <File FileName="Assets/Scripts/VenueManagement/VenueRenderer.cs" />
+      <File FileName="Assets/Scripts/VenueManagement/VenueRenderer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
@@ -26,14 +26,26 @@
       <File FileName="Assets/Scripts/CameraController.cs" />
       <File FileName="Assets/Scripts/Firebase/FirebaseInitializer.cs" />
       <File FileName="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
-      <File FileName="Assets/Scripts/VenueObjects/SolidObject.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/SolidObject.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
       <File FileName="Assets/Scripts/VenueObjects/Bookable.cs" Line="25" Column="6" />
       <File FileName="Assets/Scripts/VenueObjects/Facility.cs" />
-      <File FileName="Assets/Scripts/VenueObjects/Interactable.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/VenueObjects/TransferPoint.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/MapTransfer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/VenueObjects/Interactable.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/TransferPoint.cs" />
+      <File FileName="Assets/Scripts/MapTransfer.cs" />
+      <File FileName="Assets/Scripts/AssetManagement/AssetManager.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/Debugger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerControl/PlayerController.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/PlayerPosition.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/RemainVisible.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/PersistentUI.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/PersistentEventSystem.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/Joystick.cs" Line="18" Column="10" />
+      <File FileName="../AssetsImported/NUSpirit 2/Assets/Scripts/PlayerPosition.cs" />
+      <File FileName="../AssetsImported/NUSpirit 2/Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/UI/VenuePanel.cs" Line="39" Column="1" />
+      <File FileName="Assets/Scripts/UI/QuitButton.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -41,6 +53,11 @@
           <Node name="UnityIntegrationSpecific">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
+                <Node name="AssetManagement" expanded="True" />
+                <Node name="Firebase" expanded="True" />
+                <Node name="PlayerControl" expanded="True" />
+                <Node name="UI" expanded="True" />
+                <Node name="VenueManagement" expanded="True" />
                 <Node name="VenueObjects" expanded="True" />
               </Node>
             </Node>
