@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueIInteractable.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
+    <Compile Include="Assets/Scripts/UI/VenuePanel.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PersistentEventSystem.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/TransferPoint.cs" />

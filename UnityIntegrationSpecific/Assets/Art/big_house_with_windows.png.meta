@@ -210,7 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      big_house_with_windows_0: 6743158437050344668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

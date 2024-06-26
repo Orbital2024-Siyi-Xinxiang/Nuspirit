@@ -4,11 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
+    private float moveSpeed = 1;
     public bool isMoving;
-    public Vector2 input; // Vector2 is holding a 2D object with x and y coordinates 
-    private Animator animator;
-    public LayerMask solidObjectLayer;
+    public Vector2 input; // Vector2 is holding a 2D object with x and y coordinates
+
+    // debug(uncomment)--------------------------------------------------------------------------------------------------------------------
+
+    //private Animator animator;
+    //public LayerMask solidObjectLayer;
+    // debug(uncomment)--------------------------------------------------------------------------------------------------------------------
 
     private static PlayerController instance;
     private Coroutine moveCoroutine;
@@ -28,7 +32,7 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
 
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
 
         // Adjust BoxCollider2D size and offset to cover the entire body
@@ -66,7 +70,10 @@ public class PlayerController : MonoBehaviour
         // Reset input and movement state
         input = Vector2.zero;
         isMoving = false;
-        animator.SetBool("isMoving", false);
+
+        // debug---------(uncomment)
+        //animator.SetBool("isMoving", false);
+        // debug---------
     }
 
     private void Update()
@@ -95,8 +102,10 @@ public class PlayerController : MonoBehaviour
 
             if (input != Vector2.zero) // Vector2.zero is (0.0)
             {
-                animator.SetFloat("moveX", input.x);
-                animator.SetFloat("moveY", input.y);
+                // debug(uncomment)--------------------------------------------------------------------------------------------------------------------
+                //animator.SetFloat("moveX", input.x);
+                //animator.SetFloat("moveY", input.y);
+                // debug(uncomment)--------------------------------------------------------------------------------------------------------------------
 
                 var targetPos = transform.position;
                 targetPos.x += input.x;
@@ -109,7 +118,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        animator.SetBool("isMoving", isMoving);
+        //animator.SetBool("isMoving", isMoving);
     }
 
     IEnumerator Move(Vector3 targetPos)
@@ -139,20 +148,23 @@ public class PlayerController : MonoBehaviour
 
     private bool IsWalkable(Vector3 targetPos)
     {
-        // Increase the radius of the overlap check for better detection of thin colliders
-        float detectionRadius = 0.2f;
-
-        // Check the entire box collider area
-        Vector2 colliderSize = boxCollider.size;
-        Vector2 colliderOffset = boxCollider.offset;
-        Vector2 colliderCenter = (Vector2)targetPos + colliderOffset;
-
-        Collider2D hitCollider = Physics2D.OverlapBox(colliderCenter, colliderSize, 0f, solidObjectLayer);
-        if (hitCollider != null)
-        {
-            Debug.LogWarning("not walkable!!!!!");
-            return false;
-        }
+        // debug(delete)--------------------------------------------------------------------------------------------------------------------
         return true;
+        // debug(delete)--------------------------------------------------------------------------------------------------------------------
+
+        // Increase the radius of the overlap check for better detection of thin colliders
+        //float detectionRadius = 0.2f;
+
+        //// Check the entire box collider area
+        //Vector2 colliderSize = boxCollider.size;
+        //Vector2 colliderOffset = boxCollider.offset;
+        //Vector2 colliderCenter = (Vector2)targetPos + colliderOffset;
+
+        //Collider2D hitCollider = Physics2D.OverlapBox(colliderCenter, colliderSize, 0f, solidObjectLayer);
+        //if (hitCollider != null)
+        //{
+        //    return false;
+        //}
+        //return true;
     }
 }

@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923e8c2d52e124341963b8f769d9d9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 1
   isMoving: 0
   input: {x: 0, y: 0}
   solidObjectLayer:
