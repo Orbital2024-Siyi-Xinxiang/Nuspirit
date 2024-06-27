@@ -1,4 +1,0 @@
-repository "UnityIntegrationSpecific@emmaxu2005_unity@cloud"
-  path "/"
-    br "/main"
-    co "/main"
