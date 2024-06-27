@@ -1,5 +1,6 @@
 import SwiftUI
 import FirebaseFirestore
+import CoreLocation
 
 struct BuildingView: View {
     var buildingID: String
@@ -87,7 +88,7 @@ struct BuildingView: View {
 
     private func checkUserStillness(location: CLLocation) {
         // Assuming lastLocation is a stored property
-        static var lastLocation: CLLocation?
+        var lastLocation: CLLocation?
 
         if let lastLocation = lastLocation {
             let distance = location.distance(from: lastLocation)
