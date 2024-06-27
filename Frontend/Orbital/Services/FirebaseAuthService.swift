@@ -6,7 +6,7 @@ struct FirebaseAuthService {
     
     // get authenticated user credentials
     
-    func getCurrentUid() -> String {
+    public func getCurrentUid() -> String {
         // Get the currently signed-in user
         if let user = Auth.auth().currentUser {
             // The user is signed in, retrieve the UID
@@ -17,7 +17,7 @@ struct FirebaseAuthService {
         }
     }
 
-    func getCurrentEmail() -> String {
+    public func getCurrentEmail() -> String {
         // Get the currently signed-in user
         if let user = Auth.auth().currentUser {
             // The user is signed in, retrieve the email
@@ -28,7 +28,7 @@ struct FirebaseAuthService {
         }
     }
 
-    func getCurrentDisplayName() -> String {
+    public func getCurrentDisplayName() -> String {
         // Get the currently signed-in user
         if let user = Auth.auth().currentUser {
             // The user is signed in, retrieve the display name
@@ -39,7 +39,7 @@ struct FirebaseAuthService {
         }
     }
 
-    func getCurrentPhotoURL() -> URL {
+    public func getCurrentPhotoURL() -> URL {
         // Get the currently signed-in user
         if let user = Auth.auth().currentUser {
             // The user is signed in, retrieve the photo URL

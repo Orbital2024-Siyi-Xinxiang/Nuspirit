@@ -35,12 +35,7 @@ class FirestoreService {
             }
         }
     }
-    
-    func subscribeUserToVenue(uid: String, venueId: String) {
-        // TODO: 
-    }
-    
-    
+ 
 }
 
 
