@@ -99,10 +99,8 @@
 		B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */; };
 		B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E802C00E52A00F322C3 /* EusoffHall.swift */; };
 		B5C92A532BF7CF1C00121E42 /* MyAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */; };
-		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
 		B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */; };
-		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
 		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
 		B5C92A662BF879C300121E42 /* COM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A652BF879C300121E42 /* COM1.swift */; };
 		B5C92A682BF879CF00121E42 /* COM2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A672BF879CF00121E42 /* COM2.swift */; };
@@ -112,6 +110,9 @@
 		B5C92A712BF87A1300121E42 /* RC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A702BF87A1300121E42 /* RC4.swift */; };
 		B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A722BF87A2700121E42 /* Finefood.swift */; };
 		B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */; };
+		B5D0C8462C2D00CB00D60F5A /* StudyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */; };
+		B5D0C8482C2D0D6500D60F5A /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */; };
+		B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8492C2D0E2200D60F5A /* Booking.swift */; };
 		B5EC50E92C08DB7A0096BBEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */; };
 		B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */; };
 		B5FE65942BFD0BF8000D375A /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */; };
@@ -219,10 +220,8 @@
 		B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralLib.swift; sourceTree = "<group>"; };
 		B5B85E802C00E52A00F322C3 /* EusoffHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EusoffHall.swift; sourceTree = "<group>"; };
 		B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsView.swift; sourceTree = "<group>"; };
-		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificAssetView.swift; sourceTree = "<group>"; };
-		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
 		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
 		B5C92A652BF879C300121E42 /* COM1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM1.swift; sourceTree = "<group>"; };
 		B5C92A672BF879CF00121E42 /* COM2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM2.swift; sourceTree = "<group>"; };
@@ -233,6 +232,9 @@
 		B5C92A722BF87A2700121E42 /* Finefood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finefood.swift; sourceTree = "<group>"; };
 		B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashScreenView(Deprecated).swift"; sourceTree = "<group>"; };
 		B5C92A782BF8904400121E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTrackingService.swift; sourceTree = "<group>"; };
+		B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
+		B5D0C8492C2D0E2200D60F5A /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
 		B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotaion.swift; sourceTree = "<group>"; };
 		B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
@@ -416,6 +418,7 @@
 				B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */,
 				B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */,
 				B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */,
+				B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				B56F748C2BF632B70048447E /* MyIsland.swift */,
 				B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */,
 				B54FD3B12C07FF140060F578 /* UserProfileView.swift */,
+				B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */,
 				B5B05A372C1BEDE3009AFE94 /* EditUserProfile.swift */,
 				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
 				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
@@ -516,8 +520,6 @@
 		B5C92A542BF7CF6400121E42 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B5C92A552BF7CFA300121E42 /* Purchase.swift */,
-				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
 				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
@@ -525,6 +527,7 @@
 				B57442372C11FF2C009F6616 /* UserInfo.swift */,
 				B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */,
 				B5B05A3F2C1BF436009AFE94 /* Contact.swift */,
+				B5D0C8492C2D0E2200D60F5A /* Booking.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -863,23 +866,23 @@
 				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
 				B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */,
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
+				B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */,
 				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
 				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
-				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
 				B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */,
+				B5D0C8482C2D0D6500D60F5A /* MyBookingsView.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* NotificationService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
 				B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */,
 				B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */,
 				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
-				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */,
 				B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
@@ -894,6 +897,7 @@
 				B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */,
 				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
+				B5D0C8462C2D00CB00D60F5A /* StudyTrackingService.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssetsView.swift in Sources */,
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
 				B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */,

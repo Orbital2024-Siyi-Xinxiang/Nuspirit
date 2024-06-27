@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class VenuePanel : MonoBehaviour
+public class VenueBookingPanel : MonoBehaviour
 {
-    public static VenuePanel Instance { get; private set; } // Singleton pattern
+    public static VenueBookingPanel Instance { get; private set; } // Singleton pattern
 
     private GameObject panel;
     private Button closeButton;

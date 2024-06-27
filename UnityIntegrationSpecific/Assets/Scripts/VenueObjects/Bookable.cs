@@ -29,21 +29,27 @@ public class Bookable : MonoBehaviour
         {
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                ShowBookVenueView();
+                ShowBookVenueView(this.bookableData);
             }
         }
         else
         {
             // For other platforms, use mouse input
-            ShowBookVenueView();
+            ShowBookVenueView(this.bookableData);
         }
     }
 
-    void ShowBookVenueView()
+    void ShowBookVenueView(VenueBookable data)
     {
-        if (VenuePanel.Instance != null)
+        if (VenueBookingPanel.Instance != null)
         {
-            VenuePanel.Instance.ShowPanel();
+            VenueBookingPanel.Instance.ShowPanel();
+            Transform scrollView = VenueBookingPanel.Instance.transform.Find("BookVenueScrollView");
+            VenueBooking panel = scrollView.GetComponent<VenueBooking>();
+            if (panel != null)
+            {
+                panel.bookableData = data;
+            }
         }
         else
         {

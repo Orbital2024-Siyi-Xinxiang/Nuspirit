@@ -298,6 +298,15 @@ struct NavigationLinksView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
+            
+            NavigationLink(destination: MyBookingsView()) {
+                Text("My Bookings")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
         }
         .padding(.top, 16)
     }
