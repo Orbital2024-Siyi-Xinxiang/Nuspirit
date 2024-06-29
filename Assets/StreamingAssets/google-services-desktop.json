@@ -1,0 +1,32 @@
+{
+  "project_info": {
+    "project_number": "60117961129",
+    "firebase_url": "https://orbital2024-unity-version-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "orbital2024-unity-version",
+    "storage_bucket": "orbital2024-unity-version.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60117961129:ios:0c6250917f0f5937c95cb8",
+        "android_client_info": {
+          "package_name": "com.orbital2024.nuspirit"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLqgbEANnChP-U6k-lZQ-BakcEt_DPns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
