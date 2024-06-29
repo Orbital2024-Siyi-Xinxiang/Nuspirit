@@ -58,6 +58,7 @@
 		B52F7BE62BFF87A200DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
+		B53BC5ED2C2FD973002E72C2 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B53BC5EB2C2FD973002E72C2 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AD2C078F4D0060F578 /* BuildingView.swift */; };
 		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
@@ -113,6 +114,7 @@
 		B5D0C8462C2D00CB00D60F5A /* StudyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */; };
 		B5D0C8482C2D0D6500D60F5A /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */; };
 		B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8492C2D0E2200D60F5A /* Booking.swift */; };
+		B5D0C84E2C2E4E2100D60F5A /* AvatarDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */; };
 		B5EC50E92C08DB7A0096BBEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */; };
 		B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */; };
 		B5FE65942BFD0BF8000D375A /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */; };
@@ -149,6 +151,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B53BC5EE2C2FD973002E72C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B53BC5ED2C2FD973002E72C2 /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		109D21E064AC5F31C11472A9 /* Pods-Orbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.release.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.release.xcconfig"; sourceTree = "<group>"; };
 		4E9A7961D4CF4786678A3E68 /* Pods-OrbitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.release.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +195,7 @@
 		B517B6D52C08FA0100B9A739 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B53BC5EB2C2FD973002E72C2 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
@@ -235,6 +252,8 @@
 		B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTrackingService.swift; sourceTree = "<group>"; };
 		B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
 		B5D0C8492C2D0E2200D60F5A /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarDesign.swift; sourceTree = "<group>"; };
+		B5D0C84F2C2FC25600D60F5A /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotaion.swift; sourceTree = "<group>"; };
 		B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
@@ -466,6 +485,7 @@
 				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
 				B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */,
 				B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */,
+				B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -500,6 +520,8 @@
 		B5B3E4472C01905A008799F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B53BC5EB2C2FD973002E72C2 /* UnityFramework.framework */,
+				B5D0C84F2C2FC25600D60F5A /* UnityFramework.framework */,
 				B517B6D52C08FA0100B9A739 /* UnityFramework.framework */,
 				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
 				805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */,
@@ -597,6 +619,7 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
+				B53BC5EE2C2FD973002E72C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -870,6 +893,7 @@
 				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */,
+				B5D0C84E2C2E4E2100D60F5A /* AvatarDesign.swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
 				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
