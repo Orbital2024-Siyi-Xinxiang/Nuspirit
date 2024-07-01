@@ -33,6 +33,7 @@ struct MapContentView: View {
         }
         .onAppear {
             fetchVenueData()
+
             startMessageTimer()
         }
         .onDisappear {

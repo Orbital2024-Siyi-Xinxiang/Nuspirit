@@ -39,9 +39,9 @@ struct MainMapView: View {
                         Button(action: {
                            Unity.shared.show()
                             Unity.shared.sendMessage(
-                                "GameStateManager",
-                                methodName: "SetBallColor",
-                                message: "red"
+                                "SceneLoader",
+                                methodName: "LoadScene",
+                                message: "MyIsland"
                             )
                             
                         })  {
