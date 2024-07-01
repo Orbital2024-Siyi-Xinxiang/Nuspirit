@@ -81,6 +81,8 @@
 		B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */; };
 		B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */; };
 		B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */; };
+		B584507F2C326BF800234AEC /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584507E2C326BF800234AEC /* Avatar.swift */; };
+		B58450812C326C1F00234AEC /* AvartarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450802C326C1F00234AEC /* AvartarService.swift */; };
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -218,6 +220,8 @@
 		B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyStatistics.swift; sourceTree = "<group>"; };
 		B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetchingService.swift; sourceTree = "<group>"; };
 		B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageService.swift; sourceTree = "<group>"; };
+		B584507E2C326BF800234AEC /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		B58450802C326C1F00234AEC /* AvartarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvartarService.swift; sourceTree = "<group>"; };
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -438,6 +442,7 @@
 				B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */,
 				B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */,
 				B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */,
+				B58450802C326C1F00234AEC /* AvartarService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -550,6 +555,7 @@
 				B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */,
 				B5B05A3F2C1BF436009AFE94 /* Contact.swift */,
 				B5D0C8492C2D0E2200D60F5A /* Booking.swift */,
+				B584507E2C326BF800234AEC /* Avatar.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -870,6 +876,7 @@
 				B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */,
 				B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */,
 				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
+				B58450812C326C1F00234AEC /* AvartarService.swift in Sources */,
 				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
 				B574423E2C129410009F6616 /* UserData.swift in Sources */,
 				B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */,
@@ -897,6 +904,7 @@
 				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
 				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
+				B584507F2C326BF800234AEC /* Avatar.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
 				B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */,
