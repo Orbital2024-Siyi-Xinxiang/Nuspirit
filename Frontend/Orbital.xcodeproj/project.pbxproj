@@ -1136,6 +1136,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
@@ -1177,6 +1178,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
