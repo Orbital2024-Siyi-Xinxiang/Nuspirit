@@ -18,6 +18,9 @@
 		B5681FD02C2FD00000D8E69F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
 		B5681FD12C2FD00100D8E69F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
 		B5681FD22C2FD00100D8E69F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		B58451532C33295000234AEC /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E839FB3A989D109D3E19E745DEC5CD7 /* Pods_Orbital.framework */; };
+		B58451542C33295100234AEC /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E839FB3A989D109D3E19E745DEC5CD7 /* Pods_Orbital.framework */; };
+		B58451552C33295200234AEC /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E839FB3A989D109D3E19E745DEC5CD7 /* Pods_Orbital.framework */; };
 		DEFA81E2E0C64BD52E29623F76307896 /* Pods-Orbital-OrbitalUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2946AB418194B85BE43FCF0CE4D652A /* Pods-Orbital-OrbitalUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -68,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58451542C33295100234AEC /* Pods_Orbital.framework in Frameworks */,
 				8467D67F0CCC053A0CB89F4B5537B1CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58451532C33295000234AEC /* Pods_Orbital.framework in Frameworks */,
 				7D5BDDD5C764538A519C259CFE50682E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58451552C33295200234AEC /* Pods_Orbital.framework in Frameworks */,
 				11A450115D0AD1444C00D9FD59DC5C98 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
