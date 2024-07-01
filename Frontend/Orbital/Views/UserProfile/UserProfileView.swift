@@ -290,6 +290,15 @@ struct NavigationLinksView: View {
                     .cornerRadius(10)
                     .padding(.bottom, 4)
             }
+            NavigationLink(destination: AvatarDesign()) {
+                Text("System Settings")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.bottom, 4)
+            }
             NavigationLink(destination: ContactsView()) {
                 Text("User Contacts")
                     .padding()

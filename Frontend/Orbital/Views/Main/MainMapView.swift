@@ -37,8 +37,12 @@ struct MainMapView: View {
                         .padding()
 
                         Button(action: {
-//                            Unity.shared.show()
-                            // for launching Unity here
+                           Unity.shared.show()
+                            Unity.shared.sendMessage(
+                                "GameStateManager",
+                                methodName: "SetBallColor",
+                                message: "red"
+                            )
                             
                         })  {
                             VStack {

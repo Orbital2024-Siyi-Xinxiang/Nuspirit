@@ -7,6 +7,7 @@
 @protocol NativeCallsProtocol
 @required
 - (void) showHostMainWindow:(NSString*)color;
+- (void) sendMessageToMobileApp:(NSString*)message;
 // other methods
 @end
 

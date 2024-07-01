@@ -10,7 +10,7 @@
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[1] = 
 {
-	{ 15807, 0,  1 },
+	{ 15811, 0,  1 },
 };
 #else
 static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[1] = { { 0, 0, 0 } };
@@ -44,44 +44,44 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule[38] = 
 {
-	{ 39772, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 39772, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 39772, 1, 9, 9, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 39772, 1, 10, 10, 13, 43, 1, kSequencePointKind_Normal, 0, 3 },
-	{ 39772, 1, 10, 10, 13, 43, 3, kSequencePointKind_StepOut, 0, 4 },
-	{ 39772, 1, 11, 11, 9, 10, 11, kSequencePointKind_Normal, 0, 5 },
-	{ 39773, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 6 },
-	{ 39773, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 7 },
-	{ 39773, 1, 19, 19, 9, 10, 0, kSequencePointKind_Normal, 0, 8 },
-	{ 39773, 1, 20, 25, 13, 15, 1, kSequencePointKind_Normal, 0, 9 },
-	{ 39773, 1, 20, 25, 13, 15, 9, kSequencePointKind_StepOut, 0, 10 },
-	{ 39773, 1, 20, 25, 13, 15, 15, kSequencePointKind_StepOut, 0, 11 },
-	{ 39773, 1, 27, 27, 13, 28, 21, kSequencePointKind_Normal, 0, 12 },
-	{ 39773, 1, 28, 28, 9, 10, 25, kSequencePointKind_Normal, 0, 13 },
-	{ 39775, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 14 },
-	{ 39775, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 15 },
-	{ 39775, 2, 16, 16, 9, 10, 0, kSequencePointKind_Normal, 0, 16 },
-	{ 39775, 2, 17, 17, 13, 44, 1, kSequencePointKind_Normal, 0, 17 },
-	{ 39775, 2, 17, 17, 13, 44, 5, kSequencePointKind_StepOut, 0, 18 },
-	{ 39775, 2, 18, 18, 9, 10, 15, kSequencePointKind_Normal, 0, 19 },
-	{ 39776, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 20 },
-	{ 39776, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 21 },
-	{ 39776, 2, 25, 25, 9, 64, 0, kSequencePointKind_Normal, 0, 22 },
-	{ 39776, 2, 25, 25, 9, 64, 1, kSequencePointKind_StepOut, 0, 23 },
-	{ 39776, 2, 26, 26, 9, 10, 7, kSequencePointKind_Normal, 0, 24 },
-	{ 39776, 2, 27, 27, 13, 49, 8, kSequencePointKind_Normal, 0, 25 },
-	{ 39776, 2, 27, 27, 13, 49, 11, kSequencePointKind_StepOut, 0, 26 },
-	{ 39776, 2, 28, 28, 9, 10, 17, kSequencePointKind_Normal, 0, 27 },
-	{ 39778, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 28 },
-	{ 39778, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 29 },
-	{ 39778, 2, 67, 67, 9, 10, 0, kSequencePointKind_Normal, 0, 30 },
-	{ 39778, 2, 68, 68, 13, 86, 1, kSequencePointKind_Normal, 0, 31 },
-	{ 39778, 2, 68, 68, 13, 86, 2, kSequencePointKind_StepOut, 0, 32 },
-	{ 39778, 2, 68, 68, 13, 86, 7, kSequencePointKind_StepOut, 0, 33 },
-	{ 39778, 2, 69, 69, 9, 10, 15, kSequencePointKind_Normal, 0, 34 },
-	{ 39781, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 35 },
-	{ 39781, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 36 },
-	{ 39781, 2, 72, 72, 89, 102, 0, kSequencePointKind_Normal, 0, 37 },
+	{ 39784, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 39784, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 39784, 1, 9, 9, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 39784, 1, 10, 10, 13, 43, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 39784, 1, 10, 10, 13, 43, 3, kSequencePointKind_StepOut, 0, 4 },
+	{ 39784, 1, 11, 11, 9, 10, 11, kSequencePointKind_Normal, 0, 5 },
+	{ 39785, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 6 },
+	{ 39785, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 7 },
+	{ 39785, 1, 19, 19, 9, 10, 0, kSequencePointKind_Normal, 0, 8 },
+	{ 39785, 1, 20, 25, 13, 15, 1, kSequencePointKind_Normal, 0, 9 },
+	{ 39785, 1, 20, 25, 13, 15, 9, kSequencePointKind_StepOut, 0, 10 },
+	{ 39785, 1, 20, 25, 13, 15, 15, kSequencePointKind_StepOut, 0, 11 },
+	{ 39785, 1, 27, 27, 13, 28, 21, kSequencePointKind_Normal, 0, 12 },
+	{ 39785, 1, 28, 28, 9, 10, 25, kSequencePointKind_Normal, 0, 13 },
+	{ 39787, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 14 },
+	{ 39787, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 15 },
+	{ 39787, 2, 16, 16, 9, 10, 0, kSequencePointKind_Normal, 0, 16 },
+	{ 39787, 2, 17, 17, 13, 44, 1, kSequencePointKind_Normal, 0, 17 },
+	{ 39787, 2, 17, 17, 13, 44, 5, kSequencePointKind_StepOut, 0, 18 },
+	{ 39787, 2, 18, 18, 9, 10, 15, kSequencePointKind_Normal, 0, 19 },
+	{ 39788, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 20 },
+	{ 39788, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 21 },
+	{ 39788, 2, 25, 25, 9, 64, 0, kSequencePointKind_Normal, 0, 22 },
+	{ 39788, 2, 25, 25, 9, 64, 1, kSequencePointKind_StepOut, 0, 23 },
+	{ 39788, 2, 26, 26, 9, 10, 7, kSequencePointKind_Normal, 0, 24 },
+	{ 39788, 2, 27, 27, 13, 49, 8, kSequencePointKind_Normal, 0, 25 },
+	{ 39788, 2, 27, 27, 13, 49, 11, kSequencePointKind_StepOut, 0, 26 },
+	{ 39788, 2, 28, 28, 9, 10, 17, kSequencePointKind_Normal, 0, 27 },
+	{ 39790, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 28 },
+	{ 39790, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 29 },
+	{ 39790, 2, 67, 67, 9, 10, 0, kSequencePointKind_Normal, 0, 30 },
+	{ 39790, 2, 68, 68, 13, 86, 1, kSequencePointKind_Normal, 0, 31 },
+	{ 39790, 2, 68, 68, 13, 86, 2, kSequencePointKind_StepOut, 0, 32 },
+	{ 39790, 2, 68, 68, 13, 86, 7, kSequencePointKind_StepOut, 0, 33 },
+	{ 39790, 2, 69, 69, 9, 10, 15, kSequencePointKind_Normal, 0, 34 },
+	{ 39793, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 35 },
+	{ 39793, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 36 },
+	{ 39793, 2, 72, 72, 89, 102, 0, kSequencePointKind_Normal, 0, 37 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule[];
@@ -104,9 +104,9 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[3] = 
 {
-	{ 6498, 1 },
-	{ 6500, 2 },
-	{ 6499, 2 },
+	{ 6502, 1 },
+	{ 6504, 2 },
+	{ 6503, 2 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };
