@@ -31,18 +31,18 @@ struct BuildingView: View {
             fetchVenueDetails()
             NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
             startTimer()
-//            Unity.shared.show()
-//            Unity.shared.sendMessage(
-//                "SceneLoader",
-//                methodName: "LoadScene",
-//                message: "SpecificVenue"
-//            )
-//            
-//            Unity.shared.sendMessage(
-//                "GameStateManager",
-//                methodName: "SetVenueId",
-//                message: buildingID
-//            )
+            Unity.shared.show()
+            Unity.shared.sendMessage(
+                "SceneLoader",
+                methodName: "LoadScene",
+                message: "SpecificVenue"
+            )
+            
+            Unity.shared.sendMessage(
+                "GameStateManager",
+                methodName: "SetVenueId",
+                message: buildingID
+            )
         }
         .onDisappear {
             NotificationService.shared.unsubscribeFromCurrentTopic {}
