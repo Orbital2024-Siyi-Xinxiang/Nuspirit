@@ -1,6 +1,0 @@
-framework module Pods_OrbitalTests {
-  umbrella header "Pods-OrbitalTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
