@@ -37,12 +37,17 @@ struct MainMapView: View {
                         .padding()
 
                         Button(action: {
+<<<<<<< HEAD
 //                           Unity.shared.show()
 //                            Unity.shared.sendMessage(
 //                                "SceneLoader",
 //                                methodName: "LoadScene",
 //                                message: "MyIsland"
 //                            )
+=======
+//                            Unity.shared.show()
+                            // for launching Unity here
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
                             
                         })  {
                             VStack {

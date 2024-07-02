@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0767D91513D4ED816B7E9673 /* Pods_OrbitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF77F2A2D8F125DB5C6112F /* Pods_OrbitalTests.framework */; };
+<<<<<<< HEAD
+=======
+		256DEA826165ED0307BF9E6B /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */; };
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		5B55A5662C0C90500094BEEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B55A5652C0C90500094BEEB /* README.md */; };
 		5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */; };
 		5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */; };
@@ -74,16 +78,23 @@
 		B574423E2C129410009F6616 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423D2C129410009F6616 /* UserData.swift */; };
 		B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423F2C12953F009F6616 /* FirebaseAuthService.swift */; };
 		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
+<<<<<<< HEAD
 		B575CCC52C08EF4600CBE537 /* (Deprecated))UnityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */; };
+=======
+		B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */; };
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */; };
 		B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */; };
 		B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */; };
 		B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */; };
+<<<<<<< HEAD
 		B584507F2C326BF800234AEC /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584507E2C326BF800234AEC /* Avatar.swift */; };
 		B58450812C326C1F00234AEC /* AvartarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450802C326C1F00234AEC /* AvartarService.swift */; };
 		B58450932C32ADF700234AEC /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450922C32ADF700234AEC /* Unity.swift */; };
 		B58450982C32C0CC00234AEC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450972C32C0CC00234AEC /* ViewModel.swift */; };
 		B58450A32C32C21B00234AEC /* UnityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450A22C32C21B00234AEC /* UnityMessage.swift */; };
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -117,7 +128,10 @@
 		B5D0C8462C2D00CB00D60F5A /* StudyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */; };
 		B5D0C8482C2D0D6500D60F5A /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */; };
 		B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8492C2D0E2200D60F5A /* Booking.swift */; };
+<<<<<<< HEAD
 		B5D0C84E2C2E4E2100D60F5A /* AvatarDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */; };
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B5EC50E92C08DB7A0096BBEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */; };
 		B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */; };
 		B5FE65942BFD0BF8000D375A /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */; };
@@ -133,7 +147,11 @@
 		B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */; };
 		B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */; };
 		B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */; };
+<<<<<<< HEAD
 		B5FE65BD2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */; };
+=======
+		B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */; };
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -181,6 +199,10 @@
 		B5110A8A2BFC776D00208FC4 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		B517B6D52C08FA0100B9A739 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
@@ -200,11 +222,16 @@
 		B574423D2C129410009F6616 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		B574423F2C12953F009F6616 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
 		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "(Deprecated))UnityViewController.swift"; sourceTree = "<group>"; };
+=======
+		B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnityViewController(Unused).swift"; sourceTree = "<group>"; };
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContributionService.swift; sourceTree = "<group>"; };
 		B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyStatistics.swift; sourceTree = "<group>"; };
 		B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetchingService.swift; sourceTree = "<group>"; };
 		B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageService.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B584507E2C326BF800234AEC /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		B58450802C326C1F00234AEC /* AvartarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvartarService.swift; sourceTree = "<group>"; };
 		B58450922C32ADF700234AEC /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
@@ -213,6 +240,8 @@
 		B58451432C33223D00234AEC /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B584514A2C33286300234AEC /* Pods_Unity_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Unity_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B584514C2C33286300234AEC /* Pods_UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -247,13 +276,20 @@
 		B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTrackingService.swift; sourceTree = "<group>"; };
 		B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
 		B5D0C8492C2D0E2200D60F5A /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarDesign.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotaion.swift; sourceTree = "<group>"; };
 		B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
 		B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOverlay.swift; sourceTree = "<group>"; };
 		B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUserService.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(Deprecated)OrientationViewController.swift"; sourceTree = "<group>"; };
+=======
+		B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrientationViewController(Unused).swift"; sourceTree = "<group>"; };
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 		B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B7ECC9649C6E9D2438D2C619 /* Pods-OrbitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.debug.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C577FFCF4062BB6D17EEC371 /* Pods-Orbital-OrbitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -307,6 +343,10 @@
 				B5110A6D2BFC762100208FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				B5110A7D2BFC762100208FC4 /* FirebaseMessaging in Frameworks */,
 				B5110A792BFC762100208FC4 /* FirebaseInstallations in Frameworks */,
+<<<<<<< HEAD
+=======
+				256DEA826165ED0307BF9E6B /* Pods_Orbital.framework in Frameworks */,
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +422,11 @@
 				B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
 				B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */,
+<<<<<<< HEAD
 				B58450922C32ADF700234AEC /* Unity.swift */,
 				B58450972C32C0CC00234AEC /* ViewModel.swift */,
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */,
 				5BC6DE122BF0A7A40031650B /* Persistence.swift */,
 				5BC6DE142BF0A7A40031650B /* Orbital.xcdatamodeld */,
@@ -433,8 +476,11 @@
 				B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */,
 				B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */,
 				B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */,
+<<<<<<< HEAD
 				B58450802C326C1F00234AEC /* AvartarService.swift */,
 				B58450A22C32C21B00234AEC /* UnityMessage.swift */,
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -482,7 +528,10 @@
 				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
 				B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */,
 				B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */,
+<<<<<<< HEAD
 				B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */,
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -517,9 +566,13 @@
 		B5B3E4472C01905A008799F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				B584514A2C33286300234AEC /* Pods_Unity_iPhone.framework */,
 				B584514C2C33286300234AEC /* Pods_UnityFramework.framework */,
 				B58451432C33223D00234AEC /* UnityFramework.framework */,
+=======
+				B517B6D52C08FA0100B9A739 /* UnityFramework.framework */,
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
 				805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */,
 				6C387F387386840A3893E070 /* Pods_Orbital_OrbitalUITests.framework */,
@@ -547,7 +600,10 @@
 				B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */,
 				B5B05A3F2C1BF436009AFE94 /* Contact.swift */,
 				B5D0C8492C2D0E2200D60F5A /* Booking.swift */,
+<<<<<<< HEAD
 				B584507E2C326BF800234AEC /* Avatar.swift */,
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -599,9 +655,15 @@
 		B5FE65BB2BFDCD2C000D375A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */,
 				B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */,
 				B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */,
+=======
+				B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */,
+				B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */,
+				B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */,
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -865,9 +927,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */,
+<<<<<<< HEAD
 				B5FE65BD2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift in Sources */,
 				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
 				B58450812C326C1F00234AEC /* AvartarService.swift in Sources */,
+=======
+				B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */,
+				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
 				B574423E2C129410009F6616 /* UserData.swift in Sources */,
 				B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */,
@@ -885,18 +952,27 @@
 				B5B05A3A2C1BEE5E009AFE94 /* SystemSettingsView.swift in Sources */,
 				B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */,
 				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
+<<<<<<< HEAD
 				B58450A32C32C21B00234AEC /* UnityMessage.swift in Sources */,
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */,
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
 				B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */,
 				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */,
+<<<<<<< HEAD
 				B5D0C84E2C2E4E2100D60F5A /* AvatarDesign.swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
 				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
 				B584507F2C326BF800234AEC /* Avatar.swift in Sources */,
+=======
+				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
+				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
+				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
 				B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */,
@@ -908,10 +984,16 @@
 				B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */,
 				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
 				B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */,
+<<<<<<< HEAD
 				B575CCC52C08EF4600CBE537 /* (Deprecated))UnityViewController.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
 				B58450982C32C0CC00234AEC /* ViewModel.swift in Sources */,
+=======
+				B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */,
+				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
+				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				B56F74772BF62F370048447E /* CartView.swift in Sources */,
 				B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
@@ -936,7 +1018,10 @@
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */,
 				B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */,
+<<<<<<< HEAD
 				B58450932C32ADF700234AEC /* Unity.swift in Sources */,
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1110,7 +1195,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
+<<<<<<< HEAD
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
@@ -1152,7 +1240,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
+<<<<<<< HEAD
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
