@@ -1,13 +1,23 @@
-# Uncomment the next line to define a global platform for your project
-platform :ios, '17.0'
+platform :ios, '13.0'
 
 target 'Orbital' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  use_frameworks!:linkage => :static
 
-  # Pods for Orbital
-  # pod 'Firebase/InAppMessaging'
+  # Firebase pods
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Storage'
+  pod 'Firebase/InAppMessaging'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 
+  # Google Sign-In
+  pod 'GoogleSignIn'
+
+  # Firebase Auth UI
+  pod 'FirebaseUI'
+  pod 'FirebaseUI/Auth'
 
   target 'OrbitalTests' do
     inherit! :search_paths
@@ -18,5 +28,14 @@ target 'Orbital' do
     # Pods for testing
   end
 
+  # Add $(inherited) flag to resolve build setting conflicts
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['OTHER_LDFLAGS'] ||= ['$(inherited)']
+      end
+    end
+  end
 end
-# use_frameworks! :linkage => :static
+
+use_frameworks!:linkage => :static
