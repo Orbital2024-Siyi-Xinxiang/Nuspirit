@@ -1,0 +1,7 @@
+the exported project is in the folder iosBuild4 
+after iosBuild4 is downloaded, pls also download this additional file: 
+    libiPhone-lib.a
+from:   https://drive.google.com/file/d/1KbEFCd4fENAgzRsvHJ8mA04crl9EeGui/view?usp=sharing
+And place the downloaded libiPhone-lib.a in iosBuild4 > Libraries
+After that, you may open Unity-iPhone.xcworkspace in iosBuild4
+the app is best built in physical ios divices, pls connect your laptop to your iPhone with a cable before building
