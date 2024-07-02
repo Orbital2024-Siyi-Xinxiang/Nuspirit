@@ -38,13 +38,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     func application(_ application: UIApplication,
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        // Access Firebase instance from Unity
-        FirebaseApp.configure()
-
-        
         // configure firebase authentication
         print("\n\n\npreloading unity host window ... \n\n\n")
-        
+        FirebaseApp.configure()
         // set landing view
         
         

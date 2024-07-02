@@ -26,6 +26,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 
+		//System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeUtility::IsBlittable(System.Type)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_IsBlittable();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_IsBlittable();
+
 		//System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::LeakErase(System.IntPtr,Unity.Collections.LeakCategory)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakErase();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakErase();
@@ -33,6 +37,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::LeakRecord(System.IntPtr,Unity.Collections.LeakCategory,System.Int32)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakRecord();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakRecord();
+
+		//System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::SizeOf(System.Type)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_SizeOf();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_SizeOf();
 
 		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Free(System.Void*,Unity.Collections.Allocator)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_Free();
@@ -45,6 +53,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy(System.Void*,System.Void*,System.Int64)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpy();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpy();
+
+		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyReplicate(System.Void*,System.Void*,System.Int32,System.Int32)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyReplicate();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyReplicate();
 
 		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyStride(System.Void*,System.Int32,System.Void*,System.Int32,System.Int32,System.Int32)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyStride();
@@ -342,9 +354,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_GetCategoryDescription_Injected();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_GetCategoryDescription_Injected();
 
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SetMarkerMetadata_Injected(System.IntPtr,System.Int32,UnityEngine.Bindings.ManagedSpanWrapper&,System.Byte,System.Byte)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata_Injected();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata_Injected();
+
 		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SetMarkerMetadata__Unmanaged(System.IntPtr,System.Int32,System.Byte*,System.Int32,System.Byte,System.Byte)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata__Unmanaged();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata__Unmanaged();
+
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SingleSampleWithMetadata(System.IntPtr,System.Int32,System.Void*)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SingleSampleWithMetadata();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SingleSampleWithMetadata();
 
 		//System.Void* Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateCounterValue__Unmanaged(System.IntPtr&,System.Byte*,System.Int32,System.UInt16,Unity.Profiling.LowLevel.MarkerFlags,System.Byte,System.Byte,System.Int32,Unity.Profiling.ProfilerCounterOptions)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_CreateCounterValue__Unmanaged();
@@ -2785,6 +2805,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Profiling.Profiler::EndSample()
 		void Register_UnityEngine_Profiling_Profiler_EndSample();
 		Register_UnityEngine_Profiling_Profiler_EndSample();
+
+		//System.Void UnityEngine.Profiling.Profiler::Internal_EmitGlobalMetaData_Array(System.Void*,System.Int32,System.Int32,System.Array,System.Int32,System.Int32,System.Boolean)
+		void Register_UnityEngine_Profiling_Profiler_Internal_EmitGlobalMetaData_Array();
+		Register_UnityEngine_Profiling_Profiler_Internal_EmitGlobalMetaData_Array();
 
 	//End Registrations for type : UnityEngine.Profiling.Profiler
 

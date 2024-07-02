@@ -19,4 +19,3 @@ target 'Orbital' do
   end
 
 end
-# use_frameworks! :linkage => :static

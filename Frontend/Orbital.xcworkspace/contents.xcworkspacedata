@@ -13,10 +13,4 @@
    <FileRef
       location = "container:Pods/Pods.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Orbital.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>
