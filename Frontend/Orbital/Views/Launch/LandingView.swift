@@ -1,4 +1,5 @@
 import SwiftUI
+import Firebase
 
 struct LandingView: View {
     @State private var showSignUp = false

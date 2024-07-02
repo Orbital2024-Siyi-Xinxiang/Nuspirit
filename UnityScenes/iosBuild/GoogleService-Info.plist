@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1037292088990-hvpd4iiip0b5frt33p1hb64mk1k8lk4d.apps.googleusercontent.com</string>
+	<string>1037292088990-9d2c95hqakf9174ag9bjvdhmh3okhbq7.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1037292088990-hvpd4iiip0b5frt33p1hb64mk1k8lk4d</string>
+	<string>com.googleusercontent.apps.1037292088990-9d2c95hqakf9174ag9bjvdhmh3okhbq7</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD4dmP3SG2y5fBuko7BAPWBVw2xgH6sdJE</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Chopeland.Orbital.SpecificVenues</string>
+	<string>Chopeland.Orbital</string>
 	<key>PROJECT_ID</key>
 	<string>orbital2024-9f1b1</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1037292088990:ios:8fa1a27e066f2d0c58558f</string>
+	<string>1:1037292088990:ios:01127b1207e3cbe058558f</string>
 	<key>DATABASE_URL</key>
 	<string>https://orbital2024-9f1b1-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
