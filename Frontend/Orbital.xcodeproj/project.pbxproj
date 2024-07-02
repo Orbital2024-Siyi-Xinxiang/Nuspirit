@@ -84,12 +84,6 @@
 		B58450932C32ADF700234AEC /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450922C32ADF700234AEC /* Unity.swift */; };
 		B58450982C32C0CC00234AEC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450972C32C0CC00234AEC /* ViewModel.swift */; };
 		B58450A32C32C21B00234AEC /* UnityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450A22C32C21B00234AEC /* UnityMessage.swift */; };
-		B584513A2C331F0200234AEC /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */; };
-		B58451462C33225400234AEC /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58451432C33223D00234AEC /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B584514F2C33293100234AEC /* Pods_Unity_iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B584514A2C33286300234AEC /* Pods_Unity_iPhone.framework */; };
-		B58451502C33293500234AEC /* Pods_UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B584514C2C33286300234AEC /* Pods_UnityFramework.framework */; };
-		B58451512C33293E00234AEC /* Pods_Orbital_OrbitalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C387F387386840A3893E070 /* Pods_Orbital_OrbitalUITests.framework */; };
-		B58451522C33294100234AEC /* Pods_OrbitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF77F2A2D8F125DB5C6112F /* Pods_OrbitalTests.framework */; };
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -159,20 +153,6 @@
 			remoteInfo = Orbital;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B58451342C331B5A00234AEC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B58451462C33225400234AEC /* UnityFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		109D21E064AC5F31C11472A9 /* Pods-Orbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.release.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.release.xcconfig"; sourceTree = "<group>"; };
@@ -285,7 +265,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B584513A2C331F0200234AEC /* Pods_Orbital.framework in Frameworks */,
 				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
@@ -295,7 +274,6 @@
 				B5FE65A42BFD0BF9000D375A /* FirebasePhoneAuthUI in Frameworks */,
 				B5110A532BFC762100208FC4 /* FirebaseAnalytics in Frameworks */,
 				B5110A552BFC762100208FC4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				B58451502C33293500234AEC /* Pods_UnityFramework.framework in Frameworks */,
 				B5110A7B2BFC762100208FC4 /* FirebaseMLModelDownloader in Frameworks */,
 				B5FE65A22BFD0BF9000D375A /* FirebaseOAuthUI in Frameworks */,
 				B5110A6F2BFC762100208FC4 /* FirebaseFirestoreSwift in Frameworks */,
@@ -315,12 +293,10 @@
 				B5110A712BFC762100208FC4 /* FirebaseFunctions in Frameworks */,
 				B5110A872BFC762100208FC4 /* FirebaseStorageCombine-Community in Frameworks */,
 				B5110A812BFC762100208FC4 /* FirebaseRemoteConfig in Frameworks */,
-				B58451512C33293E00234AEC /* Pods_Orbital_OrbitalUITests.framework in Frameworks */,
 				B5FE65962BFD0BF9000D375A /* FirebaseAuthUI in Frameworks */,
 				B5110A5D2BFC762100208FC4 /* FirebaseAppDistribution-Beta in Frameworks */,
 				B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */,
 				B5110A612BFC762100208FC4 /* FirebaseAuthCombine-Community in Frameworks */,
-				B58451522C33294100234AEC /* Pods_OrbitalTests.framework in Frameworks */,
 				B5110A7F2BFC762100208FC4 /* FirebasePerformance in Frameworks */,
 				B5110A772BFC762100208FC4 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				B5110A852BFC762100208FC4 /* FirebaseStorage in Frameworks */,
@@ -331,7 +307,6 @@
 				B5110A6D2BFC762100208FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				B5110A7D2BFC762100208FC4 /* FirebaseMessaging in Frameworks */,
 				B5110A792BFC762100208FC4 /* FirebaseInstallations in Frameworks */,
-				B584514F2C33293100234AEC /* Pods_Unity_iPhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +617,6 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
-				B58451342C331B5A00234AEC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
