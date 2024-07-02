@@ -62,8 +62,7 @@ struct MapContentView: View {
             guard let documents = snapshot?.documents else { return }
             var newAnnotations: [CustomAnnotation] = []
             var newOverlays: [CustomMapOverlay] = []
-            
-            
+
             for document in documents {
                 let data = document.data()
                 guard let name = data["name"] as? String,
