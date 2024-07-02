@@ -290,6 +290,7 @@ struct NavigationLinksView: View {
                     .cornerRadius(10)
                     .padding(.bottom, 4)
             }
+<<<<<<< HEAD
             NavigationLink(destination: AvatarDesign()) {
                 Text("System Settings")
                     .padding()
@@ -299,6 +300,8 @@ struct NavigationLinksView: View {
                     .cornerRadius(10)
                     .padding(.bottom, 4)
             }
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
             NavigationLink(destination: ContactsView()) {
                 Text("User Contacts")
                     .padding()

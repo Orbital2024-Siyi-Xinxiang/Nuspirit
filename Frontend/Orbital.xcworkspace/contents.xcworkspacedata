@@ -2,6 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD
       location = "group:../UnityScenes/iosBuild/Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,5 +13,11 @@
    </FileRef>
    <FileRef
       location = "container:Pods/Pods.xcodeproj">
+=======
+      location = "group:Orbital.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
    </FileRef>
 </Workspace>

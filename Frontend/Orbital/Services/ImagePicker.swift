@@ -9,7 +9,10 @@ import Foundation
 import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
+<<<<<<< HEAD
     
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
     class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
         let parent: ImagePicker
 

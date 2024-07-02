@@ -22,7 +22,10 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import FirebaseInAppMessaging
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
     var window: UIWindow?
     var orientationLock = UIInterfaceOrientationMask.all
@@ -39,7 +42,11 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
         // configure firebase authentication
+<<<<<<< HEAD
         print("\n\n\npreloading unity host window ... \n\n\n")
+=======
+        print("\n\n\nloading unity host window ... \n\n\n")
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
         FirebaseApp.configure()
         // set landing view
         

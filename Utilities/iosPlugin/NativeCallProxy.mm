@@ -15,10 +15,13 @@ id<NativeCallsProtocol> api = NULL;
 
 extern "C" {
     void showHostMainWindow(const char* color) { return [api showHostMainWindow:[NSString stringWithUTF8String:color]]; }
+<<<<<<< HEAD
 
     void sendMessageToMobileApp(const char* message)
     {
         return [api sendMessageToMobileApp:[NSString stringWithUTF8String:message]];
     }
+=======
+>>>>>>> 708afefdc16dfb1a92f50e2bc9e39b1fdcb2c906
 }
 
