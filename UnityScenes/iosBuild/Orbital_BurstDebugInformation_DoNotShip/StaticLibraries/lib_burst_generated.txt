@@ -33,7 +33,6 @@ Library: /Users/emma/Desktop/Repos/Orbital2024/UnityProjects/Orbital/Temp/BurstO
 --linker-options=min-ios-version=13.0
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/emma/Desktop/Repos/Orbital2024/UnityProjects/Orbital/Temp/Burst
---debug=Full
 --generate-static-linkage-methods
 --key-folder=/Applications/Unity/Hub/Editor/6000.0.0b16/PlaybackEngines/iOSSupport
 --decode-folder=/Users/emma/Desktop/Repos/Orbital2024/UnityProjects/Orbital/Library/Burst

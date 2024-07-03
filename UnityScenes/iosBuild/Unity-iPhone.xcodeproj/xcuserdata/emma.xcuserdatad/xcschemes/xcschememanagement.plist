@@ -7,17 +7,17 @@
 		<key>GameAssembly.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>50</integer>
 		</dict>
 		<key>Unity-iPhone.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
 		</dict>
 		<key>UnityFramework.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>51</integer>
 		</dict>
 	</dict>
 </dict>
