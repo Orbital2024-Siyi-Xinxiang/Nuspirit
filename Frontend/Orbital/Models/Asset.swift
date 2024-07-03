@@ -1,5 +1,4 @@
 import FirebaseFirestore
-import FirebaseFirestoreSwift
 
 struct Asset: Identifiable, Codable, Equatable {
     @DocumentID var id: String? // Use String for id to align with Firestore document ID

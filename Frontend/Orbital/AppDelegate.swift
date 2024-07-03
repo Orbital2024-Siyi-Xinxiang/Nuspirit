@@ -20,7 +20,7 @@ import SwiftUI
 import GoogleSignIn
 import FBSDKCoreKit
 import FBSDKLoginKit
-import FirebaseInAppMessaging
+//import FirebaseInAppMessaging
 
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {

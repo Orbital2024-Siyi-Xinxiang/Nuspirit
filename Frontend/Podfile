@@ -2,11 +2,25 @@
 platform :ios, '17.0'
 
 target 'Orbital' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+
+  use_frameworks! :linkage => :static
 
   # Pods for Orbital
-  # pod 'Firebase/InAppMessaging'
+  pod 'Firebase'
+  pod 'Firebase/InAppMessaging'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/RemoteConfig'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Firestore'
+
+
+
+
+
 
 
   target 'OrbitalTests' do
@@ -19,3 +33,4 @@ target 'Orbital' do
   end
 
 end
+use_frameworks! :linkage => :static

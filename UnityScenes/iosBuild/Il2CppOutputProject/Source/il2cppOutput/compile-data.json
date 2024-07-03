@@ -85,7 +85,7 @@
   "SettingsForConversionAndCompilation": {
     "Dotnetprofile": "unityaot-macos",
     "DevelopmentMode": false,
-    "EnableDebugger": false,
+    "EnableDebugger": true,
     "GenerateUsymFile": false,
     "UsymtoolPath": "/Applications/Unity/Hub/Editor/6000.0.0b16/Unity.app/Contents/Tools/macosx/usymtool",
     "DebuggerOff": false,

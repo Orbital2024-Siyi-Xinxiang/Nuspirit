@@ -1,5 +1,4 @@
 import Firebase
-import FirebaseFirestoreSwift
 import FirebaseFirestore
 import FirebaseStorage
 
