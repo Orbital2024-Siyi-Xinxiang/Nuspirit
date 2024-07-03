@@ -96,6 +96,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
             }
         }
     }
+
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
