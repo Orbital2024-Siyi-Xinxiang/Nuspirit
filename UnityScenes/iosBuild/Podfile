@@ -3,6 +3,7 @@ source 'https://cdn.cocoapods.org/'
 platform :ios, '13.0'
 
 target 'UnityFramework' do
+  pod 'Firebase'
   pod 'Firebase/Analytics', '10.25.0'
   pod 'Firebase/Auth', '10.25.0'
   pod 'Firebase/Core', '10.25.0'
