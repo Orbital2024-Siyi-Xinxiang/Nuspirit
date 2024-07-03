@@ -178,8 +178,6 @@ struct ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6;
 struct ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19;
 struct SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsFirebase_App[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsFirebase_Storage[];
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AggregateException_t51B6205846DFB356B94452702201DD239D44422F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_il2cpp_TypeInfo_var;
@@ -278,8 +276,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE452FBB4FDE6913F8CF541DF8BB1626D735FD33E
 IL2CPP_EXTERN_C String_t* _stringLiteralE5ACD853F8874D5E90622ED276C4C96160520552;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE45832FA8619B51BADFA5FA6E889D63BD0649CB;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE79FF373808574898C82AC1320C55C1182FB75A;
-IL2CPP_EXTERN_C const RuntimeMethod* AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppOptions_get_StorageBucket_m93625BCEE94287655E69A3ED0D145E64F66278A4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mA088B4CFFD451B08E7B6B8D2C141F2A6E0AEC112_RuntimeMethod_var;
@@ -290,41 +286,16 @@ IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mB06B57C1F6085A6AEA2C
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m09AD6CD926C4F2DA33BBE74EA133F80BC1F7AC46_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m6E9D8FDB919C8320D80F7597574FFE9F6D0D88D3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m06D75C6DF4330942019CEC566CE1F77C08873BB9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ExceptionArgumentDelegate_Invoke_m33E23E680B50CD43FEB46921260C0E9C4AA8DE56_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ExceptionDelegate_Invoke_m7248F2A105990113CFEAB586BF0E4F868E753F27_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_Dispose_m18EF3F130CCD8C586936462F4D9C140CFC673824_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_Dispose_m8BE167067EB4C1FBF823331DE520C441E5AF0B1F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_Finalize_m08E3C8A4DCBBEAD55985B914BCF993BEE7BE3237_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_GetInstanceInternal_m1A51C89841E064C55E86D56D05FCEB3FBF1206C6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_GetReferenceFromUrl_mD87D0E190A05F5109F7CEF39C08B2731E9C3188E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_ReleaseReferenceInternal_m8ED46F85804D22BD6C3688CCACEDB6BDC67275E2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_SetSwigCMemOwn_mE268A0AD6F3528EC65D486EC1F0B228D84D96629_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal__ctor_mB8F9788F57268947777E0C442C9C2BF3370CFE6E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_get_App_mA92F711407E7D883382645FCF479370018821AF3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_ConstructFormattedUri_mBC6BF241BE608028C04B4C508F85AEA9B45B51F6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_Dispose_mF3522116DDF143F6DFAF767D3CBF3092FADA4A6F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_Finalize_mE086B6BB55BD1E3AFDCDAC5A5BF3AFB657D42634_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_FindByKey_mB71281FFAA2F8E31D108454779F2AE78391212A5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_GetInstance_mF22FB095388AD14E96ADCCD31813DFF7851162DE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_GetReferenceFromUrl_m62E1995DDD883BAB36CED64EADE346BA8EA4421A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage__cctor_m2BC27FEF980857AB4BB2593E5DAED9F611331395_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage__ctor_mD53DDAA91E21368E464FF0BA1E1B171D896C976A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m14B2E734DD76D26DE4F1C83D6EB500BE400DE1B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m25F4DF4DE179873ACDA24F3C314479DDBCCC0BDD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m7F0C23273635833A4D046A87EF3F3731C79A22B7_RuntimeMethod_var;
@@ -332,17 +303,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_m7E4BCB7F0652FE05E987A6B3EF0D
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mE10942BAF61F258192575C0A6044AADF5D08BB5B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m63EDE1AEAA4A4FCAB6203FB0C262E31C79D24F9E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF9FFC2B904A1557D19170DC33F3A326E18082C76_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger_Finalize_mC6B7BF79CCD9A25BA7A164BB1531360A4068036D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger__cctor_m8AC0D8D50EA2CCDE411F55CE6281B6DCB8C19FB3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger_get_Level_m0AEE610FD8DA98169E801F769BC567589DE54791_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger_set_Level_m1DC27F4C2EC96609D9050B868F8B71467AB4A916_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_StorageInternal_m233EE52CA80C53E40D500B3FA9D7EFE47983E54C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_StorageInternal_m51BDE70D0F8120FB4A1B1248A83C0B9AA9D0E315_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_m042DB1D2B393D1EFACE6207BC2B910A09F04CD97_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_mA250FCAD3EB6430ECA11334E6326889B79804FA8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_m7759298EE23B95B8312C155E19107FE1839072C4_RuntimeMethod_var;
@@ -357,100 +318,23 @@ IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingNullReference
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingOutOfMemoryException_m0E6F400E42E90325FA3B0D5C807F94DD41E31802_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingOverflowException_m22928B659BB862A5C6421E9E120E7953CF3B3A44_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemException_m08E0AD3DFEA48AC9EEDD7A4E293B311133BF34E8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper__cctor_m57882804AB19295FF09DCE01689C86994FA6EA83_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper__ctor_mAD73726452D2B9A7610ED82C4B6868D0C424C849_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGPendingException__cctor_m56978E79DDA02AF5E262DBE507FB14CB9E795BF0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringDelegate_Invoke_m3D7648538AED70BD4A337DCE5D52E729A9F061C7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringDelegate__ctor_mC5F68D7CA10A84812D4C8AF241FC7628F3EB0AD4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringHelper_SWIGRegisterStringCallback_StorageInternal_m93E039C055D42F278FC1780C4A1B11930F9F0EB4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringHelper__cctor_m635B787E13B3CD3B4EBB1B561B9E6B5C806B3B2F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringHelper__ctor_m742C1F69A35C651EA7707D33CFDCF5C602DD81E3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException_CreateFromException_mF4F4775B52295C5AA2BCA4B301FD47B8C114934B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException_GetErrorMessageForCode_mC71355BE307007C13C4D25FECC4130BDAC90E5E8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException__cctor_m756F4F75827B2D8680D00DBDE50313AFD1F59484_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException__ctor_m1C50CA3E9AB10B78C3EA30236C8A31A03DD5BD48_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_FirebaseStorageInternal_App_get_mC656458F11190DA28B011BCA2AF7FB76AB80494F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_FirebaseStorageInternal_GetInstanceInternal_m6B3FE8FC3DAEC62E87B37F4E572AAB2F70E80EE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_FirebaseStorageInternal_GetReferenceFromUrl__SWIG_0_mCD3C3E37608FE22FFB3A401982557B2EFF33A9DF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_FirebaseStorageInternal_ReleaseReferenceInternal_mAD3911ECA3716197E8B078C30AEFF53D98D3A908_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_FirebaseStorageInternal_Url_get_m940A2C770290475EE696E9AC9F8EA3EDB29E3B14_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_StorageReferenceInternal_Bucket_get_m5C0FB1EC9D5396A3189CCBC3FCF5147BB1AAD856_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_StorageReferenceInternal_FullPath_get_m511AA82847C6B1CF473577AB8A49000AEC0EF342_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_StorageReferenceInternal_GetDownloadUrl_m136E84C0FD92788E5199864C6F6D4269AED41817_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_StorageReferenceInternal_IsValid_get_m98AC6FCC439EEDCB1AAEC9DCF7D0DBC4F80865AF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE__cctor_m0F2965AD3911C9E5D4454F81FEB1503ADF1403A7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageInternalPINVOKE_delete_StorageReferenceInternal_m7EC3E2D36E8D1DB1CE0D7D738C2DC9193A3E629E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_Dispose_m8DA06D2B1F391F8A18795B32192DB3C46829A1DA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_Dispose_m8EBCA21D9ECF5936B3F95BB8068A4D2B1E685584_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_Finalize_m841C4C27BBBDB8F3E51D1284F168B6E8AF4208F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_GetDownloadUrlAsync_m73618C32785777B29DB6FDE986ACFFE4F789E9BE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal__ctor_m7C41AA5A3F5475ECA398D40758FF6DA37718B677_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_get_Bucket_m7C7737DC9A4D22049E4C6338515E229935A68BF5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_get_FullPath_mE93027973F851741548644FA6CE90911FB02FC42_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StorageReferenceInternal_get_IsValid_m00ADACF700EC5777285450BBD2AC3AC8349DA171_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_CompleteTask_TisString_t_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m69982673125FC96F92B66BB6C48BE3F65B97450A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_Equals_m12EC7D8FA3D1E7CBEA6AE21486AF60A7D733D779_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_GetDownloadUrlAsync_m07C79D8E2C5D19D0FB610B55E4E7CC2B4752E37B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_GetHashCode_mD11BCEA0CB329C7FB4165BDBF6F9321992C1D25F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_ToString_m09E63E06152F8351F89268C6DE0A35A5F4C8B0B3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference__ctor_m0D0BBD2A92AFDEF8268F669CC8D1D3E74E384C2E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_get_Bucket_m17BFF3774E2064931D6673E7FBB05299611BDB22_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_get_Logger_m65B058F84D93470E90DD8454FCD759E5E4D53ABE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_get_Path_m23006656BF5776DAC29630E641369A740F333C27_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_mD4584F60DB680072B93F9D22E45A09C2C1A5B4F0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m46E4F92E4B9E96E87B3EE1809D72022A0426AE9B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus__ctor_m7D45E6CCAF8D0EF3FEA456728EE59F33EE03B849_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus_get_IsCanceled_mF0AEC4C6D2371F500E7EC8C574FD8C5E92E92F5C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus_get_IsSuccessful_mB45EF6750B3ECD983FFB129274225970484A4041_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2_get_Item1_m97018C5C2790AA6E79FC11C65A40B7A1D053F918_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2_get_Item2_m5C4E64240B7FB011D4913516B3D7FA705794D9C2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass27_0_U3CGetDownloadUrlAsyncU3Eb__0_m1FF8554E955CA96CD74534C2133F96BF42964B04_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass27_0__ctor_m81A265E4A489E98974B236F1BFD3BA7323DC0D3D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass27_1_U3CGetDownloadUrlAsyncU3Eb__1_mEC1A93766B35860C0EC3251814F77A5EA37FA7D4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass27_1__ctor_m6C3E002E951D8D0329747D945974E57801EC9151_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* AggregateException_t51B6205846DFB356B94452702201DD239D44422F_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Enumerator_tA83B52184A87D2620C50E08DA33C36DB659322C7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Exception_t_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* InitResult_tC00C167B9510F6F0D684EBFC560FE2BA1DEE6ED7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* LogLevel_tB190ABBB8AA2A85C2334AB7D3667BC6AA3763ECF_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Task_1_t8A177C614D430C4B0A757922E7BFC45DA857B137_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -1549,115 +1433,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage__ctor_mD53DDAA91E21368E4
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage__ctor_mD53DDAA91E21368E464FF0BA1E1B171D896C976A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2735032CF824904F31866A3DDD0204F0B7FE22CD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB703A2BE7C7C622C41AA27448E688623872F3623);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage__ctor_mD53DDAA91E21368E464FF0BA1E1B171D896C976A_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_storage), (&___1_app));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage__ctor_mD53DDAA91E21368E464FF0BA1E1B171D896C976A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 0));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 2));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 3));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 5));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_0 = ___1_app;
 		__this->___firebaseApp = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___firebaseApp), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 6));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_1 = __this->___firebaseApp;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 7));
 		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_2 = (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)il2cpp_codegen_object_new(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
 		EventHandler__ctor_m95444CE8D5A6F1AFC9793866C3FE884E732DCEB2(L_2, __this, (intptr_t)((void*)FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 7));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 8));
 		NullCheck(L_1);
 		FirebaseApp_add_AppDisposed_m849DD816EFE8D669DBFA139254D5E3C4D8C78F85(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 8));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 9));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_3 = ___0_storage;
 		__this->___storageInternal = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___storageInternal), (void*)L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 10));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_4 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___logger;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 11));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_5 = (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)il2cpp_codegen_object_new(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850(L_5, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 11));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_6 = L_5;
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_7 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___logger;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 12));
 		NullCheck(L_7);
 		String_t* L_8;
 		L_8 = ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A(L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 12));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_9 = __this->___storageInternal;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 13));
 		NullCheck(L_9);
 		String_t* L_10;
 		L_10 = FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 13));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 14));
 		String_t* L_11;
 		L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral2735032CF824904F31866A3DDD0204F0B7FE22CD, L_8, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 14));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 15));
 		NullCheck(L_6);
 		ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F(L_6, L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 15));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_12 = L_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 16));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = FirebaseApp_get_LogLevel_m64B54EED8CF1B5F8EA074612CF09E58026D23603(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 16));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 17));
 		NullCheck(L_12);
 		ModuleLogger_set_Level_m1DC27F4C2EC96609D9050B868F8B71467AB4A916(L_12, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 17));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 18));
 		FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_inline(__this, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 18));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 19));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_14 = __this->___storageInternal;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 20));
 		NullCheck(L_14);
 		FirebaseStorageInternal_SetSwigCMemOwn_mE268A0AD6F3528EC65D486EC1F0B228D84D96629(L_14, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 20));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 21));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_15 = __this->___storageInternal;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 22));
 		NullCheck(L_15);
 		String_t* L_16;
 		L_16 = FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C(L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 22));
 		__this->___instanceKey = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___instanceKey), (void*)L_16);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 23));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 24));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_17;
 		L_17 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 24));
 		String_t* L_18 = __this->___instanceKey;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 25));
 		String_t* L_19;
 		L_19 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralB703A2BE7C7C622C41AA27448E688623872F3623, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 25));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 26));
 		NullCheck(L_17);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_17, 1, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 26));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 27));
 		return;
 	}
 }
@@ -1666,18 +1500,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_Finalize_mE086B6BB55BD1E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_Finalize_mE086B6BB55BD1E3AFDCDAC5A5BF3AFB657D42634_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7624E265BB383FB22ED234A2DC36A755B34594EC);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_Finalize_mE086B6BB55BD1E3AFDCDAC5A5BF3AFB657D42634_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_Finalize_mE086B6BB55BD1E3AFDCDAC5A5BF3AFB657D42634_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 28));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 29));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 30));
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
@@ -1685,36 +1511,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_Finalize_mE086B6BB55BD1E
 
 FINALLY_0028:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 38));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 39));
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 39));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 31));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 32));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 33));
 			FirebaseStorage_Dispose_mF3522116DDF143F6DFAF767D3CBF3092FADA4A6F(__this, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 33));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 34));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 35));
 			ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0;
 			L_0 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(__this, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 35));
 			String_t* L_1 = __this->___instanceKey;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 36));
 			String_t* L_2;
 			L_2 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral7624E265BB383FB22ED234A2DC36A755B34594EC, L_1, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 36));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 37));
 			NullCheck(L_0);
 			ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_0, 1, L_2, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 37));
 			goto IL_0030;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -1725,7 +1535,6 @@ FINALLY_0028:
 
 IL_0030:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 40));
 		return;
 	}
 }
@@ -1735,35 +1544,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_Dispose_mF3522116DDF143F
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_Dispose_mF3522116DDF143F6DFAF767D3CBF3092FADA4A6F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_Dispose_mF3522116DDF143F6DFAF767D3CBF3092FADA4A6F_RuntimeMethod_var);
 	Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
 	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F V_3;
 	memset((&V_3), 0, sizeof(V_3));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_Dispose_mF3522116DDF143F6DFAF767D3CBF3092FADA4A6F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 41));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 42));
 	int32_t G_B4_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 43));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 44));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 45));
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 45));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 46));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_0 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 		V_0 = L_0;
@@ -1775,9 +1570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_Dispose_mF3522116DDF143F
 
 FINALLY_0087:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 65));
 					bool L_1 = V_1;
 					if (!L_1)
 					{
@@ -1786,28 +1579,20 @@ FINALLY_0087:
 				}
 				{
 					Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_2 = V_0;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 66));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 66));
 				}
 
 IL_0091:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 67));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_3 = V_0;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 47));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 47));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 48));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 49));
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_4 = __this->___storageInternal;
 				if (!L_4)
 				{
@@ -1816,19 +1601,13 @@ IL_0091:
 			}
 			{
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_5 = __this->___storageInternal;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 50));
 				HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_6;
 				L_6 = FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8(L_5, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 50));
 				V_3 = L_6;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 51));
 				intptr_t L_7;
 				L_7 = HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline((&V_3), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 51));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 52));
 				bool L_8;
 				L_8 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_7, 0, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 52));
 				G_B4_0 = ((int32_t)(L_8));
 				goto IL_0042_1;
 			}
@@ -1841,7 +1620,6 @@ IL_0041_1:
 IL_0042_1:
 			{
 				V_2 = (bool)G_B4_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 53));
 				bool L_9 = V_2;
 				if (!L_9)
 				{
@@ -1849,41 +1627,26 @@ IL_0042_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 54));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 55));
 				FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_10 = __this->___firebaseApp;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 56));
 				EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_11 = (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)il2cpp_codegen_object_new(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
 				EventHandler__ctor_m95444CE8D5A6F1AFC9793866C3FE884E732DCEB2(L_11, __this, (intptr_t)((void*)FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 56));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 57));
 				NullCheck(L_10);
 				FirebaseApp_remove_AppDisposed_mAAF77EA50314A467CBB4481448C72FA9B7173289(L_10, L_11, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 57));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 58));
 				il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_12 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 				String_t* L_13 = __this->___instanceKey;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 59));
 				NullCheck(L_12);
 				bool L_14;
 				L_14 = Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6(L_12, L_13, Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 59));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 60));
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_15 = __this->___storageInternal;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 61));
 				NullCheck(L_15);
 				FirebaseStorageInternal_Dispose_m8BE167067EB4C1FBF823331DE520C441E5AF0B1F(L_15, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 61));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 62));
 				__this->___storageInternal = (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___storageInternal), (void*)(FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145*)NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 63));
 			}
 
 IL_0084_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 64));
 				goto IL_0092;
 			}
 		}
@@ -1895,7 +1658,6 @@ IL_0084_1:
 
 IL_0092:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 68));
 		return;
 	}
 }
@@ -1905,54 +1667,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_OnAppDisposed_mD8FEA2849
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseLogger_t17574FB770AB2CB02AF3459B2EF9D27FC9C24F42_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE5ACD853F8874D5E90622ED276C4C96160520552);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_sender), (&___1_eventArgs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_OnAppDisposed_mD8FEA28499BCE475237BF7945AA3BCD6C7A2D878_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 69));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 70));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 71));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 72));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 73));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseLogger_t17574FB770AB2CB02AF3459B2EF9D27FC9C24F42_il2cpp_TypeInfo_var);
 		FirebaseLogger_LogMessage_mA369905E81D1C7988F02D10C909588A688017AA4(3, _stringLiteralE5ACD853F8874D5E90622ED276C4C96160520552, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 73));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 74));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 75));
 		FirebaseStorage_Dispose_mF3522116DDF143F6DFAF767D3CBF3092FADA4A6F(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 75));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 76));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA_RuntimeMethod_var);
 	bool V_0 = false;
 	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 77));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 78));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 79));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 80));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_0 = __this->___storageInternal;
 		if (!L_0)
 		{
@@ -1961,19 +1692,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_ThrowIfNull_mD51129BAA96
 	}
 	{
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_1 = __this->___storageInternal;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 81));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_2;
 		L_2 = FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 81));
 		V_1 = L_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 82));
 		intptr_t L_3;
 		L_3 = HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline((&V_1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 82));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 83));
 		bool L_4;
 		L_4 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_3, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 83));
 		G_B3_0 = ((int32_t)(L_4));
 		goto IL_0029;
 	}
@@ -1986,7 +1711,6 @@ IL_0028:
 IL_0029:
 	{
 		V_0 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 84));
 		bool L_5 = V_0;
 		if (!L_5)
 		{
@@ -1994,58 +1718,26 @@ IL_0029:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 85));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 86));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 87));
 		NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB* L_6 = (NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB_il2cpp_TypeInfo_var)));
 		NullReferenceException__ctor_mD26D62094A5E49C18D817817E17FDFBC1D3BD752(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 87));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA_RuntimeMethod_var)));
 	}
 
 IL_0034:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 88));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391 (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 89));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 90));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 91));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = __this->___U3CLoggerU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3 (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* __this, ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 92));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 93));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 94));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = ___0_value;
 		__this->___U3CLoggerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLoggerU3Ek__BackingField), (void*)L_0);
@@ -2057,7 +1749,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_ConstructFormattedUri_mBC6BF241BE608028C04B4C508F85AEA9B45B51F6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_0_0_0_var);
@@ -2071,7 +1762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE79FF373808574898C82AC1320C55C1182FB75A);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_ConstructFormattedUri_mBC6BF241BE608028C04B4C508F85AEA9B45B51F6_RuntimeMethod_var);
 	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_0 = NULL;
 	String_t* V_1 = NULL;
 	bool V_2 = false;
@@ -2086,38 +1776,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 	bool V_11 = false;
 	bool V_12 = false;
 	bool V_13 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_formattedUrl));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_7), (&V_8), (&V_9));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_ConstructFormattedUri_mBC6BF241BE608028C04B4C508F85AEA9B45B51F6_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 95));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 96));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 97));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 98));
 		String_t* L_0 = ___0_formattedUrl;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 99));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_1 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
 		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_1, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 99));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 100));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 101));
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = Uri_get_PathAndQuery_m33B64A4AAF08510C0199CF5A85918B91D1008E5C(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 101));
 		V_1 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 102));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		FieldInfo_t* L_4 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___pathFieldInfo;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 103));
 		bool L_5;
 		L_5 = FieldInfo_op_Equality_mA38D84E1D9AA016F414CF2265C4B0DB1FEBBAB74(L_4, (FieldInfo_t*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 103));
 		V_2 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 104));
 		bool L_6 = V_2;
 		if (!L_6)
 		{
@@ -2125,30 +1799,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 105));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 106));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_0_0_0_var) };
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 107));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 107));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 108));
 		NullCheck(L_8);
 		FieldInfo_t* L_9;
 		L_9 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(84, L_8, _stringLiteralFE79FF373808574898C82AC1320C55C1182FB75A, ((int32_t)36));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 108));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___pathFieldInfo = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___pathFieldInfo), (void*)L_9);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 109));
 		FieldInfo_t* L_10 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___pathFieldInfo;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 110));
 		bool L_11;
 		L_11 = FieldInfo_op_Equality_mA38D84E1D9AA016F414CF2265C4B0DB1FEBBAB74(L_10, (FieldInfo_t*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 110));
 		V_3 = L_11;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 111));
 		bool L_12 = V_3;
 		if (!L_12)
 		{
@@ -2156,33 +1820,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 112));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 113));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 114));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_13;
 		L_13 = FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 114));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 115));
 		NullCheck(L_13);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_14;
 		L_14 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 115));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_15 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 116));
 		NullCheck(L_15);
 		String_t* L_16;
 		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_15);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 116));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 117));
 		String_t* L_17;
 		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral492E12A1EA6FD8EAA33E4BE4E8391BE2B07462CF, L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 117));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 118));
 		NullCheck(L_14);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_14, 1, L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 118));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 119));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_18 = V_0;
 		V_4 = L_18;
 		goto IL_021c;
@@ -2190,20 +1841,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 
 IL_0073:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 120));
 	}
 
 IL_0074:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 121));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		FieldInfo_t* L_19 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___cachedToString;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 122));
 		bool L_20;
 		L_20 = FieldInfo_op_Equality_mA38D84E1D9AA016F414CF2265C4B0DB1FEBBAB74(L_19, (FieldInfo_t*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 122));
 		V_5 = L_20;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 123));
 		bool L_21 = V_5;
 		if (!L_21)
 		{
@@ -2211,30 +1857,20 @@ IL_0074:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 124));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 125));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_22 = { reinterpret_cast<intptr_t> (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_0_0_0_var) };
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 126));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_23;
 		L_23 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_22, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 126));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 127));
 		NullCheck(L_23);
 		FieldInfo_t* L_24;
 		L_24 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(84, L_23, _stringLiteral8E0D467E808FBDA0581E9B787E361A39CCD1302A, ((int32_t)36));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 127));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___cachedToString = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___cachedToString), (void*)L_24);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 128));
 		FieldInfo_t* L_25 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___cachedToString;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 129));
 		bool L_26;
 		L_26 = FieldInfo_op_Equality_mA38D84E1D9AA016F414CF2265C4B0DB1FEBBAB74(L_25, (FieldInfo_t*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 129));
 		V_6 = L_26;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 130));
 		bool L_27 = V_6;
 		if (!L_27)
 		{
@@ -2242,63 +1878,41 @@ IL_0074:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 131));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 132));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 133));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_28;
 		L_28 = FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 133));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 134));
 		NullCheck(L_28);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_29;
 		L_29 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(L_28, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 134));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_30 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 135));
 		NullCheck(L_30);
 		String_t* L_31;
 		L_31 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_30);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 135));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 136));
 		String_t* L_32;
 		L_32 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9E4AFE5694A4F8055A4D886D9E15DC3AFBFC53BE, L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 136));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 137));
 		NullCheck(L_29);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_29, 1, L_32, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 137));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 138));
 	}
 
 IL_00d5:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 139));
 	}
 
 IL_00d6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 140));
 	}
 	try
 	{
-		STORE_TRY_ID(methodExecutionContext, 0);
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 141));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 142));
 			il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 			FieldInfo_t* L_33 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___pathFieldInfo;
 			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_34 = V_0;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 143));
 			NullCheck(L_33);
 			RuntimeObject* L_35;
 			L_35 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(23, L_33, L_34);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 143));
 			V_7 = ((String_t*)CastclassSealed((RuntimeObject*)L_35, il2cpp_defaults.string_class));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 144));
 			String_t* L_36 = V_7;
 			V_10 = (bool)((((RuntimeObject*)(String_t*)L_36) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 145));
 			bool L_37 = V_10;
 			if (!L_37)
 			{
@@ -2306,8 +1920,6 @@ IL_00d6:
 			}
 		}
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 146));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 147));
 			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_38 = V_0;
 			V_4 = L_38;
 			goto IL_021c;
@@ -2315,18 +1927,13 @@ IL_00d6:
 
 IL_00fe_1:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 148));
 			String_t* L_39 = V_7;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 149));
 			NullCheck(L_39);
 			int32_t L_40;
 			L_40 = String_LastIndexOf_m8923DBD89F2B3E5A34190B038B48F402E0C17E40(L_39, _stringLiteral9AA76BBF7EB0D3B88FF0AE06C7A8FE8CF8BE2236, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 149));
 			V_8 = L_40;
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 150));
 			int32_t L_41 = V_8;
 			V_11 = (bool)((((int32_t)L_41) == ((int32_t)(-1)))? 1 : 0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 151));
 			bool L_42 = V_11;
 			if (!L_42)
 			{
@@ -2334,8 +1941,6 @@ IL_00fe_1:
 			}
 		}
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 152));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 153));
 			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_43 = V_0;
 			V_4 = L_43;
 			goto IL_021c;
@@ -2343,16 +1948,12 @@ IL_00fe_1:
 
 IL_0120_1:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 154));
 			int32_t L_44 = V_8;
 			String_t* L_45 = V_7;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 155));
 			NullCheck(L_45);
 			int32_t L_46;
 			L_46 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_45, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 155));
 			V_12 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_44, 3))) == ((int32_t)L_46))? 1 : 0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 156));
 			bool L_47 = V_12;
 			if (!L_47)
 			{
@@ -2360,8 +1961,6 @@ IL_0120_1:
 			}
 		}
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 157));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 158));
 			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_48 = V_0;
 			V_4 = L_48;
 			goto IL_021c;
@@ -2369,51 +1968,34 @@ IL_0120_1:
 
 IL_013c_1:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 159));
 			String_t* L_49 = V_7;
 			int32_t L_50 = V_8;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 160));
 			NullCheck(L_49);
 			String_t* L_51;
 			L_51 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_49, ((int32_t)il2cpp_codegen_add(L_50, 3)), NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 160));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 161));
 			NullCheck(L_51);
 			String_t* L_52;
 			L_52 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_51, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, _stringLiteral5B60826B672AE8FDF846D50BC3A8441BCD134FF9, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 161));
 			V_9 = L_52;
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 162));
 			String_t* L_53 = V_7;
 			int32_t L_54 = V_8;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 163));
 			NullCheck(L_53);
 			String_t* L_55;
 			L_55 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_53, 0, ((int32_t)il2cpp_codegen_add(L_54, 3)), NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 163));
 			String_t* L_56 = V_9;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 164));
 			String_t* L_57;
 			L_57 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_55, L_56, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 164));
 			V_7 = L_57;
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 165));
 			il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 			FieldInfo_t* L_58 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___pathFieldInfo;
 			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_59 = V_0;
 			String_t* L_60 = V_7;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 166));
 			NullCheck(L_58);
 			FieldInfo_SetValue_mD8C0DA3A1A0CFF073F971622BBDBAAB6688B4B6C(L_58, L_59, L_60, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 166));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 167));
 			FieldInfo_t* L_61 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___cachedToString;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 168));
 			bool L_62;
 			L_62 = FieldInfo_op_Inequality_m95789A98E646494987E66A9E4188DCA86185066B(L_61, (FieldInfo_t*)NULL, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 168));
 			V_13 = L_62;
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 169));
 			bool L_63 = V_13;
 			if (!L_63)
 			{
@@ -2421,22 +2003,16 @@ IL_013c_1:
 			}
 		}
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 170));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 171));
 			il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 			FieldInfo_t* L_64 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___cachedToString;
 			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_65 = V_0;
 			String_t* L_66 = ___0_formattedUrl;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 172));
 			NullCheck(L_64);
 			FieldInfo_SetValue_mD8C0DA3A1A0CFF073F971622BBDBAAB6688B4B6C(L_64, L_65, L_66, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 172));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 173));
 		}
 
 IL_019b_1:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 174));
 			goto IL_0210;
 		}
 	}
@@ -2462,121 +2038,72 @@ IL_019b_1:
 
 CATCH_019e:
 	{
-		STORE_TRY_ID(methodExecutionContext, -1);
 		FieldAccessException_t5DD5AAFAF0F0F827EC0D4F89773CD46FD45AE21A* L_67 = ((FieldAccessException_t5DD5AAFAF0F0F827EC0D4F89773CD46FD45AE21A*)IL2CPP_GET_ACTIVE_EXCEPTION(FieldAccessException_t5DD5AAFAF0F0F827EC0D4F89773CD46FD45AE21A*));;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 175));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 176));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 177));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 178));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var)));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_68;
 		L_68 = FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 178));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 179));
 		NullCheck(L_68);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_69;
 		L_69 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(L_68, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 179));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_70 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 180));
 		NullCheck(L_70);
 		String_t* L_71;
 		L_71 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_70);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 180));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 181));
 		String_t* L_72;
 		L_72 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral25B302D60E13CE4F75DBA8F5B002C2B1AD81C5A1)), L_71, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 181));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 182));
 		NullCheck(L_69);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_69, 1, L_72, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 182));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 183));
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0210;
 	}
 
 CATCH_01c4:
 	{
-		STORE_TRY_ID(methodExecutionContext, -1);
 		TargetException_t0BF701F53560E89407F6DD0DD8D50A5DA882A6B6* L_73 = ((TargetException_t0BF701F53560E89407F6DD0DD8D50A5DA882A6B6*)IL2CPP_GET_ACTIVE_EXCEPTION(TargetException_t0BF701F53560E89407F6DD0DD8D50A5DA882A6B6*));;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 184));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 185));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 186));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 187));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var)));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_74;
 		L_74 = FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 187));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 188));
 		NullCheck(L_74);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_75;
 		L_75 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(L_74, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 188));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_76 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 189));
 		NullCheck(L_76);
 		String_t* L_77;
 		L_77 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_76);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 189));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 190));
 		String_t* L_78;
 		L_78 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1B2C5CD5AD315F121A16E97051C59081DE484465)), L_77, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 190));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 191));
 		NullCheck(L_75);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_75, 1, L_78, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 191));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 192));
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0210;
 	}
 
 CATCH_01ea:
 	{
-		STORE_TRY_ID(methodExecutionContext, -1);
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_79 = ((ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)IL2CPP_GET_ACTIVE_EXCEPTION(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*));;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 193));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 194));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 195));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 196));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var)));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_80;
 		L_80 = FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 196));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 197));
 		NullCheck(L_80);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_81;
 		L_81 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(L_80, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 197));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_82 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 198));
 		NullCheck(L_82);
 		String_t* L_83;
 		L_83 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_82);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 198));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 199));
 		String_t* L_84;
 		L_84 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral001FAA6D3CC28196BCAAE1682C7C0948845703F0)), L_83, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 199));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 200));
 		NullCheck(L_81);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_81, 1, L_84, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 200));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 201));
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0210;
 	}
 
 IL_0210:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 202));
 		String_t* L_85 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 203));
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_KeepAlive_m53833ADCAF719294E5D1DA13B067E31472C762F9(L_85, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 203));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 204));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_86 = V_0;
 		V_4 = L_86;
 		goto IL_021c;
@@ -2584,7 +2111,6 @@ IL_0210:
 
 IL_021c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 205));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_87 = V_4;
 		return L_87;
 	}
@@ -2595,36 +2121,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935_RuntimeMethod_var);
 	FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_get_DefaultInstance_m952DFCAD322579C0B618C41909810A192DEAE935_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 206));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 207));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 208));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 209));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 210));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_0;
 		L_0 = FirebaseApp_get_DefaultInstance_m2387909BEFA7CA8F51D87B62700EAE8DA6FC13A0(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 210));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 211));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_1;
 		L_1 = FirebaseStorage_GetInstance_mF22FB095388AD14E96ADCCD31813DFF7851162DE(L_0, (String_t*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 211));
 		V_0 = L_1;
 		goto IL_000f;
 	}
 
 IL_000f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 212));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_2 = V_0;
 		return L_2;
 	}
@@ -2634,18 +2147,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_GetInstance_mF22FB095388AD14E96ADCCD31813DFF7851162DE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralABBB41CC11C60D234659F31874B9FB7B8DD1259D);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_GetInstance_mF22FB095388AD14E96ADCCD31813DFF7851162DE_RuntimeMethod_var);
 	FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_app), (&___1_url));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_GetInstance_mF22FB095388AD14E96ADCCD31813DFF7851162DE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 213));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 214));
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B5_0 = NULL;
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B1_0 = NULL;
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B3_0 = NULL;
@@ -2655,14 +2161,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	String_t* G_B6_0 = NULL;
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B6_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 215));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 216));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_0 = ___0_app;
 		String_t* L_1 = ___1_url;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 217));
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 217));
 		if (!L_2)
 		{
 			G_B5_0 = L_0;
@@ -2672,20 +2174,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	}
 	{
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_3 = ___0_app;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 218));
 		NullCheck(L_3);
 		AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* L_4;
 		L_4 = FirebaseApp_get_Options_mDD04F28C88747DC1332D1A9363E7B6F6FCC7A12E(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 218));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 219));
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = AppOptions_get_StorageBucket_m93625BCEE94287655E69A3ED0D145E64F66278A4_inline(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 219));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 220));
 		bool L_6;
 		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 220));
 		if (!L_6)
 		{
 			G_B3_0 = G_B1_0;
@@ -2702,20 +2198,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 IL_001f:
 	{
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_7 = ___0_app;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 221));
 		NullCheck(L_7);
 		AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* L_8;
 		L_8 = FirebaseApp_get_Options_mDD04F28C88747DC1332D1A9363E7B6F6FCC7A12E(L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 221));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 222));
 		NullCheck(L_8);
 		String_t* L_9;
 		L_9 = AppOptions_get_StorageBucket_m93625BCEE94287655E69A3ED0D145E64F66278A4_inline(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 222));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 223));
 		String_t* L_10;
 		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralABBB41CC11C60D234659F31874B9FB7B8DD1259D, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 223));
 		G_B4_0 = L_10;
 		G_B4_1 = G_B3_0;
 	}
@@ -2736,18 +2226,15 @@ IL_0036:
 
 IL_0037:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 224));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_12;
 		L_12 = FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B(G_B6_1, G_B6_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 224));
 		V_0 = L_12;
 		goto IL_003f;
 	}
 
 IL_003f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 225));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_13 = V_0;
 		return L_13;
 	}
@@ -2759,27 +2246,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mDB3CF5FD5D7F94A7EFC62BB1BE6627BB9AF9805E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_FindByKey_mB71281FFAA2F8E31D108454779F2AE78391212A5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_FindByKey_mB71281FFAA2F8E31D108454779F2AE78391212A5_RuntimeMethod_var);
 	Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* V_0 = NULL;
 	bool V_1 = false;
 	FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* V_2 = NULL;
 	bool V_3 = false;
 	bool V_4 = false;
 	FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* V_5 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_instanceKey));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_FindByKey_mB71281FFAA2F8E31D108454779F2AE78391212A5_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 226));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 227));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 228));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 229));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_0 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 		V_0 = L_0;
@@ -2791,9 +2267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 
 FINALLY_0046:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 244));
 					bool L_1 = V_1;
 					if (!L_1)
 					{
@@ -2802,40 +2276,28 @@ FINALLY_0046:
 				}
 				{
 					Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_2 = V_0;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 245));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 245));
 				}
 
 IL_0050:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 246));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_3 = V_0;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 230));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 230));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 231));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 232));
 				V_2 = (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)NULL;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 233));
 				il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_4 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 				String_t* L_5 = ___0_instanceKey;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 234));
 				NullCheck(L_4);
 				bool L_6;
 				L_6 = Dictionary_2_TryGetValue_mDB3CF5FD5D7F94A7EFC62BB1BE6627BB9AF9805E(L_4, L_5, (&V_2), Dictionary_2_TryGetValue_mDB3CF5FD5D7F94A7EFC62BB1BE6627BB9AF9805E_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 234));
 				V_3 = L_6;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 235));
 				bool L_7 = V_3;
 				if (!L_7)
 				{
@@ -2843,11 +2305,8 @@ IL_0050:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 236));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 237));
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_8 = V_2;
 				V_4 = (bool)((!(((RuntimeObject*)(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 238));
 				bool L_9 = V_4;
 				if (!L_9)
 				{
@@ -2855,7 +2314,6 @@ IL_0050:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 239));
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_10 = V_2;
 				V_5 = L_10;
 				goto IL_0056;
@@ -2863,21 +2321,16 @@ IL_0050:
 
 IL_0036_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 240));
 				il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_11 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 				String_t* L_12 = ___0_instanceKey;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 241));
 				NullCheck(L_11);
 				bool L_13;
 				L_13 = Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6(L_11, L_12, Dictionary_2_Remove_mEEC7F27A9DD6A1AEC6417F54868EAFEFA86452A6_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 241));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 242));
 			}
 
 IL_0043_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 243));
 				goto IL_0051;
 			}
 		}
@@ -2889,14 +2342,12 @@ IL_0043_1:
 
 IL_0051:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 247));
 		V_5 = (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)NULL;
 		goto IL_0056;
 	}
 
 IL_0056:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 248));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_14 = V_5;
 		return L_14;
 	}
@@ -2906,20 +2357,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mB06B57C1F6085A6AEA2C437FEE9AD90EEC997C71_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InitResult_tC00C167B9510F6F0D684EBFC560FE2BA1DEE6ED7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBD2C0B3974A906DFD731ADCD696F181498081EC5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* V_1 = NULL;
 	FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* V_2 = NULL;
@@ -2931,11 +2375,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	bool V_8 = false;
 	String_t* V_9 = NULL;
 	bool V_10 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_app), (&___1_bucketUrl));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_9));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 249));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 250));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B2_0 = NULL;
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B1_0 = NULL;
@@ -2952,8 +2391,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 	int32_t G_B11_2 = 0;
 	ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* G_B11_3 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 251));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 252));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_0 = ___0_app;
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_1 = L_0;
 		if (L_1)
@@ -2964,33 +2401,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64
 		G_B1_0 = L_1;
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 253));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_2;
 		L_2 = FirebaseApp_get_DefaultInstance_m2387909BEFA7CA8F51D87B62700EAE8DA6FC13A0(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 253));
 		G_B2_0 = L_2;
 	}
 
 IL_000b:
 	{
 		___0_app = G_B2_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 254));
 		V_1 = (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145*)NULL;
 	}
 	try
 	{
-		STORE_TRY_ID(methodExecutionContext, 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 255));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 256));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_3 = ___0_app;
 		String_t* L_4 = ___1_bucketUrl;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 257));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_5;
 		L_5 = FirebaseStorageInternal_GetInstanceInternal_m1A51C89841E064C55E86D56D05FCEB3FBF1206C6(L_3, L_4, (&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 257));
 		V_1 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 258));
 		goto IL_002b;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -3005,32 +2433,22 @@ IL_000b:
 
 CATCH_001d:
 	{
-		STORE_TRY_ID(methodExecutionContext, -1);
 		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_6 = ((ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*)IL2CPP_GET_ACTIVE_EXCEPTION(ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*));;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 259));
 		V_3 = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 260));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 261));
 		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_7 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 262));
 		NullCheck(L_7);
 		String_t* L_8;
 		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_7);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 262));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 263));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_9 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_9, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 263));
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B_RuntimeMethod_var)));
 	}
 
 IL_002b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 264));
 		int32_t L_10 = V_0;
 		V_4 = (bool)((!(((uint32_t)L_10) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 265));
 		bool L_11 = V_4;
 		if (!L_11)
 		{
@@ -3038,8 +2456,6 @@ IL_002b:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 266));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 267));
 		String_t* L_12 = ___1_bucketUrl;
 		String_t* L_13 = L_12;
 		if (L_13)
@@ -3058,23 +2474,17 @@ IL_002b:
 
 IL_0045:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 268));
 		String_t* L_14;
 		L_14 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(G_B8_1, G_B8_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 268));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 269));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_15 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_15, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 269));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_GetInstanceInternal_mA7D56C3871CB3AE383D84A80F47AA3481FEAF41B_RuntimeMethod_var)));
 	}
 
 IL_0050:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 270));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_16 = V_1;
 		V_5 = (bool)((((RuntimeObject*)(FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145*)L_16) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 271));
 		bool L_17 = V_5;
 		if (!L_17)
 		{
@@ -3082,8 +2492,6 @@ IL_0050:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 272));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 273));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_18 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___logger;
 		String_t* L_19 = ___1_bucketUrl;
@@ -3110,24 +2518,17 @@ IL_0050:
 
 IL_0070:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 274));
 		String_t* L_21;
 		L_21 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(G_B12_1, G_B12_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 274));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 275));
 		NullCheck(G_B12_3);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(G_B12_3, G_B12_2, L_21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 275));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 276));
 		V_6 = (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)NULL;
 		goto IL_00e1;
 	}
 
 IL_0080:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 277));
 		V_2 = (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)NULL;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 278));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_22 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 		V_7 = L_22;
@@ -3139,9 +2540,7 @@ IL_0080:
 
 FINALLY_00cf:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 293));
 					bool L_23 = V_8;
 					if (!L_23)
 					{
@@ -3150,47 +2549,32 @@ FINALLY_00cf:
 				}
 				{
 					Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_24 = V_7;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 294));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_24, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 294));
 				}
 
 IL_00db:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 295));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 1);
 			{
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_25 = V_7;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 279));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_25, (&V_8), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 279));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 280));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 281));
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_26 = V_1;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 282));
 				NullCheck(L_26);
 				String_t* L_27;
 				L_27 = FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C(L_26, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 282));
 				V_9 = L_27;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 283));
 				String_t* L_28 = V_9;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 284));
 				il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_29;
 				L_29 = FirebaseStorage_FindByKey_mB71281FFAA2F8E31D108454779F2AE78391212A5(L_28, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 284));
 				V_2 = L_29;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 285));
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_30 = V_2;
 				V_10 = (bool)((!(((RuntimeObject*)(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)L_30) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 286));
 				bool L_31 = V_10;
 				if (!L_31)
 				{
@@ -3198,7 +2582,6 @@ IL_00db:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 287));
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_32 = V_2;
 				V_6 = L_32;
 				goto IL_00e1;
@@ -3206,24 +2589,17 @@ IL_00db:
 
 IL_00b6_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 288));
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_33 = V_1;
 				FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_34 = ___0_app;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 289));
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_35 = (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1*)il2cpp_codegen_object_new(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 				FirebaseStorage__ctor_mD53DDAA91E21368E464FF0BA1E1B171D896C976A(L_35, L_33, L_34, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 289));
 				V_2 = L_35;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 290));
 				il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 				Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_36 = ((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey;
 				String_t* L_37 = V_9;
 				FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_38 = V_2;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 291));
 				NullCheck(L_36);
 				Dictionary_2_set_Item_mB06B57C1F6085A6AEA2C437FEE9AD90EEC997C71(L_36, L_37, L_38, Dictionary_2_set_Item_mB06B57C1F6085A6AEA2C437FEE9AD90EEC997C71_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 291));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 292));
 				goto IL_00dc;
 			}
 		}
@@ -3235,7 +2611,6 @@ IL_00b6_1:
 
 IL_00dc:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 296));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_39 = V_2;
 		V_6 = L_39;
 		goto IL_00e1;
@@ -3243,33 +2618,16 @@ IL_00dc:
 
 IL_00e1:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 297));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_40 = V_6;
 		return L_40;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* __this, StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* ___0_reference, String_t* ___1_message, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F_RuntimeMethod_var);
 	bool V_0 = false;
 	StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* V_1 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_reference), (&___1_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 298));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 299));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 300));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 301));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0 = ___0_reference;
 		if (!L_0)
 		{
@@ -3278,11 +2636,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReferenceInternal_t400CD0CF0BE9054DBAF
 	}
 	{
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_1 = ___0_reference;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 302));
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = StorageReferenceInternal_get_IsValid_m00ADACF700EC5777285450BBD2AC3AC8349DA171(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 302));
 		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		goto IL_0010;
 	}
@@ -3295,7 +2651,6 @@ IL_000f:
 IL_0010:
 	{
 		V_0 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 303));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -3303,18 +2658,14 @@ IL_0010:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 304));
 		String_t* L_4 = ___1_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 305));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_5 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_5, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 305));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F_RuntimeMethod_var)));
 	}
 
 IL_001b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 306));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_6 = ___0_reference;
 		V_1 = L_6;
 		goto IL_001f;
@@ -3322,7 +2673,6 @@ IL_001b:
 
 IL_001f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 307));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_7 = V_1;
 		return L_7;
 	}
@@ -3332,62 +2682,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReference_t33F43540227458BFCCC2980F614
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_GetReferenceFromUrl_m62E1995DDD883BAB36CED64EADE346BA8EA4421A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral59358F49E2B3138E277F9DD45CD625C26DE28B03);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage_GetReferenceFromUrl_m62E1995DDD883BAB36CED64EADE346BA8EA4421A_RuntimeMethod_var);
 	StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* V_0 = NULL;
 	ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* V_1 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_fullUrl));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_GetReferenceFromUrl_m62E1995DDD883BAB36CED64EADE346BA8EA4421A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 308));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 309));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 310));
 	}
 	try
 	{
-		STORE_TRY_ID(methodExecutionContext, 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 311));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 312));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 313));
 		FirebaseStorage_ThrowIfNull_mD51129BAA96196E2F019C3F8402FC21A928CD4EA(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 313));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 314));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_0 = __this->___storageInternal;
 		String_t* L_1 = ___0_fullUrl;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 315));
 		NullCheck(L_0);
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_2;
 		L_2 = FirebaseStorageInternal_GetReferenceFromUrl_mD87D0E190A05F5109F7CEF39C08B2731E9C3188E(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 315));
 		String_t* L_3 = ___0_fullUrl;
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_4 = __this->___storageInternal;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 316));
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 316));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 317));
 		String_t* L_6;
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral59358F49E2B3138E277F9DD45CD625C26DE28B03, L_3, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 317));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 318));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_7;
 		L_7 = FirebaseStorage_ValidateStorageReferenceInternal_m3A99931B9C0121E5E0DE93D7998ED449E15F8E5F(__this, L_2, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 318));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 319));
 		StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* L_8 = (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019*)il2cpp_codegen_object_new(StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_il2cpp_TypeInfo_var);
 		StorageReference__ctor_m0D0BBD2A92AFDEF8268F669CC8D1D3E74E384C2E(L_8, __this, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 319));
 		V_0 = L_8;
 		goto IL_0048;
 	}
@@ -3403,29 +2725,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReference_t33F43540227458BFCCC2980F614
 
 CATCH_003a:
 	{
-		STORE_TRY_ID(methodExecutionContext, -1);
 		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_9 = ((ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*)IL2CPP_GET_ACTIVE_EXCEPTION(ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*));;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 320));
 		V_1 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 321));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 322));
 		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_10 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 323));
 		NullCheck(L_10);
 		String_t* L_11;
 		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 323));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 324));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_12 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_12, L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 324));
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorage_GetReferenceFromUrl_m62E1995DDD883BAB36CED64EADE346BA8EA4421A_RuntimeMethod_var)));
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 325));
 		StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* L_13 = V_0;
 		return L_13;
 	}
@@ -3437,34 +2750,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorage__cctor_m2BC27FEF980857AB
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mBCEC6CB903889BCAF4BAAC48E21CB2EDB8A4825C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage__cctor_m2BC27FEF980857AB4BB2593E5DAED9F611331395_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAA9E04A4F0FAA2410217C8B3DD5093BC82D04A7E);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorage__cctor_m2BC27FEF980857AB4BB2593E5DAED9F611331395_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage__cctor_m2BC27FEF980857AB4BB2593E5DAED9F611331395_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 326));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 327));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 328));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 329));
 		Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044* L_0 = (Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044*)il2cpp_codegen_object_new(Dictionary_2_t6B2D56F200C03AE40F453FB3EFF2F2200DA34044_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mBCEC6CB903889BCAF4BAAC48E21CB2EDB8A4825C(L_0, Dictionary_2__ctor_mBCEC6CB903889BCAF4BAAC48E21CB2EDB8A4825C_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 329));
 		((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___storageByInstanceKey), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 330));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 331));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_1 = (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)il2cpp_codegen_object_new(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850(L_1, (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 331));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_2 = L_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 332));
 		NullCheck(L_2);
 		ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F(L_2, _stringLiteralAA9E04A4F0FAA2410217C8B3DD5093BC82D04A7E, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 332));
 		((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___logger = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var))->___logger), (void*)L_2);
 		return;
@@ -3484,28 +2784,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageException__ctor_m1C50CA3E9AB10B78
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException__ctor_m1C50CA3E9AB10B78C3EA30236C8A31A03DD5BD48_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException__ctor_m1C50CA3E9AB10B78C3EA30236C8A31A03DD5BD48_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_errorCode), (&___1_httpResultCode), (&___2_errorMessage));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException__ctor_m1C50CA3E9AB10B78C3EA30236C8A31A03DD5BD48_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 333));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 334));
 	StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* G_B2_0 = NULL;
 	StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* G_B1_0 = NULL;
 	String_t* G_B3_0 = NULL;
 	StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* G_B3_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 335));
 		String_t* L_0 = ___2_errorMessage;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 336));
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 336));
 		if (L_1)
 		{
 			G_B2_0 = __this;
@@ -3523,33 +2812,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageException__ctor_m1C50CA3E9AB10B78
 IL_000c:
 	{
 		int32_t L_3 = ___0_errorCode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 337));
 		il2cpp_codegen_runtime_class_init_inline(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = StorageException_GetErrorMessageForCode_mC71355BE307007C13C4D25FECC4130BDAC90E5E8(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 337));
 		G_B3_0 = L_4;
 		G_B3_1 = G_B2_0;
 	}
 
 IL_0012:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 338));
 		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(G_B3_1, G_B3_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 338));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 339));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 340));
 		int32_t L_5 = ___0_errorCode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 341));
 		StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_inline(__this, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 341));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 342));
 		int32_t L_6 = ___1_httpResultCode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 343));
 		StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_inline(__this, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 343));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 344));
 		return;
 	}
 }
@@ -3558,26 +2835,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageException_t2C4F7564B605D4419E4F5DAC410
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AggregateException_t51B6205846DFB356B94452702201DD239D44422F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AggregateException_t51B6205846DFB356B94452702201DD239D44422F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mA088B4CFFD451B08E7B6B8D2C141F2A6E0AEC112_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_CreateFromException_mF4F4775B52295C5AA2BCA4B301FD47B8C114934B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_get_Item1_m97018C5C2790AA6E79FC11C65A40B7A1D053F918_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_get_Item2_m5C4E64240B7FB011D4913516B3D7FA705794D9C2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException_CreateFromException_mF4F4775B52295C5AA2BCA4B301FD47B8C114934B_RuntimeMethod_var);
 	Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* V_0 = NULL;
 	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* V_1 = NULL;
 	FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* V_2 = NULL;
@@ -3591,33 +2860,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageException_t2C4F7564B605D4419E4F5DAC410
 	bool V_10 = false;
 	bool V_11 = false;
 	bool V_12 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_exception));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_6), (&V_7));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_CreateFromException_mF4F4775B52295C5AA2BCA4B301FD47B8C114934B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 345));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 346));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 347));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 348));
 		Exception_t* L_0 = ___0_exception;
 		V_1 = ((AggregateException_t51B6205846DFB356B94452702201DD239D44422F*)CastclassClass((RuntimeObject*)L_0, AggregateException_t51B6205846DFB356B94452702201DD239D44422F_il2cpp_TypeInfo_var));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 349));
 		V_2 = (FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED*)NULL;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 350));
 		V_3 = (String_t*)NULL;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 351));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 352));
 		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_1 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 353));
 		NullCheck(L_1);
 		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_2;
 		L_2 = AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 353));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 354));
 		NullCheck(L_2);
 		RuntimeObject* L_3;
 		L_3 = ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC(L_2, ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 354));
 		V_5 = L_3;
 	}
 	{
@@ -3626,9 +2880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageException_t2C4F7564B605D4419E4F5DAC410
 
 FINALLY_0065:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 372));
 					RuntimeObject* L_4 = V_5;
 					if (!L_4)
 					{
@@ -3637,48 +2889,35 @@ FINALLY_0065:
 				}
 				{
 					RuntimeObject* L_5 = V_5;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 373));
 					NullCheck(L_5);
 					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_5);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 373));
 				}
 
 IL_0071:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 374));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 355));
 				goto IL_005a_1;
 			}
 
 IL_001c_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 356));
 				RuntimeObject* L_6 = V_5;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 357));
 				NullCheck(L_6);
 				Exception_t* L_7;
 				L_7 = InterfaceFuncInvoker0< Exception_t* >::Invoke(0, IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var, L_6);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 357));
 				V_6 = L_7;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 358));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 359));
 				Exception_t* L_8 = V_6;
 				V_7 = ((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F*)IsInstSealed((RuntimeObject*)L_8, StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 360));
 				Exception_t* L_9 = V_6;
 				V_2 = ((FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED*)IsInstSealed((RuntimeObject*)L_9, FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 361));
 				StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_10 = V_7;
 				V_8 = (bool)((!(((RuntimeObject*)(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F*)L_10) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 362));
 				bool L_11 = V_8;
 				if (!L_11)
 				{
@@ -3686,8 +2925,6 @@ IL_001c_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 363));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 364));
 				StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_12 = V_7;
 				V_9 = L_12;
 				goto IL_00d3;
@@ -3695,10 +2932,8 @@ IL_001c_1:
 
 IL_004c_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 365));
 				FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_13 = V_2;
 				V_10 = (bool)((!(((RuntimeObject*)(FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED*)L_13) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 366));
 				bool L_14 = V_10;
 				if (!L_14)
 				{
@@ -3706,25 +2941,19 @@ IL_004c_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 367));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 368));
 				goto IL_0063_1;
 			}
 
 IL_0059_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 369));
 			}
 
 IL_005a_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 370));
 				RuntimeObject* L_15 = V_5;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 371));
 				NullCheck(L_15);
 				bool L_16;
 				L_16 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_15);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 371));
 				if (L_16)
 				{
 					goto IL_001c_1;
@@ -3744,10 +2973,8 @@ IL_0063_1:
 
 IL_0072:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 375));
 		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_17 = V_2;
 		V_11 = (bool)((((RuntimeObject*)(FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED*)L_17) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 376));
 		bool L_18 = V_11;
 		if (!L_18)
 		{
@@ -3755,50 +2982,34 @@ IL_0072:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 377));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 378));
 		Exception_t* L_19 = ___0_exception;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 379));
 		NullCheck(L_19);
 		String_t* L_20;
 		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_19);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 379));
 		V_3 = L_20;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 380));
 		il2cpp_codegen_runtime_class_init_inline(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_21 = ((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___unknownError;
 		V_0 = L_21;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 381));
 		goto IL_00b9;
 	}
 
 IL_008d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 382));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 383));
 		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_22 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 384));
 		NullCheck(L_22);
 		String_t* L_23;
 		L_23 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_22);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 384));
 		V_3 = L_23;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 385));
 		il2cpp_codegen_runtime_class_init_inline(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_24 = ((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___errorToStorageErrorAndHttpStatusCode;
 		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_25 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 386));
 		NullCheck(L_25);
 		int32_t L_26;
 		L_26 = FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline(L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 386));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 387));
 		NullCheck(L_24);
 		bool L_27;
 		L_27 = Dictionary_2_TryGetValue_mA088B4CFFD451B08E7B6B8D2C141F2A6E0AEC112(L_24, L_26, (&V_0), Dictionary_2_TryGetValue_mA088B4CFFD451B08E7B6B8D2C141F2A6E0AEC112_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 387));
 		V_12 = (bool)((((int32_t)L_27) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 388));
 		bool L_28 = V_12;
 		if (!L_28)
 		{
@@ -3806,90 +3017,50 @@ IL_008d:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 389));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 390));
 		il2cpp_codegen_runtime_class_init_inline(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_29 = ((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___unknownError;
 		V_0 = L_29;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 391));
 	}
 
 IL_00b8:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 392));
 	}
 
 IL_00b9:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 393));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_30 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 394));
 		NullCheck(L_30);
 		int32_t L_31;
 		L_31 = Tuple_2_get_Item2_m5C4E64240B7FB011D4913516B3D7FA705794D9C2_inline(L_30, Tuple_2_get_Item2_m5C4E64240B7FB011D4913516B3D7FA705794D9C2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 394));
 		V_4 = L_31;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 395));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_32 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 396));
 		NullCheck(L_32);
 		int32_t L_33;
 		L_33 = Tuple_2_get_Item1_m97018C5C2790AA6E79FC11C65A40B7A1D053F918_inline(L_32, Tuple_2_get_Item1_m97018C5C2790AA6E79FC11C65A40B7A1D053F918_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 396));
 		int32_t L_34 = V_4;
 		String_t* L_35 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 397));
 		StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_36 = (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F*)il2cpp_codegen_object_new(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		StorageException__ctor_m1C50CA3E9AB10B78C3EA30236C8A31A03DD5BD48(L_36, L_33, L_34, L_35, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 397));
 		V_9 = L_36;
 		goto IL_00d3;
 	}
 
 IL_00d3:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 398));
 		StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_37 = V_9;
 		return L_37;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844 (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 399));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 400));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 401));
 		int32_t L_0 = __this->___U3CErrorCodeU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 402));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 403));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 404));
 		int32_t L_0 = ___0_value;
 		__this->___U3CErrorCodeU3Ek__BackingField = L_0;
 		return;
@@ -3897,21 +3068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageException_set_ErrorCode_m6252AC12
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427 (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 405));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 406));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 407));
 		int32_t L_0 = ___0_value;
 		__this->___U3CHttpResultCodeU3Ek__BackingField = L_0;
 		return;
@@ -3922,7 +3079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageException_GetErrorMessageFor
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_GetErrorMessageForCode_mC71355BE307007C13C4D25FECC4130BDAC90E5E8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14EACC5384CECC75A8982A1F46DE55705CB54DFD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral21ACA7A9F2007E52DEC2066F7037F9F7456B3B91);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3D736BA169A8DC89DC353AD0EAA96FE683CA1B2D);
@@ -3935,19 +3091,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageException_GetErrorMessageFor
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE452FBB4FDE6913F8CF541DF8BB1626D735FD33E);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException_GetErrorMessageForCode_mC71355BE307007C13C4D25FECC4130BDAC90E5E8_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	String_t* V_1 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_errorCode));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_GetErrorMessageForCode_mC71355BE307007C13C4D25FECC4130BDAC90E5E8_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 408));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 409));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 410));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 411));
 		int32_t L_0 = ___0_errorCode;
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 412));
 		int32_t L_1 = V_0;
 		if ((((int32_t)L_1) > ((int32_t)((int32_t)-13030))))
 		{
@@ -4061,95 +3209,72 @@ IL_0072:
 
 IL_007c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 413));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 414));
 		V_1 = _stringLiteral48D4D8ED8E68AFC8225395CC9DDC336D97D83573;
 		goto IL_00df;
 	}
 
 IL_0085:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 415));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 416));
 		V_1 = _stringLiteral21ACA7A9F2007E52DEC2066F7037F9F7456B3B91;
 		goto IL_00df;
 	}
 
 IL_008e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 417));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 418));
 		V_1 = _stringLiteral3D736BA169A8DC89DC353AD0EAA96FE683CA1B2D;
 		goto IL_00df;
 	}
 
 IL_0097:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 419));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 420));
 		V_1 = _stringLiteralE452FBB4FDE6913F8CF541DF8BB1626D735FD33E;
 		goto IL_00df;
 	}
 
 IL_00a0:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 421));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 422));
 		V_1 = _stringLiteral51269C898D1575314B2DB88966C1E86552B6863A;
 		goto IL_00df;
 	}
 
 IL_00a9:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 423));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 424));
 		V_1 = _stringLiteral407476E0245E9411EC476740A1368498AC28A67F;
 		goto IL_00df;
 	}
 
 IL_00b2:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 425));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 426));
 		V_1 = _stringLiteralB121E7338C61F36A1C41A66ACE3BC040CD083E7D;
 		goto IL_00df;
 	}
 
 IL_00bb:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 427));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 428));
 		V_1 = _stringLiteral14EACC5384CECC75A8982A1F46DE55705CB54DFD;
 		goto IL_00df;
 	}
 
 IL_00c4:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 429));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 430));
 		V_1 = _stringLiteral9BBCAE8C0C6F0957BF6DE7D5A947F5C084B3F4A7;
 		goto IL_00df;
 	}
 
 IL_00cd:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 431));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 432));
 		V_1 = _stringLiteral9FE7C8888EB04B126D755228521F465454FD6B21;
 		goto IL_00df;
 	}
 
 IL_00d6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 433));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 434));
 		V_1 = _stringLiteral48D4D8ED8E68AFC8225395CC9DDC336D97D83573;
 		goto IL_00df;
 	}
 
 IL_00df:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 435));
 		String_t* L_10 = V_1;
 		return L_10;
 	}
@@ -4162,119 +3287,68 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageException__cctor_m756F4F75827B2D8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mEDC1CD41530131FBA605B3CE0F4F917AD3157B48_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException__cctor_m756F4F75827B2D8680D00DBDE50313AFD1F59484_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageException__cctor_m756F4F75827B2D8680D00DBDE50313AFD1F59484_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException__cctor_m756F4F75827B2D8680D00DBDE50313AFD1F59484_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 436));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 437));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 438));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 439));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_0 = (Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E*)il2cpp_codegen_object_new(Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mEDC1CD41530131FBA605B3CE0F4F917AD3157B48(L_0, Dictionary_2__ctor_mEDC1CD41530131FBA605B3CE0F4F917AD3157B48_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 439));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_1 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 440));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_2 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_2, ((int32_t)-13010), ((int32_t)404), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 440));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 441));
 		NullCheck(L_1);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_1, 2, L_2, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 441));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_3 = L_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 442));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_4 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_4, ((int32_t)-13011), ((int32_t)404), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 442));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 443));
 		NullCheck(L_3);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_3, 3, L_4, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 443));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_5 = L_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 444));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_6 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_6, ((int32_t)-13012), ((int32_t)404), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 444));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 445));
 		NullCheck(L_5);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_5, 4, L_6, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 445));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_7 = L_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 446));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_8 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_8, ((int32_t)-13012), ((int32_t)503), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 446));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 447));
 		NullCheck(L_7);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_7, 5, L_8, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 447));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_9 = L_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 448));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_10 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_10, ((int32_t)-13020), ((int32_t)401), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 448));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 449));
 		NullCheck(L_9);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_9, 6, L_10, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 449));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_11 = L_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 450));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_12 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_12, ((int32_t)-13021), ((int32_t)401), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 450));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 451));
 		NullCheck(L_11);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_11, 7, L_12, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 451));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_13 = L_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 452));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_14 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_14, ((int32_t)-13030), ((int32_t)409), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 452));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 453));
 		NullCheck(L_13);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_13, 8, L_14, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 453));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_15 = L_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 454));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_16 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_16, ((int32_t)-13031), ((int32_t)409), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 454));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 455));
 		NullCheck(L_15);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_15, ((int32_t)9), L_16, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 455));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_17 = L_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 456));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_18 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_18, ((int32_t)-13000), 0, Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 456));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 457));
 		NullCheck(L_17);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_17, ((int32_t)10), L_18, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 457));
 		Dictionary_2_tA944989CAAB6A06B1D3F6B3179643D8B1EB5753E* L_19 = L_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 458));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_20 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_20, ((int32_t)-13040), 0, Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 458));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 459));
 		NullCheck(L_19);
 		Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481(L_19, ((int32_t)11), L_20, Dictionary_2_Add_mD78D960989B58D4B96C247419E654D36B9F6D481_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 459));
 		((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___errorToStorageErrorAndHttpStatusCode = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___errorToStorageErrorAndHttpStatusCode), (void*)L_19);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 460));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 461));
 		Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D* L_21 = (Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D*)il2cpp_codegen_object_new(Tuple_2_t7821BF0B94193556F600D7AA2E00675F24A2090D_il2cpp_TypeInfo_var);
 		Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9(L_21, ((int32_t)-13000), ((int32_t)300), Tuple_2__ctor_mA8B9BBD48BEFCB1F48F64F4B58AD623C069FBBB9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 461));
 		((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___unknownError = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&((StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_StaticFields*)il2cpp_codegen_static_fields_for(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var))->___unknownError), (void*)L_21);
 		return;
@@ -4294,100 +3368,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReference__ctor_m0D0BBD2A92AFDEF8
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference__ctor_m0D0BBD2A92AFDEF8268F669CC8D1D3E74E384C2E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1CB4C6D8E752BD4A976FB4BF3FD6276F3FF8A77A);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference__ctor_m0D0BBD2A92AFDEF8268F669CC8D1D3E74E384C2E_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_storage), (&___1_storageReferenceInternal));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference__ctor_m0D0BBD2A92AFDEF8268F669CC8D1D3E74E384C2E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 462));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 463));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 464));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 465));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 465));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 466));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 467));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_0 = ___0_storage;
 		__this->___firebaseStorage = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___firebaseStorage), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 468));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_1 = ___1_storageReferenceInternal;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 469));
 		StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_inline(__this, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 469));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 470));
 		FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* L_2 = __this->___firebaseStorage;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 471));
 		NullCheck(L_2);
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_3;
 		L_3 = FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 471));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 472));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_4 = (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)il2cpp_codegen_object_new(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850(L_4, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 472));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_5 = L_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 473));
 		String_t* L_6;
 		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 473));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 474));
 		String_t* L_7;
 		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1CB4C6D8E752BD4A976FB4BF3FD6276F3FF8A77A, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 474));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 475));
 		NullCheck(L_5);
 		ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F(L_5, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 475));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 476));
 		StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_inline(__this, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 476));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 477));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* StorageReference_get_Logger_m65B058F84D93470E90DD8454FCD759E5E4D53ABE (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_get_Logger_m65B058F84D93470E90DD8454FCD759E5E4D53ABE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_get_Logger_m65B058F84D93470E90DD8454FCD759E5E4D53ABE_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_get_Logger_m65B058F84D93470E90DD8454FCD759E5E4D53ABE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 478));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 479));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 480));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = __this->___U3CLoggerU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789 (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 481));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 482));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 483));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = ___0_value;
 		__this->___U3CLoggerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLoggerU3Ek__BackingField), (void*)L_0);
@@ -4396,76 +3413,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReference_set_Logger_mFA430AB56C1
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReference_get_Path_m23006656BF5776DAC29630E641369A740F333C27 (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_get_Path_m23006656BF5776DAC29630E641369A740F333C27_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_get_Path_m23006656BF5776DAC29630E641369A740F333C27_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_get_Path_m23006656BF5776DAC29630E641369A740F333C27_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 484));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 485));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 486));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 487));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 488));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0;
 		L_0 = StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 488));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 489));
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = StorageReferenceInternal_get_FullPath_mE93027973F851741548644FA6CE90911FB02FC42(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 489));
 		V_0 = L_1;
 		goto IL_000f;
 	}
 
 IL_000f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 490));
 		String_t* L_2 = V_0;
 		return L_2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReference_get_Bucket_m17BFF3774E2064931D6673E7FBB05299611BDB22 (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_get_Bucket_m17BFF3774E2064931D6673E7FBB05299611BDB22_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_get_Bucket_m17BFF3774E2064931D6673E7FBB05299611BDB22_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_get_Bucket_m17BFF3774E2064931D6673E7FBB05299611BDB22_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 491));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 492));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 493));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 494));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 495));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0;
 		L_0 = StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 495));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 496));
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = StorageReferenceInternal_get_Bucket_m7C7737DC9A4D22049E4C6338515E229935A68BF5(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 496));
 		V_0 = L_1;
 		goto IL_000f;
 	}
 
 IL_000f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 497));
 		String_t* L_2 = V_0;
 		return L_2;
 	}
@@ -4476,83 +3455,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8A177C614D430C4B0A757922E7BFC45DA857B
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_GetDownloadUrlAsync_m07C79D8E2C5D19D0FB610B55E4E7CC2B4752E37B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_mD4584F60DB680072B93F9D22E45A09C2C1A5B4F0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m46E4F92E4B9E96E87B3EE1809D72022A0426AE9B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tA03436D2BE52553B67089B7720512F9C186E4B87_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t8A177C614D430C4B0A757922E7BFC45DA857B137_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_0_U3CGetDownloadUrlAsyncU3Eb__0_m1FF8554E955CA96CD74534C2133F96BF42964B04_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_GetDownloadUrlAsync_m07C79D8E2C5D19D0FB610B55E4E7CC2B4752E37B_RuntimeMethod_var);
 	U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* V_0 = NULL;
 	Task_1_t8A177C614D430C4B0A757922E7BFC45DA857B137* V_1 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_GetDownloadUrlAsync_m07C79D8E2C5D19D0FB610B55E4E7CC2B4752E37B_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 498));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 499));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 500));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 501));
 		U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* L_0 = (U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass27_0__ctor_m81A265E4A489E98974B236F1BFD3BA7323DC0D3D(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 501));
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* L_1 = V_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 502));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 503));
 		U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 504));
 		TaskCompletionSource_1_tA03436D2BE52553B67089B7720512F9C186E4B87* L_3 = (TaskCompletionSource_1_tA03436D2BE52553B67089B7720512F9C186E4B87*)il2cpp_codegen_object_new(TaskCompletionSource_1_tA03436D2BE52553B67089B7720512F9C186E4B87_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_mD4584F60DB680072B93F9D22E45A09C2C1A5B4F0(L_3, TaskCompletionSource_1__ctor_mD4584F60DB680072B93F9D22E45A09C2C1A5B4F0_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 504));
 		NullCheck(L_2);
 		L_2->___result = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___result), (void*)L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 505));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 506));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_4;
 		L_4 = StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 506));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 507));
 		NullCheck(L_4);
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_5;
 		L_5 = StorageReferenceInternal_GetDownloadUrlAsync_m73618C32785777B29DB6FDE986ACFFE4F789E9BE(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 507));
 		U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* L_6 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 508));
 		Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B* L_7 = (Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B*)il2cpp_codegen_object_new(Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m9A99EE412CA28FA3656C2B3CEEEDEA403CF736F1(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass27_0_U3CGetDownloadUrlAsyncU3Eb__0_m1FF8554E955CA96CD74534C2133F96BF42964B04_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 508));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 509));
 		NullCheck(L_5);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_8;
 		L_8 = Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469(L_5, L_7, Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 509));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 510));
 		U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* L_9 = V_0;
 		NullCheck(L_9);
 		TaskCompletionSource_1_tA03436D2BE52553B67089B7720512F9C186E4B87* L_10 = L_9->___result;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 511));
 		NullCheck(L_10);
 		Task_1_t8A177C614D430C4B0A757922E7BFC45DA857B137* L_11;
 		L_11 = TaskCompletionSource_1_get_Task_m46E4F92E4B9E96E87B3EE1809D72022A0426AE9B_inline(L_10, TaskCompletionSource_1_get_Task_m46E4F92E4B9E96E87B3EE1809D72022A0426AE9B_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 511));
 		V_1 = L_11;
 		goto IL_0044;
 	}
 
 IL_0044:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 512));
 		Task_1_t8A177C614D430C4B0A757922E7BFC45DA857B137* L_12 = V_1;
 		return L_12;
 	}
@@ -4562,39 +3511,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReference_ToString_m09E63E06
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_ToString_m09E63E06152F8351F89268C6DE0A35A5F4C8B0B3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral465D8053A968C034065EEA4680E5BA0DA4E093BA);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_ToString_m09E63E06152F8351F89268C6DE0A35A5F4C8B0B3_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_ToString_m09E63E06152F8351F89268C6DE0A35A5F4C8B0B3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 513));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 514));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 515));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 516));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 517));
 		String_t* L_0;
 		L_0 = StorageReference_get_Bucket_m17BFF3774E2064931D6673E7FBB05299611BDB22(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 517));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 518));
 		String_t* L_1;
 		L_1 = StorageReference_get_Path_m23006656BF5776DAC29630E641369A740F333C27(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 518));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 519));
 		String_t* L_2;
 		L_2 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral465D8053A968C034065EEA4680E5BA0DA4E093BA, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 519));
 		V_0 = L_2;
 		goto IL_001a;
 	}
 
 IL_001a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 520));
 		String_t* L_3 = V_0;
 		return L_3;
 	}
@@ -4604,27 +3537,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StorageReference_Equals_m12EC7D8FA3D1E7C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_Equals_m12EC7D8FA3D1E7CBEA6AE21486AF60A7D733D779_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_Equals_m12EC7D8FA3D1E7CBEA6AE21486AF60A7D733D779_RuntimeMethod_var);
 	StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_Equals_m12EC7D8FA3D1E7CBEA6AE21486AF60A7D733D779_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 521));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 522));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 523));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 524));
 		RuntimeObject* L_0 = ___0_other;
 		V_1 = (bool)((((int32_t)((!(((RuntimeObject*)(StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019*)((StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019*)IsInstSealed((RuntimeObject*)L_0, StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 525));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -4632,119 +3553,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StorageReference_Equals_m12EC7D8FA3D1E7C
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 526));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 527));
 		V_2 = (bool)0;
 		goto IL_0031;
 	}
 
 IL_0016:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 528));
 		RuntimeObject* L_2 = ___0_other;
 		V_0 = ((StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019*)CastclassSealed((RuntimeObject*)L_2, StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_il2cpp_TypeInfo_var));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 529));
 		StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* L_3 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 530));
 		NullCheck(L_3);
 		String_t* L_4;
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 531));
 		String_t* L_5;
 		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 531));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 532));
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 532));
 		V_2 = L_6;
 		goto IL_0031;
 	}
 
 IL_0031:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 533));
 		bool L_7 = V_2;
 		return L_7;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StorageReference_GetHashCode_mD11BCEA0CB329C7FB4165BDBF6F9321992C1D25F (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_GetHashCode_mD11BCEA0CB329C7FB4165BDBF6F9321992C1D25F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_GetHashCode_mD11BCEA0CB329C7FB4165BDBF6F9321992C1D25F_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_GetHashCode_mD11BCEA0CB329C7FB4165BDBF6F9321992C1D25F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 534));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 535));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 536));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 537));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 538));
 		String_t* L_0;
 		L_0 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 538));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 539));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 539));
 		V_0 = L_1;
 		goto IL_000f;
 	}
 
 IL_000f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 540));
 		int32_t L_2 = V_0;
 		return L_2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 541));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 542));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 543));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0 = __this->___U3CInternalU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2 (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 544));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 545));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 546));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0 = ___0_value;
 		__this->___U3CInternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInternalU3Ek__BackingField), (void*)L_0);
@@ -4761,41 +3625,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReference_set_Internal_m402EC4C57
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskCompletionStatus_get_IsSuccessful_mB45EF6750B3ECD983FFB129274225970484A4041 (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_get_IsSuccessful_mB45EF6750B3ECD983FFB129274225970484A4041_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus_get_IsSuccessful_mB45EF6750B3ECD983FFB129274225970484A4041_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_get_IsSuccessful_mB45EF6750B3ECD983FFB129274225970484A4041_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 581));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 582));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 583));
 		bool L_0 = __this->___U3CIsSuccessfulU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5 (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 584));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 585));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 586));
 		bool L_0 = ___0_value;
 		__this->___U3CIsSuccessfulU3Ek__BackingField = L_0;
 		return;
@@ -4803,41 +3640,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsSuccessful_m6
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskCompletionStatus_get_IsCanceled_mF0AEC4C6D2371F500E7EC8C574FD8C5E92E92F5C (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_get_IsCanceled_mF0AEC4C6D2371F500E7EC8C574FD8C5E92E92F5C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus_get_IsCanceled_mF0AEC4C6D2371F500E7EC8C574FD8C5E92E92F5C_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_get_IsCanceled_mF0AEC4C6D2371F500E7EC8C574FD8C5E92E92F5C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 587));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 588));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 589));
 		bool L_0 = __this->___U3CIsCanceledU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320 (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 590));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 591));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 592));
 		bool L_0 = ___0_value;
 		__this->___U3CIsCanceledU3Ek__BackingField = L_0;
 		return;
@@ -4845,41 +3655,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsCanceled_m4CD
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323 (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 593));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 594));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 595));
 		Exception_t* L_0 = __this->___U3CExceptionU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4 (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, Exception_t* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 596));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 597));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 598));
 		Exception_t* L_0 = ___0_value;
 		__this->___U3CExceptionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField), (void*)L_0);
@@ -4892,10 +3675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus__ctor_m7D45E6CCAF8D
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus__ctor_m7D45E6CCAF8D0EF3FEA456728EE59F33EE03B849_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3EEAB15902D7B9E5B95F0F17AA9E004D9C742836);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86149811E84E20CCC982587E52B8CF7A38EF9589);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F801AE6E6E2D908D38CEB0291DD9138A0955C1F);
@@ -4903,34 +3683,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus__ctor_m7D45E6CCAF8D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE45832FA8619B51BADFA5FA6E889D63BD0649CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TaskCompletionStatus__ctor_m7D45E6CCAF8D0EF3FEA456728EE59F33EE03B849_RuntimeMethod_var);
 	StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_task), (&___1_operationDescription), (&___2_logger));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus__ctor_m7D45E6CCAF8D0EF3FEA456728EE59F33EE03B849_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 599));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 600));
 	int32_t G_B4_0 = 0;
 	StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* G_B9_0 = NULL;
 	int32_t G_B13_0 = 0;
 	int32_t G_B15_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 601));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 602));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 602));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 603));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 604));
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = ___0_task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 605));
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 605));
 		if (!L_1)
 		{
 			goto IL_0023;
@@ -4938,11 +3704,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus__ctor_m7D45E6CCAF8D
 	}
 	{
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2 = ___0_task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 606));
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 606));
 		if (L_3)
 		{
 			goto IL_0023;
@@ -4950,11 +3714,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionStatus__ctor_m7D45E6CCAF8D
 	}
 	{
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4 = ___0_task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 607));
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 607));
 		G_B4_0 = ((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 		goto IL_0024;
 	}
@@ -4967,7 +3729,6 @@ IL_0023:
 IL_0024:
 	{
 		V_1 = (bool)G_B4_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 608));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -4975,35 +3736,22 @@ IL_0024:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 609));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 610));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 611));
 		TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_inline(__this, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 611));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 612));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_7 = ___2_logger;
 		String_t* L_8 = ___1_operationDescription;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 613));
 		String_t* L_9;
 		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9F801AE6E6E2D908D38CEB0291DD9138A0955C1F, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 613));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 614));
 		NullCheck(L_7);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_7, 1, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 614));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 615));
 		goto IL_0100;
 	}
 
 IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 616));
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_10 = ___0_task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 617));
 		NullCheck(L_10);
 		bool L_11;
 		L_11 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 617));
 		if (L_11)
 		{
 			goto IL_0054;
@@ -5017,29 +3765,22 @@ IL_0049:
 IL_0054:
 	{
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_12 = ___0_task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 618));
 		NullCheck(L_12);
 		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_13;
 		L_13 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 618));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 619));
 		il2cpp_codegen_runtime_class_init_inline(StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_il2cpp_TypeInfo_var);
 		StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_14;
 		L_14 = StorageException_CreateFromException_mF4F4775B52295C5AA2BCA4B301FD47B8C114934B(L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 619));
 		G_B9_0 = L_14;
 	}
 
 IL_005f:
 	{
 		V_0 = G_B9_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 620));
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_15 = ___0_task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 621));
 		NullCheck(L_15);
 		bool L_16;
 		L_16 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 621));
 		if (L_16)
 		{
 			goto IL_007d;
@@ -5054,11 +3795,9 @@ IL_005f:
 	}
 	{
 		StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_18 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 622));
 		NullCheck(L_18);
 		int32_t L_19;
 		L_19 = StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_inline(L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 622));
 		G_B13_0 = ((((int32_t)L_19) == ((int32_t)((int32_t)-13040)))? 1 : 0);
 		goto IL_007b;
 	}
@@ -5082,7 +3821,6 @@ IL_007d:
 IL_007e:
 	{
 		V_2 = (bool)G_B15_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 623));
 		bool L_20 = V_2;
 		if (!L_20)
 		{
@@ -5090,40 +3828,23 @@ IL_007e:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 624));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 625));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_21 = ___2_logger;
 		String_t* L_22 = ___1_operationDescription;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 626));
 		String_t* L_23;
 		L_23 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3EEAB15902D7B9E5B95F0F17AA9E004D9C742836, L_22, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 626));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 627));
 		NullCheck(L_21);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_21, 1, L_23, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 627));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 628));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 629));
 		TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_inline(__this, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 629));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 630));
 		goto IL_0100;
 	}
 
 IL_00a0:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 631));
 		StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* L_24 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 632));
 		TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_inline(__this, L_24, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 632));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 633));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 634));
 		Exception_t* L_25;
 		L_25 = TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 634));
 		V_3 = (bool)((!(((RuntimeObject*)(Exception_t*)L_25) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 635));
 		bool L_26 = V_3;
 		if (!L_26)
 		{
@@ -5131,62 +3852,38 @@ IL_00a0:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 636));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 637));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_27 = ___2_logger;
 		String_t* L_28 = ___1_operationDescription;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 638));
 		Exception_t* L_29;
 		L_29 = TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 638));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 639));
 		NullCheck(L_29);
 		String_t* L_30;
 		L_30 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_29);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 639));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 640));
 		String_t* L_31;
 		L_31 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral86149811E84E20CCC982587E52B8CF7A38EF9589, L_28, L_30, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 640));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 641));
 		NullCheck(L_27);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_27, 1, L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 641));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 642));
 		goto IL_0100;
 	}
 
 IL_00d6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 643));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_32 = ___2_logger;
 		String_t* L_33 = ___1_operationDescription;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 644));
 		String_t* L_34;
 		L_34 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA709CBC3188708C18877C22E6AF1D6538EB08EAD, L_33, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 644));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 645));
 		NullCheck(L_32);
 		ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B(L_32, 1, L_34, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 645));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 646));
 		String_t* L_35 = ___1_operationDescription;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 647));
 		String_t* L_36;
 		L_36 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralFE45832FA8619B51BADFA5FA6E889D63BD0649CB, L_35, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 647));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 648));
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_37 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_37, L_36, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 648));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 649));
 		TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_inline(__this, L_37, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 649));
 	}
 
 IL_0100:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 650));
 		return;
 	}
 }
@@ -5200,15 +3897,6 @@ IL_0100:
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0__ctor_m81A265E4A489E98974B236F1BFD3BA7323DC0D3D (U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_0__ctor_m81A265E4A489E98974B236F1BFD3BA7323DC0D3D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__DisplayClass27_0__ctor_m81A265E4A489E98974B236F1BFD3BA7323DC0D3D_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass27_0__ctor_m81A265E4A489E98974B236F1BFD3BA7323DC0D3D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -5221,52 +3909,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CGetDownload
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t52E127E1D0D0C6A579D7CC26D5A75E358527CEE9_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_CompleteTask_TisString_t_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m69982673125FC96F92B66BB6C48BE3F65B97450A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_0_U3CGetDownloadUrlAsyncU3Eb__0_m1FF8554E955CA96CD74534C2133F96BF42964B04_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_0_t85D686FC371BDD953861F5B19B991521FB79A0DB_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_1_U3CGetDownloadUrlAsyncU3Eb__1_mEC1A93766B35860C0EC3251814F77A5EA37FA7D4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5258266D8258C1C3EBCEA3316BAE21542E7FFC60);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__DisplayClass27_0_U3CGetDownloadUrlAsyncU3Eb__0_m1FF8554E955CA96CD74534C2133F96BF42964B04_RuntimeMethod_var);
 	U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_task));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass27_0_U3CGetDownloadUrlAsyncU3Eb__0_m1FF8554E955CA96CD74534C2133F96BF42964B04_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 651));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 652));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 653));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 654));
 		U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648* L_0 = (U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass27_1__ctor_m6C3E002E951D8D0329747D945974E57801EC9151(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 654));
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648* L_1 = V_0;
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_2 = ___0_task;
 		NullCheck(L_1);
 		L_1->___task = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___task), (void*)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 655));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 656));
 		StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* L_3 = __this->___U3CU3E4__this;
 		U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648* L_4 = V_0;
 		NullCheck(L_4);
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_5 = L_4->___task;
 		TaskCompletionSource_1_tA03436D2BE52553B67089B7720512F9C186E4B87* L_6 = __this->___result;
 		U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648* L_7 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 657));
 		Func_1_t52E127E1D0D0C6A579D7CC26D5A75E358527CEE9* L_8 = (Func_1_t52E127E1D0D0C6A579D7CC26D5A75E358527CEE9*)il2cpp_codegen_object_new(Func_1_t52E127E1D0D0C6A579D7CC26D5A75E358527CEE9_il2cpp_TypeInfo_var);
 		Func_1__ctor_mAFBCCCC9374D16BC60346999533E413BF78722F0(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass27_1_U3CGetDownloadUrlAsyncU3Eb__1_mEC1A93766B35860C0EC3251814F77A5EA37FA7D4_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 657));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 658));
 		NullCheck(L_3);
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_9;
 		L_9 = StorageReference_CompleteTask_TisString_t_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m69982673125FC96F92B66BB6C48BE3F65B97450A(L_3, L_5, L_6, L_8, _stringLiteral5258266D8258C1C3EBCEA3316BAE21542E7FFC60, (bool)1, StorageReference_CompleteTask_TisString_t_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m69982673125FC96F92B66BB6C48BE3F65B97450A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 658));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 659));
 		return;
 	}
 }
@@ -5280,15 +3948,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CGetDownload
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_1__ctor_m6C3E002E951D8D0329747D945974E57801EC9151 (U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_1__ctor_m6C3E002E951D8D0329747D945974E57801EC9151_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__DisplayClass27_1__ctor_m6C3E002E951D8D0329747D945974E57801EC9151_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass27_1__ctor_m6C3E002E951D8D0329747D945974E57801EC9151_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -5301,38 +3960,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_1_U3CGetDownloadUrlAsyncU3Eb__1_mEC1A93766B35860C0EC3251814F77A5EA37FA7D4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass27_1_tE4653F9F638EEAA5864B33BEE46BBB576AC2C648_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__DisplayClass27_1_U3CGetDownloadUrlAsyncU3Eb__1_mEC1A93766B35860C0EC3251814F77A5EA37FA7D4_RuntimeMethod_var);
 	String_t* V_0 = NULL;
 	bool V_1 = false;
 	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_2 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass27_1_U3CGetDownloadUrlAsyncU3Eb__1_mEC1A93766B35860C0EC3251814F77A5EA37FA7D4_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 660));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 661));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 662));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 663));
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_0 = __this->___task;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 664));
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13(L_0, Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 664));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 665));
 		String_t* L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 666));
 		bool L_3;
 		L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 666));
 		V_1 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 667));
 		bool L_4 = V_1;
 		if (!L_4)
 		{
@@ -5340,27 +3982,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 668));
 		V_2 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)NULL;
 		goto IL_0024;
 	}
 
 IL_001b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 669));
 		String_t* L_5 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 670));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_il2cpp_TypeInfo_var);
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_6;
 		L_6 = FirebaseStorage_ConstructFormattedUri_mBC6BF241BE608028C04B4C508F85AEA9B45B51F6(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 670));
 		V_2 = L_6;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 671));
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_7 = V_2;
 		return L_7;
 	}
@@ -5383,57 +4020,22 @@ IL_0024:
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReferenceInternal__ctor_m7C41AA5A3F5475ECA398D40758FF6DA37718B677 (StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal__ctor_m7C41AA5A3F5475ECA398D40758FF6DA37718B677_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal__ctor_m7C41AA5A3F5475ECA398D40758FF6DA37718B677_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_cPtr), (&___1_cMemoryOwn));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal__ctor_m7C41AA5A3F5475ECA398D40758FF6DA37718B677_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 672));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 673));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 674));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 675));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 675));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 676));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 677));
 		bool L_0 = ___1_cMemoryOwn;
 		__this->___swigCMemOwn = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 678));
 		intptr_t L_1 = ___0_cPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 679));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_2), __this, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 679));
 		__this->___swigCPtr = L_2;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___swigCPtr))->____wrapper), (void*)NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 680));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReferenceInternal_Finalize_m841C4C27BBBDB8F3E51D1284F168B6E8AF4208F2 (StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_Finalize_m841C4C27BBBDB8F3E51D1284F168B6E8AF4208F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_Finalize_m841C4C27BBBDB8F3E51D1284F168B6E8AF4208F2_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_Finalize_m841C4C27BBBDB8F3E51D1284F168B6E8AF4208F2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 681));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 682));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 683));
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
@@ -5441,22 +4043,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReferenceInternal_Finalize_m841C4
 
 FINALLY_000c:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 687));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 688));
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 688));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 684));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 685));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 686));
 			VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 686));
 			goto IL_0014;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -5467,7 +4060,6 @@ FINALLY_000c:
 
 IL_0014:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 689));
 		return;
 	}
 }
@@ -5477,27 +4069,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReferenceInternal_Dispose_m8DA06D
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_Dispose_m8DA06D2B1F391F8A18795B32192DB3C46829A1DA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_Dispose_m8DA06D2B1F391F8A18795B32192DB3C46829A1DA_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_Dispose_m8DA06D2B1F391F8A18795B32192DB3C46829A1DA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 690));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 691));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 692));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 693));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 694));
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 694));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 695));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 696));
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 696));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 697));
 		return;
 	}
 }
@@ -5509,23 +4086,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReferenceInternal_Dispose_m8EBCA2
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_Dispose_m8EBCA21D9ECF5936B3F95BB8068A4D2B1E685584_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_Dispose_m8EBCA21D9ECF5936B3F95BB8068A4D2B1E685584_RuntimeMethod_var);
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_disposing));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_Dispose_m8EBCA21D9ECF5936B3F95BB8068A4D2B1E685584_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 698));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 699));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 700));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 701));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var))->___disposeLock;
 		V_0 = L_0;
@@ -5537,9 +4104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageReferenceInternal_Dispose_m8EBCA2
 
 FINALLY_0068:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 722));
 					bool L_1 = V_1;
 					if (!L_1)
 					{
@@ -5548,39 +4113,26 @@ FINALLY_0068:
 				}
 				{
 					RuntimeObject* L_2 = V_0;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 723));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 723));
 				}
 
 IL_0072:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 724));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				RuntimeObject* L_3 = V_0;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 702));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 702));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 703));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 704));
 				HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* L_4 = (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F*)(&__this->___swigCPtr);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 705));
 				intptr_t L_5;
 				L_5 = HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline(L_4, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 705));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 706));
 				bool L_6;
 				L_6 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_5, 0, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 706));
 				V_2 = L_6;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 707));
 				bool L_7 = V_2;
 				if (!L_7)
 				{
@@ -5588,11 +4140,8 @@ IL_0072:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 708));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 709));
 				bool L_8 = __this->___swigCMemOwn;
 				V_3 = L_8;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 710));
 				bool L_9 = V_3;
 				if (!L_9)
 				{
@@ -5600,39 +4149,25 @@ IL_0072:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 711));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 712));
 				__this->___swigCMemOwn = (bool)0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 713));
 				HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_10 = __this->___swigCPtr;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 714));
 				il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 				StorageInternalPINVOKE_delete_StorageReferenceInternal_m7EC3E2D36E8D1DB1CE0D7D738C2DC9193A3E629E(L_10, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 714));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 715));
 			}
 
 IL_004c_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 716));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 717));
 				HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_11;
 				memset((&L_11), 0, sizeof(L_11));
 				HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_11), NULL, 0, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 717));
 				__this->___swigCPtr = L_11;
 				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___swigCPtr))->____wrapper), (void*)NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 718));
 			}
 
 IL_005e_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 719));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 720));
 				il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 				GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 720));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 721));
 				goto IL_0073;
 			}
 		}
@@ -5644,7 +4179,6 @@ IL_005e_1:
 
 IL_0073:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 725));
 		return;
 	}
 }
@@ -5656,39 +4190,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FutureString_t43059BC71CEE7628A518F3FCB741BCCE4E5674DA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_GetDownloadUrlAsync_m73618C32785777B29DB6FDE986ACFFE4F789E9BE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_GetDownloadUrlAsync_m73618C32785777B29DB6FDE986ACFFE4F789E9BE_RuntimeMethod_var);
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
 	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* V_2 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_GetDownloadUrlAsync_m73618C32785777B29DB6FDE986ACFFE4F789E9BE_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 726));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 727));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 728));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 729));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 730));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		intptr_t L_1;
 		L_1 = StorageInternalPINVOKE_StorageReferenceInternal_GetDownloadUrl_m136E84C0FD92788E5199864C6F6D4269AED41817(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 730));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 731));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 732));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 732));
 		V_1 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 733));
 		bool L_3 = V_1;
 		if (!L_3)
 		{
@@ -5696,35 +4213,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 734));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 735));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_4;
 		L_4 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 735));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StorageReferenceInternal_GetDownloadUrlAsync_m73618C32785777B29DB6FDE986ACFFE4F789E9BE_RuntimeMethod_var)));
 	}
 
 IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 736));
 		intptr_t L_5 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 737));
 		FutureString_t43059BC71CEE7628A518F3FCB741BCCE4E5674DA* L_6 = (FutureString_t43059BC71CEE7628A518F3FCB741BCCE4E5674DA*)il2cpp_codegen_object_new(FutureString_t43059BC71CEE7628A518F3FCB741BCCE4E5674DA_il2cpp_TypeInfo_var);
 		FutureString__ctor_m9CB2C65B5F5E9E649EA262481D40CD4F758A218C(L_6, L_5, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 737));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 738));
 		il2cpp_codegen_runtime_class_init_inline(FutureString_t43059BC71CEE7628A518F3FCB741BCCE4E5674DA_il2cpp_TypeInfo_var);
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_7;
 		L_7 = FutureString_GetTask_m91682A6F5BAE6293E24AE084F088BDC360A98FB0(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 738));
 		V_2 = L_7;
 		goto IL_002b;
 	}
 
 IL_002b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 739));
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_8 = V_2;
 		return L_8;
 	}
@@ -5736,37 +4244,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReferenceInternal_get_Bucket
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_get_Bucket_m7C7737DC9A4D22049E4C6338515E229935A68BF5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_get_Bucket_m7C7737DC9A4D22049E4C6338515E229935A68BF5_RuntimeMethod_var);
 	String_t* V_0 = NULL;
 	bool V_1 = false;
 	String_t* V_2 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_get_Bucket_m7C7737DC9A4D22049E4C6338515E229935A68BF5_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 740));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 741));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 742));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 743));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 744));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = StorageInternalPINVOKE_StorageReferenceInternal_Bucket_get_m5C0FB1EC9D5396A3189CCBC3FCF5147BB1AAD856(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 744));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 745));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 746));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 746));
 		V_1 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 747));
 		bool L_3 = V_1;
 		if (!L_3)
 		{
@@ -5774,18 +4266,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReferenceInternal_get_Bucket
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 748));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 749));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_4;
 		L_4 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 749));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StorageReferenceInternal_get_Bucket_m7C7737DC9A4D22049E4C6338515E229935A68BF5_RuntimeMethod_var)));
 	}
 
 IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 750));
 		String_t* L_5 = V_0;
 		V_2 = L_5;
 		goto IL_0020;
@@ -5793,7 +4281,6 @@ IL_001c:
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 751));
 		String_t* L_6 = V_2;
 		return L_6;
 	}
@@ -5805,37 +4292,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReferenceInternal_get_FullPa
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_get_FullPath_mE93027973F851741548644FA6CE90911FB02FC42_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_get_FullPath_mE93027973F851741548644FA6CE90911FB02FC42_RuntimeMethod_var);
 	String_t* V_0 = NULL;
 	bool V_1 = false;
 	String_t* V_2 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_get_FullPath_mE93027973F851741548644FA6CE90911FB02FC42_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 752));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 753));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 754));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 755));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 756));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = StorageInternalPINVOKE_StorageReferenceInternal_FullPath_get_m511AA82847C6B1CF473577AB8A49000AEC0EF342(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 756));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 757));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 758));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 758));
 		V_1 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 759));
 		bool L_3 = V_1;
 		if (!L_3)
 		{
@@ -5843,18 +4314,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageReferenceInternal_get_FullPa
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 760));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 761));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_4;
 		L_4 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 761));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StorageReferenceInternal_get_FullPath_mE93027973F851741548644FA6CE90911FB02FC42_RuntimeMethod_var)));
 	}
 
 IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 762));
 		String_t* L_5 = V_0;
 		V_2 = L_5;
 		goto IL_0020;
@@ -5862,7 +4329,6 @@ IL_001c:
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 763));
 		String_t* L_6 = V_2;
 		return L_6;
 	}
@@ -5874,37 +4340,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StorageReferenceInternal_get_IsValid_m00
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_get_IsValid_m00ADACF700EC5777285450BBD2AC3AC8349DA171_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageReferenceInternal_get_IsValid_m00ADACF700EC5777285450BBD2AC3AC8349DA171_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReferenceInternal_get_IsValid_m00ADACF700EC5777285450BBD2AC3AC8349DA171_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 764));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 765));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 766));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 767));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 768));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = StorageInternalPINVOKE_StorageReferenceInternal_IsValid_get_m98AC6FCC439EEDCB1AAEC9DCF7D0DBC4F80865AF(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 768));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 769));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 770));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 770));
 		V_1 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 771));
 		bool L_3 = V_1;
 		if (!L_3)
 		{
@@ -5912,18 +4362,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StorageReferenceInternal_get_IsValid_m00
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 772));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 773));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_4;
 		L_4 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 773));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StorageReferenceInternal_get_IsValid_m00ADACF700EC5777285450BBD2AC3AC8349DA171_RuntimeMethod_var)));
 	}
 
 IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 774));
 		bool L_5 = V_0;
 		V_2 = L_5;
 		goto IL_0020;
@@ -5931,7 +4377,6 @@ IL_001c:
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 775));
 		bool L_6 = V_2;
 		return L_6;
 	}
@@ -5946,62 +4391,26 @@ IL_0020:
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal__ctor_mB8F9788F57268947777E0C442C9C2BF3370CFE6E (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal__ctor_mB8F9788F57268947777E0C442C9C2BF3370CFE6E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal__ctor_mB8F9788F57268947777E0C442C9C2BF3370CFE6E_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_cPtr), (&___1_cMemoryOwn));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal__ctor_mB8F9788F57268947777E0C442C9C2BF3370CFE6E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 776));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 777));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 778));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 779));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 779));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 780));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 781));
 		bool L_0 = ___1_cMemoryOwn;
 		__this->___swigCMemOwn = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 782));
 		intptr_t L_1 = ___0_cPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 783));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_2), __this, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 783));
 		__this->___swigCPtr = L_2;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___swigCPtr))->____wrapper), (void*)NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 784));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8 (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* ___0_obj, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8_RuntimeMethod_var);
 	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 785));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 786));
 	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 787));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 788));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_0 = ___0_obj;
 		if (!L_0)
 		{
@@ -6018,11 +4427,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandleRef_t4B05E32B68797F702257D4E838B85A9763
 
 IL_000c:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 789));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_3), NULL, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 789));
 		G_B3_0 = L_3;
 	}
 
@@ -6034,27 +4441,13 @@ IL_0017:
 
 IL_001a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 790));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_Finalize_m08E3C8A4DCBBEAD55985B914BCF993BEE7BE3237 (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_Finalize_m08E3C8A4DCBBEAD55985B914BCF993BEE7BE3237_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_Finalize_m08E3C8A4DCBBEAD55985B914BCF993BEE7BE3237_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_Finalize_m08E3C8A4DCBBEAD55985B914BCF993BEE7BE3237_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 791));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 792));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 793));
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
@@ -6062,22 +4455,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_Finalize_m08E3C8
 
 FINALLY_000c:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 797));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 798));
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 798));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 794));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 795));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 796));
 			VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)0);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 796));
 			goto IL_0014;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -6088,7 +4472,6 @@ FINALLY_000c:
 
 IL_0014:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 799));
 		return;
 	}
 }
@@ -6097,28 +4480,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_Dispose_m8BE1670
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_Dispose_m8BE167067EB4C1FBF823331DE520C441E5AF0B1F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_Dispose_m8BE167067EB4C1FBF823331DE520C441E5AF0B1F_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_Dispose_m8BE167067EB4C1FBF823331DE520C441E5AF0B1F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 800));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 801));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 802));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 803));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 804));
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 804));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 805));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 806));
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 806));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 807));
 		return;
 	}
 }
@@ -6128,21 +4496,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_Dispose_m18EF3F1
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_Dispose_m18EF3F130CCD8C586936462F4D9C140CFC673824_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_Dispose_m18EF3F130CCD8C586936462F4D9C140CFC673824_RuntimeMethod_var);
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_disposing));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_Dispose_m18EF3F130CCD8C586936462F4D9C140CFC673824_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 808));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 809));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 810));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 811));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var))->___disposeLock;
 		V_0 = L_0;
@@ -6154,9 +4512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_Dispose_m18EF3F1
 
 FINALLY_0035:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 820));
 					bool L_1 = V_1;
 					if (!L_1)
 					{
@@ -6165,41 +4521,26 @@ FINALLY_0035:
 				}
 				{
 					RuntimeObject* L_2 = V_0;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 821));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 821));
 				}
 
 IL_003f:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 822));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			RuntimeObject* L_3 = V_0;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 812));
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 812));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 813));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 814));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 815));
 			FirebaseStorageInternal_ReleaseReferenceInternal_m8ED46F85804D22BD6C3688CCACEDB6BDC67275E2(__this, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 815));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 816));
 			__this->___swigCMemOwn = (bool)0;
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 817));
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 818));
 			HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_4;
 			memset((&L_4), 0, sizeof(L_4));
 			HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_4), NULL, 0, NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 818));
 			__this->___swigCPtr = L_4;
 			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___swigCPtr))->____wrapper), (void*)NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 819));
 			goto IL_0040;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -6210,77 +4551,37 @@ IL_003f:
 
 IL_0040:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 823));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_get_InstanceKey_m9F8ABBA175A15B51661EF6112C1BF06CAD267F4C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 824));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 825));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 826));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 827));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 828));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_0;
 		L_0 = FirebaseStorageInternal_get_App_mA92F711407E7D883382645FCF479370018821AF3(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 828));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 829));
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = FirebaseApp_get_Name_m89C11F96726C8E4FD3CCAE04A5DC3129F7CD975E(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 829));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 830));
 		String_t* L_2;
 		L_2 = FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 830));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 831));
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 831));
 		V_0 = L_3;
 		goto IL_001a;
 	}
 
 IL_001a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 832));
 		String_t* L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_SetSwigCMemOwn_mE268A0AD6F3528EC65D486EC1F0B228D84D96629 (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* __this, bool ___0_ownership, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_SetSwigCMemOwn_mE268A0AD6F3528EC65D486EC1F0B228D84D96629_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_SetSwigCMemOwn_mE268A0AD6F3528EC65D486EC1F0B228D84D96629_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_ownership));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_SetSwigCMemOwn_mE268A0AD6F3528EC65D486EC1F0B228D84D96629_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 833));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 834));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 835));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 836));
 		bool L_0 = ___0_ownership;
 		__this->___swigCMemOwn = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 837));
 		return;
 	}
 }
@@ -6289,47 +4590,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReferenceInternal_t400CD0CF0BE9054DBAF
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_GetReferenceFromUrl_mD87D0E190A05F5109F7CEF39C08B2731E9C3188E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_GetReferenceFromUrl_mD87D0E190A05F5109F7CEF39C08B2731E9C3188E_RuntimeMethod_var);
 	StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* V_0 = NULL;
 	bool V_1 = false;
 	StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* V_2 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_url));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_GetReferenceFromUrl_mD87D0E190A05F5109F7CEF39C08B2731E9C3188E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 838));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 839));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 840));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 841));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
 		String_t* L_1 = ___0_url;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 842));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		intptr_t L_2;
 		L_2 = StorageInternalPINVOKE_FirebaseStorageInternal_GetReferenceFromUrl__SWIG_0_mCD3C3E37608FE22FFB3A401982557B2EFF33A9DF(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 842));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 843));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_3 = (StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4*)il2cpp_codegen_object_new(StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4_il2cpp_TypeInfo_var);
 		StorageReferenceInternal__ctor_m7C41AA5A3F5475ECA398D40758FF6DA37718B677(L_3, L_2, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 843));
 		V_0 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 844));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 845));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 845));
 		V_1 = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 846));
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -6337,18 +4618,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageReferenceInternal_t400CD0CF0BE9054DBAF
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 847));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 848));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_6;
 		L_6 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 848));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorageInternal_GetReferenceFromUrl_mD87D0E190A05F5109F7CEF39C08B2731E9C3188E_RuntimeMethod_var)));
 	}
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 849));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_7 = V_0;
 		V_2 = L_7;
 		goto IL_0027;
@@ -6356,7 +4633,6 @@ IL_0023:
 
 IL_0027:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 850));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_8 = V_2;
 		return L_8;
 	}
@@ -6367,29 +4643,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorageInternal_tD6FAEA0321B7D20A820B
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_GetInstanceInternal_m1A51C89841E064C55E86D56D05FCEB3FBF1206C6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_GetInstanceInternal_m1A51C89841E064C55E86D56D05FCEB3FBF1206C6_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* V_2 = NULL;
 	bool V_3 = false;
 	FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* V_4 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_app), (&___1_url), (&___2_init_result_out));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_GetInstanceInternal_m1A51C89841E064C55E86D56D05FCEB3FBF1206C6_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 851));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 852));
 	FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* G_B4_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 853));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 854));
 		V_0 = 0;
 	}
 	{
@@ -6398,41 +4664,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseStorageInternal_tD6FAEA0321B7D20A820B
 
 FINALLY_003f:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 868));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 869));
 				int32_t* L_0 = ___2_init_result_out;
 				int32_t L_1 = V_0;
 				*((int32_t*)L_0) = (int32_t)L_1;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 870));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 855));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 856));
 				FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_2 = ___0_app;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 857));
 				il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 				HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_3;
 				L_3 = FirebaseApp_getCPtr_m54B5DAC73BA43E79771E0181BEFD846BBE06C84F(L_2, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 857));
 				String_t* L_4 = ___1_url;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 858));
 				il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 				intptr_t L_5;
 				L_5 = StorageInternalPINVOKE_FirebaseStorageInternal_GetInstanceInternal_m6B3FE8FC3DAEC62E87B37F4E572AAB2F70E80EE1(L_3, L_4, (&V_0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 858));
 				V_1 = L_5;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 859));
 				intptr_t L_6 = V_1;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 860));
 				bool L_7;
 				L_7 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_6, 0, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 860));
 				if (L_7)
 				{
 					goto IL_0029_1;
@@ -6440,10 +4692,8 @@ FINALLY_003f:
 			}
 			{
 				intptr_t L_8 = V_1;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 861));
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_9 = (FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145*)il2cpp_codegen_object_new(FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_il2cpp_TypeInfo_var);
 				FirebaseStorageInternal__ctor_mB8F9788F57268947777E0C442C9C2BF3370CFE6E(L_9, L_8, (bool)0, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 861));
 				G_B4_0 = L_9;
 				goto IL_002a_1;
 			}
@@ -6456,14 +4706,10 @@ IL_0029_1:
 IL_002a_1:
 			{
 				V_2 = G_B4_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 862));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 863));
 				il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 				bool L_10;
 				L_10 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 863));
 				V_3 = L_10;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 864));
 				bool L_11 = V_3;
 				if (!L_11)
 				{
@@ -6471,18 +4717,14 @@ IL_002a_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 865));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 866));
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 				Exception_t* L_12;
 				L_12 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 866));
 				IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorageInternal_GetInstanceInternal_m1A51C89841E064C55E86D56D05FCEB3FBF1206C6_RuntimeMethod_var)));
 			}
 
 IL_003a_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 867));
 				FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_13 = V_2;
 				V_4 = L_13;
 				goto IL_0045;
@@ -6496,7 +4738,6 @@ IL_003a_1:
 
 IL_0045:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 871));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_14 = V_4;
 		return L_14;
 	}
@@ -6506,37 +4747,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_ReleaseReference
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_ReleaseReferenceInternal_m8ED46F85804D22BD6C3688CCACEDB6BDC67275E2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_ReleaseReferenceInternal_m8ED46F85804D22BD6C3688CCACEDB6BDC67275E2_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_instance));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_ReleaseReferenceInternal_m8ED46F85804D22BD6C3688CCACEDB6BDC67275E2_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 872));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 873));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 874));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 875));
 		FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145* L_0 = ___0_instance;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 876));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_1;
 		L_1 = FirebaseStorageInternal_getCPtr_mD4723C5453AC418FEBE423D632EA65C1CF3AFED8(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 876));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 877));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		StorageInternalPINVOKE_FirebaseStorageInternal_ReleaseReferenceInternal_mAD3911ECA3716197E8B078C30AEFF53D98D3A908(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 877));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 878));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 879));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 879));
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 880));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -6544,18 +4769,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseStorageInternal_ReleaseReference
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 881));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 882));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_4;
 		L_4 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 882));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorageInternal_ReleaseReferenceInternal_m8ED46F85804D22BD6C3688CCACEDB6BDC67275E2_RuntimeMethod_var)));
 	}
 
 IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 883));
 		return;
 	}
 }
@@ -6564,42 +4785,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseApp_tD23C437863A3502177988D1382B58820
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_get_App_mA92F711407E7D883382645FCF479370018821AF3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_get_App_mA92F711407E7D883382645FCF479370018821AF3_RuntimeMethod_var);
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* V_1 = NULL;
 	bool V_2 = false;
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* V_3 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_get_App_mA92F711407E7D883382645FCF479370018821AF3_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 884));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 885));
 	FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* G_B3_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 886));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 887));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 888));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		intptr_t L_1;
 		L_1 = StorageInternalPINVOKE_FirebaseStorageInternal_App_get_mC656458F11190DA28B011BCA2AF7FB76AB80494F(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 888));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 889));
 		intptr_t L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 890));
 		bool L_3;
 		L_3 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_2, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 890));
 		if (L_3)
 		{
 			goto IL_0023;
@@ -6607,10 +4812,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseApp_tD23C437863A3502177988D1382B58820
 	}
 	{
 		intptr_t L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 891));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_5 = (FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25*)il2cpp_codegen_object_new(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		FirebaseApp__ctor_mC539AF748C2E16CD3B7820D6039B9A29DBDF908C(L_5, L_4, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 891));
 		G_B3_0 = L_5;
 		goto IL_0024;
 	}
@@ -6623,14 +4826,10 @@ IL_0023:
 IL_0024:
 	{
 		V_1 = G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 892));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 893));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_6;
 		L_6 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 893));
 		V_2 = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 894));
 		bool L_7 = V_2;
 		if (!L_7)
 		{
@@ -6638,18 +4837,14 @@ IL_0024:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 895));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 896));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_8;
 		L_8 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 896));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorageInternal_get_App_mA92F711407E7D883382645FCF479370018821AF3_RuntimeMethod_var)));
 	}
 
 IL_0034:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 897));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_9 = V_1;
 		V_3 = L_9;
 		goto IL_0038;
@@ -6657,7 +4852,6 @@ IL_0034:
 
 IL_0038:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 898));
 		FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25* L_10 = V_3;
 		return L_10;
 	}
@@ -6667,39 +4861,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FirebaseStorageInternal_get_Url_mB6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorageInternal_tD6FAEA0321B7D20A820BB25CDC18EFE11F282145_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744_RuntimeMethod_var);
 	String_t* V_0 = NULL;
 	bool V_1 = false;
 	String_t* V_2 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 899));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 900));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 901));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 902));
 		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___swigCPtr;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 903));
 		il2cpp_codegen_runtime_class_init_inline(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = StorageInternalPINVOKE_FirebaseStorageInternal_Url_get_m940A2C770290475EE696E9AC9F8EA3EDB29E3B14(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 903));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 904));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 905));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = SWIGPendingException_get_Pending_mFF0B94BEAD2C48E3CD3BB7EFB5EB23A0B6CF55EE(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 905));
 		V_1 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 906));
 		bool L_3 = V_1;
 		if (!L_3)
 		{
@@ -6707,18 +4885,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FirebaseStorageInternal_get_Url_mB6
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 907));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 908));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_tABBC4E77437B082457DE5327A693947CE0C7CF63_il2cpp_TypeInfo_var)));
 		Exception_t* L_4;
 		L_4 = SWIGPendingException_Retrieve_m5AF2B72B0C255B87F0044137B357F55F50101D51(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 908));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseStorageInternal_get_Url_mB62A11FAF14E963FF2A843A45705CEE209636744_RuntimeMethod_var)));
 	}
 
 IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 909));
 		String_t* L_5 = V_0;
 		V_2 = L_5;
 		goto IL_0020;
@@ -6726,7 +4900,6 @@ IL_001c:
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 910));
 		String_t* L_6 = V_2;
 		return L_6;
 	}
@@ -6746,43 +4919,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageInternalPINVOKE__cctor_m0F2965AD3
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE__cctor_m0F2965AD3911C9E5D4454F81FEB1503ADF1403A7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE__cctor_m0F2965AD3911C9E5D4454F81FEB1503ADF1403A7_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageInternalPINVOKE__cctor_m0F2965AD3911C9E5D4454F81FEB1503ADF1403A7_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 911));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 912));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 913));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 914));
 		SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149* L_0 = (SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149*)il2cpp_codegen_object_new(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var);
 		SWIGExceptionHelper__ctor_mAD73726452D2B9A7610ED82C4B6868D0C424C849(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 914));
 		((StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_StaticFields*)il2cpp_codegen_static_fields_for(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var))->___swigExceptionHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_StaticFields*)il2cpp_codegen_static_fields_for(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var))->___swigExceptionHelper), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 915));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 916));
 		SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004* L_1 = (SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004*)il2cpp_codegen_object_new(SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_il2cpp_TypeInfo_var);
 		SWIGStringHelper__ctor_m742C1F69A35C651EA7707D33CFDCF5C602DD81E3(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 916));
 		((StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_StaticFields*)il2cpp_codegen_static_fields_for(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var))->___swigStringHelper = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_StaticFields*)il2cpp_codegen_static_fields_for(StorageInternalPINVOKE_t31DA308783BDFC3D0A0C393B50092E3F4856ECC9_il2cpp_TypeInfo_var))->___swigStringHelper), (void*)L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 917));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 918));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageInternalPINVOKE_delete_StorageReferenceInternal_m7EC3E2D36E8D1DB1CE0D7D738C2DC9193A3E629E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_delete_StorageReferenceInternal_m7EC3E2D36E8D1DB1CE0D7D738C2DC9193A3E629E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_delete_StorageReferenceInternal_m7EC3E2D36E8D1DB1CE0D7D738C2DC9193A3E629E_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6793,13 +4946,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageInternalPINVOKE_delete_StorageRef
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_StorageReferenceInternal_GetDownloadUrl_m136E84C0FD92788E5199864C6F6D4269AED41817 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_StorageReferenceInternal_GetDownloadUrl_m136E84C0FD92788E5199864C6F6D4269AED41817_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_StorageReferenceInternal_GetDownloadUrl_m136E84C0FD92788E5199864C6F6D4269AED41817_RuntimeMethod_var);
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6811,13 +4957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_StorageRefere
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageInternalPINVOKE_StorageReferenceInternal_Bucket_get_m5C0FB1EC9D5396A3189CCBC3FCF5147BB1AAD856 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_StorageReferenceInternal_Bucket_get_m5C0FB1EC9D5396A3189CCBC3FCF5147BB1AAD856_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_StorageReferenceInternal_Bucket_get_m5C0FB1EC9D5396A3189CCBC3FCF5147BB1AAD856_RuntimeMethod_var);
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6835,13 +4974,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageInternalPINVOKE_StorageRefer
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageInternalPINVOKE_StorageReferenceInternal_FullPath_get_m511AA82847C6B1CF473577AB8A49000AEC0EF342 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_StorageReferenceInternal_FullPath_get_m511AA82847C6B1CF473577AB8A49000AEC0EF342_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_StorageReferenceInternal_FullPath_get_m511AA82847C6B1CF473577AB8A49000AEC0EF342_RuntimeMethod_var);
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6859,13 +4991,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageInternalPINVOKE_StorageRefer
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StorageInternalPINVOKE_StorageReferenceInternal_IsValid_get_m98AC6FCC439EEDCB1AAEC9DCF7D0DBC4F80865AF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_StorageReferenceInternal_IsValid_get_m98AC6FCC439EEDCB1AAEC9DCF7D0DBC4F80865AF_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_StorageReferenceInternal_IsValid_get_m98AC6FCC439EEDCB1AAEC9DCF7D0DBC4F80865AF_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6877,13 +5002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StorageInternalPINVOKE_StorageReferenceI
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_FirebaseStorageInternal_GetReferenceFromUrl__SWIG_0_mCD3C3E37608FE22FFB3A401982557B2EFF33A9DF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_FirebaseStorageInternal_GetReferenceFromUrl__SWIG_0_mCD3C3E37608FE22FFB3A401982557B2EFF33A9DF_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_FirebaseStorageInternal_GetReferenceFromUrl__SWIG_0_mCD3C3E37608FE22FFB3A401982557B2EFF33A9DF_RuntimeMethod_var);
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6901,13 +5019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_FirebaseStora
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_FirebaseStorageInternal_GetInstanceInternal_m6B3FE8FC3DAEC62E87B37F4E572AAB2F70E80EE1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, String_t* ___1_jarg2, int32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_FirebaseStorageInternal_GetInstanceInternal_m6B3FE8FC3DAEC62E87B37F4E572AAB2F70E80EE1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_FirebaseStorageInternal_GetInstanceInternal_m6B3FE8FC3DAEC62E87B37F4E572AAB2F70E80EE1_RuntimeMethod_var);
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, int32_t*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6925,13 +5036,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_FirebaseStora
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageInternalPINVOKE_FirebaseStorageInternal_ReleaseReferenceInternal_mAD3911ECA3716197E8B078C30AEFF53D98D3A908 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_FirebaseStorageInternal_ReleaseReferenceInternal_mAD3911ECA3716197E8B078C30AEFF53D98D3A908_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_FirebaseStorageInternal_ReleaseReferenceInternal_mAD3911ECA3716197E8B078C30AEFF53D98D3A908_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6942,13 +5046,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StorageInternalPINVOKE_FirebaseStorageIn
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_FirebaseStorageInternal_App_get_mC656458F11190DA28B011BCA2AF7FB76AB80494F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_FirebaseStorageInternal_App_get_mC656458F11190DA28B011BCA2AF7FB76AB80494F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_FirebaseStorageInternal_App_get_mC656458F11190DA28B011BCA2AF7FB76AB80494F_RuntimeMethod_var);
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -6960,13 +5057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StorageInternalPINVOKE_FirebaseStora
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageInternalPINVOKE_FirebaseStorageInternal_Url_get_m940A2C770290475EE696E9AC9F8EA3EDB29E3B14 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_jarg1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageInternalPINVOKE_FirebaseStorageInternal_Url_get_m940A2C770290475EE696E9AC9F8EA3EDB29E3B14_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StorageInternalPINVOKE_FirebaseStorageInternal_Url_get_m940A2C770290475EE696E9AC9F8EA3EDB29E3B14_RuntimeMethod_var);
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
 
 	void* ____0_jarg1_marshaled = NULL;
@@ -7141,13 +5231,6 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_SWIGExceptionHelper_SetPendin
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_StorageInternal_m51BDE70D0F8120FB4A1B1248A83C0B9AA9D0E315 (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___0_applicationDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___1_arithmeticDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___2_divideByZeroDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___3_indexOutOfRangeDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___4_invalidCastDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___5_invalidOperationDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___6_ioDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___7_nullReferenceDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___8_outOfMemoryDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___9_overflowDelegate, ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* ___10_systemExceptionDelegate, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_StorageInternal_m51BDE70D0F8120FB4A1B1248A83C0B9AA9D0E315_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_StorageInternal_m51BDE70D0F8120FB4A1B1248A83C0B9AA9D0E315_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 
 	Il2CppMethodPointer ____0_applicationDelegate_marshaled = NULL;
@@ -7188,13 +5271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptio
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_StorageInternal_m233EE52CA80C53E40D500B3FA9D7EFE47983E54C (ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* ___0_argumentDelegate, ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* ___1_argumentNullDelegate, ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* ___2_argumentOutOfRangeDelegate, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_StorageInternal_m233EE52CA80C53E40D500B3FA9D7EFE47983E54C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_StorageInternal_m233EE52CA80C53E40D500B3FA9D7EFE47983E54C_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 
 	Il2CppMethodPointer ____0_argumentDelegate_marshaled = NULL;
@@ -7215,32 +5291,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingApplicatio
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingApplicationException_m042DB1D2B393D1EFACE6207BC2B910A09F04CD97_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingApplicationException_m042DB1D2B393D1EFACE6207BC2B910A09F04CD97_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingApplicationException_m042DB1D2B393D1EFACE6207BC2B910A09F04CD97_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 919));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 920));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 921));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 922));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 923));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 923));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 924));
 		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_2 = (ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*)il2cpp_codegen_object_new(ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_il2cpp_TypeInfo_var);
 		ApplicationException__ctor_m924E77609BAFA0595453363EB8B7BCCBA03B32DD(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 924));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 925));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 925));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 926));
 		return;
 	}
 }
@@ -7250,32 +5311,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingArithmetic
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingArithmeticException_m5D41A9EAFB9E0E1A9F8C719514F0A56E9B7ED1FF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingArithmeticException_m5D41A9EAFB9E0E1A9F8C719514F0A56E9B7ED1FF_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingArithmeticException_m5D41A9EAFB9E0E1A9F8C719514F0A56E9B7ED1FF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 927));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 928));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 929));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 930));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 931));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 931));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 932));
 		ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA* L_2 = (ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA*)il2cpp_codegen_object_new(ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA_il2cpp_TypeInfo_var);
 		ArithmeticException__ctor_m880D58CC9B6CD2F0E867298BA748343216D89A8B(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 932));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 933));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 933));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 934));
 		return;
 	}
 }
@@ -7285,32 +5331,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingDivideByZe
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DivideByZeroException_tC43171E50A38F5CD4242D258D0B0C6B74898C279_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingDivideByZeroException_m16856599679ABE44900F0A9DC559735E32FF2F82_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingDivideByZeroException_m16856599679ABE44900F0A9DC559735E32FF2F82_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingDivideByZeroException_m16856599679ABE44900F0A9DC559735E32FF2F82_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 935));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 936));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 937));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 938));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 939));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 939));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 940));
 		DivideByZeroException_tC43171E50A38F5CD4242D258D0B0C6B74898C279* L_2 = (DivideByZeroException_tC43171E50A38F5CD4242D258D0B0C6B74898C279*)il2cpp_codegen_object_new(DivideByZeroException_tC43171E50A38F5CD4242D258D0B0C6B74898C279_il2cpp_TypeInfo_var);
 		DivideByZeroException__ctor_mE15900048AEEE9B66A4DD9F2ACAC4448D85D4F23(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 940));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 941));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 941));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 942));
 		return;
 	}
 }
@@ -7320,32 +5351,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingIndexOutOf
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0641C3EA994E4B62C2B0B542840AABD0BD8450D7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0641C3EA994E4B62C2B0B542840AABD0BD8450D7_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0641C3EA994E4B62C2B0B542840AABD0BD8450D7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 943));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 944));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 945));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 946));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 947));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 947));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 948));
 		IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* L_2 = (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82*)il2cpp_codegen_object_new(IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82_il2cpp_TypeInfo_var);
 		IndexOutOfRangeException__ctor_m390691571A232F79022C84ED002FDEF8974255E1(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 948));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 949));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 949));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 950));
 		return;
 	}
 }
@@ -7355,32 +5371,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingInvalidCas
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingInvalidCastException_mC652B01C423A58602ACDA2CA717E3110D81DA901_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingInvalidCastException_mC652B01C423A58602ACDA2CA717E3110D81DA901_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingInvalidCastException_mC652B01C423A58602ACDA2CA717E3110D81DA901_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 951));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 952));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 953));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 954));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 955));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 955));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 956));
 		InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E* L_2 = (InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E*)il2cpp_codegen_object_new(InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E_il2cpp_TypeInfo_var);
 		InvalidCastException__ctor_m40BCFD6C1C79DE81191B829AF71BEB590E300396(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 956));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 957));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 957));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 958));
 		return;
 	}
 }
@@ -7390,32 +5391,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingInvalidOpe
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingInvalidOperationException_m1D2DDCD27656E2796D127761AF6D430D94FFCADF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingInvalidOperationException_m1D2DDCD27656E2796D127761AF6D430D94FFCADF_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingInvalidOperationException_m1D2DDCD27656E2796D127761AF6D430D94FFCADF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 959));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 960));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 961));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 962));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 963));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 963));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 964));
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m63F5561BE647F655D22C8289E53A5D3A2196B668(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 964));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 965));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 965));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 966));
 		return;
 	}
 }
@@ -7425,32 +5411,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingIOExceptio
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingIOException_mE467413975CF2FDDD9AF637B6B8583DD260F978B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingIOException_mE467413975CF2FDDD9AF637B6B8583DD260F978B_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingIOException_mE467413975CF2FDDD9AF637B6B8583DD260F978B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 967));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 968));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 969));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 970));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 971));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 971));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 972));
 		IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910* L_2 = (IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)il2cpp_codegen_object_new(IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var);
 		IOException__ctor_mFA9F39D1AF43FBC40BFA68A7BFE07852D1EF8B1B(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 972));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 973));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 973));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 974));
 		return;
 	}
 }
@@ -7460,32 +5431,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingNullRefere
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingNullReferenceException_m24FD156B15456C76394765992384C4DF2926DF82_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingNullReferenceException_m24FD156B15456C76394765992384C4DF2926DF82_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingNullReferenceException_m24FD156B15456C76394765992384C4DF2926DF82_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 975));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 976));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 977));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 978));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 979));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 979));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 980));
 		NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB* L_2 = (NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB*)il2cpp_codegen_object_new(NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB_il2cpp_TypeInfo_var);
 		NullReferenceException__ctor_mD00D7FE987C285C8DB23883700F44BC0025F55EF(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 980));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 981));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 981));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 982));
 		return;
 	}
 }
@@ -7495,32 +5451,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingOutOfMemor
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OutOfMemoryException_tE6DC2F937EC4A8699271D5151C4DF83BDE99EE7F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingOutOfMemoryException_m0E6F400E42E90325FA3B0D5C807F94DD41E31802_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingOutOfMemoryException_m0E6F400E42E90325FA3B0D5C807F94DD41E31802_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingOutOfMemoryException_m0E6F400E42E90325FA3B0D5C807F94DD41E31802_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 983));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 984));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 985));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 986));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 987));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 987));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 988));
 		OutOfMemoryException_tE6DC2F937EC4A8699271D5151C4DF83BDE99EE7F* L_2 = (OutOfMemoryException_tE6DC2F937EC4A8699271D5151C4DF83BDE99EE7F*)il2cpp_codegen_object_new(OutOfMemoryException_tE6DC2F937EC4A8699271D5151C4DF83BDE99EE7F_il2cpp_TypeInfo_var);
 		OutOfMemoryException__ctor_mC60E0CF8E50CA43F0518570ACC051F6BA8A1D1F2(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 988));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 989));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 989));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 990));
 		return;
 	}
 }
@@ -7530,32 +5471,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingOverflowEx
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingOverflowException_m22928B659BB862A5C6421E9E120E7953CF3B3A44_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingOverflowException_m22928B659BB862A5C6421E9E120E7953CF3B3A44_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingOverflowException_m22928B659BB862A5C6421E9E120E7953CF3B3A44_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 991));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 992));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 993));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 994));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 995));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 995));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 996));
 		OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C* L_2 = (OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C*)il2cpp_codegen_object_new(OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C_il2cpp_TypeInfo_var);
 		OverflowException__ctor_mB00A07CDB7E5230B8D2BB31696E63F3CB1C36EF9(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 996));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 997));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 997));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 998));
 		return;
 	}
 }
@@ -7564,33 +5490,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingSystemExce
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingSystemException_m08E0AD3DFEA48AC9EEDD7A4E293B311133BF34E8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingSystemException_m08E0AD3DFEA48AC9EEDD7A4E293B311133BF34E8_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingSystemException_m08E0AD3DFEA48AC9EEDD7A4E293B311133BF34E8_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 999));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1000));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1001));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1002));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1003));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_1;
 		L_1 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1003));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1004));
 		SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295* L_2 = (SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295*)il2cpp_codegen_object_new(SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295_il2cpp_TypeInfo_var);
 		SystemException__ctor_m0FC84CACD2A5D66222998AA601A5C41CEC36A611(L_2, L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1004));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1005));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1005));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1006));
 		return;
 	}
 }
@@ -7600,33 +5511,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingArgumentEx
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingArgumentException_mA250FCAD3EB6430ECA11334E6326889B79804FA8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingArgumentException_mA250FCAD3EB6430ECA11334E6326889B79804FA8_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message), (&___1_paramName));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingArgumentException_mA250FCAD3EB6430ECA11334E6326889B79804FA8_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1007));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1008));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1009));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1010));
 		String_t* L_0 = ___0_message;
 		String_t* L_1 = ___1_paramName;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1011));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_2;
 		L_2 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1011));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1012));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m790F28810569425B0503056EF1A9CDDF9AFBB3F0(L_3, L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1012));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1013));
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1013));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1014));
 		return;
 	}
 }
@@ -7636,33 +5532,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingArgumentNu
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingArgumentNullException_m7759298EE23B95B8312C155E19107FE1839072C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B47BC9031A69F662702621810EC706E2C081467);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingArgumentNullException_m7759298EE23B95B8312C155E19107FE1839072C4_RuntimeMethod_var);
 	Exception_t* V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message), (&___1_paramName));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingArgumentNullException_m7759298EE23B95B8312C155E19107FE1839072C4_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1015));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1016));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1017));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1018));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1019));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_0;
 		L_0 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1019));
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1020));
 		Exception_t* L_1 = V_0;
 		V_1 = (bool)((!(((RuntimeObject*)(Exception_t*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1021));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -7670,35 +5552,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingArgumentNu
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1022));
 		String_t* L_3 = ___0_message;
 		Exception_t* L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1023));
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1023));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1024));
 		String_t* L_6;
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_3, _stringLiteral0B47BC9031A69F662702621810EC706E2C081467, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1024));
 		___0_message = L_6;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1025));
 		String_t* L_7 = ___1_paramName;
 		String_t* L_8 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1026));
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_9 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var);
 		ArgumentNullException__ctor_m6D9C7B47EA708382838B264BA02EBB7576DFA155(L_9, L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1026));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1027));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1027));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1028));
 		return;
 	}
 }
@@ -7708,33 +5579,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingArgumentOu
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mB6A64D32EF528045B6BDAD4BEB8E38C24803AD42_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B47BC9031A69F662702621810EC706E2C081467);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mB6A64D32EF528045B6BDAD4BEB8E38C24803AD42_RuntimeMethod_var);
 	Exception_t* V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message), (&___1_paramName));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mB6A64D32EF528045B6BDAD4BEB8E38C24803AD42_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1029));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1030));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1031));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1032));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1033));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_0;
 		L_0 = SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1033));
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1034));
 		Exception_t* L_1 = V_0;
 		V_1 = (bool)((!(((RuntimeObject*)(Exception_t*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1035));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -7742,35 +5599,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingArgumentOu
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1036));
 		String_t* L_3 = ___0_message;
 		Exception_t* L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1037));
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1037));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1038));
 		String_t* L_6;
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_3, _stringLiteral0B47BC9031A69F662702621810EC706E2C081467, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1038));
 		___0_message = L_6;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1039));
 		String_t* L_7 = ___1_paramName;
 		String_t* L_8 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1040));
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_9 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var);
 		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_9, L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1040));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1041));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1041));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1042));
 		return;
 	}
 }
@@ -7795,115 +5641,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper__cctor_m57882804AB19
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingOutOfMemoryException_m0E6F400E42E90325FA3B0D5C807F94DD41E31802_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingOverflowException_m22928B659BB862A5C6421E9E120E7953CF3B3A44_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_SetPendingSystemException_m08E0AD3DFEA48AC9EEDD7A4E293B311133BF34E8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper__cctor_m57882804AB19295FF09DCE01689C86994FA6EA83_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper__cctor_m57882804AB19295FF09DCE01689C86994FA6EA83_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper__cctor_m57882804AB19295FF09DCE01689C86994FA6EA83_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1043));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1044));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1045));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1046));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_0 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_0, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingApplicationException_m042DB1D2B393D1EFACE6207BC2B910A09F04CD97_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1046));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___applicationDelegate = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___applicationDelegate), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1047));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1048));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_1 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_1, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingArithmeticException_m5D41A9EAFB9E0E1A9F8C719514F0A56E9B7ED1FF_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1048));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___arithmeticDelegate = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___arithmeticDelegate), (void*)L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1049));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1050));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_2 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_2, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingDivideByZeroException_m16856599679ABE44900F0A9DC559735E32FF2F82_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1050));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___divideByZeroDelegate = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___divideByZeroDelegate), (void*)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1051));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1052));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_3 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_3, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0641C3EA994E4B62C2B0B542840AABD0BD8450D7_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1052));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___indexOutOfRangeDelegate = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___indexOutOfRangeDelegate), (void*)L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1053));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1054));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_4 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_4, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingInvalidCastException_mC652B01C423A58602ACDA2CA717E3110D81DA901_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1054));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___invalidCastDelegate = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___invalidCastDelegate), (void*)L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1055));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1056));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_5 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_5, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingInvalidOperationException_m1D2DDCD27656E2796D127761AF6D430D94FFCADF_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1056));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___invalidOperationDelegate = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___invalidOperationDelegate), (void*)L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1057));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1058));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_6 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_6, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingIOException_mE467413975CF2FDDD9AF637B6B8583DD260F978B_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1058));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___ioDelegate = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___ioDelegate), (void*)L_6);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1059));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1060));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_7 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_7, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingNullReferenceException_m24FD156B15456C76394765992384C4DF2926DF82_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1060));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___nullReferenceDelegate = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___nullReferenceDelegate), (void*)L_7);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1061));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1062));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_8 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_8, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingOutOfMemoryException_m0E6F400E42E90325FA3B0D5C807F94DD41E31802_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1062));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___outOfMemoryDelegate = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___outOfMemoryDelegate), (void*)L_8);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1063));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1064));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_9 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_9, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingOverflowException_m22928B659BB862A5C6421E9E120E7953CF3B3A44_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1064));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___overflowDelegate = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___overflowDelegate), (void*)L_9);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1065));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1066));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_10 = (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19*)il2cpp_codegen_object_new(ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19_il2cpp_TypeInfo_var);
 		ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7(L_10, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingSystemException_m08E0AD3DFEA48AC9EEDD7A4E293B311133BF34E8_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1066));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___systemDelegate = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___systemDelegate), (void*)L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1067));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1068));
 		ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* L_11 = (ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6*)il2cpp_codegen_object_new(ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6_il2cpp_TypeInfo_var);
 		ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A(L_11, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingArgumentException_mA250FCAD3EB6430ECA11334E6326889B79804FA8_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1068));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentDelegate = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentDelegate), (void*)L_11);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1069));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1070));
 		ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* L_12 = (ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6*)il2cpp_codegen_object_new(ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6_il2cpp_TypeInfo_var);
 		ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A(L_12, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingArgumentNullException_m7759298EE23B95B8312C155E19107FE1839072C4_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1070));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentNullDelegate = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentNullDelegate), (void*)L_12);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1071));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1072));
 		ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* L_13 = (ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6*)il2cpp_codegen_object_new(ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6_il2cpp_TypeInfo_var);
 		ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A(L_13, NULL, (intptr_t)((void*)SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mB6A64D32EF528045B6BDAD4BEB8E38C24803AD42_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1072));
 		((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentOutOfRangeDelegate = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentOutOfRangeDelegate), (void*)L_13);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1073));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1074));
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_14 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___applicationDelegate;
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_15 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___arithmeticDelegate;
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_16 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___divideByZeroDelegate;
@@ -7915,31 +5712,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper__cctor_m57882804AB19
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_22 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___outOfMemoryDelegate;
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_23 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___overflowDelegate;
 		ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* L_24 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___systemDelegate;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1075));
 		SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_StorageInternal_m51BDE70D0F8120FB4A1B1248A83C0B9AA9D0E315(L_14, L_15, L_16, L_17, L_18, L_19, L_20, L_21, L_22, L_23, L_24, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1075));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1076));
 		ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* L_25 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentDelegate;
 		ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* L_26 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentNullDelegate;
 		ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* L_27 = ((SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_StaticFields*)il2cpp_codegen_static_fields_for(SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149_il2cpp_TypeInfo_var))->___argumentOutOfRangeDelegate;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1077));
 		SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_StorageInternal_m233EE52CA80C53E40D500B3FA9D7EFE47983E54C(L_25, L_26, L_27, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1077));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1078));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper__ctor_mAD73726452D2B9A7610ED82C4B6868D0C424C849 (SWIGExceptionHelper_t5BA09F4EB956CA01C11D6B0C4F1BE79602082149* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGExceptionHelper__ctor_mAD73726452D2B9A7610ED82C4B6868D0C424C849_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGExceptionHelper__ctor_mAD73726452D2B9A7610ED82C4B6868D0C424C849_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGExceptionHelper__ctor_mAD73726452D2B9A7610ED82C4B6868D0C424C849_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -7990,13 +5772,6 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ExceptionDelegate_t864B45B2FEC8AA06
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7 (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ExceptionDelegate__ctor_m86E2FD1C496126EFCE130E23D2CD3191BBA96FB7_RuntimeMethod_var);
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
 	__this->___m_target = ___0_object;
@@ -8033,13 +5808,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionDelegate__ctor_m86E2FD1C496126E
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionDelegate_Invoke_m7248F2A105990113CFEAB586BF0E4F868E753F27 (ExceptionDelegate_t864B45B2FEC8AA06D829B518F169BE4212EF7D19* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExceptionDelegate_Invoke_m7248F2A105990113CFEAB586BF0E4F868E753F27_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ExceptionDelegate_Invoke_m7248F2A105990113CFEAB586BF0E4F868E753F27_RuntimeMethod_var);
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_message, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
@@ -8094,13 +5862,6 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ExceptionArgumentDelegate_tDDBE4789
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A (ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ExceptionArgumentDelegate__ctor_m69BA8206F7E1253E502E36629F0AD6E37282EE6A_RuntimeMethod_var);
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
 	__this->___m_target = ___0_object;
@@ -8137,13 +5898,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionArgumentDelegate__ctor_m69BA820
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionArgumentDelegate_Invoke_m33E23E680B50CD43FEB46921260C0E9C4AA8DE56 (ExceptionArgumentDelegate_tDDBE478926FBDBFB7AF2E13ECD8995E728DD58F6* __this, String_t* ___0_message, String_t* ___1_paramName, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExceptionArgumentDelegate_Invoke_m33E23E680B50CD43FEB46921260C0E9C4AA8DE56_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ExceptionArgumentDelegate_Invoke_m33E23E680B50CD43FEB46921260C0E9C4AA8DE56_RuntimeMethod_var);
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, String_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_message, ___1_paramName, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
@@ -8160,25 +5914,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGPendingException_Set_m0D37269D669BF5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630_RuntimeMethod_var);
 	bool V_0 = false;
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_e));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1079));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1080));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1081));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1082));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_0 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException;
 		V_0 = (bool)((!(((RuntimeObject*)(Exception_t*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1083));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -8186,34 +5931,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGPendingException_Set_m0D37269D669BF5
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1084));
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var)));
 		Exception_t* L_2 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))))->___pendingException;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1085));
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1085));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1086));
 		String_t* L_4;
 		L_4 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCB9902E2A4DFEBC0D9FA90B929984CE8637D6BAE)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1086));
 		Exception_t* L_5 = ___0_e;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1087));
 		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_6 = (ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_il2cpp_TypeInfo_var)));
 		ApplicationException__ctor_m924E77609BAFA0595453363EB8B7BCCBA03B32DD(L_6, L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1087));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SWIGPendingException_Set_m0D37269D669BF596507C2577D1163DA4D008A630_RuntimeMethod_var)));
 	}
 
 IL_002d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1088));
 		Exception_t* L_7 = ___0_e;
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException), (void*)L_7);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1089));
 		RuntimeObject* L_8 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___exceptionsLock;
 		V_1 = L_8;
 		V_2 = (bool)0;
@@ -8224,9 +5960,7 @@ IL_002d:
 
 FINALLY_0054:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1094));
 					bool L_9 = V_2;
 					if (!L_9)
 					{
@@ -8235,31 +5969,22 @@ FINALLY_0054:
 				}
 				{
 					RuntimeObject* L_10 = V_1;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1095));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_10, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1095));
 				}
 
 IL_005e:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1096));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			RuntimeObject* L_11 = V_1;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1090));
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_11, (&V_2), NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1090));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1091));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1092));
 			il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 			int32_t L_12 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___numExceptionsPending;
 			((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___numExceptionsPending = ((int32_t)il2cpp_codegen_add(L_12, 1));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1093));
 			goto IL_005f;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8270,7 +5995,6 @@ IL_005e:
 
 IL_005f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1097));
 		return;
 	}
 }
@@ -8279,31 +6003,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* SWIGPendingException_Retrieve_m3
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6_RuntimeMethod_var);
 	Exception_t* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
 	RuntimeObject* V_3 = NULL;
 	bool V_4 = false;
 	Exception_t* V_5 = NULL;
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGPendingException_Retrieve_m3C24D272DFC476AEBAC00B409FE02DF75722EFB6_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1098));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1099));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1100));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1101));
 		V_0 = (Exception_t*)NULL;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1102));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___numExceptionsPending;
 		V_1 = (bool)((((int32_t)L_0) > ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1103));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -8311,12 +6024,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* SWIGPendingException_Retrieve_m3
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1104));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1105));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_2 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException;
 		V_2 = (bool)((!(((RuntimeObject*)(Exception_t*)L_2) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1106));
 		bool L_3 = V_2;
 		if (!L_3)
 		{
@@ -8324,15 +6034,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* SWIGPendingException_Retrieve_m3
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1107));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1108));
 		il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		Exception_t* L_4 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException;
 		V_0 = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1109));
 		((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException = (Exception_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException), (void*)(Exception_t*)NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1110));
 		RuntimeObject* L_5 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___exceptionsLock;
 		V_3 = L_5;
 		V_4 = (bool)0;
@@ -8343,9 +6049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* SWIGPendingException_Retrieve_m3
 
 FINALLY_004b:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1115));
 					bool L_6 = V_4;
 					if (!L_6)
 					{
@@ -8354,31 +6058,22 @@ FINALLY_004b:
 				}
 				{
 					RuntimeObject* L_7 = V_3;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1116));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_7, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1116));
 				}
 
 IL_0056:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1117));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			RuntimeObject* L_8 = V_3;
-			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1111));
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_8, (&V_4), NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1111));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1112));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1113));
 			il2cpp_codegen_runtime_class_init_inline(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 			int32_t L_9 = ((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___numExceptionsPending;
 			((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___numExceptionsPending = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
-			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1114));
 			goto IL_0057;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8389,17 +6084,14 @@ IL_0056:
 
 IL_0057:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1118));
 	}
 
 IL_0058:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1119));
 	}
 
 IL_0059:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1120));
 		Exception_t* L_10 = V_0;
 		V_5 = L_10;
 		goto IL_005e;
@@ -8407,7 +6099,6 @@ IL_0059:
 
 IL_005e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1121));
 		Exception_t* L_11 = V_5;
 		return L_11;
 	}
@@ -8418,32 +6109,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGPendingException__cctor_m56978E79DDA
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException__cctor_m56978E79DDA02AF5E262DBE507FB14CB9E795BF0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGPendingException__cctor_m56978E79DDA02AF5E262DBE507FB14CB9E795BF0_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGPendingException__cctor_m56978E79DDA02AF5E262DBE507FB14CB9E795BF0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1122));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1123));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1124));
 		((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException = (Exception_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___pendingException), (void*)(Exception_t*)NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1125));
 		((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___numExceptionsPending = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1126));
 		((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___exceptionsLock = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___exceptionsLock), (void*)NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1127));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1128));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1129));
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1129));
 		((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___exceptionsLock = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_StaticFields*)il2cpp_codegen_static_fields_for(SWIGPendingException_t82C1E0B8C275723AC4C5A3E6C83B9DBACF4256CB_il2cpp_TypeInfo_var))->___exceptionsLock), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1130));
 		return;
 	}
 }
@@ -8472,13 +6150,6 @@ extern "C" char* DEFAULT_CALL ReversePInvokeWrapper_SWIGStringHelper_CreateStrin
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringHelper_SWIGRegisterStringCallback_StorageInternal_m93E039C055D42F278FC1780C4A1B11930F9F0EB4 (SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261* ___0_stringDelegate, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper_SWIGRegisterStringCallback_StorageInternal_m93E039C055D42F278FC1780C4A1B11930F9F0EB4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGStringHelper_SWIGRegisterStringCallback_StorageInternal_m93E039C055D42F278FC1780C4A1B11930F9F0EB4_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
 
 	Il2CppMethodPointer ____0_stringDelegate_marshaled = NULL;
@@ -8489,21 +6160,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringHelper_SWIGRegisterStringCallb
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98 (String_t* ___0_cString, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_cString));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1131));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1132));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1133));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1134));
 		String_t* L_0 = ___0_cString;
 		V_0 = L_0;
 		goto IL_0005;
@@ -8511,7 +6169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SWIGStringHelper_CreateString_m25C9
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1135));
 		String_t* L_1 = V_0;
 		return L_1;
 	}
@@ -8523,43 +6180,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringHelper__cctor_m635B787E13B3CD3
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper__cctor_m635B787E13B3CD3B4EBB1B561B9E6B5C806B3B2F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGStringHelper__cctor_m635B787E13B3CD3B4EBB1B561B9E6B5C806B3B2F_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGStringHelper__cctor_m635B787E13B3CD3B4EBB1B561B9E6B5C806B3B2F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1136));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1137));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1138));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1139));
 		SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261* L_0 = (SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261*)il2cpp_codegen_object_new(SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261_il2cpp_TypeInfo_var);
 		SWIGStringDelegate__ctor_mC5F68D7CA10A84812D4C8AF241FC7628F3EB0AD4(L_0, NULL, (intptr_t)((void*)SWIGStringHelper_CreateString_m25C98DCE6725AB3BCB43ADB1A556CFC910862A98_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1139));
 		((SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_StaticFields*)il2cpp_codegen_static_fields_for(SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_il2cpp_TypeInfo_var))->___stringDelegate = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_StaticFields*)il2cpp_codegen_static_fields_for(SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_il2cpp_TypeInfo_var))->___stringDelegate), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1140));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1141));
 		SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261* L_1 = ((SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_StaticFields*)il2cpp_codegen_static_fields_for(SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004_il2cpp_TypeInfo_var))->___stringDelegate;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1142));
 		SWIGStringHelper_SWIGRegisterStringCallback_StorageInternal_m93E039C055D42F278FC1780C4A1B11930F9F0EB4(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1142));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1143));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringHelper__ctor_m742C1F69A35C651EA7707D33CFDCF5C602DD81E3 (SWIGStringHelper_t47662AC3D77A20894A881C537230C8309E556004* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringHelper__ctor_m742C1F69A35C651EA7707D33CFDCF5C602DD81E3_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGStringHelper__ctor_m742C1F69A35C651EA7707D33CFDCF5C602DD81E3_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SWIGStringHelper__ctor_m742C1F69A35C651EA7707D33CFDCF5C602DD81E3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -8619,13 +6254,6 @@ IL2CPP_EXTERN_C  String_t* DelegatePInvokeWrapper_SWIGStringDelegate_tA75D6F6E57
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringDelegate__ctor_mC5F68D7CA10A84812D4C8AF241FC7628F3EB0AD4 (SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringDelegate__ctor_mC5F68D7CA10A84812D4C8AF241FC7628F3EB0AD4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGStringDelegate__ctor_mC5F68D7CA10A84812D4C8AF241FC7628F3EB0AD4_RuntimeMethod_var);
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
 	__this->___m_target = ___0_object;
@@ -8662,13 +6290,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringDelegate__ctor_mC5F68D7CA10A84
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SWIGStringDelegate_Invoke_m3D7648538AED70BD4A337DCE5D52E729A9F061C7 (SWIGStringDelegate_tA75D6F6E5765D9464CB42CC82F834CACB639C261* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIGStringDelegate_Invoke_m3D7648538AED70BD4A337DCE5D52E729A9F061C7_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SWIGStringDelegate_Invoke_m3D7648538AED70BD4A337DCE5D52E729A9F061C7_RuntimeMethod_var);
 	typedef String_t* (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_message, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
@@ -8690,42 +6311,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger__ctor_m64B63C3ABE700A1F9BA9
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m25F4DF4DE179873ACDA24F3C314479DDBCCC0BDD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mF9FFC2B904A1557D19170DC33F3A326E18082C76_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF997183A3F3A4ECD79ABEBF865E954B8D93D73FE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850_RuntimeMethod_var);
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_parentLogger));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger__ctor_m64B63C3ABE700A1F9BA947FFEE57605EBB4C5850_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1144));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1145));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1146));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1147));
 		List_1_tF997183A3F3A4ECD79ABEBF865E954B8D93D73FE* L_0 = (List_1_tF997183A3F3A4ECD79ABEBF865E954B8D93D73FE*)il2cpp_codegen_object_new(List_1_tF997183A3F3A4ECD79ABEBF865E954B8D93D73FE_il2cpp_TypeInfo_var);
 		List_1__ctor_mF9FFC2B904A1557D19170DC33F3A326E18082C76(L_0, List_1__ctor_mF9FFC2B904A1557D19170DC33F3A326E18082C76_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1147));
 		__this->___children = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___children), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1148));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1149));
 		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = FirebaseApp_get_LogLevel_m64B54EED8CF1B5F8EA074612CF09E58026D23603(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1149));
 		__this->___logLevel = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1150));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1151));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1151));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1152));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1153));
 		il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		RuntimeObject* L_2 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___lockObject;
 		V_0 = L_2;
@@ -8737,9 +6339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger__ctor_m64B63C3ABE700A1F9BA9
 
 FINALLY_006c:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1169));
 					bool L_3 = V_1;
 					if (!L_3)
 					{
@@ -8748,31 +6348,22 @@ FINALLY_006c:
 				}
 				{
 					RuntimeObject* L_4 = V_0;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1170));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_4, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1170));
 				}
 
 IL_0076:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1171));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				RuntimeObject* L_5 = V_0;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1154));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_5, (&V_1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1154));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1155));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1156));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_6 = ___0_parentLogger;
 				V_2 = (bool)((((RuntimeObject*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)L_6) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1157));
 				bool L_7 = V_2;
 				if (!L_7)
 				{
@@ -8780,43 +6371,29 @@ IL_0076:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1158));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1159));
 				il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 				List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9* L_8 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___roots;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1160));
 				WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E* L_9 = (WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E*)il2cpp_codegen_object_new(WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_il2cpp_TypeInfo_var);
 				WeakReference__ctor_m8085B7DB432EB4B11F2FFDB543B3F1D05D4A8D99(L_9, __this, (bool)0, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1160));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1161));
 				NullCheck(L_8);
 				List_1_Add_m25F4DF4DE179873ACDA24F3C314479DDBCCC0BDD_inline(L_8, L_9, List_1_Add_m25F4DF4DE179873ACDA24F3C314479DDBCCC0BDD_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1161));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1162));
 				goto IL_0069_1;
 			}
 
 IL_004e_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1163));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1164));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_10 = ___0_parentLogger;
 				__this->___parent = L_10;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___parent), (void*)L_10);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1165));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_11 = __this->___parent;
 				NullCheck(L_11);
 				List_1_tF997183A3F3A4ECD79ABEBF865E954B8D93D73FE* L_12 = L_11->___children;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1166));
 				NullCheck(L_12);
 				List_1_Add_m14B2E734DD76D26DE4F1C83D6EB500BE400DE1B9_inline(L_12, __this, List_1_Add_m14B2E734DD76D26DE4F1C83D6EB500BE400DE1B9_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1166));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1167));
 			}
 
 IL_0069_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1168));
 				goto IL_0077;
 			}
 		}
@@ -8828,7 +6405,6 @@ IL_0069_1:
 
 IL_0077:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1172));
 		return;
 	}
 }
@@ -8840,18 +6416,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_Finalize_mC6B7BF79CCD9A25BA
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m09AD6CD926C4F2DA33BBE74EA133F80BC1F7AC46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m6E9D8FDB919C8320D80F7597574FFE9F6D0D88D3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m06D75C6DF4330942019CEC566CE1F77C08873BB9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_tA83B52184A87D2620C50E08DA33C36DB659322C7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m7F0C23273635833A4D046A87EF3F3731C79A22B7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_m7E4BCB7F0652FE05E987A6B3EF0D4F35AA775886_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_mE10942BAF61F258192575C0A6044AADF5D08BB5B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_Finalize_mC6B7BF79CCD9A25BA7A164BB1531360A4068036D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger_Finalize_mC6B7BF79CCD9A25BA7A164BB1531360A4068036D_RuntimeMethod_var);
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -8860,13 +6431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_Finalize_mC6B7BF79CCD9A25BA
 	WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E* V_4 = NULL;
 	ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* V_5 = NULL;
 	bool V_6 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_4), (&V_5));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger_Finalize_mC6B7BF79CCD9A25BA7A164BB1531360A4068036D_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1173));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1174));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1175));
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
@@ -8874,20 +6439,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_Finalize_mC6B7BF79CCD9A25BA
 
 FINALLY_00ac:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1214));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1215));
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1215));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1176));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1177));
 				il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 				RuntimeObject* L_0 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___lockObject;
 				V_0 = L_0;
@@ -8899,9 +6457,7 @@ FINALLY_00ac:
 
 FINALLY_009f_1:
 					{
-						STORE_TRY_ID(methodExecutionContext, 0);
 						{
-							CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1210));
 							bool L_1 = V_1;
 							if (!L_1)
 							{
@@ -8910,31 +6466,22 @@ FINALLY_009f_1:
 						}
 						{
 							RuntimeObject* L_2 = V_0;
-							STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1211));
 							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
-							CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1211));
 						}
 
 IL_00a9_1:
 						{
-							CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1212));
 							return;
 						}
 					}
 				});
 				try
 				{
-					STORE_TRY_ID(methodExecutionContext, 1);
 					{
 						RuntimeObject* L_3 = V_0;
-						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1178));
 						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1178));
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1179));
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1180));
 						ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_4 = __this->___parent;
 						V_2 = (bool)((((RuntimeObject*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1181));
 						bool L_5 = V_2;
 						if (!L_5)
 						{
@@ -8942,16 +6489,11 @@ IL_00a9_1:
 						}
 					}
 					{
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1182));
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1183));
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1184));
 						il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 						List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9* L_6 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___roots;
-						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1185));
 						NullCheck(L_6);
 						Enumerator_tA83B52184A87D2620C50E08DA33C36DB659322C7 L_7;
 						L_7 = List_1_GetEnumerator_m7F0C23273635833A4D046A87EF3F3731C79A22B7(L_6, List_1_GetEnumerator_m7F0C23273635833A4D046A87EF3F3731C79A22B7_RuntimeMethod_var);
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1185));
 						V_3 = L_7;
 					}
 					{
@@ -8960,43 +6502,28 @@ IL_00a9_1:
 
 FINALLY_006f_2:
 							{
-								STORE_TRY_ID(methodExecutionContext, 1);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1201));
-								STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1202));
 								Enumerator_Dispose_m09AD6CD926C4F2DA33BBE74EA133F80BC1F7AC46((&V_3), Enumerator_Dispose_m09AD6CD926C4F2DA33BBE74EA133F80BC1F7AC46_RuntimeMethod_var);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1202));
 								return;
 							}
 						});
 						try
 						{
-							STORE_TRY_ID(methodExecutionContext, 2);
 							{
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1186));
 								goto IL_0064_3;
 							}
 
 IL_0030_3:
 							{
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1187));
-								STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1188));
 								WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E* L_8;
 								L_8 = Enumerator_get_Current_m06D75C6DF4330942019CEC566CE1F77C08873BB9_inline((&V_3), Enumerator_get_Current_m06D75C6DF4330942019CEC566CE1F77C08873BB9_RuntimeMethod_var);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1188));
 								V_4 = L_8;
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1189));
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1190));
 								WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E* L_9 = V_4;
-								STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1191));
 								il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
 								RuntimeObject* L_10;
 								L_10 = FirebaseApp_WeakReferenceGetTarget_mAB5F81C0BDA5646B09C74C86C67D11DB88FCFC2D(L_9, NULL);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1191));
 								V_5 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)IsInstClass((RuntimeObject*)L_10, ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var));
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1192));
 								ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_11 = V_5;
 								V_6 = (bool)((((RuntimeObject*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)L_11) == ((RuntimeObject*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)__this))? 1 : 0);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1193));
 								bool L_12 = V_6;
 								if (!L_12)
 								{
@@ -9004,32 +6531,23 @@ IL_0030_3:
 								}
 							}
 							{
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1194));
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1195));
 								il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 								List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9* L_13 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___roots;
 								WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E* L_14 = V_4;
-								STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1196));
 								NullCheck(L_13);
 								bool L_15;
 								L_15 = List_1_Remove_mE10942BAF61F258192575C0A6044AADF5D08BB5B(L_13, L_14, List_1_Remove_mE10942BAF61F258192575C0A6044AADF5D08BB5B_RuntimeMethod_var);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1196));
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1197));
 								goto IL_006d_3;
 							}
 
 IL_0063_3:
 							{
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1198));
 							}
 
 IL_0064_3:
 							{
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1199));
-								STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1200));
 								bool L_16;
 								L_16 = Enumerator_MoveNext_m6E9D8FDB919C8320D80F7597574FFE9F6D0D88D3((&V_3), Enumerator_MoveNext_m6E9D8FDB919C8320D80F7597574FFE9F6D0D88D3_RuntimeMethod_var);
-								CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1200));
 								if (L_16)
 								{
 									goto IL_0030_3;
@@ -9049,31 +6567,23 @@ IL_006d_3:
 
 IL_007e_2:
 					{
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1203));
 						goto IL_009c_2;
 					}
 
 IL_0081_2:
 					{
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1204));
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1205));
 						ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_17 = __this->___parent;
 						NullCheck(L_17);
 						List_1_tF997183A3F3A4ECD79ABEBF865E954B8D93D73FE* L_18 = L_17->___children;
-						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1206));
 						NullCheck(L_18);
 						bool L_19;
 						L_19 = List_1_Remove_m7E4BCB7F0652FE05E987A6B3EF0D4F35AA775886(L_18, __this, List_1_Remove_m7E4BCB7F0652FE05E987A6B3EF0D4F35AA775886_RuntimeMethod_var);
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1206));
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1207));
 						__this->___parent = (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___parent), (void*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)NULL);
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1208));
 					}
 
 IL_009c_2:
 					{
-						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1209));
 						goto IL_00aa_1;
 					}
 				}
@@ -9085,7 +6595,6 @@ IL_009c_2:
 
 IL_00aa_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1213));
 				goto IL_00b4;
 			}
 		}
@@ -9097,7 +6606,6 @@ IL_00aa_1:
 
 IL_00b4:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1216));
 		return;
 	}
 }
@@ -9106,13 +6614,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ModuleLogger_get_Level_m0AEE610FD8DA9
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LogLevel_tB190ABBB8AA2A85C2334AB7D3667BC6AA3763ECF_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_get_Level_m0AEE610FD8DA98169E801F769BC567589DE54791_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger_get_Level_m0AEE610FD8DA98169E801F769BC567589DE54791_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
@@ -9120,17 +6624,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ModuleLogger_get_Level_m0AEE610FD8DA9
 	int32_t V_4 = 0;
 	bool V_5 = false;
 	int32_t V_6 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger_get_Level_m0AEE610FD8DA98169E801F769BC567589DE54791_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1217));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1218));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1219));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1220));
 		int32_t L_0 = __this->___logLevel;
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1221));
 		il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		RuntimeObject* L_1 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___lockObject;
 		V_1 = L_1;
@@ -9142,9 +6638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ModuleLogger_get_Level_m0AEE610FD8DA9
 
 FINALLY_0047:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1234));
 					bool L_2 = V_2;
 					if (!L_2)
 					{
@@ -9153,31 +6647,22 @@ FINALLY_0047:
 				}
 				{
 					RuntimeObject* L_3 = V_1;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1235));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_3, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1235));
 				}
 
 IL_0051:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1236));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				RuntimeObject* L_4 = V_1;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1222));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1222));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1223));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1224));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_5 = __this->___parent;
 				V_3 = (bool)((!(((RuntimeObject*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1225));
 				bool L_6 = V_3;
 				if (!L_6)
 				{
@@ -9185,20 +6670,14 @@ IL_0051:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1226));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1227));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_7 = __this->___parent;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1228));
 				NullCheck(L_7);
 				int32_t L_8;
 				L_8 = ModuleLogger_get_Level_m0AEE610FD8DA98169E801F769BC567589DE54791(L_7, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1228));
 				V_4 = L_8;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1229));
 				int32_t L_9 = V_4;
 				int32_t L_10 = V_0;
 				V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1230));
 				bool L_11 = V_5;
 				if (!L_11)
 				{
@@ -9206,19 +6685,16 @@ IL_0051:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1231));
 				int32_t L_12 = V_4;
 				V_0 = L_12;
 			}
 
 IL_0043_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1232));
 			}
 
 IL_0044_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1233));
 				goto IL_0052;
 			}
 		}
@@ -9230,7 +6706,6 @@ IL_0044_1:
 
 IL_0052:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1237));
 		int32_t L_13 = V_0;
 		V_6 = L_13;
 		goto IL_0057;
@@ -9238,32 +6713,15 @@ IL_0052:
 
 IL_0057:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1238));
 		int32_t L_14 = V_6;
 		return L_14;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_set_Level_m1DC27F4C2EC96609D9050B868F8B71467AB4A916 (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_set_Level_m1DC27F4C2EC96609D9050B868F8B71467AB4A916_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger_set_Level_m1DC27F4C2EC96609D9050B868F8B71467AB4A916_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger_set_Level_m1DC27F4C2EC96609D9050B868F8B71467AB4A916_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1239));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1240));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1241));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1242));
 		int32_t L_0 = ___0_value;
 		__this->___logLevel = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1243));
 		return;
 	}
 }
@@ -9272,27 +6730,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ModuleLogger_get_Tag_m9F24A98C3F04C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A_RuntimeMethod_var);
 	bool V_0 = false;
 	String_t* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
 	bool V_4 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1244));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1245));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1246));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1247));
 		String_t* L_0 = __this->___tag;
 		V_0 = (bool)((!(((RuntimeObject*)(String_t*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1248));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -9300,7 +6748,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ModuleLogger_get_Tag_m9F24A98C3F04C
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1249));
 		String_t* L_2 = __this->___tag;
 		V_1 = L_2;
 		goto IL_0058;
@@ -9308,7 +6755,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ModuleLogger_get_Tag_m9F24A98C3F04C
 
 IL_0017:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1250));
 		il2cpp_codegen_runtime_class_init_inline(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		RuntimeObject* L_3 = ((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___lockObject;
 		V_2 = L_3;
@@ -9320,9 +6766,7 @@ IL_0017:
 
 FINALLY_0049:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1258));
 					bool L_4 = V_3;
 					if (!L_4)
 					{
@@ -9331,31 +6775,22 @@ FINALLY_0049:
 				}
 				{
 					RuntimeObject* L_5 = V_2;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1259));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_5, NULL);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1259));
 				}
 
 IL_0053:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1260));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				RuntimeObject* L_6 = V_2;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1251));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_6, (&V_3), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1251));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1252));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1253));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_7 = __this->___parent;
 				V_4 = (bool)((!(((RuntimeObject*)(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97*)L_7) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1254));
 				bool L_8 = V_4;
 				if (!L_8)
 				{
@@ -9363,20 +6798,16 @@ IL_0053:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1255));
 				ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_9 = __this->___parent;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1256));
 				NullCheck(L_9);
 				String_t* L_10;
 				L_10 = ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A(L_9, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1256));
 				V_1 = L_10;
 				goto IL_0058;
 			}
 
 IL_0046_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1257));
 				goto IL_0054;
 			}
 		}
@@ -9388,40 +6819,22 @@ IL_0046_1:
 
 IL_0054:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1261));
 		V_1 = (String_t*)NULL;
 		goto IL_0058;
 	}
 
 IL_0058:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1262));
 		String_t* L_11 = V_1;
 		return L_11;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F (ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger_set_Tag_m93B4431C1F0B91205E7CC9B7EDACACA49C97E42F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1263));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1264));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1265));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1266));
 		String_t* L_0 = ___0_value;
 		__this->___tag = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tag), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1267));
 		return;
 	}
 }
@@ -9431,20 +6844,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_LogMessage_m568B4169C0A0FA2
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LogUtil_t004F911611FD3AE3085F5CA8159A798C3CA16D39_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1FB9018D8BFC0FACF068B1067EF9E96C35FED1FE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_level), (&___1_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger_LogMessage_m568B4169C0A0FA2CA4FF4E6E076870F07131DA3B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1268));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1269));
 	String_t* G_B3_0 = NULL;
 	int32_t G_B3_1 = 0;
 	String_t* G_B2_0 = NULL;
@@ -9453,15 +6858,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_LogMessage_m568B4169C0A0FA2
 	String_t* G_B4_1 = NULL;
 	int32_t G_B4_2 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1270));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1271));
 		int32_t L_0 = ___0_level;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1272));
 		int32_t L_1;
 		L_1 = ModuleLogger_get_Level_m0AEE610FD8DA98169E801F769BC567589DE54791(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1272));
 		V_0 = (bool)((((int32_t)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1273));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -9469,13 +6869,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_LogMessage_m568B4169C0A0FA2
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1274));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1275));
 		int32_t L_3 = ___0_level;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1276));
 		String_t* L_4;
 		L_4 = ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1276));
 		if (L_4)
 		{
 			G_B3_0 = _stringLiteral1FB9018D8BFC0FACF068B1067EF9E96C35FED1FE;
@@ -9494,14 +6890,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger_LogMessage_m568B4169C0A0FA2
 
 IL_0027:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1277));
 		String_t* L_5;
 		L_5 = ModuleLogger_get_Tag_m9F24A98C3F04C66363235C1C339DF611D346378A(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1277));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1278));
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1278));
 		G_B4_0 = L_6;
 		G_B4_1 = G_B3_0;
 		G_B4_2 = G_B3_1;
@@ -9510,20 +6902,14 @@ IL_0027:
 IL_0037:
 	{
 		String_t* L_7 = ___1_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1279));
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(G_B4_1, G_B4_0, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1279));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1280));
 		il2cpp_codegen_runtime_class_init_inline(LogUtil_t004F911611FD3AE3085F5CA8159A798C3CA16D39_il2cpp_TypeInfo_var);
 		LogUtil_LogMessage_mA96CEACFEBC0F9B08D7F282A4E55685F6E803A49(G_B4_2, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1280));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1281));
 	}
 
 IL_0044:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1282));
 		return;
 	}
 }
@@ -9534,28 +6920,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger__cctor_m8AC0D8D50EA2CCDE411
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m63EDE1AEAA4A4FCAB6203FB0C262E31C79D24F9E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger__cctor_m8AC0D8D50EA2CCDE411F55CE6281B6DCB8C19FB3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleLogger__cctor_m8AC0D8D50EA2CCDE411F55CE6281B6DCB8C19FB3_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleLogger__cctor_m8AC0D8D50EA2CCDE411F55CE6281B6DCB8C19FB3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1283));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 1284));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1285));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1286));
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1286));
 		((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___lockObject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___lockObject), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1287));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1288));
 		List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9* L_1 = (List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9*)il2cpp_codegen_object_new(List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9_il2cpp_TypeInfo_var);
 		List_1__ctor_m63EDE1AEAA4A4FCAB6203FB0C262E31C79D24F9E(L_1, List_1__ctor_m63EDE1AEAA4A4FCAB6203FB0C262E31C79D24F9E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 1288));
 		((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___roots = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_StaticFields*)il2cpp_codegen_static_fields_for(ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97_il2cpp_TypeInfo_var))->___roots), (void*)L_1);
 		return;
@@ -9566,20 +6941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleLogger__cctor_m8AC0D8D50EA2CCDE411
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_inline (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* __this, ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_set_Logger_m19C7C11321677C2320D1D066CCBBB6F37B3E00F3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 92));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 93));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 94));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = ___0_value;
 		__this->___U3CLoggerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLoggerU3Ek__BackingField), (void*)L_0);
@@ -9588,33 +6950,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FirebaseStorage_set_Logger_m
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_inline (FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseStorage_t7EA8F2DF39C94049CBEAACE46B64E4034C3E90C1_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseStorage_get_Logger_m47F60ACF93F3A0BA8C660B1B566F61BBF30BE391_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 89));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 90));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 91));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = __this->___U3CLoggerU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		intptr_t L_0 = __this->____handle;
 		return L_0;
@@ -9622,14 +6964,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t HandleRef_get_Handle_m20
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		intptr_t L_0 = ___0_value1;
 		intptr_t L_1 = ___1_value2;
@@ -9638,14 +6972,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		intptr_t L_0 = ___0_value1;
 		intptr_t L_1 = ___1_value2;
@@ -9654,14 +6980,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____stringLength;
 		return L_0;
@@ -9669,39 +6987,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppOptions_get_StorageBucket_m93625BCEE94287655E69A3ED0D145E64F66278A4_inline (AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppOptions_get_StorageBucket_m93625BCEE94287655E69A3ED0D145E64F66278A4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppOptions_get_StorageBucket_m93625BCEE94287655E69A3ED0D145E64F66278A4_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_App + 16));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_App + 17));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_App + 18));
 		String_t* L_0 = __this->___U3CStorageBucketU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_inline (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_set_ErrorCode_m6252AC128D59813BFE4A3D32CB7B8B58C0B8065B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 402));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 403));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 404));
 		int32_t L_0 = ___0_value;
 		__this->___U3CErrorCodeU3Ek__BackingField = L_0;
 		return;
@@ -9709,20 +7002,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageException_set_ErrorCo
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_inline (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_set_HttpResultCode_mE727F5DB24D69C862ADE21D0F3B6323FD90FF427_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 405));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 406));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 407));
 		int32_t L_0 = ___0_value;
 		__this->___U3CHttpResultCodeU3Ek__BackingField = L_0;
 		return;
@@ -9730,14 +7010,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageException_set_HttpRes
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline (AggregateException_t51B6205846DFB356B94452702201DD239D44422F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_0 = __this->___m_innerExceptions;
 		return L_0;
@@ -9745,39 +7017,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t0A3EEA206F0
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline (FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_App + 63));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_App + 64));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_App + 65));
 		int32_t L_0 = __this->___U3CErrorCodeU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_inline (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_set_Internal_m402EC4C5726D40B65F6AC62A605948E4FCBF72A2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 544));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 545));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 546));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0 = ___0_value;
 		__this->___U3CInternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInternalU3Ek__BackingField), (void*)L_0);
@@ -9786,20 +7033,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageReference_set_Interna
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_inline (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_set_Logger_mFA430AB56C163BC0EC0F4F69201D440BBF590789_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 481));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 482));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 483));
 		ModuleLogger_tC5B741625D75BCB0E54696B8C07E113E68C93D97* L_0 = ___0_value;
 		__this->___U3CLoggerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLoggerU3Ek__BackingField), (void*)L_0);
@@ -9808,39 +7042,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StorageReference_set_Logger_
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_inline (StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageReference_t33F43540227458BFCCC2980F614D70CD663C9019_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageReference_get_Internal_mDD8DFC623E89E8F540685EC02832A1B31DD4B7AF_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 541));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 542));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 543));
 		StorageReferenceInternal_t400CD0CF0BE9054DBAF3387B5D281C915B1234A4* L_0 = __this->___U3CInternalU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_inline (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_set_IsSuccessful_m6745734841831C728391AD0884789B32AFD46BE5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 584));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 585));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 586));
 		bool L_0 = ___0_value;
 		__this->___U3CIsSuccessfulU3Ek__BackingField = L_0;
 		return;
@@ -9848,39 +7057,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsS
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_inline (StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StorageException_t2C4F7564B605D4419E4F5DAC4101AD6D0B24713F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StorageException_get_ErrorCode_m367DAF20516775D0457A43901E20C3F07E923844_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 399));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 400));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 401));
 		int32_t L_0 = __this->___U3CErrorCodeU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_inline (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_set_IsCanceled_m4CD7735AB8B5CB74137EF0C026F854F4FCF22320_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 590));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 591));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 592));
 		bool L_0 = ___0_value;
 		__this->___U3CIsCanceledU3Ek__BackingField = L_0;
 		return;
@@ -9888,20 +7072,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_IsC
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_inline (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, Exception_t* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_set_Exception_mC2F34AFE1565AE4297EB84CC650E22FC05ECB7E4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 596));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 597));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 598));
 		Exception_t* L_0 = ___0_value;
 		__this->___U3CExceptionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField), (void*)L_0);
@@ -9910,27 +7081,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskCompletionStatus_set_Exc
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Exception_t* TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_inline (TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionStatus_tA6609640E3C3D785798D771F7A05F6158B841E25_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TaskCompletionStatus_get_Exception_mDAE26D6ECD96B64AA20E1E1810E4638E514B8323_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 593));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsFirebase_Storage + 594));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsFirebase_Storage + 595));
 		Exception_t* L_0 = __this->___U3CExceptionU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Tuple_2_get_Item2_m6187D5A19F4D9ABB605FA79438E8FF046B3E87B9_gshared_inline (Tuple_2_t4C008A7250814D299FE7EEB8E2B55BBF7C7FFFA0* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->___m_Item2;
 		return L_0;
@@ -9938,8 +7095,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Tuple_2_get_Item2_m6187D5
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Tuple_2_get_Item1_m29C7D667D414FBDB4D501405856896906393FF38_gshared_inline (Tuple_2_t4C008A7250814D299FE7EEB8E2B55BBF7C7FFFA0* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->___m_Item1;
 		return L_0;
@@ -9947,8 +7102,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Tuple_2_get_Item1_m29C7D6
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_0 = __this->____task;
 		return L_0;
@@ -9958,8 +7111,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____version;
 		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -9989,14 +7140,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 IL_0034:
 	{
 		RuntimeObject* L_9 = ___0_item;
-		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->____current;
 		return L_0;

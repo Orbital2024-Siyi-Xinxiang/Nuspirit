@@ -11,7 +11,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>UnityIntegrationSpecific</string>
+    <string>Orbital</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
@@ -33,17 +33,17 @@
         <string>google</string>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.googleusercontent.apps.1037292088990-hvpd4iiip0b5frt33p1hb64mk1k8lk4d</string>
+          <string>com.googleusercontent.apps.1037292088990-9d2c95hqakf9174ag9bjvdhmh3okhbq7</string>
         </array>
       </dict>
       <dict>
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>Chopeland.Orbital.SpecificVenues</string>
+        <string>Chopeland.Orbital</string>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>Chopeland.Orbital.SpecificVenues</string>
+          <string>Chopeland.Orbital</string>
         </array>
       </dict>
     </array>
