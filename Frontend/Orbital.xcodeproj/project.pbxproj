@@ -311,11 +311,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */,
 				B51EC6ED2C366A360087CCB7 /* Pods_UnityFramework.framework in Frameworks */,
 				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
-				B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
 				B5110A6B2BFC762100208FC4 /* FirebaseFirestore in Frameworks */,
 				B5110A572BFC762100208FC4 /* FirebaseAnalyticsSwift in Frameworks */,
@@ -1187,10 +1187,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Orbital/Orbital.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
-				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1215,6 +1217,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Emma's Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Orbital/Orbital-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1232,10 +1235,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Orbital/Orbital.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
-				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 95G7HLQQGC;
 				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -1261,6 +1266,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Emma's Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Orbital/Orbital-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
