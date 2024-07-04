@@ -56,7 +56,6 @@
 		B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */; };
 		B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6B12C3668660087CCB7 /* UnityFramework.framework */; };
 		B51EC6B32C3668660087CCB7 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6B12C3668660087CCB7 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B51EC6ED2C366A360087CCB7 /* Pods_UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; };
 		B52F7BE62BFF87A200DA131C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */; };
 		B52F7BF22BFF8D8100DA131C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF12BFF8D8100DA131C /* GoogleSignIn */; };
 		B52F7BF42BFF8D8100DA131C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B52F7BF32BFF8D8100DA131C /* GoogleSignInSwift */; };
@@ -64,6 +63,10 @@
 		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
 		B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */; };
+		B5581A6E2C368A1800F22508 /* Pods_UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; };
+		B5581A6F2C368A1800F22508 /* Pods_UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5581A702C368A1900F22508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
+		B5581A712C368A1900F22508 /* UIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
@@ -97,7 +100,6 @@
 		B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3F2C1BF436009AFE94 /* Contact.swift */; };
 		B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */; };
 		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
-		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
 		B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */; };
@@ -165,6 +167,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B51EC6B32C3668660087CCB7 /* UnityFramework.framework in Embed Frameworks */,
+				B5581A712C368A1900F22508 /* UIKit.framework in Embed Frameworks */,
+				B5581A6F2C368A1800F22508 /* Pods_UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,8 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */,
-				B51EC6ED2C366A360087CCB7 /* Pods_UnityFramework.framework in Frameworks */,
-				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
+				B5581A6E2C368A1800F22508 /* Pods_UnityFramework.framework in Frameworks */,
+				B5581A702C368A1900F22508 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -1106,7 +1110,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1167,7 +1171,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = NO;
