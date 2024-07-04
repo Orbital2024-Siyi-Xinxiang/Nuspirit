@@ -63,8 +63,6 @@
 		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
 		B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */; };
-		B5581A6E2C368A1800F22508 /* Pods_UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; };
-		B5581A6F2C368A1800F22508 /* Pods_UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5581A722C3692A000F22508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
@@ -166,7 +164,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B51EC6B32C3668660087CCB7 /* UnityFramework.framework in Embed Frameworks */,
-				B5581A6F2C368A1800F22508 /* Pods_UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,9 +310,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */,
 				B5581A722C3692A000F22508 /* UIKit.framework in Frameworks */,
-				B5581A6E2C368A1800F22508 /* Pods_UnityFramework.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -357,6 +352,7 @@
 				B5110A6D2BFC762100208FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				B5110A7D2BFC762100208FC4 /* FirebaseMessaging in Frameworks */,
 				B5110A792BFC762100208FC4 /* FirebaseInstallations in Frameworks */,
+				B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
