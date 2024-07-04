@@ -8,6 +8,6 @@
       location = "group:UnityScenes/iosBuild/Unity-iPhone.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Frontend/Orbital.xcodeproj">
+      location = "container:Frontend/Orbital.xcodeproj">
    </FileRef>
 </Workspace>
