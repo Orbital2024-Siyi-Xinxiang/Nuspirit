@@ -12,6 +12,14 @@ struct SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B;
 struct String_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_InternalAPIEngineBridge_001[];
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_SetBatchBoneTransformsAABBArray_m9B4A4BB2BEC170611C73E39B840F424714A71FD1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E_RuntimeMethod_var;
 
 struct SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28;
 
@@ -205,70 +213,206 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DiscreteEvaluationAttributeUtilities_Co
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___1_aabb, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_spriteRenderer), (&___1_aabb));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 3));
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_1 = ___1_aabb;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 4));
 		SpriteRendererDataAccessExtensions_SetLocalAABB_m8B19B86E4F16CAC28378B0678A6780EE67376672(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 5));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_src, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_spriteRenderer), (&___1_src));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 6));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 7));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 8));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 9));
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_1 = ___1_src;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 10));
 		SpriteRendererDataAccessExtensions_SetDeformableBuffer_m3A000487D1EB0983E49CF13E13AA532787AF2E28(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 10));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 11));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, intptr_t ___1_buffer, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE_RuntimeMethod_var);
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_spriteRenderer), (&___1_buffer));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 12));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 13));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 14));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 15));
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		intptr_t L_1 = ___1_buffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 16));
 		bool L_2;
 		L_2 = SpriteRendererDataAccessExtensions_IsUsingDeformableBuffer_mB9F50B728381CFCF86D43EFC6765EC3EE650637C(L_0, L_1, NULL);
-		return L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 16));
+		V_0 = L_2;
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 17));
+		bool L_3 = V_0;
+		return L_3;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3 (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* ___0_spriteRenderers, NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 ___1_buffers, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_bufferSizes, NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 ___3_bounds, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_spriteRenderers), (&___1_buffers), (&___2_bufferSizes), (&___3_bounds));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 18));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 19));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 20));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 21));
 		SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_0 = ___0_spriteRenderers;
 		NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 L_1 = ___1_buffers;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2 = ___2_bufferSizes;
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_3 = ___3_bounds;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 22));
 		SpriteRendererDataAccessExtensions_SetBatchDeformableBufferAndLocalAABBArray_mAFC805600B21985D7497C5F0C172E5601F04903D(L_0, L_1, L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 22));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 23));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchBoneTransformsAABBArray_m9B4A4BB2BEC170611C73E39B840F424714A71FD1 (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* ___0_spriteRenderers, NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 ___1_buffers, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_bufferSizes, NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 ___3_bounds, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_SetBatchBoneTransformsAABBArray_m9B4A4BB2BEC170611C73E39B840F424714A71FD1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_SetBatchBoneTransformsAABBArray_m9B4A4BB2BEC170611C73E39B840F424714A71FD1_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_spriteRenderers), (&___1_buffers), (&___2_bufferSizes), (&___3_bounds));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_SetBatchBoneTransformsAABBArray_m9B4A4BB2BEC170611C73E39B840F424714A71FD1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 24));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 25));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 26));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 27));
 		SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_0 = ___0_spriteRenderers;
 		NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 L_1 = ___1_buffers;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2 = ___2_bufferSizes;
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_3 = ___3_bounds;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 28));
 		SpriteRendererDataAccessExtensions_SetBoneTransformsArray_mE5A944273985FA2B25730C203A5B499441CA57ED(L_0, L_1, L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 28));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 29));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44 (float ___0_f, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_f));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 30));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 31));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 32));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 33));
 		float L_0 = ___0_f;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 34));
 		int32_t L_1;
 		L_1 = DiscreteEvaluationAttributeUtilities_ConvertFloatToDiscreteInt_mADD1EB91441A214F69458BFF45F86E77D11A340C(L_0, NULL);
-		return L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 34));
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 35));
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148 (int32_t ___0_i, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148_RuntimeMethod_var);
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_i));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 36));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 37));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 38));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 39));
 		int32_t L_0 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 40));
 		float L_1;
 		L_1 = DiscreteEvaluationAttributeUtilities_ConvertDiscreteIntToFloat_m6A22CA1A2232C185F6E10865530FFEDA68E28D7F(L_0, NULL);
-		return L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 40));
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InternalAPIEngineBridge_001 + 41));
+		float L_2 = V_0;
+		return L_2;
 	}
 }
 #ifdef __clang__

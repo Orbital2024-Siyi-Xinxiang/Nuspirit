@@ -27,14 +27,14 @@ FOUNDATION_EXPORT const unsigned char UnityFrameworkVersionString[];
 #pragma once
 
 // important app life-cycle events
-__attribute__ ((visibility("hidden")))
+__attribute__ ((visibility("default")))
 @protocol UnityFrameworkListener<NSObject>
 @optional
 - (void)unityDidUnload:(NSNotification*)notification;
 - (void)unityDidQuit:(NSNotification*)notification;
 @end
 
-__attribute__ ((visibility("hidden")))
+__attribute__ ((visibility("default")))
 @interface UnityFramework : NSObject
 {
 }
