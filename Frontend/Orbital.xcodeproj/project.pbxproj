@@ -65,8 +65,7 @@
 		B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */; };
 		B5581A6E2C368A1800F22508 /* Pods_UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; };
 		B5581A6F2C368A1800F22508 /* Pods_UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B51EC6EC2C366A360087CCB7 /* Pods_UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B5581A702C368A1900F22508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
-		B5581A712C368A1900F22508 /* UIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5581A722C3692A000F22508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
@@ -167,7 +166,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B51EC6B32C3668660087CCB7 /* UnityFramework.framework in Embed Frameworks */,
-				B5581A712C368A1900F22508 /* UIKit.framework in Embed Frameworks */,
 				B5581A6F2C368A1800F22508 /* Pods_UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -316,8 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51EC6B22C3668660087CCB7 /* UnityFramework.framework in Frameworks */,
+				B5581A722C3692A000F22508 /* UIKit.framework in Frameworks */,
 				B5581A6E2C368A1800F22508 /* Pods_UnityFramework.framework in Frameworks */,
-				B5581A702C368A1900F22508 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -1094,7 +1092,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/RecaptchaInterop";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1161,7 +1159,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/RecaptchaInterop";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
