@@ -11,6 +11,7 @@ target 'UnityFramework' do
   pod 'Firebase/RemoteConfig', '10.25.0'
   pod 'Firebase/Storage', '10.25.0'
 end
+
 target 'Unity-iPhone' do
 end
 use_frameworks! :linkage => :static
