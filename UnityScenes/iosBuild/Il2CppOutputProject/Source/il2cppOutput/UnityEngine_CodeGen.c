@@ -7,7 +7,6 @@
 
 
 
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_CodeGenModule = 
 {
@@ -23,7 +22,7 @@ const Il2CppCodeGenModule g_UnityEngine_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnityEngine,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

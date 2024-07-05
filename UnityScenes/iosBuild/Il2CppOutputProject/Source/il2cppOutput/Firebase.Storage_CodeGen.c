@@ -392,7 +392,7 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[15] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x06000022, { 0, 9 } },
+	{ 0x06000022, { 0, 8 } },
 };
 extern const uint32_t g_rgctx_O_t1E49572E6A76DD3E35CA9659C590BC4CDC7EEA5A;
 extern const uint32_t g_rgctx_Task_1_t5E751B90539C0BE398CC68DB49873D4017A98B72;
@@ -402,8 +402,7 @@ extern const uint32_t g_rgctx_TaskCompletionSource_1_t4D004953D8BEBD3ECBCFA2DFC2
 extern const uint32_t g_rgctx_TaskCompletionSource_1_SetResult_m6D0FC74B5C50403FC191FDC36C06697F8323D815;
 extern const uint32_t g_rgctx_TaskCompletionSource_1_SetCanceled_mDE32B1BF3CB1F6E856FB8B42F67AEF0EF21FE135;
 extern const uint32_t g_rgctx_TaskCompletionSource_1_SetException_m4B12C575AF8DFD1F03CFB9B0EA4647F95ADFFDB2;
-extern const uint32_t g_rgctx_O_t1E49572E6A76DD3E35CA9659C590BC4CDC7EEA5A;
-static const Il2CppRGCTXDefinition s_rgctxValues[9] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[8] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_O_t1E49572E6A76DD3E35CA9659C590BC4CDC7EEA5A },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t5E751B90539C0BE398CC68DB49873D4017A98B72 },
@@ -413,9 +412,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[9] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskCompletionSource_1_SetResult_m6D0FC74B5C50403FC191FDC36C06697F8323D815 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskCompletionSource_1_SetCanceled_mDE32B1BF3CB1F6E856FB8B42F67AEF0EF21FE135 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskCompletionSource_1_SetException_m4B12C575AF8DFD1F03CFB9B0EA4647F95ADFFDB2 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_O_t1E49572E6A76DD3E35CA9659C590BC4CDC7EEA5A },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationFirebase_Storage;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Storage_CodeGenModule;
 const Il2CppCodeGenModule g_Firebase_Storage_CodeGenModule = 
 {
@@ -429,9 +426,9 @@ const Il2CppCodeGenModule g_Firebase_Storage_CodeGenModule =
 	s_reversePInvokeIndices,
 	1,
 	s_rgctxIndices,
-	9,
+	8,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationFirebase_Storage,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

@@ -34,7 +34,6 @@ static const int32_t s_InvokerIndices[7] =
 	10133,
 	10272,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_InternalAPIEngineBridge_001;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_InternalAPIEngineBridge_001_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_InternalAPIEngineBridge_001_CodeGenModule = 
 {
@@ -50,7 +49,7 @@ const Il2CppCodeGenModule g_Unity_InternalAPIEngineBridge_001_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnity_InternalAPIEngineBridge_001,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

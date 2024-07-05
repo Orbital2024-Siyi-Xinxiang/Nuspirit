@@ -389,44 +389,35 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
-	{ 0x02000018, { 4, 4 } },
-	{ 0x02000019, { 8, 7 } },
-	{ 0x06000008, { 0, 4 } },
+	{ 0x02000018, { 3, 3 } },
+	{ 0x02000019, { 6, 5 } },
+	{ 0x06000008, { 0, 3 } },
 };
 extern const uint32_t g_rgctx_T_tC927C7E1A508BB0ED244CC4ADF544BDD5F1CB1D5;
 extern const uint32_t g_rgctx_FunctionPointer_1_t9104E86B4429A44F4430F1344600A055BC17E03C;
 extern const uint32_t g_rgctx_FunctionPointer_1__ctor_m64D42256EAD6BB2C3CA12D51523190DFCC247B9B;
-extern const uint32_t g_rgctx_FunctionPointer_1_t9104E86B4429A44F4430F1344600A055BC17E03C;
 extern const uint32_t g_rgctx_FunctionPointer_1_t0666C00338C9DBCF4C31C1B1326ED43190DE0F38;
 extern const uint32_t g_rgctx_Marshal_GetDelegateForFunctionPointer_TisT_t9E37FA2330E4A886B47120B954AAD7D9426B8783_mEA087B9A129C0AB2D73817CF23AC8B3121787C3C;
-extern const uint32_t g_rgctx_T_t9E37FA2330E4A886B47120B954AAD7D9426B8783;
 extern const uint32_t g_rgctx_T_t9E37FA2330E4A886B47120B954AAD7D9426B8783;
 extern const uint32_t g_rgctx_SharedStatic_1_tB929B3357445BF112CFE0DA3DACBBEEAC8749C22;
 extern const uint32_t g_rgctx_Unsafe_AsRef_TisT_t00138E42C19C859C1D3054928656D969BBE3897E_mEE7B8BA32C960B9A36668D1A55993B6596E7B11A;
 extern const uint32_t g_rgctx_TU26_t2BAB852B77A3158AA79460B09AA152D26C15E11E;
-extern const uint32_t g_rgctx_T_t00138E42C19C859C1D3054928656D969BBE3897E;
 extern const uint32_t g_rgctx_UnsafeUtility_SizeOf_TisT_t00138E42C19C859C1D3054928656D969BBE3897E_m2A4C0FE147D438A6E478B7DE3EFD0FA088D18428;
 extern const uint32_t g_rgctx_SharedStatic_1__ctor_m8C24499DF79560507F2AFDB01D8E2DFE40C5A86C;
-extern const uint32_t g_rgctx_SharedStatic_1_tB929B3357445BF112CFE0DA3DACBBEEAC8749C22;
-static const Il2CppRGCTXDefinition s_rgctxValues[15] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[11] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tC927C7E1A508BB0ED244CC4ADF544BDD5F1CB1D5 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_FunctionPointer_1_t9104E86B4429A44F4430F1344600A055BC17E03C },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_FunctionPointer_1__ctor_m64D42256EAD6BB2C3CA12D51523190DFCC247B9B },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_FunctionPointer_1_t9104E86B4429A44F4430F1344600A055BC17E03C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_FunctionPointer_1_t0666C00338C9DBCF4C31C1B1326ED43190DE0F38 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Marshal_GetDelegateForFunctionPointer_TisT_t9E37FA2330E4A886B47120B954AAD7D9426B8783_mEA087B9A129C0AB2D73817CF23AC8B3121787C3C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t9E37FA2330E4A886B47120B954AAD7D9426B8783 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t9E37FA2330E4A886B47120B954AAD7D9426B8783 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SharedStatic_1_tB929B3357445BF112CFE0DA3DACBBEEAC8749C22 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Unsafe_AsRef_TisT_t00138E42C19C859C1D3054928656D969BBE3897E_mEE7B8BA32C960B9A36668D1A55993B6596E7B11A },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_t2BAB852B77A3158AA79460B09AA152D26C15E11E },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t00138E42C19C859C1D3054928656D969BBE3897E },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnsafeUtility_SizeOf_TisT_t00138E42C19C859C1D3054928656D969BBE3897E_m2A4C0FE147D438A6E478B7DE3EFD0FA088D18428 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SharedStatic_1__ctor_m8C24499DF79560507F2AFDB01D8E2DFE40C5A86C },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_SharedStatic_1_tB929B3357445BF112CFE0DA3DACBBEEAC8749C22 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Burst;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Burst_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Burst_CodeGenModule = 
 {
@@ -440,9 +431,9 @@ const Il2CppCodeGenModule g_Unity_Burst_CodeGenModule =
 	s_reversePInvokeIndices,
 	3,
 	s_rgctxIndices,
-	15,
+	11,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnity_Burst,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

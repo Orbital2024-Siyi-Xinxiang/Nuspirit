@@ -1952,21 +1952,18 @@ static const int32_t s_InvokerIndices[616] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x02000055, { 2, 2 } },
-	{ 0x06000185, { 0, 2 } },
+	{ 0x02000055, { 1, 2 } },
+	{ 0x06000185, { 0, 1 } },
 };
-extern const uint32_t g_rgctx_T_t4ED147A484F30BA57FB0C026DFEBE1D86DE03839;
 extern const uint32_t g_rgctx_T_t4ED147A484F30BA57FB0C026DFEBE1D86DE03839;
 extern const uint32_t g_rgctx_SubsystemWithProvider_3__ctor_mBCCA842D3B6337B0C0249FA31BAD07FEEDDCD282;
 extern const uint32_t g_rgctx_SubsystemWithProvider_3_tE441BC70DE15DAB5ED911029EA7A28ED547C92F9;
-static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t4ED147A484F30BA57FB0C026DFEBE1D86DE03839 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t4ED147A484F30BA57FB0C026DFEBE1D86DE03839 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemWithProvider_3__ctor_mBCCA842D3B6337B0C0249FA31BAD07FEEDDCD282 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SubsystemWithProvider_3_tE441BC70DE15DAB5ED911029EA7A28ED547C92F9 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_AdaptivePerformance;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenModule = 
 {
@@ -1980,9 +1977,9 @@ const Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenModule =
 	NULL,
 	2,
 	s_rgctxIndices,
-	4,
+	3,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnity_AdaptivePerformance,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

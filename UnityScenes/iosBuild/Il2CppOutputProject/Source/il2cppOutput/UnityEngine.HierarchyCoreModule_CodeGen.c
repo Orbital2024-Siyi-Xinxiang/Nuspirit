@@ -841,24 +841,21 @@ static const int32_t s_InvokerIndices[242] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
-	{ 0x0200000B, { 0, 10 } },
-	{ 0x06000050, { 10, 4 } },
-	{ 0x060000C1, { 14, 12 } },
+	{ 0x0200000B, { 0, 8 } },
+	{ 0x06000050, { 8, 3 } },
+	{ 0x060000C1, { 11, 9 } },
 };
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_t41BC5EECBBB9C1DA26A5A1C8AFF8C6C00523D3DA;
 extern const uint32_t g_rgctx_T_t4E8426E01F3560F4572B33158F0BE04FDA7C6B23;
 extern const uint32_t g_rgctx_UnsafeUtility_AsRef_TisT_t4E8426E01F3560F4572B33158F0BE04FDA7C6B23_mF03AB2390D9A4C116D5F290E605A2E280FC4E217;
 extern const uint32_t g_rgctx_TU26_tA9054EE04E8F4D2F3DA3AEFB57AEDCC634CD2B5B;
-extern const uint32_t g_rgctx_T_t4E8426E01F3560F4572B33158F0BE04FDA7C6B23;
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_Equals_m9A58498D1840320E1FFC288B4A9DFACD6D1BA1FC;
-extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_t41BC5EECBBB9C1DA26A5A1C8AFF8C6C00523D3DA;
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_t41BC5EECBBB9C1DA26A5A1C8AFF8C6C00523D3DA;
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_GetValue_m998875E20ED4BEC554E7941C7DA11A6EE5A7B0E6;
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_SetValue_m170D7EACB5BD6D787AA277644503454F473BFED6;
 extern const uint32_t g_rgctx_UnsafeUtility_SizeOf_TisT_tFFA05A5FDF883E002FE3079CBBF477AF446841A1_m7FA5DFD9E2C74078391C94C5B1BFC570BADD72D6;
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_t28A1049AE1D7724640EB8BB746B9901840387403;
 extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1__ctor_m7568EF8DC30D2C2ECC7B9E5F8391E99A0EC3070F;
-extern const uint32_t g_rgctx_HierarchyPropertyUnmanaged_1_t28A1049AE1D7724640EB8BB746B9901840387403;
 extern const uint32_t g_rgctx_IEnumerable_1_t8612489969C1D1C7CCF269C73B6019AAA2A73746;
 extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_m57E377F5F9CFA73DF1FEE3F8FE4C5D6C1BB99010;
 extern const uint32_t g_rgctx_IEnumerator_1_t3A70EC462149467EF2C21615B0F7CD98D55D9817;
@@ -868,25 +865,19 @@ extern const uint32_t g_rgctx_Func_2_t749796035C3FF846915024CB5E7E6AC9DA727202;
 extern const uint32_t g_rgctx_Func_2_Invoke_mD5B1D2D30B36CD768B644A35CE3F0466E739F882;
 extern const uint32_t g_rgctx_TU5BU5D_tE6D0DD8F2770CEAF1176362CA7055592C6293DF5;
 extern const uint32_t g_rgctx_TU5BU5D_tE6D0DD8F2770CEAF1176362CA7055592C6293DF5;
-extern const uint32_t g_rgctx_TU5BU5D_tE6D0DD8F2770CEAF1176362CA7055592C6293DF5;
-extern const uint32_t g_rgctx_IEnumerator_1_t3A70EC462149467EF2C21615B0F7CD98D55D9817;
-extern const uint32_t g_rgctx_T_t05BBECD276BBCC62C106EE88DFB2778BB64235A3;
-static const Il2CppRGCTXDefinition s_rgctxValues[26] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[20] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_t41BC5EECBBB9C1DA26A5A1C8AFF8C6C00523D3DA },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t4E8426E01F3560F4572B33158F0BE04FDA7C6B23 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnsafeUtility_AsRef_TisT_t4E8426E01F3560F4572B33158F0BE04FDA7C6B23_mF03AB2390D9A4C116D5F290E605A2E280FC4E217 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_tA9054EE04E8F4D2F3DA3AEFB57AEDCC634CD2B5B },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t4E8426E01F3560F4572B33158F0BE04FDA7C6B23 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_Equals_m9A58498D1840320E1FFC288B4A9DFACD6D1BA1FC },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_t41BC5EECBBB9C1DA26A5A1C8AFF8C6C00523D3DA },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_t41BC5EECBBB9C1DA26A5A1C8AFF8C6C00523D3DA },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_GetValue_m998875E20ED4BEC554E7941C7DA11A6EE5A7B0E6 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_SetValue_m170D7EACB5BD6D787AA277644503454F473BFED6 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnsafeUtility_SizeOf_TisT_tFFA05A5FDF883E002FE3079CBBF477AF446841A1_m7FA5DFD9E2C74078391C94C5B1BFC570BADD72D6 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_t28A1049AE1D7724640EB8BB746B9901840387403 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1__ctor_m7568EF8DC30D2C2ECC7B9E5F8391E99A0EC3070F },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_HierarchyPropertyUnmanaged_1_t28A1049AE1D7724640EB8BB746B9901840387403 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerable_1_t8612489969C1D1C7CCF269C73B6019AAA2A73746 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerable_1_GetEnumerator_m57E377F5F9CFA73DF1FEE3F8FE4C5D6C1BB99010 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerator_1_t3A70EC462149467EF2C21615B0F7CD98D55D9817 },
@@ -896,11 +887,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[26] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2_Invoke_mD5B1D2D30B36CD768B644A35CE3F0466E739F882 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tE6D0DD8F2770CEAF1176362CA7055592C6293DF5 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tE6D0DD8F2770CEAF1176362CA7055592C6293DF5 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TU5BU5D_tE6D0DD8F2770CEAF1176362CA7055592C6293DF5 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_IEnumerator_1_t3A70EC462149467EF2C21615B0F7CD98D55D9817 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t05BBECD276BBCC62C106EE88DFB2778BB64235A3 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_HierarchyCoreModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_HierarchyCoreModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_HierarchyCoreModule_CodeGenModule = 
 {
@@ -914,9 +901,9 @@ const Il2CppCodeGenModule g_UnityEngine_HierarchyCoreModule_CodeGenModule =
 	NULL,
 	3,
 	s_rgctxIndices,
-	26,
+	20,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnityEngine_HierarchyCoreModule,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

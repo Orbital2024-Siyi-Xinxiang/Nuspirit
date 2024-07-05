@@ -27,7 +27,6 @@ static const Il2CppRGCTXDefinition s_rgctxValues[1] =
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_tD3468B6794620312ED0506E36D2969131D852330 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Burst_Unsafe;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule = 
 {
@@ -43,7 +42,7 @@ const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule =
 	s_rgctxIndices,
 	1,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnity_Burst_Unsafe,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
