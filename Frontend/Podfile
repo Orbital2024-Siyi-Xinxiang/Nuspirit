@@ -1,11 +1,15 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '17.0'
+platform :ios, '13.0'
+use_frameworks!
 
 target 'Orbital' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+
   inherit! :search_paths
   # Pods for Orbital
+
+  pod 'Firebase'
+  pod 'Firebase/RemoteConfig'
 
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
@@ -15,8 +19,19 @@ target 'Orbital' do
   pod 'Firebase/InAppMessaging'
   pod 'Firebase/Firestore'
   pod 'Firebase/RemoteConfig'
+  pod 'FirebaseRemoteConfigInterop'
   pod 'Firebase/Storage'
-  pod 'Firebase'
+  pod 'GTMSessionFetcher'
+  pod 'GTMSessionFetcher/Core'
+  
+  pod 'FirebaseUI'
+  pod 'FirebaseUI/Google'
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Email'
+  pod 'FirebaseUI/Anonymous'
+  pod 'FirebaseUI/OAuth'
+
+  pod 'GoogleSignIn'
 
   target 'OrbitalTests' do
     inherit! :search_paths
@@ -27,4 +42,50 @@ target 'Orbital' do
     # Pods for testing
   end
 
+end
+
+post_install do |installer|
+  applicationTargets = [
+      'Orbital',
+  ]
+  libraryTargets = [
+      'UnityFramework',
+  ]
+
+  embedded_targets = installer.aggregate_targets.select { |aggregate_target|
+      libraryTargets.include? aggregate_target.name
+  }
+  embedded_pod_targets = embedded_targets.flat_map { |embedded_target| embedded_target.pod_targets }
+  host_targets = installer.aggregate_targets.select { |aggregate_target|
+      applicationTargets.include? aggregate_target.name
+  }
+
+  # We only want to remove pods from Application targets, not libraries
+  host_targets.each do |host_target|
+      host_target.xcconfigs.each do |config_name, config_file|
+          host_target.pod_targets.each do |pod_target|
+              if embedded_pod_targets.include? pod_target
+                  pod_target.specs.each do |spec|
+                      if spec.attributes_hash['ios'] != nil
+                          frameworkPaths = spec.attributes_hash['ios']['vendored_frameworks']
+                          else
+                          frameworkPaths = spec.attributes_hash['vendored_frameworks']
+                      end
+                      if frameworkPaths != nil
+                          frameworkNames = Array(frameworkPaths).map(&:to_s).map do |filename|
+                              extension = File.extname filename
+                              File.basename filename, extension
+                          end
+                          frameworkNames.each do |name|
+                              puts "Removing #{name} from OTHER_LDFLAGS of target #{host_target.name}"
+                              config_file.frameworks.delete(name)
+                          end
+                      end
+                  end
+              end
+          end
+          xcconfig_path = host_target.xcconfig_path(config_name)
+          config_file.save_as(xcconfig_path)
+      end
+  end
 end
