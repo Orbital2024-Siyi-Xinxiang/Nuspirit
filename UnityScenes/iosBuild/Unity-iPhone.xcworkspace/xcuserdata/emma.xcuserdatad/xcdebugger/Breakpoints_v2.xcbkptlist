@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3BE5D8DC-FB6B-4B02-8D83-530F1FF590B4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../Orbital-Unity-App/Orbital-Unity-App/Orbital_Unity_AppApp.swift"

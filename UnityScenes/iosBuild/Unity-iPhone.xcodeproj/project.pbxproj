@@ -109,6 +109,7 @@
 		9DFA7F9D21410F2E00C2880E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
 		9E277B346B541C2D072C5489 /* IUnityGraphicsMetal.h in Headers */ = {isa = PBXBuildFile; fileRef = 894C1B251937BE1BC2B4D36C /* IUnityGraphicsMetal.h */; };
 		9E8FF6A98769FADB02FDA0F6 /* NativeCallProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 669F29711F568D39D47AACCC /* NativeCallProxy.mm */; };
+		B553CBF02C3855D20054C927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CBEF2C3855D20054C927 /* AppDelegate.swift */; };
 		B56D95902C380DDE000A1E91 /* OrbitalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D958F2C380DDE000A1E91 /* OrbitalAppApp.swift */; };
 		B56D95922C380DDE000A1E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D95912C380DDE000A1E91 /* ContentView.swift */; };
 		B56D95942C380DDF000A1E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56D95932C380DDF000A1E91 /* Assets.xcassets */; };
@@ -583,6 +584,7 @@
 		B0F046F0360DDF893A8A4FD2 /* Unity.VisualScripting.Core__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.VisualScripting.Core__2.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.VisualScripting.Core__2.cpp; sourceTree = SOURCE_ROOT; };
 		B13B5CAA12B4643FE811ED64 /* UnityEngine.UnityWebRequestModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.UnityWebRequestModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		B39436E255FF5376259080BE /* mscorlib__6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__6.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__6.cpp; sourceTree = SOURCE_ROOT; };
+		B553CBEF2C3855D20054C927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B56D958D2C380DDE000A1E91 /* OrbitalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D958F2C380DDE000A1E91 /* OrbitalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalAppApp.swift; sourceTree = "<group>"; };
 		B56D95912C380DDE000A1E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1415,6 +1417,7 @@
 			isa = PBXGroup;
 			children = (
 				B56D958F2C380DDE000A1E91 /* OrbitalAppApp.swift */,
+				B553CBEF2C3855D20054C927 /* AppDelegate.swift */,
 				B56D95912C380DDE000A1E91 /* ContentView.swift */,
 				B56D95932C380DDF000A1E91 /* Assets.xcassets */,
 				B56D95952C380DDF000A1E91 /* Preview Content */,
@@ -2031,6 +2034,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B553CBF02C3855D20054C927 /* AppDelegate.swift in Sources */,
 				B56D95922C380DDE000A1E91 /* ContentView.swift in Sources */,
 				B56D95902C380DDE000A1E91 /* OrbitalAppApp.swift in Sources */,
 			);
