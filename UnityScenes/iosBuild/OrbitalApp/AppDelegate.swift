@@ -17,5 +17,4 @@ import FirebaseEmailAuthUI
 import UIKit
 import SwiftUI
 import GoogleSignIn
-import FBSDKCoreKit
-import FBSDKLoginKit
+
