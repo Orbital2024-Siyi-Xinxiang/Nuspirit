@@ -52,6 +52,17 @@
                ReferencedContainer = "container:Orbital.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B53275B62C37E8F400757D54"
+               BuildableName = "unityTests.xctest"
+               BlueprintName = "unityTests"
+               ReferencedContainer = "container:Orbital.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

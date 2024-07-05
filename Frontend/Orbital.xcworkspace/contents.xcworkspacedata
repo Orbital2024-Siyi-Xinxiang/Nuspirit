@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:Orbital.xcodeproj">
+      location = "group:Orbital.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:Pods/Pods.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
