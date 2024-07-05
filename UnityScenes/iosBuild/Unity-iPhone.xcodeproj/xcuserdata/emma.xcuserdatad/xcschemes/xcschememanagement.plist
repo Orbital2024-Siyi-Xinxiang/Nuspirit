@@ -7,22 +7,40 @@
 		<key>GameAssembly.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>54</integer>
 		</dict>
 		<key>OrbitalApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>56</integer>
 		</dict>
 		<key>Unity-iPhone.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>53</integer>
 		</dict>
 		<key>UnityFramework.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>55</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B56D958C2C380DDE000A1E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B56D959B2C380DDF000A1E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B56D95A52C380DDF000A1E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00000000008063A1000160D3 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */; };
-		0022C961E20DF83F69924973 /* NativeCallProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CC32D7516B86AC2982EECA /* NativeCallProxy.h */; };
+		0022C961E20DF83F69924973 /* NativeCallProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CC32D7516B86AC2982EECA /* NativeCallProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01F967D36F74C7C4205C1BD6 /* lib_burst_generated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB61E49F0B27D71CDA3B02F /* lib_burst_generated.a */; };
 		0C2D4A8D8B67475E7BEB03C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD1D4B21BCDE694EF6CCF33A /* GoogleService-Info.plist */; };
 		1A8BC6645C4E9D09FC15AEA0 /* UnityNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B62D936329D31FD4C60205B /* UnityNotificationManager.h */; };
@@ -116,9 +116,10 @@
 		B56D95A12C380DDF000A1E91 /* OrbitalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D95A02C380DDF000A1E91 /* OrbitalAppTests.swift */; };
 		B56D95AB2C380DDF000A1E91 /* OrbitalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D95AA2C380DDF000A1E91 /* OrbitalAppUITests.swift */; };
 		B56D95AD2C380DDF000A1E91 /* OrbitalAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D95AC2C380DDF000A1E91 /* OrbitalAppUITestsLaunchTests.swift */; };
-		B56D95BD2C3810ED000A1E91 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25AB9D213FB47800354C27 /* UnityFramework.framework */; };
 		B56D95BE2C3810ED000A1E91 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25AB9D213FB47800354C27 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B56D95C22C3811B1000A1E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
+		B56D95C32C3815E1000A1E91 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
+		B56D95FC2C381AFE000A1E91 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25AB9D213FB47800354C27 /* UnityFramework.framework */; };
 		B58286C0E4BCADEF3F958067 /* libFirebaseCppStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34569F0D681E19892DBFA6B4 /* libFirebaseCppStorage.a */; };
 		BEE3E21D322649C83B0DD4DC /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */; };
 		C88064DCABB5774674576FB0 /* UnityNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8ED7723F5F14F525382C2 /* UnityNotificationManager.m */; };
@@ -759,7 +760,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56D95BD2C3810ED000A1E91 /* UnityFramework.framework in Frameworks */,
+				B56D95FC2C381AFE000A1E91 /* UnityFramework.framework in Frameworks */,
 				B56D95C22C3811B1000A1E91 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1741,6 +1742,7 @@
 			files = (
 				91C1EB5F348833EAD02A7E9A /* PrivacyInfo.xcprivacy in Resources */,
 				1ACB4734B754E10529AA69D1 /* GoogleService-Info.plist in Resources */,
+				B56D95C32C3815E1000A1E91 /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

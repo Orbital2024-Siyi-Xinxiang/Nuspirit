@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../Frontend/Orbital.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Orbital-Unity-App/Orbital-Unity-App.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Unity-iPhone.xcodeproj">
    </FileRef>
    <FileRef
