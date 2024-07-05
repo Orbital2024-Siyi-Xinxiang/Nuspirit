@@ -2,6 +2,8 @@ source 'https://cdn.cocoapods.org/'
 
 platform :ios, '13.0'
 
+# use_modular_headers!
+
 target 'UnityFramework' do
   pod 'Firebase/Analytics', '10.25.0'
   pod 'Firebase/Auth', '10.25.0'
@@ -12,6 +14,10 @@ target 'UnityFramework' do
   pod 'Firebase/Storage', '10.25.0'
 end
 target 'Unity-iPhone' do
+end
+
+target 'OrbitalApp' do
+
 end
 
 use_frameworks! :linkage => :static

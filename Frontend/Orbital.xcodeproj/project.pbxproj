@@ -230,7 +230,6 @@
 		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlay.swift; sourceTree = "<group>"; };
-		B56D96B12C381B7D000A1E91 /* Orbital copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Orbital copy-Info.plist"; path = "/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/Frontend/Orbital copy-Info.plist"; sourceTree = "<absolute>"; };
 		B56F74762BF62F370048447E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
@@ -420,7 +419,6 @@
 				5BC6DE072BF0A7A10031650B /* Products */,
 				B5B3E4472C01905A008799F2 /* Frameworks */,
 				49B4B7CB3C774DF14D14E207 /* Pods */,
-				B56D96B12C381B7D000A1E91 /* Orbital copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};

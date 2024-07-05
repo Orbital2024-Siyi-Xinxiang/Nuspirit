@@ -1,0 +1,6 @@
+framework module Pods_OrbitalApp {
+  umbrella header "Pods-OrbitalApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
