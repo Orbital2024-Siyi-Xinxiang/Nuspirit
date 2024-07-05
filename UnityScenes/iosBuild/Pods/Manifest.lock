@@ -965,6 +965,9 @@ PODS:
   - Firebase/Firestore (10.25.0):
     - Firebase/CoreOnly
     - FirebaseFirestore (~> 10.25.0)
+  - Firebase/InAppMessaging (10.25.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessaging (~> 10.25.0-beta)
   - Firebase/Messaging (10.25.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 10.25.0)
@@ -1030,6 +1033,13 @@ PODS:
     - "gRPC-C++ (~> 1.62.0)"
     - gRPC-Core (~> 1.62.0)
     - leveldb-library (~> 1.22)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - FirebaseInAppMessaging (10.25.0-beta):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.13)
+    - GoogleUtilities/UserDefaults (~> 7.13)
     - nanopb (< 2.30911.0, >= 2.30908.0)
   - FirebaseInstallations (10.28.0):
     - FirebaseCore (~> 10.0)
@@ -1207,6 +1217,7 @@ DEPENDENCIES:
   - Firebase/Auth (= 10.25.0)
   - Firebase/Core (= 10.25.0)
   - Firebase/Firestore (= 10.25.0)
+  - Firebase/InAppMessaging (= 10.25.0)
   - Firebase/Messaging (= 10.25.0)
   - Firebase/RemoteConfig (= 10.25.0)
   - Firebase/Storage (= 10.25.0)
@@ -1226,6 +1237,7 @@ SPEC REPOS:
     - FirebaseCoreInternal
     - FirebaseFirestore
     - FirebaseFirestoreInternal
+    - FirebaseInAppMessaging
     - FirebaseInstallations
     - FirebaseMessaging
     - FirebaseRemoteConfig
@@ -1257,6 +1269,7 @@ SPEC CHECKSUMS:
   FirebaseCoreInternal: 58d07f1362fddeb0feb6a857d1d1d1c5e558e698
   FirebaseFirestore: 977ccc27a3caa5d68279f209c3b0450f85b9dc5f
   FirebaseFirestoreInternal: 04b8afa77b4e5b84e86ab5ad985193e9573239fa
+  FirebaseInAppMessaging: 7baba5c4610a12f0cadd6da00e1b3c90495f105b
   FirebaseInstallations: 60c1d3bc1beef809fd1ad1189a8057a040c59f2e
   FirebaseMessaging: 88950ba9485052891ebe26f6c43a52bb62248952
   FirebaseRemoteConfig: 9f3935cefecd85d5b312192117f444957de24a75
@@ -1274,6 +1287,6 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: d87130742ceaa8b6e5f17509246dbae43f667edd
+PODFILE CHECKSUM: eb327e4c60cfb4524f9161573cc8d21859575908
 
 COCOAPODS: 1.15.2
