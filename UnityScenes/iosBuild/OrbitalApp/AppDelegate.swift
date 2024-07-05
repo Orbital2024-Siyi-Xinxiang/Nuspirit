@@ -13,7 +13,8 @@ import UserNotifications
 import UIKit
 import SwiftUI
 import GoogleSignIn
-//import FirebaseInAppMessagingSwift
+import FirebaseMessaging
+
 
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {

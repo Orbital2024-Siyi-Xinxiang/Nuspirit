@@ -111,7 +111,6 @@
 		9E8FF6A98769FADB02FDA0F6 /* NativeCallProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 669F29711F568D39D47AACCC /* NativeCallProxy.mm */; };
 		B553CBF02C3855D20054C927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CBEF2C3855D20054C927 /* AppDelegate.swift */; };
 		B553CBFF2C3863760054C927 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CBFE2C3863760054C927 /* LandingView.swift */; };
-		B553CC032C3866E60054C927 /* Pods_UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4A263B6FF8C304D3F076ED6 /* Pods_UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B56D95902C380DDE000A1E91 /* OrbitalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D958F2C380DDE000A1E91 /* OrbitalAppApp.swift */; };
 		B56D95922C380DDE000A1E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D95912C380DDE000A1E91 /* ContentView.swift */; };
 		B56D95942C380DDF000A1E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56D95932C380DDF000A1E91 /* Assets.xcassets */; };
@@ -227,7 +226,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B56D95BE2C3810ED000A1E91 /* UnityFramework.framework in Embed Frameworks */,
-				B553CC032C3866E60054C927 /* Pods_UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3134,7 +3132,7 @@
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3195,7 +3193,7 @@
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3256,7 +3254,7 @@
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3316,7 +3314,7 @@
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
