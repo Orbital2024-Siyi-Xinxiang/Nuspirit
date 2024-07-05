@@ -12,19 +12,19 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#if SWIFT_PACKAGE
-  @_exported import FirebaseInAppMessagingInternal
-
-  // This is a trick to force generate a `FirebaseInAppMessaging-Swift.h`
-  // header that re-exports `FirebaseInAppMessagingInternal` for Objective-C
-  // clients. It is important for the below code to reference an In App
-  // Messaging symbol defined in Objective-C as that will import the symbol's
-  // module (`FirebaseInAppMessagingInternal`) in the generated header. This
-  // allows Objective-C clients to import In App Messaging's Objective-C API
-  // using `@import FirebaseInAppMessaging;`. This API is not needed for Swift
-  // clients and is therefore unavailable in a Swift context.
-  @available(*, unavailable)
-  @objc public extension InAppMessaging {
-    static var __no_op: () -> Void { {} }
-  }
-#endif // SWIFT_PACKAGE
+//#if SWIFT_PACKAGE
+//  @_exported import FirebaseInAppMessagingInternal
+//
+//  // This is a trick to force generate a `FirebaseInAppMessaging-Swift.h`
+//  // header that re-exports `FirebaseInAppMessagingInternal` for Objective-C
+//  // clients. It is important for the below code to reference an In App
+//  // Messaging symbol defined in Objective-C as that will import the symbol's
+//  // module (`FirebaseInAppMessagingInternal`) in the generated header. This
+//  // allows Objective-C clients to import In App Messaging's Objective-C API
+//  // using `@import FirebaseInAppMessaging;`. This API is not needed for Swift
+//  // clients and is therefore unavailable in a Swift context.
+//  @available(*, unavailable)
+//  @objc public extension InAppMessaging {
+//    static var __no_op: () -> Void { {} }
+//  }
+//#endif // SWIFT_PACKAGE
