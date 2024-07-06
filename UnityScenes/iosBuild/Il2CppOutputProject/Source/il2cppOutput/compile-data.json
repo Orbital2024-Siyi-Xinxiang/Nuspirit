@@ -29,13 +29,13 @@
       "TestingOption": 0
     },
     "Statistics": {
-      "StatsOutputDir": "/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput"
+      "StatsOutputDir": "/Users/emma/Desktop/Repos/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput"
     },
     "Assembly": [],
     "Directory": [],
     "ExtraTypesFile": [],
-    "Generatedcppdir": "/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput",
-    "SymbolsFolder": "/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput/Symbols",
+    "Generatedcppdir": "/Users/emma/Desktop/Repos/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput",
+    "SymbolsFolder": "/Users/emma/Desktop/Repos/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput/Symbols",
     "DebugAssemblyName": [],
     "DebugEnableAttach": false,
     "EnableDotMemory": false,
@@ -63,7 +63,7 @@
     "Emscripten": {},
     "Platform": "iOS",
     "Architecture": "arm64",
-    "Outputpath": "/Users/emma/Library/Developer/Xcode/DerivedData/Unity-iPhone-fkipcokmxlwlgmayhezgemrbqllg/Build/Products/Debug-iphoneos/libGameAssembly.a",
+    "Outputpath": "/Users/emma/Library/Developer/Xcode/DerivedData/Unity-iPhone-aynqbqwaftnjhtcnxoravesjvnef/Build/Products/Debug-iphoneos/libGameAssembly.a",
     "DontDeployBaselib": false,
     "Verbose": false,
     "Forcerebuild": false,
@@ -92,12 +92,12 @@
     "WriteBarrierValidation": false,
     "EnableReload": false,
     "GoogleBenchmark": false,
-    "Cachedirectory": "/Users/emma/Library/Developer/Xcode/DerivedData/Unity-iPhone-fkipcokmxlwlgmayhezgemrbqllg/Build/Intermediates.noindex/Unity-iPhone.build/Debug-iphoneos/artifacts/arm64",
+    "Cachedirectory": "/Users/emma/Library/Developer/Xcode/DerivedData/Unity-iPhone-aynqbqwaftnjhtcnxoravesjvnef/Build/Intermediates.noindex/Unity-iPhone.build/Debug-iphoneos/artifacts/arm64",
     "ProfilerReport": true,
-    "ProfilerOutputFile": "/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput/profile.json",
+    "ProfilerOutputFile": "/Users/emma/Desktop/Repos/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput/profile.json",
     "PrintCommandLine": true,
     "StaticLibIl2Cpp": true,
-    "DataFolder": "/Users/emma/Desktop/Repos/Orbital2024/Monorepo/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput/Data",
+    "DataFolder": "/Users/emma/Desktop/Repos/Nuspirit/UnityScenes/iosBuild/Il2CppOutputProject/Source/il2cppOutput/Data",
     "Jobs": 12
   },
   "ConvertToCpp": false,

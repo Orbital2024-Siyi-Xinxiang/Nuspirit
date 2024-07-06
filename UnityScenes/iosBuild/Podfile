@@ -11,14 +11,13 @@ target 'UnityFramework' do
   pod 'Firebase/Firestore', '10.25.0'
   pod 'Firebase/Messaging', '10.25.0'
   pod 'Firebase/RemoteConfig', '10.25.0'
+  pod 'Firebase/InAppMessaging'
   pod 'Firebase/Storage', '10.25.0'
 end
 target 'Unity-iPhone' do
 end
 
 target 'OrbitalApp' do
-  pod 'Firebase/Messaging', '10.25.0'
-  pod 'Firebase/InAppMessaging', '10.25.0'
 end
 
 use_frameworks! :linkage => :static

@@ -1217,7 +1217,7 @@ DEPENDENCIES:
   - Firebase/Auth (= 10.25.0)
   - Firebase/Core (= 10.25.0)
   - Firebase/Firestore (= 10.25.0)
-  - Firebase/InAppMessaging (= 10.25.0)
+  - Firebase/InAppMessaging
   - Firebase/Messaging (= 10.25.0)
   - Firebase/RemoteConfig (= 10.25.0)
   - Firebase/Storage (= 10.25.0)
@@ -1287,6 +1287,6 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: eb327e4c60cfb4524f9161573cc8d21859575908
+PODFILE CHECKSUM: 81d1c14632c5a99b53e1bc3f5a94024164275e4a
 
 COCOAPODS: 1.15.2
