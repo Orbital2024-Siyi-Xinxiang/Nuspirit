@@ -31,6 +31,13 @@ struct BuildingView: View {
             fetchVenueDetails()
             NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
             startTimer()
+            if let url = URL(string: "unityApp://") {
+                if UIApplication.shared.canOpenURL(url) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                } else {
+                    print("Cannot open url of app 'unityApp'")
+                }
+            }
 //            Unity.shared.show()
 //            Unity.shared.sendMessage(
 //                "SceneLoader",
