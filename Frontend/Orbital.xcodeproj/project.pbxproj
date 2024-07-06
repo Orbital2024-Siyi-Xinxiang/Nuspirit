@@ -89,6 +89,7 @@
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
+		B5A4D4382C39CB4C001DF24A /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5ECE16F2C38029E00E679E7 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A372C1BEDE3009AFE94 /* EditUserProfile.swift */; };
 		B5B05A3A2C1BEE5E009AFE94 /* SystemSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */; };
 		B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */; };
@@ -161,6 +162,20 @@
 			remoteInfo = Orbital;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5A4D4392C39CB4C001DF24A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B5A4D4382C39CB4C001DF24A /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A6F7E28643A4401060FEC6B /* Pods-unity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity.release.xcconfig"; path = "Target Support Files/Pods-unity/Pods-unity.release.xcconfig"; sourceTree = "<group>"; };
@@ -643,6 +658,7 @@
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
+				B5A4D4392C39CB4C001DF24A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1125,6 +1141,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-fvisibility=hidden";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1185,6 +1202,7 @@
 				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-fvisibility=hidden";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -1224,9 +1242,9 @@
 				MERGED_BINARY_TYPE = none;
 				OTHER_CFLAGS = "-fvisibility=hidden";
 				OTHER_LDFLAGS = "-ObjC";
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital.Backup;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1271,9 +1289,9 @@
 				MERGED_BINARY_TYPE = none;
 				OTHER_CFLAGS = "-fvisibility=hidden";
 				OTHER_LDFLAGS = "-ObjC";
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital.Backup;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
