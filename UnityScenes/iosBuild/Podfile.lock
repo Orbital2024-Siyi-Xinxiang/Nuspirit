@@ -954,9 +954,6 @@ PODS:
   - BoringSSL-GRPC/Interface (0.0.32)
   - Firebase/Analytics (10.25.0):
     - Firebase/Core
-  - Firebase/Auth (10.25.0):
-    - Firebase/CoreOnly
-    - FirebaseAuth (~> 10.25.0)
   - Firebase/Core (10.25.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 10.25.0)
@@ -965,17 +962,12 @@ PODS:
   - Firebase/Firestore (10.25.0):
     - Firebase/CoreOnly
     - FirebaseFirestore (~> 10.25.0)
-  - Firebase/InAppMessaging (10.25.0):
-    - Firebase/CoreOnly
-    - FirebaseInAppMessaging (~> 10.25.0-beta)
   - Firebase/Messaging (10.25.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 10.25.0)
   - Firebase/Storage (10.25.0):
     - Firebase/CoreOnly
     - FirebaseStorage (~> 10.25.0)
-  - FirebaseABTesting (10.28.0):
-    - FirebaseCore (~> 10.0)
   - FirebaseAnalytics (10.25.0):
     - FirebaseAnalytics/AdIdSupport (= 10.25.0)
     - FirebaseCore (~> 10.0)
@@ -995,13 +987,6 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
   - FirebaseAppCheckInterop (10.28.0)
-  - FirebaseAuth (10.25.0):
-    - FirebaseAppCheckInterop (~> 10.17)
-    - FirebaseCore (~> 10.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
-    - GoogleUtilities/Environment (~> 7.8)
-    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
-    - RecaptchaInterop (~> 100.0)
   - FirebaseAuthInterop (10.28.0)
   - FirebaseCore (10.25.0):
     - FirebaseCoreInternal (~> 10.0)
@@ -1030,13 +1015,6 @@ PODS:
     - "gRPC-C++ (~> 1.62.0)"
     - gRPC-Core (~> 1.62.0)
     - leveldb-library (~> 1.22)
-    - nanopb (< 2.30911.0, >= 2.30908.0)
-  - FirebaseInAppMessaging (10.25.0-beta):
-    - FirebaseABTesting (~> 10.0)
-    - FirebaseCore (~> 10.0)
-    - FirebaseInstallations (~> 10.0)
-    - GoogleUtilities/Environment (~> 7.13)
-    - GoogleUtilities/UserDefaults (~> 7.13)
     - nanopb (< 2.30911.0, >= 2.30908.0)
   - FirebaseInstallations (10.28.0):
     - FirebaseCore (~> 10.0)
@@ -1214,14 +1192,11 @@ PODS:
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
   - PromisesObjC (2.4.0)
-  - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
   - Firebase/Analytics (= 10.25.0)
-  - Firebase/Auth (= 10.25.0)
   - Firebase/Core (= 10.25.0)
   - Firebase/Firestore (= 10.25.0)
-  - Firebase/InAppMessaging
   - Firebase/Messaging (= 10.25.0)
   - Firebase/Storage (= 10.25.0)
   - GoogleUtilities
@@ -1231,17 +1206,14 @@ SPEC REPOS:
     - abseil
     - BoringSSL-GRPC
     - Firebase
-    - FirebaseABTesting
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
-    - FirebaseAuth
     - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseCoreExtension
     - FirebaseCoreInternal
     - FirebaseFirestore
     - FirebaseFirestoreInternal
-    - FirebaseInAppMessaging
     - FirebaseInstallations
     - FirebaseMessaging
     - FirebaseSharedSwift
@@ -1255,23 +1227,19 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
-    - RecaptchaInterop
 
 SPEC CHECKSUMS:
   abseil: d121da9ef7e2ff4cab7666e76c5a3e0915ae08c3
   BoringSSL-GRPC: 1e2348957acdbcad360b80a264a90799984b2ba6
   Firebase: 0312a2352584f782ea56f66d91606891d4607f06
-  FirebaseABTesting: 589bc28c0ab3e5554336895a34aa262e24276665
   FirebaseAnalytics: ec00fe8b93b41dc6fe4a28784b8e51da0647a248
   FirebaseAppCheckInterop: 5315f40293191bfec04b2cfab0215760e441540a
-  FirebaseAuth: c0f93dcc570c9da2bffb576969d793e95c344fbb
   FirebaseAuthInterop: cec40cbafa1f9a6e0c3334c5c750a0cae7c97f80
   FirebaseCore: 7ec4d0484817f12c3373955bc87762d96842d483
   FirebaseCoreExtension: f63147b723e2a700fe0f34ec6fb7f358d6fe83e0
   FirebaseCoreInternal: 58d07f1362fddeb0feb6a857d1d1d1c5e558e698
   FirebaseFirestore: 977ccc27a3caa5d68279f209c3b0450f85b9dc5f
   FirebaseFirestoreInternal: 04b8afa77b4e5b84e86ab5ad985193e9573239fa
-  FirebaseInAppMessaging: 7baba5c4610a12f0cadd6da00e1b3c90495f105b
   FirebaseInstallations: 60c1d3bc1beef809fd1ad1189a8057a040c59f2e
   FirebaseMessaging: 88950ba9485052891ebe26f6c43a52bb62248952
   FirebaseSharedSwift: 48de4aec81a6b79bb30404e5e6db43ea74848fed
@@ -1285,8 +1253,7 @@ SPEC CHECKSUMS:
   leveldb-library: e8eadf9008a61f9e1dde3978c086d2b6d9b9dc28
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: d00ef5ab1fd13ba095a885d48bb1f551276f22fa
+PODFILE CHECKSUM: f3eede86a4ec82121c9b216db1a4e2e6fa56ee4d
 
 COCOAPODS: 1.15.2
