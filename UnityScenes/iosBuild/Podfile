@@ -10,9 +10,9 @@ target 'UnityFramework' do
   pod 'Firebase/Core', '10.25.0'
   pod 'Firebase/Firestore', '10.25.0'
   pod 'Firebase/Messaging', '10.25.0'
-  pod 'Firebase/RemoteConfig', '10.25.0'
   pod 'Firebase/InAppMessaging'
   pod 'Firebase/Storage', '10.25.0'
+  pod 'GoogleUtilities'
 end
 target 'Unity-iPhone' do
 end
