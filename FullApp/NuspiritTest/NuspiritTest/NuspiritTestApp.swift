@@ -1,6 +1,6 @@
 //
-//  NuspiritApp.swift
-//  Nuspirit
+//  NuspiritTestApp.swift
+//  NuspiritTest
 //
 //  Created by Xu Siyi on 7/7/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NuspiritApp: App {
+struct NuspiritTestApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
