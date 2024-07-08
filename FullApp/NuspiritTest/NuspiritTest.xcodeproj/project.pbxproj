@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B54C70FB2C3A5942001F7D30 /* NuspiritTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C70FA2C3A5942001F7D30 /* NuspiritTestApp.swift */; };
-		B54C70FD2C3A5942001F7D30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C70FC2C3A5942001F7D30 /* ContentView.swift */; };
+		B54C70FB2C3A5942001F7D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C70FA2C3A5942001F7D30 /* AppDelegate.swift */; };
+		B54C70FD2C3A5942001F7D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C70FC2C3A5942001F7D30 /* ViewController.swift */; };
 		B54C70FF2C3A5944001F7D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54C70FE2C3A5944001F7D30 /* Assets.xcassets */; };
 		B54C71022C3A5944001F7D30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54C71012C3A5944001F7D30 /* Preview Assets.xcassets */; };
 		B54C710C2C3A5944001F7D30 /* NuspiritTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C710B2C3A5944001F7D30 /* NuspiritTestTests.swift */; };
@@ -35,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		B54C70F72C3A5942001F7D30 /* NuspiritTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuspiritTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B54C70FA2C3A5942001F7D30 /* NuspiritTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuspiritTestApp.swift; sourceTree = "<group>"; };
-		B54C70FC2C3A5942001F7D30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B54C70FA2C3A5942001F7D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B54C70FC2C3A5942001F7D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B54C70FE2C3A5944001F7D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54C71012C3A5944001F7D30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B54C71072C3A5944001F7D30 /* NuspiritTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuspiritTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +94,8 @@
 		B54C70F92C3A5942001F7D30 /* NuspiritTest */ = {
 			isa = PBXGroup;
 			children = (
-				B54C70FA2C3A5942001F7D30 /* NuspiritTestApp.swift */,
-				B54C70FC2C3A5942001F7D30 /* ContentView.swift */,
+				B54C70FA2C3A5942001F7D30 /* AppDelegate.swift */,
+				B54C70FC2C3A5942001F7D30 /* ViewController.swift */,
 				B54C70FE2C3A5944001F7D30 /* Assets.xcassets */,
 				B54C71002C3A5944001F7D30 /* Preview Content */,
 			);
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54C70FD2C3A5942001F7D30 /* ContentView.swift in Sources */,
-				B54C70FB2C3A5942001F7D30 /* NuspiritTestApp.swift in Sources */,
+				B54C70FD2C3A5942001F7D30 /* ViewController.swift in Sources */,
+				B54C70FB2C3A5942001F7D30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

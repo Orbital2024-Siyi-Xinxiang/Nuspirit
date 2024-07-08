@@ -10,6 +10,7 @@
 		B54C70DB2C3A56A7001F7D30 /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C70DA2C3A56A7001F7D30 /* Unity.swift */; };
 		B54C70EB2C3A5742001F7D30 /* NativeAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C70EA2C3A5742001F7D30 /* NativeAppViewController.swift */; };
 		B54C713A2C3A7EA8001F7D30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C71392C3A7EA8001F7D30 /* ContentView.swift */; };
+		B54C71B82C3A8377001F7D30 /* NuspiritApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C71B72C3A8377001F7D30 /* NuspiritApp.swift */; };
 		B5CABC962C39DCBA00F6CEE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CABC952C39DCBA00F6CEE8 /* AppDelegate.swift */; };
 		B5CABC9A2C39DCBB00F6CEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CABC992C39DCBB00F6CEE8 /* Assets.xcassets */; };
 		B5CABC9D2C39DCBB00F6CEE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CABC9C2C39DCBB00F6CEE8 /* Preview Assets.xcassets */; };
@@ -47,6 +48,90 @@
 			remoteGlobalIDString = 7F4E05A02717216D00A2CBE4;
 			remoteInfo = GameAssembly;
 		};
+		B54C71BC2C3A8521001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70C52C3A562C001F7D30 /* Unity-iPhone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = "Unity-iPhone";
+		};
+		B54C71BE2C3A8521001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC6DE052BF0A7A10031650B;
+			remoteInfo = Orbital;
+		};
+		B54C71C42C3A8522001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BC6DE062BF0A7A10031650B;
+			remoteInfo = Orbital;
+		};
+		B54C71C62C3A8522001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BC6DE1B2BF0A7A40031650B;
+			remoteInfo = OrbitalTests;
+		};
+		B54C71C82C3A8522001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BC6DE252BF0A7A40031650B;
+			remoteInfo = OrbitalUITests;
+		};
+		B54C71CA2C3A8522001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B53275B72C37E8F400757D54;
+			remoteInfo = unityTests;
+		};
+		B54C71CC2C3A853B001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70C52C3A562C001F7D30 /* Unity-iPhone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D25AB9C213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
+		B54C71CE2C3A8545001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70C52C3A562C001F7D30 /* Unity-iPhone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4E059F2717216D00A2CBE4;
+			remoteInfo = GameAssembly;
+		};
+		B54C71DB2C3A8647001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70B62C3A561C001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BC6DE062BF0A7A10031650B;
+			remoteInfo = Orbital;
+		};
+		B54C71DD2C3A8647001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70B62C3A561C001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BC6DE1B2BF0A7A40031650B;
+			remoteInfo = OrbitalTests;
+		};
+		B54C71DF2C3A8647001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70B62C3A561C001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BC6DE252BF0A7A40031650B;
+			remoteInfo = OrbitalUITests;
+		};
+		B54C71E12C3A8647001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C70B62C3A561C001F7D30 /* Orbital.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B53275B72C37E8F400757D54;
+			remoteInfo = unityTests;
+		};
 		B5CABCA32C39DCBB00F6CEE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5CABC8A2C39DCBA00F6CEE8 /* Project object */;
@@ -71,6 +156,8 @@
 		B54C71242C3A59F4001F7D30 /* Nuspirit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nuspirit.entitlements; sourceTree = "<group>"; };
 		B54C71252C3A65AE001F7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B54C71392C3A7EA8001F7D30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B54C71B72C3A8377001F7D30 /* NuspiritApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuspiritApp.swift; sourceTree = "<group>"; };
+		B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Orbital.xcodeproj; path = /Users/emma/Desktop/Repos/Nuspirit/FullApp/Nuspirit/NativeApp/Orbital.xcodeproj; sourceTree = "<absolute>"; };
 		B5CABC922C39DCBA00F6CEE8 /* Nuspirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nuspirit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CABC952C39DCBA00F6CEE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CABC992C39DCBB00F6CEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +205,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B54C71BA2C3A8521001F7D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54C71C52C3A8522001F7D30 /* Orbital.app */,
+				B54C71C72C3A8522001F7D30 /* OrbitalTests.xctest */,
+				B54C71C92C3A8522001F7D30 /* OrbitalUITests.xctest */,
+				B54C71CB2C3A8522001F7D30 /* unityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54C71D22C3A8647001F7D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54C71DC2C3A8647001F7D30 /* Orbital.app */,
+				B54C71DE2C3A8647001F7D30 /* OrbitalTests.xctest */,
+				B54C71E02C3A8647001F7D30 /* OrbitalUITests.xctest */,
+				B54C71E22C3A8647001F7D30 /* unityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B5CABC892C39DCBA00F6CEE8 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +234,7 @@
 				B5CABCA52C39DCBB00F6CEE8 /* NuspiritTests */,
 				B5CABCAF2C39DCBB00F6CEE8 /* NuspiritUITests */,
 				B5CABC932C39DCBA00F6CEE8 /* Products */,
+				B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +256,7 @@
 				B54C70C52C3A562C001F7D30 /* Unity-iPhone.xcodeproj */,
 				B54C70B62C3A561C001F7D30 /* Orbital.xcodeproj */,
 				B5CABC952C39DCBA00F6CEE8 /* AppDelegate.swift */,
+				B54C71B72C3A8377001F7D30 /* NuspiritApp.swift */,
 				B54C71392C3A7EA8001F7D30 /* ContentView.swift */,
 				B54C70EA2C3A5742001F7D30 /* NativeAppViewController.swift */,
 				B54C70DA2C3A56A7001F7D30 /* Unity.swift */,
@@ -194,6 +305,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				B54C71CF2C3A8545001F7D30 /* PBXTargetDependency */,
+				B54C71CD2C3A853B001F7D30 /* PBXTargetDependency */,
+				B54C71BD2C3A8521001F7D30 /* PBXTargetDependency */,
+				B54C71BF2C3A8521001F7D30 /* PBXTargetDependency */,
 			);
 			name = Nuspirit;
 			productName = Nuspirit;
@@ -272,6 +387,14 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = B54C71BA2C3A8521001F7D30 /* Products */;
+					ProjectRef = B54C71B92C3A8521001F7D30 /* Orbital.xcodeproj */;
+				},
+				{
+					ProductGroup = B54C71D22C3A8647001F7D30 /* Products */;
+					ProjectRef = B54C70B62C3A561C001F7D30 /* Orbital.xcodeproj */;
+				},
+				{
 					ProductGroup = B54C70DC2C3A5732001F7D30 /* Products */;
 					ProjectRef = B54C70C52C3A562C001F7D30 /* Unity-iPhone.xcodeproj */;
 				},
@@ -314,6 +437,62 @@
 			remoteRef = B54C70E82C3A5732001F7D30 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B54C71C52C3A8522001F7D30 /* Orbital.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Orbital.app;
+			remoteRef = B54C71C42C3A8522001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71C72C3A8522001F7D30 /* OrbitalTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OrbitalTests.xctest;
+			remoteRef = B54C71C62C3A8522001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71C92C3A8522001F7D30 /* OrbitalUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OrbitalUITests.xctest;
+			remoteRef = B54C71C82C3A8522001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71CB2C3A8522001F7D30 /* unityTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = unityTests.xctest;
+			remoteRef = B54C71CA2C3A8522001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71DC2C3A8647001F7D30 /* Orbital.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Orbital.app;
+			remoteRef = B54C71DB2C3A8647001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71DE2C3A8647001F7D30 /* OrbitalTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OrbitalTests.xctest;
+			remoteRef = B54C71DD2C3A8647001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71E02C3A8647001F7D30 /* OrbitalUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OrbitalUITests.xctest;
+			remoteRef = B54C71DF2C3A8647001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B54C71E22C3A8647001F7D30 /* unityTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = unityTests.xctest;
+			remoteRef = B54C71E12C3A8647001F7D30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -351,6 +530,7 @@
 				B54C70DB2C3A56A7001F7D30 /* Unity.swift in Sources */,
 				B54C713A2C3A7EA8001F7D30 /* ContentView.swift in Sources */,
 				B5CABC962C39DCBA00F6CEE8 /* AppDelegate.swift in Sources */,
+				B54C71B82C3A8377001F7D30 /* NuspiritApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +554,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B54C71BD2C3A8521001F7D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Unity-iPhone";
+			targetProxy = B54C71BC2C3A8521001F7D30 /* PBXContainerItemProxy */;
+		};
+		B54C71BF2C3A8521001F7D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Orbital;
+			targetProxy = B54C71BE2C3A8521001F7D30 /* PBXContainerItemProxy */;
+		};
+		B54C71CD2C3A853B001F7D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnityFramework;
+			targetProxy = B54C71CC2C3A853B001F7D30 /* PBXContainerItemProxy */;
+		};
+		B54C71CF2C3A8545001F7D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GameAssembly;
+			targetProxy = B54C71CE2C3A8545001F7D30 /* PBXContainerItemProxy */;
+		};
 		B5CABCA42C39DCBB00F6CEE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B5CABC912C39DCBA00F6CEE8 /* Nuspirit */;

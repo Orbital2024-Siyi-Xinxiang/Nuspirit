@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54C71882C3A8311001F7D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C71872C3A8311001F7D30 /* AppDelegate.swift */; };
+		B54C718A2C3A8311001F7D30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C71892C3A8311001F7D30 /* SceneDelegate.swift */; };
+		B54C718C2C3A8311001F7D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C718B2C3A8311001F7D30 /* ViewController.swift */; };
+		B54C718F2C3A8311001F7D30 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B54C718E2C3A8311001F7D30 /* Base */; };
+		B54C71912C3A8312001F7D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54C71902C3A8312001F7D30 /* Assets.xcassets */; };
+		B54C71942C3A8312001F7D30 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B54C71932C3A8312001F7D30 /* Base */; };
+		B54C719F2C3A8312001F7D30 /* NuspiritUIKitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C719E2C3A8312001F7D30 /* NuspiritUIKitAppTests.swift */; };
+		B54C71A92C3A8312001F7D30 /* NuspiritUIKitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C71A82C3A8312001F7D30 /* NuspiritUIKitAppUITests.swift */; };
+		B54C71AB2C3A8312001F7D30 /* NuspiritUIKitAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C71AA2C3A8312001F7D30 /* NuspiritUIKitAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54C719B2C3A8312001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C717C2C3A8311001F7D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54C71832C3A8311001F7D30;
+			remoteInfo = NuspiritUIKitApp;
+		};
+		B54C71A52C3A8312001F7D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C717C2C3A8311001F7D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54C71832C3A8311001F7D30;
+			remoteInfo = NuspiritUIKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B54C71842C3A8311001F7D30 /* NuspiritUIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuspiritUIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C71872C3A8311001F7D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B54C71892C3A8311001F7D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B54C718B2C3A8311001F7D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B54C718E2C3A8311001F7D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B54C71902C3A8312001F7D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54C71932C3A8312001F7D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B54C71952C3A8312001F7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C719A2C3A8312001F7D30 /* NuspiritUIKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuspiritUIKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C719E2C3A8312001F7D30 /* NuspiritUIKitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuspiritUIKitAppTests.swift; sourceTree = "<group>"; };
+		B54C71A42C3A8312001F7D30 /* NuspiritUIKitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuspiritUIKitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C71A82C3A8312001F7D30 /* NuspiritUIKitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuspiritUIKitAppUITests.swift; sourceTree = "<group>"; };
+		B54C71AA2C3A8312001F7D30 /* NuspiritUIKitAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuspiritUIKitAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54C71812C3A8311001F7D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C71972C3A8312001F7D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C71A12C3A8312001F7D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B54C717B2C3A8311001F7D30 = {
+			isa = PBXGroup;
+			children = (
+				B54C71862C3A8311001F7D30 /* NuspiritUIKitApp */,
+				B54C719D2C3A8312001F7D30 /* NuspiritUIKitAppTests */,
+				B54C71A72C3A8312001F7D30 /* NuspiritUIKitAppUITests */,
+				B54C71852C3A8311001F7D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B54C71852C3A8311001F7D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54C71842C3A8311001F7D30 /* NuspiritUIKitApp.app */,
+				B54C719A2C3A8312001F7D30 /* NuspiritUIKitAppTests.xctest */,
+				B54C71A42C3A8312001F7D30 /* NuspiritUIKitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54C71862C3A8311001F7D30 /* NuspiritUIKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				B54C71872C3A8311001F7D30 /* AppDelegate.swift */,
+				B54C71892C3A8311001F7D30 /* SceneDelegate.swift */,
+				B54C718B2C3A8311001F7D30 /* ViewController.swift */,
+				B54C718D2C3A8311001F7D30 /* Main.storyboard */,
+				B54C71902C3A8312001F7D30 /* Assets.xcassets */,
+				B54C71922C3A8312001F7D30 /* LaunchScreen.storyboard */,
+				B54C71952C3A8312001F7D30 /* Info.plist */,
+			);
+			path = NuspiritUIKitApp;
+			sourceTree = "<group>";
+		};
+		B54C719D2C3A8312001F7D30 /* NuspiritUIKitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54C719E2C3A8312001F7D30 /* NuspiritUIKitAppTests.swift */,
+			);
+			path = NuspiritUIKitAppTests;
+			sourceTree = "<group>";
+		};
+		B54C71A72C3A8312001F7D30 /* NuspiritUIKitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54C71A82C3A8312001F7D30 /* NuspiritUIKitAppUITests.swift */,
+				B54C71AA2C3A8312001F7D30 /* NuspiritUIKitAppUITestsLaunchTests.swift */,
+			);
+			path = NuspiritUIKitAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54C71832C3A8311001F7D30 /* NuspiritUIKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C71AE2C3A8312001F7D30 /* Build configuration list for PBXNativeTarget "NuspiritUIKitApp" */;
+			buildPhases = (
+				B54C71802C3A8311001F7D30 /* Sources */,
+				B54C71812C3A8311001F7D30 /* Frameworks */,
+				B54C71822C3A8311001F7D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuspiritUIKitApp;
+			productName = NuspiritUIKitApp;
+			productReference = B54C71842C3A8311001F7D30 /* NuspiritUIKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54C71992C3A8312001F7D30 /* NuspiritUIKitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C71B12C3A8312001F7D30 /* Build configuration list for PBXNativeTarget "NuspiritUIKitAppTests" */;
+			buildPhases = (
+				B54C71962C3A8312001F7D30 /* Sources */,
+				B54C71972C3A8312001F7D30 /* Frameworks */,
+				B54C71982C3A8312001F7D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54C719C2C3A8312001F7D30 /* PBXTargetDependency */,
+			);
+			name = NuspiritUIKitAppTests;
+			productName = NuspiritUIKitAppTests;
+			productReference = B54C719A2C3A8312001F7D30 /* NuspiritUIKitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54C71A32C3A8312001F7D30 /* NuspiritUIKitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C71B42C3A8312001F7D30 /* Build configuration list for PBXNativeTarget "NuspiritUIKitAppUITests" */;
+			buildPhases = (
+				B54C71A02C3A8312001F7D30 /* Sources */,
+				B54C71A12C3A8312001F7D30 /* Frameworks */,
+				B54C71A22C3A8312001F7D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54C71A62C3A8312001F7D30 /* PBXTargetDependency */,
+			);
+			name = NuspiritUIKitAppUITests;
+			productName = NuspiritUIKitAppUITests;
+			productReference = B54C71A42C3A8312001F7D30 /* NuspiritUIKitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54C717C2C3A8311001F7D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B54C71832C3A8311001F7D30 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B54C71992C3A8312001F7D30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B54C71832C3A8311001F7D30;
+					};
+					B54C71A32C3A8312001F7D30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B54C71832C3A8311001F7D30;
+					};
+				};
+			};
+			buildConfigurationList = B54C717F2C3A8311001F7D30 /* Build configuration list for PBXProject "NuspiritUIKitApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B54C717B2C3A8311001F7D30;
+			productRefGroup = B54C71852C3A8311001F7D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54C71832C3A8311001F7D30 /* NuspiritUIKitApp */,
+				B54C71992C3A8312001F7D30 /* NuspiritUIKitAppTests */,
+				B54C71A32C3A8312001F7D30 /* NuspiritUIKitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B54C71822C3A8311001F7D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C71912C3A8312001F7D30 /* Assets.xcassets in Resources */,
+				B54C71942C3A8312001F7D30 /* Base in Resources */,
+				B54C718F2C3A8311001F7D30 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C71982C3A8312001F7D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C71A22C3A8312001F7D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54C71802C3A8311001F7D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C718C2C3A8311001F7D30 /* ViewController.swift in Sources */,
+				B54C71882C3A8311001F7D30 /* AppDelegate.swift in Sources */,
+				B54C718A2C3A8311001F7D30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C71962C3A8312001F7D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C719F2C3A8312001F7D30 /* NuspiritUIKitAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C71A02C3A8312001F7D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C71A92C3A8312001F7D30 /* NuspiritUIKitAppUITests.swift in Sources */,
+				B54C71AB2C3A8312001F7D30 /* NuspiritUIKitAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54C719C2C3A8312001F7D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54C71832C3A8311001F7D30 /* NuspiritUIKitApp */;
+			targetProxy = B54C719B2C3A8312001F7D30 /* PBXContainerItemProxy */;
+		};
+		B54C71A62C3A8312001F7D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54C71832C3A8311001F7D30 /* NuspiritUIKitApp */;
+			targetProxy = B54C71A52C3A8312001F7D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B54C718D2C3A8311001F7D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54C718E2C3A8311001F7D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B54C71922C3A8312001F7D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54C71932C3A8312001F7D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B54C71AC2C3A8312001F7D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B54C71AD2C3A8312001F7D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54C71AF2C3A8312001F7D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NuspiritUIKitApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.NuspiritUIKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54C71B02C3A8312001F7D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NuspiritUIKitApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.NuspiritUIKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B54C71B22C3A8312001F7D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.NuspiritUIKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuspiritUIKitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuspiritUIKitApp";
+			};
+			name = Debug;
+		};
+		B54C71B32C3A8312001F7D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.NuspiritUIKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuspiritUIKitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuspiritUIKitApp";
+			};
+			name = Release;
+		};
+		B54C71B52C3A8312001F7D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.NuspiritUIKitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuspiritUIKitApp;
+			};
+			name = Debug;
+		};
+		B54C71B62C3A8312001F7D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.NuspiritUIKitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuspiritUIKitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54C717F2C3A8311001F7D30 /* Build configuration list for PBXProject "NuspiritUIKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C71AC2C3A8312001F7D30 /* Debug */,
+				B54C71AD2C3A8312001F7D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C71AE2C3A8312001F7D30 /* Build configuration list for PBXNativeTarget "NuspiritUIKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C71AF2C3A8312001F7D30 /* Debug */,
+				B54C71B02C3A8312001F7D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C71B12C3A8312001F7D30 /* Build configuration list for PBXNativeTarget "NuspiritUIKitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C71B22C3A8312001F7D30 /* Debug */,
+				B54C71B32C3A8312001F7D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C71B42C3A8312001F7D30 /* Build configuration list for PBXNativeTarget "NuspiritUIKitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C71B52C3A8312001F7D30 /* Debug */,
+				B54C71B62C3A8312001F7D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B54C717C2C3A8311001F7D30 /* Project object */;
+}
