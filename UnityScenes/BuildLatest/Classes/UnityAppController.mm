@@ -17,7 +17,6 @@
 // DisplayLink is the only run loop mode now - all others were removed
 
 #include "CrashReporter.h"
-
 #include "UI/OrientationSupport.h"
 #include "UI/UnityView.h"
 #include "UI/Keyboard.h"
@@ -26,7 +25,6 @@
 #include "Unity/DisplayManager.h"
 #include "Unity/ObjCRuntime.h"
 #include "PluginBase/AppDelegateListener.h"
-
 #include <assert.h>
 #include <stdbool.h>
 #include <sys/types.h>
@@ -72,7 +70,6 @@ NSInteger _forceInterfaceOrientationMask = 0;
 
 @synthesize unityView               = _unityView;
 @synthesize unityDisplayLink        = _displayLink;
-
 @synthesize rootView                = _rootView;
 @synthesize rootViewController      = _rootController;
 @synthesize mainDisplay             = _mainDisplay;
@@ -103,6 +100,7 @@ NSInteger _forceInterfaceOrientationMask = 0;
     }
     return self;
 }
+
 
 - (void)setWindow:(id)object        {}
 - (UIWindow*)window                 { return _window; }

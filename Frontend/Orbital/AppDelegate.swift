@@ -100,10 +100,22 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
 
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
         if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
             return true
         }
+        
+        if url.scheme == "unityApp" {
+            // Open the URL if the device can handle it
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                print("Cannot open url of app 'unityApp'")
+            }
+            return true
+        }
+        
         return false
     }
     

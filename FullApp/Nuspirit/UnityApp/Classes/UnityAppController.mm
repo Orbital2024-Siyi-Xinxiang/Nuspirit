@@ -225,12 +225,12 @@ extern "C" void UnityCleanupTrampoline()
 #endif
 
 #if UNITY_USES_REMOTE_NOTIFICATIONS
-
+// register for remote notifications
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
 {
     AppController_SendNotificationWithArg(kUnityDidRegisterForRemoteNotificationsWithDeviceToken, deviceToken);
 }
-
+// receive remote notifications
 #if !PLATFORM_TVOS
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))handler
 {
@@ -243,7 +243,7 @@ extern "C" void UnityCleanupTrampoline()
 }
 
 #endif
-
+// error handling
 - (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
 {
     AppController_SendNotificationWithArg(kUnityDidFailToRegisterForRemoteNotificationsWithError, error);
@@ -330,6 +330,8 @@ extern "C" void UnityCleanupTrampoline()
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
+    // add here logic for implementation of starting the app directly or opening through url session
+    
     ::printf("-> applicationDidFinishLaunching()\n");
 
     // make sure orientation notifications are sent
