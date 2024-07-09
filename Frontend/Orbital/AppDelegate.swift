@@ -11,10 +11,8 @@ import Firebase
 import FirebaseAuth
 import FirebaseAuthUI
 import UserNotifications
-import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
-import FirebasePhoneAuthUI
 import FirebaseEmailAuthUI
 import FirebaseEmailAuthUI
 import UIKit
@@ -23,7 +21,6 @@ import GoogleSignIn
 import FBSDKCoreKit
 import FBSDKLoginKit
 import FirebaseInAppMessaging
-
 
 
 class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
@@ -42,7 +39,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
         // configure firebase authentication
-        print("\n\n\nloading unity host window ... \n\n\n")
+        print("\n\n\npreloading unity host window ... \n\n\n")
         FirebaseApp.configure()
         // set landing view
         
@@ -84,6 +81,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
         NotificationCenter.default.post(name: Notification.Name("APNSTokenReceived"), object: nil)
     }
 
+    
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print("Failed to register for remote notifications: \(error)")
     }
@@ -99,12 +97,25 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
             }
         }
     }
+
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
         if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
             return true
         }
+        
+        if url.scheme == "unityApp" {
+            // Open the URL if the device can handle it
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                print("Cannot open url of app 'unityApp'")
+            }
+            return true
+        }
+        
         return false
     }
     
