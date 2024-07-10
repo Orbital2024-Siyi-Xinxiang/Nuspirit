@@ -38,7 +38,6 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>nativeApp</string>
 				<string>unityApp</string>
 			</array>
 		</dict>

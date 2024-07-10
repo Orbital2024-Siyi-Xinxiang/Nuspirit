@@ -257,8 +257,7 @@ extern "C" void UnityCleanupTrampoline()
 // UIApplicationOpenURLOptionsKey was added only in ios10 sdk, while we still support ios9 sdk
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options
 {
-    id sourceApplication = options[UIApplicationOpenURLOptionsSourceApplicationKey], annotation = options[UIApplicationOpenURLOptionsAnnotationKey];
-
+   // Extract the URL parameters
     NSMutableDictionary<NSString *, id> *notifData = [NSMutableDictionary dictionaryWithCapacity:3];
     if (url)
     {
@@ -268,19 +267,32 @@ extern "C" void UnityCleanupTrampoline()
         // Handle custom URL scheme
         if ([[url scheme] isEqualToString:@"unityApp"])
         {
-            // Perform actions based on the URL
-            NSString *message = [url host];
-            UnitySendMessage("SceneLoader", "SetScene", [message UTF8String]);
+            // Extract and parse the URL parameters
+            NSString *query = [url query];
+            NSArray *components = [query componentsSeparatedByString:@"&"];
+            NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+            for (NSString *component in components)
+            {
+                NSArray *keyValue = [component componentsSeparatedByString:@"="];
+                if (keyValue.count == 2)
+                {
+                    NSString *key = [keyValue[0] stringByRemovingPercentEncoding];
+                    NSString *value = [keyValue[1] stringByRemovingPercentEncoding];
+                    parameters[key] = value;
+                }
+            }
+
+            // Example: Extracting userID, scene, venueId
+            NSString *userID = parameters[@"userID"];
+            NSString *scene = parameters[@"scene"];
+            NSString *venueId = parameters[@"venueId"];
+
+            // Send parameters to Unity scene loader
+            UnitySendMessage("SceneLoader", "Initialize", [[NSString stringWithFormat:@"%@|%@|%@", userID, scene, venueId] UTF8String]);
+
             return YES;
         }
     }
-    if (sourceApplication)
-        notifData[@"sourceApplication"] = sourceApplication;
-    if (annotation)
-        notifData[@"annotation"] = annotation;
-
-    AppController_SendNotificationWithArg(kUnityOnOpenURL, notifData);
-    return YES;
 }
 
 - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring> > * _Nullable restorableObjects))restorationHandler

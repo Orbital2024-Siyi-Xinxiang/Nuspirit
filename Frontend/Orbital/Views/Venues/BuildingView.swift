@@ -32,19 +32,25 @@ struct BuildingView: View {
             NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
             startTimer()
             
+            let userId = FirebaseAuthService().getCurrentUid()
+            let scene = "SpecificVenue"
+            let buildingID = buildingID
             
+            if let url = constructUnityAppURL(userId: userId, scene: scene, buildingID: buildingID) {
+                if handleUnityAppURL(url) {
+                    if UIApplication.shared.canOpenURL(url) {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    } else {
+                        print("Cannot open url of app 'unityApp'")
+                    }
+                } else {
+                    print("fail to handle unity app url")
+                }
+                
+            } else {
+                print("Failed to construct URL")
+            }
             
-            // Check if the URL scheme is unityApp
-            //            url =
-            //            if url.scheme == "unityApp" {
-            //                // Open the URL if the device can handle it
-            //                if UIApplication.shared.canOpenURL(url) {
-            //                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            //                } else {
-            //                    print("Cannot open url of app 'unityApp'")
-            //                }
-            //                return true
-            //            }
             //            Unity.shared.show()
             //            Unity.shared.sendMessage(
             //                "SceneLoader",
