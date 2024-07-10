@@ -38,6 +38,11 @@ UnityAppController* GetAppController()
     return _UnityAppController;
 }
 
+extern "C" {
+    void UnitySendMessage(const char *, const char *, const char *);
+    void UnitySetAbsoluteURL(const char *);
+}
+
 // we keep old bools around to support "old" code that might have used them
 bool _ios81orNewer = false, _ios82orNewer = false, _ios83orNewer = false, _ios90orNewer = false, _ios91orNewer = false;
 bool _ios100orNewer = false, _ios101orNewer = false, _ios102orNewer = false, _ios103orNewer = false;
