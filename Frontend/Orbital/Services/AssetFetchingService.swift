@@ -11,7 +11,7 @@ class AssetFetchingService: ObservableObject {
     @Published var avatarDesignAssets: [Asset] = []
 
     var categories: [String] {
-        return ["Furniture", "Housing", "Plant", "Animal", "Avatar"]
+        return ["Furniture", "Housing", "Plant", "Animal", "Decoration", "Avatar", "Island"]
     }
 
     private var db = Firestore.firestore()
