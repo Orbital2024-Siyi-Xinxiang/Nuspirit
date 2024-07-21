@@ -201,6 +201,8 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct LineBreakingTable_t8F7C67DC8CF3D46115EB50409E5C0E32B5ADC531;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_TextMeshPro[];
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
@@ -224,12 +226,27 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4D24EAAEA041EAFA17400A5C3BEA644DA7F8067F
 IL2CPP_EXTERN_C String_t* _stringLiteral94B946B03625197025E6D70053ADE0256BC25DD1;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFB91D1DF3A99213A5F62F37EB0B31E6121411C4;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE37C361B118D899F298E7DBBEDF126B8808060D;
+IL2CPP_EXTERN_C const RuntimeMethod* Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m45B78C642E930CAEB2F7E24E40FF1FC48A30CF71_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mFE1EB0F6367B8DBC398D6CDFEDEE4C7E8BF9C4A6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m43EA32FD1DAA3D907704A2F5B20845722C30849E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextInfo_Resize_TisTMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4_m2A5C121053D091AFFFBF48BA9BAF7C7FAC0FD9C5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextInfo_Resize_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_mD1697D16231084129C06B47748C8793C5CDD40A5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_Clear_m3763CBE15B699BDEAB58FD4D6FEA4BF708F9B60D_RuntimeMethod_var;
@@ -246,6 +263,50 @@ IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_SetDefault_mC334C
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_SetDefault_mD74F2EC88853554B15ED9D90188D88B23C2F52A3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_SetDefault_mE117EC83B0E0DD13A62A2ACAE4FD90DDDE520C24_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextMeshPro_GenerateTextMesh_m92A3D91D20D8BB4E46C2E9E305EE4207B1B2A1DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* CharacterSubstitution_t1F95CD37050627A0EFDC0F0F25FD04EA70015403_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MarkToBaseAdjustmentRecord_t03C041CB56601B46F025C69B899BBAB750201C71_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MarkToMarkAdjustmentRecord_t5D12F757E4ECB2EA12EB404228D70FA4DDBD6654_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_0_0_0_var;
 struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -3046,24 +3107,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharacterSubstitution_t1F95CD37050627A0EFDC0F0F25FD04EA70015403_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m45B78C642E930CAEB2F7E24E40FF1FC48A30CF71_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mFE1EB0F6367B8DBC398D6CDFEDEE4C7E8BF9C4A6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m43EA32FD1DAA3D907704A2F5B20845722C30849E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarkToBaseAdjustmentRecord_t03C041CB56601B46F025C69B899BBAB750201C71_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarkToMarkAdjustmentRecord_t5D12F757E4ECB2EA12EB404228D70FA4DDBD6654_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Math_t37914ACC164B07E2FE801992D237D9FE4E4D1A52_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE48062_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_Resize_TisTMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4_m2A5C121053D091AFFFBF48BA9BAF7C7FAC0FD9C5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_Resize_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_mD1697D16231084129C06B47748C8793C5CDD40A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextParsingUtilities_tF6AF6ED06ADFB8C71F4C1D713D677D821A1AB6FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextProcessingStack_1_Clear_m3763CBE15B699BDEAB58FD4D6FEA4BF708F9B60D_RuntimeMethod_var);
@@ -3082,7 +3166,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshPro_GenerateTextMesh_m92A3D91D20D8BB4E46C2E9E305EE4207B1B2A1DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral205DE2CB7E86A79B6B3940AFB5A0EC8F490142CE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41BB69D2BDF9A4541A716BE07E74D1ED0DEADD05);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D24EAAEA041EAFA17400A5C3BEA644DA7F8067F);
@@ -3091,6 +3184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE37C361B118D899F298E7DBBEDF126B8808060D);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(TextMeshPro_GenerateTextMesh_m92A3D91D20D8BB4E46C2E9E305EE4207B1B2A1DD_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -3619,6 +3713,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20
 	bool V_484 = false;
 	bool V_485 = false;
 	bool V_486 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_10), (&V_11), (&V_12), (&V_13), (&V_14), (&V_15), (&V_16), (&V_17), (&V_18), (&V_19), (&V_20), (&V_21), (&V_22), (&V_23), (&V_24), (&V_25), (&V_26), (&V_27), (&V_28), (&V_29), (&V_30), (&V_31), (&V_32), (&V_33), (&V_34), (&V_35), (&V_36), (&V_37), (&V_38), (&V_39), (&V_40), (&V_41), (&V_42), (&V_43), (&V_44), (&V_45), (&V_46), (&V_47), (&V_48), (&V_49), (&V_50), (&V_51), (&V_52), (&V_53), (&V_54), (&V_55), (&V_56), (&V_57), (&V_58), (&V_59), (&V_60), (&V_66), (&V_67), (&V_68), (&V_69), (&V_70), (&V_71), (&V_72), (&V_73), (&V_74), (&V_75), (&V_76), (&V_77), (&V_78), (&V_79), (&V_80), (&V_81), (&V_82), (&V_83), (&V_84), (&V_85), (&V_86), (&V_87), (&V_88), (&V_89), (&V_90), (&V_91), (&V_92), (&V_93), (&V_97), (&V_113), (&V_114), (&V_119), (&V_120), (&V_121), (&V_124), (&V_130), (&V_131), (&V_133), (&V_134), (&V_138), (&V_139), (&V_144), (&V_145), (&V_146), (&V_147), (&V_148), (&V_150), (&V_153), (&V_155), (&V_156), (&V_157), (&V_158), (&V_159), (&V_160), (&V_162), (&V_163), (&V_164), (&V_167), (&V_168), (&V_169), (&V_170), (&V_171), (&V_173), (&V_180), (&V_183), (&V_186), (&V_187), (&V_188), (&V_189), (&V_191), (&V_192), (&V_202), (&V_203), (&V_204), (&V_205), (&V_206), (&V_212), (&V_214), (&V_215), (&V_224), (&V_225), (&V_226), (&V_228), (&V_234), (&V_235), (&V_238), (&V_246), (&V_248), (&V_249), (&V_252), (&V_253), (&V_260), (&V_261), (&V_264), (&V_265), (&V_274), (&V_280), (&V_281), (&V_288), (&V_289), (&V_290), (&V_291), (&V_292), (&V_293), (&V_294), (&V_299), (&V_300), (&V_302), (&V_313), (&V_314), (&V_315), (&V_316), (&V_325), (&V_328), (&V_332), (&V_333), (&V_337), (&V_338), (&V_352), (&V_361), (&V_362), (&V_363), (&V_364), (&V_365), (&V_366), (&V_367), (&V_368), (&V_369), (&V_370), (&V_371), (&V_372), (&V_373), (&V_374), (&V_384), (&V_385), (&V_386), (&V_387), (&V_395), (&V_396), (&V_397), (&V_400), (&V_406), (&V_423), (&V_424), (&V_428), (&V_429), (&V_432), (&V_433), (&V_442), (&V_447), (&V_454), (&V_456), (&V_462), (&V_463), (&V_468), (&V_469), (&V_470), (&V_483));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TextMeshPro_GenerateTextMesh_m92A3D91D20D8BB4E46C2E9E305EE4207B1B2A1DD_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2757));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2758));
 	int32_t G_B3_0 = 0;
 	int32_t G_B11_0 = 0;
 	float G_B17_0 = 0.0f;
@@ -3940,12 +4039,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* G_B1221_0 = NULL;
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* G_B1220_0 = NULL;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2759));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2760));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2761));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2761));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2762));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_0 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2763));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2763));
 		if (L_1)
 		{
 			goto IL_002a;
@@ -3953,9 +4059,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20
 	}
 	{
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_2 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2764));
 		NullCheck(L_2);
 		Dictionary_2_tCB5FEF8D6CEA1557D9B9BA25946AD6BF3E6C14D0* L_3;
 		L_3 = TMP_FontAsset_get_characterLookupTable_mEFAADDFAA6233DFEC3A0D8C163588B3C678451E9(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2764));
 		G_B3_0 = ((((RuntimeObject*)(Dictionary_2_tCB5FEF8D6CEA1557D9B9BA25946AD6BF3E6C14D0*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		goto IL_002b;
 	}
@@ -3968,6 +4076,7 @@ IL_002a:
 IL_002b:
 	{
 		V_61 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2765));
 		bool L_4 = V_61;
 		if (!L_4)
 		{
@@ -3975,25 +4084,42 @@ IL_002b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2766));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2767));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2768));
 		int32_t L_5;
 		L_5 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2768));
 		V_62 = L_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2769));
 		String_t* L_6;
 		L_6 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_62), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2769));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2770));
 		String_t* L_7;
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral205DE2CB7E86A79B6B3940AFB5A0EC8F490142CE, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2770));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2771));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2771));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2772));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsAutoSizePointSizeSet = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2773));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2774));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2774));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2775));
 		goto IL_9457;
 	}
 
 IL_0068:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2776));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_8 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		V_63 = (bool)((!(((RuntimeObject*)(TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2777));
 		bool L_9 = V_63;
 		if (!L_9)
 		{
@@ -4001,13 +4127,17 @@ IL_0068:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2778));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_10 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2779));
 		NullCheck(L_10);
 		TMP_TextInfo_Clear_m288FFE54C6744C369E9B2BA903A634F461721D70(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2779));
 	}
 
 IL_0083:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2780));
 		TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* L_11 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextProcessingArray;
 		if (!L_11)
 		{
@@ -4038,6 +4168,7 @@ IL_00aa:
 IL_00ab:
 	{
 		V_64 = (bool)G_B11_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2781));
 		bool L_15 = V_64;
 		if (!L_15)
 		{
@@ -4045,43 +4176,70 @@ IL_00ab:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2782));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2783));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2784));
 		VirtualActionInvoker1< bool >::Invoke(130, __this, (bool)1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2784));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2785));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_preferredWidth = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2786));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_preferredHeight = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2787));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2788));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		TMPro_EventManager_ON_TEXT_CHANGED_mC933ED67F225E90E2F7B5F0D176D62D3A560BFAE(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2788));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2789));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsAutoSizePointSizeSet = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2790));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2791));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2791));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2792));
 		goto IL_9457;
 	}
 
 IL_00ee:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2793));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_16 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontAsset;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset), (void*)L_16);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2794));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_sharedMaterial;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial), (void*)L_17);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2795));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2796));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_18 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_19 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		float L_21 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_padding;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2797));
 		MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B L_22;
 		memset((&L_22), 0, sizeof(L_22));
 		MaterialReference__ctor_m022ED9858AAD1DCEC25CBC4C304797F4539D87E7((&L_22), L_18, L_19, (TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39*)NULL, L_20, L_21, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2797));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2798));
 		TMP_TextProcessingStack_1_SetDefault_m7CE06332FBA28EFF7BD420B215587317648C1EB8((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_materialReferenceStack), L_22, TMP_TextProcessingStack_1_SetDefault_m7CE06332FBA28EFF7BD420B215587317648C1EB8_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2798));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2799));
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_23 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteAsset;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset), (void*)L_23);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2800));
 		TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* L_24 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteAnimator;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2801));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
 		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2801));
 		V_65 = L_25;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2802));
 		bool L_26 = V_65;
 		if (!L_26)
 		{
@@ -4089,26 +4247,35 @@ IL_00ee:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2803));
 		TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* L_27 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteAnimator;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2804));
 		NullCheck(L_27);
 		TMP_SpriteAnimator_StopAllAnimations_m0531CA658CF1A4E5A18BC73234FE5CC8318F64F1(L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2804));
 	}
 
 IL_0160:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2805));
 		int32_t L_28 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_totalCharacterCount;
 		V_0 = L_28;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2806));
 		float L_29 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_30 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontAsset;
 		NullCheck(L_30);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_31 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_30)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2807));
 		float L_32;
 		L_32 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_31, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2807));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_33 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontAsset;
 		NullCheck(L_33);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_34 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_33)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2808));
 		float L_35;
 		L_35 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_34, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2808));
 		bool L_36 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_36)
 		{
@@ -4132,8 +4299,10 @@ IL_019e:
 IL_01a3:
 	{
 		V_1 = ((float)il2cpp_codegen_multiply(G_B18_1, G_B18_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2809));
 		float L_37 = V_1;
 		V_2 = L_37;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2810));
 		float L_38 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		bool L_39 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_39)
@@ -4158,16 +4327,25 @@ IL_01c2:
 IL_01c7:
 	{
 		V_3 = ((float)il2cpp_codegen_multiply(G_B21_1, G_B21_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2811));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2812));
 		float L_40 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize = L_40;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2813));
 		TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9* L_41 = (TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_sizeStack);
 		float L_42 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2814));
 		TMP_TextProcessingStack_1_SetDefault_mE117EC83B0E0DD13A62A2ACAE4FD90DDDE520C24(L_41, L_42, TMP_TextProcessingStack_1_SetDefault_mE117EC83B0E0DD13A62A2ACAE4FD90DDDE520C24_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2814));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2815));
 		V_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2816));
 		V_5 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2817));
 		int32_t L_43 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontStyle;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontStyleInternal = L_43;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2818));
 		int32_t L_44 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontStyleInternal;
 		if ((((int32_t)((int32_t)((int32_t)L_44&1))) == ((int32_t)1)))
 		{
@@ -4193,163 +4371,290 @@ IL_0221:
 	{
 		NullCheck(G_B24_1);
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)G_B24_1)->___m_FontWeightInternal = G_B24_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2819));
 		TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4* L_46 = (TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontWeightStack);
 		int32_t L_47 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontWeightInternal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2820));
 		TMP_TextProcessingStack_1_SetDefault_mD74F2EC88853554B15ED9D90188D88B23C2F52A3(L_46, L_47, TMP_TextProcessingStack_1_SetDefault_mD74F2EC88853554B15ED9D90188D88B23C2F52A3_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2820));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2821));
 		TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC* L_48 = (TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontStyleStack);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2822));
 		TMP_FontStyleStack_Clear_m49B787473D053AE4AB61D0A89BE3022B6D39B15D(L_48, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2822));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2823));
 		int32_t L_49 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_HorizontalAlignment;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineJustification = L_49;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2824));
 		TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0* L_50 = (TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineJustificationStack);
 		int32_t L_51 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineJustification;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2825));
 		TMP_TextProcessingStack_1_SetDefault_m698E3FC65D297F210EA10D014AE2D836708A420C(L_50, L_51, TMP_TextProcessingStack_1_SetDefault_m698E3FC65D297F210EA10D014AE2D836708A420C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2825));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2826));
 		V_6 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2827));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2828));
 		TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9* L_52 = (TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffsetStack);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2829));
 		TMP_TextProcessingStack_1_Clear_m3763CBE15B699BDEAB58FD4D6FEA4BF708F9B60D(L_52, TMP_TextProcessingStack_1_Clear_m3763CBE15B699BDEAB58FD4D6FEA4BF708F9B60D_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2829));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2830));
 		V_7 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2831));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2832));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
 		L_53 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2832));
 		V_8 = L_53;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2833));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2834));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
 		L_54 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2834));
 		V_9 = L_54;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2835));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2836));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2837));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 		L_55 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2837));
 		V_11 = L_55;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2838));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2839));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
 		L_56 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2839));
 		V_12 = L_56;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2840));
 		V_13 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2841));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2842));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
 		L_57 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2842));
 		V_14 = L_57;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2843));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2844));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
 		L_58 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2844));
 		V_15 = L_58;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2845));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_59 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontColor;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2846));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_60;
 		L_60 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_59, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2846));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontColor32 = L_60;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2847));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_61 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontColor32;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor = L_61;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2848));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_62 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_underlineColor = L_62;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2849));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_63 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_strikethroughColor = L_63;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2850));
 		TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3* L_64 = (TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_colorStack);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_65 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2851));
 		TMP_TextProcessingStack_1_SetDefault_m7036F607A98F61A71185CAD716D4FA1B1C817A5F(L_64, L_65, TMP_TextProcessingStack_1_SetDefault_m7036F607A98F61A71185CAD716D4FA1B1C817A5F_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2851));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2852));
 		TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3* L_66 = (TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_underlineColorStack);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_67 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2853));
 		TMP_TextProcessingStack_1_SetDefault_m7036F607A98F61A71185CAD716D4FA1B1C817A5F(L_66, L_67, TMP_TextProcessingStack_1_SetDefault_m7036F607A98F61A71185CAD716D4FA1B1C817A5F_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2853));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2854));
 		TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3* L_68 = (TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_strikethroughColorStack);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_69 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2855));
 		TMP_TextProcessingStack_1_SetDefault_m7036F607A98F61A71185CAD716D4FA1B1C817A5F(L_68, L_69, TMP_TextProcessingStack_1_SetDefault_m7036F607A98F61A71185CAD716D4FA1B1C817A5F_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2855));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2856));
 		TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D* L_70 = (TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_HighlightStateStack);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_71 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2857));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 L_72;
 		L_72 = TMP_Offset_get_zero_m8D8E8D2E46EAB0DFFED647AC5EEB41A5B2AA2339(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2857));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2858));
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_73;
 		memset((&L_73), 0, sizeof(L_73));
 		HighlightState__ctor_m25791146FF94DD76C2FAAAF47C1735C01D9F47B2((&L_73), L_71, L_72, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2858));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2859));
 		TMP_TextProcessingStack_1_SetDefault_m697D0294F53275DE9999CE525CCF61209A4FCFC4(L_70, L_73, TMP_TextProcessingStack_1_SetDefault_m697D0294F53275DE9999CE525CCF61209A4FCFC4_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2859));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2860));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_colorGradientPreset = (TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_colorGradientPreset), (void*)(TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB*)NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2861));
 		TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C* L_74 = (TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_colorGradientStack);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2862));
 		TMP_TextProcessingStack_1_SetDefault_mC334C7D21FC5F30EAA55F85FB34687D759167AA2(L_74, (TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB*)NULL, TMP_TextProcessingStack_1_SetDefault_mC334C7D21FC5F30EAA55F85FB34687D759167AA2_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2862));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2863));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_75 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_75);
 		uint8_t L_76 = L_75->___italicStyle;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ItalicAngle = L_76;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2864));
 		TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C* L_77 = (TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ItalicAngleStack);
 		int32_t L_78 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ItalicAngle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2865));
 		TMP_TextProcessingStack_1_SetDefault_m9CBD96A57980313DBBDDBE95432C5CC2419E2A8C(L_77, L_78, TMP_TextProcessingStack_1_SetDefault_m9CBD96A57980313DBBDDBE95432C5CC2419E2A8C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2865));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2866));
 		TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C* L_79 = (TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_actionStack);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2867));
 		TMP_TextProcessingStack_1_Clear_mF21F020170BA01428CDDB51FD040A0F4A1926235(L_79, TMP_TextProcessingStack_1_Clear_mF21F020170BA01428CDDB51FD040A0F4A1926235_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2867));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2868));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2869));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80;
 		L_80 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2869));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXScale = L_80;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2870));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2871));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_81;
 		L_81 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2871));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXRotation = L_81;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2872));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2873));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineHeight = (-32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2874));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_82 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_82);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_83 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_82)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2875));
 		float L_84;
 		L_84 = FaceInfo_get_lineHeight_m528B4A822181FCECF3D4FF1045DF288E5872AB9D(L_83, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2875));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_85 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_85);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_86 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_85)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2876));
 		float L_87;
 		L_87 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD(L_86, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2876));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_88 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_88);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_89 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_88)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2877));
 		float L_90;
 		L_90 = FaceInfo_get_descentLine_m811A243C9B328B0C546BF9927A010A05DF172BD3(L_89, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2877));
 		V_16 = ((float)il2cpp_codegen_subtract(L_84, ((float)il2cpp_codegen_subtract(L_87, L_90))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2878));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cSpacing = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2879));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2880));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2881));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_LineIndent = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2882));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_Indent = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2883));
 		TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9* L_91 = (TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_indentStack);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2884));
 		TMP_TextProcessingStack_1_SetDefault_mE117EC83B0E0DD13A62A2ACAE4FD90DDDE520C24(L_91, (0.0f), TMP_TextProcessingStack_1_SetDefault_mE117EC83B0E0DD13A62A2ACAE4FD90DDDE520C24_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2884));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2885));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_NoParsing = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2886));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2887));
 		int32_t L_92 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstVisibleCharacter;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine = L_92;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2888));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lastCharacterOfLine = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2889));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstVisibleCharacterOfLine = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2890));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lastVisibleCharacterOfLine = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2891));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_93 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargeNegativeFloat;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender = L_93;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2892));
 		float L_94 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender = L_94;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2893));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2894));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_startOfLineAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2895));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_startOfLineDescender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2896));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleCharacterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2897));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleSpaceCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2898));
 		V_17 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2899));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsDrivenLineSpacing = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2900));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2901));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_LastBaseGlyphIndex = ((int32_t)-2147483648LL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2902));
 		List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* L_95 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ActiveFontFeatures;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2903));
 		NullCheck(L_95);
 		bool L_96;
 		L_96 = List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00(L_95, ((int32_t)1801810542), List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2903));
 		V_18 = L_96;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2904));
 		List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* L_97 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ActiveFontFeatures;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2905));
 		NullCheck(L_97);
 		bool L_98;
 		L_98 = List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00(L_97, ((int32_t)1835102827), List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2905));
 		V_19 = L_98;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2906));
 		List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* L_99 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ActiveFontFeatures;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2907));
 		NullCheck(L_99);
 		bool L_100;
 		L_100 = List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00(L_99, ((int32_t)1835756907), List_1_Contains_mCFB3272A9B6EB019803647AD25B7F5265CB08D00_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2907));
 		V_20 = L_100;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2908));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2909));
 		int32_t L_101 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageToDisplay;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_102 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_102);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* L_103 = L_102->___pageInfo;
 		NullCheck(L_103);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2910));
 		int32_t L_104;
 		L_104 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_101, 1)), 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_103)->max_length)), 1)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2910));
 		V_21 = L_104;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2911));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_105 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2912));
 		NullCheck(L_105);
 		TMP_TextInfo_ClearPageInfo_mD479D3067FC68407924FF28A468D68EA8B0680AE(L_105, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2912));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2913));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_106 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_margin;
 		V_22 = L_106;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2914));
 		float L_107 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginWidth;
 		if ((((float)L_107) > ((float)(0.0f))))
 		{
@@ -4370,6 +4675,7 @@ IL_0535:
 IL_053b:
 	{
 		V_23 = G_B27_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2915));
 		float L_109 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginHeight;
 		if ((((float)L_109) > ((float)(0.0f))))
 		{
@@ -4390,58 +4696,110 @@ IL_0551:
 IL_0557:
 	{
 		V_24 = G_B30_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2916));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginLeft = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2917));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginRight = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2918));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_width = (-1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2919));
 		float L_111 = V_23;
 		float L_112 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginLeft;
 		float L_113 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginRight;
 		V_25 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_111, (9.99999975E-05f))), L_112)), L_113));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2920));
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_114 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_115 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveVector2;
 		L_114->___min = L_115;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2921));
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_116 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_117 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargeNegativeVector2;
 		L_116->___max = L_117;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2922));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_118 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2923));
 		NullCheck(L_118);
 		TMP_TextInfo_ClearLineInfo_m055901C815B31D3996CA828A79D73DAE576A1037(L_118, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2923));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2924));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxCapHeight = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2925));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2926));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2927));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_PageAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2928));
 		V_26 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2929));
 		V_27 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2930));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNewPage = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2931));
 		V_28 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2932));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNonBreakingSpace = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2933));
 		V_29 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2934));
 		V_30 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2935));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2936));
 		CharacterSubstitution__ctor_m5727A2342B980E68CA8CA895437F82280B5E4378((&V_31), (-1), 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2936));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2937));
 		V_32 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2938));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2939));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedWordWrapState), (-1), (-1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2939));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2940));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2941));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLineState), (-1), (-1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2941));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2942));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2943));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState), (-1), (-1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2943));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2944));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2945));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), (-1), (-1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2945));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2946));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2947));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedSoftLineBreakState), (-1), (-1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2947));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2948));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2949));
 		TMP_TextProcessingStack_1_Clear_mB6D2711ABE083BD5136541A63C96408BCF802D74((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_Clear_mB6D2711ABE083BD5136541A63C96408BCF802D74_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2949));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2950));
 		V_33 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2951));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2952));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2952));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2953));
 		V_66 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2954));
 		goto IL_5006;
 	}
 
 IL_067e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2955));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2956));
 		TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* L_119 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextProcessingArray;
 		int32_t L_120 = V_66;
 		NullCheck(L_119);
 		uint32_t L_121 = ((L_119)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_120)))->___unicode;
 		V_5 = L_121;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2957));
 		int32_t L_122 = V_33;
 		V_94 = (bool)((((int32_t)L_122) > ((int32_t)5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2958));
 		bool L_123 = V_94;
 		if (!L_123)
 		{
@@ -4449,23 +4807,38 @@ IL_067e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2959));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2960));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2961));
 		String_t* L_124;
 		L_124 = UInt32_ToString_mB6FA6D2459C82ADCF285C55363491D9669A80154((&V_5), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2961));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2962));
 		String_t* L_125;
 		L_125 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_66), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2962));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2963));
 		String_t* L_126;
 		L_126 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral41BB69D2BDF9A4541A716BE07E74D1ED0DEADD05, L_124, _stringLiteral94B946B03625197025E6D70053ADE0256BC25DD1, L_125, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2963));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2964));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_126, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2964));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2965));
 		int32_t L_127 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = L_127;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2966));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2967));
 	}
 
 IL_06d8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2968));
 		uint32_t L_128 = V_5;
 		V_95 = (bool)((((int32_t)L_128) == ((int32_t)((int32_t)26)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2969));
 		bool L_129 = V_95;
 		if (!L_129)
 		{
@@ -4473,11 +4846,13 @@ IL_06d8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2970));
 		goto IL_4ffc;
 	}
 
 IL_06e9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2971));
 		bool L_130 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRichText;
 		if (!L_130)
 		{
@@ -4498,6 +4873,7 @@ IL_06f9:
 IL_06fa:
 	{
 		V_96 = (bool)G_B38_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2972));
 		bool L_132 = V_96;
 		if (!L_132)
 		{
@@ -4505,15 +4881,25 @@ IL_06fa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2973));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2974));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2975));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ParseMarkupTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2975));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2976));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextLayoutPhase = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2977));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2978));
 		TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* L_133 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextProcessingArray;
 		int32_t L_134 = V_66;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2979));
 		bool L_135;
 		L_135 = TMP_Text_ValidateHtmlTag_m3A6159786C7C155CDCCC0FAAFD36D6F9E3909910(__this, L_133, ((int32_t)il2cpp_codegen_add(L_134, 1)), (&V_97), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2979));
 		V_98 = L_135;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2980));
 		bool L_136 = V_98;
 		if (!L_136)
 		{
@@ -4521,10 +4907,14 @@ IL_06fa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2981));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2982));
 		int32_t L_137 = V_97;
 		V_66 = L_137;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2983));
 		int32_t L_138 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		V_99 = (bool)((((int32_t)L_138) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2984));
 		bool L_139 = V_99;
 		if (!L_139)
 		{
@@ -4532,24 +4922,37 @@ IL_06fa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2985));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2986));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2987));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ParseMarkupTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2987));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2988));
 		goto IL_4ffc;
 	}
 
 IL_0757:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2989));
 	}
 
 IL_0758:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2990));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2991));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ParseMarkupTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2991));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2992));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2993));
 		goto IL_07cb;
 	}
 
 IL_0766:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2994));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2995));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_140 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_140);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_141 = L_140->___characterInfo;
@@ -4557,6 +4960,7 @@ IL_0766:
 		NullCheck(L_141);
 		int32_t L_143 = ((L_141)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_142)))->___elementType;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType = L_143;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2996));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_144 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_144);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_145 = L_144->___characterInfo;
@@ -4564,6 +4968,7 @@ IL_0766:
 		NullCheck(L_145);
 		int32_t L_147 = ((L_145)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_146)))->___materialReferenceIndex;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex = L_147;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2997));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_148 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_148);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_149 = L_148->___characterInfo;
@@ -4572,12 +4977,15 @@ IL_0766:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_151 = ((L_149)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_150)))->___fontAsset;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset = L_151;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset), (void*)L_151);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2998));
 	}
 
 IL_07cb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 2999));
 		int32_t L_152 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex;
 		V_67 = L_152;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3000));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_153 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_153);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_154 = L_153->___characterInfo;
@@ -4585,12 +4993,16 @@ IL_07cb:
 		NullCheck(L_154);
 		bool L_156 = ((L_154)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_155)))->___isUsingAlternateTypeface;
 		V_68 = L_156;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3001));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextLayoutPhase = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3002));
 		V_69 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3003));
 		CharacterSubstitution_t1F95CD37050627A0EFDC0F0F25FD04EA70015403 L_157 = V_31;
 		int32_t L_158 = L_157.___index;
 		int32_t L_159 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_100 = (bool)((((int32_t)L_158) == ((int32_t)L_159))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3004));
 		bool L_160 = V_100;
 		if (!L_160)
 		{
@@ -4598,15 +5010,22 @@ IL_07cb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3005));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3006));
 		CharacterSubstitution_t1F95CD37050627A0EFDC0F0F25FD04EA70015403 L_161 = V_31;
 		uint32_t L_162 = L_161.___unicode;
 		V_5 = L_162;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3007));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3008));
 		V_69 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3009));
 		uint32_t L_163 = V_5;
 		V_102 = L_163;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3010));
 		uint32_t L_164 = V_102;
 		V_101 = L_164;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3011));
 		uint32_t L_165 = V_101;
 		if ((((int32_t)L_165) == ((int32_t)3)))
 		{
@@ -4643,31 +5062,40 @@ IL_083d:
 
 IL_084b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3012));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_168 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_168);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_169 = L_168->___characterInfo;
 		int32_t L_170 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_169);
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_171 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3013));
 		NullCheck(L_171);
 		Dictionary_2_tCB5FEF8D6CEA1557D9B9BA25946AD6BF3E6C14D0* L_172;
 		L_172 = TMP_FontAsset_get_characterLookupTable_mEFAADDFAA6233DFEC3A0D8C163588B3C678451E9(L_171, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3013));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3014));
 		NullCheck(L_172);
 		TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* L_173;
 		L_173 = Dictionary_2_get_Item_m43EA32FD1DAA3D907704A2F5B20845722C30849E(L_172, 3, Dictionary_2_get_Item_m43EA32FD1DAA3D907704A2F5B20845722C30849E_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3014));
 		((L_169)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_170)))->___textElement = L_173;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_169)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_170)))->___textElement), (void*)L_173);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3015));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextTruncated = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3016));
 		goto IL_0980;
 	}
 
 IL_0883:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3017));
 		goto IL_0980;
 	}
 
 IL_0888:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3018));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_174 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_174);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_175 = L_174->___characterInfo;
@@ -4677,12 +5105,14 @@ IL_0888:
 		TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* L_178 = L_177->___character;
 		((L_175)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_176)))->___textElement = L_178;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_175)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_176)))->___textElement), (void*)L_178);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3019));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_179 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_179);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_180 = L_179->___characterInfo;
 		int32_t L_181 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_180);
 		((L_180)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_181)))->___elementType = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3020));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_182 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_182);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_183 = L_182->___characterInfo;
@@ -4692,6 +5122,7 @@ IL_0888:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_186 = L_185->___fontAsset;
 		((L_183)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_184)))->___fontAsset = L_186;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_183)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_184)))->___fontAsset), (void*)L_186);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3021));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_187 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_187);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_188 = L_187->___characterInfo;
@@ -4701,6 +5132,7 @@ IL_0888:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_191 = L_190->___material;
 		((L_188)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_189)))->___material = L_191;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_188)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_189)))->___material), (void*)L_191);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3022));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_192 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_192);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_193 = L_192->___characterInfo;
@@ -4709,6 +5141,7 @@ IL_0888:
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_195 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Ellipsis);
 		int32_t L_196 = L_195->___materialIndex;
 		((L_193)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_194)))->___materialReferenceIndex = L_196;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3023));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* L_197 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_materialReferences;
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_198 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Underline);
@@ -4720,19 +5153,25 @@ IL_0888:
 		int32_t* L_202 = V_103;
 		int32_t L_203 = *((int32_t*)L_202);
 		*((int32_t*)L_201) = (int32_t)((int32_t)il2cpp_codegen_add(L_203, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3024));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextTruncated = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3025));
 		int32_t L_204 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = ((int32_t)il2cpp_codegen_add(L_204, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3026));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3027));
 		goto IL_0980;
 	}
 
 IL_0980:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3028));
 	}
 
 IL_0981:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3029));
 		int32_t L_205 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		int32_t L_206 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstVisibleCharacter;
 		if ((((int32_t)L_205) >= ((int32_t)L_206)))
@@ -4754,6 +5193,7 @@ IL_0999:
 IL_099a:
 	{
 		V_104 = (bool)G_B59_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3030));
 		bool L_208 = V_104;
 		if (!L_208)
 		{
@@ -4761,34 +5201,43 @@ IL_099a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3031));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3032));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_209 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_209);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_210 = L_209->___characterInfo;
 		int32_t L_211 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_210);
 		((L_210)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_211)))->___isVisible = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3033));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_212 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_212);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_213 = L_212->___characterInfo;
 		int32_t L_214 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_213);
 		((L_213)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_214)))->___character = ((int32_t)8203);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3034));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_215 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_215);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_216 = L_215->___characterInfo;
 		int32_t L_217 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_216);
 		((L_216)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_217)))->___lineNumber = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3035));
 		int32_t L_218 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_add(L_218, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3036));
 		goto IL_4ffc;
 	}
 
 IL_0a0c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3037));
 		V_70 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3038));
 		int32_t L_219 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		V_105 = (bool)((((int32_t)L_219) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3039));
 		bool L_220 = V_105;
 		if (!L_220)
 		{
@@ -4796,8 +5245,11 @@ IL_0a0c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3040));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3041));
 		int32_t L_221 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontStyleInternal;
 		V_106 = (bool)((((int32_t)((int32_t)((int32_t)L_221&((int32_t)16)))) == ((int32_t)((int32_t)16)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3042));
 		bool L_222 = V_106;
 		if (!L_222)
 		{
@@ -4805,11 +5257,16 @@ IL_0a0c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3043));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3044));
 		uint32_t L_223 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3045));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_224;
 		L_224 = Char_IsLower_m9DDB41367F97CFFE6C46A3B5EDE7D11180B5F1AE(((int32_t)(uint16_t)L_223), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3045));
 		V_107 = L_224;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3046));
 		bool L_225 = V_107;
 		if (!L_225)
 		{
@@ -4817,22 +5274,29 @@ IL_0a0c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3047));
 		uint32_t L_226 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3048));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		Il2CppChar L_227;
 		L_227 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(((int32_t)(uint16_t)L_226), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3048));
 		V_5 = L_227;
 	}
 
 IL_0a52:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3049));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3050));
 		goto IL_0ab8;
 	}
 
 IL_0a55:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3051));
 		int32_t L_228 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontStyleInternal;
 		V_108 = (bool)((((int32_t)((int32_t)((int32_t)L_228&8))) == ((int32_t)8))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3052));
 		bool L_229 = V_108;
 		if (!L_229)
 		{
@@ -4840,11 +5304,16 @@ IL_0a55:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3053));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3054));
 		uint32_t L_230 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3055));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_231;
 		L_231 = Char_IsUpper_mF150C44B70F522A14B2A8DF71DE0ADE52F9A3392(((int32_t)(uint16_t)L_230), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3055));
 		V_109 = L_231;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3056));
 		bool L_232 = V_109;
 		if (!L_232)
 		{
@@ -4852,22 +5321,29 @@ IL_0a55:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3057));
 		uint32_t L_233 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3058));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		Il2CppChar L_234;
 		L_234 = Char_ToLower_m238489988C62CB10C7C7CAAEF8F3B2D1C5B5E056(((int32_t)(uint16_t)L_233), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3058));
 		V_5 = L_234;
 	}
 
 IL_0a7f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3059));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3060));
 		goto IL_0ab8;
 	}
 
 IL_0a82:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3061));
 		int32_t L_235 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontStyleInternal;
 		V_110 = (bool)((((int32_t)((int32_t)((int32_t)L_235&((int32_t)32)))) == ((int32_t)((int32_t)32)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3062));
 		bool L_236 = V_110;
 		if (!L_236)
 		{
@@ -4875,11 +5351,16 @@ IL_0a82:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3063));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3064));
 		uint32_t L_237 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3065));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_238;
 		L_238 = Char_IsLower_m9DDB41367F97CFFE6C46A3B5EDE7D11180B5F1AE(((int32_t)(uint16_t)L_237), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3065));
 		V_111 = L_238;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3066));
 		bool L_239 = V_111;
 		if (!L_239)
 		{
@@ -4887,31 +5368,47 @@ IL_0a82:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3067));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3068));
 		V_70 = (0.800000012f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3069));
 		uint32_t L_240 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3070));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		Il2CppChar L_241;
 		L_241 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(((int32_t)(uint16_t)L_240), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3070));
 		V_5 = L_241;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3071));
 	}
 
 IL_0ab7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3072));
 	}
 
 IL_0ab8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3073));
 	}
 
 IL_0ab9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3074));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3075));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_CharacterLookupMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3075));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3076));
 		V_71 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3077));
 		V_72 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3078));
 		V_73 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3079));
 		int32_t L_242 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		V_112 = (bool)((((int32_t)L_242) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3080));
 		bool L_243 = V_112;
 		if (!L_243)
 		{
@@ -4919,27 +5416,39 @@ IL_0ab9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3081));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3082));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3083));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_244;
 		L_244 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3083));
 		NullCheck(L_244);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_245 = L_244->___characterInfo;
 		int32_t L_246 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_245);
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_247 = ((L_245)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_246)))->___textElement;
 		V_113 = ((TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E*)CastclassClass((RuntimeObject*)L_247, TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E_il2cpp_TypeInfo_var));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3084));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_248 = V_113;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3085));
 		NullCheck(L_248);
 		TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969* L_249;
 		L_249 = TMP_TextElement_get_textAsset_m3FFA01E6D0068D1F8F578CBF2590A752683A61EA(L_248, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3085));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset = ((TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39*)IsInstClass((RuntimeObject*)L_249, TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset), (void*)((TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39*)IsInstClass((RuntimeObject*)L_249, TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39_il2cpp_TypeInfo_var)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3086));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_250 = V_113;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3087));
 		NullCheck(L_250);
 		uint32_t L_251;
 		L_251 = TMP_TextElement_get_glyphIndex_m149D0BB0350CFC7D3C46CA011669295DC8CF8E9E(L_250, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3087));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteIndex = L_251;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3088));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_252 = V_113;
 		V_115 = (bool)((((RuntimeObject*)(TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E*)L_252) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3089));
 		bool L_253 = V_115;
 		if (!L_253)
 		{
@@ -4947,15 +5456,22 @@ IL_0ab9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3090));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3091));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3092));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_CharacterLookupMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3092));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3093));
 		goto IL_4ffc;
 	}
 
 IL_0b49:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3094));
 		uint32_t L_254 = V_5;
 		V_116 = (bool)((((int32_t)L_254) == ((int32_t)((int32_t)60)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3095));
 		bool L_255 = V_116;
 		if (!L_255)
 		{
@@ -4963,13 +5479,16 @@ IL_0b49:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3096));
 		int32_t L_256 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteIndex;
 		V_5 = ((int32_t)il2cpp_codegen_add(((int32_t)57344), L_256));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3097));
 		goto IL_0b70;
 	}
 
 IL_0b65:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3098));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_257 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___s_colorWhite;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteColor = L_257;
@@ -4977,21 +5496,30 @@ IL_0b65:
 
 IL_0b70:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3099));
 		float L_258 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_259 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3100));
 		NullCheck(L_259);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_260;
 		L_260 = TMP_Asset_get_faceInfo_m6830F2CF3F0ECDFD65151B755872F9FF518E8FBC(L_259, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3100));
 		V_117 = L_260;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3101));
 		float L_261;
 		L_261 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E((&V_117), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3101));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_262 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3102));
 		NullCheck(L_262);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_263;
 		L_263 = TMP_Asset_get_faceInfo_m6830F2CF3F0ECDFD65151B755872F9FF518E8FBC(L_262, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3102));
 		V_117 = L_263;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3103));
 		float L_264;
 		L_264 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD((&V_117), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3103));
 		bool L_265 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_265)
 		{
@@ -5015,12 +5543,16 @@ IL_0baf:
 IL_0bb4:
 	{
 		V_114 = ((float)il2cpp_codegen_multiply(G_B84_1, G_B84_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3104));
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_266 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_266);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_267 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_266)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3105));
 		float L_268;
 		L_268 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_267, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3105));
 		V_118 = (bool)((((float)L_268) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3106));
 		bool L_269 = V_118;
 		if (!L_269)
 		{
@@ -5028,17 +5560,23 @@ IL_0bb4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3107));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3108));
 		float L_270 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_271 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_271);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_272 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_271)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3109));
 		float L_273;
 		L_273 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_272, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3109));
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_274 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_274);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_275 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_274)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3110));
 		float L_276;
 		L_276 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_275, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3110));
 		bool L_277 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_277)
 		{
@@ -5062,58 +5600,80 @@ IL_0c0f:
 IL_0c14:
 	{
 		V_119 = ((float)il2cpp_codegen_multiply(G_B88_1, G_B88_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3111));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_278 = V_113;
 		NullCheck(L_278);
 		float L_279 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_278)->___m_Scale;
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_280 = V_113;
 		NullCheck(L_280);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_281 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_280)->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3112));
 		NullCheck(L_281);
 		float L_282;
 		L_282 = Glyph_get_scale_m3ED738CBB032247526DB38161E180759B2D06F29(L_281, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3112));
 		float L_283 = V_119;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_279, L_282)), L_283));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3113));
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_284 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_284);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_285 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_284)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3114));
 		float L_286;
 		L_286 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD(L_285, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3114));
 		V_72 = L_286;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3115));
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_287 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_287);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_288 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_287)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3116));
 		float L_289;
 		L_289 = FaceInfo_get_baseline_m934B597D3E0080FEF98CBDD091C457B497179C3A(L_288, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3116));
 		float L_290 = V_114;
 		float L_291 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_292 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_292);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_293 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_292)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3117));
 		float L_294;
 		L_294 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_293, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3117));
 		V_71 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_289, L_290)), L_291)), L_294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3118));
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_295 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentSpriteAsset;
 		NullCheck(L_295);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_296 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_295)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3119));
 		float L_297;
 		L_297 = FaceInfo_get_descentLine_m811A243C9B328B0C546BF9927A010A05DF172BD3(L_296, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3119));
 		V_73 = L_297;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3120));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3121));
 		goto IL_0d63;
 	}
 
 IL_0c86:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3122));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3123));
 		float L_298 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_299 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_299);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_300 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_299)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3124));
 		float L_301;
 		L_301 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_300, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3124));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_302 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_302);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_303 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_302)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3125));
 		float L_304;
 		L_304 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_303, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3125));
 		bool L_305 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_305)
 		{
@@ -5137,74 +5697,99 @@ IL_0cbe:
 IL_0cc3:
 	{
 		V_120 = ((float)il2cpp_codegen_multiply(G_B92_1, G_B92_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3126));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_306 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_306);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_307 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_306)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3127));
 		float L_308;
 		L_308 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD(L_307, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3127));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_309 = V_113;
 		NullCheck(L_309);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_310 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_309)->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3128));
 		NullCheck(L_310);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_311;
 		L_311 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_310, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3128));
 		V_122 = L_311;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3129));
 		float L_312;
 		L_312 = GlyphMetrics_get_height_mE0872B23CE1A20BF78DEACDBD53BAF789D84AD5C((&V_122), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3129));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_313 = V_113;
 		NullCheck(L_313);
 		float L_314 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_313)->___m_Scale;
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_315 = V_113;
 		NullCheck(L_315);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_316 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_315)->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3130));
 		NullCheck(L_316);
 		float L_317;
 		L_317 = Glyph_get_scale_m3ED738CBB032247526DB38161E180759B2D06F29(L_316, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3130));
 		float L_318 = V_120;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(L_308/L_312)), L_314)), L_317)), L_318));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3131));
 		float L_319 = V_120;
 		float L_320 = V_2;
 		V_121 = ((float)(L_319/L_320));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3132));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_321 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_321);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_322 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_321)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3133));
 		float L_323;
 		L_323 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD(L_322, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3133));
 		float L_324 = V_121;
 		V_72 = ((float)il2cpp_codegen_multiply(L_323, L_324));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3134));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_325 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_325);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_326 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_325)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3135));
 		float L_327;
 		L_327 = FaceInfo_get_baseline_m934B597D3E0080FEF98CBDD091C457B497179C3A(L_326, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3135));
 		float L_328 = V_114;
 		float L_329 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_330 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_330);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_331 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_330)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3136));
 		float L_332;
 		L_332 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_331, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3136));
 		V_71 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_327, L_328)), L_329)), L_332));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3137));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_333 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_333);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_334 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_333)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3138));
 		float L_335;
 		L_335 = FaceInfo_get_descentLine_m811A243C9B328B0C546BF9927A010A05DF172BD3(L_334, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3138));
 		float L_336 = V_121;
 		V_73 = ((float)il2cpp_codegen_multiply(L_335, L_336));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3139));
 	}
 
 IL_0d63:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3140));
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_337 = V_113;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement = L_337;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement), (void*)L_337);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3141));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_338 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_338);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_339 = L_338->___characterInfo;
 		int32_t L_340 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_339);
 		((L_339)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_340)))->___elementType = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3142));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_341 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_341);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_342 = L_341->___characterInfo;
@@ -5212,6 +5797,7 @@ IL_0d63:
 		NullCheck(L_342);
 		float L_344 = V_2;
 		((L_342)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_343)))->___scale = L_344;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3143));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_345 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_345);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_346 = L_345->___characterInfo;
@@ -5220,6 +5806,7 @@ IL_0d63:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_348 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		((L_346)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_347)))->___fontAsset = L_348;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_346)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_347)))->___fontAsset), (void*)L_348);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3144));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_349 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_349);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_350 = L_349->___characterInfo;
@@ -5227,16 +5814,22 @@ IL_0d63:
 		NullCheck(L_350);
 		int32_t L_352 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex;
 		((L_350)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_351)))->___materialReferenceIndex = L_352;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3145));
 		int32_t L_353 = V_67;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex = L_353;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3146));
 		V_6 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3147));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3148));
 		goto IL_1081;
 	}
 
 IL_0dfa:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3149));
 		int32_t L_354 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		V_123 = (bool)((((int32_t)L_354) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3150));
 		bool L_355 = V_123;
 		if (!L_355)
 		{
@@ -5244,6 +5837,8 @@ IL_0dfa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3151));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3152));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_356 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_356);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_357 = L_356->___characterInfo;
@@ -5252,8 +5847,10 @@ IL_0dfa:
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_359 = ((L_357)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_358)))->___textElement;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement = L_359;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement), (void*)L_359);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3153));
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_360 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
 		V_125 = (bool)((((RuntimeObject*)(TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_360) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3154));
 		bool L_361 = V_125;
 		if (!L_361)
 		{
@@ -5261,13 +5858,19 @@ IL_0dfa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3155));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3156));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3157));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_CharacterLookupMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3157));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3158));
 		goto IL_4ffc;
 	}
 
 IL_0e4e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3159));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_362 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_362);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_363 = L_362->___characterInfo;
@@ -5276,6 +5879,7 @@ IL_0e4e:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_365 = ((L_363)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_364)))->___fontAsset;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset = L_365;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset), (void*)L_365);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3160));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_366 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_366);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_367 = L_366->___characterInfo;
@@ -5284,6 +5888,7 @@ IL_0e4e:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_369 = ((L_367)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_368)))->___material;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial = L_369;
 		Il2CppCodeGenWriteBarrier((void**)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial), (void*)L_369);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3161));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_370 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_370);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_371 = L_370->___characterInfo;
@@ -5291,6 +5896,7 @@ IL_0e4e:
 		NullCheck(L_371);
 		int32_t L_373 = ((L_371)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_372)))->___materialReferenceIndex;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex = L_373;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3162));
 		bool L_374 = V_69;
 		if (!L_374)
 		{
@@ -5322,6 +5928,7 @@ IL_0ede:
 IL_0edf:
 	{
 		V_126 = (bool)G_B101_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3163));
 		bool L_380 = V_126;
 		if (!L_380)
 		{
@@ -5329,6 +5936,7 @@ IL_0edf:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3164));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_381 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_381);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_382 = L_381->___characterInfo;
@@ -5339,13 +5947,17 @@ IL_0edf:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_386 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_386);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_387 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_386)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3165));
 		float L_388;
 		L_388 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_387, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3165));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_389 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_389);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_390 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_389)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3166));
 		float L_391;
 		L_391 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_390, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3166));
 		bool L_392 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_392)
 		{
@@ -5369,23 +5981,29 @@ IL_0f36:
 IL_0f3b:
 	{
 		V_124 = ((float)il2cpp_codegen_multiply(G_B105_1, G_B105_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3167));
 		goto IL_0f82;
 	}
 
 IL_0f40:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3168));
 		float L_393 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
 		float L_394 = V_70;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_395 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_395);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_396 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_395)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3169));
 		float L_397;
 		L_397 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_396, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3169));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_398 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_398);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_399 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_398)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3170));
 		float L_400;
 		L_400 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_399, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3170));
 		bool L_401 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_401)
 		{
@@ -5413,6 +6031,7 @@ IL_0f7f:
 
 IL_0f82:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3171));
 		bool L_402 = V_69;
 		if (!L_402)
 		{
@@ -5433,6 +6052,7 @@ IL_0f91:
 IL_0f92:
 	{
 		V_127 = (bool)G_B113_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3172));
 		bool L_404 = V_127;
 		if (!L_404)
 		{
@@ -5440,29 +6060,43 @@ IL_0f92:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3173));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3174));
 		V_72 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3175));
 		V_73 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3176));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3177));
 		goto IL_0fd0;
 	}
 
 IL_0faa:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3178));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3179));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_405 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_405);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_406 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_405)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3180));
 		float L_407;
 		L_407 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD(L_406, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3180));
 		V_72 = L_407;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3181));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_408 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_408);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_409 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_408)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3182));
 		float L_410;
 		L_410 = FaceInfo_get_descentLine_m811A243C9B328B0C546BF9927A010A05DF172BD3(L_409, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3182));
 		V_73 = L_410;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3183));
 	}
 
 IL_0fd0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3184));
 		float L_411 = V_124;
 		float L_412 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_413 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
@@ -5471,29 +6105,38 @@ IL_0fd0:
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_415 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
 		NullCheck(L_415);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_416 = L_415->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3185));
 		NullCheck(L_416);
 		float L_417;
 		L_417 = Glyph_get_scale_m3ED738CBB032247526DB38161E180759B2D06F29(L_416, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3185));
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_411, L_412)), L_414)), L_417));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3186));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_418 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_418);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_419 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_418)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3187));
 		float L_420;
 		L_420 = FaceInfo_get_baseline_m934B597D3E0080FEF98CBDD091C457B497179C3A(L_419, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3187));
 		float L_421 = V_124;
 		float L_422 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_423 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_423);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_424 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_423)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3188));
 		float L_425;
 		L_425 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_424, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3188));
 		V_71 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_420, L_421)), L_422)), L_425));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3189));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_426 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_426);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_427 = L_426->___characterInfo;
 		int32_t L_428 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_427);
 		((L_427)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_428)))->___elementType = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3190));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_429 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_429);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_430 = L_429->___characterInfo;
@@ -5501,6 +6144,7 @@ IL_0fd0:
 		NullCheck(L_430);
 		float L_432 = V_2;
 		((L_430)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_431)))->___scale = L_432;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3191));
 		int32_t L_433 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterialIndex;
 		if (!L_433)
 		{
@@ -5513,9 +6157,11 @@ IL_0fd0:
 		NullCheck(L_434);
 		int32_t L_436 = L_435;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_437 = (L_434)->GetAt(static_cast<il2cpp_array_size_t>(L_436));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3192));
 		NullCheck(L_437);
 		float L_438;
 		L_438 = TMP_SubMesh_get_padding_mF12E331397602A9A39ECB674B02412668752F766(L_437, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3192));
 		G_B119_0 = L_438;
 		goto IL_107e;
 	}
@@ -5529,14 +6175,20 @@ IL_1078:
 IL_107e:
 	{
 		V_6 = G_B119_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3193));
 	}
 
 IL_1081:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3194));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3195));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_CharacterLookupMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3195));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3196));
 		float L_440 = V_2;
 		V_74 = L_440;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3197));
 		uint32_t L_441 = V_5;
 		if ((((int32_t)L_441) == ((int32_t)((int32_t)173))))
 		{
@@ -5557,6 +6209,7 @@ IL_109f:
 IL_10a0:
 	{
 		V_128 = (bool)G_B123_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3198));
 		bool L_443 = V_128;
 		if (!L_443)
 		{
@@ -5564,11 +6217,13 @@ IL_10a0:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3199));
 		V_2 = (0.0f);
 	}
 
 IL_10ac:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3200));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_444 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_444);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_445 = L_444->___characterInfo;
@@ -5576,6 +6231,7 @@ IL_10ac:
 		NullCheck(L_445);
 		uint32_t L_447 = V_5;
 		((L_445)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_446)))->___character = ((int32_t)(uint16_t)L_447);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3201));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_448 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_448);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_449 = L_448->___characterInfo;
@@ -5583,6 +6239,7 @@ IL_10ac:
 		NullCheck(L_449);
 		float L_451 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
 		((L_449)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_450)))->___pointSize = L_451;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3202));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_452 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_452);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_453 = L_452->___characterInfo;
@@ -5590,6 +6247,7 @@ IL_10ac:
 		NullCheck(L_453);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_455 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
 		((L_453)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_454)))->___color = L_455;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3203));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_456 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_456);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_457 = L_456->___characterInfo;
@@ -5597,6 +6255,7 @@ IL_10ac:
 		NullCheck(L_457);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_459 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_underlineColor;
 		((L_457)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_458)))->___underlineColor = L_459;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3204));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_460 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_460);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_461 = L_460->___characterInfo;
@@ -5604,6 +6263,7 @@ IL_10ac:
 		NullCheck(L_461);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_463 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_strikethroughColor;
 		((L_461)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_462)))->___strikethroughColor = L_463;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3205));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_464 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_464);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_465 = L_464->___characterInfo;
@@ -5611,6 +6271,7 @@ IL_10ac:
 		NullCheck(L_465);
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_467 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_HighlightState;
 		((L_465)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_466)))->___highlightState = L_467;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3206));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_468 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_468);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_469 = L_468->___characterInfo;
@@ -5618,6 +6279,7 @@ IL_10ac:
 		NullCheck(L_469);
 		int32_t L_471 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FontStyleInternal;
 		((L_469)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_470)))->___style = L_471;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3207));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_472 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_472);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_473 = L_472->___characterInfo;
@@ -5625,6 +6287,7 @@ IL_10ac:
 		NullCheck(L_473);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_475 = ((L_473)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_474)))->___alternativeGlyph;
 		V_75 = L_475;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3208));
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_476 = V_75;
 		if (!L_476)
 		{
@@ -5633,9 +6296,11 @@ IL_10ac:
 	}
 	{
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_477 = V_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3209));
 		NullCheck(L_477);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_478;
 		L_478 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_477, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3209));
 		G_B128_0 = L_478;
 		goto IL_11ca;
 	}
@@ -5645,15 +6310,18 @@ IL_11ba:
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_479 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
 		NullCheck(L_479);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_480 = L_479->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3210));
 		NullCheck(L_480);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_481;
 		L_481 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_480, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3210));
 		G_B128_0 = L_481;
 	}
 
 IL_11ca:
 	{
 		V_76 = G_B128_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3211));
 		uint32_t L_482 = V_5;
 		if ((!(((uint32_t)L_482) <= ((uint32_t)((int32_t)65535)))))
 		{
@@ -5662,9 +6330,11 @@ IL_11ca:
 	}
 	{
 		uint32_t L_483 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3212));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_484;
 		L_484 = Char_IsWhiteSpace_m02AEC6EA19513CAFC6882CFCA54C45794D2B5924(((int32_t)(uint16_t)L_483), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3212));
 		G_B131_0 = ((int32_t)(L_484));
 		goto IL_11e0;
 	}
@@ -5677,9 +6347,12 @@ IL_11df:
 IL_11e0:
 	{
 		V_77 = (bool)G_B131_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3213));
 		il2cpp_codegen_initobj((&V_78), sizeof(GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3214));
 		float L_485 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterSpacing;
 		V_79 = L_485;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3215));
 		bool L_486 = V_18;
 		if (!L_486)
 		{
@@ -5700,6 +6373,7 @@ IL_1201:
 IL_1202:
 	{
 		V_129 = (bool)G_B134_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3216));
 		bool L_488 = V_129;
 		if (!L_488)
 		{
@@ -5707,12 +6381,18 @@ IL_1202:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3217));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3218));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3219));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleGPOSFeaturesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3219));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3220));
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_489 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
 		NullCheck(L_489);
 		uint32_t L_490 = L_489->___m_GlyphIndex;
 		V_131 = L_490;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3221));
 		int32_t L_491 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		int32_t L_492 = V_0;
 		if ((((int32_t)L_491) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_492, 1)))))
@@ -5739,6 +6419,7 @@ IL_1251:
 IL_1252:
 	{
 		V_132 = (bool)G_B138_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3222));
 		bool L_497 = V_132;
 		if (!L_497)
 		{
@@ -5746,6 +6427,8 @@ IL_1252:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3223));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3224));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_498 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_498);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_499 = L_498->___characterInfo;
@@ -5755,19 +6438,24 @@ IL_1252:
 		NullCheck(L_501);
 		uint32_t L_502 = L_501->___m_GlyphIndex;
 		V_133 = L_502;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3225));
 		uint32_t L_503 = V_133;
 		uint32_t L_504 = V_131;
 		V_134 = ((int32_t)(((int32_t)((int32_t)L_503<<((int32_t)16)))|(int32_t)L_504));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3226));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_505 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_505);
 		TMP_FontFeatureTable_t726A09E64FDF682A8FFE294BB6CFE7747F6C40EA* L_506 = L_505->___m_FontFeatureTable;
 		NullCheck(L_506);
 		Dictionary_2_tDD72F78A572F94ECEDBDA75C3D17C3ED05C167E0* L_507 = L_506->___m_GlyphPairAdjustmentRecordLookup;
 		uint32_t L_508 = V_134;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3227));
 		NullCheck(L_507);
 		bool L_509;
 		L_509 = Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA(L_507, L_508, (&V_130), Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3227));
 		V_135 = L_509;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3228));
 		bool L_510 = V_135;
 		if (!L_510)
 		{
@@ -5775,14 +6463,23 @@ IL_1252:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3229));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3230));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3231));
 		GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7 L_511;
 		L_511 = GlyphPairAdjustmentRecord_get_firstAdjustmentRecord_m867469548F17B298F893B78EE2F93D34E4A6C39C((&V_130), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3231));
 		V_136 = L_511;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3232));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_512;
 		L_512 = GlyphAdjustmentRecord_get_glyphValueRecord_m83866DCE07A22F903D4BA417476E64114625BDD7((&V_136), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3232));
 		V_78 = L_512;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3233));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3234));
 		int32_t L_513;
 		L_513 = GlyphPairAdjustmentRecord_get_featureLookupFlags_m08DA76766FDE949068B881DBEA29955C9C43E8A9((&V_130), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3234));
 		if ((((int32_t)((int32_t)((int32_t)L_513&((int32_t)256)))) == ((int32_t)((int32_t)256))))
 		{
 			goto IL_12d4;
@@ -5802,16 +6499,20 @@ IL_12d4:
 IL_12d9:
 	{
 		V_79 = G_B143_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3235));
 	}
 
 IL_12dc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3236));
 	}
 
 IL_12dd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3237));
 		int32_t L_515 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_137 = (bool)((((int32_t)((((int32_t)L_515) < ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3238));
 		bool L_516 = V_137;
 		if (!L_516)
 		{
@@ -5819,6 +6520,8 @@ IL_12dd:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3240));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_517 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_517);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_518 = L_517->___characterInfo;
@@ -5828,11 +6531,15 @@ IL_12dd:
 		NullCheck(L_520);
 		uint32_t L_521 = L_520->___m_GlyphIndex;
 		V_138 = L_521;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3241));
 		uint32_t L_522 = V_131;
 		uint32_t L_523 = V_138;
 		V_139 = ((int32_t)(((int32_t)((int32_t)L_522<<((int32_t)16)))|(int32_t)L_523));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3242));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3243));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_524;
 		L_524 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3243));
 		NullCheck(L_524);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_525 = L_524->___characterInfo;
 		int32_t L_526 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
@@ -5850,9 +6557,11 @@ IL_12dd:
 		NullCheck(L_529);
 		Dictionary_2_tDD72F78A572F94ECEDBDA75C3D17C3ED05C167E0* L_530 = L_529->___m_GlyphPairAdjustmentRecordLookup;
 		uint32_t L_531 = V_139;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3244));
 		NullCheck(L_530);
 		bool L_532;
 		L_532 = Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA(L_530, L_531, (&V_130), Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3244));
 		G_B149_0 = ((int32_t)(L_532));
 		goto IL_135c;
 	}
@@ -5865,6 +6574,7 @@ IL_135b:
 IL_135c:
 	{
 		V_140 = (bool)G_B149_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3245));
 		bool L_533 = V_140;
 		if (!L_533)
 		{
@@ -5872,17 +6582,28 @@ IL_135c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3246));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3247));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_534 = V_78;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3248));
 		GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7 L_535;
 		L_535 = GlyphPairAdjustmentRecord_get_secondAdjustmentRecord_mFDFECB1F7A38E22BD2388FFE9C71E732F6B44D91((&V_130), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3248));
 		V_136 = L_535;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3249));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_536;
 		L_536 = GlyphAdjustmentRecord_get_glyphValueRecord_m83866DCE07A22F903D4BA417476E64114625BDD7((&V_136), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3249));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3250));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_537;
 		L_537 = GlyphValueRecord_op_Addition_mF26165B4CE61A5409AEFF24B0D1727804E13602B(L_534, L_536, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3250));
 		V_78 = L_537;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3251));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3252));
 		int32_t L_538;
 		L_538 = GlyphPairAdjustmentRecord_get_featureLookupFlags_m08DA76766FDE949068B881DBEA29955C9C43E8A9((&V_130), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3252));
 		if ((((int32_t)((int32_t)((int32_t)L_538&((int32_t)256)))) == ((int32_t)((int32_t)256))))
 		{
 			goto IL_1394;
@@ -5902,35 +6623,49 @@ IL_1394:
 IL_1399:
 	{
 		V_79 = G_B153_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3253));
 	}
 
 IL_139c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3254));
 	}
 
 IL_139d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3255));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3256));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleGPOSFeaturesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3256));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3257));
 	}
 
 IL_13a9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3258));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_540 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_540);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_541 = L_540->___characterInfo;
 		int32_t L_542 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_541);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3259));
 		float L_543;
 		L_543 = GlyphValueRecord_get_xAdvance_m6C392027FA91E0705C1585C5EF40D984AAA0013E((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3259));
 		((L_541)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_542)))->___adjustedHorizontalAdvance = L_543;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3260));
 		uint32_t L_544 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3261));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextParsingUtilities_tF6AF6ED06ADFB8C71F4C1D713D677D821A1AB6FA_il2cpp_TypeInfo_var);
 		bool L_545;
 		L_545 = TMP_TextParsingUtilities_IsBaseGlyph_mB834269DBBAA4556C0082CC35C415408504FB667(L_544, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3261));
 		V_80 = L_545;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3262));
 		bool L_546 = V_80;
 		V_141 = L_546;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3263));
 		bool L_547 = V_141;
 		if (!L_547)
 		{
@@ -5938,12 +6673,14 @@ IL_13a9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3264));
 		int32_t L_548 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_LastBaseGlyphIndex = L_548;
 	}
 
 IL_13e8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3265));
 		int32_t L_549 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		if ((((int32_t)L_549) <= ((int32_t)0)))
 		{
@@ -5964,6 +6701,7 @@ IL_13f8:
 IL_13f9:
 	{
 		V_142 = (bool)G_B161_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3266));
 		bool L_551 = V_142;
 		if (!L_551)
 		{
@@ -5971,6 +6709,8 @@ IL_13f9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3267));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3268));
 		bool L_552 = V_19;
 		if (!L_552)
 		{
@@ -5999,6 +6739,7 @@ IL_1426:
 IL_1427:
 	{
 		V_143 = (bool)G_B166_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3269));
 		bool L_556 = V_143;
 		if (!L_556)
 		{
@@ -6006,40 +6747,57 @@ IL_1427:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3270));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3271));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_557 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_557);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_558 = L_557->___characterInfo;
 		int32_t L_559 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_LastBaseGlyphIndex;
 		NullCheck(L_558);
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_560 = ((L_558)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_559)))->___textElement;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3272));
 		NullCheck(L_560);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_561;
 		L_561 = TMP_TextElement_get_glyph_mB86D5107DDF4ADB051309056E876FEAE843E3D07(L_560, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3272));
 		V_144 = L_561;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3273));
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_562 = V_144;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3274));
 		NullCheck(L_562);
 		uint32_t L_563;
 		L_563 = Glyph_get_index_mCFBBCF85E7F3434B7A595EEE3411EFFB78E5675B(L_562, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3274));
 		V_145 = L_563;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3275));
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_564 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3276));
 		NullCheck(L_564);
 		uint32_t L_565;
 		L_565 = TMP_TextElement_get_glyphIndex_m149D0BB0350CFC7D3C46CA011669295DC8CF8E9E(L_564, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3276));
 		V_146 = L_565;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3277));
 		uint32_t L_566 = V_146;
 		uint32_t L_567 = V_145;
 		V_147 = ((int32_t)(((int32_t)((int32_t)L_566<<((int32_t)16)))|(int32_t)L_567));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3278));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_568 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3279));
 		NullCheck(L_568);
 		TMP_FontFeatureTable_t726A09E64FDF682A8FFE294BB6CFE7747F6C40EA* L_569;
 		L_569 = TMP_FontAsset_get_fontFeatureTable_mF00EEAEDD0448BE4667CB959CCE79ED45D2300AE(L_568, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3279));
 		NullCheck(L_569);
 		Dictionary_2_t6AA994EB908D0B6ECBFAD0B0016724DF28AD00E8* L_570 = L_569->___m_MarkToBaseAdjustmentRecordLookup;
 		uint32_t L_571 = V_147;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3280));
 		NullCheck(L_570);
 		bool L_572;
 		L_572 = Dictionary_2_TryGetValue_m45B78C642E930CAEB2F7E24E40FF1FC48A30CF71(L_570, L_571, (&V_148), Dictionary_2_TryGetValue_m45B78C642E930CAEB2F7E24E40FF1FC48A30CF71_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3280));
 		V_149 = L_572;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3281));
 		bool L_573 = V_149;
 		if (!L_573)
 		{
@@ -6047,6 +6805,8 @@ IL_1427:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3282));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3283));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_574 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_574);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_575 = L_574->___characterInfo;
@@ -6056,42 +6816,72 @@ IL_1427:
 		float L_578 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_579 = V_2;
 		V_150 = ((float)(((float)il2cpp_codegen_subtract(L_577, L_578))/L_579));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3284));
 		float L_580 = V_150;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3285));
 		GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929 L_581;
 		L_581 = MarkToBaseAdjustmentRecord_get_baseGlyphAnchorPoint_mFECF1D5AFAC10D1DBB0C5147325AE5D6D9083E31((&V_148), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3285));
 		V_151 = L_581;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3286));
 		float L_582;
 		L_582 = GlyphAnchorPoint_get_xCoordinate_m17636F751AE0D4897647F617EE2823093E8968A0((&V_151), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3286));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3287));
 		MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED L_583;
 		L_583 = MarkToBaseAdjustmentRecord_get_markPositionAdjustment_mC04ECF73BB1C639C692E34DF7DBBC21B09661E84((&V_148), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3287));
 		V_152 = L_583;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3288));
 		float L_584;
 		L_584 = MarkPositionAdjustment_get_xPositionAdjustment_m20DA20230B832D18BD7AE7A715981046917833F3((&V_152), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3288));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3289));
 		GlyphValueRecord_set_xPlacement_m79F92029922BDE50ED63A6A03EBE478869F1CCFC((&V_78), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_580, L_582)), L_584)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3289));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3290));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3291));
 		GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929 L_585;
 		L_585 = MarkToBaseAdjustmentRecord_get_baseGlyphAnchorPoint_mFECF1D5AFAC10D1DBB0C5147325AE5D6D9083E31((&V_148), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3291));
 		V_151 = L_585;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3292));
 		float L_586;
 		L_586 = GlyphAnchorPoint_get_yCoordinate_mF413FBEB1E2819FC6CFEA33234080D0359F06549((&V_151), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3292));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3293));
 		MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED L_587;
 		L_587 = MarkToBaseAdjustmentRecord_get_markPositionAdjustment_mC04ECF73BB1C639C692E34DF7DBBC21B09661E84((&V_148), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3293));
 		V_152 = L_587;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3294));
 		float L_588;
 		L_588 = MarkPositionAdjustment_get_yPositionAdjustment_m0D9AA5E5D5AFFF371CBFE74D2133B47364CD238A((&V_152), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3294));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3295));
 		GlyphValueRecord_set_yPlacement_m04DA300FAB827A708CB291DA3B2EA3128279CA2B((&V_78), ((float)il2cpp_codegen_subtract(L_586, L_588)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3295));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3296));
 		V_79 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3297));
 	}
 
 IL_1519:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3298));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3299));
 		goto IL_178d;
 	}
 
 IL_151f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3300));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3301));
 		V_153 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3302));
 		bool L_589 = V_20;
 		V_154 = L_589;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3303));
 		bool L_590 = V_154;
 		if (!L_590)
 		{
@@ -6099,47 +6889,67 @@ IL_151f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3304));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3305));
 		int32_t L_591 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_155 = ((int32_t)il2cpp_codegen_subtract(L_591, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3306));
 		goto IL_1661;
 	}
 
 IL_153e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3307));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3308));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_592 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_592);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_593 = L_592->___characterInfo;
 		int32_t L_594 = V_155;
 		NullCheck(L_593);
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_595 = ((L_593)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_594)))->___textElement;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3309));
 		NullCheck(L_595);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_596;
 		L_596 = TMP_TextElement_get_glyph_mB86D5107DDF4ADB051309056E876FEAE843E3D07(L_595, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3309));
 		V_156 = L_596;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3310));
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_597 = V_156;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3311));
 		NullCheck(L_597);
 		uint32_t L_598;
 		L_598 = Glyph_get_index_mCFBBCF85E7F3434B7A595EEE3411EFFB78E5675B(L_597, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3311));
 		V_157 = L_598;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3312));
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_599 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3313));
 		NullCheck(L_599);
 		uint32_t L_600;
 		L_600 = TMP_TextElement_get_glyphIndex_m149D0BB0350CFC7D3C46CA011669295DC8CF8E9E(L_599, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3313));
 		V_158 = L_600;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3314));
 		uint32_t L_601 = V_158;
 		uint32_t L_602 = V_157;
 		V_159 = ((int32_t)(((int32_t)((int32_t)L_601<<((int32_t)16)))|(int32_t)L_602));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3315));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_603 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3316));
 		NullCheck(L_603);
 		TMP_FontFeatureTable_t726A09E64FDF682A8FFE294BB6CFE7747F6C40EA* L_604;
 		L_604 = TMP_FontAsset_get_fontFeatureTable_mF00EEAEDD0448BE4667CB959CCE79ED45D2300AE(L_603, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3316));
 		NullCheck(L_604);
 		Dictionary_2_t704C4C70AC9027C0D13940C8652AEAB7F0686F95* L_605 = L_604->___m_MarkToMarkAdjustmentRecordLookup;
 		uint32_t L_606 = V_159;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3317));
 		NullCheck(L_605);
 		bool L_607;
 		L_607 = Dictionary_2_TryGetValue_mFE1EB0F6367B8DBC398D6CDFEDEE4C7E8BF9C4A6(L_605, L_606, (&V_160), Dictionary_2_TryGetValue_mFE1EB0F6367B8DBC398D6CDFEDEE4C7E8BF9C4A6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3317));
 		V_161 = L_607;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3318));
 		bool L_608 = V_161;
 		if (!L_608)
 		{
@@ -6147,6 +6957,8 @@ IL_153e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3319));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3320));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_609 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_609);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_610 = L_609->___characterInfo;
@@ -6156,10 +6968,12 @@ IL_153e:
 		float L_613 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_614 = V_2;
 		V_162 = ((float)(((float)il2cpp_codegen_subtract(L_612, L_613))/L_614));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3321));
 		float L_615 = V_71;
 		float L_616 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		float L_617 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
 		V_163 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_615, L_616)), L_617));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3322));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_618 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_618);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_619 = L_618->___characterInfo;
@@ -6169,37 +6983,64 @@ IL_153e:
 		float L_622 = V_163;
 		float L_623 = V_2;
 		V_164 = ((float)(((float)il2cpp_codegen_subtract(L_621, L_622))/L_623));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3323));
 		float L_624 = V_162;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3324));
 		GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929 L_625;
 		L_625 = MarkToMarkAdjustmentRecord_get_baseMarkGlyphAnchorPoint_mA5B70EE56DD3ACAA43B0B8F517F99D6EBE8B6D4F((&V_160), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3324));
 		V_151 = L_625;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3325));
 		float L_626;
 		L_626 = GlyphAnchorPoint_get_xCoordinate_m17636F751AE0D4897647F617EE2823093E8968A0((&V_151), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3325));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3326));
 		MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED L_627;
 		L_627 = MarkToMarkAdjustmentRecord_get_combiningMarkPositionAdjustment_m9C1B756599DAE78BA91E728565A52EA49BFF60FC((&V_160), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3326));
 		V_152 = L_627;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3327));
 		float L_628;
 		L_628 = MarkPositionAdjustment_get_xPositionAdjustment_m20DA20230B832D18BD7AE7A715981046917833F3((&V_152), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3327));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3328));
 		GlyphValueRecord_set_xPlacement_m79F92029922BDE50ED63A6A03EBE478869F1CCFC((&V_78), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_624, L_626)), L_628)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3328));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3329));
 		float L_629 = V_164;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3330));
 		GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929 L_630;
 		L_630 = MarkToMarkAdjustmentRecord_get_baseMarkGlyphAnchorPoint_mA5B70EE56DD3ACAA43B0B8F517F99D6EBE8B6D4F((&V_160), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3330));
 		V_151 = L_630;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3331));
 		float L_631;
 		L_631 = GlyphAnchorPoint_get_yCoordinate_mF413FBEB1E2819FC6CFEA33234080D0359F06549((&V_151), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3331));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3332));
 		MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED L_632;
 		L_632 = MarkToMarkAdjustmentRecord_get_combiningMarkPositionAdjustment_m9C1B756599DAE78BA91E728565A52EA49BFF60FC((&V_160), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3332));
 		V_152 = L_632;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3333));
 		float L_633;
 		L_633 = MarkPositionAdjustment_get_yPositionAdjustment_m0D9AA5E5D5AFFF371CBFE74D2133B47364CD238A((&V_152), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3333));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3334));
 		GlyphValueRecord_set_yPlacement_m04DA300FAB827A708CB291DA3B2EA3128279CA2B((&V_78), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_629, L_631)), L_633)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3334));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3335));
 		V_79 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3336));
 		V_153 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3337));
 		goto IL_167f;
 	}
 
 IL_1656:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3338));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3339));
 		int32_t L_634 = V_155;
 		V_62 = L_634;
 		int32_t L_635 = V_62;
@@ -6208,6 +7049,7 @@ IL_1656:
 
 IL_1661:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3340));
 		int32_t L_636 = V_155;
 		if ((((int32_t)L_636) < ((int32_t)0)))
 		{
@@ -6229,6 +7071,7 @@ IL_1675:
 IL_1676:
 	{
 		V_165 = (bool)G_B178_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3341));
 		bool L_639 = V_165;
 		if (L_639)
 		{
@@ -6238,10 +7081,12 @@ IL_1676:
 
 IL_167f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3342));
 	}
 
 IL_1680:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3343));
 		bool L_640 = V_19;
 		if (!L_640)
 		{
@@ -6269,6 +7114,7 @@ IL_1698:
 IL_1699:
 	{
 		V_166 = (bool)G_B184_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3344));
 		bool L_643 = V_166;
 		if (!L_643)
 		{
@@ -6276,40 +7122,57 @@ IL_1699:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3345));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3346));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_644 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_644);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_645 = L_644->___characterInfo;
 		int32_t L_646 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_LastBaseGlyphIndex;
 		NullCheck(L_645);
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_647 = ((L_645)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_646)))->___textElement;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3347));
 		NullCheck(L_647);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_648;
 		L_648 = TMP_TextElement_get_glyph_mB86D5107DDF4ADB051309056E876FEAE843E3D07(L_647, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3347));
 		V_167 = L_648;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3348));
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_649 = V_167;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3349));
 		NullCheck(L_649);
 		uint32_t L_650;
 		L_650 = Glyph_get_index_mCFBBCF85E7F3434B7A595EEE3411EFFB78E5675B(L_649, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3349));
 		V_168 = L_650;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3350));
 		TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* L_651 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cached_TextElement;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3351));
 		NullCheck(L_651);
 		uint32_t L_652;
 		L_652 = TMP_TextElement_get_glyphIndex_m149D0BB0350CFC7D3C46CA011669295DC8CF8E9E(L_651, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3351));
 		V_169 = L_652;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3352));
 		uint32_t L_653 = V_169;
 		uint32_t L_654 = V_168;
 		V_170 = ((int32_t)(((int32_t)((int32_t)L_653<<((int32_t)16)))|(int32_t)L_654));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3353));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_655 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3354));
 		NullCheck(L_655);
 		TMP_FontFeatureTable_t726A09E64FDF682A8FFE294BB6CFE7747F6C40EA* L_656;
 		L_656 = TMP_FontAsset_get_fontFeatureTable_mF00EEAEDD0448BE4667CB959CCE79ED45D2300AE(L_655, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3354));
 		NullCheck(L_656);
 		Dictionary_2_t6AA994EB908D0B6ECBFAD0B0016724DF28AD00E8* L_657 = L_656->___m_MarkToBaseAdjustmentRecordLookup;
 		uint32_t L_658 = V_170;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3355));
 		NullCheck(L_657);
 		bool L_659;
 		L_659 = Dictionary_2_TryGetValue_m45B78C642E930CAEB2F7E24E40FF1FC48A30CF71(L_657, L_658, (&V_171), Dictionary_2_TryGetValue_m45B78C642E930CAEB2F7E24E40FF1FC48A30CF71_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3355));
 		V_172 = L_659;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3356));
 		bool L_660 = V_172;
 		if (!L_660)
 		{
@@ -6317,6 +7180,8 @@ IL_1699:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3357));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3358));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_661 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_661);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_662 = L_661->___characterInfo;
@@ -6326,56 +7191,91 @@ IL_1699:
 		float L_665 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_666 = V_2;
 		V_173 = ((float)(((float)il2cpp_codegen_subtract(L_664, L_665))/L_666));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3359));
 		float L_667 = V_173;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3360));
 		GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929 L_668;
 		L_668 = MarkToBaseAdjustmentRecord_get_baseGlyphAnchorPoint_mFECF1D5AFAC10D1DBB0C5147325AE5D6D9083E31((&V_171), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3360));
 		V_151 = L_668;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3361));
 		float L_669;
 		L_669 = GlyphAnchorPoint_get_xCoordinate_m17636F751AE0D4897647F617EE2823093E8968A0((&V_151), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3361));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3362));
 		MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED L_670;
 		L_670 = MarkToBaseAdjustmentRecord_get_markPositionAdjustment_mC04ECF73BB1C639C692E34DF7DBBC21B09661E84((&V_171), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3362));
 		V_152 = L_670;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3363));
 		float L_671;
 		L_671 = MarkPositionAdjustment_get_xPositionAdjustment_m20DA20230B832D18BD7AE7A715981046917833F3((&V_152), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3363));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3364));
 		GlyphValueRecord_set_xPlacement_m79F92029922BDE50ED63A6A03EBE478869F1CCFC((&V_78), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_667, L_669)), L_671)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3364));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3365));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3366));
 		GlyphAnchorPoint_t1E0A7753CCCC41F22D3C408C4F96DDEC70291929 L_672;
 		L_672 = MarkToBaseAdjustmentRecord_get_baseGlyphAnchorPoint_mFECF1D5AFAC10D1DBB0C5147325AE5D6D9083E31((&V_171), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3366));
 		V_151 = L_672;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3367));
 		float L_673;
 		L_673 = GlyphAnchorPoint_get_yCoordinate_mF413FBEB1E2819FC6CFEA33234080D0359F06549((&V_151), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3367));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3368));
 		MarkPositionAdjustment_tEE7CE316B8F61A7D6725524435B6363E849C62ED L_674;
 		L_674 = MarkToBaseAdjustmentRecord_get_markPositionAdjustment_mC04ECF73BB1C639C692E34DF7DBBC21B09661E84((&V_171), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3368));
 		V_152 = L_674;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3369));
 		float L_675;
 		L_675 = MarkPositionAdjustment_get_yPositionAdjustment_m0D9AA5E5D5AFFF371CBFE74D2133B47364CD238A((&V_152), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3369));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3370));
 		GlyphValueRecord_set_yPlacement_m04DA300FAB827A708CB291DA3B2EA3128279CA2B((&V_78), ((float)il2cpp_codegen_subtract(L_673, L_675)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3370));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3371));
 		V_79 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3372));
 	}
 
 IL_178b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3373));
 	}
 
 IL_178c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3374));
 	}
 
 IL_178d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3375));
 	}
 
 IL_178e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3376));
 		float L_676 = V_72;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3377));
 		float L_677;
 		L_677 = GlyphValueRecord_get_yPlacement_mB6303F8800305F6F96ECCD0CD9AA70A1A30A15DA((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3377));
 		V_72 = ((float)il2cpp_codegen_add(L_676, L_677));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3378));
 		float L_678 = V_73;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3379));
 		float L_679;
 		L_679 = GlyphValueRecord_get_yPlacement_mB6303F8800305F6F96ECCD0CD9AA70A1A30A15DA((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3379));
 		V_73 = ((float)il2cpp_codegen_add(L_678, L_679));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3380));
 		bool L_680 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_174 = L_680;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3381));
 		bool L_681 = V_174;
 		if (!L_681)
 		{
@@ -6383,12 +7283,17 @@ IL_178e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3382));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3383));
 		float L_682 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3384));
 		float L_683;
 		L_683 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3384));
 		float L_684 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_685 = V_2;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_subtract(L_682, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_683, ((float)il2cpp_codegen_subtract((1.0f), L_684)))), L_685))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3385));
 		bool L_686 = V_77;
 		if (L_686)
 		{
@@ -6409,6 +7314,7 @@ IL_17e5:
 IL_17e6:
 	{
 		V_175 = (bool)G_B194_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3386));
 		bool L_688 = V_175;
 		if (!L_688)
 		{
@@ -6416,6 +7322,7 @@ IL_17e6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3387));
 		float L_689 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_690 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_wordSpacing;
 		float L_691 = V_3;
@@ -6424,13 +7331,17 @@ IL_17e6:
 
 IL_1801:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3388));
 	}
 
 IL_1802:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3389));
 		V_81 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3390));
 		float L_692 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing;
 		V_176 = (bool)((((int32_t)((((float)L_692) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3391));
 		bool L_693 = V_176;
 		if (!L_693)
 		{
@@ -6438,6 +7349,8 @@ IL_1802:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3392));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3393));
 		bool L_694 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_duoSpace;
 		if (!L_694)
 		{
@@ -6483,6 +7396,7 @@ IL_1842:
 IL_1843:
 	{
 		V_177 = (bool)G_B205_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3394));
 		bool L_698 = V_177;
 		if (!L_698)
 		{
@@ -6490,24 +7404,35 @@ IL_1843:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3395));
 		float L_699 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3396));
 		float L_700;
 		L_700 = GlyphMetrics_get_width_m0F9F391E3A98984167E8001D4101BE1CE9354D13((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3396));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3397));
 		float L_701;
 		L_701 = GlyphMetrics_get_horizontalBearingX_m9C39B5E6D27FF34B706649AE47EE9390B5D76D6F((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3397));
 		float L_702 = V_2;
 		float L_703 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_81 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)(L_699/(4.0f))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)(L_700/(2.0f))), L_701)), L_702)))), ((float)il2cpp_codegen_subtract((1.0f), L_703))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3398));
 		goto IL_18b1;
 	}
 
 IL_187e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3399));
 		float L_704 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3400));
 		float L_705;
 		L_705 = GlyphMetrics_get_width_m0F9F391E3A98984167E8001D4101BE1CE9354D13((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3400));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3401));
 		float L_706;
 		L_706 = GlyphMetrics_get_horizontalBearingX_m9C39B5E6D27FF34B706649AE47EE9390B5D76D6F((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3401));
 		float L_707 = V_2;
 		float L_708 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_81 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)(L_704/(2.0f))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)(L_705/(2.0f))), L_706)), L_707)))), ((float)il2cpp_codegen_subtract((1.0f), L_708))));
@@ -6515,13 +7440,16 @@ IL_187e:
 
 IL_18b1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3402));
 		float L_709 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_710 = V_81;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_add(L_709, L_710));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3403));
 	}
 
 IL_18c1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3404));
 		int32_t L_711 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		if (L_711)
 		{
@@ -6549,6 +7477,7 @@ IL_18da:
 IL_18db:
 	{
 		V_178 = (bool)G_B213_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3405));
 		bool L_714 = V_178;
 		if (!L_714)
 		{
@@ -6556,10 +7485,14 @@ IL_18db:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3406));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3407));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_715 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3408));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_716;
 		L_716 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_715, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3408));
 		if (!L_716)
 		{
 			goto IL_1905;
@@ -6569,9 +7502,11 @@ IL_18db:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_717 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		int32_t L_718 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_GradientScale;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3409));
 		NullCheck(L_717);
 		bool L_719;
 		L_719 = Material_HasProperty_m52E2D3BC3049B8B228149E023CD73C34B05A5222(L_717, L_718, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3409));
 		G_B217_0 = ((int32_t)(L_719));
 		goto IL_1906;
 	}
@@ -6584,6 +7519,7 @@ IL_1905:
 IL_1906:
 	{
 		V_179 = (bool)G_B217_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3410));
 		bool L_720 = V_179;
 		if (!L_720)
 		{
@@ -6591,27 +7527,36 @@ IL_1906:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3411));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3412));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_721 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		int32_t L_722 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_GradientScale;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3413));
 		NullCheck(L_721);
 		float L_723;
 		L_723 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_721, L_722, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3413));
 		V_180 = L_723;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3414));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_724 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_724);
 		float L_725 = L_724->___boldStyle;
 		float L_726 = V_180;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_727 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		int32_t L_728 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_ScaleRatio_A;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3415));
 		NullCheck(L_727);
 		float L_729;
 		L_729 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_727, L_728, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3415));
 		V_83 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(L_725/(4.0f))), L_726)), L_729));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3416));
 		float L_730 = V_83;
 		float L_731 = V_6;
 		float L_732 = V_180;
 		V_181 = (bool)((((float)((float)il2cpp_codegen_add(L_730, L_731))) > ((float)L_732))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3417));
 		bool L_733 = V_181;
 		if (!L_733)
 		{
@@ -6619,6 +7564,7 @@ IL_1906:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3418));
 		float L_734 = V_180;
 		float L_735 = V_83;
 		V_6 = ((float)il2cpp_codegen_subtract(L_734, L_735));
@@ -6626,29 +7572,39 @@ IL_1906:
 
 IL_195c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3419));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3420));
 		goto IL_1966;
 	}
 
 IL_195f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3421));
 		V_83 = (0.0f);
 	}
 
 IL_1966:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3422));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_736 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_736);
 		float L_737 = L_736->___boldSpacing;
 		V_82 = L_737;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3423));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3424));
 		goto IL_1a15;
 	}
 
 IL_1979:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3425));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3426));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_738 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3427));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_739;
 		L_739 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_738, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3427));
 		if (!L_739)
 		{
 			goto IL_19ac;
@@ -6658,9 +7614,11 @@ IL_1979:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_740 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		int32_t L_741 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_GradientScale;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3428));
 		NullCheck(L_740);
 		bool L_742;
 		L_742 = Material_HasProperty_m52E2D3BC3049B8B228149E023CD73C34B05A5222(L_740, L_741, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3428));
 		if (!L_742)
 		{
 			goto IL_19ac;
@@ -6670,9 +7628,11 @@ IL_1979:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_743 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		int32_t L_744 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_ScaleRatio_A;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3429));
 		NullCheck(L_743);
 		bool L_745;
 		L_745 = Material_HasProperty_m52E2D3BC3049B8B228149E023CD73C34B05A5222(L_743, L_744, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3429));
 		G_B227_0 = ((int32_t)(L_745));
 		goto IL_19ad;
 	}
@@ -6685,6 +7645,7 @@ IL_19ac:
 IL_19ad:
 	{
 		V_182 = (bool)G_B227_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3430));
 		bool L_746 = V_182;
 		if (!L_746)
 		{
@@ -6692,27 +7653,36 @@ IL_19ad:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3431));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3432));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_747 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		int32_t L_748 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_GradientScale;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3433));
 		NullCheck(L_747);
 		float L_749;
 		L_749 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_747, L_748, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3433));
 		V_183 = L_749;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3434));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_750 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_750);
 		float L_751 = L_750->___normalStyle;
 		float L_752 = V_183;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_753 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentMaterial;
 		int32_t L_754 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ID_ScaleRatio_A;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3435));
 		NullCheck(L_753);
 		float L_755;
 		L_755 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_753, L_754, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3435));
 		V_83 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(L_751/(4.0f))), L_752)), L_755));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3436));
 		float L_756 = V_83;
 		float L_757 = V_6;
 		float L_758 = V_183;
 		V_184 = (bool)((((float)((float)il2cpp_codegen_add(L_756, L_757))) > ((float)L_758))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3437));
 		bool L_759 = V_184;
 		if (!L_759)
 		{
@@ -6720,6 +7690,7 @@ IL_19ad:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3438));
 		float L_760 = V_183;
 		float L_761 = V_83;
 		V_6 = ((float)il2cpp_codegen_subtract(L_760, L_761));
@@ -6727,61 +7698,88 @@ IL_19ad:
 
 IL_1a03:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3439));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3440));
 		goto IL_1a0d;
 	}
 
 IL_1a06:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3441));
 		V_83 = (0.0f);
 	}
 
 IL_1a0d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3442));
 		V_82 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3443));
 	}
 
 IL_1a15:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3444));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3445));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_CalculateVerticesPositionMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3445));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3446));
 		float L_762 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3447));
 		float L_763;
 		L_763 = GlyphMetrics_get_horizontalBearingX_m9C39B5E6D27FF34B706649AE47EE9390B5D76D6F((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3447));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_764 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXScale);
 		float L_765 = L_764->___x;
 		float L_766 = V_6;
 		float L_767 = V_83;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3448));
 		float L_768;
 		L_768 = GlyphValueRecord_get_xPlacement_m5E2B8B05A5DF57B2DC4B3795E71330CDDE1761C8((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3448));
 		float L_769 = V_2;
 		float L_770 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		(&V_84)->___x = ((float)il2cpp_codegen_add(L_762, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_763, L_765)), L_766)), L_767)), L_768)), L_769)), ((float)il2cpp_codegen_subtract((1.0f), L_770))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3449));
 		float L_771 = V_71;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3450));
 		float L_772;
 		L_772 = GlyphMetrics_get_horizontalBearingY_mD316BDD38A32258256994D6A2BCF0FC051D9B223((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3450));
 		float L_773 = V_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3451));
 		float L_774;
 		L_774 = GlyphValueRecord_get_yPlacement_mB6303F8800305F6F96ECCD0CD9AA70A1A30A15DA((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3451));
 		float L_775 = V_2;
 		float L_776 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		float L_777 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
 		(&V_84)->___y = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_771, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_772, L_773)), L_774)), L_775)))), L_776)), L_777));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3452));
 		(&V_84)->___z = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3453));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_778 = V_84;
 		float L_779 = L_778.___x;
 		(&V_85)->___x = L_779;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3454));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_780 = V_84;
 		float L_781 = L_780.___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3455));
 		float L_782;
 		L_782 = GlyphMetrics_get_height_mE0872B23CE1A20BF78DEACDBD53BAF789D84AD5C((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3455));
 		float L_783 = V_6;
 		float L_784 = V_2;
 		(&V_85)->___y = ((float)il2cpp_codegen_subtract(L_781, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_782, ((float)il2cpp_codegen_multiply(L_783, (2.0f))))), L_784))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3456));
 		(&V_85)->___z = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3457));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_785 = V_85;
 		float L_786 = L_785.___x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3458));
 		float L_787;
 		L_787 = GlyphMetrics_get_width_m0F9F391E3A98984167E8001D4101BE1CE9354D13((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3458));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_788 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXScale);
 		float L_789 = L_788->___x;
 		float L_790 = V_6;
@@ -6789,18 +7787,27 @@ IL_1a15:
 		float L_792 = V_2;
 		float L_793 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		(&V_86)->___x = ((float)il2cpp_codegen_add(L_786, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_787, L_789)), ((float)il2cpp_codegen_multiply(L_790, (2.0f))))), ((float)il2cpp_codegen_multiply(L_791, (2.0f))))), L_792)), ((float)il2cpp_codegen_subtract((1.0f), L_793))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3459));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_794 = V_84;
 		float L_795 = L_794.___y;
 		(&V_86)->___y = L_795;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3460));
 		(&V_86)->___z = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3461));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_796 = V_86;
 		float L_797 = L_796.___x;
 		(&V_87)->___x = L_797;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3462));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_798 = V_85;
 		float L_799 = L_798.___y;
 		(&V_87)->___y = L_799;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3463));
 		(&V_87)->___z = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3464));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3465));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_CalculateVerticesPositionMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3465));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3466));
 		int32_t L_800 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		if (L_800)
 		{
@@ -6828,6 +7835,7 @@ IL_1b7a:
 IL_1b7b:
 	{
 		V_185 = (bool)G_B237_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3467));
 		bool L_803 = V_185;
 		if (!L_803)
 		{
@@ -6835,74 +7843,114 @@ IL_1b7b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3468));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3469));
 		int32_t L_804 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ItalicAngle;
 		V_186 = ((float)il2cpp_codegen_multiply(((float)L_804), (0.00999999978f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3470));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_805 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_805);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_806 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_805)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3471));
 		float L_807;
 		L_807 = FaceInfo_get_capLine_m0D95B5D5CEC5CFB12091F5EB5965DE6E38588C88(L_806, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3471));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_808 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_808);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_809 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_808)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3472));
 		float L_810;
 		L_810 = FaceInfo_get_baseline_m934B597D3E0080FEF98CBDD091C457B497179C3A(L_809, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3472));
 		float L_811 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
 		float L_812 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_813 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_813);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_814 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_813)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3473));
 		float L_815;
 		L_815 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_814, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3473));
 		V_187 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_subtract(L_807, ((float)il2cpp_codegen_add(L_810, L_811))))/(2.0f))), L_812)), L_815));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3474));
 		float L_816 = V_186;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3475));
 		float L_817;
 		L_817 = GlyphMetrics_get_horizontalBearingY_mD316BDD38A32258256994D6A2BCF0FC051D9B223((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3475));
 		float L_818 = V_6;
 		float L_819 = V_83;
 		float L_820 = V_187;
 		float L_821 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3476));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_188), ((float)il2cpp_codegen_multiply(L_816, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_817, L_818)), L_819)), L_820)), L_821)))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3476));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3477));
 		float L_822 = V_186;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3478));
 		float L_823;
 		L_823 = GlyphMetrics_get_horizontalBearingY_mD316BDD38A32258256994D6A2BCF0FC051D9B223((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3478));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3479));
 		float L_824;
 		L_824 = GlyphMetrics_get_height_mE0872B23CE1A20BF78DEACDBD53BAF789D84AD5C((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3479));
 		float L_825 = V_6;
 		float L_826 = V_83;
 		float L_827 = V_187;
 		float L_828 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3480));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_189), ((float)il2cpp_codegen_multiply(L_822, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_823, L_824)), L_825)), L_826)), L_827)), L_828)))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3480));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3481));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_829 = V_84;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_830 = V_188;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3482));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_831;
 		L_831 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_829, L_830, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3482));
 		V_84 = L_831;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3483));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_832 = V_85;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_833 = V_189;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3484));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_834;
 		L_834 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_832, L_833, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3484));
 		V_85 = L_834;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3485));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_835 = V_86;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_836 = V_188;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3486));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_837;
 		L_837 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_835, L_836, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3486));
 		V_86 = L_837;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3487));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_838 = V_87;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_839 = V_189;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3488));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_840;
 		L_840 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_838, L_839, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3488));
 		V_87 = L_840;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3489));
 	}
 
 IL_1c5d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3490));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_841 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXRotation;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3491));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_842;
 		L_842 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3491));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3492));
 		bool L_843;
 		L_843 = Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_inline(L_841, L_842, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3492));
 		V_190 = L_843;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3493));
 		bool L_844 = V_190;
 		if (!L_844)
 		{
@@ -6910,61 +7958,100 @@ IL_1c5d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3494));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3495));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_845 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXRotation;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3496));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_846;
 		L_846 = Matrix4x4_Rotate_m015442530DFF5651458BBFDFB3CBC9180FC09D9E(L_845, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3496));
 		V_191 = L_846;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3497));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_847 = V_86;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_848 = V_85;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3498));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_849;
 		L_849 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_847, L_848, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3498));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3499));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_850;
 		L_850 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_849, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3499));
 		V_192 = L_850;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3500));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_851 = V_84;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_852 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3501));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_853;
 		L_853 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_851, L_852, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3501));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3502));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_854;
 		L_854 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_191), L_853, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3502));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_855 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3503));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_856;
 		L_856 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_854, L_855, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3503));
 		V_84 = L_856;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3504));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_857 = V_85;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_858 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3505));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_859;
 		L_859 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_857, L_858, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3505));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3506));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_860;
 		L_860 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_191), L_859, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3506));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_861 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3507));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_862;
 		L_862 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_860, L_861, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3507));
 		V_85 = L_862;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3508));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_863 = V_86;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_864 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3509));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_865;
 		L_865 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_863, L_864, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3509));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3510));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_866;
 		L_866 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_191), L_865, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3510));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_867 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3511));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_868;
 		L_868 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_866, L_867, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3511));
 		V_86 = L_868;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3512));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_869 = V_87;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_870 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3513));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_871;
 		L_871 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_869, L_870, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3513));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3514));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_872;
 		L_872 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_191), L_871, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3514));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_873 = V_192;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3515));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_874;
 		L_874 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_872, L_873, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3515));
 		V_87 = L_874;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3516));
 	}
 
 IL_1cfe:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3517));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_875 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_875);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_876 = L_875->___characterInfo;
@@ -6972,6 +8059,7 @@ IL_1cfe:
 		NullCheck(L_876);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_878 = V_85;
 		((L_876)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_877)))->___bottomLeft = L_878;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3518));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_879 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_879);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_880 = L_879->___characterInfo;
@@ -6979,6 +8067,7 @@ IL_1cfe:
 		NullCheck(L_880);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_882 = V_84;
 		((L_880)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_881)))->___topLeft = L_882;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3519));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_883 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_883);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_884 = L_883->___characterInfo;
@@ -6986,6 +8075,7 @@ IL_1cfe:
 		NullCheck(L_884);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_886 = V_86;
 		((L_884)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_885)))->___topRight = L_886;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3520));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_887 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_887);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_888 = L_887->___characterInfo;
@@ -6993,16 +8083,20 @@ IL_1cfe:
 		NullCheck(L_888);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_890 = V_87;
 		((L_888)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_889)))->___bottomRight = L_890;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3521));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_891 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_891);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_892 = L_891->___characterInfo;
 		int32_t L_893 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_892);
 		float L_894 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3522));
 		float L_895;
 		L_895 = GlyphValueRecord_get_xPlacement_m5E2B8B05A5DF57B2DC4B3795E71330CDDE1761C8((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3522));
 		float L_896 = V_2;
 		((L_892)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_893)))->___origin = ((float)il2cpp_codegen_add(L_894, ((float)il2cpp_codegen_multiply(L_895, L_896))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3523));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_897 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_897);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_898 = L_897->___characterInfo;
@@ -7011,10 +8105,13 @@ IL_1cfe:
 		float L_900 = V_71;
 		float L_901 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		float L_902 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3524));
 		float L_903;
 		L_903 = GlyphValueRecord_get_yPlacement_mB6303F8800305F6F96ECCD0CD9AA70A1A30A15DA((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3524));
 		float L_904 = V_2;
 		((L_898)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_899)))->___baseLine = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_900, L_901)), L_902)), ((float)il2cpp_codegen_multiply(L_903, L_904))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3525));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_905 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_905);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_906 = L_905->___characterInfo;
@@ -7029,8 +8126,12 @@ IL_1cfe:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_914 = V_85;
 		float L_915 = L_914.___y;
 		((L_906)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_907)))->___aspectRatio = ((float)(((float)il2cpp_codegen_subtract(L_909, L_911))/((float)il2cpp_codegen_subtract(L_913, L_915))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3526));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3527));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ComputeTextMetricsMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3527));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3528));
 		int32_t L_916 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		if (!L_916)
 		{
@@ -7057,6 +8158,7 @@ IL_1e2c:
 IL_1e3a:
 	{
 		V_88 = G_B244_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3529));
 		int32_t L_924 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		if (!L_924)
 		{
@@ -7083,13 +8185,17 @@ IL_1e51:
 IL_1e5f:
 	{
 		V_89 = G_B247_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3530));
 		float L_932 = V_88;
 		V_90 = L_932;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3531));
 		float L_933 = V_89;
 		V_91 = L_933;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3532));
 		int32_t L_934 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		int32_t L_935 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine;
 		V_92 = (bool)((((int32_t)L_934) == ((int32_t)L_935))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3533));
 		bool L_936 = V_92;
 		if (L_936)
 		{
@@ -7110,6 +8216,7 @@ IL_1e84:
 IL_1e85:
 	{
 		V_193 = (bool)G_B250_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3534));
 		bool L_938 = V_193;
 		if (!L_938)
 		{
@@ -7117,8 +8224,11 @@ IL_1e85:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3535));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3536));
 		float L_939 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
 		V_194 = (bool)((((int32_t)((((float)L_939) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3537));
 		bool L_940 = V_194;
 		if (!L_940)
 		{
@@ -7126,38 +8236,54 @@ IL_1e85:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3538));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3539));
 		float L_941 = V_88;
 		float L_942 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
 		float L_943 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		float L_944 = V_90;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3540));
 		float L_945;
 		L_945 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_subtract(L_941, L_942))/L_943)), L_944, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3540));
 		V_90 = L_945;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3541));
 		float L_946 = V_89;
 		float L_947 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_baselineOffset;
 		float L_948 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		float L_949 = V_91;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3542));
 		float L_950;
 		L_950 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)(((float)il2cpp_codegen_subtract(L_946, L_947))/L_948)), L_949, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3542));
 		V_91 = L_950;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3543));
 	}
 
 IL_1ed6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3544));
 		float L_951 = V_90;
 		float L_952 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3545));
 		float L_953;
 		L_953 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_951, L_952, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3545));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender = L_953;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3546));
 		float L_954 = V_91;
 		float L_955 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3547));
 		float L_956;
 		L_956 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_954, L_955, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3547));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender = L_956;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3548));
 	}
 
 IL_1efd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3549));
 		bool L_957 = V_92;
 		if (L_957)
 		{
@@ -7178,6 +8304,7 @@ IL_1f08:
 IL_1f09:
 	{
 		V_195 = (bool)G_B257_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3550));
 		bool L_959 = V_195;
 		if (!L_959)
 		{
@@ -7185,6 +8312,8 @@ IL_1f09:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3551));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3552));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_960 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_960);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_961 = L_960->___characterInfo;
@@ -7192,6 +8321,7 @@ IL_1f09:
 		NullCheck(L_961);
 		float L_963 = V_90;
 		((L_961)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_962)))->___adjustedAscender = L_963;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3553));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_964 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_964);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_965 = L_964->___characterInfo;
@@ -7199,6 +8329,7 @@ IL_1f09:
 		NullCheck(L_965);
 		float L_967 = V_91;
 		((L_965)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_966)))->___adjustedDescender = L_967;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3554));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_968 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_968);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_969 = L_968->___characterInfo;
@@ -7211,6 +8342,7 @@ IL_1f09:
 		((L_969)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_970)))->___ascender = L_973;
 		float L_974 = V_196;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementAscender = L_974;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3555));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_975 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_975);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_976 = L_975->___characterInfo;
@@ -7223,11 +8355,15 @@ IL_1f09:
 		((L_976)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_977)))->___descender = L_980;
 		float L_981 = V_196;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender = L_981;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3556));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3557));
 		goto IL_205b;
 	}
 
 IL_1fb1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3558));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3559));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_982 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_982);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_983 = L_982->___characterInfo;
@@ -7235,6 +8371,7 @@ IL_1fb1:
 		NullCheck(L_983);
 		float L_985 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender;
 		((L_983)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_984)))->___adjustedAscender = L_985;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3560));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_986 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_986);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_987 = L_986->___characterInfo;
@@ -7242,6 +8379,7 @@ IL_1fb1:
 		NullCheck(L_987);
 		float L_989 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		((L_987)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_988)))->___adjustedDescender = L_989;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3561));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_990 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_990);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_991 = L_990->___characterInfo;
@@ -7254,6 +8392,7 @@ IL_1fb1:
 		((L_991)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_992)))->___ascender = L_995;
 		float L_996 = V_196;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementAscender = L_996;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3562));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_997 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_997);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_998 = L_997->___characterInfo;
@@ -7266,10 +8405,12 @@ IL_1fb1:
 		((L_998)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_999)))->___descender = L_1002;
 		float L_1003 = V_196;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender = L_1003;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3563));
 	}
 
 IL_205b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3564));
 		int32_t L_1004 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		if (!L_1004)
 		{
@@ -7290,6 +8431,7 @@ IL_206b:
 IL_206c:
 	{
 		V_197 = (bool)G_B263_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3565));
 		bool L_1006 = V_197;
 		if (!L_1006)
 		{
@@ -7297,6 +8439,8 @@ IL_206c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3566));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3567));
 		bool L_1007 = V_92;
 		if (L_1007)
 		{
@@ -7317,6 +8461,7 @@ IL_207e:
 IL_207f:
 	{
 		V_198 = (bool)G_B267_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3568));
 		bool L_1009 = V_198;
 		if (!L_1009)
 		{
@@ -7324,29 +8469,40 @@ IL_207f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3569));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3570));
 		float L_1010 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender = L_1010;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3571));
 		float L_1011 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxCapHeight;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1012 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_1012);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_1013 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_1012)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3572));
 		float L_1014;
 		L_1014 = FaceInfo_get_capLine_m0D95B5D5CEC5CFB12091F5EB5965DE6E38588C88(L_1013, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3572));
 		float L_1015 = V_2;
 		float L_1016 = V_70;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3573));
 		float L_1017;
 		L_1017 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_1011, ((float)(((float)il2cpp_codegen_multiply(L_1014, L_1015))/L_1016)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3573));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxCapHeight = L_1017;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3574));
 	}
 
 IL_20b9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3575));
 	}
 
 IL_20ba:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3576));
 		float L_1018 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		V_199 = (bool)((((float)L_1018) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3577));
 		bool L_1019 = V_199;
 		if (!L_1019)
 		{
@@ -7354,6 +8510,8 @@ IL_20ba:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3578));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3579));
 		bool L_1020 = V_92;
 		if (L_1020)
 		{
@@ -7374,6 +8532,7 @@ IL_20d9:
 IL_20da:
 	{
 		V_200 = (bool)G_B274_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3580));
 		bool L_1022 = V_200;
 		if (!L_1022)
 		{
@@ -7381,6 +8540,7 @@ IL_20da:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3581));
 		float L_1023 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_PageAscender;
 		float L_1024 = V_88;
 		if ((((float)L_1023) > ((float)L_1024)))
@@ -7412,18 +8572,24 @@ IL_20f5:
 
 IL_20fa:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3582));
 	}
 
 IL_20fb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3583));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3584));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ComputeTextMetricsMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3584));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3585));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1027 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1027);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1028 = L_1027->___characterInfo;
 		int32_t L_1029 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_1028);
 		((L_1028)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1029)))->___isVisible = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3586));
 		int32_t L_1030 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineJustification;
 		if ((((int32_t)((int32_t)((int32_t)L_1030&((int32_t)16)))) == ((int32_t)((int32_t)16))))
 		{
@@ -7444,6 +8610,7 @@ IL_213c:
 IL_213d:
 	{
 		V_93 = (bool)G_B283_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3587));
 		uint32_t L_1032 = V_5;
 		if ((((int32_t)L_1032) == ((int32_t)((int32_t)9))))
 		{
@@ -7542,6 +8709,7 @@ IL_2197:
 IL_2198:
 	{
 		V_201 = (bool)G_B296_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3588));
 		bool L_1044 = V_201;
 		if (!L_1044)
 		{
@@ -7549,20 +8717,29 @@ IL_2198:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3589));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3590));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3591));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3591));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3592));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1045 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1045);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1046 = L_1045->___characterInfo;
 		int32_t L_1047 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_1046);
 		((L_1046)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1047)))->___isVisible = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3593));
 		float L_1048 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginLeft;
 		V_202 = L_1048;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3594));
 		float L_1049 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginRight;
 		V_203 = L_1049;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3595));
 		bool L_1050 = V_69;
 		V_207 = L_1050;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3596));
 		bool L_1051 = V_207;
 		if (!L_1051)
 		{
@@ -7570,6 +8747,8 @@ IL_2198:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3597));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3598));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1052 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1052);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1053 = L_1052->___lineInfo;
@@ -7577,6 +8756,7 @@ IL_2198:
 		NullCheck(L_1053);
 		float L_1055 = ((L_1053)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1054)))->___marginLeft;
 		V_202 = L_1055;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3599));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1056 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1056);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1057 = L_1056->___lineInfo;
@@ -7584,10 +8764,12 @@ IL_2198:
 		NullCheck(L_1057);
 		float L_1059 = ((L_1057)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1058)))->___marginRight;
 		V_203 = L_1059;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3600));
 	}
 
 IL_221d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3601));
 		float L_1060 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_width;
 		if ((!(((float)L_1060) == ((float)(-1.0f)))))
 		{
@@ -7608,17 +8790,22 @@ IL_223a:
 		float L_1065 = V_202;
 		float L_1066 = V_203;
 		float L_1067 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_width;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3602));
 		float L_1068;
 		L_1068 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_1064, (9.99999975E-05f))), L_1065)), L_1066)), L_1067, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3602));
 		G_B302_0 = L_1068;
 	}
 
 IL_2253:
 	{
 		V_25 = G_B302_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3603));
 		float L_1069 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3604));
 		float L_1070;
 		L_1070 = fabsf(L_1069);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3604));
 		bool L_1071 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		if (!L_1071)
 		{
@@ -7635,8 +8822,10 @@ IL_2253:
 
 IL_226f:
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3605));
 		float L_1072;
 		L_1072 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3605));
 		G_B305_0 = L_1072;
 		G_B305_1 = G_B304_0;
 	}
@@ -7673,6 +8862,7 @@ IL_228f:
 IL_2291:
 	{
 		V_204 = ((float)il2cpp_codegen_add(G_B308_2, ((float)il2cpp_codegen_multiply(G_B308_1, G_B308_0))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3606));
 		float L_1077 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender;
 		float L_1078 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		float L_1079 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
@@ -7712,11 +8902,14 @@ IL_22c5:
 IL_22d2:
 	{
 		V_205 = ((float)il2cpp_codegen_add(G_B312_1, G_B312_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3607));
 		int32_t L_1084 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_206 = L_1084;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3608));
 		float L_1085 = V_205;
 		float L_1086 = V_24;
 		V_208 = (bool)((((float)L_1085) > ((float)((float)il2cpp_codegen_add(L_1086, (9.99999975E-05f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3609));
 		bool L_1087 = V_208;
 		if (!L_1087)
 		{
@@ -7724,10 +8917,16 @@ IL_22d2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3610));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3611));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3612));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3612));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3613));
 		int32_t L_1088 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex;
 		V_209 = (bool)((((int32_t)L_1088) == ((int32_t)(-1)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3614));
 		bool L_1089 = V_209;
 		if (!L_1089)
 		{
@@ -7735,14 +8934,17 @@ IL_22d2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3615));
 		int32_t L_1090 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex = L_1090;
 	}
 
 IL_2319:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3616));
 		bool L_1091 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_enableAutoSizing;
 		V_210 = L_1091;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3617));
 		bool L_1092 = V_210;
 		if (!L_1092)
 		{
@@ -7750,6 +8952,8 @@ IL_2319:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3618));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3619));
 		float L_1093 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingDelta;
 		float L_1094 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingMax;
 		if ((!(((float)L_1093) > ((float)L_1094))))
@@ -7779,6 +8983,7 @@ IL_2354:
 IL_2355:
 	{
 		V_211 = (bool)G_B320_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3620));
 		bool L_1098 = V_211;
 		if (!L_1098)
 		{
@@ -7786,27 +8991,46 @@ IL_2355:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3621));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3622));
 		float L_1099 = V_24;
 		float L_1100 = V_205;
 		int32_t L_1101 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		V_212 = ((float)(((float)il2cpp_codegen_subtract(L_1099, L_1100))/((float)L_1101)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3623));
 		float L_1102 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingDelta;
 		float L_1103 = V_212;
 		float L_1104 = V_1;
 		float L_1105 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingMax;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3624));
 		float L_1106;
 		L_1106 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)il2cpp_codegen_add(L_1102, ((float)(L_1103/L_1104)))), L_1105, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3624));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingDelta = L_1106;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3625));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3626));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3626));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3627));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3628));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3628));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3629));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3630));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3630));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3631));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3632));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3632));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3633));
 		goto IL_9457;
 	}
 
 IL_23b8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3634));
 		float L_1107 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1108 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
 		if ((!(((float)L_1107) > ((float)L_1108))))
@@ -7829,6 +9053,7 @@ IL_23d6:
 IL_23d7:
 	{
 		V_213 = (bool)G_B325_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3635));
 		bool L_1111 = V_213;
 		if (!L_1111)
 		{
@@ -7836,39 +9061,65 @@ IL_23d7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3636));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3637));
 		float L_1112 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxFontSize = L_1112;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3638));
 		float L_1113 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1114 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_minFontSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3639));
 		float L_1115;
 		L_1115 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_subtract(L_1113, L_1114))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3639));
 		V_214 = L_1115;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3640));
 		float L_1116 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1117 = V_214;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = ((float)il2cpp_codegen_subtract(L_1116, L_1117));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3641));
 		float L_1118 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1119 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3642));
 		float L_1120;
 		L_1120 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1118, (20.0f))), (0.5f)))))/(20.0f))), L_1119, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3642));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = L_1120;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3643));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3644));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3644));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3645));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3646));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3646));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3647));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3648));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3648));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3649));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3650));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3650));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3651));
 		goto IL_9457;
 	}
 
 IL_2477:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3652));
 	}
 
 IL_2478:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3653));
 		int32_t L_1121 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		V_217 = L_1121;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3654));
 		int32_t L_1122 = V_217;
 		V_216 = L_1122;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3655));
 		int32_t L_1123 = V_216;
 		switch (L_1123)
 		{
@@ -7908,30 +9159,47 @@ IL_2478:
 
 IL_24ac:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3656));
 		goto IL_2780;
 	}
 
 IL_24b1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3657));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3658));
 		int32_t L_1124;
 		L_1124 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3658));
 		V_66 = L_1124;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3659));
 		int32_t L_1125 = V_206;
 		(&V_31)->___index = L_1125;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3660));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3661));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3662));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3662));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3663));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3664));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3664));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3665));
 		goto IL_4ffc;
 	}
 
 IL_24ea:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3666));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3667));
 		int32_t L_1126;
 		L_1126 = TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3667));
 		V_218 = (bool)((((int32_t)L_1126) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3668));
 		bool L_1127 = V_218;
 		if (!L_1127)
 		{
@@ -7939,52 +9207,90 @@ IL_24ea:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3669));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3670));
 		V_66 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3671));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3672));
 		(&V_31)->___index = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3673));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3674));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3675));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3676));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3676));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3677));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3678));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3678));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3679));
 		goto IL_4ffc;
 	}
 
 IL_253a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3680));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3681));
 		WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A L_1128;
 		L_1128 = TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3681));
 		V_215 = L_1128;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3682));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3683));
 		int32_t L_1129;
 		L_1129 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&V_215), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3683));
 		V_66 = L_1129;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3684));
 		int32_t L_1130 = V_66;
 		V_66 = ((int32_t)il2cpp_codegen_subtract(L_1130, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3685));
 		int32_t L_1131 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_subtract(L_1131, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3686));
 		int32_t L_1132 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = L_1132;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3687));
 		(&V_31)->___unicode = ((int32_t)8230);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3688));
 		int32_t L_1133 = V_33;
 		V_33 = ((int32_t)il2cpp_codegen_add(L_1133, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3689));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3690));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3690));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3691));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3692));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3692));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3693));
 		goto IL_4ffc;
 	}
 
 IL_259e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3694));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3695));
 		int32_t L_1134;
 		L_1134 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3695));
 		V_66 = L_1134;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3696));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1135 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3697));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1136;
 		L_1136 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1135, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3697));
 		V_219 = L_1136;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3698));
 		bool L_1137 = V_219;
 		if (!L_1137)
 		{
@@ -7992,38 +9298,63 @@ IL_259e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3699));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3700));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1138 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3701));
 		String_t* L_1139;
 		L_1139 = VirtualFuncInvoker0< String_t* >::Invoke(65, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3701));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3702));
 		NullCheck(L_1138);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1138, L_1139);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3702));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3703));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1140 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1141 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_inputSource;
 		NullCheck(L_1140);
 		L_1140->___m_inputSource = L_1141;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3704));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1142 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1143 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3705));
 		NullCheck(L_1142);
 		TMP_Text_set_firstVisibleCharacter_m343804C8FF610EB13CCB14E8D54C889BC356AD53(L_1142, L_1143, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3705));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3706));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1144 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3707));
 		NullCheck(L_1144);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_1144, (bool)0, (bool)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3707));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3708));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextTruncated = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3709));
 	}
 
 IL_2609:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3710));
 		int32_t L_1145 = V_206;
 		(&V_31)->___index = L_1145;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3711));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3712));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3713));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3713));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3714));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3715));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3715));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3716));
 		goto IL_4ffc;
 	}
 
 IL_2635:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3717));
 		int32_t L_1146 = V_66;
 		if ((((int32_t)L_1146) < ((int32_t)0)))
 		{
@@ -8044,6 +9375,7 @@ IL_2641:
 IL_2642:
 	{
 		V_220 = (bool)G_B341_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3718));
 		bool L_1148 = V_220;
 		if (!L_1148)
 		{
@@ -8051,22 +9383,36 @@ IL_2642:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3719));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3720));
 		V_66 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3721));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3722));
 		(&V_31)->___index = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3723));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3724));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3725));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3725));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3726));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3727));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3727));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3728));
 		goto IL_4ffc;
 	}
 
 IL_267e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3729));
 		float L_1149 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender;
 		float L_1150 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		float L_1151 = V_24;
 		V_221 = (bool)((((float)((float)il2cpp_codegen_subtract(L_1149, L_1150))) > ((float)((float)il2cpp_codegen_add(L_1151, (9.99999975E-05f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3730));
 		bool L_1152 = V_221;
 		if (!L_1152)
 		{
@@ -8074,56 +9420,95 @@ IL_267e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3731));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3732));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3733));
 		int32_t L_1153;
 		L_1153 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLineState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3733));
 		V_66 = L_1153;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3734));
 		int32_t L_1154 = V_206;
 		(&V_31)->___index = L_1154;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3735));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3736));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3737));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3737));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3738));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3739));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3739));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3740));
 		goto IL_4ffc;
 	}
 
 IL_26d5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3741));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3742));
 		int32_t L_1155;
 		L_1155 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLineState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3742));
 		V_66 = L_1155;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3743));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNewPage = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3744));
 		int32_t L_1156 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine = L_1156;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3745));
 		float L_1157 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargeNegativeFloat;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender = L_1157;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3746));
 		float L_1158 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender = L_1158;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3747));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_startOfLineAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3748));
 		float L_1159 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_Indent;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_add((0.0f), L_1159));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3749));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3750));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3751));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_PageAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3752));
 		int32_t L_1160 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber = ((int32_t)il2cpp_codegen_add(L_1160, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3753));
 		int32_t L_1161 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber = ((int32_t)il2cpp_codegen_add(L_1161, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3754));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3755));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3755));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3756));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3757));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3757));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3758));
 		goto IL_4ffc;
 	}
 
 IL_2780:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3759));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3760));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3760));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3761));
 	}
 
 IL_278c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3762));
 		bool L_1162 = V_80;
 		if (!L_1162)
 		{
@@ -8171,6 +9556,7 @@ IL_27a9:
 IL_27aa:
 	{
 		V_222 = (bool)G_B353_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3763));
 		bool L_1166 = V_222;
 		if (!L_1166)
 		{
@@ -8178,8 +9564,13 @@ IL_27aa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3764));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3765));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3766));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3766));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3767));
 		int32_t L_1167 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextWrappingMode;
 		if (!L_1167)
 		{
@@ -8208,6 +9599,7 @@ IL_27e3:
 IL_27e4:
 	{
 		V_223 = (bool)G_B358_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3768));
 		bool L_1171 = V_223;
 		if (!L_1171)
 		{
@@ -8215,13 +9607,20 @@ IL_27e4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3769));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3770));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3771));
 		int32_t L_1172;
 		L_1172 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedWordWrapState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3771));
 		V_66 = L_1172;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3772));
 		V_224 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3773));
 		float L_1173 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineHeight;
 		V_227 = (bool)((((float)L_1173) == ((float)(-32767.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3774));
 		bool L_1174 = V_227;
 		if (!L_1174)
 		{
@@ -8229,6 +9628,8 @@ IL_27e4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3775));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3776));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1175 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1175);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1176 = L_1175->___characterInfo;
@@ -8236,6 +9637,7 @@ IL_27e4:
 		NullCheck(L_1176);
 		float L_1178 = ((L_1176)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1177)))->___adjustedAscender;
 		V_228 = L_1178;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3777));
 		float L_1179 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		if ((!(((float)L_1179) > ((float)(0.0f)))))
 		{
@@ -8273,20 +9675,27 @@ IL_285c:
 		float L_1188 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacing;
 		float L_1189 = V_3;
 		V_224 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(G_B364_0, L_1183)), L_1184)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_1185, L_1186)), L_1187)))), ((float)il2cpp_codegen_multiply(L_1188, L_1189))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3778));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3779));
 		goto IL_289a;
 	}
 
 IL_2880:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3780));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3781));
 		float L_1190 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineHeight;
 		float L_1191 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacing;
 		float L_1192 = V_3;
 		V_224 = ((float)il2cpp_codegen_add(L_1190, ((float)il2cpp_codegen_multiply(L_1191, L_1192))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3782));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsDrivenLineSpacing = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3783));
 	}
 
 IL_289a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3784));
 		float L_1193 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender;
 		float L_1194 = V_224;
 		float L_1195 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
@@ -8297,6 +9706,7 @@ IL_289a:
 		NullCheck(L_1197);
 		float L_1199 = ((L_1197)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1198)))->___adjustedDescender;
 		V_225 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1193, L_1194)), L_1195)), L_1199));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3785));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1200 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1200);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1201 = L_1200->___characterInfo;
@@ -8322,6 +9732,7 @@ IL_28f3:
 IL_28f4:
 	{
 		V_229 = (bool)G_B369_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3786));
 		bool L_1205 = V_229;
 		if (!L_1205)
 		{
@@ -8329,6 +9740,8 @@ IL_28f4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3787));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3788));
 		int32_t L_1206 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		if (!L_1206)
 		{
@@ -8350,6 +9763,7 @@ IL_2911:
 IL_2912:
 	{
 		V_230 = (bool)G_B373_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3789));
 		bool L_1209 = V_230;
 		if (!L_1209)
 		{
@@ -8357,26 +9771,41 @@ IL_2912:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3790));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3791));
 		int32_t L_1210 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = ((int32_t)il2cpp_codegen_subtract(L_1210, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3792));
 		(&V_31)->___unicode = ((int32_t)45);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3793));
 		int32_t L_1211 = V_66;
 		V_66 = ((int32_t)il2cpp_codegen_subtract(L_1211, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3794));
 		int32_t L_1212 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_subtract(L_1212, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3795));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3796));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3796));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3797));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3798));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3798));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3799));
 		goto IL_4ffc;
 	}
 
 IL_2960:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3800));
 	}
 
 IL_2961:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3801));
 		V_32 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3802));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1213 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1213);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1214 = L_1213->___characterInfo;
@@ -8384,6 +9813,7 @@ IL_2961:
 		NullCheck(L_1214);
 		Il2CppChar L_1216 = ((L_1214)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1215)))->___character;
 		V_231 = (bool)((((int32_t)L_1216) == ((int32_t)((int32_t)173)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3803));
 		bool L_1217 = V_231;
 		if (!L_1217)
 		{
@@ -8391,18 +9821,29 @@ IL_2961:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3804));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3805));
 		V_32 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3806));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3807));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3807));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3808));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3809));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3809));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3810));
 		goto IL_4ffc;
 	}
 
 IL_29ab:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3811));
 		bool L_1218 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_enableAutoSizing;
 		bool L_1219 = V_28;
 		V_232 = (bool)((int32_t)((int32_t)L_1218&(int32_t)L_1219));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3812));
 		bool L_1220 = V_232;
 		if (!L_1220)
 		{
@@ -8410,6 +9851,8 @@ IL_29ab:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3813));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3814));
 		float L_1221 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1222 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
 		if ((!(((float)L_1221) < ((float)((float)(L_1222/(100.0f)))))))
@@ -8432,6 +9875,7 @@ IL_29e2:
 IL_29e3:
 	{
 		V_233 = (bool)G_B382_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3815));
 		bool L_1225 = V_233;
 		if (!L_1225)
 		{
@@ -8439,10 +9883,14 @@ IL_29e3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3816));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3817));
 		float L_1226 = V_204;
 		V_234 = L_1226;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3818));
 		float L_1227 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_236 = (bool)((((float)L_1227) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3819));
 		bool L_1228 = V_236;
 		if (!L_1228)
 		{
@@ -8450,6 +9898,7 @@ IL_29e3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3820));
 		float L_1229 = V_234;
 		float L_1230 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_234 = ((float)(L_1229/((float)il2cpp_codegen_subtract((1.0f), L_1230))));
@@ -8457,6 +9906,7 @@ IL_29e3:
 
 IL_2a15:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3821));
 		float L_1231 = V_204;
 		float L_1232 = V_25;
 		bool L_1233 = V_93;
@@ -8486,25 +9936,43 @@ IL_2a2a:
 IL_2a2f:
 	{
 		V_235 = ((float)il2cpp_codegen_subtract(G_B388_2, ((float)il2cpp_codegen_multiply(G_B388_1, G_B388_0))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3822));
 		float L_1234 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1235 = V_235;
 		float L_1236 = V_234;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = ((float)il2cpp_codegen_add(L_1234, ((float)(L_1235/L_1236))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3823));
 		float L_1237 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1238 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3824));
 		float L_1239;
 		L_1239 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_1237, ((float)(L_1238/(100.0f))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3824));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = L_1239;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3825));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3826));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3826));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3827));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3828));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3828));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3829));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3830));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3830));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3831));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3832));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3832));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3833));
 		goto IL_9457;
 	}
 
 IL_2a93:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3834));
 		float L_1240 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1241 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
 		if ((!(((float)L_1240) > ((float)L_1241))))
@@ -8527,6 +9995,7 @@ IL_2ab1:
 IL_2ab2:
 	{
 		V_237 = (bool)G_B392_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3835));
 		bool L_1244 = V_237;
 		if (!L_1244)
 		{
@@ -8534,38 +10003,63 @@ IL_2ab2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3836));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3837));
 		float L_1245 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxFontSize = L_1245;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3838));
 		float L_1246 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1247 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_minFontSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3839));
 		float L_1248;
 		L_1248 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_subtract(L_1246, L_1247))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3839));
 		V_238 = L_1248;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3840));
 		float L_1249 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1250 = V_238;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = ((float)il2cpp_codegen_subtract(L_1249, L_1250));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3841));
 		float L_1251 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1252 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3842));
 		float L_1253;
 		L_1253 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1251, (20.0f))), (0.5f)))))/(20.0f))), L_1252, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3842));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = L_1253;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3843));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3844));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3844));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3845));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3846));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3846));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3847));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3848));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3848));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3849));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3850));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3850));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3851));
 		goto IL_9457;
 	}
 
 IL_2b52:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3852));
 	}
 
 IL_2b53:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3853));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_1254 = (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedSoftLineBreakState)->___previous_WordBreak;
 		V_226 = L_1254;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3854));
 		bool L_1255 = V_28;
 		if (!L_1255)
 		{
@@ -8586,6 +10080,7 @@ IL_2b6d:
 IL_2b6e:
 	{
 		V_239 = (bool)G_B398_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3855));
 		bool L_1257 = V_239;
 		if (!L_1257)
 		{
@@ -8593,9 +10088,12 @@ IL_2b6e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3856));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3857));
 		int32_t L_1258 = V_226;
 		int32_t L_1259 = V_30;
 		V_240 = (bool)((((int32_t)((((int32_t)L_1258) == ((int32_t)L_1259))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3858));
 		bool L_1260 = V_240;
 		if (!L_1260)
 		{
@@ -8603,12 +10101,18 @@ IL_2b6e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3859));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3860));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3861));
 		int32_t L_1261;
 		L_1261 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedSoftLineBreakState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3861));
 		V_66 = L_1261;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3862));
 		int32_t L_1262 = V_226;
 		V_30 = L_1262;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3863));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1263 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1263);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1264 = L_1263->___characterInfo;
@@ -8616,6 +10120,7 @@ IL_2b6e:
 		NullCheck(L_1264);
 		Il2CppChar L_1266 = ((L_1264)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_1265, 1)))))->___character;
 		V_241 = (bool)((((int32_t)L_1266) == ((int32_t)((int32_t)173)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3864));
 		bool L_1267 = V_241;
 		if (!L_1267)
 		{
@@ -8623,32 +10128,48 @@ IL_2b6e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3865));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3866));
 		int32_t L_1268 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = ((int32_t)il2cpp_codegen_subtract(L_1268, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3867));
 		(&V_31)->___unicode = ((int32_t)45);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3868));
 		int32_t L_1269 = V_66;
 		V_66 = ((int32_t)il2cpp_codegen_subtract(L_1269, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3869));
 		int32_t L_1270 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_subtract(L_1270, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3870));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3871));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3871));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3872));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3873));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3873));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3874));
 		goto IL_4ffc;
 	}
 
 IL_2c0e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3875));
 	}
 
 IL_2c0f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3876));
 	}
 
 IL_2c10:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3877));
 		float L_1271 = V_225;
 		float L_1272 = V_24;
 		V_242 = (bool)((((float)L_1271) > ((float)((float)il2cpp_codegen_add(L_1272, (9.99999975E-05f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3878));
 		bool L_1273 = V_242;
 		if (!L_1273)
 		{
@@ -8656,10 +10177,16 @@ IL_2c10:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3879));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3880));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3881));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3881));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3882));
 		int32_t L_1274 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex;
 		V_243 = (bool)((((int32_t)L_1274) == ((int32_t)(-1)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3883));
 		bool L_1275 = V_243;
 		if (!L_1275)
 		{
@@ -8667,14 +10194,17 @@ IL_2c10:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3884));
 		int32_t L_1276 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex = L_1276;
 	}
 
 IL_2c4c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3885));
 		bool L_1277 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_enableAutoSizing;
 		V_244 = L_1277;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3886));
 		bool L_1278 = V_244;
 		if (!L_1278)
 		{
@@ -8682,6 +10212,8 @@ IL_2c4c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3887));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3888));
 		float L_1279 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingDelta;
 		float L_1280 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingMax;
 		if ((!(((float)L_1279) > ((float)L_1280))))
@@ -8704,6 +10236,7 @@ IL_2c7a:
 IL_2c7b:
 	{
 		V_245 = (bool)G_B411_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3889));
 		bool L_1283 = V_245;
 		if (!L_1283)
 		{
@@ -8711,28 +10244,50 @@ IL_2c7b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3890));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3891));
 		float L_1284 = V_24;
 		float L_1285 = V_225;
 		int32_t L_1286 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		V_246 = ((float)(((float)il2cpp_codegen_subtract(L_1284, L_1285))/((float)((int32_t)il2cpp_codegen_add(L_1286, 1)))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3892));
 		float L_1287 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingDelta;
 		float L_1288 = V_246;
 		float L_1289 = V_1;
 		float L_1290 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingMax;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3893));
 		float L_1291;
 		L_1291 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)il2cpp_codegen_add(L_1287, ((float)(L_1288/L_1289)))), L_1290, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3893));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacingDelta = L_1291;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3894));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3895));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3895));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3896));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3897));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3897));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3898));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3899));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3899));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3900));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3901));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3901));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3902));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3903));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3903));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3904));
 		goto IL_9457;
 	}
 
 IL_2ceb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3905));
 		float L_1292 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1293 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
 		if ((!(((float)L_1292) < ((float)((float)(L_1293/(100.0f)))))))
@@ -8755,6 +10310,7 @@ IL_2d0f:
 IL_2d10:
 	{
 		V_247 = (bool)G_B416_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3906));
 		bool L_1296 = V_247;
 		if (!L_1296)
 		{
@@ -8762,10 +10318,14 @@ IL_2d10:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3907));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3908));
 		float L_1297 = V_204;
 		V_248 = L_1297;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3909));
 		float L_1298 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_250 = (bool)((((float)L_1298) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3910));
 		bool L_1299 = V_250;
 		if (!L_1299)
 		{
@@ -8773,6 +10333,7 @@ IL_2d10:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3911));
 		float L_1300 = V_248;
 		float L_1301 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_248 = ((float)(L_1300/((float)il2cpp_codegen_subtract((1.0f), L_1301))));
@@ -8780,6 +10341,7 @@ IL_2d10:
 
 IL_2d42:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3912));
 		float L_1302 = V_204;
 		float L_1303 = V_25;
 		bool L_1304 = V_93;
@@ -8809,26 +10371,47 @@ IL_2d57:
 IL_2d5c:
 	{
 		V_249 = ((float)il2cpp_codegen_subtract(G_B422_2, ((float)il2cpp_codegen_multiply(G_B422_1, G_B422_0))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3913));
 		float L_1305 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1306 = V_249;
 		float L_1307 = V_248;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = ((float)il2cpp_codegen_add(L_1305, ((float)(L_1306/L_1307))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3914));
 		float L_1308 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1309 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3915));
 		float L_1310;
 		L_1310 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_1308, ((float)(L_1309/(100.0f))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3915));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = L_1310;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3916));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3917));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3917));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3918));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3919));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3919));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3920));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3921));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3921));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3922));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3923));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3923));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3924));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3925));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3925));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3926));
 		goto IL_9457;
 	}
 
 IL_2dcb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3927));
 		float L_1311 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1312 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
 		if ((!(((float)L_1311) > ((float)L_1312))))
@@ -8851,6 +10434,7 @@ IL_2de9:
 IL_2dea:
 	{
 		V_251 = (bool)G_B426_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3928));
 		bool L_1315 = V_251;
 		if (!L_1315)
 		{
@@ -8858,40 +10442,69 @@ IL_2dea:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3929));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3930));
 		float L_1316 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxFontSize = L_1316;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3931));
 		float L_1317 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1318 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_minFontSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3932));
 		float L_1319;
 		L_1319 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_subtract(L_1317, L_1318))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3932));
 		V_252 = L_1319;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3933));
 		float L_1320 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1321 = V_252;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = ((float)il2cpp_codegen_subtract(L_1320, L_1321));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3934));
 		float L_1322 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1323 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3935));
 		float L_1324;
 		L_1324 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1322, (20.0f))), (0.5f)))))/(20.0f))), L_1323, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3935));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = L_1324;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3936));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3937));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3937));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3938));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3939));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3939));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3940));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3941));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3941));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3942));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3943));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3943));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3944));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3945));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3945));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3946));
 		goto IL_9457;
 	}
 
 IL_2e95:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3947));
 	}
 
 IL_2e96:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3948));
 		int32_t L_1325 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		V_255 = L_1325;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3949));
 		int32_t L_1326 = V_255;
 		V_254 = L_1326;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3950));
 		int32_t L_1327 = V_254;
 		switch (L_1327)
 		{
@@ -8931,6 +10544,7 @@ IL_2e96:
 
 IL_2ed2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3951));
 		int32_t L_1328 = V_66;
 		float L_1329 = V_1;
 		float L_1330 = V_2;
@@ -8939,38 +10553,71 @@ IL_2ed2:
 		float L_1333 = V_79;
 		float L_1334 = V_25;
 		float L_1335 = V_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3952));
 		TMP_Text_InsertNewLine_m3C525A59DCC1B7DADC9402946B20B082EC3DC594(__this, L_1328, L_1329, L_1330, L_1331, L_1332, L_1333, L_1334, L_1335, (&V_27), (&V_26), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3952));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3953));
 		V_17 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3954));
 		V_28 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3955));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3956));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3956));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3957));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3958));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3958));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3959));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3960));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3960));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3961));
 		goto IL_4ffc;
 	}
 
 IL_2f16:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3962));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3963));
 		int32_t L_1336;
 		L_1336 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3963));
 		V_66 = L_1336;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3964));
 		int32_t L_1337 = V_206;
 		(&V_31)->___index = L_1337;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3965));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3966));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3967));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3967));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3968));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3969));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3969));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3970));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3971));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3971));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3972));
 		goto IL_4ffc;
 	}
 
 IL_2f5a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3973));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3974));
 		int32_t L_1338;
 		L_1338 = TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3974));
 		V_256 = (bool)((((int32_t)L_1338) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3975));
 		bool L_1339 = V_256;
 		if (!L_1339)
 		{
@@ -8978,50 +10625,91 @@ IL_2f5a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3976));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3977));
 		V_66 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3978));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3979));
 		(&V_31)->___index = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3980));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3981));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3982));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3983));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3983));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3984));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3985));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3985));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3986));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3987));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3987));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3988));
 		goto IL_4ffc;
 	}
 
 IL_2fbd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3989));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3990));
 		WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A L_1340;
 		L_1340 = TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3990));
 		V_253 = L_1340;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3991));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3992));
 		int32_t L_1341;
 		L_1341 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&V_253), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3992));
 		V_66 = L_1341;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3993));
 		int32_t L_1342 = V_66;
 		V_66 = ((int32_t)il2cpp_codegen_subtract(L_1342, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3994));
 		int32_t L_1343 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_subtract(L_1343, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3995));
 		int32_t L_1344 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = L_1344;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3996));
 		(&V_31)->___unicode = ((int32_t)8230);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3997));
 		int32_t L_1345 = V_33;
 		V_33 = ((int32_t)il2cpp_codegen_add(L_1345, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3998));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3999));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 3999));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4000));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4001));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4001));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4002));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4003));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4003));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4004));
 		goto IL_4ffc;
 	}
 
 IL_302c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4005));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1346 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4006));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1347;
 		L_1347 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1346, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4006));
 		V_257 = L_1347;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4007));
 		bool L_1348 = V_257;
 		if (!L_1348)
 		{
@@ -9029,40 +10717,69 @@ IL_302c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4008));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4009));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1349 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4010));
 		String_t* L_1350;
 		L_1350 = VirtualFuncInvoker0< String_t* >::Invoke(65, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4010));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4011));
 		NullCheck(L_1349);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1349, L_1350);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4011));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4012));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1351 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1352 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_inputSource;
 		NullCheck(L_1351);
 		L_1351->___m_inputSource = L_1352;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4013));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1353 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1354 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4014));
 		NullCheck(L_1353);
 		TMP_Text_set_firstVisibleCharacter_m343804C8FF610EB13CCB14E8D54C889BC356AD53(L_1353, L_1354, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4014));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4015));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1355 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4016));
 		NullCheck(L_1355);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_1355, (bool)0, (bool)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4016));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4017));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextTruncated = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4018));
 	}
 
 IL_3092:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4019));
 		int32_t L_1356 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = L_1356;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4020));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4021));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4022));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4022));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4023));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4024));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4024));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4025));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4026));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4026));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4027));
 		goto IL_4ffc;
 	}
 
 IL_30cd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4028));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNewPage = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4029));
 		int32_t L_1357 = V_66;
 		float L_1358 = V_1;
 		float L_1359 = V_2;
@@ -9071,29 +10788,52 @@ IL_30cd:
 		float L_1362 = V_79;
 		float L_1363 = V_25;
 		float L_1364 = V_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4030));
 		TMP_Text_InsertNewLine_m3C525A59DCC1B7DADC9402946B20B082EC3DC594(__this, L_1357, L_1358, L_1359, L_1360, L_1361, L_1362, L_1363, L_1364, (&V_27), (&V_26), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4030));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4031));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_startOfLineAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4032));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4033));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4034));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_PageAscender = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4035));
 		int32_t L_1365 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber = ((int32_t)il2cpp_codegen_add(L_1365, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4036));
 		V_17 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4037));
 		V_28 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4038));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4039));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVerticalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4039));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4040));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4041));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4041));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4042));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4043));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4043));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4044));
 		goto IL_4ffc;
 	}
 
 IL_3152:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4045));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4046));
 		goto IL_318f;
 	}
 
 IL_3155:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4047));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4048));
 		int32_t L_1366 = V_66;
 		float L_1367 = V_1;
 		float L_1368 = V_2;
@@ -9102,22 +10842,37 @@ IL_3155:
 		float L_1371 = V_79;
 		float L_1372 = V_25;
 		float L_1373 = V_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4049));
 		TMP_Text_InsertNewLine_m3C525A59DCC1B7DADC9402946B20B082EC3DC594(__this, L_1366, L_1367, L_1368, L_1369, L_1370, L_1371, L_1372, L_1373, (&V_27), (&V_26), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4049));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4050));
 		V_17 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4051));
 		V_28 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4052));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4053));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4053));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4054));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4055));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4055));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4056));
 		goto IL_4ffc;
 	}
 
 IL_318f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4057));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4058));
 		goto IL_3556;
 	}
 
 IL_3195:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4059));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4060));
 		bool L_1374 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_enableAutoSizing;
 		if (!L_1374)
 		{
@@ -9139,6 +10894,7 @@ IL_31ae:
 IL_31af:
 	{
 		V_258 = (bool)G_B446_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4061));
 		bool L_1377 = V_258;
 		if (!L_1377)
 		{
@@ -9146,9 +10902,12 @@ IL_31af:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4062));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4063));
 		float L_1378 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1379 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
 		V_259 = (bool)((((float)L_1378) < ((float)((float)(L_1379/(100.0f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4064));
 		bool L_1380 = V_259;
 		if (!L_1380)
 		{
@@ -9156,10 +10915,14 @@ IL_31af:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4065));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4066));
 		float L_1381 = V_204;
 		V_260 = L_1381;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4067));
 		float L_1382 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_262 = (bool)((((float)L_1382) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4068));
 		bool L_1383 = V_262;
 		if (!L_1383)
 		{
@@ -9167,6 +10930,7 @@ IL_31af:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4069));
 		float L_1384 = V_260;
 		float L_1385 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_260 = ((float)(L_1384/((float)il2cpp_codegen_subtract((1.0f), L_1385))));
@@ -9174,6 +10938,7 @@ IL_31af:
 
 IL_3223:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4070));
 		float L_1386 = V_204;
 		float L_1387 = V_25;
 		bool L_1388 = V_93;
@@ -9203,28 +10968,47 @@ IL_3238:
 IL_323d:
 	{
 		V_261 = ((float)il2cpp_codegen_subtract(G_B453_2, ((float)il2cpp_codegen_multiply(G_B453_1, G_B453_0))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4071));
 		float L_1389 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1390 = V_261;
 		float L_1391 = V_260;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = ((float)il2cpp_codegen_add(L_1389, ((float)(L_1390/L_1391))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4072));
 		float L_1392 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1393 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4073));
 		float L_1394;
 		L_1394 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_1392, ((float)(L_1393/(100.0f))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4073));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = L_1394;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4074));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4075));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4075));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4076));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4077));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4077));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4078));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4079));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4079));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4080));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4081));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4081));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4082));
 		goto IL_9457;
 	}
 
 IL_32ad:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4083));
 		float L_1395 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1396 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
 		V_263 = (bool)((((float)L_1395) > ((float)L_1396))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4084));
 		bool L_1397 = V_263;
 		if (!L_1397)
 		{
@@ -9232,39 +11016,65 @@ IL_32ad:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4085));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4086));
 		float L_1398 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxFontSize = L_1398;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4087));
 		float L_1399 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1400 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_minFontSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4088));
 		float L_1401;
 		L_1401 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_subtract(L_1399, L_1400))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4088));
 		V_264 = L_1401;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4089));
 		float L_1402 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1403 = V_264;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = ((float)il2cpp_codegen_subtract(L_1402, L_1403));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4090));
 		float L_1404 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_1405 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMin;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4091));
 		float L_1406;
 		L_1406 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1404, (20.0f))), (0.5f)))))/(20.0f))), L_1405, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4091));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = L_1406;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4092));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4093));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4093));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4094));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4095));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4095));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4096));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4097));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4097));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4098));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4099));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4099));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4100));
 		goto IL_9457;
 	}
 
 IL_336b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4101));
 	}
 
 IL_336c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4102));
 		int32_t L_1407 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		V_267 = L_1407;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4103));
 		int32_t L_1408 = V_267;
 		V_266 = L_1408;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4104));
 		int32_t L_1409 = V_266;
 		switch (L_1409)
 		{
@@ -9304,30 +11114,47 @@ IL_336c:
 
 IL_33b0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4105));
 		goto IL_3555;
 	}
 
 IL_33b5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4106));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4107));
 		int32_t L_1410;
 		L_1410 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedWordWrapState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4107));
 		V_66 = L_1410;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4108));
 		int32_t L_1411 = V_206;
 		(&V_31)->___index = L_1411;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4109));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4110));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4111));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4111));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4112));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4113));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4113));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4114));
 		goto IL_4ffc;
 	}
 
 IL_33ee:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4115));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4116));
 		int32_t L_1412;
 		L_1412 = TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4116));
 		V_268 = (bool)((((int32_t)L_1412) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4117));
 		bool L_1413 = V_268;
 		if (!L_1413)
 		{
@@ -9335,52 +11162,90 @@ IL_33ee:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4118));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4119));
 		V_66 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4120));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4121));
 		(&V_31)->___index = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4122));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4123));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4124));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4125));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4125));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4126));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4127));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4127));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4128));
 		goto IL_4ffc;
 	}
 
 IL_3446:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4129));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4130));
 		WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A L_1414;
 		L_1414 = TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4130));
 		V_265 = L_1414;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4131));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4132));
 		int32_t L_1415;
 		L_1415 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&V_265), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4132));
 		V_66 = L_1415;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4133));
 		int32_t L_1416 = V_66;
 		V_66 = ((int32_t)il2cpp_codegen_subtract(L_1416, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4134));
 		int32_t L_1417 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_subtract(L_1417, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4135));
 		int32_t L_1418 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = L_1418;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4136));
 		(&V_31)->___unicode = ((int32_t)8230);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4137));
 		int32_t L_1419 = V_33;
 		V_33 = ((int32_t)il2cpp_codegen_add(L_1419, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4138));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4139));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4139));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4140));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4141));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4141));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4142));
 		goto IL_4ffc;
 	}
 
 IL_34b2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4143));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4144));
 		int32_t L_1420;
 		L_1420 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedWordWrapState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4144));
 		V_66 = L_1420;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4145));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1421 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4146));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1422;
 		L_1422 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1421, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4146));
 		V_269 = L_1422;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4147));
 		bool L_1423 = V_269;
 		if (!L_1423)
 		{
@@ -9388,50 +11253,81 @@ IL_34b2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4148));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4149));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1424 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4150));
 		String_t* L_1425;
 		L_1425 = VirtualFuncInvoker0< String_t* >::Invoke(65, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4150));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4151));
 		NullCheck(L_1424);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1424, L_1425);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4151));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4152));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1426 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1427 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_inputSource;
 		NullCheck(L_1426);
 		L_1426->___m_inputSource = L_1427;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4153));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1428 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1429 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4154));
 		NullCheck(L_1428);
 		TMP_Text_set_firstVisibleCharacter_m343804C8FF610EB13CCB14E8D54C889BC356AD53(L_1428, L_1429, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4154));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4155));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1430 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4156));
 		NullCheck(L_1430);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_1430, (bool)0, (bool)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4156));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4157));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextTruncated = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4158));
 	}
 
 IL_3525:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4159));
 		int32_t L_1431 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		(&V_31)->___index = L_1431;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4160));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4161));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4162));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4162));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4163));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4164));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4164));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4165));
 		goto IL_4ffc;
 	}
 
 IL_3555:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4166));
 	}
 
 IL_3556:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4167));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4168));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleHorizontalLineBreakingMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4168));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4169));
 	}
 
 IL_3562:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4170));
 		bool L_1432 = V_77;
 		V_270 = L_1432;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4171));
 		bool L_1433 = V_270;
 		if (!L_1433)
 		{
@@ -9439,14 +11335,18 @@ IL_3562:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4172));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4173));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1434 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1434);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1435 = L_1434->___characterInfo;
 		int32_t L_1436 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_1435);
 		((L_1435)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1436)))->___isVisible = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4174));
 		int32_t L_1437 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lastVisibleCharacterOfLine = L_1437;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4175));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1438 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1438);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1439 = L_1438->___lineInfo;
@@ -9462,6 +11362,7 @@ IL_3562:
 		*((int32_t*)L_1442) = (int32_t)L_1445;
 		int32_t L_1446 = V_62;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleSpaceCount = L_1446;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4176));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1447 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1447);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1448 = L_1447->___lineInfo;
@@ -9469,6 +11370,7 @@ IL_3562:
 		NullCheck(L_1448);
 		float L_1450 = V_202;
 		((L_1448)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1449)))->___marginLeft = L_1450;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4177));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1451 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1451);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1452 = L_1451->___lineInfo;
@@ -9476,6 +11378,7 @@ IL_3562:
 		NullCheck(L_1452);
 		float L_1454 = V_203;
 		((L_1452)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1453)))->___marginRight = L_1454;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4178));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1455 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		V_271 = L_1455;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1456 = V_271;
@@ -9484,8 +11387,10 @@ IL_3562:
 		int32_t L_1458 = L_1457->___spaceCount;
 		NullCheck(L_1456);
 		L_1456->___spaceCount = ((int32_t)il2cpp_codegen_add(L_1458, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4179));
 		uint32_t L_1459 = V_5;
 		V_272 = (bool)((((int32_t)L_1459) == ((int32_t)((int32_t)160)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4180));
 		bool L_1460 = V_272;
 		if (!L_1460)
 		{
@@ -9493,6 +11398,7 @@ IL_3562:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4181));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1461 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1461);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1462 = L_1461->___lineInfo;
@@ -9508,13 +11414,17 @@ IL_3562:
 
 IL_3668:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4182));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4183));
 		goto IL_37b5;
 	}
 
 IL_366e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4184));
 		uint32_t L_1468 = V_5;
 		V_273 = (bool)((((int32_t)L_1468) == ((int32_t)((int32_t)173)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4185));
 		bool L_1469 = V_273;
 		if (!L_1469)
 		{
@@ -9522,19 +11432,26 @@ IL_366e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4186));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4187));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1470 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1470);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1471 = L_1470->___characterInfo;
 		int32_t L_1472 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_1471);
 		((L_1471)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1472)))->___isVisible = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4188));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4189));
 		goto IL_37b5;
 	}
 
 IL_36a8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4190));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4191));
 		bool L_1473 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overrideHtmlColors;
 		V_275 = L_1473;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4192));
 		bool L_1474 = V_275;
 		if (!L_1474)
 		{
@@ -9542,23 +11459,31 @@ IL_36a8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4193));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1475 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontColor32;
 		V_274 = L_1475;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4194));
 		goto IL_36d7;
 	}
 
 IL_36cb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4195));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1476 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_htmlColor;
 		V_274 = L_1476;
 	}
 
 IL_36d7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4196));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4197));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SaveGlyphVertexDataMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4197));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4198));
 		int32_t L_1477 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		V_276 = (bool)((((int32_t)L_1477) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4199));
 		bool L_1478 = V_276;
 		if (!L_1478)
 		{
@@ -9566,17 +11491,25 @@ IL_36d7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4200));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4201));
 		float L_1479 = V_6;
 		float L_1480 = V_83;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1481 = V_274;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4202));
 		VirtualActionInvoker3< float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(120, __this, L_1479, L_1480, L_1481);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4202));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4203));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4204));
 		goto IL_3734;
 	}
 
 IL_370e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4205));
 		int32_t L_1482 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textElementType;
 		V_277 = (bool)((((int32_t)L_1482) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4206));
 		bool L_1483 = V_277;
 		if (!L_1483)
 		{
@@ -9584,16 +11517,26 @@ IL_370e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4207));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4208));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1484 = V_274;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4209));
 		VirtualActionInvoker1< Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(121, __this, L_1484);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4209));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4210));
 	}
 
 IL_3734:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4211));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4212));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SaveGlyphVertexDataMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4212));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4213));
 		bool L_1485 = V_17;
 		V_278 = L_1485;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4214));
 		bool L_1486 = V_278;
 		if (!L_1486)
 		{
@@ -9601,17 +11544,24 @@ IL_3734:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4215));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4216));
 		V_17 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4217));
 		int32_t L_1487 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstVisibleCharacterOfLine = L_1487;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4218));
 	}
 
 IL_3760:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4219));
 		int32_t L_1488 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleCharacterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleCharacterCount = ((int32_t)il2cpp_codegen_add(L_1488, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4220));
 		int32_t L_1489 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lastVisibleCharacterOfLine = L_1489;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4221));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1490 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1490);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1491 = L_1490->___lineInfo;
@@ -9619,6 +11569,7 @@ IL_3760:
 		NullCheck(L_1491);
 		float L_1493 = V_202;
 		((L_1491)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1492)))->___marginLeft = L_1493;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4222));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1494 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1494);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1495 = L_1494->___lineInfo;
@@ -9626,19 +11577,30 @@ IL_3760:
 		NullCheck(L_1495);
 		float L_1497 = V_203;
 		((L_1495)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1496)))->___marginRight = L_1497;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4223));
 	}
 
 IL_37b5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4224));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4225));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleVisibleCharacterMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4225));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4226));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4227));
 		goto IL_3a29;
 	}
 
 IL_37c6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4228));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4229));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4230));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleWhiteSpacesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4230));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4231));
 		int32_t L_1498 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		if ((!(((uint32_t)L_1498) == ((uint32_t)6))))
 		{
@@ -9677,6 +11639,7 @@ IL_37ec:
 IL_37ed:
 	{
 		V_279 = (bool)G_B492_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4232));
 		bool L_1501 = V_279;
 		if (!L_1501)
 		{
@@ -9684,6 +11647,8 @@ IL_37ed:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4233));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4234));
 		float L_1502 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender;
 		float L_1503 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		float L_1504 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
@@ -9723,11 +11688,14 @@ IL_382f:
 IL_383c:
 	{
 		V_280 = ((float)il2cpp_codegen_add(G_B497_1, G_B497_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4235));
 		int32_t L_1509 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_281 = L_1509;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4236));
 		float L_1510 = V_280;
 		float L_1511 = V_24;
 		V_282 = (bool)((((float)L_1510) > ((float)((float)il2cpp_codegen_add(L_1511, (9.99999975E-05f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4237));
 		bool L_1512 = V_282;
 		if (!L_1512)
 		{
@@ -9735,8 +11703,11 @@ IL_383c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4238));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4239));
 		int32_t L_1513 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex;
 		V_283 = (bool)((((int32_t)L_1513) == ((int32_t)(-1)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4240));
 		bool L_1514 = V_283;
 		if (!L_1514)
 		{
@@ -9744,21 +11715,29 @@ IL_383c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4241));
 		int32_t L_1515 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstOverflowCharacterIndex = L_1515;
 	}
 
 IL_3894:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4242));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4243));
 		int32_t L_1516;
 		L_1516 = TMP_Text_RestoreWordWrappingState_mB126C83C447A92E11F6AC19C2BBBD923C74D8FCA(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4243));
 		V_66 = L_1516;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4244));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1517 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4245));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1518;
 		L_1518 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1517, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4245));
 		V_284 = L_1518;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4246));
 		bool L_1519 = V_284;
 		if (!L_1519)
 		{
@@ -9766,41 +11745,64 @@ IL_3894:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4247));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4248));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1520 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4249));
 		String_t* L_1521;
 		L_1521 = VirtualFuncInvoker0< String_t* >::Invoke(65, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4249));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4250));
 		NullCheck(L_1520);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1520, L_1521);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4250));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4251));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1522 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1523 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_inputSource;
 		NullCheck(L_1522);
 		L_1522->___m_inputSource = L_1523;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4252));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1524 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
 		int32_t L_1525 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4253));
 		NullCheck(L_1524);
 		TMP_Text_set_firstVisibleCharacter_m343804C8FF610EB13CCB14E8D54C889BC356AD53(L_1524, L_1525, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4253));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4254));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1526 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_linkedTextComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4255));
 		NullCheck(L_1526);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_1526, (bool)0, (bool)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4255));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4256));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isTextTruncated = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4257));
 	}
 
 IL_3907:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4258));
 		int32_t L_1527 = V_281;
 		(&V_31)->___index = L_1527;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4259));
 		(&V_31)->___unicode = 3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4260));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4261));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleWhiteSpacesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4261));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4262));
 		goto IL_4ffc;
 	}
 
 IL_392c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4263));
 	}
 
 IL_392d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4264));
 		uint32_t L_1528 = V_5;
 		if ((((int32_t)L_1528) == ((int32_t)((int32_t)10))))
 		{
@@ -9844,9 +11846,11 @@ IL_392d:
 	}
 	{
 		uint32_t L_1534 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4265));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_1535;
 		L_1535 = Char_IsSeparator_m8DBA05CCFA10131140E40057E6553F7AC7397BF9(((int32_t)(uint16_t)L_1534), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4265));
 		if (!L_1535)
 		{
 			goto IL_3987;
@@ -9882,6 +11886,7 @@ IL_3987:
 IL_3988:
 	{
 		V_285 = (bool)G_B515_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4266));
 		bool L_1539 = V_285;
 		if (!L_1539)
 		{
@@ -9889,6 +11894,8 @@ IL_3988:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4267));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4268));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1540 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1540);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1541 = L_1540->___lineInfo;
@@ -9900,6 +11907,7 @@ IL_3988:
 		int32_t* L_1545 = V_103;
 		int32_t L_1546 = *((int32_t*)L_1545);
 		*((int32_t*)L_1544) = (int32_t)((int32_t)il2cpp_codegen_add(L_1546, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4269));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1547 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		V_271 = L_1547;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1548 = V_271;
@@ -9908,12 +11916,15 @@ IL_3988:
 		int32_t L_1550 = L_1549->___spaceCount;
 		NullCheck(L_1548);
 		L_1548->___spaceCount = ((int32_t)il2cpp_codegen_add(L_1550, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4270));
 	}
 
 IL_39e1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4271));
 		uint32_t L_1551 = V_5;
 		V_286 = (bool)((((int32_t)L_1551) == ((int32_t)((int32_t)160)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4272));
 		bool L_1552 = V_286;
 		if (!L_1552)
 		{
@@ -9921,6 +11932,7 @@ IL_39e1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4273));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1553 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1553);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1554 = L_1553->___lineInfo;
@@ -9936,12 +11948,17 @@ IL_39e1:
 
 IL_3a1d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4274));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4275));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleWhiteSpacesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4275));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4276));
 	}
 
 IL_3a29:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4277));
 		int32_t L_1560 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		if ((!(((uint32_t)L_1560) == ((uint32_t)1))))
 		{
@@ -9980,6 +11997,7 @@ IL_3a41:
 IL_3a42:
 	{
 		V_287 = (bool)G_B526_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4278));
 		bool L_1563 = V_287;
 		if (!L_1563)
 		{
@@ -9987,19 +12005,25 @@ IL_3a42:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4279));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4280));
 		float L_1564 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontSize;
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_1565 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Ellipsis);
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1566 = L_1565->___fontAsset;
 		NullCheck(L_1566);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_1567 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_1566)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4281));
 		float L_1568;
 		L_1568 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_1567, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4281));
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_1569 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Ellipsis);
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1570 = L_1569->___fontAsset;
 		NullCheck(L_1570);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_1571 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_1570)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4282));
 		float L_1572;
 		L_1572 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_1571, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4282));
 		bool L_1573 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_1573)
 		{
@@ -10023,6 +12047,7 @@ IL_3a95:
 IL_3a9a:
 	{
 		V_288 = ((float)il2cpp_codegen_multiply(G_B530_1, G_B530_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4283));
 		float L_1574 = V_288;
 		float L_1575 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_1576 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Ellipsis);
@@ -10033,14 +12058,19 @@ IL_3a9a:
 		TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* L_1580 = L_1579->___character;
 		NullCheck(L_1580);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_1581 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_1580)->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4284));
 		NullCheck(L_1581);
 		float L_1582;
 		L_1582 = Glyph_get_scale_m3ED738CBB032247526DB38161E180759B2D06F29(L_1581, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4284));
 		V_289 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_1574, L_1575)), L_1578)), L_1582));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4285));
 		float L_1583 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginLeft;
 		V_290 = L_1583;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4286));
 		float L_1584 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_marginRight;
 		V_291 = L_1584;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4287));
 		uint32_t L_1585 = V_5;
 		if ((!(((uint32_t)L_1585) == ((uint32_t)((int32_t)10)))))
 		{
@@ -10062,6 +12092,7 @@ IL_3b0c:
 IL_3b0d:
 	{
 		V_295 = (bool)G_B533_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4288));
 		bool L_1588 = V_295;
 		if (!L_1588)
 		{
@@ -10069,6 +12100,8 @@ IL_3b0d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4289));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4290));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1589 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1589);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1590 = L_1589->___characterInfo;
@@ -10079,14 +12112,18 @@ IL_3b0d:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1594 = L_1593->___fontAsset;
 		NullCheck(L_1594);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_1595 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_1594)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4291));
 		float L_1596;
 		L_1596 = FaceInfo_get_pointSize_mDCB57F74233408806DF4F658751ECEE9A66C003E(L_1595, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4291));
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_1597 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Ellipsis);
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1598 = L_1597->___fontAsset;
 		NullCheck(L_1598);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_1599 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_1598)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4292));
 		float L_1600;
 		L_1600 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD(L_1599, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4292));
 		bool L_1601 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isOrthographic;
 		if (L_1601)
 		{
@@ -10110,6 +12147,7 @@ IL_3b77:
 IL_3b7c:
 	{
 		V_288 = ((float)il2cpp_codegen_multiply(G_B537_1, G_B537_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4293));
 		float L_1602 = V_288;
 		float L_1603 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontScaleMultiplier;
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_1604 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Ellipsis);
@@ -10120,10 +12158,13 @@ IL_3b7c:
 		TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* L_1608 = L_1607->___character;
 		NullCheck(L_1608);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_1609 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_1608)->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4294));
 		NullCheck(L_1609);
 		float L_1610;
 		L_1610 = Glyph_get_scale_m3ED738CBB032247526DB38161E180759B2D06F29(L_1609, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4294));
 		V_289 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_1602, L_1603)), L_1606)), L_1610));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4295));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1611 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1611);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1612 = L_1611->___lineInfo;
@@ -10131,6 +12172,7 @@ IL_3b7c:
 		NullCheck(L_1612);
 		float L_1614 = ((L_1612)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1613)))->___marginLeft;
 		V_290 = L_1614;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4296));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1615 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1615);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1616 = L_1615->___lineInfo;
@@ -10138,10 +12180,12 @@ IL_3b7c:
 		NullCheck(L_1616);
 		float L_1618 = ((L_1616)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1617)))->___marginRight;
 		V_291 = L_1618;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4297));
 	}
 
 IL_3c00:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4298));
 		float L_1619 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender;
 		float L_1620 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		float L_1621 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
@@ -10181,9 +12225,12 @@ IL_3c30:
 IL_3c3d:
 	{
 		V_292 = ((float)il2cpp_codegen_add(G_B542_1, G_B542_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4299));
 		float L_1626 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4300));
 		float L_1627;
 		L_1627 = fabsf(L_1626);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4300));
 		bool L_1628 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		if (!L_1628)
 		{
@@ -10204,12 +12251,16 @@ IL_3c5e:
 		TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* L_1630 = L_1629->___character;
 		NullCheck(L_1630);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_1631 = ((TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5*)L_1630)->___m_Glyph;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4301));
 		NullCheck(L_1631);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_1632;
 		L_1632 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_1631, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4301));
 		V_122 = L_1632;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4302));
 		float L_1633;
 		L_1633 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_122), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4302));
 		G_B545_0 = L_1633;
 		G_B545_1 = G_B544_0;
 	}
@@ -10219,6 +12270,7 @@ IL_3c7c:
 		float L_1634 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_1635 = V_289;
 		V_293 = ((float)il2cpp_codegen_add(G_B545_1, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(G_B545_0, ((float)il2cpp_codegen_subtract((1.0f), L_1634)))), L_1635))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4303));
 		float L_1636 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_width;
 		if ((!(((float)L_1636) == ((float)(-1.0f)))))
 		{
@@ -10239,14 +12291,17 @@ IL_3cbc:
 		float L_1641 = V_290;
 		float L_1642 = V_291;
 		float L_1643 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_width;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4304));
 		float L_1644;
 		L_1644 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_1640, (9.99999975E-05f))), L_1641)), L_1642)), L_1643, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4304));
 		G_B548_0 = L_1644;
 	}
 
 IL_3cdd:
 	{
 		V_294 = G_B548_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4305));
 		float L_1645 = V_293;
 		float L_1646 = V_294;
 		bool L_1647 = V_93;
@@ -10295,6 +12350,7 @@ IL_3d14:
 IL_3d15:
 	{
 		V_296 = (bool)G_B554_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4306));
 		bool L_1650 = V_296;
 		if (!L_1650)
 		{
@@ -10302,20 +12358,30 @@ IL_3d15:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4307));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4308));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_1651 = V_66;
 		int32_t L_1652 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4309));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState), L_1651, L_1652, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4309));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4310));
 		WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A L_1653 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4311));
 		TMP_TextProcessingStack_1_Push_m63F37445718C865947D1BCBD1E67978F717F2E2A((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), L_1653, TMP_TextProcessingStack_1_Push_m63F37445718C865947D1BCBD1E67978F717F2E2A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4311));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4312));
 	}
 
 IL_3d49:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4313));
 	}
 
 IL_3d4a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4314));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1654 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1654);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1655 = L_1654->___characterInfo;
@@ -10323,6 +12389,7 @@ IL_3d4a:
 		NullCheck(L_1655);
 		int32_t L_1657 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		((L_1655)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1656)))->___lineNumber = L_1657;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4315));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1658 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1658);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1659 = L_1658->___characterInfo;
@@ -10330,6 +12397,7 @@ IL_3d4a:
 		NullCheck(L_1659);
 		int32_t L_1661 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber;
 		((L_1659)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1660)))->___pageNumber = L_1661;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4316));
 		uint32_t L_1662 = V_5;
 		if ((((int32_t)L_1662) == ((int32_t)((int32_t)10))))
 		{
@@ -10378,6 +12446,7 @@ IL_3dc2:
 IL_3dc3:
 	{
 		V_297 = (bool)G_B563_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4317));
 		bool L_1670 = V_297;
 		if (!L_1670)
 		{
@@ -10385,6 +12454,7 @@ IL_3dc3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4318));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1671 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1671);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1672 = L_1671->___lineInfo;
@@ -10396,10 +12466,15 @@ IL_3dc3:
 
 IL_3df2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4319));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4320));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ComputeCharacterAdvanceMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4320));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4321));
 		uint32_t L_1675 = V_5;
 		V_298 = (bool)((((int32_t)L_1675) == ((int32_t)((int32_t)9)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4322));
 		bool L_1676 = V_298;
 		if (!L_1676)
 		{
@@ -10407,22 +12482,30 @@ IL_3df2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4323));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4324));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1677 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_1677);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_1678 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_1677)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4325));
 		float L_1679;
 		L_1679 = FaceInfo_get_tabWidth_mC6D9F42C40EDD767DE22050E4FBE3878AC96B161(L_1678, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4325));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1680 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_1680);
 		uint8_t L_1681 = L_1680->___tabSize;
 		float L_1682 = V_2;
 		V_299 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_1679, ((float)L_1681))), L_1682));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4326));
 		float L_1683 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_1684 = V_299;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4327));
 		float L_1685;
 		L_1685 = ceilf(((float)(L_1683/L_1684)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4327));
 		float L_1686 = V_299;
 		V_300 = ((float)il2cpp_codegen_multiply(L_1685, L_1686));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4328));
 		float L_1687 = V_300;
 		float L_1688 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		if ((((float)L_1687) > ((float)L_1688)))
@@ -10451,13 +12534,17 @@ IL_3e7a:
 	{
 		NullCheck(G_B569_1);
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)G_B569_1)->___m_xAdvance = G_B569_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4329));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4330));
 		goto IL_407f;
 	}
 
 IL_3e85:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4331));
 		float L_1692 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing;
 		V_301 = (bool)((((int32_t)((((float)L_1692) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4332));
 		bool L_1693 = V_301;
 		if (!L_1693)
 		{
@@ -10465,6 +12552,8 @@ IL_3e85:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4333));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4334));
 		bool L_1694 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_duoSpace;
 		if (!L_1694)
 		{
@@ -10510,6 +12599,7 @@ IL_3ec6:
 IL_3ec7:
 	{
 		V_303 = (bool)G_B578_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4335));
 		bool L_1698 = V_303;
 		if (!L_1698)
 		{
@@ -10517,14 +12607,17 @@ IL_3ec7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4336));
 		float L_1699 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing;
 		float L_1700 = V_81;
 		V_302 = ((float)il2cpp_codegen_subtract(((float)(L_1699/(2.0f))), L_1700));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4337));
 		goto IL_3efb;
 	}
 
 IL_3eec:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4338));
 		float L_1701 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_monoSpacing;
 		float L_1702 = V_81;
 		V_302 = ((float)il2cpp_codegen_subtract(L_1701, L_1702));
@@ -10532,6 +12625,7 @@ IL_3eec:
 
 IL_3efb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4339));
 		float L_1703 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_1704 = V_302;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1705 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
@@ -10542,6 +12636,7 @@ IL_3efb:
 		float L_1709 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cSpacing;
 		float L_1710 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_add(L_1703, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1704, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_1706, L_1707)), L_1708)))), L_1709)), ((float)il2cpp_codegen_subtract((1.0f), L_1710))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4340));
 		bool L_1711 = V_77;
 		if (L_1711)
 		{
@@ -10562,6 +12657,7 @@ IL_3f42:
 IL_3f43:
 	{
 		V_304 = (bool)G_B584_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4341));
 		bool L_1713 = V_304;
 		if (!L_1713)
 		{
@@ -10569,6 +12665,7 @@ IL_3f43:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4342));
 		float L_1714 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_1715 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_wordSpacing;
 		float L_1716 = V_3;
@@ -10577,13 +12674,17 @@ IL_3f43:
 
 IL_3f66:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4343));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4344));
 		goto IL_407f;
 	}
 
 IL_3f6c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4345));
 		bool L_1717 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_305 = L_1717;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4346));
 		bool L_1718 = V_305;
 		if (!L_1718)
 		{
@@ -10591,9 +12692,13 @@ IL_3f6c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4347));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4348));
 		float L_1719 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4349));
 		float L_1720;
 		L_1720 = GlyphValueRecord_get_xAdvance_m6C392027FA91E0705C1585C5EF40D984AAA0013E((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4349));
 		float L_1721 = V_2;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1722 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_1722);
@@ -10604,6 +12709,7 @@ IL_3f6c:
 		float L_1727 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cSpacing;
 		float L_1728 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_subtract(L_1719, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1720, L_1721)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1723, L_1724)), L_1725)), L_1726)))), L_1727)), ((float)il2cpp_codegen_subtract((1.0f), L_1728))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4350));
 		bool L_1729 = V_77;
 		if (L_1729)
 		{
@@ -10624,6 +12730,7 @@ IL_3fce:
 IL_3fcf:
 	{
 		V_306 = (bool)G_B591_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4351));
 		bool L_1731 = V_306;
 		if (!L_1731)
 		{
@@ -10631,6 +12738,7 @@ IL_3fcf:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4352));
 		float L_1732 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_1733 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_wordSpacing;
 		float L_1734 = V_3;
@@ -10639,18 +12747,26 @@ IL_3fcf:
 
 IL_3ff2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4353));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4354));
 		goto IL_407f;
 	}
 
 IL_3ff8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4355));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4356));
 		float L_1735 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4357));
 		float L_1736;
 		L_1736 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_76), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4357));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1737 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_FXScale);
 		float L_1738 = L_1737->___x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4358));
 		float L_1739;
 		L_1739 = GlyphValueRecord_get_xAdvance_m6C392027FA91E0705C1585C5EF40D984AAA0013E((&V_78), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4358));
 		float L_1740 = V_2;
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1741 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_1741);
@@ -10661,6 +12777,7 @@ IL_3ff8:
 		float L_1746 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cSpacing;
 		float L_1747 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_add(L_1735, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1736, L_1738)), L_1739)), L_1740)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1742, L_1743)), L_1744)), L_1745)))), L_1746)), ((float)il2cpp_codegen_subtract((1.0f), L_1747))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4359));
 		bool L_1748 = V_77;
 		if (L_1748)
 		{
@@ -10681,6 +12798,7 @@ IL_405a:
 IL_405b:
 	{
 		V_307 = (bool)G_B597_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4360));
 		bool L_1750 = V_307;
 		if (!L_1750)
 		{
@@ -10688,6 +12806,7 @@ IL_405b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4361));
 		float L_1751 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		float L_1752 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_wordSpacing;
 		float L_1753 = V_3;
@@ -10696,10 +12815,12 @@ IL_405b:
 
 IL_407e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4362));
 	}
 
 IL_407f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4363));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1754 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1754);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1755 = L_1754->___characterInfo;
@@ -10707,10 +12828,15 @@ IL_407f:
 		NullCheck(L_1755);
 		float L_1757 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance;
 		((L_1755)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1756)))->___xAdvance = L_1757;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4364));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4365));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_ComputeCharacterAdvanceMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4365));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4366));
 		uint32_t L_1758 = V_5;
 		V_308 = (bool)((((int32_t)L_1758) == ((int32_t)((int32_t)13)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4367));
 		bool L_1759 = V_308;
 		if (!L_1759)
 		{
@@ -10718,17 +12844,30 @@ IL_407f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4368));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4369));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4370));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleCarriageReturnMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4370));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4371));
 		float L_1760 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_Indent;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_add((0.0f), L_1760));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4372));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4373));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleCarriageReturnMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4373));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4374));
 	}
 
 IL_40e9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4375));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4376));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SavePageInfoMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4376));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4377));
 		int32_t L_1761 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		if ((!(((uint32_t)L_1761) == ((uint32_t)5))))
 		{
@@ -10777,6 +12916,7 @@ IL_4126:
 IL_4127:
 	{
 		V_309 = (bool)G_B609_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4378));
 		bool L_1767 = V_309;
 		if (!L_1767)
 		{
@@ -10784,12 +12924,15 @@ IL_4127:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4379));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4380));
 		int32_t L_1768 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1769 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1769);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* L_1770 = L_1769->___pageInfo;
 		NullCheck(L_1770);
 		V_310 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_1768, 1))) > ((int32_t)((int32_t)(((RuntimeArray*)L_1770)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4381));
 		bool L_1771 = V_310;
 		if (!L_1771)
 		{
@@ -10797,16 +12940,20 @@ IL_4127:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4382));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1772 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1772);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9** L_1773 = (TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9**)(&L_1772->___pageInfo);
 		int32_t L_1774 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4383));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
 		TMP_TextInfo_Resize_TisTMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4_m2A5C121053D091AFFFBF48BA9BAF7C7FAC0FD9C5(L_1773, ((int32_t)il2cpp_codegen_add(L_1774, 1)), (bool)1, TMP_TextInfo_Resize_TisTMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4_m2A5C121053D091AFFFBF48BA9BAF7C7FAC0FD9C5_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4383));
 	}
 
 IL_4178:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4384));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1775 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1775);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* L_1776 = L_1775->___pageInfo;
@@ -10814,6 +12961,7 @@ IL_4178:
 		NullCheck(L_1776);
 		float L_1778 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_PageAscender;
 		((L_1776)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1777)))->___ascender = L_1778;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4385));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1779 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1779);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* L_1780 = L_1779->___pageInfo;
@@ -10855,8 +13003,10 @@ IL_41ef:
 IL_41f5:
 	{
 		G_B615_1->___descender = G_B615_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4386));
 		bool L_1792 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNewPage;
 		V_311 = L_1792;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4387));
 		bool L_1793 = V_311;
 		if (!L_1793)
 		{
@@ -10864,7 +13014,10 @@ IL_41f5:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4388));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4389));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNewPage = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4390));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1794 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1794);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* L_1795 = L_1794->___pageInfo;
@@ -10872,10 +13025,12 @@ IL_41f5:
 		NullCheck(L_1795);
 		int32_t L_1797 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((L_1795)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1796)))->___firstCharacterIndex = L_1797;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4391));
 	}
 
 IL_4238:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4392));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1798 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1798);
 		TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* L_1799 = L_1798->___pageInfo;
@@ -10883,12 +13038,17 @@ IL_4238:
 		NullCheck(L_1799);
 		int32_t L_1801 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((L_1799)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1800)))->___lastCharacterIndex = L_1801;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4393));
 	}
 
 IL_425a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4394));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4395));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SavePageInfoMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4395));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4396));
 		uint32_t L_1802 = V_5;
 		if ((((int32_t)L_1802) == ((int32_t)((int32_t)10))))
 		{
@@ -10946,6 +13106,7 @@ IL_42a0:
 IL_42a1:
 	{
 		V_312 = (bool)G_B626_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4397));
 		bool L_1811 = V_312;
 		if (!L_1811)
 		{
@@ -10953,11 +13114,17 @@ IL_42a1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4398));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4399));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4400));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleLineTerminationMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4400));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4401));
 		float L_1812 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender;
 		float L_1813 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_startOfLineAscender;
 		V_313 = ((float)il2cpp_codegen_subtract(L_1812, L_1813));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4402));
 		float L_1814 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		if ((!(((float)L_1814) > ((float)(0.0f)))))
 		{
@@ -10966,9 +13133,11 @@ IL_42a1:
 	}
 	{
 		float L_1815 = V_313;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4403));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		float L_1816;
 		L_1816 = fabsf(L_1815);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4403));
 		if ((!(((float)L_1816) > ((float)(0.00999999978f)))))
 		{
 			goto IL_4303;
@@ -10995,6 +13164,7 @@ IL_4303:
 IL_4304:
 	{
 		V_317 = (bool)G_B632_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4404));
 		bool L_1819 = V_317;
 		if (!L_1819)
 		{
@@ -11002,20 +13172,28 @@ IL_4304:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4405));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4406));
 		int32_t L_1820 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine;
 		int32_t L_1821 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		float L_1822 = V_313;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4407));
 		TMP_Text_AdjustLineOffset_m52F6B152C307D094A146CA506C23704DD425218D(__this, L_1820, L_1821, L_1822, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4407));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4408));
 		float L_1823 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender;
 		float L_1824 = V_313;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender = ((float)il2cpp_codegen_subtract(L_1823, L_1824));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4409));
 		float L_1825 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		float L_1826 = V_313;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset = ((float)il2cpp_codegen_add(L_1825, L_1826));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4410));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_1827 = (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState)->___lineNumber;
 		int32_t L_1828 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		V_318 = (bool)((((int32_t)L_1827) == ((int32_t)L_1828))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4411));
 		bool L_1829 = V_318;
 		if (!L_1829)
 		{
@@ -11023,9 +13201,13 @@ IL_4304:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4412));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4413));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4414));
 		WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A L_1830;
 		L_1830 = TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), TMP_TextProcessingStack_1_Pop_m86F5023CF5AFB9A7D810221367C63FA084F0EBE7_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4414));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState = L_1830;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState))->___textInfo), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
@@ -11097,6 +13279,7 @@ IL_4304:
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState))->___currentMaterial), (void*)NULL);
 		#endif
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4415));
 		float* L_1831 = (float*)(&(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState)->___startOfLineAscender);
 		V_319 = L_1831;
 		float* L_1832 = V_319;
@@ -11104,6 +13287,7 @@ IL_4304:
 		float L_1834 = *((float*)L_1833);
 		float L_1835 = V_313;
 		*((float*)L_1832) = (float)((float)il2cpp_codegen_add(L_1834, L_1835));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4416));
 		float* L_1836 = (float*)(&(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState)->___lineOffset);
 		V_319 = L_1836;
 		float* L_1837 = V_319;
@@ -11111,23 +13295,32 @@ IL_4304:
 		float L_1839 = *((float*)L_1838);
 		float L_1840 = V_313;
 		*((float*)L_1837) = (float)((float)il2cpp_codegen_add(L_1839, L_1840));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4417));
 		WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A L_1841 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedEllipsisState;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4418));
 		TMP_TextProcessingStack_1_Push_m63F37445718C865947D1BCBD1E67978F717F2E2A((&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_EllipsisInsertionCandidateStack), L_1841, TMP_TextProcessingStack_1_Push_m63F37445718C865947D1BCBD1E67978F717F2E2A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4418));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4419));
 	}
 
 IL_43e0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4420));
 	}
 
 IL_43e1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4421));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNewPage = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4422));
 		float L_1842 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender;
 		float L_1843 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		V_314 = ((float)il2cpp_codegen_subtract(L_1842, L_1843));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4423));
 		float L_1844 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		float L_1845 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		V_315 = ((float)il2cpp_codegen_subtract(L_1844, L_1845));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4424));
 		float L_1846 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender;
 		float L_1847 = V_315;
 		if ((((float)L_1846) < ((float)L_1847)))
@@ -11155,8 +13348,10 @@ IL_442b:
 	{
 		NullCheck(G_B639_1);
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)G_B639_1)->___m_ElementDescender = G_B639_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4425));
 		bool L_1850 = V_27;
 		V_320 = (bool)((((int32_t)L_1850) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4426));
 		bool L_1851 = V_320;
 		if (!L_1851)
 		{
@@ -11164,12 +13359,14 @@ IL_442b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4427));
 		float L_1852 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ElementDescender;
 		V_26 = L_1852;
 	}
 
 IL_444b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4428));
 		bool L_1853 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_useMaxVisibleDescender;
 		if (!L_1853)
 		{
@@ -11210,6 +13407,7 @@ IL_4477:
 IL_4478:
 	{
 		V_321 = (bool)G_B647_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4429));
 		bool L_1858 = V_321;
 		if (!L_1858)
 		{
@@ -11217,11 +13415,13 @@ IL_4478:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4430));
 		V_27 = (bool)1;
 	}
 
 IL_4489:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4431));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1859 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1859);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1860 = L_1859->___lineInfo;
@@ -11229,6 +13429,7 @@ IL_4489:
 		NullCheck(L_1860);
 		int32_t L_1862 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine;
 		((L_1860)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1861)))->___firstCharacterIndex = L_1862;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4432));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1863 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1863);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1864 = L_1863->___lineInfo;
@@ -11269,6 +13470,7 @@ IL_44dd:
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)G_B652_1)->___m_firstVisibleCharacterOfLine = L_1870;
 		int32_t L_1871 = V_62;
 		G_B652_2->___firstVisibleCharacterIndex = L_1871;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4433));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1872 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1872);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1873 = L_1872->___lineInfo;
@@ -11280,6 +13482,7 @@ IL_44dd:
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lastCharacterOfLine = L_1876;
 		int32_t L_1877 = V_62;
 		((L_1873)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1874)))->___lastCharacterIndex = L_1877;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4434));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1878 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1878);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1879 = L_1878->___lineInfo;
@@ -11320,6 +13523,7 @@ IL_454b:
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)G_B655_1)->___m_lastVisibleCharacterOfLine = L_1885;
 		int32_t L_1886 = V_62;
 		G_B655_2->___lastVisibleCharacterIndex = L_1886;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4435));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1887 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1887);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1888 = L_1887->___lineInfo;
@@ -11338,6 +13542,7 @@ IL_454b:
 		NullCheck(L_1895);
 		int32_t L_1897 = ((L_1895)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1896)))->___firstCharacterIndex;
 		((L_1888)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1889)))->___characterCount = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1893, L_1897)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4436));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1898 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1898);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1899 = L_1898->___lineInfo;
@@ -11345,6 +13550,7 @@ IL_454b:
 		NullCheck(L_1899);
 		int32_t L_1901 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleCharacterCount;
 		((L_1899)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1900)))->___visibleCharacterCount = L_1901;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4437));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1902 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1902);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1903 = L_1902->___lineInfo;
@@ -11358,6 +13564,7 @@ IL_454b:
 		int32_t L_1908 = ((L_1906)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1907)))->___lastVisibleCharacterIndex;
 		int32_t L_1909 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleCharacterCount;
 		((L_1903)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1904)))->___visibleSpaceCount = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_1908, 1)), L_1909));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4438));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1910 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1910);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1911 = L_1910->___lineInfo;
@@ -11372,10 +13579,13 @@ IL_454b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1917 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_1915)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1916)))->___bottomLeft);
 		float L_1918 = L_1917->___x;
 		float L_1919 = V_315;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4439));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1920;
 		memset((&L_1920), 0, sizeof(L_1920));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1920), L_1918, L_1919, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4439));
 		L_1913->___min = L_1920;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4440));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1921 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1921);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1922 = L_1921->___lineInfo;
@@ -11390,10 +13600,13 @@ IL_454b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1928 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_1926)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1927)))->___topRight);
 		float L_1929 = L_1928->___x;
 		float L_1930 = V_314;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4441));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1931;
 		memset((&L_1931), 0, sizeof(L_1931));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1931), L_1929, L_1930, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4441));
 		L_1924->___max = L_1931;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4442));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1932 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1932);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1933 = L_1932->___lineInfo;
@@ -11410,6 +13623,7 @@ IL_454b:
 		float L_1941 = V_6;
 		float L_1942 = V_2;
 		((L_1933)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1934)))->___length = ((float)il2cpp_codegen_subtract(L_1940, ((float)il2cpp_codegen_multiply(L_1941, L_1942))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4443));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1943 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1943);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1944 = L_1943->___lineInfo;
@@ -11417,6 +13631,7 @@ IL_454b:
 		NullCheck(L_1944);
 		float L_1946 = V_25;
 		((L_1944)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1945)))->___width = L_1946;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4444));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1947 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1947);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1948 = L_1947->___lineInfo;
@@ -11424,6 +13639,7 @@ IL_454b:
 		NullCheck(L_1948);
 		int32_t L_1950 = ((L_1948)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1949)))->___characterCount;
 		V_322 = (bool)((((int32_t)L_1950) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4445));
 		bool L_1951 = V_322;
 		if (!L_1951)
 		{
@@ -11431,6 +13647,7 @@ IL_454b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4446));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1952 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1952);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1953 = L_1952->___lineInfo;
@@ -11442,6 +13659,7 @@ IL_454b:
 
 IL_4753:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4447));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_1956 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_currentFontAsset;
 		NullCheck(L_1956);
 		float L_1957 = L_1956->___normalSpacingOffset;
@@ -11451,6 +13669,7 @@ IL_4753:
 		float L_1961 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_cSpacing;
 		float L_1962 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_316 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1957, L_1958)), L_1959)), L_1960)), L_1961)), ((float)il2cpp_codegen_subtract((1.0f), L_1962))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4448));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1963 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1963);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1964 = L_1963->___characterInfo;
@@ -11458,6 +13677,7 @@ IL_4753:
 		NullCheck(L_1964);
 		bool L_1966 = ((L_1964)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1965)))->___isVisible;
 		V_323 = L_1966;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4449));
 		bool L_1967 = V_323;
 		if (!L_1967)
 		{
@@ -11465,6 +13685,7 @@ IL_4753:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4450));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1968 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1968);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1969 = L_1968->___lineInfo;
@@ -11505,11 +13726,13 @@ IL_47eb:
 IL_47f1:
 	{
 		G_B661_2->___maxAdvance = ((float)il2cpp_codegen_add(G_B661_1, G_B661_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4451));
 		goto IL_4847;
 	}
 
 IL_47f9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4452));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1978 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1978);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1979 = L_1978->___lineInfo;
@@ -11554,6 +13777,7 @@ IL_4841:
 
 IL_4847:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4453));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1988 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1988);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1989 = L_1988->___lineInfo;
@@ -11561,6 +13785,7 @@ IL_4847:
 		NullCheck(L_1989);
 		float L_1991 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		((L_1989)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1990)))->___baseline = ((float)il2cpp_codegen_subtract((0.0f), L_1991));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4454));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1992 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1992);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1993 = L_1992->___lineInfo;
@@ -11568,6 +13793,7 @@ IL_4847:
 		NullCheck(L_1993);
 		float L_1995 = V_314;
 		((L_1993)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1994)))->___ascender = L_1995;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4455));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_1996 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_1996);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_1997 = L_1996->___lineInfo;
@@ -11575,6 +13801,7 @@ IL_4847:
 		NullCheck(L_1997);
 		float L_1999 = V_315;
 		((L_1997)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1998)))->___descender = L_1999;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4456));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2000 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2000);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_2001 = L_2000->___lineInfo;
@@ -11585,6 +13812,7 @@ IL_4847:
 		float L_2005 = V_16;
 		float L_2006 = V_1;
 		((L_2001)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2002)))->___lineHeight = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_2003, L_2004)), ((float)il2cpp_codegen_multiply(L_2005, L_2006))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4457));
 		uint32_t L_2007 = V_5;
 		if ((((int32_t)L_2007) == ((int32_t)((int32_t)10))))
 		{
@@ -11627,6 +13855,7 @@ IL_4908:
 IL_4909:
 	{
 		V_324 = (bool)G_B672_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4458));
 		bool L_2013 = V_324;
 		if (!L_2013)
 		{
@@ -11634,25 +13863,38 @@ IL_4909:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4459));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4460));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_2014 = V_66;
 		int32_t L_2015 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4461));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLineState), L_2014, L_2015, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4461));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4462));
 		int32_t L_2016 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber = ((int32_t)il2cpp_codegen_add(L_2016, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4463));
 		V_17 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4464));
 		V_29 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4465));
 		V_28 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4466));
 		int32_t L_2017 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_firstCharacterOfLine = ((int32_t)il2cpp_codegen_add(L_2017, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4467));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleCharacterCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4468));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineVisibleSpaceCount = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4469));
 		int32_t L_2018 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2019 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2019);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_2020 = L_2019->___lineInfo;
 		NullCheck(L_2020);
 		V_326 = (bool)((((int32_t)((((int32_t)L_2018) < ((int32_t)((int32_t)(((RuntimeArray*)L_2020)->max_length))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4470));
 		bool L_2021 = V_326;
 		if (!L_2021)
 		{
@@ -11660,12 +13902,16 @@ IL_4909:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4471));
 		int32_t L_2022 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineNumber;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4472));
 		TMP_Text_ResizeLineExtents_mD9792BED7C93557CF2A93C604497729729CCBC66(__this, L_2022, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4472));
 	}
 
 IL_4995:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4473));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2023 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2023);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2024 = L_2023->___characterInfo;
@@ -11673,8 +13919,10 @@ IL_4995:
 		NullCheck(L_2024);
 		float L_2026 = ((L_2024)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2025)))->___adjustedAscender;
 		V_325 = L_2026;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4474));
 		float L_2027 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineHeight;
 		V_327 = (bool)((((float)L_2027) == ((float)(-32767.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4475));
 		bool L_2028 = V_327;
 		if (!L_2028)
 		{
@@ -11682,6 +13930,8 @@ IL_4995:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4476));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4477));
 		float L_2029 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender;
 		float L_2030 = V_325;
 		float L_2031 = V_16;
@@ -11728,15 +13978,21 @@ IL_4a13:
 	{
 		float L_2038 = V_3;
 		V_328 = ((float)il2cpp_codegen_add(G_B680_2, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(G_B680_1, G_B680_0)), L_2038))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4478));
 		float L_2039 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		float L_2040 = V_328;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset = ((float)il2cpp_codegen_add(L_2039, L_2040));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4479));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsDrivenLineSpacing = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4480));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4481));
 		goto IL_4a7c;
 	}
 
 IL_4a3a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4482));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4483));
 		float L_2041 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineOffset;
 		float L_2042 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineHeight;
 		float L_2043 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_lineSpacing;
@@ -11793,38 +14049,57 @@ IL_4a6a:
 		float L_2047 = V_3;
 		NullCheck(G_B685_4);
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)G_B685_4)->___m_lineOffset = ((float)il2cpp_codegen_add(G_B685_3, ((float)il2cpp_codegen_add(G_B685_2, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(G_B685_1, G_B685_0)), L_2047))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4484));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsDrivenLineSpacing = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4485));
 	}
 
 IL_4a7c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4486));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_2048 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargeNegativeFloat;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineAscender = L_2048;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4487));
 		float L_2049 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxLineDescender = L_2049;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4488));
 		float L_2050 = V_325;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_startOfLineAscender = L_2050;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4489));
 		float L_2051 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_LineIndent;
 		float L_2052 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___tag_Indent;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_xAdvance = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add((0.0f), L_2051)), L_2052));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4490));
 		int32_t L_2053 = V_66;
 		int32_t L_2054 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4491));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedWordWrapState), L_2053, L_2054, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4491));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4492));
 		int32_t L_2055 = V_66;
 		int32_t L_2056 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4493));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), L_2055, L_2056, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4493));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4494));
 		int32_t L_2057 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_add(L_2057, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4495));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4496));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleLineTerminationMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4496));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4497));
 		goto IL_4ffc;
 	}
 
 IL_4afd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4498));
 		uint32_t L_2058 = V_5;
 		V_329 = (bool)((((int32_t)L_2058) == ((int32_t)3))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4499));
 		bool L_2059 = V_329;
 		if (!L_2059)
 		{
@@ -11832,6 +14107,7 @@ IL_4afd:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4500));
 		TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* L_2060 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextProcessingArray;
 		NullCheck(L_2060);
 		V_66 = ((int32_t)(((RuntimeArray*)L_2060)->max_length));
@@ -11839,14 +14115,22 @@ IL_4afd:
 
 IL_4b1a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4501));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4502));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_HandleLineTerminationMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4502));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4503));
 	}
 
 IL_4b26:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4504));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4505));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SaveTextExtentMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4505));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4506));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2061 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2061);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2062 = L_2061->___characterInfo;
@@ -11854,6 +14138,7 @@ IL_4b26:
 		NullCheck(L_2062);
 		bool L_2064 = ((L_2062)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2063)))->___isVisible;
 		V_330 = L_2064;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4507));
 		bool L_2065 = V_330;
 		if (!L_2065)
 		{
@@ -11861,6 +14146,8 @@ IL_4b26:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4508));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4509));
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2066 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2067 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2066->___min);
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2068 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
@@ -11873,9 +14160,12 @@ IL_4b26:
 		NullCheck(L_2072);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2074 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_2072)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2073)))->___bottomLeft);
 		float L_2075 = L_2074->___x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4510));
 		float L_2076;
 		L_2076 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_2070, L_2075, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4510));
 		L_2067->___x = L_2076;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4511));
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2077 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2078 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2077->___min);
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2079 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
@@ -11888,9 +14178,12 @@ IL_4b26:
 		NullCheck(L_2083);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2085 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_2083)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2084)))->___bottomLeft);
 		float L_2086 = L_2085->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4512));
 		float L_2087;
 		L_2087 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_2081, L_2086, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4512));
 		L_2078->___y = L_2087;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4513));
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2088 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2089 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2088->___max);
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2090 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
@@ -11903,9 +14196,12 @@ IL_4b26:
 		NullCheck(L_2094);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2096 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_2094)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2095)))->___topRight);
 		float L_2097 = L_2096->___x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4514));
 		float L_2098;
 		L_2098 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_2092, L_2097, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4514));
 		L_2089->___x = L_2098;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4515));
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2099 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2100 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2099->___max);
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2101 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
@@ -11918,15 +14214,22 @@ IL_4b26:
 		NullCheck(L_2105);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2107 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_2105)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2106)))->___topRight);
 		float L_2108 = L_2107->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4516));
 		float L_2109;
 		L_2109 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_2103, L_2108, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4516));
 		L_2100->___y = L_2109;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4517));
 	}
 
 IL_4c73:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4518));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4519));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SaveTextExtentMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4519));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4520));
 		int32_t L_2110 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextWrappingMode;
 		if (!L_2110)
 		{
@@ -11970,6 +14273,7 @@ IL_4cac:
 IL_4cad:
 	{
 		V_331 = (bool)G_B698_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4521));
 		bool L_2115 = V_331;
 		if (!L_2115)
 		{
@@ -11977,10 +14281,17 @@ IL_4cad:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4522));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4523));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4524));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SaveProcessingStatesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4524));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4525));
 		V_332 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4526));
 		V_333 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4527));
 		bool L_2116 = V_77;
 		if (L_2116)
 		{
@@ -12060,6 +14371,7 @@ IL_4d34:
 IL_4d35:
 	{
 		V_334 = (bool)G_B710_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4528));
 		bool L_2127 = V_334;
 		if (!L_2127)
 		{
@@ -12067,6 +14379,8 @@ IL_4d35:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4529));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4530));
 		uint32_t L_2128 = V_5;
 		if ((!(((uint32_t)L_2128) == ((uint32_t)((int32_t)45)))))
 		{
@@ -12087,9 +14401,11 @@ IL_4d35:
 		int32_t L_2132 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_2131);
 		Il2CppChar L_2133 = ((L_2131)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_2132, 1)))))->___character;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4531));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_2134;
 		L_2134 = Char_IsWhiteSpace_m02AEC6EA19513CAFC6882CFCA54C45794D2B5924(L_2133, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4531));
 		G_B715_0 = ((((int32_t)L_2134) == ((int32_t)0))? 1 : 0);
 		goto IL_4d7b;
 	}
@@ -12102,6 +14418,7 @@ IL_4d7a:
 IL_4d7b:
 	{
 		V_335 = (bool)G_B715_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4532));
 		bool L_2135 = V_335;
 		if (!L_2135)
 		{
@@ -12109,19 +14426,27 @@ IL_4d7b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4533));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4534));
 		V_28 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4535));
 		V_332 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4536));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedSoftLineBreakState)->___previous_WordBreak = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4537));
 	}
 
 IL_4da0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4538));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4539));
 		goto IL_4f7d;
 	}
 
 IL_4da6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4540));
 		bool L_2136 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNonBreakingSpace;
 		if (L_2136)
 		{
@@ -12130,18 +14455,22 @@ IL_4da6:
 	}
 	{
 		uint32_t L_2137 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4541));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextParsingUtilities_tF6AF6ED06ADFB8C71F4C1D713D677D821A1AB6FA_il2cpp_TypeInfo_var);
 		bool L_2138;
 		L_2138 = TMP_TextParsingUtilities_IsHangul_mD91D4844927EA1F7F27C03D58B58D75D7F6FF93C(L_2137, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4541));
 		if (!L_2138)
 		{
 			goto IL_4dbe;
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4542));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE48062_il2cpp_TypeInfo_var);
 		bool L_2139;
 		L_2139 = TMP_Settings_get_useModernHangulLineBreakingRules_m20EF8E9FBDF86C21A8E30F3B5B2DF997ABB3A060(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4542));
 		if (!L_2139)
 		{
 			goto IL_4dc7;
@@ -12151,9 +14480,11 @@ IL_4da6:
 IL_4dbe:
 	{
 		uint32_t L_2140 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4543));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextParsingUtilities_tF6AF6ED06ADFB8C71F4C1D713D677D821A1AB6FA_il2cpp_TypeInfo_var);
 		bool L_2141;
 		L_2141 = TMP_TextParsingUtilities_IsCJK_m5FDC883883109CEA7C677CEB2C41107E932B75A6(L_2140, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4543));
 		G_B723_0 = ((int32_t)(L_2141));
 		goto IL_4dc8;
 	}
@@ -12177,6 +14508,7 @@ IL_4dca:
 IL_4dcb:
 	{
 		V_336 = (bool)G_B725_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4544));
 		bool L_2142 = V_336;
 		if (!L_2142)
 		{
@@ -12184,16 +14516,23 @@ IL_4dcb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4545));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4546));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4547));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE48062_il2cpp_TypeInfo_var);
 		LineBreakingTable_t8F7C67DC8CF3D46115EB50409E5C0E32B5ADC531* L_2143;
 		L_2143 = TMP_Settings_get_linebreakingRules_m9128A20C31E5CBB0D06E0A1537E40617640FCBB2(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4547));
 		NullCheck(L_2143);
 		HashSet_1_t5DD20B42149A11AEBF12A75505306E6EFC34943A* L_2144 = L_2143->___leadingCharacters;
 		uint32_t L_2145 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4548));
 		NullCheck(L_2144);
 		bool L_2146;
 		L_2146 = HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9(L_2144, L_2145, HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4548));
 		V_337 = L_2146;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4549));
 		int32_t L_2147 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		int32_t L_2148 = V_0;
 		if ((((int32_t)L_2147) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_2148, 1)))))
@@ -12202,9 +14541,11 @@ IL_4dcb:
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4550));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE48062_il2cpp_TypeInfo_var);
 		LineBreakingTable_t8F7C67DC8CF3D46115EB50409E5C0E32B5ADC531* L_2149;
 		L_2149 = TMP_Settings_get_linebreakingRules_m9128A20C31E5CBB0D06E0A1537E40617640FCBB2(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4550));
 		NullCheck(L_2149);
 		HashSet_1_t5DD20B42149A11AEBF12A75505306E6EFC34943A* L_2150 = L_2149->___followingCharacters;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2151 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
@@ -12213,9 +14554,11 @@ IL_4dcb:
 		int32_t L_2153 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_2152);
 		Il2CppChar L_2154 = ((L_2152)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_2153, 1)))))->___character;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4551));
 		NullCheck(L_2150);
 		bool L_2155;
 		L_2155 = HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9(L_2150, L_2154, HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4551));
 		G_B729_0 = ((int32_t)(L_2155));
 		goto IL_4e2e;
 	}
@@ -12228,8 +14571,10 @@ IL_4e2d:
 IL_4e2e:
 	{
 		V_338 = (bool)G_B729_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4552));
 		bool L_2156 = V_337;
 		V_339 = (bool)((((int32_t)L_2156) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4553));
 		bool L_2157 = V_339;
 		if (!L_2157)
 		{
@@ -12237,8 +14582,11 @@ IL_4e2e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4554));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4555));
 		bool L_2158 = V_338;
 		V_340 = (bool)((((int32_t)L_2158) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4556));
 		bool L_2159 = V_340;
 		if (!L_2159)
 		{
@@ -12246,14 +14594,20 @@ IL_4e2e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4557));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4558));
 		V_28 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4559));
 		V_332 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4560));
 	}
 
 IL_4e6f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4561));
 		bool L_2160 = V_28;
 		V_341 = L_2160;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4562));
 		bool L_2161 = V_341;
 		if (!L_2161)
 		{
@@ -12261,8 +14615,11 @@ IL_4e6f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4563));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4564));
 		bool L_2162 = V_77;
 		V_342 = L_2162;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4565));
 		bool L_2163 = V_342;
 		if (!L_2163)
 		{
@@ -12270,24 +14627,32 @@ IL_4e6f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4566));
 		V_333 = (bool)1;
 	}
 
 IL_4e97:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4567));
 		V_332 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4568));
 	}
 
 IL_4e9f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4569));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4570));
 		goto IL_4ed7;
 	}
 
 IL_4ea2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4571));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4572));
 		bool L_2164 = V_28;
 		bool L_2165 = V_92;
 		V_343 = (bool)((int32_t)((int32_t)L_2164&(int32_t)L_2165));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4573));
 		bool L_2166 = V_343;
 		if (!L_2166)
 		{
@@ -12295,8 +14660,11 @@ IL_4ea2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4574));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4575));
 		bool L_2167 = V_77;
 		V_344 = L_2167;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4576));
 		bool L_2168 = V_344;
 		if (!L_2168)
 		{
@@ -12304,25 +14672,32 @@ IL_4ea2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4577));
 		V_333 = (bool)1;
 	}
 
 IL_4ece:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4578));
 		V_332 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4579));
 	}
 
 IL_4ed6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4580));
 	}
 
 IL_4ed7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4581));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4582));
 		goto IL_4f7d;
 	}
 
 IL_4edd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4583));
 		bool L_2169 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isNonBreakingSpace;
 		if (L_2169)
 		{
@@ -12344,9 +14719,11 @@ IL_4edd:
 		int32_t L_2174 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_2173);
 		Il2CppChar L_2175 = ((L_2173)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_2174, 1)))))->___character;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4584));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextParsingUtilities_tF6AF6ED06ADFB8C71F4C1D713D677D821A1AB6FA_il2cpp_TypeInfo_var);
 		bool L_2176;
 		L_2176 = TMP_TextParsingUtilities_IsCJK_m5FDC883883109CEA7C677CEB2C41107E932B75A6(L_2175, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4584));
 		G_B747_0 = ((int32_t)(L_2176));
 		goto IL_4f15;
 	}
@@ -12359,6 +14736,7 @@ IL_4f14:
 IL_4f15:
 	{
 		V_345 = (bool)G_B747_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4585));
 		bool L_2177 = V_345;
 		if (!L_2177)
 		{
@@ -12366,14 +14744,20 @@ IL_4f15:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4586));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4587));
 		V_332 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4588));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4589));
 		goto IL_4f7d;
 	}
 
 IL_4f2e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4590));
 		bool L_2178 = V_28;
 		V_346 = L_2178;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4591));
 		bool L_2179 = V_346;
 		if (!L_2179)
 		{
@@ -12381,6 +14765,8 @@ IL_4f2e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4592));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4593));
 		bool L_2180 = V_77;
 		if (!L_2180)
 		{
@@ -12428,6 +14814,7 @@ IL_4f5f:
 IL_4f60:
 	{
 		V_347 = (bool)G_B757_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4594));
 		bool L_2184 = V_347;
 		if (!L_2184)
 		{
@@ -12435,18 +14822,23 @@ IL_4f60:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4595));
 		V_333 = (bool)1;
 	}
 
 IL_4f75:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4596));
 		V_332 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4597));
 	}
 
 IL_4f7d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4598));
 		bool L_2185 = V_332;
 		V_348 = L_2185;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4599));
 		bool L_2186 = V_348;
 		if (!L_2186)
 		{
@@ -12454,16 +14846,21 @@ IL_4f7d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4600));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_2187 = V_66;
 		int32_t L_2188 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4601));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedWordWrapState), L_2187, L_2188, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4601));
 	}
 
 IL_4fa5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4602));
 		bool L_2189 = V_333;
 		V_349 = L_2189;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4603));
 		bool L_2190 = V_349;
 		if (!L_2190)
 		{
@@ -12471,30 +14868,43 @@ IL_4fa5:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4604));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_2191 = V_66;
 		int32_t L_2192 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4605));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedSoftLineBreakState), L_2191, L_2192, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4605));
 	}
 
 IL_4fcd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4606));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4607));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_SaveProcessingStatesMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4607));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4608));
 	}
 
 IL_4fd9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4609));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		int32_t L_2193 = V_66;
 		int32_t L_2194 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4610));
 		TMP_Text_SaveWordWrappingState_m89FFAEE3796170C90F8EDBA696E4A14884A56650(__this, (&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_SavedLastValidState), L_2193, L_2194, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4610));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4611));
 		int32_t L_2195 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount = ((int32_t)il2cpp_codegen_add(L_2195, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4612));
 	}
 
 IL_4ffc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4613));
 		int32_t L_2196 = V_66;
 		V_62 = L_2196;
 		int32_t L_2197 = V_62;
@@ -12503,6 +14913,7 @@ IL_4ffc:
 
 IL_5006:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4614));
 		int32_t L_2198 = V_66;
 		TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* L_2199 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_TextProcessingArray;
 		NullCheck(L_2199);
@@ -12528,6 +14939,7 @@ IL_5029:
 IL_502a:
 	{
 		V_350 = (bool)G_B770_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4615));
 		bool L_2203 = V_350;
 		if (L_2203)
 		{
@@ -12535,9 +14947,11 @@ IL_502a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4616));
 		float L_2204 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxFontSize;
 		float L_2205 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_minFontSize;
 		V_4 = ((float)il2cpp_codegen_subtract(L_2204, L_2205));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4617));
 		bool L_2206 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_enableAutoSizing;
 		if (!L_2206)
 		{
@@ -12574,6 +14988,7 @@ IL_5079:
 IL_507a:
 	{
 		V_351 = (bool)G_B776_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4618));
 		bool L_2212 = V_351;
 		if (!L_2212)
 		{
@@ -12581,9 +14996,12 @@ IL_507a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4619));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4620));
 		float L_2213 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		float L_2214 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthMaxAdj;
 		V_353 = (bool)((((float)L_2213) < ((float)((float)(L_2214/(100.0f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4621));
 		bool L_2215 = V_353;
 		if (!L_2215)
 		{
@@ -12591,38 +15009,57 @@ IL_507a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4622));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta = (0.0f);
 	}
 
 IL_50b9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4623));
 		float L_2216 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_minFontSize = L_2216;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4624));
 		float L_2217 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxFontSize;
 		float L_2218 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4625));
 		float L_2219;
 		L_2219 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)(((float)il2cpp_codegen_subtract(L_2217, L_2218))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4625));
 		V_352 = L_2219;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4626));
 		float L_2220 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_2221 = V_352;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = ((float)il2cpp_codegen_add(L_2220, L_2221));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4627));
 		float L_2222 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize;
 		float L_2223 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSizeMax;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4628));
 		float L_2224;
 		L_2224 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2222, (20.0f))), (0.5f)))))/(20.0f))), L_2223, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4628));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize = L_2224;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4629));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4630));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4630));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4631));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4632));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4632));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4633));
 		goto IL_9457;
 	}
 
 IL_5141:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4634));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_IsAutoSizePointSizeSet = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4635));
 		int32_t L_2225 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_AutoSizeIterationCount;
 		int32_t L_2226 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_AutoSizeMaxIterationCount;
 		V_354 = (bool)((((int32_t)((((int32_t)L_2225) < ((int32_t)L_2226))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4636));
 		bool L_2227 = V_354;
 		if (!L_2227)
 		{
@@ -12630,20 +15067,30 @@ IL_5141:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4637));
 		int32_t* L_2228 = (int32_t*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_AutoSizeIterationCount);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4638));
 		String_t* L_2229;
 		L_2229 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_2228, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4638));
 		float* L_2230 = (float*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_fontSize);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4639));
 		String_t* L_2231;
 		L_2231 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_2230, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4639));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4640));
 		String_t* L_2232;
 		L_2232 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralFE37C361B118D899F298E7DBBEDF126B8808060D, L_2229, _stringLiteral4D24EAAEA041EAFA17400A5C3BEA644DA7F8067F, L_2231, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4640));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4641));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2232, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4641));
 	}
 
 IL_5192:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4642));
 		int32_t L_2233 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		if (!L_2233)
 		{
@@ -12682,6 +15129,7 @@ IL_51ad:
 IL_51ae:
 	{
 		V_355 = (bool)G_B788_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4643));
 		bool L_2236 = V_355;
 		if (!L_2236)
 		{
@@ -12689,20 +15137,41 @@ IL_51ae:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4644));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4645));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4646));
 		VirtualActionInvoker1< bool >::Invoke(130, __this, (bool)1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4646));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4647));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4648));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		TMPro_EventManager_ON_TEXT_CHANGED_mC933ED67F225E90E2F7B5F0D176D62D3A560BFAE(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4648));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4649));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4650));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4650));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4651));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4652));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4652));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4653));
 		goto IL_9457;
 	}
 
 IL_51e7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4654));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4655));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4655));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4656));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4657));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4657));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4658));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* L_2237 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___m_materialReferences;
 		SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777* L_2238 = (SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_Underline);
@@ -12710,21 +15179,31 @@ IL_51e7:
 		NullCheck(L_2237);
 		int32_t L_2240 = ((L_2237)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2239)))->___referenceCount;
 		V_34 = ((int32_t)il2cpp_codegen_multiply(L_2240, 4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4659));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2241 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2241);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_2242 = L_2241->___meshInfo;
 		NullCheck(L_2242);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4660));
 		il2cpp_codegen_runtime_class_init_inline(TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		TMP_MeshInfo_Clear_m28C815908490A64459F38D5EC110C6823B813888(((L_2242)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4660));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4661));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4662));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2243;
 		L_2243 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4662));
 		V_35 = L_2243;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4663));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2244 = __this->___m_RectTransformCorners;
 		V_36 = L_2244;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4664));
 		int32_t L_2245 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_VerticalAlignment;
 		V_357 = L_2245;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4665));
 		int32_t L_2246 = V_357;
 		V_356 = L_2246;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4666));
 		int32_t L_2247 = V_356;
 		if ((((int32_t)L_2247) > ((int32_t)((int32_t)1024))))
 		{
@@ -12804,8 +15283,10 @@ IL_52c1:
 
 IL_52d6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4667));
 		int32_t L_2254 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		V_358 = (bool)((((int32_t)((((int32_t)L_2254) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4668));
 		bool L_2255 = V_358;
 		if (!L_2255)
 		{
@@ -12813,6 +15294,7 @@ IL_52d6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4669));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2256 = V_36;
 		NullCheck(L_2256);
 		int32_t L_2257 = 1;
@@ -12822,17 +15304,23 @@ IL_52d6:
 		float L_2261 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2262 = V_22;
 		float L_2263 = L_2262.___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4670));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2264;
 		memset((&L_2264), 0, sizeof(L_2264));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2264), ((float)il2cpp_codegen_add((0.0f), L_2260)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract((0.0f), L_2261)), L_2263)), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4670));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4671));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2265;
 		L_2265 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2258, L_2264, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4671));
 		V_35 = L_2265;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4672));
 		goto IL_5377;
 	}
 
 IL_532c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4673));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2266 = V_36;
 		NullCheck(L_2266);
 		int32_t L_2267 = 1;
@@ -12847,23 +15335,30 @@ IL_532c:
 		float L_2274 = ((L_2272)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2273)))->___ascender;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2275 = V_22;
 		float L_2276 = L_2275.___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4674));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2277;
 		memset((&L_2277), 0, sizeof(L_2277));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2277), ((float)il2cpp_codegen_add((0.0f), L_2270)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract((0.0f), L_2274)), L_2276)), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4674));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4675));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2278;
 		L_2278 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2268, L_2277, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4675));
 		V_35 = L_2278;
 	}
 
 IL_5377:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4676));
 		goto IL_5650;
 	}
 
 IL_537c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4677));
 		int32_t L_2279 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		V_359 = (bool)((((int32_t)((((int32_t)L_2279) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4678));
 		bool L_2280 = V_359;
 		if (!L_2280)
 		{
@@ -12871,6 +15366,7 @@ IL_537c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4679));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2281 = V_36;
 		NullCheck(L_2281);
 		int32_t L_2282 = 0;
@@ -12879,10 +15375,14 @@ IL_537c:
 		NullCheck(L_2284);
 		int32_t L_2285 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2286 = (L_2284)->GetAt(static_cast<il2cpp_array_size_t>(L_2285));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4680));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2287;
 		L_2287 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2283, L_2286, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4680));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4681));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2288;
 		L_2288 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2287, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4681));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2289 = V_22;
 		float L_2290 = L_2289.___x;
 		float L_2291 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxTextAscender;
@@ -12891,17 +15391,23 @@ IL_537c:
 		float L_2294 = V_26;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2295 = V_22;
 		float L_2296 = L_2295.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4682));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2297;
 		memset((&L_2297), 0, sizeof(L_2297));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2297), ((float)il2cpp_codegen_add((0.0f), L_2290)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_2291, L_2293)), L_2294)), L_2296))/(2.0f))))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4682));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4683));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2298;
 		L_2298 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2288, L_2297, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4683));
 		V_35 = L_2298;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4684));
 		goto IL_5485;
 	}
 
 IL_53fd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4685));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2299 = V_36;
 		NullCheck(L_2299);
 		int32_t L_2300 = 0;
@@ -12910,10 +15416,14 @@ IL_53fd:
 		NullCheck(L_2302);
 		int32_t L_2303 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2304 = (L_2302)->GetAt(static_cast<il2cpp_array_size_t>(L_2303));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4686));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2305;
 		L_2305 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2301, L_2304, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4686));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4687));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2306;
 		L_2306 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2305, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4687));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2307 = V_22;
 		float L_2308 = L_2307.___x;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2309 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
@@ -12932,23 +15442,30 @@ IL_53fd:
 		float L_2318 = ((L_2316)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2317)))->___descender;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2319 = V_22;
 		float L_2320 = L_2319.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4688));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2321;
 		memset((&L_2321), 0, sizeof(L_2321));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2321), ((float)il2cpp_codegen_add((0.0f), L_2308)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_2312, L_2314)), L_2318)), L_2320))/(2.0f))))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4688));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4689));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2322;
 		L_2322 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2306, L_2321, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4689));
 		V_35 = L_2322;
 	}
 
 IL_5485:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4690));
 		goto IL_5650;
 	}
 
 IL_548a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4691));
 		int32_t L_2323 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_overflowMode;
 		V_360 = (bool)((((int32_t)((((int32_t)L_2323) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4692));
 		bool L_2324 = V_360;
 		if (!L_2324)
 		{
@@ -12956,6 +15473,7 @@ IL_548a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4693));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2325 = V_36;
 		NullCheck(L_2325);
 		int32_t L_2326 = 0;
@@ -12965,17 +15483,23 @@ IL_548a:
 		float L_2330 = V_26;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2331 = V_22;
 		float L_2332 = L_2331.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4694));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2333;
 		memset((&L_2333), 0, sizeof(L_2333));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2333), ((float)il2cpp_codegen_add((0.0f), L_2329)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), L_2330)), L_2332)), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4694));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4695));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2334;
 		L_2334 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2327, L_2333, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4695));
 		V_35 = L_2334;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4696));
 		goto IL_5527;
 	}
 
 IL_54dc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4697));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2335 = V_36;
 		NullCheck(L_2335);
 		int32_t L_2336 = 0;
@@ -12990,21 +15514,27 @@ IL_54dc:
 		float L_2343 = ((L_2341)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2342)))->___descender;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2344 = V_22;
 		float L_2345 = L_2344.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4698));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2346;
 		memset((&L_2346), 0, sizeof(L_2346));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2346), ((float)il2cpp_codegen_add((0.0f), L_2339)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), L_2343)), L_2345)), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4698));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4699));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2347;
 		L_2347 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2337, L_2346, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4699));
 		V_35 = L_2347;
 	}
 
 IL_5527:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4700));
 		goto IL_5650;
 	}
 
 IL_552c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4701));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2348 = V_36;
 		NullCheck(L_2348);
 		int32_t L_2349 = 0;
@@ -13013,23 +15543,33 @@ IL_552c:
 		NullCheck(L_2351);
 		int32_t L_2352 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2353 = (L_2351)->GetAt(static_cast<il2cpp_array_size_t>(L_2352));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4702));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2354;
 		L_2354 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2350, L_2353, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4702));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4703));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2355;
 		L_2355 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2354, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4703));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2356 = V_22;
 		float L_2357 = L_2356.___x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4704));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2358;
 		memset((&L_2358), 0, sizeof(L_2358));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2358), ((float)il2cpp_codegen_add((0.0f), L_2357)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4704));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4705));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2359;
 		L_2359 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2355, L_2358, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4705));
 		V_35 = L_2359;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4706));
 		goto IL_5650;
 	}
 
 IL_5573:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4707));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2360 = V_36;
 		NullCheck(L_2360);
 		int32_t L_2361 = 0;
@@ -13038,10 +15578,14 @@ IL_5573:
 		NullCheck(L_2363);
 		int32_t L_2364 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2365 = (L_2363)->GetAt(static_cast<il2cpp_array_size_t>(L_2364));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4708));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2366;
 		L_2366 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2362, L_2365, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4708));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4709));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2367;
 		L_2367 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2366, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4709));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2368 = V_22;
 		float L_2369 = L_2368.___x;
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8* L_2370 = (Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8*)(&((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_meshExtents);
@@ -13054,17 +15598,23 @@ IL_5573:
 		float L_2377 = L_2376->___y;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2378 = V_22;
 		float L_2379 = L_2378.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4710));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2380;
 		memset((&L_2380), 0, sizeof(L_2380));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2380), ((float)il2cpp_codegen_add((0.0f), L_2369)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_2372, L_2374)), L_2377)), L_2379))/(2.0f))))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4710));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4711));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2381;
 		L_2381 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2367, L_2380, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4711));
 		V_35 = L_2381;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4712));
 		goto IL_5650;
 	}
 
 IL_55ef:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4713));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2382 = V_36;
 		NullCheck(L_2382);
 		int32_t L_2383 = 0;
@@ -13073,10 +15623,14 @@ IL_55ef:
 		NullCheck(L_2385);
 		int32_t L_2386 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2387 = (L_2385)->GetAt(static_cast<il2cpp_array_size_t>(L_2386));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4714));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2388;
 		L_2388 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2384, L_2387, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4714));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4715));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2389;
 		L_2389 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2388, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4715));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2390 = V_22;
 		float L_2391 = L_2390.___x;
 		float L_2392 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxCapHeight;
@@ -13084,100 +15638,161 @@ IL_55ef:
 		float L_2394 = L_2393.___y;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2395 = V_22;
 		float L_2396 = L_2395.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4716));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2397;
 		memset((&L_2397), 0, sizeof(L_2397));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2397), ((float)il2cpp_codegen_add((0.0f), L_2391)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_2392, L_2394)), L_2396))/(2.0f))))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4716));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4717));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2398;
 		L_2398 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2389, L_2397, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4717));
 		V_35 = L_2398;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4718));
 		goto IL_5650;
 	}
 
 IL_5650:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4719));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4720));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2399;
 		L_2399 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4720));
 		V_37 = L_2399;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4721));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4722));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2400;
 		L_2400 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4722));
 		V_38 = L_2400;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4723));
 		V_39 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4724));
 		V_40 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4725));
 		V_41 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4726));
 		V_42 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4727));
 		V_43 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4728));
 		V_44 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4729));
 		V_45 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4730));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4731));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2401;
 		L_2401 = TextMeshPro_get_transform_m750148EC362B176A0E80D6F4ABAC1062E5281E11(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4731));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4732));
 		NullCheck(L_2401);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2402;
 		L_2402 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_2401, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4732));
 		float L_2403 = L_2402.___y;
 		float L_2404 = L_2403;
 		V_196 = L_2404;
 		__this->___m_previousLossyScaleY = L_2404;
 		float L_2405 = V_196;
 		V_46 = L_2405;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4733));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4734));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2406;
 		L_2406 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4734));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4735));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2407;
 		L_2407 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_2406, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4735));
 		V_47 = L_2407;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4736));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4737));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2408;
 		L_2408 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4737));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4738));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2409;
 		L_2409 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_2408, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4738));
 		V_48 = L_2409;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4739));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4740));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2410;
 		memset((&L_2410), 0, sizeof(L_2410));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_2410), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)0, (uint8_t)((int32_t)64), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4740));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4741));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 L_2411;
 		L_2411 = TMP_Offset_get_zero_m8D8E8D2E46EAB0DFFED647AC5EEB41A5B2AA2339(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4741));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4742));
 		HighlightState__ctor_m25791146FF94DD76C2FAAAF47C1735C01D9F47B2((&V_49), L_2410, L_2411, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4742));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4743));
 		V_50 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4744));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4745));
 		V_52 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4746));
 		V_53 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4747));
 		V_54 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4748));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_2412 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		V_55 = L_2412;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4749));
 		V_56 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4750));
 		V_57 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4751));
 		V_58 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4752));
 		V_59 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4753));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2413 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2413);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2414 = L_2413->___characterInfo;
 		V_60 = L_2414;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4754));
 		V_361 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4755));
 		goto IL_90d4;
 	}
 
 IL_5721:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4756));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4757));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2415 = V_60;
 		int32_t L_2416 = V_361;
 		NullCheck(L_2415);
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_2417 = ((L_2415)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2416)))->___fontAsset;
 		V_362 = L_2417;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4758));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2418 = V_60;
 		int32_t L_2419 = V_361;
 		NullCheck(L_2418);
 		Il2CppChar L_2420 = ((L_2418)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2419)))->___character;
 		V_363 = L_2420;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4759));
 		Il2CppChar L_2421 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4760));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_2422;
 		L_2422 = Char_IsWhiteSpace_m02AEC6EA19513CAFC6882CFCA54C45794D2B5924(L_2421, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4760));
 		V_364 = L_2422;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4761));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2423 = V_60;
 		int32_t L_2424 = V_361;
 		NullCheck(L_2423);
 		int32_t L_2425 = ((L_2423)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2424)))->___lineNumber;
 		V_365 = L_2425;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4762));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2426 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_2426);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_2427 = L_2426->___lineInfo;
@@ -13186,15 +15801,20 @@ IL_5721:
 		int32_t L_2429 = L_2428;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2430 = (L_2427)->GetAt(static_cast<il2cpp_array_size_t>(L_2429));
 		V_366 = L_2430;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4763));
 		int32_t L_2431 = V_365;
 		V_40 = ((int32_t)il2cpp_codegen_add(L_2431, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4764));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2432 = V_366;
 		int32_t L_2433 = L_2432.___alignment;
 		V_367 = L_2433;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4765));
 		int32_t L_2434 = V_367;
 		V_376 = L_2434;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4766));
 		int32_t L_2435 = V_376;
 		V_375 = L_2435;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4767));
 		int32_t L_2436 = V_375;
 		if ((((int32_t)L_2436) > ((int32_t)8)))
 		{
@@ -13265,8 +15885,10 @@ IL_5812:
 
 IL_5824:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4768));
 		bool L_2441 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_377 = (bool)((((int32_t)L_2441) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4769));
 		bool L_2442 = V_377;
 		if (!L_2442)
 		{
@@ -13274,38 +15896,51 @@ IL_5824:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4770));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2443 = V_366;
 		float L_2444 = L_2443.___marginLeft;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4771));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_add((0.0f), L_2444)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4771));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4772));
 		goto IL_5881;
 	}
 
 IL_585f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4773));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2445 = V_366;
 		float L_2446 = L_2445.___maxAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4774));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_subtract((0.0f), L_2446)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4774));
 	}
 
 IL_5881:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4775));
 		goto IL_5dc3;
 	}
 
 IL_5886:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4776));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2447 = V_366;
 		float L_2448 = L_2447.___marginLeft;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2449 = V_366;
 		float L_2450 = L_2449.___width;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2451 = V_366;
 		float L_2452 = L_2451.___maxAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4777));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2448, ((float)(L_2450/(2.0f))))), ((float)(L_2452/(2.0f))))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4777));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4778));
 		goto IL_5dc3;
 	}
 
 IL_58cb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4779));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2453 = V_366;
 		float L_2454 = L_2453.___marginLeft;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2455 = V_366;
@@ -13318,14 +15953,19 @@ IL_58cb:
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 L_2462 = L_2461.___lineExtents;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2463 = L_2462.___max;
 		float L_2464 = L_2463.___x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4780));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2454, ((float)(L_2456/(2.0f))))), ((float)(((float)il2cpp_codegen_add(L_2460, L_2464))/(2.0f))))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4780));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4781));
 		goto IL_5dc3;
 	}
 
 IL_5930:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4782));
 		bool L_2465 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_378 = (bool)((((int32_t)L_2465) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4783));
 		bool L_2466 = V_378;
 		if (!L_2466)
 		{
@@ -13333,32 +15973,41 @@ IL_5930:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4784));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2467 = V_366;
 		float L_2468 = L_2467.___marginLeft;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2469 = V_366;
 		float L_2470 = L_2469.___width;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2471 = V_366;
 		float L_2472 = L_2471.___maxAdvance;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4785));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2468, L_2470)), L_2472)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4785));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4786));
 		goto IL_59a5;
 	}
 
 IL_597d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4787));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2473 = V_366;
 		float L_2474 = L_2473.___marginLeft;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2475 = V_366;
 		float L_2476 = L_2475.___width;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4788));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_add(L_2474, L_2476)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4788));
 	}
 
 IL_59a5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4789));
 		goto IL_5dc3;
 	}
 
 IL_59aa:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4790));
 		int32_t L_2477 = V_361;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2478 = V_366;
 		int32_t L_2479 = L_2478.___lastVisibleCharacterIndex;
@@ -13409,6 +16058,7 @@ IL_59f9:
 IL_59fa:
 	{
 		V_379 = (bool)G_B845_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4791));
 		bool L_2485 = V_379;
 		if (!L_2485)
 		{
@@ -13416,23 +16066,29 @@ IL_59fa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4792));
 		goto IL_5dc3;
 	}
 
 IL_5a0d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4793));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2486 = V_60;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2487 = V_366;
 		int32_t L_2488 = L_2487.___lastCharacterIndex;
 		NullCheck(L_2486);
 		Il2CppChar L_2489 = ((L_2486)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2488)))->___character;
 		V_373 = L_2489;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4794));
 		int32_t L_2490 = V_367;
 		V_374 = (bool)((((int32_t)((int32_t)((int32_t)L_2490&((int32_t)16)))) == ((int32_t)((int32_t)16)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4795));
 		Il2CppChar L_2491 = V_373;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4796));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_2492;
 		L_2492 = Char_IsControl_m133C10360BE82B7580E4D3ECE3C881A6C82B3F7F(L_2491, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4796));
 		if (L_2492)
 		{
 			goto IL_5a5a;
@@ -13475,6 +16131,7 @@ IL_5a7e:
 IL_5a7f:
 	{
 		V_380 = (bool)G_B853_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4797));
 		bool L_2500 = V_380;
 		if (!L_2500)
 		{
@@ -13482,6 +16139,8 @@ IL_5a7f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4798));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4799));
 		int32_t L_2501 = V_365;
 		int32_t L_2502 = V_41;
 		if ((!(((uint32_t)L_2501) == ((uint32_t)L_2502))))
@@ -13511,6 +16170,7 @@ IL_5ab3:
 IL_5ab4:
 	{
 		V_381 = (bool)G_B858_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4800));
 		bool L_2506 = V_381;
 		if (!L_2506)
 		{
@@ -13518,8 +16178,11 @@ IL_5ab4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4801));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4802));
 		bool L_2507 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_382 = (bool)((((int32_t)L_2507) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4803));
 		bool L_2508 = V_382;
 		if (!L_2508)
 		{
@@ -13527,28 +16190,39 @@ IL_5ab4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4804));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2509 = V_366;
 		float L_2510 = L_2509.___marginLeft;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4805));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), L_2510, (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4805));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4806));
 		goto IL_5b23;
 	}
 
 IL_5afb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4807));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2511 = V_366;
 		float L_2512 = L_2511.___marginLeft;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2513 = V_366;
 		float L_2514 = L_2513.___width;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4808));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_add(L_2512, L_2514)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4808));
 	}
 
 IL_5b23:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4809));
 		Il2CppChar L_2515 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4810));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_2516;
 		L_2516 = Char_IsSeparator_m8DBA05CCFA10131140E40057E6553F7AC7397BF9(L_2515, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4810));
 		V_383 = L_2516;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4811));
 		bool L_2517 = V_383;
 		if (!L_2517)
 		{
@@ -13556,22 +16230,29 @@ IL_5b23:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4812));
 		V_42 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4813));
 		goto IL_5b44;
 	}
 
 IL_5b41:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4814));
 		V_42 = (bool)0;
 	}
 
 IL_5b44:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4815));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4816));
 		goto IL_5d5f;
 	}
 
 IL_5b4a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4817));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4818));
 		bool L_2518 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		if (!L_2518)
 		{
@@ -13599,18 +16280,22 @@ IL_5b6c:
 IL_5b83:
 	{
 		V_384 = G_B869_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4819));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2527 = V_366;
 		int32_t L_2528 = L_2527.___visibleCharacterCount;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2529 = V_366;
 		int32_t L_2530 = L_2529.___controlCharacterCount;
 		V_385 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_2528, 1)), L_2530));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4820));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2531 = V_366;
 		int32_t L_2532 = L_2531.___spaceCount;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2533 = V_366;
 		int32_t L_2534 = L_2533.___controlCharacterCount;
 		V_386 = ((int32_t)il2cpp_codegen_subtract(L_2532, L_2534));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4821));
 		bool L_2535 = V_42;
 		V_388 = L_2535;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4822));
 		bool L_2536 = V_388;
 		if (!L_2536)
 		{
@@ -13618,14 +16303,19 @@ IL_5b83:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4823));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4824));
 		int32_t L_2537 = V_386;
 		V_386 = ((int32_t)il2cpp_codegen_subtract(L_2537, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4825));
 		int32_t L_2538 = V_385;
 		V_385 = ((int32_t)il2cpp_codegen_add(L_2538, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4826));
 	}
 
 IL_5bf3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4827));
 		int32_t L_2539 = V_386;
 		if ((((int32_t)L_2539) > ((int32_t)0)))
 		{
@@ -13646,8 +16336,10 @@ IL_5c03:
 IL_5c09:
 	{
 		V_387 = G_B874_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4828));
 		int32_t L_2541 = V_386;
 		V_389 = (bool)((((int32_t)L_2541) < ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4829));
 		bool L_2542 = V_389;
 		if (!L_2542)
 		{
@@ -13655,11 +16347,13 @@ IL_5c09:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4830));
 		V_386 = 1;
 	}
 
 IL_5c2d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4831));
 		Il2CppChar L_2543 = V_363;
 		if ((((int32_t)L_2543) == ((int32_t)((int32_t)160))))
 		{
@@ -13675,9 +16369,11 @@ IL_5c2d:
 	}
 	{
 		Il2CppChar L_2545 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4832));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_2546;
 		L_2546 = Char_IsSeparator_m8DBA05CCFA10131140E40057E6553F7AC7397BF9(L_2545, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4832));
 		G_B880_0 = ((int32_t)(L_2546));
 		goto IL_5c52;
 	}
@@ -13701,6 +16397,7 @@ IL_5c54:
 IL_5c55:
 	{
 		V_390 = (bool)G_B882_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4833));
 		bool L_2547 = V_390;
 		if (!L_2547)
 		{
@@ -13708,8 +16405,11 @@ IL_5c55:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4834));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4835));
 		bool L_2548 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_391 = (bool)((((int32_t)L_2548) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4836));
 		bool L_2549 = V_391;
 		if (!L_2549)
 		{
@@ -13717,42 +16417,58 @@ IL_5c55:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4837));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2550 = V_37;
 		float L_2551 = V_384;
 		float L_2552 = V_387;
 		int32_t L_2553 = V_386;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4838));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2554;
 		memset((&L_2554), 0, sizeof(L_2554));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2554), ((float)(((float)il2cpp_codegen_multiply(L_2551, ((float)il2cpp_codegen_subtract((1.0f), L_2552))))/((float)L_2553))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4838));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4839));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2555;
 		L_2555 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2550, L_2554, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4839));
 		V_37 = L_2555;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4840));
 		goto IL_5ce6;
 	}
 
 IL_5cb3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4841));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2556 = V_37;
 		float L_2557 = V_384;
 		float L_2558 = V_387;
 		int32_t L_2559 = V_386;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4842));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2560;
 		memset((&L_2560), 0, sizeof(L_2560));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2560), ((float)(((float)il2cpp_codegen_multiply(L_2557, ((float)il2cpp_codegen_subtract((1.0f), L_2558))))/((float)L_2559))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4842));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4843));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2561;
 		L_2561 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_2556, L_2560, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4843));
 		V_37 = L_2561;
 	}
 
 IL_5ce6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4844));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4845));
 		goto IL_5d5e;
 	}
 
 IL_5ce9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4846));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4847));
 		bool L_2562 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_392 = (bool)((((int32_t)L_2562) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4848));
 		bool L_2563 = V_392;
 		if (!L_2563)
 		{
@@ -13760,50 +16476,68 @@ IL_5ce9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4849));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2564 = V_37;
 		float L_2565 = V_384;
 		float L_2566 = V_387;
 		int32_t L_2567 = V_385;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4850));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2568;
 		memset((&L_2568), 0, sizeof(L_2568));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2568), ((float)(((float)il2cpp_codegen_multiply(L_2565, L_2566))/((float)L_2567))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4850));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4851));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2569;
 		L_2569 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2564, L_2568, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4851));
 		V_37 = L_2569;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4852));
 		goto IL_5d5d;
 	}
 
 IL_5d30:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4853));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2570 = V_37;
 		float L_2571 = V_384;
 		float L_2572 = V_387;
 		int32_t L_2573 = V_385;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4854));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2574;
 		memset((&L_2574), 0, sizeof(L_2574));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2574), ((float)(((float)il2cpp_codegen_multiply(L_2571, L_2572))/((float)L_2573))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4854));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4855));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2575;
 		L_2575 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_2570, L_2574, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4855));
 		V_37 = L_2575;
 	}
 
 IL_5d5d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4856));
 	}
 
 IL_5d5e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4857));
 	}
 
 IL_5d5f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4858));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4859));
 		goto IL_5dc1;
 	}
 
 IL_5d62:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4860));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4861));
 		bool L_2576 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_isRightToLeft;
 		V_393 = (bool)((((int32_t)L_2576) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4862));
 		bool L_2577 = V_393;
 		if (!L_2577)
 		{
@@ -13811,44 +16545,59 @@ IL_5d62:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4863));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2578 = V_366;
 		float L_2579 = L_2578.___marginLeft;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4864));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), L_2579, (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4864));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4865));
 		goto IL_5dc0;
 	}
 
 IL_5d98:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4866));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2580 = V_366;
 		float L_2581 = L_2580.___marginLeft;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2582 = V_366;
 		float L_2583 = L_2582.___width;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4867));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_37), ((float)il2cpp_codegen_add(L_2581, L_2583)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4867));
 	}
 
 IL_5dc0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4868));
 	}
 
 IL_5dc1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4869));
 		goto IL_5dc3;
 	}
 
 IL_5dc3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4870));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2584 = V_35;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2585 = V_37;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4871));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2586;
 		L_2586 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2584, L_2585, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4871));
 		V_38 = L_2586;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4872));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2587 = V_60;
 		int32_t L_2588 = V_361;
 		NullCheck(L_2587);
 		bool L_2589 = ((L_2587)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2588)))->___isVisible;
 		V_368 = L_2589;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4873));
 		bool L_2590 = V_368;
 		V_394 = L_2590;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4874));
 		bool L_2591 = V_394;
 		if (!L_2591)
 		{
@@ -13856,15 +16605,20 @@ IL_5dc3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4875));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4876));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2592 = V_60;
 		int32_t L_2593 = V_361;
 		NullCheck(L_2592);
 		int32_t L_2594 = ((L_2592)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2593)))->___elementType;
 		V_395 = L_2594;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4877));
 		int32_t L_2595 = V_395;
 		V_399 = L_2595;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4878));
 		int32_t L_2596 = V_399;
 		V_398 = L_2596;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4879));
 		int32_t L_2597 = V_398;
 		if (!L_2597)
 		{
@@ -13889,16 +16643,21 @@ IL_5e38:
 
 IL_5e49:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4880));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_2599 = V_366;
 		Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 L_2600 = L_2599.___lineExtents;
 		V_396 = L_2600;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4881));
 		float L_2601 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_uvLineOffset;
 		int32_t L_2602 = V_365;
 		V_397 = (fmodf(((float)il2cpp_codegen_multiply(L_2601, ((float)L_2602))), (1.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4882));
 		int32_t L_2603 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_horizontalMapping;
 		V_402 = L_2603;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4883));
 		int32_t L_2604 = V_402;
 		V_401 = L_2604;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4884));
 		int32_t L_2605 = V_401;
 		switch (L_2605)
 		{
@@ -13926,37 +16685,44 @@ IL_5e49:
 
 IL_5eac:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4885));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2606 = V_60;
 		int32_t L_2607 = V_361;
 		NullCheck(L_2606);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2608 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2606)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2607)))->___vertex_BL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2609 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2608->___uv2);
 		L_2609->___x = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4886));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2610 = V_60;
 		int32_t L_2611 = V_361;
 		NullCheck(L_2610);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2612 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2610)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2611)))->___vertex_TL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2613 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2612->___uv2);
 		L_2613->___x = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4887));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2614 = V_60;
 		int32_t L_2615 = V_361;
 		NullCheck(L_2614);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2616 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2614)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2615)))->___vertex_TR);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2617 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2616->___uv2);
 		L_2617->___x = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4888));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2618 = V_60;
 		int32_t L_2619 = V_361;
 		NullCheck(L_2618);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2620 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2618)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2619)))->___vertex_BR);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2621 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2620->___uv2);
 		L_2621->___x = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4889));
 		goto IL_69fe;
 	}
 
 IL_5f35:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4890));
 		int32_t L_2622 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textAlignment;
 		V_403 = (bool)((((int32_t)((((int32_t)L_2622) == ((int32_t)((int32_t)520)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4891));
 		bool L_2623 = V_403;
 		if (!L_2623)
 		{
@@ -13964,6 +16730,8 @@ IL_5f35:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4892));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4893));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2624 = V_60;
 		int32_t L_2625 = V_361;
 		NullCheck(L_2624);
@@ -13986,6 +16754,7 @@ IL_5f35:
 		float L_2641 = L_2640.___x;
 		float L_2642 = V_397;
 		L_2627->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2632, L_2635))/((float)il2cpp_codegen_subtract(L_2638, L_2641)))), L_2642));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4894));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2643 = V_60;
 		int32_t L_2644 = V_361;
 		NullCheck(L_2643);
@@ -14008,6 +16777,7 @@ IL_5f35:
 		float L_2660 = L_2659.___x;
 		float L_2661 = V_397;
 		L_2646->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2651, L_2654))/((float)il2cpp_codegen_subtract(L_2657, L_2660)))), L_2661));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4895));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2662 = V_60;
 		int32_t L_2663 = V_361;
 		NullCheck(L_2662);
@@ -14030,6 +16800,7 @@ IL_5f35:
 		float L_2679 = L_2678.___x;
 		float L_2680 = V_397;
 		L_2665->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2670, L_2673))/((float)il2cpp_codegen_subtract(L_2676, L_2679)))), L_2680));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4896));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2681 = V_60;
 		int32_t L_2682 = V_361;
 		NullCheck(L_2681);
@@ -14052,11 +16823,14 @@ IL_5f35:
 		float L_2698 = L_2697.___x;
 		float L_2699 = V_397;
 		L_2684->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2689, L_2692))/((float)il2cpp_codegen_subtract(L_2695, L_2698)))), L_2699));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4897));
 		goto IL_69fe;
 	}
 
 IL_6124:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4898));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4899));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2700 = V_60;
 		int32_t L_2701 = V_361;
 		NullCheck(L_2700);
@@ -14081,6 +16855,7 @@ IL_6124:
 		float L_2719 = L_2718->___x;
 		float L_2720 = V_397;
 		L_2703->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2708, L_2710)), L_2713))/((float)il2cpp_codegen_subtract(L_2716, L_2719)))), L_2720));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4900));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2721 = V_60;
 		int32_t L_2722 = V_361;
 		NullCheck(L_2721);
@@ -14105,6 +16880,7 @@ IL_6124:
 		float L_2740 = L_2739->___x;
 		float L_2741 = V_397;
 		L_2724->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2729, L_2731)), L_2734))/((float)il2cpp_codegen_subtract(L_2737, L_2740)))), L_2741));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4901));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2742 = V_60;
 		int32_t L_2743 = V_361;
 		NullCheck(L_2742);
@@ -14129,6 +16905,7 @@ IL_6124:
 		float L_2761 = L_2760->___x;
 		float L_2762 = V_397;
 		L_2745->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2750, L_2752)), L_2755))/((float)il2cpp_codegen_subtract(L_2758, L_2761)))), L_2762));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4902));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2763 = V_60;
 		int32_t L_2764 = V_361;
 		NullCheck(L_2763);
@@ -14153,11 +16930,13 @@ IL_6124:
 		float L_2782 = L_2781->___x;
 		float L_2783 = V_397;
 		L_2766->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2771, L_2773)), L_2776))/((float)il2cpp_codegen_subtract(L_2779, L_2782)))), L_2783));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4903));
 		goto IL_69fe;
 	}
 
 IL_6312:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4904));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2784 = V_60;
 		int32_t L_2785 = V_361;
 		NullCheck(L_2784);
@@ -14182,6 +16961,7 @@ IL_6312:
 		float L_2803 = L_2802->___x;
 		float L_2804 = V_397;
 		L_2787->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2792, L_2794)), L_2797))/((float)il2cpp_codegen_subtract(L_2800, L_2803)))), L_2804));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4905));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2805 = V_60;
 		int32_t L_2806 = V_361;
 		NullCheck(L_2805);
@@ -14206,6 +16986,7 @@ IL_6312:
 		float L_2824 = L_2823->___x;
 		float L_2825 = V_397;
 		L_2808->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2813, L_2815)), L_2818))/((float)il2cpp_codegen_subtract(L_2821, L_2824)))), L_2825));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4906));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2826 = V_60;
 		int32_t L_2827 = V_361;
 		NullCheck(L_2826);
@@ -14230,6 +17011,7 @@ IL_6312:
 		float L_2845 = L_2844->___x;
 		float L_2846 = V_397;
 		L_2829->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2834, L_2836)), L_2839))/((float)il2cpp_codegen_subtract(L_2842, L_2845)))), L_2846));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4907));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2847 = V_60;
 		int32_t L_2848 = V_361;
 		NullCheck(L_2847);
@@ -14254,15 +17036,19 @@ IL_6312:
 		float L_2866 = L_2865->___x;
 		float L_2867 = V_397;
 		L_2850->___x = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2855, L_2857)), L_2860))/((float)il2cpp_codegen_subtract(L_2863, L_2866)))), L_2867));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4908));
 		goto IL_69fe;
 	}
 
 IL_64ff:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4909));
 		int32_t L_2868 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_verticalMapping;
 		V_405 = L_2868;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4910));
 		int32_t L_2869 = V_405;
 		V_404 = L_2869;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4911));
 		int32_t L_2870 = V_404;
 		switch (L_2870)
 		{
@@ -14290,35 +17076,41 @@ IL_64ff:
 
 IL_6537:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4912));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2871 = V_60;
 		int32_t L_2872 = V_361;
 		NullCheck(L_2871);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2873 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2871)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2872)))->___vertex_BL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2874 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2873->___uv2);
 		L_2874->___y = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4913));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2875 = V_60;
 		int32_t L_2876 = V_361;
 		NullCheck(L_2875);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2877 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2875)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2876)))->___vertex_TL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2878 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2877->___uv2);
 		L_2878->___y = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4914));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2879 = V_60;
 		int32_t L_2880 = V_361;
 		NullCheck(L_2879);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2881 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2879)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2880)))->___vertex_TR);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2882 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2881->___uv2);
 		L_2882->___y = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4915));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2883 = V_60;
 		int32_t L_2884 = V_361;
 		NullCheck(L_2883);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_2885 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_2883)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2884)))->___vertex_BR);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2886 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2885->___uv2);
 		L_2886->___y = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4916));
 		goto IL_687c;
 	}
 
 IL_65c0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4917));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2887 = V_60;
 		int32_t L_2888 = V_361;
 		NullCheck(L_2887);
@@ -14341,6 +17133,7 @@ IL_65c0:
 		float L_2904 = L_2903.___y;
 		float L_2905 = V_397;
 		L_2890->___y = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2895, L_2898))/((float)il2cpp_codegen_subtract(L_2901, L_2904)))), L_2905));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4918));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2906 = V_60;
 		int32_t L_2907 = V_361;
 		NullCheck(L_2906);
@@ -14363,6 +17156,7 @@ IL_65c0:
 		float L_2923 = L_2922.___y;
 		float L_2924 = V_397;
 		L_2909->___y = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2914, L_2917))/((float)il2cpp_codegen_subtract(L_2920, L_2923)))), L_2924));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4919));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2925 = V_60;
 		int32_t L_2926 = V_361;
 		NullCheck(L_2925);
@@ -14375,6 +17169,7 @@ IL_65c0:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2932 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2931->___uv2);
 		float L_2933 = L_2932->___y;
 		L_2928->___y = L_2933;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4920));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2934 = V_60;
 		int32_t L_2935 = V_361;
 		NullCheck(L_2934);
@@ -14387,11 +17182,13 @@ IL_65c0:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2941 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2940->___uv2);
 		float L_2942 = L_2941->___y;
 		L_2937->___y = L_2942;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4921));
 		goto IL_687c;
 	}
 
 IL_6719:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4922));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2943 = V_60;
 		int32_t L_2944 = V_361;
 		NullCheck(L_2943);
@@ -14414,6 +17211,7 @@ IL_6719:
 		float L_2960 = L_2959->___y;
 		float L_2961 = V_397;
 		L_2946->___y = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2951, L_2954))/((float)il2cpp_codegen_subtract(L_2957, L_2960)))), L_2961));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4923));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2962 = V_60;
 		int32_t L_2963 = V_361;
 		NullCheck(L_2962);
@@ -14436,6 +17234,7 @@ IL_6719:
 		float L_2979 = L_2978->___y;
 		float L_2980 = V_397;
 		L_2965->___y = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2970, L_2973))/((float)il2cpp_codegen_subtract(L_2976, L_2979)))), L_2980));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4924));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2981 = V_60;
 		int32_t L_2982 = V_361;
 		NullCheck(L_2981);
@@ -14448,6 +17247,7 @@ IL_6719:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2988 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2987->___uv2);
 		float L_2989 = L_2988->___y;
 		L_2984->___y = L_2989;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4925));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2990 = V_60;
 		int32_t L_2991 = V_361;
 		NullCheck(L_2990);
@@ -14460,18 +17260,24 @@ IL_6719:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2997 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_2996->___uv2);
 		float L_2998 = L_2997->___y;
 		L_2993->___y = L_2998;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4926));
 		goto IL_687c;
 	}
 
 IL_686f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4927));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4928));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAFB91D1DF3A99213A5F62F37EB0B31E6121411C4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4928));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4929));
 		goto IL_687c;
 	}
 
 IL_687c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4930));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_2999 = V_60;
 		int32_t L_3000 = V_361;
 		NullCheck(L_2999);
@@ -14489,6 +17295,7 @@ IL_687c:
 		NullCheck(L_3009);
 		float L_3011 = ((L_3009)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3010)))->___aspectRatio;
 		V_400 = ((float)(((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_3003, L_3008)), L_3011))))/(2.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4931));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3012 = V_60;
 		int32_t L_3013 = V_361;
 		NullCheck(L_3012);
@@ -14507,6 +17314,7 @@ IL_687c:
 		float L_3024 = V_400;
 		float L_3025 = V_397;
 		L_3015->___x = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_3020, L_3023)), L_3024)), L_3025));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4932));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3026 = V_60;
 		int32_t L_3027 = V_361;
 		NullCheck(L_3026);
@@ -14519,6 +17327,7 @@ IL_687c:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3033 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3032->___uv2);
 		float L_3034 = L_3033->___x;
 		L_3029->___x = L_3034;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4933));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3035 = V_60;
 		int32_t L_3036 = V_361;
 		NullCheck(L_3035);
@@ -14537,6 +17346,7 @@ IL_687c:
 		float L_3047 = V_400;
 		float L_3048 = V_397;
 		L_3038->___x = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_3043, L_3046)), L_3047)), L_3048));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4934));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3049 = V_60;
 		int32_t L_3050 = V_361;
 		NullCheck(L_3049);
@@ -14549,15 +17359,19 @@ IL_687c:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3056 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3055->___uv2);
 		float L_3057 = L_3056->___x;
 		L_3052->___x = L_3057;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4935));
 		goto IL_69fe;
 	}
 
 IL_69fe:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4936));
 		int32_t L_3058 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_verticalMapping;
 		V_408 = L_3058;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4937));
 		int32_t L_3059 = V_408;
 		V_407 = L_3059;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4938));
 		int32_t L_3060 = V_407;
 		switch (L_3060)
 		{
@@ -14585,35 +17399,41 @@ IL_69fe:
 
 IL_6a36:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4939));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3061 = V_60;
 		int32_t L_3062 = V_361;
 		NullCheck(L_3061);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3063 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3061)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3062)))->___vertex_BL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3064 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3063->___uv2);
 		L_3064->___y = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4940));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3065 = V_60;
 		int32_t L_3066 = V_361;
 		NullCheck(L_3065);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3067 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3065)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3066)))->___vertex_TL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3068 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3067->___uv2);
 		L_3068->___y = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4941));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3069 = V_60;
 		int32_t L_3070 = V_361;
 		NullCheck(L_3069);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3071 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3069)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3070)))->___vertex_TR);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3072 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3071->___uv2);
 		L_3072->___y = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4942));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3073 = V_60;
 		int32_t L_3074 = V_361;
 		NullCheck(L_3073);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3075 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3073)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3074)))->___vertex_BR);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3076 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3075->___uv2);
 		L_3076->___y = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4943));
 		goto IL_6eab;
 	}
 
 IL_6abf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4944));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3077 = V_60;
 		int32_t L_3078 = V_361;
 		NullCheck(L_3077);
@@ -14632,6 +17452,7 @@ IL_6abf:
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_3090 = V_366;
 		float L_3091 = L_3090.___descender;
 		L_3080->___y = ((float)(((float)il2cpp_codegen_subtract(L_3085, L_3087))/((float)il2cpp_codegen_subtract(L_3089, L_3091))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4945));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3092 = V_60;
 		int32_t L_3093 = V_361;
 		NullCheck(L_3092);
@@ -14650,6 +17471,7 @@ IL_6abf:
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_3105 = V_366;
 		float L_3106 = L_3105.___descender;
 		L_3095->___y = ((float)(((float)il2cpp_codegen_subtract(L_3100, L_3102))/((float)il2cpp_codegen_subtract(L_3104, L_3106))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4946));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3107 = V_60;
 		int32_t L_3108 = V_361;
 		NullCheck(L_3107);
@@ -14662,6 +17484,7 @@ IL_6abf:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3114 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3113->___uv2);
 		float L_3115 = L_3114->___y;
 		L_3110->___y = L_3115;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4947));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3116 = V_60;
 		int32_t L_3117 = V_361;
 		NullCheck(L_3116);
@@ -14674,11 +17497,13 @@ IL_6abf:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3123 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3122->___uv2);
 		float L_3124 = L_3123->___y;
 		L_3119->___y = L_3124;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4948));
 		goto IL_6eab;
 	}
 
 IL_6bec:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4949));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3125 = V_60;
 		int32_t L_3126 = V_361;
 		NullCheck(L_3125);
@@ -14700,6 +17525,7 @@ IL_6bec:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3141 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3140->___min);
 		float L_3142 = L_3141->___y;
 		L_3128->___y = ((float)(((float)il2cpp_codegen_subtract(L_3133, L_3136))/((float)il2cpp_codegen_subtract(L_3139, L_3142))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4950));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3143 = V_60;
 		int32_t L_3144 = V_361;
 		NullCheck(L_3143);
@@ -14721,6 +17547,7 @@ IL_6bec:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3159 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3158->___min);
 		float L_3160 = L_3159->___y;
 		L_3146->___y = ((float)(((float)il2cpp_codegen_subtract(L_3151, L_3154))/((float)il2cpp_codegen_subtract(L_3157, L_3160))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4951));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3161 = V_60;
 		int32_t L_3162 = V_361;
 		NullCheck(L_3161);
@@ -14733,6 +17560,7 @@ IL_6bec:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3168 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3167->___uv2);
 		float L_3169 = L_3168->___y;
 		L_3164->___y = L_3169;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4952));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3170 = V_60;
 		int32_t L_3171 = V_361;
 		NullCheck(L_3170);
@@ -14745,11 +17573,13 @@ IL_6bec:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3177 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3176->___uv2);
 		float L_3178 = L_3177->___y;
 		L_3173->___y = L_3178;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4953));
 		goto IL_6eab;
 	}
 
 IL_6d37:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4954));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3179 = V_60;
 		int32_t L_3180 = V_361;
 		NullCheck(L_3179);
@@ -14767,6 +17597,7 @@ IL_6d37:
 		NullCheck(L_3189);
 		float L_3191 = ((L_3189)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3190)))->___aspectRatio;
 		V_406 = ((float)(((float)il2cpp_codegen_subtract((1.0f), ((float)(((float)il2cpp_codegen_add(L_3183, L_3188))/L_3191))))/(2.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4955));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3192 = V_60;
 		int32_t L_3193 = V_361;
 		NullCheck(L_3192);
@@ -14784,6 +17615,7 @@ IL_6d37:
 		NullCheck(L_3202);
 		float L_3204 = ((L_3202)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3203)))->___aspectRatio;
 		L_3195->___y = ((float)il2cpp_codegen_add(L_3196, ((float)(L_3201/L_3204))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4956));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3205 = V_60;
 		int32_t L_3206 = V_361;
 		NullCheck(L_3205);
@@ -14801,6 +17633,7 @@ IL_6d37:
 		NullCheck(L_3215);
 		float L_3217 = ((L_3215)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3216)))->___aspectRatio;
 		L_3208->___y = ((float)il2cpp_codegen_add(L_3209, ((float)(L_3214/L_3217))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4957));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3218 = V_60;
 		int32_t L_3219 = V_361;
 		NullCheck(L_3218);
@@ -14813,6 +17646,7 @@ IL_6d37:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3225 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3224->___uv2);
 		float L_3226 = L_3225->___y;
 		L_3221->___y = L_3226;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4958));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3227 = V_60;
 		int32_t L_3228 = V_361;
 		NullCheck(L_3227);
@@ -14825,20 +17659,25 @@ IL_6d37:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3234 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_3233->___uv2);
 		float L_3235 = L_3234->___y;
 		L_3230->___y = L_3235;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4959));
 		goto IL_6eab;
 	}
 
 IL_6eab:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4960));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3236 = V_60;
 		int32_t L_3237 = V_361;
 		NullCheck(L_3236);
 		float L_3238 = ((L_3236)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3237)))->___scale;
 		float L_3239 = V_46;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4961));
 		float L_3240;
 		L_3240 = fabsf(L_3239);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4961));
 		float L_3241 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_charWidthAdjDelta;
 		V_50 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_3238, L_3240)), ((float)il2cpp_codegen_subtract((1.0f), L_3241))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4962));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3242 = V_60;
 		int32_t L_3243 = V_361;
 		NullCheck(L_3242);
@@ -14865,6 +17704,7 @@ IL_6f01:
 IL_6f02:
 	{
 		V_409 = (bool)G_B926_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4963));
 		bool L_3248 = V_409;
 		if (!L_3248)
 		{
@@ -14872,12 +17712,14 @@ IL_6f02:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4964));
 		float L_3249 = V_50;
 		V_50 = ((float)il2cpp_codegen_multiply(L_3249, (-1.0f)));
 	}
 
 IL_6f1a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4965));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3250 = V_60;
 		int32_t L_3251 = V_361;
 		NullCheck(L_3250);
@@ -14885,6 +17727,7 @@ IL_6f1a:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_3253 = (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)(&L_3252->___uv);
 		float L_3254 = V_50;
 		L_3253->___w = L_3254;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4966));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3255 = V_60;
 		int32_t L_3256 = V_361;
 		NullCheck(L_3255);
@@ -14892,6 +17735,7 @@ IL_6f1a:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_3258 = (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)(&L_3257->___uv);
 		float L_3259 = V_50;
 		L_3258->___w = L_3259;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4967));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3260 = V_60;
 		int32_t L_3261 = V_361;
 		NullCheck(L_3260);
@@ -14899,6 +17743,7 @@ IL_6f1a:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_3263 = (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)(&L_3262->___uv);
 		float L_3264 = V_50;
 		L_3263->___w = L_3264;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4968));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3265 = V_60;
 		int32_t L_3266 = V_361;
 		NullCheck(L_3265);
@@ -14906,16 +17751,19 @@ IL_6f1a:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_3268 = (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)(&L_3267->___uv);
 		float L_3269 = V_50;
 		L_3268->___w = L_3269;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4969));
 		goto IL_6f96;
 	}
 
 IL_6f94:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4970));
 		goto IL_6f96;
 	}
 
 IL_6f96:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4971));
 		int32_t L_3270 = V_361;
 		int32_t L_3271 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxVisibleCharacters;
 		if ((((int32_t)L_3270) >= ((int32_t)L_3271)))
@@ -14953,6 +17801,7 @@ IL_6fca:
 IL_6fcb:
 	{
 		V_410 = (bool)G_B935_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4972));
 		bool L_3277 = V_410;
 		if (!L_3277)
 		{
@@ -14960,6 +17809,8 @@ IL_6fcb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4973));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4974));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3278 = V_60;
 		int32_t L_3279 = V_361;
 		NullCheck(L_3278);
@@ -14970,9 +17821,12 @@ IL_6fcb:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3283 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3284 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3283);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3285 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4975));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3286;
 		L_3286 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3284, L_3285, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4975));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3282 = L_3286;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4976));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3287 = V_60;
 		int32_t L_3288 = V_361;
 		NullCheck(L_3287);
@@ -14983,9 +17837,12 @@ IL_6fcb:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3292 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3293 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3292);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3294 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4977));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3295;
 		L_3295 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3293, L_3294, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4977));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3291 = L_3295;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4978));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3296 = V_60;
 		int32_t L_3297 = V_361;
 		NullCheck(L_3296);
@@ -14996,9 +17853,12 @@ IL_6fcb:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3301 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3302 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3301);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3303 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4979));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3304;
 		L_3304 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3302, L_3303, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4979));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3300 = L_3304;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4980));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3305 = V_60;
 		int32_t L_3306 = V_361;
 		NullCheck(L_3305);
@@ -15009,14 +17869,19 @@ IL_6fcb:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3310 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3311 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3310);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3312 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4981));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3313;
 		L_3313 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3311, L_3312, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4981));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3309 = L_3313;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4982));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4983));
 		goto IL_7298;
 	}
 
 IL_70cb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4984));
 		int32_t L_3314 = V_361;
 		int32_t L_3315 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxVisibleCharacters;
 		if ((((int32_t)L_3314) >= ((int32_t)L_3315)))
@@ -15065,6 +17930,7 @@ IL_7112:
 IL_7113:
 	{
 		V_412 = (bool)G_B943_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4985));
 		bool L_3325 = V_412;
 		if (!L_3325)
 		{
@@ -15072,6 +17938,8 @@ IL_7113:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4986));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4987));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3326 = V_60;
 		int32_t L_3327 = V_361;
 		NullCheck(L_3326);
@@ -15082,9 +17950,12 @@ IL_7113:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3331 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3332 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3331);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3333 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4988));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3334;
 		L_3334 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3332, L_3333, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4988));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3330 = L_3334;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4989));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3335 = V_60;
 		int32_t L_3336 = V_361;
 		NullCheck(L_3335);
@@ -15095,9 +17966,12 @@ IL_7113:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3340 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3341 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3340);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3342 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4990));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3343;
 		L_3343 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3341, L_3342, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4990));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3339 = L_3343;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4991));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3344 = V_60;
 		int32_t L_3345 = V_361;
 		NullCheck(L_3344);
@@ -15108,9 +17982,12 @@ IL_7113:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3349 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3350 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3349);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3351 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4992));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3352;
 		L_3352 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3350, L_3351, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4992));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3348 = L_3352;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4993));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3353 = V_60;
 		int32_t L_3354 = V_361;
 		NullCheck(L_3353);
@@ -15121,53 +17998,76 @@ IL_7113:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3358 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3359 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3358);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3360 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4994));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3361;
 		L_3361 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3359, L_3360, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4994));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3357 = L_3361;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4995));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4996));
 		goto IL_7298;
 	}
 
 IL_7213:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4997));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4998));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3362 = V_60;
 		int32_t L_3363 = V_361;
 		NullCheck(L_3362);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3364 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3362)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3363)))->___vertex_BL);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4999));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3365;
 		L_3365 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 4999));
 		L_3364->___position = L_3365;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5000));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3366 = V_60;
 		int32_t L_3367 = V_361;
 		NullCheck(L_3366);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3368 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3366)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3367)))->___vertex_TL);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5001));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3369;
 		L_3369 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5001));
 		L_3368->___position = L_3369;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5002));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3370 = V_60;
 		int32_t L_3371 = V_361;
 		NullCheck(L_3370);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3372 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3370)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3371)))->___vertex_TR);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5003));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3373;
 		L_3373 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5003));
 		L_3372->___position = L_3373;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5004));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3374 = V_60;
 		int32_t L_3375 = V_361;
 		NullCheck(L_3374);
 		TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A* L_3376 = (TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A*)(&((L_3374)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3375)))->___vertex_BR);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5005));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3377;
 		L_3377 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5005));
 		L_3376->___position = L_3377;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5006));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3378 = V_60;
 		int32_t L_3379 = V_361;
 		NullCheck(L_3378);
 		((L_3378)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3379)))->___isVisible = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5007));
 	}
 
 IL_7298:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5008));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5009));
 		int32_t L_3380;
 		L_3380 = QualitySettings_get_activeColorSpace_m4F47784E7B0FE0A5497C8BAB9CA86BD576FB92F9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5009));
 		V_413 = (bool)((((int32_t)L_3380) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5010));
 		bool L_3381 = V_413;
 		if (!L_3381)
 		{
@@ -15175,19 +18075,24 @@ IL_7298:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5011));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ConvertToLinearSpace = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5012));
 		goto IL_72be;
 	}
 
 IL_72b7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5013));
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_ConvertToLinearSpace = (bool)0;
 	}
 
 IL_72be:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5014));
 		int32_t L_3382 = V_395;
 		V_414 = (bool)((((int32_t)L_3382) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5015));
 		bool L_3383 = V_414;
 		if (!L_3383)
 		{
@@ -15195,15 +18100,23 @@ IL_72be:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5016));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5017));
 		int32_t L_3384 = V_361;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5018));
 		VirtualActionInvoker1< int32_t >::Invoke(122, __this, L_3384);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5018));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5019));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5020));
 		goto IL_730c;
 	}
 
 IL_72e6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5021));
 		int32_t L_3385 = V_395;
 		V_415 = (bool)((((int32_t)L_3385) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5022));
 		bool L_3386 = V_415;
 		if (!L_3386)
 		{
@@ -15211,16 +18124,23 @@ IL_72e6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5023));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5024));
 		int32_t L_3387 = V_361;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5025));
 		VirtualActionInvoker1< int32_t >::Invoke(124, __this, L_3387);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5025));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5026));
 	}
 
 IL_730c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5027));
 	}
 
 IL_730d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5028));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3388 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3388);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3389 = L_3388->___characterInfo;
@@ -15232,9 +18152,12 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3393 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3394 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3393);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3395 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5029));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3396;
 		L_3396 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3394, L_3395, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5029));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3392 = L_3396;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5030));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3397 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3397);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3398 = L_3397->___characterInfo;
@@ -15246,9 +18169,12 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3402 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3403 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3402);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3404 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5031));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3405;
 		L_3405 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3403, L_3404, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5031));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3401 = L_3405;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5032));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3406 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3406);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3407 = L_3406->___characterInfo;
@@ -15260,9 +18186,12 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3411 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3412 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3411);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3413 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5033));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3414;
 		L_3414 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3412, L_3413, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5033));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3410 = L_3414;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5034));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3415 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3415);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3416 = L_3415->___characterInfo;
@@ -15274,9 +18203,12 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3420 = V_411;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3421 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3420);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3422 = V_38;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5035));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3423;
 		L_3423 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3421, L_3422, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5035));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3419 = L_3423;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5036));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3424 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3424);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3425 = L_3424->___characterInfo;
@@ -15290,6 +18222,7 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3431 = V_38;
 		float L_3432 = L_3431.___x;
 		*((float*)L_3428) = (float)((float)il2cpp_codegen_add(L_3430, L_3432));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5037));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3433 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3433);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3434 = L_3433->___characterInfo;
@@ -15303,6 +18236,7 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3440 = V_38;
 		float L_3441 = L_3440.___x;
 		*((float*)L_3437) = (float)((float)il2cpp_codegen_add(L_3439, L_3441));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5038));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3442 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3442);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3443 = L_3442->___characterInfo;
@@ -15316,6 +18250,7 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3449 = V_38;
 		float L_3450 = L_3449.___y;
 		*((float*)L_3446) = (float)((float)il2cpp_codegen_add(L_3448, L_3450));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5039));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3451 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3451);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3452 = L_3451->___characterInfo;
@@ -15329,6 +18264,7 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3458 = V_38;
 		float L_3459 = L_3458.___y;
 		*((float*)L_3455) = (float)((float)il2cpp_codegen_add(L_3457, L_3459));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5040));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3460 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3460);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3461 = L_3460->___characterInfo;
@@ -15342,8 +18278,10 @@ IL_730d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3467 = V_38;
 		float L_3468 = L_3467.___y;
 		*((float*)L_3464) = (float)((float)il2cpp_codegen_add(L_3466, L_3468));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5041));
 		bool L_3469 = V_368;
 		V_416 = L_3469;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5042));
 		bool L_3470 = V_416;
 		if (!L_3470)
 		{
@@ -15351,10 +18289,13 @@ IL_730d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5043));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5044));
 	}
 
 IL_752e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5045));
 		int32_t L_3471 = V_365;
 		int32_t L_3472 = V_41;
 		if ((!(((uint32_t)L_3471) == ((uint32_t)L_3472))))
@@ -15377,6 +18318,7 @@ IL_754a:
 IL_754b:
 	{
 		V_417 = (bool)G_B959_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5046));
 		bool L_3475 = V_417;
 		if (!L_3475)
 		{
@@ -15384,9 +18326,12 @@ IL_754b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5047));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5048));
 		int32_t L_3476 = V_365;
 		int32_t L_3477 = V_41;
 		V_418 = (bool)((((int32_t)((((int32_t)L_3476) == ((int32_t)L_3477))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5049));
 		bool L_3478 = V_418;
 		if (!L_3478)
 		{
@@ -15394,6 +18339,8 @@ IL_754b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5050));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5051));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3479 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3479);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3480 = L_3479->___lineInfo;
@@ -15407,6 +18354,7 @@ IL_754b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3486 = V_38;
 		float L_3487 = L_3486.___y;
 		*((float*)L_3483) = (float)((float)il2cpp_codegen_add(L_3485, L_3487));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5052));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3488 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3488);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3489 = L_3488->___lineInfo;
@@ -15420,6 +18368,7 @@ IL_754b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3495 = V_38;
 		float L_3496 = L_3495.___y;
 		*((float*)L_3492) = (float)((float)il2cpp_codegen_add(L_3494, L_3496));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5053));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3497 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3497);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3498 = L_3497->___lineInfo;
@@ -15433,6 +18382,7 @@ IL_754b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3504 = V_38;
 		float L_3505 = L_3504.___y;
 		*((float*)L_3501) = (float)((float)il2cpp_codegen_add(L_3503, L_3505));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5054));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3506 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3506);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3507 = L_3506->___lineInfo;
@@ -15446,6 +18396,7 @@ IL_754b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3513 = V_38;
 		float L_3514 = L_3513.___x;
 		*((float*)L_3510) = (float)((float)il2cpp_codegen_add(L_3512, L_3514));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5055));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3515 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3515);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3516 = L_3515->___lineInfo;
@@ -15470,10 +18421,13 @@ IL_754b:
 		int32_t L_3529 = V_41;
 		NullCheck(L_3528);
 		float L_3530 = ((L_3528)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3529)))->___descender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5056));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3531;
 		memset((&L_3531), 0, sizeof(L_3531));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3531), L_3526, L_3530, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5056));
 		L_3518->___min = L_3531;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5057));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3532 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3532);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3533 = L_3532->___lineInfo;
@@ -15498,17 +18452,22 @@ IL_754b:
 		int32_t L_3546 = V_41;
 		NullCheck(L_3545);
 		float L_3547 = ((L_3545)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3546)))->___ascender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5058));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3548;
 		memset((&L_3548), 0, sizeof(L_3548));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3548), L_3543, L_3547, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5058));
 		L_3535->___max = L_3548;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5059));
 	}
 
 IL_771b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5060));
 		int32_t L_3549 = V_361;
 		int32_t L_3550 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_419 = (bool)((((int32_t)L_3549) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_3550, 1))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5061));
 		bool L_3551 = V_419;
 		if (!L_3551)
 		{
@@ -15516,6 +18475,8 @@ IL_771b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5062));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5063));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3552 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3552);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3553 = L_3552->___lineInfo;
@@ -15529,6 +18490,7 @@ IL_771b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3559 = V_38;
 		float L_3560 = L_3559.___y;
 		*((float*)L_3556) = (float)((float)il2cpp_codegen_add(L_3558, L_3560));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5064));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3561 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3561);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3562 = L_3561->___lineInfo;
@@ -15542,6 +18504,7 @@ IL_771b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3568 = V_38;
 		float L_3569 = L_3568.___y;
 		*((float*)L_3565) = (float)((float)il2cpp_codegen_add(L_3567, L_3569));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5065));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3570 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3570);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3571 = L_3570->___lineInfo;
@@ -15555,6 +18518,7 @@ IL_771b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3577 = V_38;
 		float L_3578 = L_3577.___y;
 		*((float*)L_3574) = (float)((float)il2cpp_codegen_add(L_3576, L_3578));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5066));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3579 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3579);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3580 = L_3579->___lineInfo;
@@ -15568,6 +18532,7 @@ IL_771b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3586 = V_38;
 		float L_3587 = L_3586.___x;
 		*((float*)L_3583) = (float)((float)il2cpp_codegen_add(L_3585, L_3587));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5067));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3588 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3588);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3589 = L_3588->___lineInfo;
@@ -15592,10 +18557,13 @@ IL_771b:
 		int32_t L_3602 = V_365;
 		NullCheck(L_3601);
 		float L_3603 = ((L_3601)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3602)))->___descender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5068));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3604;
 		memset((&L_3604), 0, sizeof(L_3604));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3604), L_3599, L_3603, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5068));
 		L_3591->___min = L_3604;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5069));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3605 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3605);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3606 = L_3605->___lineInfo;
@@ -15620,22 +18588,29 @@ IL_771b:
 		int32_t L_3619 = V_365;
 		NullCheck(L_3618);
 		float L_3620 = ((L_3618)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3619)))->___ascender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5070));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3621;
 		memset((&L_3621), 0, sizeof(L_3621));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3621), L_3616, L_3620, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5070));
 		L_3608->___max = L_3621;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5071));
 	}
 
 IL_7904:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5072));
 	}
 
 IL_7905:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5073));
 		Il2CppChar L_3622 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5074));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3623;
 		L_3623 = Char_IsLetterOrDigit_m14049A362108679FD23E424FD9C5C42057359B72(L_3622, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5074));
 		if (L_3623)
 		{
 			goto IL_7945;
@@ -15676,6 +18651,7 @@ IL_7945:
 IL_7946:
 	{
 		V_420 = (bool)G_B971_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5075));
 		bool L_3628 = V_420;
 		if (!L_3628)
 		{
@@ -15683,8 +18659,11 @@ IL_7946:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5076));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5077));
 		bool L_3629 = V_43;
 		V_421 = (bool)((((int32_t)L_3629) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5078));
 		bool L_3630 = V_421;
 		if (!L_3630)
 		{
@@ -15692,13 +18671,18 @@ IL_7946:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5079));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5080));
 		V_43 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5081));
 		int32_t L_3631 = V_361;
 		V_44 = L_3631;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5082));
 	}
 
 IL_7978:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5083));
 		bool L_3632 = V_43;
 		if (!L_3632)
 		{
@@ -15720,6 +18704,7 @@ IL_798e:
 IL_798f:
 	{
 		V_422 = (bool)G_B977_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5084));
 		bool L_3635 = V_422;
 		if (!L_3635)
 		{
@@ -15727,20 +18712,25 @@ IL_798f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5085));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5086));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3636 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3636);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3637 = L_3636->___wordInfo;
 		NullCheck(L_3637);
 		V_423 = ((int32_t)(((RuntimeArray*)L_3637)->max_length));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5087));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3638 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3638);
 		int32_t L_3639 = L_3638->___wordCount;
 		V_424 = L_3639;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5088));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3640 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3640);
 		int32_t L_3641 = L_3640->___wordCount;
 		int32_t L_3642 = V_423;
 		V_425 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_3641, 1))) > ((int32_t)L_3642))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5089));
 		bool L_3643 = V_425;
 		if (!L_3643)
 		{
@@ -15748,18 +18738,23 @@ IL_798f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5090));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3644 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3644);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC** L_3645 = (TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC**)(&L_3644->___wordInfo);
 		int32_t L_3646 = V_423;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5091));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
 		TMP_TextInfo_Resize_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_mD1697D16231084129C06B47748C8793C5CDD40A5(L_3645, ((int32_t)il2cpp_codegen_add(L_3646, 1)), TMP_TextInfo_Resize_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_mD1697D16231084129C06B47748C8793C5CDD40A5_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5091));
 	}
 
 IL_7a01:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5092));
 		int32_t L_3647 = V_361;
 		V_45 = L_3647;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5093));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3648 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3648);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3649 = L_3648->___wordInfo;
@@ -15767,6 +18762,7 @@ IL_7a01:
 		NullCheck(L_3649);
 		int32_t L_3651 = V_44;
 		((L_3649)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3650)))->___firstCharacterIndex = L_3651;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5094));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3652 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3652);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3653 = L_3652->___wordInfo;
@@ -15774,6 +18770,7 @@ IL_7a01:
 		NullCheck(L_3653);
 		int32_t L_3655 = V_45;
 		((L_3653)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3654)))->___lastCharacterIndex = L_3655;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5095));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3656 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3656);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3657 = L_3656->___wordInfo;
@@ -15782,6 +18779,7 @@ IL_7a01:
 		int32_t L_3659 = V_45;
 		int32_t L_3660 = V_44;
 		((L_3657)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3658)))->___characterCount = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_3659, L_3660)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5096));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3661 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3661);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3662 = L_3661->___wordInfo;
@@ -15789,8 +18787,10 @@ IL_7a01:
 		NullCheck(L_3662);
 		((L_3662)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3663)))->___textComponent = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_3662)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3663)))->___textComponent), (void*)__this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5097));
 		int32_t L_3664 = V_39;
 		V_39 = ((int32_t)il2cpp_codegen_add(L_3664, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5098));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3665 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		V_271 = L_3665;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3666 = V_271;
@@ -15799,6 +18799,7 @@ IL_7a01:
 		int32_t L_3668 = L_3667->___wordCount;
 		NullCheck(L_3666);
 		L_3666->___wordCount = ((int32_t)il2cpp_codegen_add(L_3668, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5099));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3669 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3669);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3670 = L_3669->___lineInfo;
@@ -15810,15 +18811,19 @@ IL_7a01:
 		int32_t* L_3674 = V_103;
 		int32_t L_3675 = *((int32_t*)L_3674);
 		*((int32_t*)L_3673) = (int32_t)((int32_t)il2cpp_codegen_add(L_3675, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5100));
 	}
 
 IL_7ad1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5101));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5102));
 		goto IL_7d16;
 	}
 
 IL_7ad7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5103));
 		bool L_3676 = V_43;
 		if (L_3676)
 		{
@@ -15834,9 +18839,11 @@ IL_7ad7:
 	}
 	{
 		Il2CppChar L_3678 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5104));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3679;
 		L_3679 = Char_IsPunctuation_m619E42D942E22C9BA1DDB8E704BECA546C376473(L_3678, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5104));
 		bool L_3680 = V_364;
 		if (((int32_t)(((((int32_t)L_3679) == ((int32_t)0))? 1 : 0)|(int32_t)L_3680)))
 		{
@@ -15887,6 +18894,7 @@ IL_7b1f:
 IL_7b20:
 	{
 		V_426 = (bool)G_B992_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5105));
 		bool L_3684 = V_426;
 		if (!L_3684)
 		{
@@ -15894,6 +18902,8 @@ IL_7b20:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5106));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5107));
 		int32_t L_3685 = V_361;
 		if ((((int32_t)L_3685) <= ((int32_t)0)))
 		{
@@ -15938,9 +18948,11 @@ IL_7b6e:
 		int32_t L_3693 = V_361;
 		NullCheck(L_3692);
 		Il2CppChar L_3694 = ((L_3692)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3693, 1)))))->___character;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5108));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3695;
 		L_3695 = Char_IsLetterOrDigit_m14049A362108679FD23E424FD9C5C42057359B72(L_3694, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5108));
 		if (!L_3695)
 		{
 			goto IL_7ba4;
@@ -15951,9 +18963,11 @@ IL_7b6e:
 		int32_t L_3697 = V_361;
 		NullCheck(L_3696);
 		Il2CppChar L_3698 = ((L_3696)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_3697, 1)))))->___character;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5109));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3699;
 		L_3699 = Char_IsLetterOrDigit_m14049A362108679FD23E424FD9C5C42057359B72(L_3698, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5109));
 		G_B1001_0 = ((int32_t)(L_3699));
 		goto IL_7ba5;
 	}
@@ -15966,6 +18980,7 @@ IL_7ba4:
 IL_7ba5:
 	{
 		V_427 = (bool)G_B1001_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5110));
 		bool L_3700 = V_427;
 		if (!L_3700)
 		{
@@ -15973,11 +18988,16 @@ IL_7ba5:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5111));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5112));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5113));
 		goto IL_7d15;
 	}
 
 IL_7bba:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5114));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5115));
 		int32_t L_3701 = V_361;
 		int32_t L_3702 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		if ((!(((uint32_t)L_3701) == ((uint32_t)((int32_t)il2cpp_codegen_subtract(L_3702, 1))))))
@@ -15987,9 +19007,11 @@ IL_7bba:
 	}
 	{
 		Il2CppChar L_3703 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5116));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3704;
 		L_3704 = Char_IsLetterOrDigit_m14049A362108679FD23E424FD9C5C42057359B72(L_3703, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5116));
 		if (L_3704)
 		{
 			goto IL_7be2;
@@ -16012,21 +19034,26 @@ IL_7be2:
 IL_7be8:
 	{
 		V_45 = G_B1007_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5117));
 		V_43 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5118));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3707 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3707);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3708 = L_3707->___wordInfo;
 		NullCheck(L_3708);
 		V_428 = ((int32_t)(((RuntimeArray*)L_3708)->max_length));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5119));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3709 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3709);
 		int32_t L_3710 = L_3709->___wordCount;
 		V_429 = L_3710;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5120));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3711 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3711);
 		int32_t L_3712 = L_3711->___wordCount;
 		int32_t L_3713 = V_428;
 		V_430 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_3712, 1))) > ((int32_t)L_3713))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5121));
 		bool L_3714 = V_430;
 		if (!L_3714)
 		{
@@ -16034,16 +19061,20 @@ IL_7be8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5122));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3715 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3715);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC** L_3716 = (TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC**)(&L_3715->___wordInfo);
 		int32_t L_3717 = V_428;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5123));
 		il2cpp_codegen_runtime_class_init_inline(TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
 		TMP_TextInfo_Resize_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_mD1697D16231084129C06B47748C8793C5CDD40A5(L_3716, ((int32_t)il2cpp_codegen_add(L_3717, 1)), TMP_TextInfo_Resize_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_mD1697D16231084129C06B47748C8793C5CDD40A5_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5123));
 	}
 
 IL_7c4d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5124));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3718 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3718);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3719 = L_3718->___wordInfo;
@@ -16051,6 +19082,7 @@ IL_7c4d:
 		NullCheck(L_3719);
 		int32_t L_3721 = V_44;
 		((L_3719)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3720)))->___firstCharacterIndex = L_3721;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5125));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3722 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3722);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3723 = L_3722->___wordInfo;
@@ -16058,6 +19090,7 @@ IL_7c4d:
 		NullCheck(L_3723);
 		int32_t L_3725 = V_45;
 		((L_3723)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3724)))->___lastCharacterIndex = L_3725;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5126));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3726 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3726);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3727 = L_3726->___wordInfo;
@@ -16066,6 +19099,7 @@ IL_7c4d:
 		int32_t L_3729 = V_45;
 		int32_t L_3730 = V_44;
 		((L_3727)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3728)))->___characterCount = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_3729, L_3730)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5127));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3731 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3731);
 		TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* L_3732 = L_3731->___wordInfo;
@@ -16073,8 +19107,10 @@ IL_7c4d:
 		NullCheck(L_3732);
 		((L_3732)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3733)))->___textComponent = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_3732)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3733)))->___textComponent), (void*)__this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5128));
 		int32_t L_3734 = V_39;
 		V_39 = ((int32_t)il2cpp_codegen_add(L_3734, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5129));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3735 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		V_271 = L_3735;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3736 = V_271;
@@ -16083,6 +19119,7 @@ IL_7c4d:
 		int32_t L_3738 = L_3737->___wordCount;
 		NullCheck(L_3736);
 		L_3736->___wordCount = ((int32_t)il2cpp_codegen_add(L_3738, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5130));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3739 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3739);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_3740 = L_3739->___lineInfo;
@@ -16094,14 +19131,17 @@ IL_7c4d:
 		int32_t* L_3744 = V_103;
 		int32_t L_3745 = *((int32_t*)L_3744);
 		*((int32_t*)L_3743) = (int32_t)((int32_t)il2cpp_codegen_add(L_3745, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5131));
 	}
 
 IL_7d15:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5132));
 	}
 
 IL_7d16:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5133));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3746 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3746);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3747 = L_3746->___characterInfo;
@@ -16109,8 +19149,10 @@ IL_7d16:
 		NullCheck(L_3747);
 		int32_t L_3749 = ((L_3747)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3748)))->___style;
 		V_369 = (bool)((((int32_t)((int32_t)((int32_t)L_3749&4))) == ((int32_t)4))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5134));
 		bool L_3750 = V_369;
 		V_431 = L_3750;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5135));
 		bool L_3751 = V_431;
 		if (!L_3751)
 		{
@@ -16118,7 +19160,10 @@ IL_7d16:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5136));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5137));
 		V_432 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5138));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3752 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3752);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3753 = L_3752->___characterInfo;
@@ -16126,6 +19171,7 @@ IL_7d16:
 		NullCheck(L_3753);
 		int32_t L_3755 = ((L_3753)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3754)))->___pageNumber;
 		V_433 = L_3755;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5139));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3756 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3756);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3757 = L_3756->___characterInfo;
@@ -16133,6 +19179,7 @@ IL_7d16:
 		NullCheck(L_3757);
 		int32_t L_3759 = V_34;
 		((L_3757)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3758)))->___underlineVertexIndex = L_3759;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5140));
 		int32_t L_3760 = V_361;
 		int32_t L_3761 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxVisibleCharacters;
 		if ((((int32_t)L_3760) > ((int32_t)L_3761)))
@@ -16181,6 +19228,7 @@ IL_7dd6:
 IL_7dd7:
 	{
 		V_434 = (bool)G_B1019_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5141));
 		bool L_3767 = V_434;
 		if (!L_3767)
 		{
@@ -16188,11 +19236,13 @@ IL_7dd7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5142));
 		V_432 = (bool)0;
 	}
 
 IL_7dec:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5143));
 		bool L_3768 = V_364;
 		if (L_3768)
 		{
@@ -16213,6 +19263,7 @@ IL_7e06:
 IL_7e07:
 	{
 		V_435 = (bool)G_B1024_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5144));
 		bool L_3770 = V_435;
 		if (!L_3770)
 		{
@@ -16220,6 +19271,8 @@ IL_7e07:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5146));
 		float L_3771 = V_54;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3772 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3772);
@@ -16227,16 +19280,24 @@ IL_7e07:
 		int32_t L_3774 = V_361;
 		NullCheck(L_3773);
 		float L_3775 = ((L_3773)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3774)))->___scale;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5147));
 		float L_3776;
 		L_3776 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_3771, L_3775, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5147));
 		V_54 = L_3776;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5148));
 		float L_3777 = V_51;
 		float L_3778 = V_50;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5149));
 		float L_3779;
 		L_3779 = fabsf(L_3778);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5149));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5150));
 		float L_3780;
 		L_3780 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_3777, L_3779, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5150));
 		V_51 = L_3780;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5151));
 		int32_t L_3781 = V_433;
 		int32_t L_3782 = V_56;
 		if ((((int32_t)L_3781) == ((int32_t)L_3782)))
@@ -16265,22 +19326,31 @@ IL_7e60:
 		int32_t L_3787 = V_361;
 		NullCheck(L_3786);
 		float L_3788 = ((L_3786)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3787)))->___baseLine;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5152));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_3789;
 		L_3789 = TMP_Text_get_font_m1F5E907B9181A54212FBD8123242583C1CA4BE2A(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5152));
 		NullCheck(L_3789);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_3790 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_3789)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5153));
 		float L_3791;
 		L_3791 = FaceInfo_get_underlineOffset_mB1CBB29ECFFE69047F35E654E7F90755F95DD251(L_3790, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5153));
 		float L_3792 = V_54;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5154));
 		float L_3793;
 		L_3793 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(G_B1028_0, ((float)il2cpp_codegen_add(L_3788, ((float)il2cpp_codegen_multiply(L_3791, L_3792)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5154));
 		V_55 = L_3793;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5155));
 		int32_t L_3794 = V_433;
 		V_56 = L_3794;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5156));
 	}
 
 IL_7e9f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5157));
 		bool L_3795 = V_7;
 		if (L_3795)
 		{
@@ -16331,6 +19401,7 @@ IL_7ee1:
 IL_7ee2:
 	{
 		V_436 = (bool)G_B1036_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5158));
 		bool L_3803 = V_436;
 		if (!L_3803)
 		{
@@ -16338,6 +19409,8 @@ IL_7ee2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5159));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5160));
 		int32_t L_3804 = V_361;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_3805 = V_366;
 		int32_t L_3806 = L_3805.___lastVisibleCharacterIndex;
@@ -16348,9 +19421,11 @@ IL_7ee2:
 	}
 	{
 		Il2CppChar L_3807 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5161));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3808;
 		L_3808 = Char_IsSeparator_m8DBA05CCFA10131140E40057E6553F7AC7397BF9(L_3807, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5161));
 		G_B1040_0 = ((int32_t)(L_3808));
 		goto IL_7f15;
 	}
@@ -16363,6 +19438,7 @@ IL_7f14:
 IL_7f15:
 	{
 		V_437 = (bool)G_B1040_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5162));
 		bool L_3809 = V_437;
 		if (!L_3809)
 		{
@@ -16370,12 +19446,18 @@ IL_7f15:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5163));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5164));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5165));
 		goto IL_7fb8;
 	}
 
 IL_7f2a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5166));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5167));
 		V_7 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5168));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3810 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3810);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3811 = L_3810->___characterInfo;
@@ -16383,8 +19465,10 @@ IL_7f2a:
 		NullCheck(L_3811);
 		float L_3813 = ((L_3811)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3812)))->___scale;
 		V_52 = L_3813;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5169));
 		float L_3814 = V_54;
 		V_438 = (bool)((((float)L_3814) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5170));
 		bool L_3815 = V_438;
 		if (!L_3815)
 		{
@@ -16392,14 +19476,19 @@ IL_7f2a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5171));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5172));
 		float L_3816 = V_52;
 		V_54 = L_3816;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5173));
 		float L_3817 = V_50;
 		V_51 = L_3817;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5174));
 	}
 
 IL_7f6c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5175));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3818 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3818);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3819 = L_3818->___characterInfo;
@@ -16408,7 +19497,10 @@ IL_7f6c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3821 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3819)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3820)))->___bottomLeft);
 		float L_3822 = L_3821->___x;
 		float L_3823 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5176));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_8), L_3822, L_3823, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5176));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5177));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3824 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3824);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3825 = L_3824->___characterInfo;
@@ -16416,14 +19508,17 @@ IL_7f6c:
 		NullCheck(L_3825);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3827 = ((L_3825)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3826)))->___underlineColor;
 		V_47 = L_3827;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5178));
 	}
 
 IL_7fb8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5179));
 	}
 
 IL_7fb9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5180));
 		bool L_3828 = V_7;
 		if (!L_3828)
 		{
@@ -16444,6 +19539,7 @@ IL_7fc8:
 IL_7fc9:
 	{
 		V_439 = (bool)G_B1049_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5181));
 		bool L_3830 = V_439;
 		if (!L_3830)
 		{
@@ -16451,7 +19547,10 @@ IL_7fc9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5182));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5183));
 		V_7 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5184));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3831 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3831);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3832 = L_3831->___characterInfo;
@@ -16460,7 +19559,10 @@ IL_7fc9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3834 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3832)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3833)))->___topRight);
 		float L_3835 = L_3834->___x;
 		float L_3836 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5185));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3835, L_3836, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5185));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5186));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3837 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3837);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3838 = L_3837->___characterInfo;
@@ -16468,6 +19570,7 @@ IL_7fc9:
 		NullCheck(L_3838);
 		float L_3840 = ((L_3838)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3839)))->___scale;
 		V_53 = L_3840;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5187));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3841 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3842 = V_9;
 		float L_3843 = V_52;
@@ -16475,17 +19578,25 @@ IL_7fc9:
 		float L_3845 = V_54;
 		float L_3846 = V_51;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3847 = V_47;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5188));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_3841, L_3842, (&V_34), L_3843, L_3844, L_3845, L_3846, L_3847);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5188));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5189));
 		V_54 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5190));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5191));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_3848 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		V_55 = L_3848;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5192));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5193));
 		goto IL_8316;
 	}
 
 IL_805b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5194));
 		bool L_3849 = V_7;
 		if (!L_3849)
 		{
@@ -16528,6 +19639,7 @@ IL_808d:
 IL_808e:
 	{
 		V_440 = (bool)G_B1057_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5195));
 		bool L_3856 = V_440;
 		if (!L_3856)
 		{
@@ -16535,6 +19647,8 @@ IL_808e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5196));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5197));
 		bool L_3857 = V_364;
 		if (L_3857)
 		{
@@ -16555,6 +19669,7 @@ IL_80b7:
 IL_80b8:
 	{
 		V_441 = (bool)G_B1061_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5198));
 		bool L_3859 = V_441;
 		if (!L_3859)
 		{
@@ -16562,9 +19677,12 @@ IL_80b8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5199));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5200));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_3860 = V_366;
 		int32_t L_3861 = L_3860.___lastVisibleCharacterIndex;
 		V_442 = L_3861;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5201));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3862 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3862);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3863 = L_3862->___characterInfo;
@@ -16573,7 +19691,10 @@ IL_80b8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3865 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3863)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3864)))->___topRight);
 		float L_3866 = L_3865->___x;
 		float L_3867 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5202));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3866, L_3867, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5202));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5203));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3868 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3868);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3869 = L_3868->___characterInfo;
@@ -16581,11 +19702,15 @@ IL_80b8:
 		NullCheck(L_3869);
 		float L_3871 = ((L_3869)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3870)))->___scale;
 		V_53 = L_3871;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5204));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5205));
 		goto IL_8173;
 	}
 
 IL_8126:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5206));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5207));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3872 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3872);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3873 = L_3872->___characterInfo;
@@ -16594,7 +19719,10 @@ IL_8126:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3875 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3873)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3874)))->___topRight);
 		float L_3876 = L_3875->___x;
 		float L_3877 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5208));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3876, L_3877, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5208));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5209));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3878 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3878);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3879 = L_3878->___characterInfo;
@@ -16602,11 +19730,14 @@ IL_8126:
 		NullCheck(L_3879);
 		float L_3881 = ((L_3879)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3880)))->___scale;
 		V_53 = L_3881;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5210));
 	}
 
 IL_8173:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5211));
 		V_7 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5212));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3882 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3883 = V_9;
 		float L_3884 = V_52;
@@ -16614,17 +19745,25 @@ IL_8173:
 		float L_3886 = V_54;
 		float L_3887 = V_51;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3888 = V_47;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5213));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_3882, L_3883, (&V_34), L_3884, L_3885, L_3886, L_3887, L_3888);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5213));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5214));
 		V_54 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5215));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5216));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_3889 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		V_55 = L_3889;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5217));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5218));
 		goto IL_8316;
 	}
 
 IL_81a8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5219));
 		bool L_3890 = V_7;
 		if (!L_3890)
 		{
@@ -16645,6 +19784,7 @@ IL_81b7:
 IL_81b8:
 	{
 		V_443 = (bool)G_B1068_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5220));
 		bool L_3892 = V_443;
 		if (!L_3892)
 		{
@@ -16652,7 +19792,10 @@ IL_81b8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5221));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5222));
 		V_7 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5223));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3893 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3893);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3894 = L_3893->___characterInfo;
@@ -16661,7 +19804,10 @@ IL_81b8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3896 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3894)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3895, 1)))))->___topRight);
 		float L_3897 = L_3896->___x;
 		float L_3898 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5224));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3897, L_3898, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5224));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5225));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3899 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3899);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3900 = L_3899->___characterInfo;
@@ -16669,6 +19815,7 @@ IL_81b8:
 		NullCheck(L_3900);
 		float L_3902 = ((L_3900)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3901, 1)))))->___scale;
 		V_53 = L_3902;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5226));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3903 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3904 = V_9;
 		float L_3905 = V_52;
@@ -16676,17 +19823,25 @@ IL_81b8:
 		float L_3907 = V_54;
 		float L_3908 = V_51;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3909 = V_47;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5227));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_3903, L_3904, (&V_34), L_3905, L_3906, L_3907, L_3908, L_3909);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5227));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5228));
 		V_54 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5229));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5230));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_3910 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		V_55 = L_3910;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5231));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5232));
 		goto IL_8316;
 	}
 
 IL_824e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5233));
 		bool L_3911 = V_7;
 		if (!L_3911)
 		{
@@ -16709,8 +19864,10 @@ IL_824e:
 		int32_t L_3917 = V_361;
 		NullCheck(L_3916);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3918 = ((L_3916)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_3917, 1)))))->___underlineColor;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5234));
 		bool L_3919;
 		L_3919 = TMPro_ExtensionMethods_Compare_m1838CE0635EC60A2288FA34D81634A7F808DE370(L_3914, L_3918, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5234));
 		G_B1074_0 = ((((int32_t)L_3919) == ((int32_t)0))? 1 : 0);
 		goto IL_828c;
 	}
@@ -16723,6 +19880,7 @@ IL_828b:
 IL_828c:
 	{
 		V_444 = (bool)G_B1074_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5235));
 		bool L_3920 = V_444;
 		if (!L_3920)
 		{
@@ -16730,7 +19888,10 @@ IL_828c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5236));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5237));
 		V_7 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5238));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3921 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3921);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3922 = L_3921->___characterInfo;
@@ -16739,7 +19900,10 @@ IL_828c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3924 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3922)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3923)))->___topRight);
 		float L_3925 = L_3924->___x;
 		float L_3926 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5239));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3925, L_3926, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5240));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3927 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3927);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3928 = L_3927->___characterInfo;
@@ -16747,6 +19911,7 @@ IL_828c:
 		NullCheck(L_3928);
 		float L_3930 = ((L_3928)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3929)))->___scale;
 		V_53 = L_3930;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5241));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3931 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3932 = V_9;
 		float L_3933 = V_52;
@@ -16754,23 +19919,34 @@ IL_828c:
 		float L_3935 = V_54;
 		float L_3936 = V_51;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3937 = V_47;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5242));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_3931, L_3932, (&V_34), L_3933, L_3934, L_3935, L_3936, L_3937);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5242));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5243));
 		V_54 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5244));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5245));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_3938 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		V_55 = L_3938;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5246));
 	}
 
 IL_8316:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5247));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5248));
 		goto IL_83b1;
 	}
 
 IL_831c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5249));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5250));
 		bool L_3939 = V_7;
 		V_445 = L_3939;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5251));
 		bool L_3940 = V_445;
 		if (!L_3940)
 		{
@@ -16778,7 +19954,10 @@ IL_831c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5252));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5253));
 		V_7 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5254));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3941 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3941);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3942 = L_3941->___characterInfo;
@@ -16787,7 +19966,10 @@ IL_831c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3944 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&((L_3942)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3943, 1)))))->___topRight);
 		float L_3945 = L_3944->___x;
 		float L_3946 = V_55;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5255));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3945, L_3946, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5255));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5256));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3947 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3947);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3948 = L_3947->___characterInfo;
@@ -16795,6 +19977,7 @@ IL_831c:
 		NullCheck(L_3948);
 		float L_3950 = ((L_3948)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3949, 1)))))->___scale;
 		V_53 = L_3950;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5257));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3951 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3952 = V_9;
 		float L_3953 = V_52;
@@ -16802,20 +19985,28 @@ IL_831c:
 		float L_3955 = V_54;
 		float L_3956 = V_51;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3957 = V_47;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5258));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_3951, L_3952, (&V_34), L_3953, L_3954, L_3955, L_3956, L_3957);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5258));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5259));
 		V_54 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5260));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5261));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		float L_3958 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveFloat;
 		V_55 = L_3958;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5262));
 	}
 
 IL_83b0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5263));
 	}
 
 IL_83b1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5264));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3959 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3959);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3960 = L_3959->___characterInfo;
@@ -16823,14 +20014,19 @@ IL_83b1:
 		NullCheck(L_3960);
 		int32_t L_3962 = ((L_3960)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3961)))->___style;
 		V_370 = (bool)((((int32_t)((int32_t)((int32_t)L_3962&((int32_t)64)))) == ((int32_t)((int32_t)64)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5265));
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_3963 = V_362;
 		NullCheck(L_3963);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756* L_3964 = (FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756*)(&((TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969*)L_3963)->___m_FaceInfo);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5266));
 		float L_3965;
 		L_3965 = FaceInfo_get_strikethroughOffset_m7997E4A1512FE358331B3A6543C62C92A0AA5CA5(L_3964, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5266));
 		V_371 = L_3965;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5267));
 		bool L_3966 = V_370;
 		V_446 = L_3966;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5268));
 		bool L_3967 = V_446;
 		if (!L_3967)
 		{
@@ -16838,7 +20034,10 @@ IL_83b1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5269));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5270));
 		V_447 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5271));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3968 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3968);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3969 = L_3968->___characterInfo;
@@ -16846,6 +20045,7 @@ IL_83b1:
 		NullCheck(L_3969);
 		int32_t L_3971 = V_34;
 		((L_3969)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3970)))->___strikethroughVertexIndex = L_3971;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5272));
 		int32_t L_3972 = V_361;
 		int32_t L_3973 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxVisibleCharacters;
 		if ((((int32_t)L_3972) > ((int32_t)L_3973)))
@@ -16899,6 +20099,7 @@ IL_847d:
 IL_847e:
 	{
 		V_448 = (bool)G_B1088_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5273));
 		bool L_3982 = V_448;
 		if (!L_3982)
 		{
@@ -16906,11 +20107,13 @@ IL_847e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5274));
 		V_447 = (bool)0;
 	}
 
 IL_8493:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5275));
 		bool L_3983 = V_10;
 		bool L_3984 = V_447;
 		if (!((int32_t)(((((int32_t)L_3983) == ((int32_t)0))? 1 : 0)&(int32_t)L_3984)))
@@ -16955,6 +20158,7 @@ IL_84d7:
 IL_84d8:
 	{
 		V_449 = (bool)G_B1096_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5276));
 		bool L_3991 = V_449;
 		if (!L_3991)
 		{
@@ -16962,6 +20166,8 @@ IL_84d8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5277));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5278));
 		int32_t L_3992 = V_361;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_3993 = V_366;
 		int32_t L_3994 = L_3993.___lastVisibleCharacterIndex;
@@ -16972,9 +20178,11 @@ IL_84d8:
 	}
 	{
 		Il2CppChar L_3995 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5279));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3996;
 		L_3996 = Char_IsSeparator_m8DBA05CCFA10131140E40057E6553F7AC7397BF9(L_3995, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5279));
 		G_B1100_0 = ((int32_t)(L_3996));
 		goto IL_850b;
 	}
@@ -16987,6 +20195,7 @@ IL_850a:
 IL_850b:
 	{
 		V_450 = (bool)G_B1100_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5280));
 		bool L_3997 = V_450;
 		if (!L_3997)
 		{
@@ -16994,12 +20203,18 @@ IL_850b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5281));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5282));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5283));
 		goto IL_85ea;
 	}
 
 IL_8520:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5284));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5285));
 		V_10 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5286));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3998 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_3998);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_3999 = L_3998->___characterInfo;
@@ -17007,6 +20222,7 @@ IL_8520:
 		NullCheck(L_3999);
 		float L_4001 = ((L_3999)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4000)))->___pointSize;
 		V_57 = L_4001;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5287));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4002 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4002);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4003 = L_4002->___characterInfo;
@@ -17014,6 +20230,7 @@ IL_8520:
 		NullCheck(L_4003);
 		float L_4005 = ((L_4003)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4004)))->___scale;
 		V_58 = L_4005;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5288));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4006 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4006);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4007 = L_4006->___characterInfo;
@@ -17029,7 +20246,10 @@ IL_8520:
 		float L_4014 = ((L_4012)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4013)))->___baseLine;
 		float L_4015 = V_371;
 		float L_4016 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5289));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_11), L_4010, ((float)il2cpp_codegen_add(L_4014, ((float)il2cpp_codegen_multiply(L_4015, L_4016)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5289));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5290));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4017 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4017);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4018 = L_4017->___characterInfo;
@@ -17037,6 +20257,7 @@ IL_8520:
 		NullCheck(L_4018);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4020 = ((L_4018)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4019)))->___strikethroughColor;
 		V_48 = L_4020;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5291));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4021 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4021);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4022 = L_4021->___characterInfo;
@@ -17044,14 +20265,17 @@ IL_8520:
 		NullCheck(L_4022);
 		float L_4024 = ((L_4022)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4023)))->___baseLine;
 		V_59 = L_4024;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5292));
 	}
 
 IL_85ea:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5293));
 	}
 
 IL_85eb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5294));
 		bool L_4025 = V_10;
 		if (!L_4025)
 		{
@@ -17072,6 +20296,7 @@ IL_85fa:
 IL_85fb:
 	{
 		V_451 = (bool)G_B1107_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5295));
 		bool L_4027 = V_451;
 		if (!L_4027)
 		{
@@ -17079,7 +20304,10 @@ IL_85fb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5296));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5297));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5298));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4028 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4028);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4029 = L_4028->___characterInfo;
@@ -17095,7 +20323,10 @@ IL_85fb:
 		float L_4036 = ((L_4034)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4035)))->___baseLine;
 		float L_4037 = V_371;
 		float L_4038 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5299));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4032, ((float)il2cpp_codegen_add(L_4036, ((float)il2cpp_codegen_multiply(L_4037, L_4038)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5299));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5300));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4039 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4040 = V_12;
 		float L_4041 = V_58;
@@ -17103,12 +20334,17 @@ IL_85fb:
 		float L_4043 = V_58;
 		float L_4044 = V_50;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4045 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5301));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_4039, L_4040, (&V_34), L_4041, L_4042, L_4043, L_4044, L_4045);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5301));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5302));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5303));
 		goto IL_8a5e;
 	}
 
 IL_867b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5304));
 		bool L_4046 = V_10;
 		if (!L_4046)
 		{
@@ -17131,6 +20367,7 @@ IL_8694:
 IL_8695:
 	{
 		V_452 = (bool)G_B1112_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5305));
 		bool L_4050 = V_452;
 		if (!L_4050)
 		{
@@ -17138,6 +20375,8 @@ IL_8695:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5306));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5307));
 		bool L_4051 = V_364;
 		if (L_4051)
 		{
@@ -17158,6 +20397,7 @@ IL_86be:
 IL_86bf:
 	{
 		V_453 = (bool)G_B1116_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5308));
 		bool L_4053 = V_453;
 		if (!L_4053)
 		{
@@ -17165,9 +20405,12 @@ IL_86bf:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5309));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5310));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_4054 = V_366;
 		int32_t L_4055 = L_4054.___lastVisibleCharacterIndex;
 		V_454 = L_4055;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5311));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4056 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4056);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4057 = L_4056->___characterInfo;
@@ -17183,12 +20426,18 @@ IL_86bf:
 		float L_4064 = ((L_4062)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4063)))->___baseLine;
 		float L_4065 = V_371;
 		float L_4066 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5312));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4060, ((float)il2cpp_codegen_add(L_4064, ((float)il2cpp_codegen_multiply(L_4065, L_4066)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5312));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5313));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5314));
 		goto IL_8786;
 	}
 
 IL_8733:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5315));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5316));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4067 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4067);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4068 = L_4067->___characterInfo;
@@ -17204,12 +20453,17 @@ IL_8733:
 		float L_4075 = ((L_4073)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4074)))->___baseLine;
 		float L_4076 = V_371;
 		float L_4077 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5317));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4071, ((float)il2cpp_codegen_add(L_4075, ((float)il2cpp_codegen_multiply(L_4076, L_4077)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5317));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5318));
 	}
 
 IL_8786:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5319));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5320));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4078 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4079 = V_12;
 		float L_4080 = V_58;
@@ -17217,12 +20471,17 @@ IL_8786:
 		float L_4082 = V_58;
 		float L_4083 = V_50;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4084 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5321));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_4078, L_4079, (&V_34), L_4080, L_4081, L_4082, L_4083, L_4084);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5321));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5322));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5323));
 		goto IL_8a5e;
 	}
 
 IL_87a6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5324));
 		bool L_4085 = V_10;
 		if (!L_4085)
 		{
@@ -17260,9 +20519,11 @@ IL_87a6:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4097 = V_38;
 		float L_4098 = L_4097.___y;
 		float L_4099 = V_59;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5325));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Math_t37914ACC164B07E2FE801992D237D9FE4E4D1A52_il2cpp_TypeInfo_var);
 		bool L_4100;
 		L_4100 = TMP_Math_Approximately_m58958A2D9DB66040360C17A460E0CA35F705EA2F(((float)il2cpp_codegen_add(L_4096, L_4098)), L_4099, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5325));
 		G_B1125_0 = ((((int32_t)L_4100) == ((int32_t)0))? 1 : 0);
 		goto IL_880b;
 	}
@@ -17286,6 +20547,7 @@ IL_880d:
 IL_880e:
 	{
 		V_455 = (bool)G_B1127_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5326));
 		bool L_4101 = V_455;
 		if (!L_4101)
 		{
@@ -17293,13 +20555,18 @@ IL_880e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5327));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5328));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5329));
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_4102 = V_366;
 		int32_t L_4103 = L_4102.___lastVisibleCharacterIndex;
 		V_456 = L_4103;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5330));
 		int32_t L_4104 = V_361;
 		int32_t L_4105 = V_456;
 		V_457 = (bool)((((int32_t)L_4104) > ((int32_t)L_4105))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5331));
 		bool L_4106 = V_457;
 		if (!L_4106)
 		{
@@ -17307,6 +20574,7 @@ IL_880e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5332));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4107 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4107);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4108 = L_4107->___characterInfo;
@@ -17322,12 +20590,16 @@ IL_880e:
 		float L_4115 = ((L_4113)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4114)))->___baseLine;
 		float L_4116 = V_371;
 		float L_4117 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5333));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4111, ((float)il2cpp_codegen_add(L_4115, ((float)il2cpp_codegen_multiply(L_4116, L_4117)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5333));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5334));
 		goto IL_88f4;
 	}
 
 IL_88a3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5335));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4118 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4118);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4119 = L_4118->___characterInfo;
@@ -17343,11 +20615,14 @@ IL_88a3:
 		float L_4126 = ((L_4124)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4125)))->___baseLine;
 		float L_4127 = V_371;
 		float L_4128 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5336));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4122, ((float)il2cpp_codegen_add(L_4126, ((float)il2cpp_codegen_multiply(L_4127, L_4128)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5336));
 	}
 
 IL_88f4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5337));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4129 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4130 = V_12;
 		float L_4131 = V_58;
@@ -17355,12 +20630,17 @@ IL_88f4:
 		float L_4133 = V_58;
 		float L_4134 = V_50;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4135 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5338));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_4129, L_4130, (&V_34), L_4131, L_4132, L_4133, L_4134, L_4135);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5338));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5339));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5340));
 		goto IL_8a5e;
 	}
 
 IL_8911:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5341));
 		bool L_4136 = V_10;
 		if (!L_4136)
 		{
@@ -17377,16 +20657,20 @@ IL_8911:
 	}
 	{
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_4139 = V_362;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5342));
 		NullCheck(L_4139);
 		int32_t L_4140;
 		L_4140 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_4139, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5342));
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4141 = V_60;
 		int32_t L_4142 = V_361;
 		NullCheck(L_4141);
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_4143 = ((L_4141)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_4142, 1)))))->___fontAsset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5343));
 		NullCheck(L_4143);
 		int32_t L_4144;
 		L_4144 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_4143, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5343));
 		G_B1136_0 = ((((int32_t)((((int32_t)L_4140) == ((int32_t)L_4144))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_894f;
 	}
@@ -17399,6 +20683,7 @@ IL_894e:
 IL_894f:
 	{
 		V_458 = (bool)G_B1136_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5344));
 		bool L_4145 = V_458;
 		if (!L_4145)
 		{
@@ -17406,7 +20691,10 @@ IL_894f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5345));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5346));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5347));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4146 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4146);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4147 = L_4146->___characterInfo;
@@ -17422,7 +20710,10 @@ IL_894f:
 		float L_4154 = ((L_4152)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4153)))->___baseLine;
 		float L_4155 = V_371;
 		float L_4156 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5348));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4150, ((float)il2cpp_codegen_add(L_4154, ((float)il2cpp_codegen_multiply(L_4155, L_4156)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5348));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5349));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4157 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4158 = V_12;
 		float L_4159 = V_58;
@@ -17430,12 +20721,17 @@ IL_894f:
 		float L_4161 = V_58;
 		float L_4162 = V_50;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4163 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5350));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_4157, L_4158, (&V_34), L_4159, L_4160, L_4161, L_4162, L_4163);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5350));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5351));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5352));
 		goto IL_8a5e;
 	}
 
 IL_89cf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5353));
 		bool L_4164 = V_10;
 		if (!L_4164)
 		{
@@ -17456,6 +20752,7 @@ IL_89de:
 IL_89df:
 	{
 		V_459 = (bool)G_B1141_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5354));
 		bool L_4166 = V_459;
 		if (!L_4166)
 		{
@@ -17463,7 +20760,10 @@ IL_89df:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5355));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5356));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5357));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4167 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4167);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4168 = L_4167->___characterInfo;
@@ -17479,7 +20779,10 @@ IL_89df:
 		float L_4175 = ((L_4173)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_4174, 1)))))->___baseLine;
 		float L_4176 = V_371;
 		float L_4177 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5358));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4171, ((float)il2cpp_codegen_add(L_4175, ((float)il2cpp_codegen_multiply(L_4176, L_4177)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5358));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5359));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4178 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4179 = V_12;
 		float L_4180 = V_58;
@@ -17487,18 +20790,26 @@ IL_89df:
 		float L_4182 = V_58;
 		float L_4183 = V_50;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4184 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5360));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_4178, L_4179, (&V_34), L_4180, L_4181, L_4182, L_4183, L_4184);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5360));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5361));
 	}
 
 IL_8a5e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5362));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5363));
 		goto IL_8ae7;
 	}
 
 IL_8a64:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5364));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5365));
 		bool L_4185 = V_10;
 		V_460 = L_4185;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5366));
 		bool L_4186 = V_460;
 		if (!L_4186)
 		{
@@ -17506,7 +20817,10 @@ IL_8a64:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5367));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5368));
 		V_10 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5369));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4187 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4187);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4188 = L_4187->___characterInfo;
@@ -17522,7 +20836,10 @@ IL_8a64:
 		float L_4195 = ((L_4193)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_4194, 1)))))->___baseLine;
 		float L_4196 = V_371;
 		float L_4197 = V_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5370));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_12), L_4191, ((float)il2cpp_codegen_add(L_4195, ((float)il2cpp_codegen_multiply(L_4196, L_4197)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5370));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5371));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4198 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4199 = V_12;
 		float L_4200 = V_58;
@@ -17530,15 +20847,20 @@ IL_8a64:
 		float L_4202 = V_58;
 		float L_4203 = V_50;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4204 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5372));
 		VirtualActionInvoker8< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, float, float, float, float, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(125, __this, L_4198, L_4199, (&V_34), L_4200, L_4201, L_4202, L_4203, L_4204);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5372));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5373));
 	}
 
 IL_8ae6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5374));
 	}
 
 IL_8ae7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5375));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4205 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4205);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4206 = L_4205->___characterInfo;
@@ -17546,8 +20868,10 @@ IL_8ae7:
 		NullCheck(L_4206);
 		int32_t L_4208 = ((L_4206)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4207)))->___style;
 		V_372 = (bool)((((int32_t)((int32_t)((int32_t)L_4208&((int32_t)512)))) == ((int32_t)((int32_t)512)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5376));
 		bool L_4209 = V_372;
 		V_461 = L_4209;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5377));
 		bool L_4210 = V_461;
 		if (!L_4210)
 		{
@@ -17555,7 +20879,10 @@ IL_8ae7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5378));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5379));
 		V_462 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5380));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4211 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4211);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4212 = L_4211->___characterInfo;
@@ -17563,6 +20890,7 @@ IL_8ae7:
 		NullCheck(L_4212);
 		int32_t L_4214 = ((L_4212)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4213)))->___pageNumber;
 		V_463 = L_4214;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5381));
 		int32_t L_4215 = V_361;
 		int32_t L_4216 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_maxVisibleCharacters;
 		if ((((int32_t)L_4215) > ((int32_t)L_4216)))
@@ -17611,6 +20939,7 @@ IL_8b92:
 IL_8b93:
 	{
 		V_464 = (bool)G_B1155_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5382));
 		bool L_4222 = V_464;
 		if (!L_4222)
 		{
@@ -17618,11 +20947,13 @@ IL_8b93:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5383));
 		V_462 = (bool)0;
 	}
 
 IL_8ba8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5384));
 		bool L_4223 = V_13;
 		if (L_4223)
 		{
@@ -17673,6 +21004,7 @@ IL_8bea:
 IL_8beb:
 	{
 		V_465 = (bool)G_B1164_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5385));
 		bool L_4231 = V_465;
 		if (!L_4231)
 		{
@@ -17680,6 +21012,8 @@ IL_8beb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5387));
 		int32_t L_4232 = V_361;
 		TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 L_4233 = V_366;
 		int32_t L_4234 = L_4233.___lastVisibleCharacterIndex;
@@ -17690,9 +21024,11 @@ IL_8beb:
 	}
 	{
 		Il2CppChar L_4235 = V_363;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5388));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_4236;
 		L_4236 = Char_IsSeparator_m8DBA05CCFA10131140E40057E6553F7AC7397BF9(L_4235, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5388));
 		G_B1168_0 = ((int32_t)(L_4236));
 		goto IL_8c1b;
 	}
@@ -17705,6 +21041,7 @@ IL_8c1a:
 IL_8c1b:
 	{
 		V_466 = (bool)G_B1168_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5389));
 		bool L_4237 = V_466;
 		if (!L_4237)
 		{
@@ -17712,21 +21049,33 @@ IL_8c1b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5390));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5391));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5392));
 		goto IL_8c67;
 	}
 
 IL_8c2d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5393));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5394));
 		V_13 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5395));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4238 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveVector2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5396));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4239;
 		L_4239 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_4238, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5396));
 		V_14 = L_4239;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5397));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4240 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargeNegativeVector2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5398));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4241;
 		L_4241 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_4240, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5398));
 		V_15 = L_4241;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5399));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4242 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4242);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4243 = L_4242->___characterInfo;
@@ -17734,16 +21083,20 @@ IL_8c2d:
 		NullCheck(L_4243);
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4245 = ((L_4243)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4244)))->___highlightState;
 		V_49 = L_4245;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5400));
 	}
 
 IL_8c67:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5401));
 	}
 
 IL_8c68:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5402));
 		bool L_4246 = V_13;
 		V_467 = L_4246;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5403));
 		bool L_4247 = V_467;
 		if (!L_4247)
 		{
@@ -17751,6 +21104,8 @@ IL_8c68:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5404));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5405));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4248 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4248);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_4249 = L_4248->___characterInfo;
@@ -17759,15 +21114,21 @@ IL_8c68:
 		int32_t L_4251 = L_4250;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4252 = (L_4249)->GetAt(static_cast<il2cpp_array_size_t>(L_4251));
 		V_468 = L_4252;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5406));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4253 = V_468;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4254 = L_4253.___highlightState;
 		V_469 = L_4254;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5407));
 		V_470 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5408));
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4255 = V_49;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4256 = V_469;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5409));
 		bool L_4257;
 		L_4257 = HighlightState_op_Inequality_m98311E1C788EC5DB2E62731BA43E0AE8D73333F8(L_4255, L_4256, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5409));
 		V_471 = L_4257;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5410));
 		bool L_4258 = V_471;
 		if (!L_4258)
 		{
@@ -17775,8 +21136,11 @@ IL_8c68:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5411));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5412));
 		bool L_4259 = V_364;
 		V_472 = L_4259;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5413));
 		bool L_4260 = V_472;
 		if (!L_4260)
 		{
@@ -17784,26 +21148,33 @@ IL_8c68:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5414));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4261 = V_15;
 		float L_4262 = L_4261.___x;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4263 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5415));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4264;
 		L_4264 = TMP_Offset_get_right_m268492C5D14D1239A429A152ED04DD8790EC98C4(L_4263, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5415));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4265 = V_468;
 		float L_4266 = L_4265.___origin;
 		(&V_15)->___x = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_4262, L_4264)), L_4266))/(2.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5416));
 		goto IL_8d44;
 	}
 
 IL_8d12:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5417));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4267 = V_15;
 		float L_4268 = L_4267.___x;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4269 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5418));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4270;
 		L_4270 = TMP_Offset_get_right_m268492C5D14D1239A429A152ED04DD8790EC98C4(L_4269, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5418));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4271 = V_468;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4272 = L_4271.___bottomLeft;
 		float L_4273 = L_4272.___x;
@@ -17812,42 +21183,61 @@ IL_8d12:
 
 IL_8d44:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5419));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4274 = V_14;
 		float L_4275 = L_4274.___y;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4276 = V_468;
 		float L_4277 = L_4276.___descender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5420));
 		float L_4278;
 		L_4278 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_4275, L_4277, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5420));
 		(&V_14)->___y = L_4278;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5421));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4279 = V_15;
 		float L_4280 = L_4279.___y;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4281 = V_468;
 		float L_4282 = L_4281.___ascender;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5422));
 		float L_4283;
 		L_4283 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_4280, L_4282, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5422));
 		(&V_15)->___y = L_4283;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5423));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4284 = V_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4285 = V_15;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4286 = V_49;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4287 = L_4286.___color;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5424));
 		VirtualActionInvoker4< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(126, __this, L_4284, L_4285, (&V_34), L_4287);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5424));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5425));
 		V_13 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5426));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4288 = V_15;
 		float L_4289 = L_4288.___x;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4290 = V_468;
 		float L_4291 = L_4290.___descender;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4292 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_469)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5427));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4293;
 		L_4293 = TMP_Offset_get_bottom_m71E985879E87F76BE28A0FB0485F279866279845(L_4292, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5427));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5428));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4294;
 		memset((&L_4294), 0, sizeof(L_4294));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4294), L_4289, ((float)il2cpp_codegen_subtract(L_4291, L_4293)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5428));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5429));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4295;
 		L_4295 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_4294, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5429));
 		V_14 = L_4295;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5430));
 		bool L_4296 = V_364;
 		V_473 = L_4296;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5431));
 		bool L_4297 = V_473;
 		if (!L_4297)
 		{
@@ -17855,59 +21245,83 @@ IL_8d44:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5432));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4298 = V_468;
 		float L_4299 = L_4298.___xAdvance;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4300 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_469)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5433));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4301;
 		L_4301 = TMP_Offset_get_right_m268492C5D14D1239A429A152ED04DD8790EC98C4(L_4300, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5433));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4302 = V_468;
 		float L_4303 = L_4302.___ascender;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4304 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_469)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5434));
 		float L_4305;
 		L_4305 = TMP_Offset_get_top_m5BAE1A688A264A63524AD4C456CE88CB2086105E(L_4304, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5434));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5435));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4306;
 		memset((&L_4306), 0, sizeof(L_4306));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4306), ((float)il2cpp_codegen_add(L_4299, L_4301)), ((float)il2cpp_codegen_add(L_4303, L_4305)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5435));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5436));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4307;
 		L_4307 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_4306, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5436));
 		V_15 = L_4307;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5437));
 		goto IL_8e69;
 	}
 
 IL_8e20:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5438));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4308 = V_468;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4309 = L_4308.___topRight;
 		float L_4310 = L_4309.___x;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4311 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_469)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5439));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4312;
 		L_4312 = TMP_Offset_get_right_m268492C5D14D1239A429A152ED04DD8790EC98C4(L_4311, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5439));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4313 = V_468;
 		float L_4314 = L_4313.___ascender;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4315 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_469)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5440));
 		float L_4316;
 		L_4316 = TMP_Offset_get_top_m5BAE1A688A264A63524AD4C456CE88CB2086105E(L_4315, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5440));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5441));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4317;
 		memset((&L_4317), 0, sizeof(L_4317));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4317), ((float)il2cpp_codegen_add(L_4310, L_4312)), ((float)il2cpp_codegen_add(L_4314, L_4316)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5441));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5442));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4318;
 		L_4318 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_4317, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5442));
 		V_15 = L_4318;
 	}
 
 IL_8e69:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5443));
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4319 = V_469;
 		V_49 = L_4319;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5444));
 		V_470 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5445));
 	}
 
 IL_8e79:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5446));
 		bool L_4320 = V_470;
 		V_474 = (bool)((((int32_t)L_4320) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5447));
 		bool L_4321 = V_474;
 		if (!L_4321)
 		{
@@ -17915,8 +21329,11 @@ IL_8e79:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5448));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5449));
 		bool L_4322 = V_364;
 		V_475 = L_4322;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5450));
 		bool L_4323 = V_475;
 		if (!L_4323)
 		{
@@ -17924,88 +21341,126 @@ IL_8e79:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5451));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5452));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4324 = V_14;
 		float L_4325 = L_4324.___x;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4326 = V_468;
 		float L_4327 = L_4326.___origin;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4328 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5453));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4329;
 		L_4329 = TMP_Offset_get_left_mCDC93F42B720817E1119AA5360962F038A39E044(L_4328, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5453));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5454));
 		float L_4330;
 		L_4330 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_4325, ((float)il2cpp_codegen_subtract(L_4327, L_4329)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5454));
 		(&V_14)->___x = L_4330;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5455));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4331 = V_15;
 		float L_4332 = L_4331.___x;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4333 = V_468;
 		float L_4334 = L_4333.___xAdvance;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4335 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5456));
 		float L_4336;
 		L_4336 = TMP_Offset_get_right_m268492C5D14D1239A429A152ED04DD8790EC98C4(L_4335, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5456));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5457));
 		float L_4337;
 		L_4337 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_4332, ((float)il2cpp_codegen_add(L_4334, L_4336)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5457));
 		(&V_15)->___x = L_4337;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5458));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5459));
 		goto IL_8f64;
 	}
 
 IL_8f02:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5460));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5461));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4338 = V_14;
 		float L_4339 = L_4338.___x;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4340 = V_468;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4341 = L_4340.___bottomLeft;
 		float L_4342 = L_4341.___x;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4343 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5462));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4344;
 		L_4344 = TMP_Offset_get_left_mCDC93F42B720817E1119AA5360962F038A39E044(L_4343, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5462));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5463));
 		float L_4345;
 		L_4345 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_4339, ((float)il2cpp_codegen_subtract(L_4342, L_4344)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5463));
 		(&V_14)->___x = L_4345;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5464));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4346 = V_15;
 		float L_4347 = L_4346.___x;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4348 = V_468;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4349 = L_4348.___topRight;
 		float L_4350 = L_4349.___x;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4351 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5465));
 		float L_4352;
 		L_4352 = TMP_Offset_get_right_m268492C5D14D1239A429A152ED04DD8790EC98C4(L_4351, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5465));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5466));
 		float L_4353;
 		L_4353 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_4347, ((float)il2cpp_codegen_add(L_4350, L_4352)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5466));
 		(&V_15)->___x = L_4353;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5467));
 	}
 
 IL_8f64:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5468));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4354 = V_14;
 		float L_4355 = L_4354.___y;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4356 = V_468;
 		float L_4357 = L_4356.___descender;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4358 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5469));
 		il2cpp_codegen_runtime_class_init_inline(TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_il2cpp_TypeInfo_var);
 		float L_4359;
 		L_4359 = TMP_Offset_get_bottom_m71E985879E87F76BE28A0FB0485F279866279845(L_4358, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5469));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5470));
 		float L_4360;
 		L_4360 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_4355, ((float)il2cpp_codegen_subtract(L_4357, L_4359)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5470));
 		(&V_14)->___y = L_4360;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5471));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4361 = V_15;
 		float L_4362 = L_4361.___y;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4363 = V_468;
 		float L_4364 = L_4363.___ascender;
 		TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6* L_4365 = (TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6*)(&(&V_49)->___padding);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5472));
 		float L_4366;
 		L_4366 = TMP_Offset_get_top_m5BAE1A688A264A63524AD4C456CE88CB2086105E(L_4365, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5472));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5473));
 		float L_4367;
 		L_4367 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_4362, ((float)il2cpp_codegen_add(L_4364, L_4366)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5473));
 		(&V_15)->___y = L_4367;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5474));
 	}
 
 IL_8fbb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5475));
 	}
 
 IL_8fbc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5476));
 		bool L_4368 = V_13;
 		if (!L_4368)
 		{
@@ -18026,6 +21481,7 @@ IL_8fcb:
 IL_8fcc:
 	{
 		V_476 = (bool)G_B1190_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5477));
 		bool L_4370 = V_476;
 		if (!L_4370)
 		{
@@ -18033,17 +21489,25 @@ IL_8fcc:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5478));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5479));
 		V_13 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5480));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4371 = V_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4372 = V_15;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4373 = V_49;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4374 = L_4373.___color;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5481));
 		VirtualActionInvoker4< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(126, __this, L_4371, L_4372, (&V_34), L_4374);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5481));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5482));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5483));
 		goto IL_908b;
 	}
 
 IL_8ff8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5484));
 		bool L_4375 = V_13;
 		if (!L_4375)
 		{
@@ -18086,6 +21550,7 @@ IL_902a:
 IL_902b:
 	{
 		V_477 = (bool)G_B1198_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5485));
 		bool L_4382 = V_477;
 		if (!L_4382)
 		{
@@ -18093,17 +21558,25 @@ IL_902b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5486));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5487));
 		V_13 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5488));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4383 = V_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4384 = V_15;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4385 = V_49;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4386 = L_4385.___color;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5489));
 		VirtualActionInvoker4< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(126, __this, L_4383, L_4384, (&V_34), L_4386);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5489));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5490));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5491));
 		goto IL_908b;
 	}
 
 IL_9054:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5492));
 		bool L_4387 = V_13;
 		if (!L_4387)
 		{
@@ -18124,6 +21597,7 @@ IL_9063:
 IL_9064:
 	{
 		V_478 = (bool)G_B1203_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5493));
 		bool L_4389 = V_478;
 		if (!L_4389)
 		{
@@ -18131,23 +21605,34 @@ IL_9064:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5494));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5495));
 		V_13 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5496));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4390 = V_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4391 = V_15;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4392 = V_49;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4393 = L_4392.___color;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5497));
 		VirtualActionInvoker4< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(126, __this, L_4390, L_4391, (&V_34), L_4393);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5497));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5498));
 	}
 
 IL_908b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5499));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5500));
 		goto IL_90b9;
 	}
 
 IL_908e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5501));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5502));
 		bool L_4394 = V_13;
 		V_479 = L_4394;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5503));
 		bool L_4395 = V_479;
 		if (!L_4395)
 		{
@@ -18155,22 +21640,32 @@ IL_908e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5504));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5505));
 		V_13 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5506));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4396 = V_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4397 = V_15;
 		HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B L_4398 = V_49;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4399 = L_4398.___color;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5507));
 		VirtualActionInvoker4< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t*, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(126, __this, L_4396, L_4397, (&V_34), L_4399);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5507));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5508));
 	}
 
 IL_90b8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5509));
 	}
 
 IL_90b9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5510));
 		int32_t L_4400 = V_365;
 		V_41 = L_4400;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5511));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5512));
 		int32_t L_4401 = V_361;
 		V_62 = L_4401;
 		int32_t L_4402 = V_62;
@@ -18179,9 +21674,11 @@ IL_90b9:
 
 IL_90d4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5513));
 		int32_t L_4403 = V_361;
 		int32_t L_4404 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		V_480 = (bool)((((int32_t)L_4403) < ((int32_t)L_4404))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5514));
 		bool L_4405 = V_480;
 		if (L_4405)
 		{
@@ -18189,6 +21686,7 @@ IL_90d4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5515));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4406 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4406);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4407 = L_4406->___meshInfo;
@@ -18197,18 +21695,22 @@ IL_90d4:
 		NullCheck(L_4407);
 		int32_t L_4410 = V_34;
 		((L_4407)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4409)))->___vertexCount = L_4410;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5516));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4411 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		int32_t L_4412 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_characterCount;
 		NullCheck(L_4411);
 		L_4411->___characterCount = L_4412;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5517));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4413 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		int32_t L_4414 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_spriteCount;
 		NullCheck(L_4413);
 		L_4413->___spriteCount = L_4414;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5518));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4415 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		int32_t L_4416 = V_40;
 		NullCheck(L_4415);
 		L_4415->___lineCount = L_4416;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5519));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4417 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		int32_t L_4418 = V_39;
 		if (!L_4418)
@@ -18246,13 +21748,21 @@ IL_915c:
 	{
 		NullCheck(G_B1215_1);
 		G_B1215_1->___wordCount = G_B1215_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5520));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4421 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		int32_t L_4422 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_pageNumber;
 		NullCheck(L_4421);
 		L_4421->___pageCount = ((int32_t)il2cpp_codegen_add(L_4422, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5521));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5522));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5522));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5523));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5524));
 		ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIIIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5524));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5525));
 		int32_t L_4423 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_renderMode;
 		if ((!(((uint32_t)L_4423) == ((uint32_t)((int32_t)255)))))
 		{
@@ -18260,8 +21770,10 @@ IL_915c:
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5526));
 		bool L_4424;
 		L_4424 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5526));
 		G_B1218_0 = ((int32_t)(L_4424));
 		goto IL_91a0;
 	}
@@ -18274,6 +21786,7 @@ IL_919f:
 IL_91a0:
 	{
 		V_481 = (bool)G_B1218_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5527));
 		bool L_4425 = V_481;
 		if (!L_4425)
 		{
@@ -18281,6 +21794,8 @@ IL_91a0:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5528));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5529));
 		Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* L_4426 = __this->___OnPreRenderText;
 		Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* L_4427 = L_4426;
 		if (L_4427)
@@ -18297,14 +21812,18 @@ IL_91a0:
 IL_91be:
 	{
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4428 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5530));
 		NullCheck(G_B1221_0);
 		Action_1_Invoke_m23E35D357FFC28AE710752BA2B3BC010B191D890_inline(G_B1221_0, L_4428, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5530));
 	}
 
 IL_91ca:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5531));
 		int32_t L_4429 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_geometrySortingOrder;
 		V_482 = (bool)((!(((uint32_t)L_4429) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5532));
 		bool L_4430 = V_482;
 		if (!L_4430)
 		{
@@ -18312,76 +21831,107 @@ IL_91ca:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5533));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4431 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4431);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4432 = L_4431->___meshInfo;
 		NullCheck(L_4432);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5534));
 		il2cpp_codegen_runtime_class_init_inline(TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		TMP_MeshInfo_SortGeometry_m28C6E9A947C7352F16910BAE2F744087720DBECA(((L_4432)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5534));
 	}
 
 IL_91f9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5535));
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4433 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_mesh;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5536));
 		NullCheck(L_4433);
 		Mesh_MarkDynamic_m718089940F240AFE625D6DC9DA4E6F20229CC322(L_4433, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5536));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5537));
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4434 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_mesh;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4435 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4435);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4436 = L_4435->___meshInfo;
 		NullCheck(L_4436);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4437 = ((L_4436)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___vertices;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5538));
 		NullCheck(L_4434);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_4434, L_4437, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5538));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5539));
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4438 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_mesh;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4439 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4439);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4440 = L_4439->___meshInfo;
 		NullCheck(L_4440);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_4441 = ((L_4440)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___uvs0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5540));
 		NullCheck(L_4438);
 		Mesh_SetUVs_mDFA98E5557AB6585FE0F8AB5C9286D1C69A53324(L_4438, 0, L_4441, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5540));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5541));
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4442 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_mesh;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4443 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4443);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4444 = L_4443->___meshInfo;
 		NullCheck(L_4444);
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_4445 = ((L_4444)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___uvs2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5542));
 		NullCheck(L_4442);
 		Mesh_set_uv2_m37B442C04EBB029C0AD9545C54F95D9BDAD8E9B5(L_4442, L_4445, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5542));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5543));
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4446 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_mesh;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4447 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4447);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4448 = L_4447->___meshInfo;
 		NullCheck(L_4448);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_4449 = ((L_4448)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___colors32;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5544));
 		NullCheck(L_4446);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_4446, L_4449, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5544));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5545));
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4450 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_mesh;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5546));
 		NullCheck(L_4450);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_4450, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5546));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5547));
 		V_483 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5548));
 		goto IL_9415;
 	}
 
 IL_92a6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5549));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5550));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4451 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4451);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4452 = L_4451->___meshInfo;
 		int32_t L_4453 = V_483;
 		NullCheck(L_4452);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5551));
 		il2cpp_codegen_runtime_class_init_inline(TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		TMP_MeshInfo_ClearUnusedVertices_mF5DC41BB72A19486A4079208D13472DD0BDE2CD9(((L_4452)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4453))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5551));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5552));
 		TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* L_4454 = __this->___m_subTextObjects;
 		int32_t L_4455 = V_483;
 		NullCheck(L_4454);
 		int32_t L_4456 = L_4455;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_4457 = (L_4454)->GetAt(static_cast<il2cpp_array_size_t>(L_4456));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5553));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4458;
 		L_4458 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4457, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5553));
 		V_484 = L_4458;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5554));
 		bool L_4459 = V_484;
 		if (!L_4459)
 		{
@@ -18389,13 +21939,16 @@ IL_92a6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5555));
 		goto IL_9403;
 	}
 
 IL_92e9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5556));
 		int32_t L_4460 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_geometrySortingOrder;
 		V_485 = (bool)((!(((uint32_t)L_4460) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5557));
 		bool L_4461 = V_485;
 		if (!L_4461)
 		{
@@ -18403,95 +21956,125 @@ IL_92e9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5558));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4462 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4462);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4463 = L_4462->___meshInfo;
 		int32_t L_4464 = V_483;
 		NullCheck(L_4463);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5559));
 		il2cpp_codegen_runtime_class_init_inline(TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		TMP_MeshInfo_SortGeometry_m28C6E9A947C7352F16910BAE2F744087720DBECA(((L_4463)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4464))), 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5559));
 	}
 
 IL_931d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5560));
 		TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* L_4465 = __this->___m_subTextObjects;
 		int32_t L_4466 = V_483;
 		NullCheck(L_4465);
 		int32_t L_4467 = L_4466;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_4468 = (L_4465)->GetAt(static_cast<il2cpp_array_size_t>(L_4467));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5561));
 		NullCheck(L_4468);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4469;
 		L_4469 = TMP_SubMesh_get_mesh_m9AF8E94AA6D6A9B47B76EE0B88A75BCECE8F43EB(L_4468, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5561));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4470 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4470);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4471 = L_4470->___meshInfo;
 		int32_t L_4472 = V_483;
 		NullCheck(L_4471);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4473 = ((L_4471)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4472)))->___vertices;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5562));
 		NullCheck(L_4469);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_4469, L_4473, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5562));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5563));
 		TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* L_4474 = __this->___m_subTextObjects;
 		int32_t L_4475 = V_483;
 		NullCheck(L_4474);
 		int32_t L_4476 = L_4475;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_4477 = (L_4474)->GetAt(static_cast<il2cpp_array_size_t>(L_4476));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5564));
 		NullCheck(L_4477);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4478;
 		L_4478 = TMP_SubMesh_get_mesh_m9AF8E94AA6D6A9B47B76EE0B88A75BCECE8F43EB(L_4477, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5564));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4479 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4479);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4480 = L_4479->___meshInfo;
 		int32_t L_4481 = V_483;
 		NullCheck(L_4480);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_4482 = ((L_4480)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4481)))->___uvs0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5565));
 		NullCheck(L_4478);
 		Mesh_SetUVs_mDFA98E5557AB6585FE0F8AB5C9286D1C69A53324(L_4478, 0, L_4482, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5565));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5566));
 		TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* L_4483 = __this->___m_subTextObjects;
 		int32_t L_4484 = V_483;
 		NullCheck(L_4483);
 		int32_t L_4485 = L_4484;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_4486 = (L_4483)->GetAt(static_cast<il2cpp_array_size_t>(L_4485));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5567));
 		NullCheck(L_4486);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4487;
 		L_4487 = TMP_SubMesh_get_mesh_m9AF8E94AA6D6A9B47B76EE0B88A75BCECE8F43EB(L_4486, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5567));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4488 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4488);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4489 = L_4488->___meshInfo;
 		int32_t L_4490 = V_483;
 		NullCheck(L_4489);
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_4491 = ((L_4489)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4490)))->___uvs2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5568));
 		NullCheck(L_4487);
 		Mesh_set_uv2_m37B442C04EBB029C0AD9545C54F95D9BDAD8E9B5(L_4487, L_4491, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5568));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5569));
 		TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* L_4492 = __this->___m_subTextObjects;
 		int32_t L_4493 = V_483;
 		NullCheck(L_4492);
 		int32_t L_4494 = L_4493;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_4495 = (L_4492)->GetAt(static_cast<il2cpp_array_size_t>(L_4494));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5570));
 		NullCheck(L_4495);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4496;
 		L_4496 = TMP_SubMesh_get_mesh_m9AF8E94AA6D6A9B47B76EE0B88A75BCECE8F43EB(L_4495, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5570));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4497 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4497);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_4498 = L_4497->___meshInfo;
 		int32_t L_4499 = V_483;
 		NullCheck(L_4498);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_4500 = ((L_4498)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4499)))->___colors32;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5571));
 		NullCheck(L_4496);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_4496, L_4500, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5571));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5572));
 		TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* L_4501 = __this->___m_subTextObjects;
 		int32_t L_4502 = V_483;
 		NullCheck(L_4501);
 		int32_t L_4503 = L_4502;
 		TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214* L_4504 = (L_4501)->GetAt(static_cast<il2cpp_array_size_t>(L_4503));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5573));
 		NullCheck(L_4504);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4505;
 		L_4505 = TMP_SubMesh_get_mesh_m9AF8E94AA6D6A9B47B76EE0B88A75BCECE8F43EB(L_4504, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5573));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5574));
 		NullCheck(L_4505);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_4505, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5574));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5575));
 	}
 
 IL_9403:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5576));
 		int32_t L_4506 = V_483;
 		V_62 = L_4506;
 		int32_t L_4507 = V_62;
@@ -18500,11 +22083,13 @@ IL_9403:
 
 IL_9415:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5577));
 		int32_t L_4508 = V_483;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4509 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo;
 		NullCheck(L_4509);
 		int32_t L_4510 = L_4509->___materialCount;
 		V_486 = (bool)((((int32_t)L_4508) < ((int32_t)L_4510))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5578));
 		bool L_4511 = V_486;
 		if (L_4511)
 		{
@@ -18512,19 +22097,30 @@ IL_9415:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5579));
 	}
 
 IL_943a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5580));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5581));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		TMPro_EventManager_ON_TEXT_CHANGED_mC933ED67F225E90E2F7B5F0D176D62D3A560BFAE(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5581));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5582));
 		il2cpp_codegen_runtime_class_init_inline(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5583));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextPhaseIIIMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5583));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5584));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5585));
 		ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline((&((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields*)il2cpp_codegen_static_fields_for(TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var))->___k_GenerateTextMarker), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5585));
 	}
 
 IL_9457:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_TextMeshPro + 5586));
 		return;
 	}
 }
@@ -18533,17 +22129,49 @@ IL_9457:
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ProfilerMarker_Begin_mD07DB736ADA7D8BAF9D969CC7F3C55848A218C6E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 482));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 483));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 484));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 485));
 		intptr_t L_0 = __this->___m_Ptr;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 486));
 		ProfilerUnsafeUtility_BeginSample_mB5106F4E7ECEF54906545665ED23928D14F5FCA7(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 486));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 487));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ProfilerMarker_End_m025AE3EF0F96F6DADC53489A53FC6EE65073DE60_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 488));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 489));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 490));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 491));
 		intptr_t L_0 = __this->___m_Ptr;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 492));
 		ProfilerUnsafeUtility_EndSample_mFDB4EFB160A9CB817D2F8ED21B88693616B27409(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 492));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 493));
 		return;
 	}
 }
@@ -18552,12 +22180,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7662));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7663));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7664));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7665));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
 		V_0 = L_0;
 		goto IL_0009;
@@ -18565,48 +22200,81 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7666));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_c));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7037));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7038));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7039));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7040));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_c;
 		float L_1 = L_0.___r;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7041));
 		float L_2;
 		L_2 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7041));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7042));
 		float L_3;
 		L_3 = bankers_roundf(((float)il2cpp_codegen_multiply(L_2, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7042));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_c;
 		float L_5 = L_4.___g;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7043));
 		float L_6;
 		L_6 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7043));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7044));
 		float L_7;
 		L_7 = bankers_roundf(((float)il2cpp_codegen_multiply(L_6, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7044));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ___0_c;
 		float L_9 = L_8.___b;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7045));
 		float L_10;
 		L_10 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7045));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7046));
 		float L_11;
 		L_11 = bankers_roundf(((float)il2cpp_codegen_multiply(L_10, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7046));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ___0_c;
 		float L_13 = L_12.___a;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7047));
 		float L_14;
 		L_14 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7047));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7048));
 		float L_15;
 		L_15 = bankers_roundf(((float)il2cpp_codegen_multiply(L_14, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7048));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7049));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_16), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_3), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_7), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_11), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_15), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7049));
 		V_0 = L_16;
 		goto IL_0065;
 	}
 
 IL_0065:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7050));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_17 = V_0;
 		return L_17;
 	}
@@ -18616,12 +22284,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7667));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7668));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7669));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7670));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
 		V_0 = L_0;
 		goto IL_0009;
@@ -18629,6 +22304,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7671));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
@@ -18638,12 +22314,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7814));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7815));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7816));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7817));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
 		V_0 = L_0;
 		goto IL_0009;
@@ -18651,19 +22334,33 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7818));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t V_2 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value), (&___1_min), (&___2_max));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8127));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8128));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8129));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8130));
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = ___1_min;
 		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8131));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -18671,16 +22368,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8132));
 		int32_t L_3 = ___1_min;
 		___0_value = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8133));
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8134));
 		int32_t L_4 = ___0_value;
 		int32_t L_5 = ___2_max;
 		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8135));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -18688,12 +22389,14 @@ IL_000e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8136));
 		int32_t L_7 = ___2_max;
 		___0_value = L_7;
 	}
 
 IL_0019:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8137));
 		int32_t L_8 = ___0_value;
 		V_2 = L_8;
 		goto IL_001d;
@@ -18701,27 +22404,58 @@ IL_0019:
 
 IL_001d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8138));
 		int32_t L_9 = V_2;
 		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7562));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7563));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7564));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7565));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7566));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7567));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7568));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7702));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7703));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7704));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7705));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
@@ -18734,42 +22468,73 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7706));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7706));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7707));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7857));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7858));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7859));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7860));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_rhs;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7861));
 		bool L_2;
 		L_2 = Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_inline(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7861));
 		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		goto IL_000e;
 	}
 
 IL_000e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7862));
 		bool L_3 = V_0;
 		return L_3;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7732));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7733));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7734));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7735));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
@@ -18779,24 +22544,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
 		float L_7 = L_6.___z;
 		float L_8 = ___1_d;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7736));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7736));
 		V_0 = L_9;
 		goto IL_0021;
 	}
 
 IL_0021:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7737));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		return L_10;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7708));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7709));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7710));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7711));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
@@ -18809,24 +22590,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7712));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7712));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7713));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8046));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8047));
 	float G_B3_0 = 0.0f;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8048));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8049));
 		float L_0 = ___0_a;
 		float L_1 = ___1_b;
 		if ((((float)L_0) > ((float)L_1)))
@@ -18854,15 +22650,28 @@ IL_0009:
 
 IL_000c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8050));
 		float L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8036));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8037));
 	float G_B3_0 = 0.0f;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8038));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8039));
 		float L_0 = ___0_a;
 		float L_1 = ___1_b;
 		if ((((float)L_0) < ((float)L_1)))
@@ -18890,71 +22699,138 @@ IL_0009:
 
 IL_000c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8040));
 		float L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8346));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8347));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8348));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8349));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8350));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8351));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6976));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6977));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6978));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6979));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6980));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6980));
 		V_0 = L_0;
 		goto IL_001d;
 	}
 
 IL_001d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6981));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___0_r, uint8_t ___1_g, uint8_t ___2_b, uint8_t ___3_a, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_r), (&___1_g), (&___2_b), (&___3_a));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7028));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7029));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7030));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7031));
 		__this->___rgba = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7032));
 		uint8_t L_0 = ___0_r;
 		__this->___r = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7033));
 		uint8_t L_1 = ___1_g;
 		__this->___g = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7034));
 		uint8_t L_2 = ___2_b;
 		__this->___b = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7035));
 		uint8_t L_3 = ___3_a;
 		__this->___a = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7036));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_v));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8537));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8538));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8539));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8540));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
 		float L_3 = L_2.___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8541));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), L_1, L_3, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8541));
 		V_0 = L_4;
 		goto IL_001a;
 	}
 
 IL_001a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8542));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		return L_5;
 	}
@@ -18966,12 +22842,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	float V_1 = 0.0f;
 	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8139));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8140));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8141));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8142));
 		float L_0 = ___0_value;
 		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8143));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -18979,14 +22868,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA83
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8144));
 		V_1 = (0.0f);
 		goto IL_002d;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8145));
 		float L_2 = ___0_value;
 		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8146));
 		bool L_3 = V_2;
 		if (!L_3)
 		{
@@ -18994,12 +22886,14 @@ IL_0015:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8147));
 		V_1 = (1.0f);
 		goto IL_002d;
 	}
 
 IL_0029:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8148));
 		float L_4 = ___0_value;
 		V_1 = L_4;
 		goto IL_002d;
@@ -19007,48 +22901,96 @@ IL_0029:
 
 IL_002d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8149));
 		float L_5 = V_1;
 		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7850));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7851));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7852));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7853));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_rhs;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7854));
 		float L_2;
 		L_2 = Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7854));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7855));
 		bool L_3;
 		L_3 = Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7855));
 		V_0 = L_3;
 		goto IL_0010;
 	}
 
 IL_0010:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7856));
 		bool L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_r), (&___1_g), (&___2_b), (&___3_a));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6846));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6847));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6848));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6849));
 		float L_0 = ___0_r;
 		__this->___r = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6850));
 		float L_1 = ___1_g;
 		__this->___g = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6851));
 		float L_2 = ___2_b;
 		__this->___b = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6852));
 		float L_3 = ___3_a;
 		__this->___a = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6853));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
 {
-	float V_0 = 0.0f;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7863));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7864));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7865));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7866));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_b;
@@ -19071,14 +23013,27 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940
 
 IL_003b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7867));
 		float L_16 = V_0;
 		return L_16;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_dot));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7845));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7846));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7847));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7848));
 		float L_0 = ___0_dot;
 		V_0 = (bool)((((float)L_0) > ((float)(0.999998987f)))? 1 : 0);
 		goto IL_000c;
@@ -19086,6 +23041,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m
 
 IL_000c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7849));
 		bool L_1 = V_0;
 		return L_1;
 	}

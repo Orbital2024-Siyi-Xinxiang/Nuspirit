@@ -29,7 +29,7 @@ struct URLHandler: View {
     }
 
     func handleURL(_ url: URL) {
-        guard url.scheme == "unityApp" else {
+        guard url.scheme == "swiftUIApp" else {
             print("Invalid URL scheme")
             return
         }
@@ -43,7 +43,7 @@ struct URLHandler: View {
         }
         
         let payload = components[1]
-        let parts = payload.components(separatedBy: "|")
+        let parts = payload.components(separatedBy: "/")
         
         guard parts.count >= 3 else {
             print("Incomplete URL parts")
@@ -53,7 +53,7 @@ struct URLHandler: View {
         userId = parts[0]
         currentView = parts[1]
         action = parts[2]
-        otherInfo = parts.dropFirst(3).joined(separator: "|")
+        otherInfo = parts[-1]
         
         // Perform any additional setup based on parsed URL
         performActionBasedOnURL()
@@ -65,43 +65,29 @@ struct URLHandler: View {
         print("UserId: \(userId)")
         print("Navigating to \(currentView) with action: \(action) and info: \(otherInfo)")
         // Perform additional actions if needed
+        
+        if (currentView == "MainMapView") {
+            if (action == "unsubscribe") {
+                // TODO: unsubscrive from venue with id {otherInfo}
+                // TODO: delete previous unsubscription logic
+            }
+            
+        }
     }
 
     @ViewBuilder
     func navigateToView() -> some View {
         switch currentView {
-        case "HomeView":
-            HomeView(action: action, otherInfo: otherInfo)
-        case "ProfileView":
-            ProfileView(action: action, otherInfo: otherInfo)
+        case "MainMapView":
+            MainMapView(showSettingsOverlay: Binding.constant(true))
+        case "LandingView":
+            LandingView()
+//        case "ProfileView":
+//            ProfileView(action: action, otherInfo: otherInfo)
+//        default:
+//            Text("Unknown view: \(currentView)")
         default:
-            Text("Unknown view: \(currentView)")
-        }
-    }
-}
-
-struct HomeView: View {
-    let action: String
-    let otherInfo: String
-    
-    var body: some View {
-        VStack {
-            Text("Home View")
-            Text("Action: \(action)")
-            Text("Other Info: \(otherInfo)")
-        }
-    }
-}
-
-struct ProfileView: View {
-    let action: String
-    let otherInfo: String
-    
-    var body: some View {
-        VStack {
-            Text("Profile View")
-            Text("Action: \(action)")
-            Text("Other Info: \(otherInfo)")
+            LandingView()
         }
     }
 }

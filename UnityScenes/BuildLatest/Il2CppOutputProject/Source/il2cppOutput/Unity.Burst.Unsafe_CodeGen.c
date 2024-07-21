@@ -16,7 +16,7 @@ static Il2CppMethodPointer s_methodPointers[2] =
 static const int32_t s_InvokerIndices[2] = 
 {
 	-1,
-	7465,
+	7476,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -27,6 +27,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[1] =
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_tD3468B6794620312ED0506E36D2969131D852330 },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Burst_Unsafe;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule = 
 {
@@ -42,7 +43,7 @@ const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule =
 	s_rgctxIndices,
 	1,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnity_Burst_Unsafe,
 	NULL,
 	NULL,
 	NULL,

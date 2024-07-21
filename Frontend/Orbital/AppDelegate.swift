@@ -106,16 +106,17 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
             return true
         }
         
-        if url.scheme == "unityApp" {
-            // Open the URL if the device can handle it
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            } else {
-                print("Cannot open url of app 'unityApp'")
+        // Handle the URL here
+        if url.scheme == "swiftUIApp" {
+            // Extract the path and other components from the URL
+            let path = url.host // Should be "LandingView"
+            // Navigate to the appropriate view based on the path or other components
+            if path == "LandingView" {
+                // Notify your SwiftUI view to navigate to LandingView
+                NotificationCenter.default.post(name: Notification.Name("NavigateToLandingView"), object: nil)
             }
             return true
         }
-        
         return false
     }
     

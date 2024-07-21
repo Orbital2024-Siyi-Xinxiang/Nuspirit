@@ -8,9 +8,6 @@
       location = "group:UnityScenes/BuildLatest/Unity-iPhone.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:UnityScenes/iosBuild/Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "container:Frontend/Orbital.xcodeproj">
    </FileRef>
 </Workspace>

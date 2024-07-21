@@ -262,22 +262,24 @@ CGRect ComputeSafeArea(UIView* view)
     CGRect screenRect = CGRectMake(0, 0, screenSize.width, screenSize.height);
 
     UIEdgeInsets insets = [view safeAreaInsets];
-    float insetLeft = insets.left, insetBottom = insets.bottom;
-    float insetWidth = insetLeft + insets.right, insetHeight = insetBottom + insets.top;
+    float insetLeft = insets.left, insetBottom = insets.bottom, insetTop = insets.top;
+    float insetHeight = insetBottom + insetTop; 
+    float insetWidth = insetLeft + insets.right;
 
 #if PLATFORM_IOS && !PLATFORM_VISIONOS
     // pre-iOS 15 there is a bug with safeAreaInsets when coupled with the way unity handles forced orientation
     // when we create/show new ViewController with fixed orientation, safeAreaInsets include status bar always
     // alas, we did not find a good way to work around that (this can be seen even in View Debugging: Safe Area would have status bar accounted for)
     // we know for sure that status bar height is 20 (at least on ios16 or older), so we can check if the safe area
-    //   includes inset of this size while status bar should be hidden, resetting vertical insets in this case
+    //   includes inset of this size while status bar should be hidden in that case we reset top inset and keep 
+    //   bottom one (might include home button swipe line,etc.).
     if (@available(iOS 15, *))
     {
         // everything works as expected
     }
-    else if (view.window.windowScene.statusBarManager.statusBarHidden && fabsf(insetHeight - 20) < 1e-6f)
+    else if (view.window.windowScene.statusBarManager.statusBarHidden && fabsf(insetTop - 20) < 1e-6f)
     {
-        insetHeight = insetBottom = 0.0f;
+        insetHeight -= insetTop;
     }
 #endif
 

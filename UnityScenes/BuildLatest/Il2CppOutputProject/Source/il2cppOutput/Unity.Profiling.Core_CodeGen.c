@@ -19,8 +19,8 @@ static Il2CppMethodPointer s_methodPointers[5] =
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	7465,
-	7465,
+	7476,
+	7476,
 	-1,
 	-1,
 	-1,
@@ -47,6 +47,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[7] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_tDA32178308BC5AD8C510E7412918793B12D093E5 },
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t1CDECE2708A360FFD06302D16DA301344EAA4938 },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Profiling_Core;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule = 
 {
@@ -62,7 +63,7 @@ const Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule =
 	s_rgctxIndices,
 	7,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnity_Profiling_Core,
 	NULL,
 	NULL,
 	NULL,

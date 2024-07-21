@@ -93,7 +93,8 @@ void    UnitySetLogEntryHandler(LogEntryHandler newHandler);
 // WARNING: old UnityRegisterRenderingPlugin will become obsolete soon
 void    UnityRegisterRenderingPlugin(UnityPluginSetGraphicsDeviceFunc setDevice, UnityPluginRenderMarkerFunc renderMarker);
 
-void    UnityRegisterRenderingPluginV5(UnityPluginLoadFunc loadPlugin, UnityPluginUnloadFunc unloadPlugin);
+void    UnityRegisterRenderingPluginV5(UnityPluginLoadFunc loadPlugin, UnityPluginUnloadFunc unloadPlugin) __attribute__((deprecated("Renamed to UnityRegisterPlugin", "UnityRegisterPlugin")));
+void    UnityRegisterPlugin(UnityPluginLoadFunc loadPlugin, UnityPluginUnloadFunc unloadPlugin);
 void    UnityRegisterAudioPlugin(UnityPluginGetAudioEffectDefinitionsFunc getAudioEffectDefinitions);
 
 

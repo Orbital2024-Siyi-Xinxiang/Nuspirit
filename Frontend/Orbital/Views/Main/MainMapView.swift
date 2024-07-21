@@ -35,7 +35,6 @@ struct MainMapView: View {
                             }
                         }
                         .padding()
-
                         NavigationLink(destination: MyIslandView()) {
                                 VStack {
                                     Image(systemName: "leaf.arrow.circlepath")

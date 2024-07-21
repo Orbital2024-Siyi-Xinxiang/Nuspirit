@@ -89,46 +89,46 @@ static Il2CppMethodPointer s_methodPointers[44] =
 };
 static const int32_t s_InvokerIndices[44] = 
 {
-	5835,
-	7465,
-	9754,
-	10235,
-	7335,
-	7465,
-	10286,
-	9750,
+	5844,
+	7476,
+	9769,
+	10250,
+	7346,
+	7476,
+	10301,
+	9765,
 	-1,
-	7465,
-	7335,
-	7465,
-	10483,
-	10772,
-	10772,
-	9754,
-	10772,
-	10772,
-	10772,
-	10106,
-	9754,
-	10772,
-	10483,
+	7476,
+	7346,
+	7476,
+	10497,
+	10787,
+	10787,
+	9769,
+	10787,
+	10787,
+	10787,
+	10121,
+	9769,
+	10787,
+	10497,
 	-1,
-	10483,
-	10772,
-	10473,
-	7335,
-	7465,
+	10497,
+	10787,
+	10487,
+	7346,
+	7476,
 	-1,
 	-1,
 	-1,
-	7465,
+	7476,
 	-1,
-	7465,
+	7476,
 	-1,
-	7211,
-	5712,
-	7335,
-	7465,
+	7222,
+	5721,
+	7346,
+	7476,
 	-1,
 	-1,
 	-1,
@@ -136,8 +136,8 @@ static const int32_t s_InvokerIndices[44] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x02000012, { 9, 6 } },
-	{ 0x06000018, { 0, 9 } },
+	{ 0x02000012, { 10, 6 } },
+	{ 0x06000018, { 0, 10 } },
 };
 extern const uint32_t g_rgctx_List_1_t4FD62234F80546ED54378254D3B222948841B4AF;
 extern const uint32_t g_rgctx_List_1_get_Item_m3935F8C510B45D47FD1F8DFEEE467CE30B145BF4;
@@ -148,13 +148,14 @@ extern const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_tD5C1BF59BFFF7F69AC9
 extern const uint32_t g_rgctx_List_1_set_Item_m58B49CD878D3DC099EB422A63AB014DF5B1CAE06;
 extern const uint32_t g_rgctx_List_1_get_Count_mC3BAEE88ADF85DEC0CA10B97B3E7F42183A8AFBB;
 extern const uint32_t g_rgctx_List_1_Add_m99E6BCF557EB89898061B9B8761AA6D402DD2592;
+extern const uint32_t g_rgctx_TBaseTypeInList_t7042BCACE0A8A2A88132E86C1016AB2EA0E01C54;
 extern const uint32_t g_rgctx_SubsystemWithProvider_3_t22ADF9793EA3BE343C3D4A23FFBBCD4160380E74;
 extern const uint32_t g_rgctx_TProvider_t1AC2F7520C38FC65F96522C997CFF0CCB5951109;
 extern const uint32_t g_rgctx_SubsystemWithProvider_3_get_provider_m8441E6EFF377241FF571B1445B2D4D602A8A6EBE;
 extern const uint32_t g_rgctx_SubsystemProvider_1_tAC31BED92DB2621C801F0EB0556F5A0FD7A2F2E6;
 extern const uint32_t g_rgctx_SubsystemProvider_1_Stop_m07C601F197FC2962E30F31F26353A9DDCD56EE33;
 extern const uint32_t g_rgctx_SubsystemProvider_1_Destroy_m763418CCA180781E54401C8224963B9F4F73BA7B;
-static const Il2CppRGCTXDefinition s_rgctxValues[15] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[16] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t4FD62234F80546ED54378254D3B222948841B4AF },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Item_m3935F8C510B45D47FD1F8DFEEE467CE30B145BF4 },
@@ -165,6 +166,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[15] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_set_Item_m58B49CD878D3DC099EB422A63AB014DF5B1CAE06 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_mC3BAEE88ADF85DEC0CA10B97B3E7F42183A8AFBB },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_m99E6BCF557EB89898061B9B8761AA6D402DD2592 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TBaseTypeInList_t7042BCACE0A8A2A88132E86C1016AB2EA0E01C54 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SubsystemWithProvider_3_t22ADF9793EA3BE343C3D4A23FFBBCD4160380E74 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TProvider_t1AC2F7520C38FC65F96522C997CFF0CCB5951109 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemWithProvider_3_get_provider_m8441E6EFF377241FF571B1445B2D4D602A8A6EBE },
@@ -172,6 +174,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[15] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemProvider_1_Stop_m07C601F197FC2962E30F31F26353A9DDCD56EE33 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemProvider_1_Destroy_m763418CCA180781E54401C8224963B9F4F73BA7B },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_SubsystemsModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule = 
 {
@@ -185,9 +188,9 @@ const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule =
 	NULL,
 	2,
 	s_rgctxIndices,
-	15,
+	16,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_SubsystemsModule,
 	NULL,
 	NULL,
 	NULL,
