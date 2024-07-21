@@ -17,7 +17,7 @@ import FirebaseFirestore
 import FirebaseStorage
 
 
-
+//TODO: user feedback on issues
 struct UserContributionService: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)

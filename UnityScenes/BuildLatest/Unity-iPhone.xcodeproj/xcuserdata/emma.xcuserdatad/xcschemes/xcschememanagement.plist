@@ -7,7 +7,7 @@
 		<key>GameAssembly.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>99</integer>
+			<integer>100</integer>
 		</dict>
 		<key>Unity-iPhone.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>UnityFramework.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>100</integer>
+			<integer>99</integer>
 		</dict>
 	</dict>
 </dict>

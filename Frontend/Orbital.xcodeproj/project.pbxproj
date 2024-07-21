@@ -23,6 +23,7 @@
 		5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE422BF0C3AB0031650B /* LandingView.swift */; };
 		5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE442BF0C3CF0031650B /* SignInView.swift */; };
 		7049D17B6642B8AAF41D935A /* Pods_unity_unityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */; };
+		B50FCFCE2C4CC75C00C5F8F0 /* URLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */; };
 		B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A0B2BFB81F000208FC4 /* LocationService.swift */; };
 		B5110A532BFC762100208FC4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B5110A522BFC762100208FC4 /* FirebaseAnalytics */; };
 		B5110A552BFC762100208FC4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = B5110A542BFC762100208FC4 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -189,6 +190,7 @@
 		961D379ED358763ADFA7FE39 /* Pods-unity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity.debug.xcconfig"; path = "Target Support Files/Pods-unity/Pods-unity.debug.xcconfig"; sourceTree = "<group>"; };
 		9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital_OrbitalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA060D7C0823EDA7F3A68074 /* Pods-Orbital-OrbitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandler.swift; sourceTree = "<group>"; };
 		B5110A0B2BFB81F000208FC4 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		B5110A8A2BFC776D00208FC4 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 				5BC6DE3D2BF0ACA90031650B /* Constants.swift */,
 				B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
+				B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */,
 				B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */,
 				B58450922C32ADF700234AEC /* Unity.swift */,
 				B58450972C32C0CC00234AEC /* ViewModel.swift */,
@@ -1007,6 +1010,7 @@
 				B5B05A3E2C1BF338009AFE94 /* ContactDetailView.swift in Sources */,
 				B574423A2C120287009F6616 /* InfoCardView.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B50FCFCE2C4CC75C00C5F8F0 /* URLHandler.swift in Sources */,
 				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,

@@ -3,6 +3,7 @@ import FirebaseFirestoreSwift
 import FirebaseFirestore
 import FirebaseStorage
 
+
 class AvatarService: ObservableObject {
     let db = Firestore.firestore()
     let storage = Storage.storage()

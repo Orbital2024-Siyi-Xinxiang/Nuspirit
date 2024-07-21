@@ -1,6 +1,0 @@
-framework module Pods_unity {
-  umbrella header "Pods-unity-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -11,6 +11,9 @@ import Foundation
 struct MyBookingsView: View {
     @ObservedObject var bookingData = BookingData()
 
+    // TODO: connect to firebase database to retrieve user booking data.
+    // TODO: add button beside each my booking item to navigate to BuildingView(pass building id to it)
+    // TODO: add starting level logic
     var body: some View {
         NavigationView {
             List(bookingData.bookings) { booking in

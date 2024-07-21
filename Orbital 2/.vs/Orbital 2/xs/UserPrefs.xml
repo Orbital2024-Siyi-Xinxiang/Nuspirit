@@ -1,0 +1,79 @@
+﻿<Properties StartupConfiguration="{FD9EC719-611B-3549-A281-3DC405A4E167}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="19e97600-f90c-4467-9ddb-cf4e62638427" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/VenueBooking.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SystemUtility.cs" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" />
+      <File FileName="Assets/Scripts/GameStateManager.cs" />
+      <File FileName="Assets/Scripts/MultiPlayer/UserManager.cs" />
+      <File FileName="Assets/Playables/VenuePlayableBehaviour.cs" />
+      <File FileName="Assets/Scripts/BackToLandingView.cs" />
+      <File FileName="Assets/Scripts/UrlScemeHandler.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/InputManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/FirebaseDataManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/AssetSelectionManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/GridData.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" />
+      <File FileName="Assets/Scripts/UI/QuitButton.cs" />
+      <File FileName="Assets/Scripts/VenueManagement/TileUtility.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/OtherUser.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/TransferPoint.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/SolidObject.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/Interactable.cs" />
+      <File FileName="Assets/Scripts/UI/VenueBooking.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" />
+      <File FileName="Assets/Scripts/VenueManagement/VenueManager.cs" />
+      <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" />
+      <File FileName="Assets/Scripts/SwiftBridging.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/Facility.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidObject.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementState.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/ModeManager.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" />
+      <File FileName="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" />
+      <File FileName="Assets/Scripts/Firebase/DataUpdater.cs" />
+      <File FileName="Assets/Scripts/VenueManagement/VenueRenderer.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/Venue.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
+      <File FileName="Assets/Scripts/VenueObjects/Bookable.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueBookable.cs" />
+      <File FileName="Assets/Scripts/UI/Booker.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueIInteractable.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Orbital 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Playables" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="AssetBundles" expanded="True" />
+                <Node name="Firebase" expanded="True" />
+                <Node name="MultiPlayer" expanded="True" />
+                <Node name="ScriptableObjects" expanded="True">
+                  <Node name="VenueModels" expanded="True" />
+                </Node>
+                <Node name="UI" expanded="True">
+                  <Node name="VenueBooking.cs" selected="True" />
+                </Node>
+                <Node name="VenueManagement" expanded="True" />
+                <Node name="VenueObjects" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
