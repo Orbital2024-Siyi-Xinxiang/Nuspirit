@@ -12,26 +12,32 @@ struct UserProfileView: View {
 
     var body: some View {
         NavigationView {
-            ScrollView {
-                if let userProfile = userProfile {
-                    VStack(alignment: .center) {
-                        ProfileImageView(imageUrl: $imageUrl, showFullProfileImage: $showFullProfileImage, isShowingImagePicker: $isShowingImagePicker, uploadProfileImage: uploadProfileImage)
-                        UserInfoView(userProfile: userProfile)
-                        NavigationLinksView()
+            ZStack {
+                // Set the background of the page here
+                Color.black
+                    .ignoresSafeArea()
+                ScrollView {
+                    if let userProfile = userProfile {
+                        VStack(alignment: .center) {
+                            ProfileImageView(imageUrl: $imageUrl, showFullProfileImage: $showFullProfileImage, isShowingImagePicker: $isShowingImagePicker, uploadProfileImage: uploadProfileImage)
+                            UserInfoView(userProfile: userProfile)
+                            NavigationLinksView()
+                        }
+                        .padding()
+                        .navigationBarTitle("User Profile", displayMode: .inline)
+                        .navigationBarItems(trailing: Button(action: {
+                            isEditing = true
+                        }) {
+                            Text("Edit")
+                                .foregroundColor(.white)
+                        })
+                        .sheet(isPresented: $isEditing) {
+                            EditUserProfileWrapper(userProfile: $userProfile, saveChanges: saveUserProfile)
+                        }
+                    } else {
+                        ProgressView()
+                            .onAppear(perform: fetchUserProfile)
                     }
-                    .padding()
-                    .navigationBarTitle("User Profile", displayMode: .inline)
-                    .navigationBarItems(trailing: Button(action: {
-                        isEditing = true
-                    }) {
-                        Text("Edit")
-                    })
-                    .sheet(isPresented: $isEditing) {
-                        EditUserProfileWrapper(userProfile: $userProfile, saveChanges: saveUserProfile)
-                    }
-                } else {
-                    ProgressView()
-                        .onAppear(perform: fetchUserProfile)
                 }
             }
         }
@@ -239,13 +245,19 @@ struct UserInfoView: View {
             Text(userProfile.displayName)
                 .font(.title)
                 .fontWeight(.bold)
+                .foregroundColor(.white)
                 .padding(.top, 8)
 
             Text("Faculty: \(userProfile.faculty)")
+                .foregroundColor(.white)
             Text("Level: \(userProfile.level)")
+                .foregroundColor(.white)
             Text("Major: \(userProfile.major)")
+                .foregroundColor(.white)
             Text("Nickname: \(userProfile.nickname)")
+                .foregroundColor(.white)
             Text("Status: \(userProfile.status)")
+                .foregroundColor(.white)
         }
         .padding(.top, 4)
     }
@@ -291,7 +303,7 @@ struct NavigationLinksView: View {
                     .padding(.bottom, 4)
             }
             NavigationLink(destination: AvatarDesign()) {
-                Text("System Settings")
+                Text("Avatar Design")
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(Color.blue)
@@ -307,7 +319,6 @@ struct NavigationLinksView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
-            
             NavigationLink(destination: MyBookingsView()) {
                 Text("My Bookings")
                     .padding()
