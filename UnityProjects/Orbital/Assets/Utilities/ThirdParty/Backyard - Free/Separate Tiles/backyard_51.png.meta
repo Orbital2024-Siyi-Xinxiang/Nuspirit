@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      backyard_51_0: -8377298337196429200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

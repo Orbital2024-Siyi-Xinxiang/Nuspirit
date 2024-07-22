@@ -1512,7 +1512,60 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RoadTileset_0: 7116505015074989020
+      RoadTileset_1: 2210490606348772384
+      RoadTileset_10: -4516296990926535778
+      RoadTileset_11: -1064054681171649527
+      RoadTileset_12: -7020088995188742989
+      RoadTileset_13: 3047842560745516283
+      RoadTileset_14: 1338405724293330813
+      RoadTileset_15: 3026983973739337056
+      RoadTileset_16: 4340405297072447574
+      RoadTileset_17: -8492140833361885958
+      RoadTileset_18: -4538479444430059887
+      RoadTileset_19: 6328567801008351426
+      RoadTileset_2: -5331583444499886018
+      RoadTileset_20: -2240560424392237661
+      RoadTileset_21: 5163825928695348201
+      RoadTileset_22: 90689857607809511
+      RoadTileset_23: 6137279251747381159
+      RoadTileset_24: -5141121770441922981
+      RoadTileset_25: -6866562924746441971
+      RoadTileset_26: -6579262915610862654
+      RoadTileset_27: 8102024189027601809
+      RoadTileset_28: -4813623367919999214
+      RoadTileset_29: 7414364206390014290
+      RoadTileset_3: -3699976408483807981
+      RoadTileset_30: 2602927167444849055
+      RoadTileset_31: -7971233358361000230
+      RoadTileset_32: 4436612041038134288
+      RoadTileset_33: -2665325359672300851
+      RoadTileset_34: -1442709454533809709
+      RoadTileset_35: 6519236502543168199
+      RoadTileset_36: -1051088031548283987
+      RoadTileset_37: -6081600776885057229
+      RoadTileset_38: 1133823155235952565
+      RoadTileset_39: 8359949701943123072
+      RoadTileset_4: -2874625666244382309
+      RoadTileset_40: 4266194776535356146
+      RoadTileset_41: 6604041763758369209
+      RoadTileset_42: -4703652611505486281
+      RoadTileset_43: 5192897149984753078
+      RoadTileset_44: 5131452745081934386
+      RoadTileset_45: -2330960115194289703
+      RoadTileset_46: 4572723068413314451
+      RoadTileset_47: 5407819692951445721
+      RoadTileset_48: -4393341844026994340
+      RoadTileset_49: 2620063854878224202
+      RoadTileset_5: 4160446650199985030
+      RoadTileset_50: -5692668557394081388
+      RoadTileset_51: -1643469304903730351
+      RoadTileset_52: -7267106365569311289
+      RoadTileset_6: -8300305331058219513
+      RoadTileset_7: 4950742971530384182
+      RoadTileset_8: -7841282576587948621
+      RoadTileset_9: 7165120129629364121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

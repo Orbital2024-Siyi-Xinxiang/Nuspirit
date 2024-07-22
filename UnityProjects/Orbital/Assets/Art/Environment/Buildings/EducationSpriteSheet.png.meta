@@ -287,7 +287,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EducationSpriteSheet_0: -7245959688834872087
+      EducationSpriteSheet_1: 1283405979243003050
+      EducationSpriteSheet_2: -6916784518355032978
+      EducationSpriteSheet_3: -3830579007852225331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
