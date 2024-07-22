@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0EFC79D4-807C-A4C9-04C8-375696099A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2012BF33-FDEF-B5A1-9B3B-FA2FA5AEB5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseMessagingActivityGenerator", "FirebaseMessagingActivityGenerator.csproj", "{CA49E06D-A049-F0D4-4559-5D1D43C872A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EFC79D4-807C-A4C9-04C8-375696099A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFC79D4-807C-A4C9-04C8-375696099A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFC79D4-807C-A4C9-04C8-375696099A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFC79D4-807C-A4C9-04C8-375696099A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2012BF33-FDEF-B5A1-9B3B-FA2FA5AEB5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2012BF33-FDEF-B5A1-9B3B-FA2FA5AEB5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2012BF33-FDEF-B5A1-9B3B-FA2FA5AEB5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2012BF33-FDEF-B5A1-9B3B-FA2FA5AEB5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA49E06D-A049-F0D4-4559-5D1D43C872A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA49E06D-A049-F0D4-4559-5D1D43C872A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA49E06D-A049-F0D4-4559-5D1D43C872A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA49E06D-A049-F0D4-4559-5D1D43C872A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

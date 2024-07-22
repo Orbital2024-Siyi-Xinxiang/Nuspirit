@@ -1,4 +1,0 @@
-repository "NUSpirit@Xinxiang379@cloud"
-  path "/"
-    br "/main"
-    co "/main"

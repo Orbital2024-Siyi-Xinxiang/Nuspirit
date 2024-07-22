@@ -19,8 +19,9 @@ class FirestoreService {
     private init() {
         db = Firestore.firestore()
     }
-
+    
     func addUserCredential(uid: String, email: String, userid: String, display_name: String) {
+        
         db.collection("users_credentials").document(uid).setData([
             "createdAt": Timestamp(),
             "userId": userid,
@@ -35,13 +36,8 @@ class FirestoreService {
             }
         }
     }
-    
-    func subscribeUserToVenue(uid: String, venueId: String) {
-        // TODO: 
-    }
-    
-    
 }
+
 
 
 

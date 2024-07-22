@@ -1,19 +1,3 @@
-UnityIntegration/iosBuild/
-UnityIntegration/Library
-UnityVenues/Library/
-UnityVenues/iosBuild/
-UnityVenues/Assets/Editor Default Resources
-UnityVenues/Assets/Firebase
-AssetsImported/NUSpirit/Library/
-AssetsImported/NUSpirit/iosBuild/
-AssetsImported/NUSpirit 2/Library/
-AssetsImported/NUSpirit 2/iosBuild/
-AssetsImported/NUSpirit/Assets/Editor Default Resources
-AssetsImported/NUSpirit/Assets/Firebase
-AssetsImported/NUSpirit 2/Assets/Editor Default Resources
-AssetsImported/NUSpirit 2/Assets/Firebase
-Frontend/Orbital.xcworkspace/xcuserdata/emma.xcuserdatad/UserInterfaceState.xcuserstate
-
-UnityIntegrationSpecific/Assets/Editor Default Resources/
-UnityIntegrationSpecific/Assets/Firebase/
-UnityIntegrationSpecific/Library/
+UnityProjects/Orbital/Assets/Firebase/
+UnityProjects/Orbital/Library/
+UnityProjects/Orbital/ProjectSettings/

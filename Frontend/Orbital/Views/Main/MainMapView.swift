@@ -35,20 +35,15 @@ struct MainMapView: View {
                             }
                         }
                         .padding()
-
-                        Button(action: {
-//                            Unity.shared.show()
-                            // for launching Unity here
-                            
-                        })  {
-                            VStack {
-                                Image(systemName: "leaf.arrow.circlepath")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .padding()
-                                    .background(Color.green)
-                                    .foregroundColor(.white)
-                                    .clipShape(Circle())
+                        NavigationLink(destination: MyIslandView()) {
+                                VStack {
+                                    Image(systemName: "leaf.arrow.circlepath")
+                                        .resizable()
+                                        .frame(width: 50, height: 50)
+                                        .padding()
+                                        .background(Color.green)
+                                        .foregroundColor(.white)
+                                        .clipShape(Circle())
                                 Text("My Island")
                                     .foregroundColor(.green)
                             }

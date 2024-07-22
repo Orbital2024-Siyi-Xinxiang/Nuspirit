@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0767D91513D4ED816B7E9673 /* Pods_OrbitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF77F2A2D8F125DB5C6112F /* Pods_OrbitalTests.framework */; };
-		256DEA826165ED0307BF9E6B /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */; };
+		183327E5D9A427DB1B3EAB79 /* Pods_OrbitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51CAF71EAFED5BDC57C083E /* Pods_OrbitalTests.framework */; };
+		2D118657870FDE6F92F6EF80 /* Pods_Orbital_OrbitalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */; };
 		5B55A5662C0C90500094BEEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B55A5652C0C90500094BEEB /* README.md */; };
 		5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */; };
 		5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */; };
@@ -22,7 +22,8 @@
 		5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE3D2BF0ACA90031650B /* Constants.swift */; };
 		5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE422BF0C3AB0031650B /* LandingView.swift */; };
 		5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE442BF0C3CF0031650B /* SignInView.swift */; };
-		A18F2798570F6156571FB1ED /* Pods_Orbital_OrbitalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C387F387386840A3893E070 /* Pods_Orbital_OrbitalUITests.framework */; };
+		7049D17B6642B8AAF41D935A /* Pods_unity_unityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */; };
+		B50FCFCE2C4CC75C00C5F8F0 /* URLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */; };
 		B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A0B2BFB81F000208FC4 /* LocationService.swift */; };
 		B5110A532BFC762100208FC4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B5110A522BFC762100208FC4 /* FirebaseAnalytics */; };
 		B5110A552BFC762100208FC4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = B5110A542BFC762100208FC4 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -62,10 +63,11 @@
 		B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */; };
 		B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B12C07FF140060F578 /* UserProfileView.swift */; };
 		B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FD3B32C080EBE0060F578 /* ImageOverlay.swift */; };
+		B5581A722C3692A000F22508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B56F74772BF62F370048447E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74762BF62F370048447E /* CartView.swift */; };
 		B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74782BF62FFC0048447E /* FurnitureMarket.swift */; };
 		B56F74882BF632330048447E /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F74872BF632330048447E /* MainMapView.swift */; };
-		B56F748D2BF632B70048447E /* MyIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIsland.swift */; };
+		B56F748D2BF632B70048447E /* MyIslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F748C2BF632B70048447E /* MyIslandView.swift */; };
 		B56F74952BF63F8C0048447E /* LaunchNuspirit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */; };
 		B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442332C11ACB9009F6616 /* Starbucks.swift */; };
 		B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442352C11FEF2009F6616 /* OnboardingView.swift */; };
@@ -75,10 +77,16 @@
 		B574423E2C129410009F6616 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423D2C129410009F6616 /* UserData.swift */; };
 		B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574423F2C12953F009F6616 /* FirebaseAuthService.swift */; };
 		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
-		B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */; };
+		B575CCC52C08EF4600CBE537 /* (Deprecated))UnityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */; };
 		B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */; };
 		B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */; };
 		B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */; };
+		B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */; };
+		B584507F2C326BF800234AEC /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584507E2C326BF800234AEC /* Avatar.swift */; };
+		B58450812C326C1F00234AEC /* AvartarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450802C326C1F00234AEC /* AvartarService.swift */; };
+		B58450932C32ADF700234AEC /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450922C32ADF700234AEC /* Unity.swift */; };
+		B58450982C32C0CC00234AEC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450972C32C0CC00234AEC /* ViewModel.swift */; };
+		B58450A32C32C21B00234AEC /* UnityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58450A22C32C21B00234AEC /* UnityMessage.swift */; };
 		B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593936A2C0A2B680025B3D8 /* ContactsView.swift */; };
 		B5A040AA2BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
 		B5A040AC2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */; };
@@ -89,7 +97,6 @@
 		B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A3F2C1BF436009AFE94 /* Contact.swift */; };
 		B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */; };
 		B5B3E44E2C01908D008799F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3E44D2C01908D008799F2 /* Algorithms */; };
-		B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3E4562C01D6ED008799F2 /* UIKit.framework */; };
 		B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E702C003E9A00F322C3 /* CustomMapOverlay.swift */; };
 		B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E722C003EA100F322C3 /* MapContentView.swift */; };
 		B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E742C003EAF00F322C3 /* MapViewRepresentable.swift */; };
@@ -98,10 +105,8 @@
 		B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */; };
 		B5B85E812C00E52A00F322C3 /* EusoffHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85E802C00E52A00F322C3 /* EusoffHall.swift */; };
 		B5C92A532BF7CF1C00121E42 /* MyAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */; };
-		B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A552BF7CFA300121E42 /* Purchase.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
 		B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */; };
-		B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */; };
 		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
 		B5C92A662BF879C300121E42 /* COM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A652BF879C300121E42 /* COM1.swift */; };
 		B5C92A682BF879CF00121E42 /* COM2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A672BF879CF00121E42 /* COM2.swift */; };
@@ -111,6 +116,10 @@
 		B5C92A712BF87A1300121E42 /* RC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A702BF87A1300121E42 /* RC4.swift */; };
 		B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A722BF87A2700121E42 /* Finefood.swift */; };
 		B5C92A772BF88D8900121E42 /* SplashScreenView(Deprecated).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */; };
+		B5D0C8462C2D00CB00D60F5A /* StudyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */; };
+		B5D0C8482C2D0D6500D60F5A /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */; };
+		B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C8492C2D0E2200D60F5A /* Booking.swift */; };
+		B5D0C84E2C2E4E2100D60F5A /* AvatarDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */; };
 		B5EC50E92C08DB7A0096BBEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */; };
 		B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */; };
 		B5FE65942BFD0BF8000D375A /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5FE65932BFD0BF8000D375A /* FirebaseAnonymousAuthUI */; };
@@ -126,7 +135,7 @@
 		B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */; };
 		B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */; };
 		B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */; };
-		B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */; };
+		B5FE65BD2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */; };
 		B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -145,11 +154,19 @@
 			remoteGlobalIDString = 5BC6DE052BF0A7A10031650B;
 			remoteInfo = Orbital;
 		};
+		B53275BB2C37E8F400757D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC6DDFE2BF0A7A10031650B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC6DE052BF0A7A10031650B;
+			remoteInfo = Orbital;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		109D21E064AC5F31C11472A9 /* Pods-Orbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.release.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.release.xcconfig"; sourceTree = "<group>"; };
-		4E9A7961D4CF4786678A3E68 /* Pods-OrbitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.release.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A6F7E28643A4401060FEC6B /* Pods-unity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity.release.xcconfig"; path = "Target Support Files/Pods-unity/Pods-unity.release.xcconfig"; sourceTree = "<group>"; };
+		30ACBE5963D27159A2F225B2 /* Pods-unity-unityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity-unityTests.release.xcconfig"; path = "Target Support Files/Pods-unity-unityTests/Pods-unity-unityTests.release.xcconfig"; sourceTree = "<group>"; };
+		44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unity_unityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B55A5652C0C90500094BEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalApp.swift; sourceTree = "<group>"; };
@@ -166,17 +183,21 @@
 		5BC6DE3D2BF0ACA90031650B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5BC6DE422BF0C3AB0031650B /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		5BC6DE442BF0C3CF0031650B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		5C0AF1856DDE846808B695C1 /* Pods-Orbital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.debug.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.debug.xcconfig"; sourceTree = "<group>"; };
-		6C387F387386840A3893E070 /* Pods_Orbital_OrbitalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital_OrbitalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF77F2A2D8F125DB5C6112F /* Pods_OrbitalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrbitalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC7816379326E78E7B9CEC4 /* Pods-OrbitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.debug.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60D321081FF17D00927195CC /* Pods-Orbital-OrbitalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB089EF858206AB472B3E50 /* Pods-Orbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.release.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.release.xcconfig"; sourceTree = "<group>"; };
+		6F026C51E395AC04C161227D /* Pods-unity-unityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity-unityTests.debug.xcconfig"; path = "Target Support Files/Pods-unity-unityTests/Pods-unity-unityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		961D379ED358763ADFA7FE39 /* Pods-unity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity.debug.xcconfig"; path = "Target Support Files/Pods-unity/Pods-unity.debug.xcconfig"; sourceTree = "<group>"; };
+		9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital_OrbitalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA060D7C0823EDA7F3A68074 /* Pods-Orbital-OrbitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandler.swift; sourceTree = "<group>"; };
 		B5110A0B2BFB81F000208FC4 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		B5110A8A2BFC776D00208FC4 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B5110A8C2BFC777B00208FC4 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		B5110A8F2BFC7CAB00208FC4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		B517B6D52C08FA0100B9A739 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52F7BE32BFF879B00DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52F7BE52BFF87A100DA131C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B53275B72C37E8F400757D54 /* unityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54FD3AD2C078F4D0060F578 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		B54FD3B12C07FF140060F578 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
@@ -184,7 +205,7 @@
 		B56F74762BF62F370048447E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B56F74782BF62FFC0048447E /* FurnitureMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMarket.swift; sourceTree = "<group>"; };
 		B56F74872BF632330048447E /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
-		B56F748C2BF632B70048447E /* MyIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIsland.swift; sourceTree = "<group>"; };
+		B56F748C2BF632B70048447E /* MyIslandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIslandView.swift; sourceTree = "<group>"; };
 		B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchNuspirit.storyboard; sourceTree = "<group>"; };
 		B57442332C11ACB9009F6616 /* Starbucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starbucks.swift; sourceTree = "<group>"; };
 		B57442352C11FEF2009F6616 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -194,10 +215,16 @@
 		B574423D2C129410009F6616 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		B574423F2C12953F009F6616 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
 		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
-		B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnityViewController(Unused).swift"; sourceTree = "<group>"; };
+		B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "(Deprecated))UnityViewController.swift"; sourceTree = "<group>"; };
 		B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContributionService.swift; sourceTree = "<group>"; };
 		B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyStatistics.swift; sourceTree = "<group>"; };
 		B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetchingService.swift; sourceTree = "<group>"; };
+		B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageService.swift; sourceTree = "<group>"; };
+		B584507E2C326BF800234AEC /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		B58450802C326C1F00234AEC /* AvartarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvartarService.swift; sourceTree = "<group>"; };
+		B58450922C32ADF700234AEC /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
+		B58450972C32C0CC00234AEC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B58450A22C32C21B00234AEC /* UnityMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityMessage.swift; sourceTree = "<group>"; };
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -217,10 +244,8 @@
 		B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralLib.swift; sourceTree = "<group>"; };
 		B5B85E802C00E52A00F322C3 /* EusoffHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EusoffHall.swift; sourceTree = "<group>"; };
 		B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsView.swift; sourceTree = "<group>"; };
-		B5C92A552BF7CFA300121E42 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificAssetView.swift; sourceTree = "<group>"; };
-		B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResponse.swift; sourceTree = "<group>"; };
 		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
 		B5C92A652BF879C300121E42 /* COM1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM1.swift; sourceTree = "<group>"; };
 		B5C92A672BF879CF00121E42 /* COM2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM2.swift; sourceTree = "<group>"; };
@@ -231,16 +256,22 @@
 		B5C92A722BF87A2700121E42 /* Finefood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finefood.swift; sourceTree = "<group>"; };
 		B5C92A762BF88D8900121E42 /* SplashScreenView(Deprecated).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashScreenView(Deprecated).swift"; sourceTree = "<group>"; };
 		B5C92A782BF8904400121E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTrackingService.swift; sourceTree = "<group>"; };
+		B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
+		B5D0C8492C2D0E2200D60F5A /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarDesign.swift; sourceTree = "<group>"; };
 		B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotaion.swift; sourceTree = "<group>"; };
 		B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FE65B02BFD96DB000D375A /* Orbital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbital.entitlements; sourceTree = "<group>"; };
 		B5FE65B32BFDA01A000D375A /* SettingsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOverlay.swift; sourceTree = "<group>"; };
 		B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUserService.swift; sourceTree = "<group>"; };
-		B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrientationViewController(Unused).swift"; sourceTree = "<group>"; };
+		B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(Deprecated)OrientationViewController.swift"; sourceTree = "<group>"; };
 		B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		B7ECC9649C6E9D2438D2C619 /* Pods-OrbitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.debug.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C577FFCF4062BB6D17EEC371 /* Pods-Orbital-OrbitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CF1088C43D6F6E0312A75CAD /* Pods-Orbital-OrbitalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C51CAF71EAFED5BDC57C083E /* Pods_OrbitalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrbitalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57924DBE6399DF7283C1488 /* Pods-OrbitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.release.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.release.xcconfig"; sourceTree = "<group>"; };
+		E18A5B2443BEBF970D3A6EC4 /* Pods-Orbital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.debug.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E4550CD2D66400041CB4C2 /* Pods_unity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55AB20FED8FBD8DB9E297D7 /* Pods_Orbital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B3E45C2C01DF39008799F2 /* UIKit.framework in Frameworks */,
+				B5581A722C3692A000F22508 /* UIKit.framework in Frameworks */,
 				B5110A652BFC762100208FC4 /* FirebaseDatabase in Frameworks */,
 				B5FE65A62BFD0BF9000D375A /* FirebaseStorageUI in Frameworks */,
 				B5110A732BFC762100208FC4 /* FirebaseFunctionsCombine-Community in Frameworks */,
@@ -290,7 +321,6 @@
 				B5110A6D2BFC762100208FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				B5110A7D2BFC762100208FC4 /* FirebaseMessaging in Frameworks */,
 				B5110A792BFC762100208FC4 /* FirebaseInstallations in Frameworks */,
-				256DEA826165ED0307BF9E6B /* Pods_Orbital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0767D91513D4ED816B7E9673 /* Pods_OrbitalTests.framework in Frameworks */,
+				183327E5D9A427DB1B3EAB79 /* Pods_OrbitalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +336,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18F2798570F6156571FB1ED /* Pods_Orbital_OrbitalUITests.framework in Frameworks */,
+				2D118657870FDE6F92F6EF80 /* Pods_Orbital_OrbitalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53275B42C37E8F400757D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7049D17B6642B8AAF41D935A /* Pods_unity_unityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +354,16 @@
 		49B4B7CB3C774DF14D14E207 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C0AF1856DDE846808B695C1 /* Pods-Orbital.debug.xcconfig */,
-				109D21E064AC5F31C11472A9 /* Pods-Orbital.release.xcconfig */,
-				CF1088C43D6F6E0312A75CAD /* Pods-Orbital-OrbitalUITests.debug.xcconfig */,
-				C577FFCF4062BB6D17EEC371 /* Pods-Orbital-OrbitalUITests.release.xcconfig */,
-				B7ECC9649C6E9D2438D2C619 /* Pods-OrbitalTests.debug.xcconfig */,
-				4E9A7961D4CF4786678A3E68 /* Pods-OrbitalTests.release.xcconfig */,
+				E18A5B2443BEBF970D3A6EC4 /* Pods-Orbital.debug.xcconfig */,
+				6AB089EF858206AB472B3E50 /* Pods-Orbital.release.xcconfig */,
+				60D321081FF17D00927195CC /* Pods-Orbital-OrbitalUITests.debug.xcconfig */,
+				AA060D7C0823EDA7F3A68074 /* Pods-Orbital-OrbitalUITests.release.xcconfig */,
+				5DC7816379326E78E7B9CEC4 /* Pods-OrbitalTests.debug.xcconfig */,
+				D57924DBE6399DF7283C1488 /* Pods-OrbitalTests.release.xcconfig */,
+				961D379ED358763ADFA7FE39 /* Pods-unity.debug.xcconfig */,
+				0A6F7E28643A4401060FEC6B /* Pods-unity.release.xcconfig */,
+				6F026C51E395AC04C161227D /* Pods-unity-unityTests.debug.xcconfig */,
+				30ACBE5963D27159A2F225B2 /* Pods-unity-unityTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -347,6 +389,7 @@
 				5BC6DE062BF0A7A10031650B /* Orbital.app */,
 				5BC6DE1B2BF0A7A40031650B /* OrbitalTests.xctest */,
 				5BC6DE252BF0A7A40031650B /* OrbitalUITests.xctest */,
+				B53275B72C37E8F400757D54 /* unityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -365,7 +408,10 @@
 				5BC6DE3D2BF0ACA90031650B /* Constants.swift */,
 				B56F74942BF63F8C0048447E /* LaunchNuspirit.storyboard */,
 				5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */,
+				B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */,
 				B5FE65AB2BFD8B7F000D375A /* AppDelegate.swift */,
+				B58450922C32ADF700234AEC /* Unity.swift */,
+				B58450972C32C0CC00234AEC /* ViewModel.swift */,
 				5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */,
 				5BC6DE122BF0A7A40031650B /* Persistence.swift */,
 				5BC6DE142BF0A7A40031650B /* Orbital.xcdatamodeld */,
@@ -405,6 +451,7 @@
 			children = (
 				5BC6DE3B2BF0AC470031650B /* AuthService(Deprecated).swift */,
 				B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */,
+				B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */,
 				B5B05A412C1BFE8D009AFE94 /* ImagePicker.swift */,
 				B574423F2C12953F009F6616 /* FirebaseAuthService.swift */,
 				B5110A0B2BFB81F000208FC4 /* LocationService.swift */,
@@ -413,6 +460,9 @@
 				B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */,
 				B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */,
 				B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */,
+				B5D0C8452C2D00CB00D60F5A /* StudyTrackingService.swift */,
+				B58450802C326C1F00234AEC /* AvartarService.swift */,
+				B58450A22C32C21B00234AEC /* UnityMessage.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -451,14 +501,16 @@
 		B56F748B2BF632900048447E /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
-				B56F748C2BF632B70048447E /* MyIsland.swift */,
+				B56F748C2BF632B70048447E /* MyIslandView.swift */,
 				B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */,
 				B54FD3B12C07FF140060F578 /* UserProfileView.swift */,
+				B5D0C8472C2D0D6500D60F5A /* MyBookingsView.swift */,
 				B5B05A372C1BEDE3009AFE94 /* EditUserProfile.swift */,
 				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
 				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
 				B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */,
 				B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */,
+				B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -493,11 +545,12 @@
 		B5B3E4472C01905A008799F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B517B6D52C08FA0100B9A739 /* UnityFramework.framework */,
 				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
-				805DDDB19E190729D38CF8B5 /* Pods_Orbital.framework */,
-				6C387F387386840A3893E070 /* Pods_Orbital_OrbitalUITests.framework */,
-				ABF77F2A2D8F125DB5C6112F /* Pods_OrbitalTests.framework */,
+				E55AB20FED8FBD8DB9E297D7 /* Pods_Orbital.framework */,
+				9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */,
+				C51CAF71EAFED5BDC57C083E /* Pods_OrbitalTests.framework */,
+				E4E4550CD2D66400041CB4C2 /* Pods_unity.framework */,
+				44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -513,8 +566,6 @@
 		B5C92A542BF7CF6400121E42 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B5C92A552BF7CFA300121E42 /* Purchase.swift */,
-				B5C92A5B2BF7D6E600121E42 /* PurchaseResponse.swift */,
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
 				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
 				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
@@ -522,6 +573,8 @@
 				B57442372C11FF2C009F6616 /* UserInfo.swift */,
 				B5B05A3B2C1BEEFE009AFE94 /* UserProfile.swift */,
 				B5B05A3F2C1BF436009AFE94 /* Contact.swift */,
+				B5D0C8492C2D0E2200D60F5A /* Booking.swift */,
+				B584507E2C326BF800234AEC /* Avatar.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -573,9 +626,9 @@
 		B5FE65BB2BFDCD2C000D375A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B575CCC42C08EF4600CBE537 /* UnityViewController(Unused).swift */,
+				B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */,
 				B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */,
-				B5FE65BC2BFDCD42000D375A /* OrientationViewController(Unused).swift */,
+				B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -587,7 +640,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC6DE2F2BF0A7A40031650B /* Build configuration list for PBXNativeTarget "Orbital" */;
 			buildPhases = (
-				924D4CBA5679AADF0E337220 /* [CP] Check Pods Manifest.lock */,
+				8DE276146DB8D57F8A994790 /* [CP] Check Pods Manifest.lock */,
 				5BC6DE022BF0A7A10031650B /* Sources */,
 				5BC6DE032BF0A7A10031650B /* Frameworks */,
 				5BC6DE042BF0A7A10031650B /* Resources */,
@@ -648,7 +701,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC6DE322BF0A7A40031650B /* Build configuration list for PBXNativeTarget "OrbitalTests" */;
 			buildPhases = (
-				F954A0F411A5D46903F2AFCA /* [CP] Check Pods Manifest.lock */,
+				E0AF66AE0961FECB4B0E1D02 /* [CP] Check Pods Manifest.lock */,
 				5BC6DE172BF0A7A40031650B /* Sources */,
 				5BC6DE182BF0A7A40031650B /* Frameworks */,
 				5BC6DE192BF0A7A40031650B /* Resources */,
@@ -667,7 +720,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC6DE352BF0A7A40031650B /* Build configuration list for PBXNativeTarget "OrbitalUITests" */;
 			buildPhases = (
-				B03B42628C5BAC442E1C3D58 /* [CP] Check Pods Manifest.lock */,
+				DCD56F264C9EE19475CC40D6 /* [CP] Check Pods Manifest.lock */,
 				5BC6DE212BF0A7A40031650B /* Sources */,
 				5BC6DE222BF0A7A40031650B /* Frameworks */,
 				5BC6DE232BF0A7A40031650B /* Resources */,
@@ -682,6 +735,25 @@
 			productReference = 5BC6DE252BF0A7A40031650B /* OrbitalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B53275B62C37E8F400757D54 /* unityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53275CA2C37E8F400757D54 /* Build configuration list for PBXNativeTarget "unityTests" */;
+			buildPhases = (
+				0B025CC961FB8E000D5184E8 /* [CP] Check Pods Manifest.lock */,
+				B53275B32C37E8F400757D54 /* Sources */,
+				B53275B42C37E8F400757D54 /* Frameworks */,
+				B53275B52C37E8F400757D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53275BC2C37E8F400757D54 /* PBXTargetDependency */,
+			);
+			name = unityTests;
+			productName = unityTests;
+			productReference = B53275B72C37E8F400757D54 /* unityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -689,7 +761,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					5BC6DE052BF0A7A10031650B = {
@@ -702,6 +774,10 @@
 					};
 					5BC6DE242BF0A7A40031650B = {
 						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5BC6DE052BF0A7A10031650B;
+					};
+					B53275B62C37E8F400757D54 = {
+						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 5BC6DE052BF0A7A10031650B;
 					};
 				};
@@ -728,6 +804,7 @@
 				5BC6DE052BF0A7A10031650B /* Orbital */,
 				5BC6DE1A2BF0A7A40031650B /* OrbitalTests */,
 				5BC6DE242BF0A7A40031650B /* OrbitalUITests */,
+				B53275B62C37E8F400757D54 /* unityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -762,10 +839,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B53275B52C37E8F400757D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		924D4CBA5679AADF0E337220 /* [CP] Check Pods Manifest.lock */ = {
+		0B025CC961FB8E000D5184E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unity-unityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE276146DB8D57F8A994790 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -787,7 +893,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B03B42628C5BAC442E1C3D58 /* [CP] Check Pods Manifest.lock */ = {
+		DCD56F264C9EE19475CC40D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -809,7 +915,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F954A0F411A5D46903F2AFCA /* [CP] Check Pods Manifest.lock */ = {
+		E0AF66AE0961FECB4B0E1D02 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -839,8 +945,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */,
-				B5FE65BD2BFDCD42000D375A /* OrientationViewController(Unused).swift in Sources */,
+				B5FE65BD2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift in Sources */,
 				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
+				B58450812C326C1F00234AEC /* AvartarService.swift in Sources */,
 				B5B85E792C00CC7100F322C3 /* Frontier.swift in Sources */,
 				B574423E2C129410009F6616 /* UserData.swift in Sources */,
 				B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */,
@@ -849,7 +956,7 @@
 				B5FE65B42BFDA01A000D375A /* SettingsOverlay.swift in Sources */,
 				5BC6DE132BF0A7A40031650B /* Persistence.swift in Sources */,
 				B5B85E732C003EA100F322C3 /* MapContentView.swift in Sources */,
-				B56F748D2BF632B70048447E /* MyIsland.swift in Sources */,
+				B56F748D2BF632B70048447E /* MyIslandView.swift in Sources */,
 				B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */,
 				B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */,
 				B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */,
@@ -858,38 +965,44 @@
 				B5B05A3A2C1BEE5E009AFE94 /* SystemSettingsView.swift in Sources */,
 				B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */,
 				B5C92A732BF87A2700121E42 /* Finefood.swift in Sources */,
+				B58450A32C32C21B00234AEC /* UnityMessage.swift in Sources */,
 				B5B85E752C003EAF00F322C3 /* MapViewRepresentable.swift in Sources */,
 				B5C92A712BF87A1300121E42 /* RC4.swift in Sources */,
+				B5D0C84A2C2D0E2200D60F5A /* Booking.swift in Sources */,
 				B5B85E7B2C00CC7E00F322C3 /* MedScienceLib.swift in Sources */,
 				5BC6DE3C2BF0AC470031650B /* AuthService(Deprecated).swift in Sources */,
 				B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */,
+				B5D0C84E2C2E4E2100D60F5A /* AvatarDesign.swift in Sources */,
 				B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */,
 				B5B05A422C1BFE8D009AFE94 /* ImagePicker.swift in Sources */,
 				B5F9717D2C1834E300FAE7F8 /* UserAnnotaion.swift in Sources */,
-				B5C92A5C2BF7D6E600121E42 /* PurchaseResponse.swift in Sources */,
+				B584507F2C326BF800234AEC /* Avatar.swift in Sources */,
 				B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */,
 				B5FE65BA2BFDBAC6000D375A /* ManageUserService.swift in Sources */,
 				B5B05A382C1BEDE3009AFE94 /* EditUserProfile.swift in Sources */,
+				B5D0C8482C2D0D6500D60F5A /* MyBookingsView.swift in Sources */,
 				B5110A8B2BFC776D00208FC4 /* NotificationService.swift in Sources */,
 				B5C92A662BF879C300121E42 /* COM1.swift in Sources */,
 				B5C92A6D2BF879F900121E42 /* SRC.swift in Sources */,
 				B5B05A402C1BF436009AFE94 /* Contact.swift in Sources */,
 				B5B05A3C2C1BEEFE009AFE94 /* UserProfile.swift in Sources */,
 				B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */,
-				B5C92A562BF7CFA300121E42 /* Purchase.swift in Sources */,
 				B5B85E712C003E9A00F322C3 /* CustomMapOverlay.swift in Sources */,
-				B575CCC52C08EF4600CBE537 /* UnityViewController(Unused).swift in Sources */,
+				B575CCC52C08EF4600CBE537 /* (Deprecated))UnityViewController.swift in Sources */,
 				B56F74882BF632330048447E /* MainMapView.swift in Sources */,
 				5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */,
+				B58450982C32C0CC00234AEC /* ViewModel.swift in Sources */,
 				B56F74772BF62F370048447E /* CartView.swift in Sources */,
 				B57442362C11FEF2009F6616 /* OnboardingView.swift in Sources */,
 				5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */,
+				B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */,
 				B5B85E7E2C00CCA400F322C3 /* CentralLib.swift in Sources */,
 				5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */,
 				B54FD3AE2C078F4D0060F578 /* BuildingView.swift in Sources */,
 				B5FE65AC2BFD8B7F000D375A /* AppDelegate.swift in Sources */,
 				B5110A902BFC7CAB00208FC4 /* ChatView.swift in Sources */,
 				B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */,
+				B5D0C8462C2D00CB00D60F5A /* StudyTrackingService.swift in Sources */,
 				B5C92A532BF7CF1C00121E42 /* MyAssetsView.swift in Sources */,
 				B5110A8D2BFC777B00208FC4 /* FirestoreService.swift in Sources */,
 				B57442382C11FF2C009F6616 /* UserInfo.swift in Sources */,
@@ -897,12 +1010,14 @@
 				B5B05A3E2C1BF338009AFE94 /* ContactDetailView.swift in Sources */,
 				B574423A2C120287009F6616 /* InfoCardView.swift in Sources */,
 				B5C92A682BF879CF00121E42 /* COM2.swift in Sources */,
+				B50FCFCE2C4CC75C00C5F8F0 /* URLHandler.swift in Sources */,
 				B54FD3B02C07B1770060F578 /* CustomAnnotation.swift in Sources */,
 				B5FE65BF2BFDD782000D375A /* SignUpViewController.swift in Sources */,
 				B5C92A6F2BF87A0300121E42 /* ERC.swift in Sources */,
 				B56F74792BF62FFC0048447E /* FurnitureMarket.swift in Sources */,
 				B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */,
 				B593936B2C0A2B680025B3D8 /* ContactsView.swift in Sources */,
+				B58450932C32ADF700234AEC /* Unity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,6 +1038,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B53275B32C37E8F400757D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -935,6 +1057,11 @@
 			isa = PBXTargetDependency;
 			target = 5BC6DE052BF0A7A10031650B /* Orbital */;
 			targetProxy = 5BC6DE262BF0A7A40031650B /* PBXContainerItemProxy */;
+		};
+		B53275BC2C37E8F400757D54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC6DE052BF0A7A10031650B /* Orbital */;
+			targetProxy = B53275BB2C37E8F400757D54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -978,6 +1105,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -993,8 +1121,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1043,6 +1172,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1052,8 +1182,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1064,7 +1195,7 @@
 		};
 		5BC6DE302BF0A7A40031650B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C0AF1856DDE846808B695C1 /* Pods-Orbital.debug.xcconfig */;
+			baseConfigurationReference = E18A5B2443BEBF970D3A6EC4 /* Pods-Orbital.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1076,8 +1207,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
@@ -1085,13 +1219,17 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchNuspirit.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MERGED_BINARY_TYPE = none;
+				OTHER_CFLAGS = "-fvisibility=hidden";
 				OTHER_LDFLAGS = "-ObjC";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1105,7 +1243,7 @@
 		};
 		5BC6DE312BF0A7A40031650B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109D21E064AC5F31C11472A9 /* Pods-Orbital.release.xcconfig */;
+			baseConfigurationReference = 6AB089EF858206AB472B3E50 /* Pods-Orbital.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1116,9 +1254,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orbital/Preview Content\"";
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Orbital/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will need to make use of your location to present relevant information about offers around you.";
@@ -1126,13 +1268,17 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchNuspirit.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MERGED_BINARY_TYPE = none;
+				OTHER_CFLAGS = "-fvisibility=hidden";
 				OTHER_LDFLAGS = "-ObjC";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.Orbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1145,7 +1291,7 @@
 		};
 		5BC6DE332BF0A7A40031650B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7ECC9649C6E9D2438D2C619 /* Pods-OrbitalTests.debug.xcconfig */;
+			baseConfigurationReference = 5DC7816379326E78E7B9CEC4 /* Pods-OrbitalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1153,7 +1299,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.OrbitalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1166,7 +1312,7 @@
 		};
 		5BC6DE342BF0A7A40031650B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E9A7961D4CF4786678A3E68 /* Pods-OrbitalTests.release.xcconfig */;
+			baseConfigurationReference = D57924DBE6399DF7283C1488 /* Pods-OrbitalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1174,7 +1320,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.OrbitalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1187,7 +1333,7 @@
 		};
 		5BC6DE362BF0A7A40031650B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1088C43D6F6E0312A75CAD /* Pods-Orbital-OrbitalUITests.debug.xcconfig */;
+			baseConfigurationReference = 60D321081FF17D00927195CC /* Pods-Orbital-OrbitalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1195,6 +1341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.OrbitalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1208,7 +1355,7 @@
 		};
 		5BC6DE372BF0A7A40031650B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C577FFCF4062BB6D17EEC371 /* Pods-Orbital-OrbitalUITests.release.xcconfig */;
+			baseConfigurationReference = AA060D7C0823EDA7F3A68074 /* Pods-Orbital-OrbitalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1216,6 +1363,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95G7HLQQGC;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.OrbitalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1224,6 +1372,46 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Orbital;
+			};
+			name = Release;
+		};
+		B53275C72C37E8F400757D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F026C51E395AC04C161227D /* Pods-unity-unityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.unityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbital";
+			};
+			name = Debug;
+		};
+		B53275C82C37E8F400757D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30ACBE5963D27159A2F225B2 /* Pods-unity-unityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G7HLQQGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chopeland.unityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbital";
 			};
 			name = Release;
 		};
@@ -1262,6 +1450,15 @@
 			buildConfigurations = (
 				5BC6DE362BF0A7A40031650B /* Debug */,
 				5BC6DE372BF0A7A40031650B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53275CA2C37E8F400757D54 /* Build configuration list for PBXNativeTarget "unityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53275C72C37E8F400757D54 /* Debug */,
+				B53275C82C37E8F400757D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
