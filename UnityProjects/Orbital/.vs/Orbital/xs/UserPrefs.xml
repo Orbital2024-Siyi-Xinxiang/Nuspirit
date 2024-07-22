@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{0EFC79D4-807C-A4C9-04C8-375696099A15}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6ae0d744-a865-4b11-8c58-e2654a08f0c4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ViewControl/CameraController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameStateManager.cs" Line="32" Column="6" />
+      <File FileName="Assets/Scripts/Firebase/FirebaseInitializer.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/SwiftBridging.cs" Line="26" Column="2" />
+      <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" Line="5" Column="18" />
+      <File FileName="Assets/Scripts/Firebase/DataUpdater.cs" Line="25" Column="23" />
+      <File FileName="Assets/Scripts/Firebase/FirebaseStorageManager.cs" Line="29" Column="37" />
+      <File FileName="Assets/Scripts/MultiPlayer/UserManager.cs" Line="30" Column="23" />
+      <File FileName="Assets/Scripts/UI/VenueBooking.cs" Line="67" Column="23" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="14" Column="19" />
+      <File FileName="Assets/Scripts/SystemUtility.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerControl/PlayerController.cs" Line="56" Column="41" />
+      <File FileName="Assets/Scripts/ViewControl/MapTransfer.cs" Line="25" Column="16" />
+      <File FileName="Assets/Scripts/ScriptableObjects/Venue.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/VenueManagement/VenueRenderer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/VenueObjects/Interactable.cs" Line="19" Column="16" />
+      <File FileName="Assets/Scripts/VenueObjects/SolidObject.cs" Line="20" Column="15" />
+      <File FileName="Assets/Scripts/ViewControl/CameraController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Orbital" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Firebase" expanded="True" />
+                <Node name="PlayerControl" expanded="True" />
+                <Node name="ScriptableObjects" expanded="True" />
+                <Node name="VenueManagement" expanded="True" />
+                <Node name="VenueObjects" expanded="True" />
+                <Node name="ViewControl" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
