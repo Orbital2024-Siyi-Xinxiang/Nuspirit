@@ -76,6 +76,7 @@ public class VenueBooking : MonoBehaviour
 
         AssignDayDict();
         availableDict = new Dictionary<string, List<int>>();
+        selectionNums = new List<int>();
     }
 
     public async void InitializeData(VenueBookable data)
@@ -140,13 +141,17 @@ public class VenueBooking : MonoBehaviour
                 TextMeshProUGUI venueCapacityText = venueCapacityTransform.GetComponent<TextMeshProUGUI>();
                 if (venueCapacityText != null)
                 {
-                    venueCapacityText.text = bookableData.capacity.ToString();
+                    venueCapacityText.text = "Capacity: " + bookableData.capacity.ToString();
                 }
             }
             else
             {
                 Debug.LogError("bookableName not found");
             }
+
+
+            // TODO: assign open info and slots as well
+
         }
         else
         {
@@ -261,7 +266,10 @@ public class VenueBooking : MonoBehaviour
     }
     private void ClearAllBookings()
     {
-
+        if (selectionNums.Count == 0)
+        {
+            ShowWarning("No user booking found!");
+        }
     }
 
 

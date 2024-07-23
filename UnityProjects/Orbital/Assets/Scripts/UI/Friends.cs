@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FriendList : MonoBehaviour
+public class Friends : MonoBehaviour
 {
 	// TODO: assign friend in venue prefab
 	public GameObject friendInVenue;

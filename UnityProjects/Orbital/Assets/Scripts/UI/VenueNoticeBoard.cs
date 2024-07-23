@@ -5,6 +5,11 @@ public class VenueNoticeBoard : MonoBehaviour
 { 
     // Reference to the child GameObject
     public GameObject childObject;
+    public DataUpdater dataUpdater;
+    public CommunityChat communityChat;
+    public Friends friendList;
+    public Announcement systemAnnouncement;
+
 
     void Start()
     {
