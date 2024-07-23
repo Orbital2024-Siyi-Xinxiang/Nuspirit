@@ -5,7 +5,9 @@ public class QuitButton : MonoBehaviour
 {
     // Button reference to attach in the Inspector
     public Button backButton;
-    public GameObject UrlSchemeHandler;
+    public UrlSchemeHandler UrlSchemeHandler;
+    public VenueManager venueManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +25,8 @@ public class QuitButton : MonoBehaviour
     void NavigateBackToNativeApp()
     {
         // Construct the URL scheme to navigate back
-        string url = $"swiftUIApp://na/MainMapView/unsubscribe/";
+
+        string url = $"swiftUIApp://na/MainMapView/unsubscribe/{venueManager.venue.id}";
         // Open the URL using Application.OpenURL
         Application.OpenURL(url);
     }

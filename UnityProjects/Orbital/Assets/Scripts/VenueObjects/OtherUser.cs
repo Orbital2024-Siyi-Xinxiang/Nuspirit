@@ -3,8 +3,24 @@ using System.Collections;
 
 public class User : MonoBehaviour
 {
-	// Use this for initialization
-	void OnEnable()
+	public VenueUser userData;
+
+    // Use this for initialization
+
+    public void Initialize(VenueUser data)
+    {
+		if (data != null)
+		{
+			userData = data;
+		}
+		else
+		{
+			Debug.LogError("user data cannot be null!");
+		}
+		
+    }
+
+    void OnEnable()
 	{
 		// when initiated as a user, start at the entrance and start moving about.
 

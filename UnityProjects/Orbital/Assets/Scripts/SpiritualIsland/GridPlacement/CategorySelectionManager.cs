@@ -4,7 +4,7 @@ using TMPro;
 
 public class CategorySelectionManager : MonoBehaviour
 {
-    public CategoryDatabaseSO categoryDatabase;
+    public CategoriesDatabase categoryDatabase;
     public Transform categoryButtonContainer;
     public GameObject categoryButtonPrefab;
     public GameObject assetSelectionUI;

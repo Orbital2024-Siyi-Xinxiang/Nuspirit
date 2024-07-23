@@ -5,6 +5,7 @@ public class BackToLandingView : MonoBehaviour
 {
     // Button reference to attach in the Inspector
     public Button backButton;
+    public UrlSchemeHandler urlSchemeHandler;
 
     // Start is called before the first frame update
     void Start()

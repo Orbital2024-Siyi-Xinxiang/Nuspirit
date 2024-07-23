@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		183327E5D9A427DB1B3EAB79 /* Pods_OrbitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51CAF71EAFED5BDC57C083E /* Pods_OrbitalTests.framework */; };
-		2D118657870FDE6F92F6EF80 /* Pods_Orbital_OrbitalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */; };
 		5B55A5662C0C90500094BEEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B55A5652C0C90500094BEEB /* README.md */; };
 		5BC6DE0A2BF0A7A10031650B /* OrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */; };
 		5BC6DE0E2BF0A7A40031650B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6DE0D2BF0A7A40031650B /* Assets.xcassets */; };
@@ -22,7 +20,6 @@
 		5BC6DE3E2BF0ACA90031650B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE3D2BF0ACA90031650B /* Constants.swift */; };
 		5BC6DE432BF0C3AB0031650B /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE422BF0C3AB0031650B /* LandingView.swift */; };
 		5BC6DE452BF0C3CF0031650B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6DE442BF0C3CF0031650B /* SignInView.swift */; };
-		7049D17B6642B8AAF41D935A /* Pods_unity_unityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */; };
 		B50FCFCE2C4CC75C00C5F8F0 /* URLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */; };
 		B5110A0C2BFB81F000208FC4 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110A0B2BFB81F000208FC4 /* LocationService.swift */; };
 		B5110A532BFC762100208FC4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B5110A522BFC762100208FC4 /* FirebaseAnalytics */; };
@@ -166,7 +163,6 @@
 /* Begin PBXFileReference section */
 		0A6F7E28643A4401060FEC6B /* Pods-unity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity.release.xcconfig"; path = "Target Support Files/Pods-unity/Pods-unity.release.xcconfig"; sourceTree = "<group>"; };
 		30ACBE5963D27159A2F225B2 /* Pods-unity-unityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity-unityTests.release.xcconfig"; path = "Target Support Files/Pods-unity-unityTests/Pods-unity-unityTests.release.xcconfig"; sourceTree = "<group>"; };
-		44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unity_unityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B55A5652C0C90500094BEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5BC6DE062BF0A7A10031650B /* Orbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC6DE092BF0A7A10031650B /* OrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalApp.swift; sourceTree = "<group>"; };
@@ -188,7 +184,6 @@
 		6AB089EF858206AB472B3E50 /* Pods-Orbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.release.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.release.xcconfig"; sourceTree = "<group>"; };
 		6F026C51E395AC04C161227D /* Pods-unity-unityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity-unityTests.debug.xcconfig"; path = "Target Support Files/Pods-unity-unityTests/Pods-unity-unityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		961D379ED358763ADFA7FE39 /* Pods-unity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unity.debug.xcconfig"; path = "Target Support Files/Pods-unity/Pods-unity.debug.xcconfig"; sourceTree = "<group>"; };
-		9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital_OrbitalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA060D7C0823EDA7F3A68074 /* Pods-Orbital-OrbitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital-OrbitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Orbital-OrbitalUITests/Pods-Orbital-OrbitalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B50FCFCD2C4CC75C00C5F8F0 /* URLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandler.swift; sourceTree = "<group>"; };
 		B5110A0B2BFB81F000208FC4 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
@@ -267,11 +262,8 @@
 		B5FE65B92BFDBAC6000D375A /* ManageUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUserService.swift; sourceTree = "<group>"; };
 		B5FE65BC2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(Deprecated)OrientationViewController.swift"; sourceTree = "<group>"; };
 		B5FE65BE2BFDD782000D375A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		C51CAF71EAFED5BDC57C083E /* Pods_OrbitalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrbitalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57924DBE6399DF7283C1488 /* Pods-OrbitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalTests.release.xcconfig"; path = "Target Support Files/Pods-OrbitalTests/Pods-OrbitalTests.release.xcconfig"; sourceTree = "<group>"; };
 		E18A5B2443BEBF970D3A6EC4 /* Pods-Orbital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.debug.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.debug.xcconfig"; sourceTree = "<group>"; };
-		E4E4550CD2D66400041CB4C2 /* Pods_unity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E55AB20FED8FBD8DB9E297D7 /* Pods_Orbital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,7 +320,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183327E5D9A427DB1B3EAB79 /* Pods_OrbitalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +327,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D118657870FDE6F92F6EF80 /* Pods_Orbital_OrbitalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +334,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7049D17B6642B8AAF41D935A /* Pods_unity_unityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,11 +535,6 @@
 			isa = PBXGroup;
 			children = (
 				B5B3E4562C01D6ED008799F2 /* UIKit.framework */,
-				E55AB20FED8FBD8DB9E297D7 /* Pods_Orbital.framework */,
-				9828FECBF1ED30294D575482 /* Pods_Orbital_OrbitalUITests.framework */,
-				C51CAF71EAFED5BDC57C083E /* Pods_OrbitalTests.framework */,
-				E4E4550CD2D66400041CB4C2 /* Pods_unity.framework */,
-				44F3E041790DDEAB67E563AE /* Pods_unity_unityTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

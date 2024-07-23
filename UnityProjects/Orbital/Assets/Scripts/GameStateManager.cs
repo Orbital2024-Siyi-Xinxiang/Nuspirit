@@ -26,13 +26,15 @@ public class GameStateManager : MonoBehaviour
         // for test purpose only load 0(the first floor of a the venue set manually in firestoremanager)
     }
 
+    // called by urlSchemeHandler
     public void SetVenueId(string id)
     {
         venueId = int.Parse(id);
         Initialize();
     }
 
-    private void Start()
+    // TODO: when testing uncomment this, for production commented
+    private void OnEnable()
     {
         Initialize();
     }

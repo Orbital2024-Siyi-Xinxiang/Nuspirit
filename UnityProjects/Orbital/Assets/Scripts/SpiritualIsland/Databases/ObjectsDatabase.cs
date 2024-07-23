@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 
 [CreateAssetMenu(fileName = "ObjectsDatabase", menuName = "ScriptableObjects/ObjectsDatabase")]
-public class ObjectsDatabaseSO : ScriptableObject
+public class ObjectsDatabase : ScriptableObject
 {
     [System.Serializable]
     public class ObjectData

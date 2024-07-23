@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "CategoryDatabase", menuName = "ScriptableObjects/CategoryDatabase")]
-public class CategoryDatabaseSO : ScriptableObject
+public class CategoriesDatabase : ScriptableObject
 {
     [System.Serializable]
     public class CategoryData

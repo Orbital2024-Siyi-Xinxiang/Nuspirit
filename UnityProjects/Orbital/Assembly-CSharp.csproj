@@ -92,6 +92,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/Interactable.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/Databases/CategoriesDatabase.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/Scripts/Firebase/DataUpdater.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/Facility.cs" />
@@ -105,7 +106,6 @@
     <Compile Include="Assets/Scripts/VenueObjects/OtherUser.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" />
-    <Compile Include="Assets/Scripts/SpiritualIsland/Databases/ObjectDatabase.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerController.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" />
     <Compile Include="Assets/Scripts/ViewControl/MapTransfer.cs" />
@@ -136,6 +136,7 @@
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/ModeManager.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/Databases/ObjectsDatabase.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/FirebaseDataManager.cs" />
     <Compile Include="Assets/Scripts/VenueManagement/SpriteUtility.cs" />
@@ -149,7 +150,6 @@
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueUser.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/RemainVisible.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
-    <Compile Include="Assets/Scripts/SpiritualIsland/Databases/CategoryDatabase.cs" />
     <Compile Include="Assets/Playables/VenuePlayableBehaviour.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" />

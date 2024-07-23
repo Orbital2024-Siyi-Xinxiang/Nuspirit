@@ -6,7 +6,7 @@ public class AssetSelectionManager : MonoBehaviour
 {
     private string selectedCategory;
     public Transform assetButtonContainer;
-    public ObjectsDatabaseSO objectsDatabase;
+    public ObjectsDatabase objectsDatabase;
     public ObjectPlacer objectPlacer;
     public GameObject assetButtonPrefab;
     public GameObject assetSelectionUI;

@@ -15,7 +15,8 @@ public class FirebaseDataManager : MonoBehaviour
     public FirebaseStorageManager storage;
     public string userId;
     public UrlSchemeHandler urlHandler;
-    public ObjectsDatabaseSO objectsDatabase;
+    public ObjectsDatabase objectsDatabase;
+    public CategoriesDatabase categoriesDatabase;
 
     private FirebaseFirestore db;
 
@@ -49,12 +50,13 @@ public class FirebaseDataManager : MonoBehaviour
                     GameObject prefab = await LoadPrefabFromAssetId(assetId);
                     if (prefab != null)
                     {
-                        ObjectsDatabaseSO.ObjectData objectData = new ObjectsDatabaseSO.ObjectData
+                        ObjectsDatabase.ObjectData objectData = new ObjectsDatabase.ObjectData
                         {
                             category = category,
                             prefab = prefab,
                             availableQuantity = availableQuantity
                         };
+                        // TODO: populate categoriesDatabase and objectsDatabase
                         // Add the object data to the database (you may need to extend the ScriptableObject to handle this)
                     }
                 }
