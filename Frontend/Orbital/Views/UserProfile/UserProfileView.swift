@@ -237,6 +237,8 @@ struct ProfileImageView: View {
     }
 }
 
+// TODO: add user statistics summary under basic info
+
 struct UserInfoView: View {
     var userProfile: UserProfile
 

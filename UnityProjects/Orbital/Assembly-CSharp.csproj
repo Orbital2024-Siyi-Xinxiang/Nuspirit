@@ -133,6 +133,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/HighlightOutine.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/CategorySelectionManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/ModeManager.cs" />
@@ -146,7 +147,6 @@
     <Compile Include="Assets/Scripts/AssetBundles/AssetBundleCreator.cs" />
     <Compile Include="Assets/Scripts/SceneLoader.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
-    <Compile Include="Assets/Scripts/SpiritualIsland/HighlightOurline.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueUser.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/RemainVisible.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />

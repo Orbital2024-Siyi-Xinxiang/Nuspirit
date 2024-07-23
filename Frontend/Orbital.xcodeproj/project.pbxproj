@@ -76,7 +76,7 @@
 		B575CCC32C08EF3B00CBE537 /* UnityFrameworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */; };
 		B575CCC52C08EF4600CBE537 /* (Deprecated))UnityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */; };
 		B57EB9DF2C21F1C200EA1742 /* UserContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */; };
-		B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */; };
+		B57EB9E12C27E10200EA1742 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E02C27E10200EA1742 /* Statistics.swift */; };
 		B57EB9E32C27EE7D00EA1742 /* AssetFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */; };
 		B57EB9E52C27FEB000EA1742 /* FirebaseStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */; };
 		B584507F2C326BF800234AEC /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584507E2C326BF800234AEC /* Avatar.swift */; };
@@ -212,7 +212,7 @@
 		B575CCC22C08EF3B00CBE537 /* UnityFrameworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityFrameworkService.swift; sourceTree = "<group>"; };
 		B575CCC42C08EF4600CBE537 /* (Deprecated))UnityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "(Deprecated))UnityViewController.swift"; sourceTree = "<group>"; };
 		B57EB9DE2C21F1C200EA1742 /* UserContributionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContributionService.swift; sourceTree = "<group>"; };
-		B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyStatistics.swift; sourceTree = "<group>"; };
+		B57EB9E02C27E10200EA1742 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		B57EB9E22C27EE7D00EA1742 /* AssetFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetchingService.swift; sourceTree = "<group>"; };
 		B57EB9E42C27FEB000EA1742 /* FirebaseStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageService.swift; sourceTree = "<group>"; };
 		B584507E2C326BF800234AEC /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
@@ -498,7 +498,7 @@
 				B593936A2C0A2B680025B3D8 /* ContactsView.swift */,
 				B5B05A3D2C1BF338009AFE94 /* ContactDetailView.swift */,
 				B5B05A392C1BEE5E009AFE94 /* SystemSettingsView.swift */,
-				B57EB9E02C27E10200EA1742 /* PersonalStudyStatistics.swift */,
+				B57EB9E02C27E10200EA1742 /* Statistics.swift */,
 				B5D0C84D2C2E4E2100D60F5A /* AvatarDesign.swift */,
 			);
 			path = UserProfile;
@@ -928,7 +928,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57EB9E12C27E10200EA1742 /* PersonalStudyStatistics.swift in Sources */,
+				B57EB9E12C27E10200EA1742 /* Statistics.swift in Sources */,
 				B5FE65BD2BFDCD42000D375A /* (Deprecated)OrientationViewController.swift in Sources */,
 				B57442402C12953F009F6616 /* FirebaseAuthService.swift in Sources */,
 				B58450812C326C1F00234AEC /* AvartarService.swift in Sources */,

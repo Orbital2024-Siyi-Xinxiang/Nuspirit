@@ -20,7 +20,6 @@ public class VenueBooking : MonoBehaviour
 
     public GameObject booked;
     public GameObject unBooked;
-    public GameObject bookerPanel;
     public TMP_Dropdown chooseDayOptions;
     public TMP_Dropdown chooseTimeOptions;
 
