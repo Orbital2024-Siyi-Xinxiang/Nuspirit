@@ -20,12 +20,12 @@ public class DataUpdater : MonoBehaviour
 
     private List<string> friendList;
 
-
     public UserManager userManager;
 
+    public VenueNoticeBoard venueNoticeBoard;
 
 
-
+    // TODO: update venue notice board according to different intervals
     public void StartUpdatingSystemAnnouncement()
     {
         // get current venue (only need to update data for current venue)

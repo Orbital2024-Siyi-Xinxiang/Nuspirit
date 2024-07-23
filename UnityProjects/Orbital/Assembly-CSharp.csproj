@@ -70,10 +70,10 @@
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBackground.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/Venue.cs" />
+    <Compile Include="Assets/Scripts/UI/Friends.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueTransferPoint.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueIInteractable.cs" />
-    <Compile Include="Assets/Scripts/UI/SystemAnnouncement.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueDatabase.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
@@ -106,7 +106,6 @@
     <Compile Include="Assets/Scripts/UI/QuitButton.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/OtherUser.cs" />
-    <Compile Include="Assets/Scripts/UI/FriendList.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerController.cs" />
@@ -154,6 +153,7 @@
     <Compile Include="Assets/Scripts/UI/ConfirmAction.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueUser.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/RemainVisible.cs" />
+    <Compile Include="Assets/Scripts/UI/Announcement.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
     <Compile Include="Assets/Playables/VenuePlayableBehaviour.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" />

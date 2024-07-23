@@ -62,9 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.cs" />
-    <Compile Include="Assets\Scripts\UI\SystemAnnouncement.cs" />
+    <Compile Include="Assets\Scripts\UI\Announcement.cs" />
     <Compile Include="Assets\Scripts\UI\VenueInfo.cs" />
-    <Compile Include="Assets\Scripts\UI\NewMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\UI\FriendList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef" />

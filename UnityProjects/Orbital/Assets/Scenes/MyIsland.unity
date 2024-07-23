@@ -274,6 +274,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goToFurnitureMarket: {fileID: 1892692112}
+  changeMode: {fileID: 1196427767}
+  player: {fileID: 0}
 --- !u!1 &148091828
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backButton: {fileID: 148091830}
+  urlSchemeHandler: {fileID: 0}
 --- !u!1 &198528965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,8 +1826,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1234992726}
   m_HandleRect: {fileID: 1234992725}
   m_Direction: 0
-  m_Value: -0.00000027060162
-  m_Size: 0.47615224
+  m_Value: -0.00000035886856
+  m_Size: 0.41979367
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2463,9 +2466,6 @@ MonoBehaviour:
     - m_Text: Explore
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Option C
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2787,6 +2787,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db9e532b188b44e09e04c30a8ed1c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gridData: {fileID: 0}
+  redoButton: {fileID: 1599574938}
+  trash: {fileID: 0}
 --- !u!1 &1350749928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,6 +2823,7 @@ MonoBehaviour:
   userId: 
   urlHandler: {fileID: 672289746}
   objectsDatabase: {fileID: 11400000, guid: 7cd8ee0f9d8ec4ec2b6dbc1ed06a719d, type: 2}
+  categoriesDatabase: {fileID: 11400000, guid: a0c975113280e401e87e92b916a3fe7c, type: 2}
 --- !u!4 &1350749930
 Transform:
   m_ObjectHideFlags: 0
@@ -3625,8 +3629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -110.44, y: 318.21}
-  m_SizeDelta: {x: 262.6473, y: 117.1104}
+  m_AnchoredPosition: {x: -110.44, y: 334.33}
+  m_SizeDelta: {x: 262.6473, y: 90.651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599574938
 MonoBehaviour:
@@ -4837,7 +4841,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1195045043}
   m_HandleRect: {fileID: 1195045042}
   m_Direction: 2
-  m_Value: 1.0000013
+  m_Value: 1.0000014
   m_Size: 0.19724731
   m_NumberOfSteps: 0
   m_OnValueChanged:

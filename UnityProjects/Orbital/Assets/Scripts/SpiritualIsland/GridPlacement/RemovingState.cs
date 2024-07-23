@@ -1,12 +1,22 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RemovingState : MonoBehaviour, IBuildingState
 {
-    private GridData gridData;
+    public GridData gridData;
+    public Button redoButton;
+    public Button trash;
+    GameObject objectToRemove;
+
+
+    public void SetObjectToRemove(GameObject obj)
+    {
+        objectToRemove = obj;
+    }
 
     void Start()
     {
-        gridData = FindObjectOfType<GridData>();
+        
     }
 
     public void OnEnterState()
