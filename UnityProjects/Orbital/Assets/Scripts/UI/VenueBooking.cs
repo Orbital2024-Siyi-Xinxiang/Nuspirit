@@ -20,6 +20,8 @@ public class VenueBooking : MonoBehaviour
 
     public GameObject booked;
     public GameObject unBooked;
+
+    // TODO: instead of assigning from the scene, get the two dropdowns from prefab "bookingSelectionPrefab"
     public TMP_Dropdown chooseDayOptions;
     public TMP_Dropdown chooseTimeOptions;
 
@@ -28,7 +30,7 @@ public class VenueBooking : MonoBehaviour
     public Button createBookingButton;
     public Button removeBookingButton;
     public Button clearAllBookingsButton;
-    public GameObject bookingSelection;
+    public GameObject bookingSelectionPrefab;
 
     private static float width;
     private static float addHeight;
@@ -220,8 +222,6 @@ public class VenueBooking : MonoBehaviour
         createBookingButton.onClick.AddListener(CreateBooking);
         removeBookingButton.onClick.AddListener(RemoveBooking);
         clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
-        return Task.CompletedTask;
-
         // Clear existing options
         chooseDayOptions.ClearOptions();
 
@@ -247,7 +247,7 @@ public class VenueBooking : MonoBehaviour
     {
 
         // create a new BookingSelection from prefab
-        GameObject bookingSelection = Instantiate(BookingSelectionPrefab, VenueBookingPanel.transform);
+        GameObject bookingSelection = Instantiate(bookingSelectionPrefab, this.transform);
         // TODO: assign the choose time options and choose day options
     }
 
