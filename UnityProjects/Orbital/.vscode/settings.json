@@ -56,5 +56,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Orbital.sln"
+    "dotnet.defaultSolution": "Orbital.sln",
+    "editor.semanticHighlighting.enabled": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "C_Cpp.errorSquiggles": "enabled",
 }

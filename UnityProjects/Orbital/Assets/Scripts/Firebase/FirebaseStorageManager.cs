@@ -5,9 +5,8 @@ using UnityEngine.Networking;
 using System.Threading.Tasks;
 
 public class FirebaseStorageManager : MonoBehaviour
-    
-{
 
+{
     public async Task<Texture2D> LoadImageAsync(string imageUrl)
     {
 

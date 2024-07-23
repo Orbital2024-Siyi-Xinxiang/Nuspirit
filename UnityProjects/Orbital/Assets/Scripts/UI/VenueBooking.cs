@@ -25,6 +25,11 @@ public class VenueBooking : MonoBehaviour
 
     public VenueManager venueManager;
 
+    public Button createBookingButton;
+    public Button removeBookingButton;
+
+    public Button clearAllBookingsButton;
+
     private static float width;
     private static float addHeight;
     private static float height;
@@ -36,6 +41,7 @@ public class VenueBooking : MonoBehaviour
     private Dictionary<string, List<int>> availableDict;
 
     private List<int> selectedSlots = new List<int>();
+    private List<string> selectedDays = new List<string>();
 
     // Singleton instance
     public static VenueBooking Instance;
@@ -242,7 +248,7 @@ public class VenueBooking : MonoBehaviour
             List<int> availableSlots = availableDict[day];
 
             // Convert slots to strings and add to dropdown options
-            List<string> timeOptions = availableSlots.Select(slot => $"{slot / 100:00}:{slot % 100:00} - {slot / 100:00 + 1}:{slot % 100:00} ").ToList();
+            List<string> timeOptions = availableSlots.Select(slot => $"{slot / 100:00}:{slot % 100:00} - {slot / 100 + 1:00}:{slot % 100:00} ").ToList();
             chooseTimeOptions.AddOptions(timeOptions);
 
             // Add listener for selecting a time slot

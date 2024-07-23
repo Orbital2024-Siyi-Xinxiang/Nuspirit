@@ -1,0 +1,11 @@
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/Assembly-CSharp.deps.json
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/Assembly-CSharp.pdb
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/FirebaseMessagingActivityGenerator.pdb
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.csproj.AssemblyReference.cache
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.csproj.CoreCompileInputs.cache
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.sourcelink.json
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.csproj.CopyComplete
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.dll
+/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/Assembly-CSharp/Assembly-CSharp.pdb

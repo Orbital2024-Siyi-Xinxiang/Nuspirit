@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Assembly-CSharp/1.0.0": {
+        "dependencies": {
+          "FirebaseMessagingActivityGenerator": "1.0.0"
+        },
+        "runtime": {
+          "Assembly-CSharp.dll": {}
+        }
+      },
+      "FirebaseMessagingActivityGenerator/1.0.0": {
+        "runtime": {
+          "FirebaseMessagingActivityGenerator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirebaseMessagingActivityGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
