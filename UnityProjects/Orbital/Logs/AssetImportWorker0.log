@@ -465,3 +465,14 @@ Memory consumption went from 139.9 MB to 139.1 MB.
 Total: 6.761125 ms (FindLiveObjects: 0.349583 ms CreateObjectMapping: 0.133042 ms MarkObjects: 4.893458 ms  DeleteObjects: 1.384833 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Detached: 5 00008110-001250421A8A401E
+[usbmuxd] Detached: 5 00008110-001250421A8A401E
+========================================================================
+Received Import Request.
+  Time since last request: 2192.902254 seconds.
+  path: Assets/Scripts/UI/QuitButton.cs
+  artifactKey: Guid(d16b201bdd4a847558c88618e45b4630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/QuitButton.cs using Guid(d16b201bdd4a847558c88618e45b4630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f5091365aca56c98755de66805fc22e7') in 0.052891709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

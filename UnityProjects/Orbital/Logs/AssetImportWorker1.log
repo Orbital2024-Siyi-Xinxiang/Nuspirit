@@ -465,3 +465,5 @@ Memory consumption went from 139.4 MB to 138.4 MB.
 Total: 6.716209 ms (FindLiveObjects: 0.349625 ms CreateObjectMapping: 0.185625 ms MarkObjects: 5.182125 ms  DeleteObjects: 0.998542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Detached: 5 00008110-001250421A8A401E
+[usbmuxd] Detached: 5 00008110-001250421A8A401E
