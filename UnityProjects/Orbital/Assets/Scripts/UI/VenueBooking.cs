@@ -21,7 +21,7 @@ public class VenueBooking : MonoBehaviour
     public GameObject booked;
     public GameObject unBooked;
 
-    // TODO: instead of assigning from the scene, get the two dropdowns from prefab "bookingSelectionPrefab"
+    // TODO: delete this. instead of assigning from the scene, get the two dropdowns from prefab "bookingSelectionPrefab"
     public TMP_Dropdown chooseDayOptions;
     public TMP_Dropdown chooseTimeOptions;
 
@@ -31,6 +31,7 @@ public class VenueBooking : MonoBehaviour
     public Button removeBookingButton;
     public Button clearAllBookingsButton;
     public GameObject bookingSelectionPrefab;
+    public ConfirmAction confirmActionPanel;
 
     private static float width;
     private static float addHeight;

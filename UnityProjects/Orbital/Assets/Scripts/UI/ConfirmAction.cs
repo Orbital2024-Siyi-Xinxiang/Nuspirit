@@ -9,6 +9,7 @@ public class ConfirmAction : MonoBehaviour
     public GameObject yesButton;
     public GameObject cancelButton;
     public Toggle neverShowAgain;
+    public VenueManager venueManager;
 
 
     public void Initialize(string message, int level)
@@ -45,9 +46,8 @@ public class ConfirmAction : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void NeverShow()
     {
-        
+
     }
 }

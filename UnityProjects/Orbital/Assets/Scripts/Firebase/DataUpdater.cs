@@ -10,9 +10,47 @@ using System.Collections.Generic;
 public class DataUpdater : MonoBehaviour
 {
     FirebaseFirestore db;
+
+    // TODO: assign gameobjects from scene
     public VenueManager venueManager;
+
+
     private Venue venue;
     private VenueBookable[] venueBookables;
+
+    private List<string> friendList;
+
+
+    public UserManager userManager;
+
+
+
+
+    public void StartUpdatingSystemAnnouncement()
+    {
+        // get current venue (only need to update data for current venue)
+        db = FirebaseFirestore.DefaultInstance;
+    }
+
+    public void StartUpdatingFriendsList()
+    {
+        // get current venue (only need to update data for current venue)
+        db = FirebaseFirestore.DefaultInstance;
+    }
+
+    public void StartUpdatingCommunityChat()
+    {
+        // get current venue (only need to update data for current venue)
+        db = FirebaseFirestore.DefaultInstance;
+    }
+
+    public void StartUpdatingUsers()
+    {
+        // get current venue (only need to update data for current venue)
+        db = FirebaseFirestore.DefaultInstance;
+    }
+
+
 
     public void StartUpdatingBookables()
     {
@@ -28,7 +66,7 @@ public class DataUpdater : MonoBehaviour
         {
             //Debug.Log("updating information");
             UpdateBookableAvailability();
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(10);
         }
     }
 
