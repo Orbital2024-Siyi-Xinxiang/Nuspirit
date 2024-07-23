@@ -286,3 +286,14 @@ Memory consumption went from 133.6 MB to 132.2 MB.
 Total: 5.355583 ms (FindLiveObjects: 0.225833 ms CreateObjectMapping: 0.114708 ms MarkObjects: 4.097708 ms  DeleteObjects: 0.916958 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 58791.300170 seconds.
+  path: Assets/Art/Fonts/PressStart2P-Regular.ttf
+  artifactKey: Guid(453093ea5ddd242eea8b753e8d493dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fonts/PressStart2P-Regular.ttf using Guid(453093ea5ddd242eea8b753e8d493dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '32ed15a45a5dac04d35bb92dc110b3e3') in 0.299580625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
