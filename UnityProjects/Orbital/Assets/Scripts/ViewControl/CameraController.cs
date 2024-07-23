@@ -8,6 +8,7 @@ public class CameraController : MonoBehaviour
     private Camera mainCamera;
     public static float zoomSpeed = 0.1f;
     public static float minZoom = 5f;
+
     public static float maxZoom = 20f;
 
     private void Start()

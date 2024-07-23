@@ -9,9 +9,9 @@ public class GameStateManager : MonoBehaviour
     public VenueDatabase VenueDatabase;
     public VenueManager venueManager;
     public SceneLoader sceneLoader;
-
     public int venueId = 54619721;
     //public string testLevelId = "0";
+
 
 
     public static bool justTransferred = false;
