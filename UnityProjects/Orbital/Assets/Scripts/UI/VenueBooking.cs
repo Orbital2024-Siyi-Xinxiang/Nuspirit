@@ -32,6 +32,7 @@ public class VenueBooking : MonoBehaviour
     public Button clearAllBookingsButton;
     public GameObject bookingSelectionPrefab;
     public ConfirmAction confirmActionPanel;
+    public GameObject warningPanel;
 
     private static float width;
     private static float addHeight;
@@ -45,6 +46,8 @@ public class VenueBooking : MonoBehaviour
 
     private List<int> selectedSlots = new List<int>();
     private List<string> selectedDays = new List<string>();
+
+    private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's 
 
     // Singleton instance
     public static VenueBooking Instance;

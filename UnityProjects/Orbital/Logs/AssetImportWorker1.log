@@ -3444,3 +3444,131 @@ Memory consumption went from 188.9 MB to 187.4 MB.
 Total: 6.924500 ms (FindLiveObjects: 0.270667 ms CreateObjectMapping: 0.174750 ms MarkObjects: 5.510917 ms  DeleteObjects: 0.967917 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 704.000195 seconds.
+  path: Assets/Scenes/SpecificVenue.unity
+  artifactKey: Guid(7808ce761a4874947bfd65242444876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SpecificVenue.unity using Guid(7808ce761a4874947bfd65242444876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '9a66c7d271a36e8458ead189b494f393') in 0.019470417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.63 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4681 unused Assets / (0.7 MB). Loaded Objects now: 5702.
+Memory consumption went from 173.1 MB to 172.4 MB.
+Total: 24.218334 ms (FindLiveObjects: 0.511208 ms CreateObjectMapping: 0.268209 ms MarkObjects: 22.468959 ms  DeleteObjects: 0.969500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x316987000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 9 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1490ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4734 unused Assets / (1.5 MB). Loaded Objects now: 5704.
+Memory consumption went from 190.2 MB to 188.8 MB.
+Total: 7.422250 ms (FindLiveObjects: 0.276334 ms CreateObjectMapping: 0.157583 ms MarkObjects: 5.785458 ms  DeleteObjects: 1.202250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 646.027097 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(da12804d4e4474574b22bcd22392e4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(da12804d4e4474574b22bcd22392e4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ae4bd726b4418ab691b80a089172ab1c') in 0.006824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087416 seconds.
+  path: Assets/Prefabs/Background.prefab
+  artifactKey: Guid(d20c9d461615d47ce971d49190f4c8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Background.prefab using Guid(d20c9d461615d47ce971d49190f4c8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3a3884e301aa999d306faba1b8202687') in 0.230278375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/COM1L1Background.prefab
+  artifactKey: Guid(ce5f29ab63dda4d4a818d18b39fbbdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/COM1L1Background.prefab using Guid(ce5f29ab63dda4d4a818d18b39fbbdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'd118750703cf938d15b3b8580c28d1cf') in 0.193726333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 368
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.696154 seconds.
+  path: Assets/Prefabs/UI
+  artifactKey: Guid(d917d8c0f20d6413eb809a46ad83985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI using Guid(d917d8c0f20d6413eb809a46ad83985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4e21e86304fd4a9e8290de0e2bae595a') in 0.000390125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062122 seconds.
+  path: Assets/Prefabs/UI/Booked.prefab
+  artifactKey: Guid(a4dff09b59bad47bcae4b650e57b3198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Booked.prefab using Guid(a4dff09b59bad47bcae4b650e57b3198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ebea528b48d4948c15d470c0936e3941') in 0.014680583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
