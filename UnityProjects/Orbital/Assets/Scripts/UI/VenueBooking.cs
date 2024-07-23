@@ -23,12 +23,12 @@ public class VenueBooking : MonoBehaviour
     public TMP_Dropdown chooseDayOptions;
     public TMP_Dropdown chooseTimeOptions;
 
+    //TODO: assign in unity editor
     public VenueManager venueManager;
-
     public Button createBookingButton;
     public Button removeBookingButton;
-
     public Button clearAllBookingsButton;
+    public GameObject bookingSelection;
 
     private static float width;
     private static float addHeight;
@@ -216,6 +216,12 @@ public class VenueBooking : MonoBehaviour
 
     private Task RefreshUserBookingPanel()
     {
+        // add listeners to three buttons for managing booking selections
+        createBookingButton.onClick.AddListener(CreateBooking);
+        removeBookingButton.onClick.AddListener(RemoveBooking);
+        clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
+        return Task.CompletedTask;
+
         // Clear existing options
         chooseDayOptions.ClearOptions();
 
@@ -236,6 +242,24 @@ public class VenueBooking : MonoBehaviour
 
         return Task.CompletedTask;
     }
+
+    private void CreateBooking()
+    {
+
+        // create a new BookingSelection from prefab
+        GameObject bookingSelection = Instantiate(BookingSelectionPrefab, VenueBookingPanel.transform);
+        // TODO: assign the choose time options and choose day options
+    }
+
+    private void RemoveBooking()
+    {
+
+    }
+    private void ClearAllBookings()
+    {
+
+    }
+
 
     private void UpdateTimeOptions(string day)
     {
