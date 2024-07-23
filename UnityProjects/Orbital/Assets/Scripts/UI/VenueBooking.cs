@@ -424,4 +424,24 @@ public class VenueBooking : MonoBehaviour
         dayDict.Add("sat", 6);
         dayDict.Add("sun", 0);
     }
+
+    // Method to show the warning message
+    private void ShowWarning(string message)
+    {
+        // Find the first child and get its TMP_Text component
+        TMP_Text warningMessage = warningPanel.transform.GetChild(0).GetComponent<TMP_Text>();
+
+        if (warningMessage != null)
+        {
+            // Set the warning message text
+            warningMessage.text = message;
+
+            // Activate the warning panel
+            warningPanel.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("Warning message TMP_Text component not found in the first child of warningPanel.");
+        }
+    }
 }
