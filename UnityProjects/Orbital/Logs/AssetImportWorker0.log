@@ -476,3 +476,13 @@ Start importing Assets/Scripts/UI/QuitButton.cs using Guid(d16b201bdd4a847558c88
  -> (artifact id: 'f5091365aca56c98755de66805fc22e7') in 0.052891709 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.62 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4676 unused Assets / (1.0 MB). Loaded Objects now: 5329.
+Memory consumption went from 123.9 MB to 122.9 MB.
+Total: 45.761292 ms (FindLiveObjects: 0.675208 ms CreateObjectMapping: 0.146958 ms MarkObjects: 43.853125 ms  DeleteObjects: 1.085125 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -1,22 +1,15 @@
 ﻿<Properties StartupConfiguration="{0EFC79D4-807C-A4C9-04C8-375696099A15}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9a174add-eb6c-4d8c-872e-f30b72f19d15" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/SystemSettings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerControl/PersistentUI.cs">
     <Files>
       <File FileName="Assets/Scripts/GameStateManager.cs" />
       <File FileName="Assets/Scripts/Firebase/FirebaseInitializer.cs" />
       <File FileName="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
-      <File FileName="Assets/Scripts/Firebase/DataUpdater.cs" />
+      <File FileName="Assets/Scripts/Firebase/DataUpdater.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Firebase/FirebaseStorageManager.cs" />
       <File FileName="Assets/Scripts/MultiPlayer/UserManager.cs" />
       <File FileName="Assets/Scripts/UI/VenueBooking.cs" />
       <File FileName="Assets/Scripts/SceneLoader.cs" />
-      <File FileName="Assets/Scripts/PlayerControl/PlayerController.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ViewControl/MapTransfer.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/Venue.cs" />
       <File FileName="Assets/Scripts/VenueManagement/VenueRenderer.cs" />
@@ -24,7 +17,11 @@
       <File FileName="Assets/Scripts/VenueObjects/SolidObject.cs" />
       <File FileName="Assets/Scripts/ViewControl/CameraController.cs" />
       <File FileName="Assets/Scripts/UI/SystemSettings.cs" Line="37" Column="1" />
-      <File FileName="Assets/Scripts/AudioAndEffects/AudioManager.cs" Line="44" Column="9" />
+      <File FileName="Assets/Scripts/AudioAndEffects/AudioManager.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/UI/QuitButton.cs" Line="8" Column="29" />
+      <File FileName="Assets/Scripts/PlayerControl/PersistentUI.cs" Line="13" Column="10" />
+      <File FileName="Assets/Scripts/PlayerControl/PersistentEventSystem.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/PlayerControl/Joystick.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,11 +31,11 @@
               <Node name="Scripts" expanded="True">
                 <Node name="AudioAndEffects" expanded="True" />
                 <Node name="Firebase" expanded="True" />
-                <Node name="PlayerControl" expanded="True" />
-                <Node name="ScriptableObjects" expanded="True" />
-                <Node name="UI" expanded="True">
-                  <Node name="SystemSettings.cs" selected="True" />
+                <Node name="PlayerControl" expanded="True">
+                  <Node name="PersistentUI.cs" selected="True" />
                 </Node>
+                <Node name="ScriptableObjects" expanded="True" />
+                <Node name="UI" expanded="True" />
                 <Node name="VenueManagement" expanded="True" />
                 <Node name="VenueObjects" expanded="True" />
                 <Node name="ViewControl" expanded="True" />
@@ -49,4 +46,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5999096d-ff43-478b-a795-dfcd5c1e647d" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

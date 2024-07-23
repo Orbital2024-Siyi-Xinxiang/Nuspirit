@@ -467,3 +467,13 @@ Total: 6.716209 ms (FindLiveObjects: 0.349625 ms CreateObjectMapping: 0.185625 m
 Prepare: number of updated asset objects reloaded= 0
 [usbmuxd] Detached: 5 00008110-001250421A8A401E
 [usbmuxd] Detached: 5 00008110-001250421A8A401E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.58 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4676 unused Assets / (1.0 MB). Loaded Objects now: 5329.
+Memory consumption went from 123.2 MB to 122.3 MB.
+Total: 51.884833 ms (FindLiveObjects: 0.349458 ms CreateObjectMapping: 0.143458 ms MarkObjects: 50.395833 ms  DeleteObjects: 0.995417 ms)
+
+Prepare: number of updated asset objects reloaded= 0

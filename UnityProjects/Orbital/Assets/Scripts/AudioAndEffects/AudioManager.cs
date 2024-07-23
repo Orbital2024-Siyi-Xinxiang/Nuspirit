@@ -41,7 +41,7 @@ public class AudioManager : MonoBehaviour
 
     public void UpdateSettings()
     {
-        
+         
     }
 
     // Add other AudioManager methods here...
