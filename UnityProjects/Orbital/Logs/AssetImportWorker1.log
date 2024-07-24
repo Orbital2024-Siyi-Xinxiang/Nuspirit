@@ -236,3 +236,70 @@ Memory consumption went from 114.3 MB to 113.1 MB.
 Total: 6.929292 ms (FindLiveObjects: 0.284875 ms CreateObjectMapping: 0.130750 ms MarkObjects: 5.779500 ms  DeleteObjects: 0.733959 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x32640b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.538 seconds
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Refreshing native plugins compatible for Editor in 5.43 ms, found 9 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.54 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4734 unused Assets / (1.4 MB). Loaded Objects now: 5330.
+Memory consumption went from 133.5 MB to 132.1 MB.
+Total: 6.963667 ms (FindLiveObjects: 0.261458 ms CreateObjectMapping: 0.160584 ms MarkObjects: 5.365541 ms  DeleteObjects: 1.175625 ms)
+
+Prepare: number of updated asset objects reloaded= 0

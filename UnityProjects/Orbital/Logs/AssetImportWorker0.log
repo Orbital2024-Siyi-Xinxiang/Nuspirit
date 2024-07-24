@@ -245,3 +245,106 @@ Start importing Assets/Firebase using Guid(675c50706498c4c5098aedcaece56df9) Imp
  -> (artifact id: 'f977595061b1a59e4b6722908d7dfb6f') in 0.000282416 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17ff87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.539 seconds
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Refreshing native plugins compatible for Editor in 5.43 ms, found 9 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase 1/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Assembly with name 'FirebaseMessagingActivityGenerator' already exists (Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef)
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1290ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4734 unused Assets / (1.4 MB). Loaded Objects now: 5330.
+Memory consumption went from 131.4 MB to 129.9 MB.
+Total: 7.018459 ms (FindLiveObjects: 0.261375 ms CreateObjectMapping: 0.159250 ms MarkObjects: 5.432916 ms  DeleteObjects: 1.164667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.310074 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(be626a2a201584dc6b1d11861458aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(be626a2a201584dc6b1d11861458aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '11fda49cb573dc4d77273cac6c268652') in 0.001186833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.306763 seconds.
+  path: Assets/Scenes/SpecificVenue.unity
+  artifactKey: Guid(7808ce761a4874947bfd65242444876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SpecificVenue.unity using Guid(7808ce761a4874947bfd65242444876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b6ff9b35726cd1f4cdac475e6636ae33') in 0.000359583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.852200 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(869ddf8a1ddca4d44b2319e392d5a40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(869ddf8a1ddca4d44b2319e392d5a40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6c8db164e97f03f40b27db63f15156fe') in 0.000369458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.003545 seconds.
+  path: Assets/Scripts/GameStateManager.cs
+  artifactKey: Guid(41a64afdebb8a43819b539b465224cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameStateManager.cs using Guid(41a64afdebb8a43819b539b465224cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'fcab5ec62f33657fcbd15040c4623def') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
