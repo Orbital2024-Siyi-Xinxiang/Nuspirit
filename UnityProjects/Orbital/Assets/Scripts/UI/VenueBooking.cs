@@ -34,6 +34,7 @@ public class VenueBooking : MonoBehaviour
     public ConfirmAction confirmActionPanel;
     public GameObject warningPanel;
     public UrlSchemeHandler urlSchemeHandler;
+    public GameObject dateTitles;
 
 
     // size data for booked and unbooked layouts
@@ -178,6 +179,8 @@ public class VenueBooking : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+
+        AssignDateInfo();
 
         // Iterate through the booked slots
         foreach (var dayEntry in bookableData.booked)
@@ -481,5 +484,11 @@ public class VenueBooking : MonoBehaviour
         singleSlotSelectionWidth = 0;
         initBookingX = 0;
         initBookingY = 0;
+    }
+
+
+    private void AssignDateInfo()
+    {
+
     }
 }

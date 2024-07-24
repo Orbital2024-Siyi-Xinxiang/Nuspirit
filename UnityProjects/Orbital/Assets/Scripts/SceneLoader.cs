@@ -4,6 +4,12 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public string sceneToLoad;
+    private string userId;
+
+    public void SetUserId(string userId)
+    {
+        this.userId = userId;
+    }
 
     public void SetUserScene(string scene)
     {
