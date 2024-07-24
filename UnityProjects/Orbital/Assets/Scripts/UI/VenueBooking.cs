@@ -27,6 +27,7 @@ public class VenueBooking : MonoBehaviour
 
     //TODO: assign in unity editor
     public VenueManager venueManager;
+    public GameStateManager gameStateManager;
     public Button createBookingButton;
     public Button removeBookingButton;
     public Button clearAllBookingsButton;
@@ -35,6 +36,7 @@ public class VenueBooking : MonoBehaviour
     public GameObject warningPanel;
     public UrlSchemeHandler urlSchemeHandler;
     public GameObject dateTitles;
+
 
 
     // size data for booked and unbooked layouts
