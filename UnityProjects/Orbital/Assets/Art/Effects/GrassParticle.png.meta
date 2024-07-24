@@ -310,6 +310,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       GrassParticle_0: 6899723700033269460
       GrassParticle_1: -7588559140414883996

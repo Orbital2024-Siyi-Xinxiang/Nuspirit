@@ -460,6 +460,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       MassTransitSpriteSheet_0: -621934883957220517
       MassTransitSpriteSheet_1: -3607285421610640216

@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       dude 3_0: 4791665926599547033
   mipmapLimitGroupName: 

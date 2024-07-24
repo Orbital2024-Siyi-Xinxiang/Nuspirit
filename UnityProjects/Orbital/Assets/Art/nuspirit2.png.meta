@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       nuspirit2_0: 2222269591615390090
   mipmapLimitGroupName: 

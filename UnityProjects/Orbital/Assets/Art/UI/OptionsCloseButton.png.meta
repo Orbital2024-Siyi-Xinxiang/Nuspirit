@@ -235,6 +235,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       OptionsCloseButton_0: 7466077293203605869
       OptionsCloseButton_1: 3710000043167483479

@@ -1885,6 +1885,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Screenshot_2024-5-30_17215012_0: -6778453870804187598
       Screenshot_2024-5-30_17215012_1: -8800205633152405800

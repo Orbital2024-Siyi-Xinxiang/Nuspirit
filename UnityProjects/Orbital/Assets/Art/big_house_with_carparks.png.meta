@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       big_house_with_carparks_0: 1352277504430090943
   mipmapLimitGroupName: 

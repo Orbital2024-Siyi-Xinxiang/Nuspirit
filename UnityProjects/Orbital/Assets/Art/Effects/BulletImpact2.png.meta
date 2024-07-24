@@ -685,6 +685,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       BulletImpact2_0: -6162859191535432121
       BulletImpact2_1: 6359123589986380195

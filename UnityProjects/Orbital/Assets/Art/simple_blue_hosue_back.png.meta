@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       simple_blue_hosue_back_0: 4608497085790906050
   mipmapLimitGroupName: 

@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       simple_spirit_right_0: -6520926663785258569
   mipmapLimitGroupName: 

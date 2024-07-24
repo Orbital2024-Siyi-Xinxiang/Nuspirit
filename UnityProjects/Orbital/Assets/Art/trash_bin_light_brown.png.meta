@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       trash_bin_light_brown_0: 4723588390905730879
   mipmapLimitGroupName: 

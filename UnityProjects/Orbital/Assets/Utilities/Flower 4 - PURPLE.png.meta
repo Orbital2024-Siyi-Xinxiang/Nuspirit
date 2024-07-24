@@ -235,6 +235,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Flower 4 - PURPLE_0: -2695593647704157424
       Flower 4 - PURPLE_1: 6354683738417465908

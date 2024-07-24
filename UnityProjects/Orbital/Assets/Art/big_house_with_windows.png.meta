@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       big_house_with_windows_0: 6743158437050344668
   mipmapLimitGroupName: 

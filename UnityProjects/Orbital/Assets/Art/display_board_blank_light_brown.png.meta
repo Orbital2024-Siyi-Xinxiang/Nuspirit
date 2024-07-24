@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       display_board_blank_light_brown_0: 3227036429696175664
   mipmapLimitGroupName: 

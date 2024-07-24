@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       MuzzleEffect_0: 6389589232247358374
   mipmapLimitGroupName: 

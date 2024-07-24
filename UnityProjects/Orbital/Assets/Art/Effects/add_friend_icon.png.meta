@@ -235,6 +235,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       add_friend_icon_0: -3724217031714549957
       add_friend_icon_1: 8315057275388543713

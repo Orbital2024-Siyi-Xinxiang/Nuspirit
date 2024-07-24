@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Bush 1 - WARM GREEN 2_0: -1134630076705633029
   mipmapLimitGroupName: 

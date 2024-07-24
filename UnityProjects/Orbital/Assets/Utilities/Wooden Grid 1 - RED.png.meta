@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Wooden Grid 1 - RED_0: -6557569812058866337
   mipmapLimitGroupName: 

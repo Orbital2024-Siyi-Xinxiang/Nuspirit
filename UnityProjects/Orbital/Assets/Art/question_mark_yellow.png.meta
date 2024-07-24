@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       question_mark_yellow_0: -2296880722010945499
   mipmapLimitGroupName: 

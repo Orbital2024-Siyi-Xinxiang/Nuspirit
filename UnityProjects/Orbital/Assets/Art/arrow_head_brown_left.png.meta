@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       arrow_head_brown_left_0: -3100046586317935687
   mipmapLimitGroupName: 

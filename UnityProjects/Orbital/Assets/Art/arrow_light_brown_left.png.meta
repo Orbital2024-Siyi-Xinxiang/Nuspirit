@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       arrow_light_brown_left_0: 7727838760177195004
   mipmapLimitGroupName: 

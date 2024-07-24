@@ -1985,6 +1985,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       IndustrialSpriteSheet_0: -4631590715511094382
       IndustrialSpriteSheet_1: 6581938172855241798

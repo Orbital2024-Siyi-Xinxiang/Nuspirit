@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       ProjectileParticle_0: -8479549037606584742
   mipmapLimitGroupName: 

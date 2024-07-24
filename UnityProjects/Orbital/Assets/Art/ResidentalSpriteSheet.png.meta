@@ -2810,6 +2810,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       ResidentalSpriteSheet_0: 5394251561904464561
       ResidentalSpriteSheet_1: -6013778938669796380

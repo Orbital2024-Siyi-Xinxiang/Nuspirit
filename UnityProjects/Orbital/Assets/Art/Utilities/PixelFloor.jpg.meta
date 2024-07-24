@@ -518,6 +518,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       PixelFloor_0: 836299941
       PixelFloor_1: -1961908602

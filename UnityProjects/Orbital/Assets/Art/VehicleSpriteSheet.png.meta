@@ -24235,6 +24235,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       VehicleSpriteSheet_0: -9170104041462362904
       VehicleSpriteSheet_1: -7837438722260985653

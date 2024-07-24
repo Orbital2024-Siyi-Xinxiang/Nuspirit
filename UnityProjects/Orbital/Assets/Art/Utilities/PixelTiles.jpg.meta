@@ -1772,6 +1772,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       PixelTiles_0: -1776189274
       PixelTiles_1: -1798888679

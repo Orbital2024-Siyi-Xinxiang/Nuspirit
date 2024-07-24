@@ -2564,6 +2564,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       PixelIndoor_0: 5988711354141170974
       PixelIndoor_1: 626466877

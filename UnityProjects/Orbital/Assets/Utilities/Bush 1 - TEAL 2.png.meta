@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Bush 1 - TEAL 2_0: -5785799369604454502
   mipmapLimitGroupName: 

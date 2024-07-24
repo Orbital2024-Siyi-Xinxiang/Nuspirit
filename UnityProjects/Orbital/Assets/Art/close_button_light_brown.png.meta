@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       close_button_light_brown_0: -7692798588663524020
   mipmapLimitGroupName: 

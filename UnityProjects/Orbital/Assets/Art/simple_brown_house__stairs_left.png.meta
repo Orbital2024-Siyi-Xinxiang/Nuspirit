@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       simple_brown_house__stairs_left_0: -5267440337853138607
   mipmapLimitGroupName: 

@@ -1235,6 +1235,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       FarmSpriteSheet_0: -478300433213498045
       FarmSpriteSheet_1: -3967428402925840887

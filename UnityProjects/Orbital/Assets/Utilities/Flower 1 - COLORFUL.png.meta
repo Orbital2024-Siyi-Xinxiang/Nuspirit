@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Flower 1 - COLORFUL_0: -8540743760338560634
   mipmapLimitGroupName: 

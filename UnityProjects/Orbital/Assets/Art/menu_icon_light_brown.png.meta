@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       menu_icon_light_brown_0: 31272368449476310
   mipmapLimitGroupName: 

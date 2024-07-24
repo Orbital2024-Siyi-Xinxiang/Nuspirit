@@ -360,6 +360,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       MedicalSpriteSheet_0: -5029568845445755572
       MedicalSpriteSheet_1: -3847686691337687346

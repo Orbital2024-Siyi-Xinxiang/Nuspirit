@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Flower Pot 4 - YELLOW_0: 2986481961304204635
   mipmapLimitGroupName: 

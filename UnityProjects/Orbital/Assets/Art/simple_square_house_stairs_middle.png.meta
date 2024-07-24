@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       simple_square_house_stairs_middle_0: 5446393399386523545
   mipmapLimitGroupName: 

@@ -310,6 +310,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       FireSpriteSheet_0: 3841753352409701326
       FireSpriteSheet_1: -5571501927773984475

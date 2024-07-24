@@ -310,6 +310,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       ChomperBits_0: 69812776137254189
       ChomperBits_1: -6178191616625604262

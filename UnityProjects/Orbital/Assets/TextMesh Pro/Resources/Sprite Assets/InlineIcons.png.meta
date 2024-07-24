@@ -5315,6 +5315,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       InlineIcons_0: 370364008
       InlineIcons_1: -702928828

@@ -1685,6 +1685,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       CommercialSpriteSheet_0: 6826396651256867230
       CommercialSpriteSheet_1: -5857479054198002693

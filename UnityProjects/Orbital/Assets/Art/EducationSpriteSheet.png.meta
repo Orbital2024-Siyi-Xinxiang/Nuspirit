@@ -285,6 +285,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       EducationSpriteSheet_0: -7245959688834872087
       EducationSpriteSheet_1: 1283405979243003050

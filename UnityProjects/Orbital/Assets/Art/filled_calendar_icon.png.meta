@@ -210,6 +210,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       filled_calendar_icon_0: 1847659211646890011
   mipmapLimitGroupName: 

@@ -360,6 +360,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       PoliceSpriteSheet_0: 3569208269453400369
       PoliceSpriteSheet_1: 4530254691284441212
