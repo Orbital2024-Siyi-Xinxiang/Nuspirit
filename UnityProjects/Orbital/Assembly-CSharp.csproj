@@ -56,23 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.Auth.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Google.MiniJson.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.Messaging.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.Firestore.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/iOS/Firebase.Analytics.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.Platform.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/iOS/Firebase.Auth.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/iOS/Firebase.Firestore.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/iOS/Firebase.Storage.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Editor/Firebase.Editor.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.Analytics.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.TaskExtension.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/iOS/Firebase.Messaging.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.Storage.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/iOS/Firebase.App.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Editor/Firebase.Messaging.Editor.dll" />
-    <Analyzer Include="/Users/emma/Desktop/Repos/Orbital2024/testRepo/Nuspirit/UnityProjects/Orbital/Assets/Firebase/Plugins/Firebase.App.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
@@ -697,24 +680,20 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Firebase.Messaging">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library/PackageCache/com.unity.collections/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil/Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Firebase.Messaging">
-      <HintPath>Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Firebase.App">
@@ -729,24 +708,28 @@
       <HintPath>Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Firebase.Storage">
-      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Firebase.Analytics">
-      <HintPath>Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Google.MiniJson">
-      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Firebase.Platform">
       <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Storage">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
