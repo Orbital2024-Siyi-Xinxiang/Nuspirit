@@ -1,9 +1,0 @@
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/FirebaseMessagingActivityGenerator.deps.json
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/FirebaseMessagingActivityGenerator.dll
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/bin/Debug/FirebaseMessagingActivityGenerator.pdb
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/FirebaseMessagingActivityGenerator/FirebaseMessagingActivityGenerator.csproj.AssemblyReference.cache
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/FirebaseMessagingActivityGenerator/FirebaseMessagingActivityGenerator.GeneratedMSBuildEditorConfig.editorconfig
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/FirebaseMessagingActivityGenerator/FirebaseMessagingActivityGenerator.csproj.CoreCompileInputs.cache
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/FirebaseMessagingActivityGenerator/FirebaseMessagingActivityGenerator.sourcelink.json
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/FirebaseMessagingActivityGenerator/FirebaseMessagingActivityGenerator.dll
-/Users/emma/Desktop/Repos/Orbital2024/Repository/Nuspirit/UnityProjects/Orbital/Temp/obj/FirebaseMessagingActivityGenerator/FirebaseMessagingActivityGenerator.pdb
