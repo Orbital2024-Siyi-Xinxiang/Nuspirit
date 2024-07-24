@@ -7,10 +7,10 @@ public class VenueDatabase : ScriptableObject
     private List<Venue> venues = new List<Venue>();
 
     private void OnEnable()
-    {
+    {    
         venues.Clear();
-    }
-
+    } 
+ 
     public Venue GetVenue(string id)
     {
         Venue venue = venues.Find(venue => venue.id == id);

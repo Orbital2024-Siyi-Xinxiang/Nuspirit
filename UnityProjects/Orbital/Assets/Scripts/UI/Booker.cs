@@ -11,7 +11,6 @@ public class Booker : MonoBehaviour
 	public GameObject chatButton;
 
 	
-
 	// Use this for initialization
 	public void Initialize()
 	{

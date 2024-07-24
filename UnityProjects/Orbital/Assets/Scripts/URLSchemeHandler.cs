@@ -31,7 +31,8 @@ public class UrlSchemeHandler : MonoBehaviour
         }
     }
 
-    void NavigateBackToNativeApp(string userId, string viewName, string action, string trailingInfo = "na")
+    public void NavigateBackToNativeApp(string userId = "na",
+        string viewName = "LandingView", string action = "na", string trailingInfo = "na")
     {
         // Encode URL components
         string encodedUserId = UnityWebRequest.EscapeURL(userId);

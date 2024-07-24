@@ -33,12 +33,26 @@ public class VenueBooking : MonoBehaviour
     public GameObject bookingSelectionPrefab;
     public ConfirmAction confirmActionPanel;
     public GameObject warningPanel;
+    public UrlSchemeHandler urlSchemeHandler;
 
+
+    // size data for booked and unbooked layouts
     private static float width;
     private static float addHeight;
     private static float height;
     private static float initX;
     private static float initY;
+
+    
+    // size data for user booking layout  
+    private static float bookingSelectionHeight;
+    private static float bookingSelectionWidth;
+    private static float singleSlotSelectionHeight;
+    private static float singleSlotSelectionWidth;
+    private static float initBookingX;
+    private static float initBookingY;
+
+
 
     private string venueName;
     private Dictionary<string, int> dayDict;
@@ -68,11 +82,7 @@ public class VenueBooking : MonoBehaviour
 
     void OnEnable()
     {
-        width = 55.89012f;
-        addHeight = 11.22769f - 10.6666f;
-        height = 10.6666f;
-        initX = -168.4268f;
-        initY = 76.55177f;
+        AssignSizeData();
 
         AssignDayDict();
         availableDict = new Dictionary<string, List<int>>();
@@ -252,7 +262,7 @@ public class VenueBooking : MonoBehaviour
         return Task.CompletedTask;
     }
 
-    private void CreateBooking()
+    public void CreateBooking()
     {
 
         // create a new BookingSelection from prefab
@@ -260,11 +270,11 @@ public class VenueBooking : MonoBehaviour
         // TODO: assign the choose time options and choose day options
     }
 
-    private void RemoveBooking()
+    public  void RemoveBooking()
     {
 
     }
-    private void ClearAllBookings()
+    public  void ClearAllBookings()
     {
         if (selectionNums.Count == 0)
         {
@@ -322,7 +332,7 @@ public class VenueBooking : MonoBehaviour
         if (selectedSlots.Count > 0)
         {
             // Assume userId is retrieved or available in this context
-            string userId = "currentUserId";
+            string userId = urlSchemeHandler.userId;
 
             // Create booking data structure
             Dictionary<string, object> bookingData = new Dictionary<string, object>
@@ -380,7 +390,9 @@ public class VenueBooking : MonoBehaviour
 
         rect.transform.SetParent(VenueOpenPanel.transform, false);
 
-        // Add button click listener to show bookerPanel
+        // TODO: Add button click listener to show bookerPanel
+        Transform bookerPanel = rect.transform.GetChild(0);
+
         //rect.GetComponent<Button>().onClick.AddListener(() => bookerPanel.SetActive(true));
 
         Booker booker = rect.GetComponent<Booker>();
@@ -451,5 +463,23 @@ public class VenueBooking : MonoBehaviour
         {
             Debug.LogError("Warning message TMP_Text component not found in the first child of warningPanel.");
         }
+    }
+
+    private void AssignSizeData()
+    {
+        // initialize size data for booked and unbooked layouts
+        width = 55.89012f;
+        addHeight = 11.22769f - 10.6666f;
+        height = 10.6666f;
+        initX = -168.4268f;
+        initY = 76.55177f;
+
+        // initialize size data for user booking
+        bookingSelectionHeight = 0 ;
+        bookingSelectionWidth = 0;
+        singleSlotSelectionHeight = 0;
+        singleSlotSelectionWidth = 0;
+        initBookingX = 0;
+        initBookingY = 0;
     }
 }
