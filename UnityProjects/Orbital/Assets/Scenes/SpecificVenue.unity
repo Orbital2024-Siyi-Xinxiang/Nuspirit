@@ -20375,14 +20375,15 @@ MonoBehaviour:
   chooseDayOptions: {fileID: 1421511266}
   chooseTimeOptions: {fileID: 1004191257}
   venueManager: {fileID: 1142968351}
+  gameStateManager: {fileID: 0}
   createBookingButton: {fileID: 1891565114}
   removeBookingButton: {fileID: 266336844}
   clearAllBookingsButton: {fileID: 1141787738}
   bookingSelectionPrefab: {fileID: 5222459679410631164, guid: 34d4e65c752e54473a268a5916745447, type: 3}
   confirmActionPanel: {fileID: 814673114}
   warningPanel: {fileID: 1805905306}
-  urlSchemeHandler: {fileID: 0}
-  dateTitles: {fileID: 0}
+  urlSchemeHandler: {fileID: 2128623266}
+  dateTitles: {fileID: 1806227753}
 --- !u!1 &1545791536
 GameObject:
   m_ObjectHideFlags: 0
@@ -27955,7 +27956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 2065509446}
-  userId: 
+  userId: 0
 --- !u!4 &2128623267
 Transform:
   m_ObjectHideFlags: 0

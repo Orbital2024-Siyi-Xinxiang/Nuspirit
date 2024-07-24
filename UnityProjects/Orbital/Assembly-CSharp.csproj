@@ -160,15 +160,31 @@
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Messaging.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppFirestore.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Messaging.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Analytics.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Analytics.dll" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppStorage.dll" />
+    <None Include="Assets/Firebase/Plugins/Firebase.App.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-firestore-unity/maven-metadata.xml" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.dll" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.dll" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Firestore.dll" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Firebase/Plugins/Firebase.TaskExtension.dll" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/maven-metadata.xml" />
     <None Include="Assets/Art/Fonts/OFL.txt" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Auth.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/Utilities/ThirdParty/Backyard - Free/Readme.txt" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
@@ -176,16 +192,27 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/maven-metadata.xml" />
     <None Include="Assets/Art/OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/maven-metadata.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Auth.dll" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Firestore.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Platform.dll" />
+    <None Include="Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_1_0.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/Firebase/Plugins/Firebase.Storage.dll" />
+    <None Include="Assets/Firebase/Plugins/Google.MiniJson.dll" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.Storage.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Firebase/Plugins/iOS/Firebase.App.dll" />
     <None Include="Assets/TextMesh Pro/Fonts/OFL.txt" />
+    <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-storage-unity/maven-metadata.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -667,6 +694,42 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Messaging">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Firestore">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Storage">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1431,6 +1494,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FirebaseMessagingActivityGenerator.csproj">
+      <Project>{CA49E06D-A049-F0D4-4559-5D1D43C872A3}</Project>
+      <Name>FirebaseMessagingActivityGenerator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
