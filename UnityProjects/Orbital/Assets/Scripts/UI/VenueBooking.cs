@@ -64,7 +64,6 @@ public class VenueBooking : MonoBehaviour
 
     private List<int> selectedSlots = new List<int>();
     private List<string> selectedDays = new List<string>();
-
     private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's [1,2]
 
     // Singleton instance
@@ -88,7 +87,6 @@ public class VenueBooking : MonoBehaviour
     void OnEnable()
     {
         AssignSizeData();
-
         AssignDayDict();
         availableDict = new Dictionary<string, List<int>>();
         selectionNums = new List<int>();
@@ -274,24 +272,110 @@ public class VenueBooking : MonoBehaviour
 
     public void CreateBooking()
     {
+        if (selectedSlots.Count >= 5)
+        {
+            ShowWarning("cannot book more than 5 slots");
+            return;
+        }
 
-        // create a new BookingSelection from prefab
-        GameObject bookingSelection = Instantiate(bookingSelectionPrefab, this.transform);
-        // TODO: assign the choose time options and choose day options
+        // Create a new BookingSelection from prefab
+        GameObject bookingSelection = Instantiate(bookingSelectionPrefab, UserBookingPanel.transform);
+
+        // Initialize the booking day to the first day that has a slot
+        string initialDay = availableDict.Keys.FirstOrDefault(day => availableDict[day].Count > 0);
+        if (initialDay == null)
+        {
+            ShowWarning("No available slots");
+            Destroy(bookingSelection);
+            return;
+        }
+
+        // Initialize one slot
+        int initialSlot = availableDict[initialDay].First();
+
+        // Assign available slots and refresh venue open panel
+        TMP_Dropdown dayDropdown = bookingSelection.transform.Find("ChooseDay").GetComponent<TMP_Dropdown>();
+        TMP_Dropdown timeDropdown = bookingSelection.transform.Find("ChooseTime").GetComponent<TMP_Dropdown>();
+
+        dayDropdown.ClearOptions();
+        dayDropdown.AddOptions(new List<string> { initialDay });
+        timeDropdown.ClearOptions();
+        timeDropdown.AddOptions(new List<string> { $"{initialSlot / 100:00}:{initialSlot % 100:00} - {initialSlot / 100 + 1:00}:{initialSlot % 100:00}" });
+
+        // Set Add and Remove buttons visibility
+        Transform chooseTimeTransform = bookingSelection.transform.Find("ChooseTime");
+        Transform addBtn = chooseTimeTransform.GetChild(0);
+        Transform removeBtn = chooseTimeTransform.GetChild(1);
+        addBtn.gameObject.SetActive(true);
+        removeBtn.gameObject.SetActive(false);
+
+        selectedSlots.Add(initialSlot);
+        selectedDays.Add(initialDay);
+        selectionNums.Add(1);
+
+        UpdatePanelLayout();
     }
 
-    public  void RemoveBooking()
-    {
-
-    }
-    public  void ClearAllBookings()
+    public void RemoveBooking()
     {
         if (selectionNums.Count == 0)
         {
             ShowWarning("No user booking found!");
+            return;
+        }
+
+        // Implement logic to remove the last booking selection
+        if (UserBookingPanel.transform.childCount > 0)
+        {
+            GameObject lastBookingSelection = UserBookingPanel.transform.GetChild(UserBookingPanel.transform.childCount - 1).gameObject;
+            TMP_Dropdown dayDropdown = lastBookingSelection.transform.Find("ChooseDay").GetComponent<TMP_Dropdown>();
+            TMP_Dropdown timeDropdown = lastBookingSelection.transform.Find("ChooseTime").GetComponent<TMP_Dropdown>();
+
+            string day = dayDropdown.options[dayDropdown.value].text;
+            int slot = int.Parse(timeDropdown.options[timeDropdown.value].text.Split(':')[0]) * 100;
+
+            selectedSlots.Remove(slot);
+            selectedDays.Remove(day);
+            selectionNums.RemoveAt(selectionNums.Count - 1);
+
+            Destroy(lastBookingSelection);
+            UpdatePanelLayout();
         }
     }
 
+    public void ClearAllBookings()
+    {
+        if (selectionNums.Count == 0)
+        {
+            ShowWarning("No user booking found!");
+            return;
+        }
+
+        selectedSlots.Clear();
+        selectedDays.Clear();
+        selectionNums.Clear();
+
+        foreach (Transform child in UserBookingPanel.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        UpdatePanelLayout();
+    }
+
+    private void UpdatePanelLayout()
+    {
+        float newPosY = initY - (selectionNums.Count * (singleSlotSelectionHeight + addHeight));
+        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, newPosY);
+        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, newPosY);
+        RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
+        panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x, -newPosY + singleSlotSelectionHeight);
+
+        foreach (Transform child in UserBookingPanel.transform)
+        {
+            child.localPosition = new Vector2(child.localPosition.x, child.localPosition.y - singleSlotSelectionHeight - addHeight);
+        }
+    }
 
     private void UpdateTimeOptions(string day)
     {
@@ -315,7 +399,7 @@ public class VenueBooking : MonoBehaviour
     private void SelectTimeSlot(string day, int startTime)
     {
         // TODO: implement add and delete booking details logic 
-        if (selectedSlots.Count < 3 && !selectedSlots.Contains(startTime))
+        if (selectedSlots.Count < 5 && !selectedSlots.Contains(startTime))
         {
             selectedSlots.Add(startTime);
             Debug.Log($"Selected {day} {startTime / 100:00}:{startTime % 100:00}");
@@ -329,7 +413,7 @@ public class VenueBooking : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("You can only select up to 3 slots.");
+            Debug.LogWarning("You can only select up to 5 slots.");
         }
 
         // Optionally, update UI or provide feedback to the user here
@@ -352,7 +436,7 @@ public class VenueBooking : MonoBehaviour
             };
 
             // Store booking data in Firestore
-            db.Collection("users_bookings").Document(venueName).Collection("bookings").Document(day)
+            db.Collection("users_bookings").Document(userId)
                 .SetAsync(bookingData).ContinueWithOnMainThread(task =>
                 {
                     if (task.IsCompleted && !task.IsFaulted)

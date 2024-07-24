@@ -8,6 +8,7 @@ public class UrlSchemeHandler : MonoBehaviour
 
     void Start()
     {
+        userId = "0";
         // Check if launched from a URL
         if (Application.absoluteURL.StartsWith("unityApp://"))
         {
@@ -17,7 +18,7 @@ public class UrlSchemeHandler : MonoBehaviour
 
             if (parts.Length == 3)
             {
-                string userId = parts[0];
+                userId = parts[0];
                 string scene = parts[1];
                 string venueId = parts[2];
 
