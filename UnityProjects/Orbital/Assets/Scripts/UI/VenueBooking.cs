@@ -56,19 +56,21 @@ public class VenueBooking : MonoBehaviour
 
 
     private string venueName;
+    private string userId;
     private Dictionary<string, int> dayDict;
     private Dictionary<string, List<int>> availableDict;
 
     private List<int> selectedSlots = new List<int>();
     private List<string> selectedDays = new List<string>();
 
-    private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's 
+    private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's [1,2]
 
     // Singleton instance
     public static VenueBooking Instance;
 
     void Start()
     {
+
         // Ensure there is only one instance of VenueBooking
         if (Instance == null)
         {
@@ -94,6 +96,7 @@ public class VenueBooking : MonoBehaviour
     {
         db = FirebaseFirestore.DefaultInstance;
         bookableData = data;
+        userId = urlSchemeHandler.userId;
         // make them async
         await AssignBasicInfo();
         await LoadVenueOpenPanel();
@@ -240,6 +243,8 @@ public class VenueBooking : MonoBehaviour
 
     private Task RefreshUserBookingPanel()
     {
+        // TODO: initialize layouts
+
         // add listeners to three buttons for managing booking selections
         createBookingButton.onClick.AddListener(CreateBooking);
         removeBookingButton.onClick.AddListener(RemoveBooking);
@@ -478,12 +483,11 @@ public class VenueBooking : MonoBehaviour
         initY = 76.55177f;
 
         // initialize size data for user booking
-        bookingSelectionHeight = 0 ;
-        bookingSelectionWidth = 0;
-        singleSlotSelectionHeight = 0;
-        singleSlotSelectionWidth = 0;
-        initBookingX = 0;
-        initBookingY = 0;
+        bookingSelectionHeight = 73.4867f;
+        bookingSelectionWidth = 419.831f;
+        singleSlotSelectionHeight = 36.743f;
+        initBookingX = 8f;
+        initBookingY = 25.328f;
     }
 
 
