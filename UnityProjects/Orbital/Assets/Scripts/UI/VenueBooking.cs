@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System;
 using Firebase.Firestore;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,8 +38,7 @@ public class VenueBooking : MonoBehaviour
     public UrlSchemeHandler urlSchemeHandler;
     public GameObject dateTitles;
 
-
-
+   
     // size data for booked and unbooked layouts
     private static float width;
     private static float addHeight;
@@ -61,17 +61,17 @@ public class VenueBooking : MonoBehaviour
     private string userId;
     private Dictionary<string, int> dayDict;
     private Dictionary<string, List<int>> availableDict;
+    private Dictionary<string, List<int>> selectedBookings;
+    private List<int> selectedSlots;
 
-    private List<int> selectedSlots = new List<int>();
-    private List<string> selectedDays = new List<string>();
+    private List<string> selectedDays = new List<string>(); // this list is for 
     private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's [1,2]
 
     // Singleton instance
     public static VenueBooking Instance;
 
     void Start()
-    {
-
+    { 
         // Ensure there is only one instance of VenueBooking
         if (Instance == null)
         {
@@ -90,13 +90,23 @@ public class VenueBooking : MonoBehaviour
         AssignDayDict();
         availableDict = new Dictionary<string, List<int>>();
         selectionNums = new List<int>();
+        selectedBookings = new Dictionary<string, List<int>>();
+        selectedDays = new List<string>();
+        ResetButtonPositions();
     }
 
+
+    private void ResetButtonPositions()
+    {
+
+    }
     public async void InitializeData(VenueBookable data)
     {
         db = FirebaseFirestore.DefaultInstance;
+
         bookableData = data;
         userId = urlSchemeHandler.userId;
+
         // make them async
         await AssignBasicInfo();
         await LoadVenueOpenPanel();
@@ -109,7 +119,7 @@ public class VenueBooking : MonoBehaviour
         if (BasicInfo != null)
         {
             // Find the child GameObjects and assign their TextMeshPro components
-            Debug.Log("start assigning basic info for venue bookable");
+            //Debug.Log("start assigning basic info for venue bookable");
             Transform venueNameTransform = BasicInfo.transform.Find("VenueName");
             Transform bookableNameTransform = BasicInfo.transform.Find("BookableName");
             Transform venueCapacityTransform = BasicInfo.transform.Find("VenueCapacity");
@@ -453,6 +463,8 @@ public class VenueBooking : MonoBehaviour
         }
     }
 
+
+
     private Task LoadHistoricalBookingInfo()
     {
         // Implement historical booking info logic here
@@ -472,9 +484,9 @@ public class VenueBooking : MonoBehaviour
         // Set additional properties for the unbooked window if needed
     }
 
-    private void InstantiateBooked(string day, int start, string userId)
+    private void InstantiateBooked(string day, int start, string bookerId)
     {
-        print($"instantiating booked {day} {start}, {userId}");
+        //print($"instantiating booked {day} {start}, {userId}");
         int index = (start - 600) / 100;
         int div = index / 3;
         float distanceH = index * height + div * addHeight;
@@ -492,7 +504,7 @@ public class VenueBooking : MonoBehaviour
         Booker booker = rect.GetComponent<Booker>();
         if (booker != null)
         {
-            booker.id = userId;
+            booker.id = bookerId;
             // Retrieve user information directly from Firebase
             RetrieveUserInfo(booker);
         }
@@ -577,8 +589,12 @@ public class VenueBooking : MonoBehaviour
     }
 
 
+
     private void AssignDateInfo()
     {
 
     }
+
+
+
 }

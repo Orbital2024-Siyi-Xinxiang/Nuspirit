@@ -33,7 +33,7 @@ public class VenueManager : MonoBehaviour
     public Task InitializeBookables()
     {
         // Instantiate Bookables
-        print($"start initializing bookables for {venue.id}");
+        //print($"start initializing bookables for {venue.id}");
 
         foreach (VenueBookable bookableData in venue.venueBookables)
         {

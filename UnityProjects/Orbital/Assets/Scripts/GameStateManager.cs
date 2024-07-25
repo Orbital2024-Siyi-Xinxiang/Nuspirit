@@ -18,7 +18,7 @@ public class GameStateManager : MonoBehaviour
 
     public void Initialize()
     {
-        print("start specific venue");
+        //print("start specific venue");
 
         firebaseInitializer.Initialize();
         firebaseFirestoreManager.InitializeDatabase(venueId);

@@ -34,7 +34,7 @@ public class FirebaseDataManager : MonoBehaviour
 
         if (snapshot.Exists)
         {
-            Debug.Log("Document data for user: " + userId);
+            
             Dictionary<string, object> userData = snapshot.ToDictionary();
 
             foreach (var kvp in userData)
@@ -64,7 +64,7 @@ public class FirebaseDataManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("No document found for user: " + userId);
+            Debug.LogError("No document found for user: " + userId);
         }
     }
 
