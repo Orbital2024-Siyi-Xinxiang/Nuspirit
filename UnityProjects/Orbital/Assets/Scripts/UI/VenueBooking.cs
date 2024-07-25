@@ -92,14 +92,17 @@ public class VenueBooking : MonoBehaviour
         selectionNums = new List<int>();
         selectedBookings = new Dictionary<string, List<int>>();
         selectedDays = new List<string>();
+        selectedSlots = new List<int>();
         ResetButtonPositions();
     }
 
 
     private void ResetButtonPositions()
     {
-
+        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, initY);
+        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, initY);
     }
+
     public async void InitializeData(VenueBookable data)
     {
         db = FirebaseFirestore.DefaultInstance;
@@ -288,22 +291,16 @@ public class VenueBooking : MonoBehaviour
             return;
         }
 
-        // Create a new BookingSelection from prefab
-        GameObject bookingSelection = Instantiate(bookingSelectionPrefab, UserBookingPanel.transform);
-
-        // Initialize the booking day to the first day that has a slot
         string initialDay = availableDict.Keys.FirstOrDefault(day => availableDict[day].Count > 0);
         if (initialDay == null)
         {
             ShowWarning("No available slots");
-            Destroy(bookingSelection);
             return;
         }
 
-        // Initialize one slot
         int initialSlot = availableDict[initialDay].First();
+        GameObject bookingSelection = Instantiate(bookingSelectionPrefab, UserBookingPanel.transform);
 
-        // Assign available slots and refresh venue open panel
         TMP_Dropdown dayDropdown = bookingSelection.transform.Find("ChooseDay").GetComponent<TMP_Dropdown>();
         TMP_Dropdown timeDropdown = bookingSelection.transform.Find("ChooseTime").GetComponent<TMP_Dropdown>();
 
@@ -312,18 +309,24 @@ public class VenueBooking : MonoBehaviour
         timeDropdown.ClearOptions();
         timeDropdown.AddOptions(new List<string> { $"{initialSlot / 100:00}:{initialSlot % 100:00} - {initialSlot / 100 + 1:00}:{initialSlot % 100:00}" });
 
-        // Set Add and Remove buttons visibility
         Transform chooseTimeTransform = bookingSelection.transform.Find("ChooseTime");
         Transform addBtn = chooseTimeTransform.GetChild(0);
         Transform removeBtn = chooseTimeTransform.GetChild(1);
         addBtn.gameObject.SetActive(true);
         removeBtn.gameObject.SetActive(false);
 
+        if (!selectedBookings.ContainsKey(initialDay))
+        {
+            selectedBookings.Add(initialDay, new List<int>());
+        }
+        selectedBookings[initialDay].Add(initialSlot);
+
         selectedSlots.Add(initialSlot);
         selectedDays.Add(initialDay);
         selectionNums.Add(1);
 
         UpdatePanelLayout();
+        SaveBookingToFirebase(initialDay, initialSlot);
     }
 
     public void RemoveBooking()
@@ -334,7 +337,6 @@ public class VenueBooking : MonoBehaviour
             return;
         }
 
-        // Implement logic to remove the last booking selection
         if (UserBookingPanel.transform.childCount > 0)
         {
             GameObject lastBookingSelection = UserBookingPanel.transform.GetChild(UserBookingPanel.transform.childCount - 1).gameObject;
@@ -347,9 +349,15 @@ public class VenueBooking : MonoBehaviour
             selectedSlots.Remove(slot);
             selectedDays.Remove(day);
             selectionNums.RemoveAt(selectionNums.Count - 1);
+            selectedBookings[day].Remove(slot);
+            if (selectedBookings[day].Count == 0)
+            {
+                selectedBookings.Remove(day);
+            }
 
             Destroy(lastBookingSelection);
             UpdatePanelLayout();
+            RemoveBookingFromFirebase(day, slot);
         }
     }
 
@@ -364,6 +372,7 @@ public class VenueBooking : MonoBehaviour
         selectedSlots.Clear();
         selectedDays.Clear();
         selectionNums.Clear();
+        selectedBookings.Clear();
 
         foreach (Transform child in UserBookingPanel.transform)
         {
@@ -371,6 +380,7 @@ public class VenueBooking : MonoBehaviour
         }
 
         UpdatePanelLayout();
+        ClearAllBookingsFromFirebase();
     }
 
     private void UpdatePanelLayout()
@@ -431,36 +441,7 @@ public class VenueBooking : MonoBehaviour
 
     private void UpdateBookingData(string day, int startTime)
     {
-        // TODO: implement change of database and user booking information
-        // TODO: store back into firebase firestore 
-        if (selectedSlots.Count > 0)
-        {
-            // Assume userId is retrieved or available in this context
-            string userId = urlSchemeHandler.userId;
-
-            // Create booking data structure
-            Dictionary<string, object> bookingData = new Dictionary<string, object>
-            {
-                { "userId", userId },
-                { "slots", selectedSlots }
-            };
-
-            // Store booking data in Firestore
-            db.Collection("users_bookings").Document(userId)
-                .SetAsync(bookingData).ContinueWithOnMainThread(task =>
-                {
-                    if (task.IsCompleted && !task.IsFaulted)
-                    {
-                        Debug.Log("Booking successfully saved.");
-                        // Optionally, refresh panels or UI
-                        LoadVenueOpenPanel();
-                    }
-                    else
-                    {
-                        Debug.LogError("Failed to save booking: " + task.Exception);
-                    }
-                });
-        }
+        SaveBookingToFirebase(day, startTime);
     }
 
 
@@ -588,7 +569,69 @@ public class VenueBooking : MonoBehaviour
         initBookingY = 25.328f;
     }
 
+    private void SaveBookingToFirebase(string day, int startTime)
+    {
+        if (selectedSlots.Count > 0)
+        {
+            Dictionary<string, object> bookingData = new Dictionary<string, object>
+            {
+                { "userId", userId },
+                { "slots", selectedSlots },
+                { "bookable_id", bookableData.id },
+                { "venue_id", gameStateManager.venueId },
+                { "unity_venue_id", venueManager.venue.id }
+            };
 
+            db.Collection("users_bookings").Document(userId)
+                .SetAsync(bookingData).ContinueWithOnMainThread(task =>
+                {
+                    if (task.IsCompleted && !task.IsFaulted)
+                    {
+                        Debug.Log("Booking successfully saved.");
+                        LoadVenueOpenPanel();
+                    }
+                    else
+                    {
+                        Debug.LogError("Failed to save booking: " + task.Exception);
+                    }
+                });
+        }
+    }
+
+    private void RemoveBookingFromFirebase(string day, int startTime)
+    {
+        db.Collection("users_bookings").Document(userId)
+            .UpdateAsync(new Dictionary<string, object> { { "slots", FieldValue.ArrayRemove(startTime) } })
+            .ContinueWithOnMainThread(task =>
+            {
+                if (task.IsCompleted && !task.IsFaulted)
+                {
+                    Debug.Log("Booking successfully removed.");
+                    LoadVenueOpenPanel();
+                }
+                else
+                {
+                    Debug.LogError("Failed to remove booking: " + task.Exception);
+                }
+            });
+    }
+
+    private void ClearAllBookingsFromFirebase()
+    {
+        db.Collection("users_bookings").Document(userId)
+            .DeleteAsync().ContinueWithOnMainThread(task =>
+            {
+                if (task.IsCompleted && !task.IsFaulted)
+                {
+                    Debug.Log("All bookings successfully removed.");
+                    LoadVenueOpenPanel();
+                }
+                else
+                {
+                    Debug.LogError("Failed to remove all bookings: " + task.Exception);
+                }
+            });
+    }
 
     private void AssignDateInfo()
     {
