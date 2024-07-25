@@ -50,6 +50,18 @@ public static class SystemTime
         return day.ToString();
     }
 
+    public static string GetMonth(DateTime now)
+    {
+        int year = now.Year;
+        int month = now.Month;
+        int day = now.Day;
+        int hour = now.Hour;
+        int minute = now.Minute;
+        int second = now.Second;
+
+        return month.ToString();
+    }
+
     public static string GetHHMM(DateTime now)
     {
         int year = now.Year;
@@ -59,6 +71,11 @@ public static class SystemTime
         int minute = now.Minute;
         int second = now.Second;
         return GetHour(now) + GetMinute(now);
+    }
+
+    public static string GetYYYYMMDD(DateTime now)
+    {
+        return GetYear(now) + GetMonth(now) + GetDate(now);
     }
 
     public static string GetHour(DateTime now)

@@ -7,6 +7,8 @@ using System.Linq;
 using Firebase.Extensions;
 using System.Threading.Tasks;
 using UnityEngine.UI;
+using System.Collections;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class VenueBooking : MonoBehaviour
 {
@@ -37,6 +39,7 @@ public class VenueBooking : MonoBehaviour
     public GameObject warningPanel;
     public UrlSchemeHandler urlSchemeHandler;
     public GameObject dateTitles;
+    public GameObject highlightCurrentDate;
 
    
     // size data for booked and unbooked layouts
@@ -60,10 +63,9 @@ public class VenueBooking : MonoBehaviour
     private string venueName;
     private string userId;
     private Dictionary<string, int> dayDict;
+    private Dictionary<string, string> dateDict;  // eg.: 20240724: monday,..
     private Dictionary<string, List<int>> availableDict;
     private Dictionary<string, List<int>> selectedBookings;
-    private List<int> selectedSlots;
-
     private List<string> selectedDays = new List<string>(); // this list is for 
     private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's [1,2]
 
@@ -88,21 +90,21 @@ public class VenueBooking : MonoBehaviour
     {
         AssignSizeData();
         AssignDayDict();
+        AssighDateDict();
         availableDict = new Dictionary<string, List<int>>();
         selectionNums = new List<int>();
         selectedBookings = new Dictionary<string, List<int>>();
         selectedDays = new List<string>();
-        selectedSlots = new List<int>();
+
         ResetButtonPositions();
     }
 
-
     private void ResetButtonPositions()
     {
-        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, initY);
-        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, initY);
+        createBookingButton.transform.position = new Vector2(createBookingButton.transform.localPosition.x, initBookingY);
+        removeBookingButton.transform.position = new Vector2(removeBookingButton.transform.localPosition.x, initBookingY);
     }
-
+    
     public async void InitializeData(VenueBookable data)
     {
         db = FirebaseFirestore.DefaultInstance;
@@ -111,6 +113,9 @@ public class VenueBooking : MonoBehaviour
         userId = urlSchemeHandler.userId;
 
         // make them async
+        StartCoroutine(UpdateVenueOpenPanel());
+        StartCoroutine(UpdateUserBookingPanel());
+        StartCoroutine(UpdateHistoryBookingInfo());
         await AssignBasicInfo();
         await LoadVenueOpenPanel();
         await RefreshUserBookingPanel();
@@ -257,6 +262,53 @@ public class VenueBooking : MonoBehaviour
     private Task RefreshUserBookingPanel()
     {
         // TODO: initialize layouts
+        DocumentReference docRef = db.Collection("users").Document(userId);
+        docRef.GetSnapshotAsync().ContinueWithOnMainThread(task =>
+        {
+            if (task.IsCompleted)
+            {
+                DocumentSnapshot snapshot = task.Result;
+                if (snapshot.Exists)
+                {
+                    foreach (Transform child in UserBookingPanel.transform)
+                    {
+                        if (child.gameObject.name == "BookingSelection" || child.gameObject.name == "BookingSelection(Clone)")
+                            Destroy(child.gameObject);
+                    }
+
+                    Dictionary<string, object> documentFields = snapshot.ToDictionary();
+                    foreach (KeyValuePair<string, object> dateField in documentFields)
+                    {
+                        Dictionary<string, int> value = (Dictionary<string, int>)dateField.Value;
+
+                        if (value != null)
+                        {
+                            if (value["bookable_id"].ToString() == bookableData.id)
+                            {
+                                if (dateField.Key.Length == 12)
+                                {
+                                    string dateString = dateField.Key.Substring(0, 9);
+                                }
+                                else
+                                {
+                                    Debug.LogError($"{dateField.Key} doesn't fit requirement for proper booking slot YYYYMMDDHHMM");
+                                }
+                            }
+                        }
+                        else
+                        {
+                            Debug.LogError("cannot convert users_bookings fields correctly to dictionary");
+                        }
+                    }
+
+                }
+                else
+                {
+                    Debug.LogError("Failed to get document: " + task.Exception);
+                }
+            }
+        });
+
 
         // add listeners to three buttons for managing booking selections
         createBookingButton.onClick.AddListener(CreateBooking);
@@ -285,7 +337,7 @@ public class VenueBooking : MonoBehaviour
 
     public void CreateBooking()
     {
-        if (selectedSlots.Count >= 5)
+        if (selectionNums.Sum() >= 5)
         {
             ShowWarning("cannot book more than 5 slots");
             return;
@@ -319,6 +371,7 @@ public class VenueBooking : MonoBehaviour
         {
             selectedBookings.Add(initialDay, new List<int>());
         }
+
         selectedBookings[initialDay].Add(initialSlot);
 
         selectedSlots.Add(initialSlot);
@@ -369,7 +422,6 @@ public class VenueBooking : MonoBehaviour
             return;
         }
 
-        selectedSlots.Clear();
         selectedDays.Clear();
         selectionNums.Clear();
         selectedBookings.Clear();
@@ -465,6 +517,7 @@ public class VenueBooking : MonoBehaviour
         // Set additional properties for the unbooked window if needed
     }
 
+
     private void InstantiateBooked(string day, int start, string bookerId)
     {
         //print($"instantiating booked {day} {start}, {userId}");
@@ -531,7 +584,10 @@ public class VenueBooking : MonoBehaviour
         dayDict.Add("sat", 6);
         dayDict.Add("sun", 0);
     }
+    private void AssignDateDict()
+    {
 
+    }
     // Method to show the warning message
     private void ShowWarning(string message)
     {
@@ -571,31 +627,29 @@ public class VenueBooking : MonoBehaviour
 
     private void SaveBookingToFirebase(string day, int startTime)
     {
-        if (selectedSlots.Count > 0)
-        {
-            Dictionary<string, object> bookingData = new Dictionary<string, object>
-            {
-                { "userId", userId },
-                { "slots", selectedSlots },
-                { "bookable_id", bookableData.id },
-                { "venue_id", gameStateManager.venueId },
-                { "unity_venue_id", venueManager.venue.id }
-            };
 
-            db.Collection("users_bookings").Document(userId)
-                .SetAsync(bookingData).ContinueWithOnMainThread(task =>
+        Dictionary<string, object> bookingData = new Dictionary<string, object>
+        {
+            { "userId", userId },
+            { "slots", selectedSlots },
+            { "bookable_id", bookableData.id },
+            { "venue_id", gameStateManager.venueId },
+            { "unity_venue_id", venueManager.venue.id }
+        };
+
+        db.Collection("users_bookings").Document(userId)
+            .SetAsync(bookingData).ContinueWithOnMainThread(task =>
+            {
+                if (task.IsCompleted && !task.IsFaulted)
                 {
-                    if (task.IsCompleted && !task.IsFaulted)
-                    {
-                        Debug.Log("Booking successfully saved.");
-                        LoadVenueOpenPanel();
-                    }
-                    else
-                    {
-                        Debug.LogError("Failed to save booking: " + task.Exception);
-                    }
-                });
-        }
+                    Debug.Log("Booking successfully saved.");
+                    LoadVenueOpenPanel();
+                }
+                else
+                {
+                    Debug.LogError("Failed to save booking: " + task.Exception);
+                }
+            });
     }
 
     private void RemoveBookingFromFirebase(string day, int startTime)
@@ -635,9 +689,73 @@ public class VenueBooking : MonoBehaviour
 
     private void AssignDateInfo()
     {
+        foreach (Transform child in dateTitles.transform)
+        {
+            string day = child.gameObject.name;
+            DateTime dateTime = SystemTime
+            .AddDate(SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]);
+            child.gameObject.GetComponent<TMP_Text>().text = dateTime.Month + "/" + dateTime.Date;
+        }
 
+        // highligh the current date
+
+        int dayNum = SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())];
+        float posx = width * dayNum - 130.8f;
+        float posy = -42.4264f;
+        highlightCurrentDate.transform.position = new Vector2(posx, posy);
     }
 
+    private string CalculateDate(string day)
+    {
+        DateTime dateTime = SystemTime
+            .AddDate(SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]);
+        return SystemTime.GetYear(dateTime) + SystemTime.GetMonth(dateTime) + SystemTime.GetDate(dateTime);
+    }
 
+    private string CalculateDay(string date) // pass date in YYYYMMDD form
+    {
+        try
+        {
+            int number = int.Parse(date);
+            Debug.Log("Converted number: " + number);
+        }
+        catch (FormatException)
+        {
+            Debug.LogError("The string is not a valid number.");
+        }
 
+        int.Parse(SystemTime.GetYYYYMMDD(SystemTime.Now()))
+    }
+    IEnumerator UpdateVenueOpenPanel()
+    {
+        while (true)
+        {
+            // Call your async method
+            yield return LoadVenueOpenPanel();
+            // Wait for 3 seconds before calling it again
+            yield return new WaitForSeconds(3f);
+        }
+    }
+
+    IEnumerator UpdateUserBookingPanel()
+    {
+        while (true)
+        {
+            // Your code to update user booking panel
+            yield return RefreshUserBookingPanel();
+            // Wait for 3 seconds before calling it again
+            yield return new WaitForSeconds(3f);
+        }
+    }
+
+    IEnumerator UpdateHistoryBookingInfo()
+    {
+        while (true)
+        {
+            // Your code to update history booking info
+            yield return LoadHistoricalBookingInfo();
+            // Wait for 3 seconds before calling it again
+            yield return new WaitForSeconds(3f);
+        }
+    }
 }
