@@ -476,7 +476,7 @@ public class VenueBooking : MonoBehaviour
             selectedSlots.Add(startTime);
             Debug.Log($"Selected {day} {startTime / 100:00}:{startTime % 100:00}");
 
-            UpdateBookingData(day, startTime);
+            SaveBookingToFirebase(day, startTime);
         }
         else if (selectedSlots.Contains(startTime))
         {
@@ -490,12 +490,6 @@ public class VenueBooking : MonoBehaviour
 
         // Optionally, update UI or provide feedback to the user here
     }
-
-    private void UpdateBookingData(string day, int startTime)
-    {
-        SaveBookingToFirebase(day, startTime);
-    }
-
 
 
     private Task LoadHistoricalBookingInfo()
@@ -516,8 +510,6 @@ public class VenueBooking : MonoBehaviour
         rect.transform.SetParent(VenueOpenPanel.transform, false);
         // Set additional properties for the unbooked window if needed
     }
-
-
     private void InstantiateBooked(string day, int start, string bookerId)
     {
         //print($"instantiating booked {day} {start}, {userId}");
@@ -543,7 +535,6 @@ public class VenueBooking : MonoBehaviour
             RetrieveUserInfo(booker);
         }
     }
-
     private void RetrieveUserInfo(Booker booker)
     {
         db.Collection("users").Document(booker.id).GetSnapshotAsync().ContinueWithOnMainThread(task =>
@@ -586,8 +577,18 @@ public class VenueBooking : MonoBehaviour
     }
     private void AssignDateDict()
     {
+        dateDict = new Dictionary<string, string>();
+        foreach (KeyValuePair<string, int> dayPair in dayDict)
+        {
+            string day = dayPair.Key;
+            int value = dayPair.Value;
 
+
+            //// Your code here
+            //Debug.Log("Day: " + day + ", Value: " + value);
+        }
     }
+
     // Method to show the warning message
     private void ShowWarning(string message)
     {
@@ -714,18 +715,11 @@ public class VenueBooking : MonoBehaviour
 
     private string CalculateDay(string date) // pass date in YYYYMMDD form
     {
-        try
-        {
-            int number = int.Parse(date);
-            Debug.Log("Converted number: " + number);
-        }
-        catch (FormatException)
-        {
-            Debug.LogError("The string is not a valid number.");
-        }
-
-        int.Parse(SystemTime.GetYYYYMMDD(SystemTime.Now()))
+        return dateDict[date];
     }
+
+
+    // update every 3 seconds
     IEnumerator UpdateVenueOpenPanel()
     {
         while (true)
@@ -736,7 +730,6 @@ public class VenueBooking : MonoBehaviour
             yield return new WaitForSeconds(3f);
         }
     }
-
     IEnumerator UpdateUserBookingPanel()
     {
         while (true)
@@ -747,7 +740,6 @@ public class VenueBooking : MonoBehaviour
             yield return new WaitForSeconds(3f);
         }
     }
-
     IEnumerator UpdateHistoryBookingInfo()
     {
         while (true)

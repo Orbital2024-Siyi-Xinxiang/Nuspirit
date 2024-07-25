@@ -278,8 +278,6 @@ public class DataUpdater : MonoBehaviour
         return result;
     }
 
-
-
     private void updateUsers()
     {
         // TODO: update users in the venue periodically
