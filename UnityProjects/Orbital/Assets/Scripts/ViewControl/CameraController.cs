@@ -21,6 +21,7 @@ public class CameraController : MonoBehaviour
         HandlePinchZoom();
     }
 
+    //TODO: handle venueMap
     private void HandlePinchZoom()
     {
         // Check if there are two touches on the screen

@@ -397,3 +397,23 @@ Memory consumption went from 116.0 MB to 115.4 MB.
 Total: 26.992542 ms (FindLiveObjects: 0.730166 ms CreateObjectMapping: 0.149000 ms MarkObjects: 25.278875 ms  DeleteObjects: 0.834208 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.25 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (0.5 MB). Loaded Objects now: 7594.
+Memory consumption went from 115.6 MB to 115.1 MB.
+Total: 23.900666 ms (FindLiveObjects: 0.597291 ms CreateObjectMapping: 0.140875 ms MarkObjects: 22.432417 ms  DeleteObjects: 0.729791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.32 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (0.5 MB). Loaded Objects now: 7594.
+Memory consumption went from 115.3 MB to 114.7 MB.
+Total: 38.472041 ms (FindLiveObjects: 0.788166 ms CreateObjectMapping: 0.155959 ms MarkObjects: 36.652416 ms  DeleteObjects: 0.875000 ms)
+
+Prepare: number of updated asset objects reloaded= 0

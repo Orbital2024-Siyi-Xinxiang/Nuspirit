@@ -109,6 +109,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PreviewSystem.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/UI/VenuePreview.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/ObjectPlacer.cs" />
     <Compile Include="Assets/Scripts/ViewControl/MapTransfer.cs" />
     <Compile Include="Assets/Scripts/SystemTime.cs" />

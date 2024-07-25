@@ -286,3 +286,50 @@ Memory consumption went from 112.7 MB to 112.2 MB.
 Total: 26.333125 ms (FindLiveObjects: 0.520125 ms CreateObjectMapping: 0.132333 ms MarkObjects: 24.877167 ms  DeleteObjects: 0.803042 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.24 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (0.6 MB). Loaded Objects now: 5331.
+Memory consumption went from 112.4 MB to 111.7 MB.
+Total: 23.249416 ms (FindLiveObjects: 0.350875 ms CreateObjectMapping: 0.136542 ms MarkObjects: 22.055542 ms  DeleteObjects: 0.705667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21643.453585 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(8ed6dd83f2de64a76808ba1da0c620b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(8ed6dd83f2de64a76808ba1da0c620b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7d18dd0688bf3ca7edc9d4a0c191a5f5') in 0.001613917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.376168 seconds.
+  path: Assets/Scripts/UI/VenuePreview.cs
+  artifactKey: Guid(a4863134ac1734dd8be873d1ef6dbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/VenuePreview.cs using Guid(a4863134ac1734dd8be873d1ef6dbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bb51f5a0f43976c1a0e8229c23cf1e69') in 0.000631541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.33 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (132.0 KB). Loaded Objects now: 5331.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 37.391166 ms (FindLiveObjects: 0.454292 ms CreateObjectMapping: 0.153541 ms MarkObjects: 35.951459 ms  DeleteObjects: 0.830708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 256.676876 seconds.
+  path: Assets/Scripts/UI/VenuePreview.cs
+  artifactKey: Guid(a4863134ac1734dd8be873d1ef6dbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/VenuePreview.cs using Guid(a4863134ac1734dd8be873d1ef6dbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bb51f5a0f43976c1a0e8229c23cf1e69') in 0.000670958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

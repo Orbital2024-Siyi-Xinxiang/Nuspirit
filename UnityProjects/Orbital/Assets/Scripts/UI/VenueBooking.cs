@@ -435,6 +435,7 @@ public class VenueBooking : MonoBehaviour
         ClearAllBookingsFromFirebase();
     }
 
+    // TODO: update layout
     private void UpdatePanelLayout()
     {
         float newPosY = initY - (selectionNums.Count * (singleSlotSelectionHeight + addHeight));
@@ -449,6 +450,7 @@ public class VenueBooking : MonoBehaviour
         }
     }
 
+    // TODO: assign time options 
     private void UpdateTimeOptions(string day)
     {
         // Clear existing options
@@ -468,6 +470,7 @@ public class VenueBooking : MonoBehaviour
         }
     }
 
+    //TODO:after selecting a time slot
     private void SelectTimeSlot(string day, int startTime)
     {
         // TODO: implement add and delete booking details logic 
@@ -491,13 +494,12 @@ public class VenueBooking : MonoBehaviour
         // Optionally, update UI or provide feedback to the user here
     }
 
-
+    //TODO: history booking (other users bookings) using venues_bookables collection in firebase for data
     private Task LoadHistoricalBookingInfo()
     {
         // Implement historical booking info logic here
         return Task.CompletedTask;
     }
-
     private void InstantiateUnBooked(string day, int start)
     {
         int index = (start - 600) / 100;
@@ -563,7 +565,6 @@ public class VenueBooking : MonoBehaviour
             }
         });
     }
-
     private void AssignDayDict()
     {
         dayDict = new Dictionary<string, int>();
@@ -581,14 +582,12 @@ public class VenueBooking : MonoBehaviour
         foreach (KeyValuePair<string, int> dayPair in dayDict)
         {
             string day = dayPair.Key;
-            int value = dayPair.Value;
-
-
+            string dateKey = CalculateDate(day);
+            dateDict.Add(dateKey, day);
             //// Your code here
             //Debug.Log("Day: " + day + ", Value: " + value);
         }
     }
-
     // Method to show the warning message
     private void ShowWarning(string message)
     {
@@ -608,7 +607,6 @@ public class VenueBooking : MonoBehaviour
             Debug.LogError("Warning message TMP_Text component not found in the first child of warningPanel.");
         }
     }
-
     private void AssignSizeData()
     {
         // initialize size data for booked and unbooked layouts
@@ -626,6 +624,7 @@ public class VenueBooking : MonoBehaviour
         initBookingY = 25.328f;
     }
 
+    //TODO
     private void SaveBookingToFirebase(string day, int startTime)
     {
 
