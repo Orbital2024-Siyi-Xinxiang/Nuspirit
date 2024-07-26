@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Assets\Scripts\UI\EmojiManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.181_manifest.txt" />

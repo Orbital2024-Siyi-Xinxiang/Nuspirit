@@ -66,7 +66,6 @@ public class VenueBooking : MonoBehaviour
     private Dictionary<string, List<int>> availableDict;
     private Dictionary<string, List<int>> selectedBookings;
     private List<string> selectedDays = new List<string>(); // this list is for 
-    private List<int> selectionNums; // for example, selected two days, one day one slots and another day two slots, then it's [1,2]
 
     // Singleton instance
     public static VenueBooking Instance;
@@ -89,13 +88,10 @@ public class VenueBooking : MonoBehaviour
         AssignDayDict();
         AssignDateDict();
 
-        // add listeners to three buttons for managing booking selections
-        createBookingButton.onClick.AddListener(CreateBooking);
-        removeBookingButton.onClick.AddListener(RemoveBooking);
-        clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
+
 
         availableDict = new Dictionary<string, List<int>>();
-        selectionNums = new List<int>();
+    
         selectedBookings = new Dictionary<string, List<int>>();
         selectedDays = new List<string>();
     }
@@ -268,6 +264,11 @@ public class VenueBooking : MonoBehaviour
 
     private Task RefreshUserBookingPanel()
     {
+        // add listeners to three buttons for managing booking selections
+        createBookingButton.onClick.AddListener(CreateBooking);
+        removeBookingButton.onClick.AddListener(RemoveBooking);
+        clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
+
         // TODO: initialize layouts
         DocumentReference docRef = db.Collection("users_bookings").Document(userId);
         docRef.GetSnapshotAsync().ContinueWithOnMainThread(task =>
@@ -330,14 +331,13 @@ public class VenueBooking : MonoBehaviour
             }
         });
 
-
-
         return Task.CompletedTask;
     }
 
+    // TODO
     public void CreateBooking()
     {
-        if (selectionNums.Sum() >= 5)
+        if (CalculateSum(selectedBookings) >= 5)
         {
             ShowWarning("cannot book more than 5 slots");
             return;
@@ -376,15 +376,15 @@ public class VenueBooking : MonoBehaviour
 
         selectedSlots.Add(initialSlot);
         selectedDays.Add(initialDay);
-        selectionNums.Add(1);
 
         UpdatePanelLayout();
         SaveBookingToFirebase(initialDay, initialSlot);
     }
 
+    //TODO
     public void RemoveBooking()
     {
-        if (selectionNums.Count == 0)
+        if (CalculateSum(selectedBookings) == 0)
         {
             ShowWarning("No user booking found!");
             return;
@@ -414,6 +414,8 @@ public class VenueBooking : MonoBehaviour
         }
     }
 
+
+    //TODO
     public void ClearAllBookings()
     {
         if (selectionNums.Count == 0)
@@ -435,16 +437,56 @@ public class VenueBooking : MonoBehaviour
         ClearAllBookingsFromFirebase();
     }
 
-    // TODO: update layout
     private void UpdatePanelLayout()
     {
         ResetButtonPositions();
 
-        foreach (KeyValuePair<string, List<int>> selected in selectedBookings)
+        float tempPosYChange = 0f;
+
+        foreach (string day in selectedDays)
         {
-            Instantiate(bookingSelection, )
+            
+            string dayString = day;
+       
+            if (!selectedBookings.ContainsKey(dayString))
+            {
+                Debug.LogError("selected bookings day doesn't match selectedDays list");
+            }
+
+            List<int> dates = selectedBookings[day];
+
+            if (dates.Count == 0)
+            {
+                Debug.LogError($"selectedBooking malformatted: day {day} has no slots");
+            }
+            else
+            {
+                
+                GameObject newSelection =
+                        Instantiate(bookingSelectionPrefab, new Vector3(0, tempPosYChange, 0), Quaternion.identity);
+                tempPosYChange += bookingSelectionHeight;
+                // set initial slot selection
+                TMP_Dropdown chooseDay = newSelection.transform.GetChild(0).gameObject.GetComponentInChildren<TMP_Dropdown>();
+
+                for (int indexer = 1; indexer < dates.Count; indexer++)
+                {
+
+                    // Instantiate
+
+                    tempPosYChange += singleSlotSelectionHeight;
+
+
+                }
+                
+                float posYChange = bookingSelectionHeight + (dates.Count - 1) * singleSlotSelectionHeight;
+                createBookingButton.transform.position += new Vector3(0, posYChange, 0);
+                removeBookingButton.transform.position += new Vector3(0, posYChange, 0);
+            }
+
+
         }
 
+        // 
         // Clear existing options
         chooseDayOptions.ClearOptions();
 
@@ -663,7 +705,7 @@ public class VenueBooking : MonoBehaviour
         initBookingY = 25.328f;
     }
 
-    //TODO
+    //TODO: update venues_bookables database logic as well
     private void SaveBookingToFirebase(string day, int startTime)
     {
 
@@ -691,6 +733,7 @@ public class VenueBooking : MonoBehaviour
             });
     }
 
+    //TODO: update venues_bookables database logic as well
     private void RemoveBookingFromFirebase(string day, int startTime)
     {
         db.Collection("users_bookings").Document(userId)
@@ -709,6 +752,7 @@ public class VenueBooking : MonoBehaviour
             });
     }
 
+    //TODO: update venues_bookables database logic as well
     private void ClearAllBookingsFromFirebase()
     {
         db.Collection("users_bookings").Document(userId)
@@ -756,6 +800,15 @@ public class VenueBooking : MonoBehaviour
         return dateDict[date];
     }
 
+    private int CalculateSum(Dictionary<string, List<int>> selectedBookings)
+    {
+        int res = 0;
+        foreach(KeyValuePair<string, List<int>> pair in selectedBookings)
+        {
+            res += pair.Value.Count;
+        }
+        return res;
+    }
 
     // update every 3 seconds
     IEnumerator UpdateVenueOpenPanel()

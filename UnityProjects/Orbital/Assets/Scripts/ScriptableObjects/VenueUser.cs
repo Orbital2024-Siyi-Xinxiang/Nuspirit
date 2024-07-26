@@ -5,6 +5,7 @@
 public class VenueUser : ScriptableObject
 {
     public string id; // user id
+    public string status;
     public Sprite sprite;
     public Vector2 size;
 

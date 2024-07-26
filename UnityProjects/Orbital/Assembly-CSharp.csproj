@@ -66,6 +66,7 @@
     <Compile Include="Assets/Scripts/UI/VenueNoticeBoard.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/SolidObject.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/PersistentUI.cs" />
+    <Compile Include="Assets/Scripts/UI/ChatManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueBackground.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
