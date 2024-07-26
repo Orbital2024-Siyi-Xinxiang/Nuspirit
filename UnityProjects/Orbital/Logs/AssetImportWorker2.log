@@ -461,3 +461,33 @@ Total: 18.369000 ms (FindLiveObjects: 0.285917 ms CreateObjectMapping: 0.109917 
 Prepare: number of updated asset objects reloaded= 0
 [usbmuxd] Detached: 7 00008110-001250421A8A401E
 [usbmuxd] Detached: 7 00008110-001250421A8A401E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4684 unused Assets / (1.6 MB). Loaded Objects now: 5332.
+Memory consumption went from 107.5 MB to 106.0 MB.
+Total: 33.105209 ms (FindLiveObjects: 0.312375 ms CreateObjectMapping: 0.101042 ms MarkObjects: 31.778459 ms  DeleteObjects: 0.913125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.90 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4684 unused Assets / (209.9 KB). Loaded Objects now: 5332.
+Memory consumption went from 107.2 MB to 107.0 MB.
+Total: 21.612209 ms (FindLiveObjects: 0.477667 ms CreateObjectMapping: 0.112000 ms MarkObjects: 20.046833 ms  DeleteObjects: 0.975000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.80 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4684 unused Assets / (473.3 KB). Loaded Objects now: 5332.
+Memory consumption went from 106.8 MB to 106.3 MB.
+Total: 21.273917 ms (FindLiveObjects: 0.312875 ms CreateObjectMapping: 0.110166 ms MarkObjects: 20.120667 ms  DeleteObjects: 0.729834 ms)
+
+Prepare: number of updated asset objects reloaded= 0

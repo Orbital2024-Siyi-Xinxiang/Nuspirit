@@ -474,29 +474,31 @@ public class VenueBooking : MonoBehaviour
                 TMP_Dropdown.OptionData newOption = new TMP_Dropdown.OptionData(dayString);
                 chooseDayOptions.options.Insert(0, newOption);
                 chooseDayOptions.value = 0;
+                int selectedSlot = slots[0];
                 // Add listener to update time options when a day is selected
                 string previous = chooseDayOptions.options[chooseDayOptions.value].text;
-                int selectedSlot = slots[0];
+                
+                UpdateTimeOptions(chooseTimeOptions, previous, selectedSlot);
 
                 chooseDayOptions.onValueChanged.AddListener(delegate
-                    { UpdateTimeOptions(chooseDayOptions.options[chooseDayOptions.value].text, selectedSlot);
+                    { UpdateTimeOptions(chooseTimeOptions, chooseDayOptions.options[chooseDayOptions.value].text,
+                        availableDict[chooseDayOptions.options[chooseDayOptions.value].text][0]);
                     OnDaySelectionChanged(previous); });
 
-                // Clear existing options
 
                 for (int indexer = 1; indexer < slots.Count; indexer++)
                 {
 
                     // Instantiate chooseTimeOptions
-                    GameObject newSlot =
+                    GameObject newSlot=
                         Instantiate(singleSlotSelectionPrefab,
-                        (newSelection.transform.GetChild(1).gameObject.transform.position + new Vector3(0, singleSlotSelectionHeight, 0)),
+                        (newSelection.transform.GetChild(1).gameObject.transform.position +
+                        new Vector3(0, singleSlotSelectionHeight, 0)),
                         Quaternion.identity);
-
-
-
+                    TMP_Dropdown newTimeOption = newSlot.GetComponent<TMP_Dropdown>();
                     tempPosYChange += singleSlotSelectionHeight;
-
+                    int newSelectedSlot = slots[indexer];
+                    UpdateTimeOptions(newTimeOption, previous, newSelectedSlot);
 
                 }
                 
@@ -548,11 +550,11 @@ public class VenueBooking : MonoBehaviour
 
     }
 
-    private void UpdateTimeOptions(string day, int selectedSlot)
+    private void UpdateTimeOptions(TMP_Dropdown chooseTimeOptions, string day, int selectedSlot)
     {
-        int previous = 0;
-        // Clear existing options
         chooseTimeOptions.ClearOptions();
+        int previous = 0;
+        // Clear existing option;
 
         if (availableDict.ContainsKey(day))
         {
