@@ -24,10 +24,6 @@ public class VenueBooking : MonoBehaviour
     public GameObject booked;
     public GameObject unBooked;
 
-    // TODO: delete this. instead of assigning from the scene, get the two dropdowns from prefab "bookingSelectionPrefab"
-    public TMP_Dropdown chooseDayOptions;
-    public TMP_Dropdown chooseTimeOptions;
-
     //TODO: assign in unity editor
     public VenueManager venueManager;
     public GameStateManager gameStateManager;
@@ -58,11 +54,15 @@ public class VenueBooking : MonoBehaviour
     private static float initBookingX;
     private static float initBookingY;
 
-
+    // universal info needed for assignment
     private string venueName;
     private string userId;
+
+    // utilities
     private Dictionary<string, int> dayDict;
     private Dictionary<string, string> dateDict;  // eg.: 20240724: monday,..
+
+    // state variables needed to keep track of
     private Dictionary<string, List<int>> availableDict;
     private Dictionary<string, List<int>> selectedBookings;
     private List<string> selectedDays = new List<string>(); // this list is for 
@@ -89,6 +89,11 @@ public class VenueBooking : MonoBehaviour
         AssignDayDict();
         AssignDateDict();
 
+        // add listeners to three buttons for managing booking selections
+        createBookingButton.onClick.AddListener(CreateBooking);
+        removeBookingButton.onClick.AddListener(RemoveBooking);
+        clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
+
         availableDict = new Dictionary<string, List<int>>();
         selectionNums = new List<int>();
         selectedBookings = new Dictionary<string, List<int>>();
@@ -99,6 +104,11 @@ public class VenueBooking : MonoBehaviour
     {
         createBookingButton.transform.position = new Vector2(createBookingButton.transform.localPosition.x, initBookingY);
         removeBookingButton.transform.position = new Vector2(removeBookingButton.transform.localPosition.x, initBookingY);
+        foreach (Transform child in UserBookingPanel.transform)
+        {
+            if (child.gameObject.name == "BookingSelection" || child.gameObject.name == "BookingSelection(Clone)")
+                Destroy(child.gameObject);
+        }
     }
   
     public async void InitializeData(VenueBookable data)
@@ -189,6 +199,7 @@ public class VenueBooking : MonoBehaviour
         return Task.CompletedTask;
     }
 
+    // TODO refresh more frequently (refresh availableDict as well for later updating user booking panel)
     private Task LoadVenueOpenPanel()
     {
         // Clear any existing children in VenueOpenPanel to prevent duplicates
@@ -266,14 +277,9 @@ public class VenueBooking : MonoBehaviour
                 DocumentSnapshot snapshot = task.Result;
                 if (snapshot.Exists)
                 {
-                    foreach (Transform child in UserBookingPanel.transform)
-                    {
-                        if (child.gameObject.name == "BookingSelection" || child.gameObject.name == "BookingSelection(Clone)")
-                            Destroy(child.gameObject);
-                    }
-
                     // reset selectedBookings according to firebase firestore data users_bookings
                     selectedBookings = new Dictionary<string, List<int>>();
+                    selectedDays = new List<string>();
                     Dictionary<string, object> documentFields = snapshot.ToDictionary();
                     foreach (KeyValuePair<string, object> dateField in documentFields)
                     {
@@ -292,6 +298,10 @@ public class VenueBooking : MonoBehaviour
                                     if (selectedBookings.ContainsKey(dayString))
                                     {
                                         selectedBookings[dayString].Add(int.Parse(timeString));
+                                        if (!selectedDays.Contains(dayString))
+                                        {
+                                            selectedDays.Add(dayString);
+                                        }
                                     } else
                                     {
                                         selectedBookings.Add(dayString, new List<int>{ int.Parse(timeString) });
@@ -321,27 +331,6 @@ public class VenueBooking : MonoBehaviour
         });
 
 
-        // add listeners to three buttons for managing booking selections
-        createBookingButton.onClick.AddListener(CreateBooking);
-        removeBookingButton.onClick.AddListener(RemoveBooking);
-        clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
-        // Clear existing options
-        chooseDayOptions.ClearOptions();
-
-        // Get the days that have at least one available slot
-        List<string> availableDays = availableDict.Keys.Where(day => availableDict[day].Count > 0).ToList();
-
-        // Populate the chooseDayOptions dropdown
-        chooseDayOptions.AddOptions(availableDays);
-
-        // Add listener to update time options when a day is selected
-        chooseDayOptions.onValueChanged.AddListener(delegate { UpdateTimeOptions(chooseDayOptions.options[chooseDayOptions.value].text); });
-
-        // Initialize the time options for the first available day
-        if (availableDays.Count > 0)
-        {
-            UpdateTimeOptions(availableDays[0]);
-        }
 
         return Task.CompletedTask;
     }
@@ -449,6 +438,30 @@ public class VenueBooking : MonoBehaviour
     // TODO: update layout
     private void UpdatePanelLayout()
     {
+        ResetButtonPositions();
+
+        foreach (KeyValuePair<string, List<int>> selected in selectedBookings)
+        {
+            Instantiate(bookingSelection, )
+        }
+
+        // Clear existing options
+        chooseDayOptions.ClearOptions();
+
+        // Get the days that have at least one available slot
+        List<string> availableDays = availableDict.Keys.Where(day => availableDict[day].Count > 0).ToList();
+
+        // Populate the chooseDayOptions dropdown
+        chooseDayOptions.AddOptions(availableDays);
+
+        // Add listener to update time options when a day is selected
+        chooseDayOptions.onValueChanged.AddListener(delegate { UpdateTimeOptions(chooseDayOptions.options[chooseDayOptions.value].text); });
+
+        // Initialize the time options for the first available day
+        if (availableDays.Count > 0)
+        {
+            UpdateTimeOptions(availableDays[0]);
+        }
         float newPosY = initY - (selectionNums.Count * (singleSlotSelectionHeight + addHeight));
         createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, newPosY);
         removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, newPosY);
@@ -484,8 +497,9 @@ public class VenueBooking : MonoBehaviour
     //TODO:after selecting a time slot
     private void SelectTimeSlot(string day, int startTime)
     {
-        // TODO: implement add and delete booking details logic 
-        if (selectedSlots.Count < 5 && !selectedSlots.Contains(startTime))
+        // TODO: implement add and delete booking details logic
+        // TODO: change availableDict and selectedBookings and selectedDays
+        if (selectedBookings[day].Count < 5 && !selectedSlots.Contains(startTime))
         {
             selectedSlots.Add(startTime);
             Debug.Log($"Selected {day} {startTime / 100:00}:{startTime % 100:00}");
@@ -503,6 +517,20 @@ public class VenueBooking : MonoBehaviour
         }
 
         // Optionally, update UI or provide feedback to the user here
+    }
+
+    private void RemoveTimeSlot(string day, int startTime)
+    {
+        // TODO: implement add and delete booking details logic
+        // TODO: change availableDict and selectedBookings and selectedDays
+        if (selectedBookings[day].Count >= 1 && selectedBookings[day].Contains(startTime))
+        {
+
+        }
+        else 
+        {
+
+        }
     }
 
     //TODO: history booking (other users bookings) using venues_bookables collection in firebase for data

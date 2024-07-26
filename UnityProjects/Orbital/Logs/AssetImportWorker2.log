@@ -389,3 +389,25 @@ Memory consumption went from 110.7 MB to 110.4 MB.
 Total: 20.645125 ms (FindLiveObjects: 0.440459 ms CreateObjectMapping: 0.109666 ms MarkObjects: 19.438750 ms  DeleteObjects: 0.655959 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Attached: 5 00008110-001250421A8A401E
+[usbmuxd] Attached: 5 00008110-001250421A8A401E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.10 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (0.8 MB). Loaded Objects now: 5331.
+Memory consumption went from 110.3 MB to 109.5 MB.
+Total: 14.543917 ms (FindLiveObjects: 0.832625 ms CreateObjectMapping: 0.111458 ms MarkObjects: 12.975333 ms  DeleteObjects: 0.624125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.38 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (0.9 MB). Loaded Objects now: 5331.
+Memory consumption went from 109.9 MB to 109.0 MB.
+Total: 31.265125 ms (FindLiveObjects: 0.439000 ms CreateObjectMapping: 0.102291 ms MarkObjects: 29.868708 ms  DeleteObjects: 0.854583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
