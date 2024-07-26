@@ -592,34 +592,64 @@ public class VenueBooking : MonoBehaviour
 
     }
 
-    //TODO:after selecting a time slot
+    //TODO: handle maximum select time slot
     private void SelectTimeSlot(string day)
     {
+        if (!availableDict.ContainsKey(day))
+        {
+            ShowWarning($"no more available slot for day {day}!");
+        }
+        else if (!(availableDict[day].Count > 0))
+        {
+            availableDict.Remove(day);
+        }
+        else
+        {
+            int selectedSlot = availableDict[day].First();
+            SelectTimeSlot(day, selectedSlot);
+        }
 
     }
 
     private void SelectTimeSlot(string day, int startTime)
     {
-        // TODO: implement add and delete booking details logic
         // TODO: change availableDict and selectedBookings and selectedDays
-        if (selectedBookings[day].Count < 5 && !selectedSlots.Contains(startTime))
+        if (CalculateSum(selectedBookings) < 5)
         {
-            selectedSlots.Add(startTime);
-            Debug.Log($"Selected {day} {startTime / 100:00}:{startTime % 100:00}");
+            // update selected bookings
+            if (!selectedBookings.ContainsKey(day))
+            {
+                selectedBookings.Add(day, new List<int> { startTime });
+            }
+            else if (!selectedBookings[day].Contains(startTime))
+            {
+                selectedBookings[day].Add(startTime);
+            }
+            else
+            {
+                Debug.LogError($"already selected slot {startTime}");
+            }
+            SaveBookingToDatabase(day, startTime);
 
-            SaveBookingToFirebase(day, startTime);
-        }
-        else if (selectedSlots.Contains(startTime))
+            // update availableDict
+            if (!availableDict.ContainsKey(day))
+            {
+                Debug.LogError($"unavailable day {day}");
+            }
+            else if (!availableDict[day].Contains(startTime))
+            {
+                Debug.LogError($"unavailable slot {startTime}");
+            }
+            else
+            {
+                availableDict[day].Remove(startTime);
+            }
+
+        } else
         {
-            selectedSlots.Remove(startTime);
-            Debug.Log($"Deselected {day} {startTime / 100:00}:{startTime % 100:00}");
-        }
-        else
-        {
-            Debug.LogWarning("You can only select up to 5 slots.");
+            ShowWarning("Cannot book more than 5 slots!");
         }
 
-        // Optionally, update UI or provide feedback to the user here
         UpdatePanelLayout();
     }
 
