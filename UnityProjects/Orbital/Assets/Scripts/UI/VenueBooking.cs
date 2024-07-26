@@ -481,9 +481,9 @@ public class VenueBooking : MonoBehaviour
                 UpdateTimeOptions(chooseTimeOptions, previous, selectedSlot);
 
                 chooseDayOptions.onValueChanged.AddListener(delegate
-                    { UpdateTimeOptions(chooseTimeOptions, chooseDayOptions.options[chooseDayOptions.value].text,
-                        availableDict[chooseDayOptions.options[chooseDayOptions.value].text][0]);
-                    OnDaySelectionChanged(previous); });
+                    {
+                        CreateBooking(chooseDayOptions.options[chooseDayOptions.value].text);
+                        RemoveBooking(previous); });
 
 
                 for (int indexer = 1; indexer < slots.Count; indexer++)
@@ -506,48 +506,18 @@ public class VenueBooking : MonoBehaviour
                 createBookingButton.transform.position += new Vector3(0, posYChange, 0);
                 removeBookingButton.transform.position += new Vector3(0, posYChange, 0);
 
-                // add listeners to three buttons for managing booking selections
-                createBookingButton.onClick.AddListener(delegate { CreateBooking(); });
-                removeBookingButton.onClick.AddListener(delegate { RemoveBooking(selectedDays[-1]); });
-                clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
-                //TODO: update panel size to contain all things
             }
 
-
         }
 
+        // add listeners to three buttons for managing booking selections
+        createBookingButton.onClick.AddListener(delegate { CreateBooking(); });
+        removeBookingButton.onClick.AddListener(delegate { RemoveBooking(selectedDays[-1]); });
+        clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
 
-
-        
-
-
-
-
-
-        // Initialize the time options for the first available day
-        if (availableDays.Count > 0)
-        {
-            
-        }
-        float newPosY = initY - (selectionNums.Count * (singleSlotSelectionHeight + addHeight));
-        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, newPosY);
-        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, newPosY);
         RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
-        panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x, -newPosY + singleSlotSelectionHeight);
-
-        foreach (Transform child in UserBookingPanel.transform)
-        {
-            child.localPosition = new Vector2(child.localPosition.x, child.localPosition.y - singleSlotSelectionHeight - addHeight);
-        }
-    }
-
-    private void OnDaySelectionChanged(string pre)
-    {
-        selectedBookings.Remove(pre);
-        selectedDays.Remove(pre);
-        
-        // TODO: when day is removed, it becomes available;
-
+        panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x,
+            createBookingButton.transform.position.y + singleSlotSelectionHeight);
     }
 
     private void UpdateTimeOptions(TMP_Dropdown chooseTimeOptions, string day, int selectedSlot)
