@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewMonoBehaviour : MonoBehaviour
+public class ChatManager : MonoBehaviour
 {
+	public FirebaseStorageManager firebaseStorageManager;
+
 	// Use this for initialization
 	void Start()
 	{
