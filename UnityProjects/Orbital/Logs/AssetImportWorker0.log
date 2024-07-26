@@ -417,3 +417,50 @@ Memory consumption went from 115.3 MB to 114.7 MB.
 Total: 38.472041 ms (FindLiveObjects: 0.788166 ms CreateObjectMapping: 0.155959 ms MarkObjects: 36.652416 ms  DeleteObjects: 0.875000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.32 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (506.9 KB). Loaded Objects now: 7594.
+Memory consumption went from 115.0 MB to 114.5 MB.
+Total: 26.591709 ms (FindLiveObjects: 0.656917 ms CreateObjectMapping: 0.142250 ms MarkObjects: 24.981292 ms  DeleteObjects: 0.810417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 22491.336628 seconds.
+  path: Assets/Scripts/UI/VenuePreview.cs
+  artifactKey: Guid(a4863134ac1734dd8be873d1ef6dbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/VenuePreview.cs using Guid(a4863134ac1734dd8be873d1ef6dbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '9a64a7f330cb60681dbfe0673872db03') in 0.001129125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.90 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (355.7 KB). Loaded Objects now: 7594.
+Memory consumption went from 114.6 MB to 114.3 MB.
+Total: 28.210000 ms (FindLiveObjects: 1.142041 ms CreateObjectMapping: 0.159917 ms MarkObjects: 26.061750 ms  DeleteObjects: 0.845667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Attached: 3 00008110-001250421A8A401E
+[usbmuxd] Attached: 3 00008110-001250421A8A401E
+[usbmuxd] Detached: 3 00008110-001250421A8A401E
+[usbmuxd] Detached: 3 00008110-001250421A8A401E
+[usbmuxd] Attached: 4 00008110-001250421A8A401E
+[usbmuxd] Attached: 4 00008110-001250421A8A401E
+[usbmuxd] Detached: 4 00008110-001250421A8A401E
+[usbmuxd] Detached: 4 00008110-001250421A8A401E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.18 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4683 unused Assets / (174.5 KB). Loaded Objects now: 7594.
+Memory consumption went from 114.0 MB to 113.8 MB.
+Total: 21.608083 ms (FindLiveObjects: 0.621000 ms CreateObjectMapping: 0.115042 ms MarkObjects: 20.223791 ms  DeleteObjects: 0.647458 ms)
+
+Prepare: number of updated asset objects reloaded= 0

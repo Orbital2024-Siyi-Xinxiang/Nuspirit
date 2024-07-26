@@ -69,35 +69,4 @@ public class ObjectPlacer : MonoBehaviour
             previewSystem.HidePreview();
         }
     }
-
-    //void Update()
-    //{
-    //    // Check for mouse input (for desktop)
-    //    if (Input.GetMouseButton(0))
-    //    {
-    //        Vector3 mousePosition = Input.mousePosition;
-    //        HandleTouch(mousePosition, true);
-    //    }
-    //    else if (Input.GetMouseButtonUp(0))
-    //    {
-    //        Vector3 mousePosition = Input.mousePosition;
-    //        HandleTouch(mousePosition, false);
-    //    }
-
-    //    // Check for touch input (for mobile)
-    //    if (Input.touchCount > 0)
-    //    {
-    //        Touch touch = Input.GetTouch(0);
-    //        Vector2 touchPosition = touch.position;
-
-    //        if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
-    //        {
-    //            HandleTouch(touchPosition, true);
-    //        }
-    //        else if (touch.phase == TouchPhase.Ended)
-    //        {
-    //            HandleTouch(touchPosition, false);
-    //        }
-    //    }
-    //}
 }

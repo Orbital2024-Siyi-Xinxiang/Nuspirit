@@ -48,7 +48,7 @@ public class VenueBooking : MonoBehaviour
     private static float height;
     private static float initX;
     private static float initY;
-
+    
     
     // size data for user booking layout  
     private static float bookingSelectionHeight;
@@ -57,7 +57,6 @@ public class VenueBooking : MonoBehaviour
     private static float singleSlotSelectionWidth;
     private static float initBookingX;
     private static float initBookingY;
-
 
 
     private string venueName;
@@ -71,7 +70,6 @@ public class VenueBooking : MonoBehaviour
 
     // Singleton instance
     public static VenueBooking Instance;
-
     void Start()
     { 
         // Ensure there is only one instance of VenueBooking
@@ -85,18 +83,16 @@ public class VenueBooking : MonoBehaviour
             Destroy(gameObject); // Destroy the duplicate instance
         }
     }
-
     void OnEnable()
     {
         AssignSizeData();
         AssignDayDict();
-        AssighDateDict();
+        AssignDateDict();
+
         availableDict = new Dictionary<string, List<int>>();
         selectionNums = new List<int>();
         selectedBookings = new Dictionary<string, List<int>>();
         selectedDays = new List<string>();
-
-        ResetButtonPositions();
     }
 
     private void ResetButtonPositions()
@@ -104,7 +100,7 @@ public class VenueBooking : MonoBehaviour
         createBookingButton.transform.position = new Vector2(createBookingButton.transform.localPosition.x, initBookingY);
         removeBookingButton.transform.position = new Vector2(removeBookingButton.transform.localPosition.x, initBookingY);
     }
-    
+  
     public async void InitializeData(VenueBookable data)
     {
         db = FirebaseFirestore.DefaultInstance;
@@ -276,6 +272,8 @@ public class VenueBooking : MonoBehaviour
                             Destroy(child.gameObject);
                     }
 
+                    // reset selectedBookings according to firebase firestore data users_bookings
+                    selectedBookings = new Dictionary<string, List<int>>();
                     Dictionary<string, object> documentFields = snapshot.ToDictionary();
                     foreach (KeyValuePair<string, object> dateField in documentFields)
                     {
@@ -288,6 +286,16 @@ public class VenueBooking : MonoBehaviour
                                 if (dateField.Key.Length == 12)
                                 {
                                     string dateString = dateField.Key.Substring(0, 9);
+                                    string timeString = dateField.Key.Substring(9, 12);
+                                    string dayString = CalculateDay(dateString);
+
+                                    if (selectedBookings.ContainsKey(dayString))
+                                    {
+                                        selectedBookings[dayString].Add(int.Parse(timeString));
+                                    } else
+                                    {
+                                        selectedBookings.Add(dayString, new List<int>{ int.Parse(timeString) });
+                                    }
                                 }
                                 else
                                 {
@@ -300,7 +308,7 @@ public class VenueBooking : MonoBehaviour
                             Debug.LogError("cannot convert users_bookings fields correctly to dictionary");
                         }
                     }
-
+                    // finish assigning selectedBookings
                 }
                 else
                 {
