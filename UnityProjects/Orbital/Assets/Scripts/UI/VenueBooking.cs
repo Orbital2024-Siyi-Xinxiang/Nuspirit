@@ -258,7 +258,7 @@ public class VenueBooking : MonoBehaviour
     private Task RefreshUserBookingPanel()
     {
         // TODO: initialize layouts
-        DocumentReference docRef = db.Collection("users").Document(userId);
+        DocumentReference docRef = db.Collection("users_bookings").Document(userId);
         docRef.GetSnapshotAsync().ContinueWithOnMainThread(task =>
         {
             if (task.IsCompleted)
@@ -309,6 +309,9 @@ public class VenueBooking : MonoBehaviour
                         }
                     }
                     // finish assigning selectedBookings
+
+                    UpdatePanelLayout();
+
                 }
                 else
                 {
