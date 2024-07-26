@@ -89,7 +89,6 @@ public class VenueBooking : MonoBehaviour
         AssignSizeData();
         AssignDayDict();
         AssignDateDict();
-
         availableDict = new Dictionary<string, List<int>>();
         selectedBookings = new Dictionary<string, List<int>>();
         selectedDays = new List<string>();
@@ -105,7 +104,6 @@ public class VenueBooking : MonoBehaviour
                 Destroy(child.gameObject);
         }
     }
-  
     public async void InitializeData(VenueBookable data)
     {
         db = FirebaseFirestore.DefaultInstance;
@@ -122,7 +120,6 @@ public class VenueBooking : MonoBehaviour
         await RefreshUserBookingPanel();
         await LoadHistoricalBookingInfo();
     }
-
     private Task AssignBasicInfo()
     {
         if (BasicInfo != null)
@@ -332,6 +329,12 @@ public class VenueBooking : MonoBehaviour
     // TODO handle maximum booking num
     public void CreateBooking()
     {
+        if (CalculateSum(selectedBookings) >= 5)
+        {
+            ShowWarning("Cannot book more than 5 slots!");
+            return;
+        }
+
         int flag = 0;
 
         foreach (string availableDay in availableDict.Keys.ToList())
@@ -394,57 +397,35 @@ public class VenueBooking : MonoBehaviour
         if (!selectedDays.Contains(day))
         {
             Debug.LogWarning($"Trying to remove a non-existent day {day}");
+            return;
         }
         else
         {
             selectedDays.Remove(day);
         }
-
-        if (UserBookingPanel.transform.childCount > 0)
+        if (!selectedBookings.ContainsKey(day))
         {
-            GameObject lastBookingSelection = UserBookingPanel.transform.GetChild(UserBookingPanel.transform.childCount - 1).gameObject;
-            TMP_Dropdown dayDropdown = lastBookingSelection.transform.Find("ChooseDay").GetComponent<TMP_Dropdown>();
-            TMP_Dropdown timeDropdown = lastBookingSelection.transform.Find("ChooseTime").GetComponent<TMP_Dropdown>();
-            
-            string day = dayDropdown.options[dayDropdown.value].text;
-            int slot = int.Parse(timeDropdown.options[timeDropdown.value].text.Split(':')[0]) * 100;
-
-            selectedSlots.Remove(slot);
-            selectedDays.Remove(day);
-            selectionNums.RemoveAt(selectionNums.Count - 1);
-            selectedBookings[day].Remove(slot);
-            if (selectedBookings[day].Count == 0)
-            {
-                selectedBookings.Remove(day);
-            }
-
-            Destroy(lastBookingSelection);
-            UpdatePanelLayout();
-            RemoveBookingFromFirebase(day, slot);
+            Debug.LogError($"Trying to remove a non-existent day for selectedBookings {day}");
+            return;
+        }
+        foreach (int slot in selectedBookings[day])
+        {
+            RemoveTimeSlot(day, slot);
         }
     }
 
-
-    //TODO
     public void ClearAllBookings()
     {
-        if (selectionNums.Count == 0)
+        if (CalculateSum(selectedBookings) == 0)
         {
             ShowWarning("No user booking found!");
             return;
         }
-
         selectedDays.Clear();
-        selectionNums.Clear();
-        selectedBookings.Clear();
-
-        foreach (Transform child in UserBookingPanel.transform)
+        foreach (KeyValuePair<string, List<int>> bookingPair in selectedBookings)
         {
-            Destroy(child.gameObject);
+            RemoveBooking(bookingPair.Key);
         }
-
-        UpdatePanelLayout();
-        ClearAllBookingsFromFirebase();
     }
 
     private void UpdatePanelLayout()
@@ -652,7 +633,6 @@ public class VenueBooking : MonoBehaviour
 
         UpdatePanelLayout();
     }
-
     private void RemoveTimeSlot(string day, int startTime)
     {
         // TODO: implement add and delete booking details logic
@@ -668,7 +648,6 @@ public class VenueBooking : MonoBehaviour
 
         UpdatePanelLayout();
     }
-
     //TODO: history booking (other users bookings) using venues_bookables collection in firebase for data
     private Task LoadHistoricalBookingInfo()
     {
@@ -798,12 +777,11 @@ public class VenueBooking : MonoBehaviour
         initBookingX = 8f;
         initBookingY = 25.328f;
     }
-
     //TODO: update venues_bookables database logic as well
     private void SaveBookingToDatabase(string day, int startTime)
     {
 
-        Dictionary<string, object> bookingData = new Dictionary<string, object>
+        Dictionary<string, object> dataToSave = new Dictionary<string, object>
         {
             { "userId", userId },
             { "slots", selectedSlots },
@@ -813,7 +791,7 @@ public class VenueBooking : MonoBehaviour
         };
 
         db.Collection("users_bookings").Document(userId)
-            .SetAsync(bookingData).ContinueWithOnMainThread(task =>
+            .SetAsync(dataToSave).ContinueWithOnMainThread(task =>
             {
                 if (task.IsCompleted && !task.IsFaulted)
                 {
@@ -826,7 +804,6 @@ public class VenueBooking : MonoBehaviour
                 }
             });
     }
-
     //TODO: update venues_bookables database and logic bookableData as well
     private void RemoveBookingFromDatabase(string day, int startTime)
     {
@@ -845,23 +822,7 @@ public class VenueBooking : MonoBehaviour
                 }
             });
     }
-    //TODO: update venues_bookables database logic bookableData as well
-    private void ClearAllBookingsFromDatabase()
-    {
-        db.Collection("users_bookings").Document(userId)
-            .DeleteAsync().ContinueWithOnMainThread(task =>
-            {
-                if (task.IsCompleted && !task.IsFaulted)
-                {
-                    Debug.Log("All bookings successfully removed.");
-                    LoadVenueOpenPanel();
-                }
-                else
-                {
-                    Debug.LogError("Failed to remove all bookings: " + task.Exception);
-                }
-            });
-    }
+
     private void AssignDateInfo()
     {
         foreach (Transform child in dateTitles.transform)

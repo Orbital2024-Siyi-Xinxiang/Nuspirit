@@ -501,3 +501,33 @@ Memory consumption went from 106.0 MB to 105.8 MB.
 Total: 24.593083 ms (FindLiveObjects: 0.641708 ms CreateObjectMapping: 0.121667 ms MarkObjects: 22.861250 ms  DeleteObjects: 0.968291 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.12 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4684 unused Assets / (0.7 MB). Loaded Objects now: 5332.
+Memory consumption went from 105.7 MB to 105.0 MB.
+Total: 60.405208 ms (FindLiveObjects: 0.568417 ms CreateObjectMapping: 0.113041 ms MarkObjects: 59.101458 ms  DeleteObjects: 0.621667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.57 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4684 unused Assets / (0.7 MB). Loaded Objects now: 5332.
+Memory consumption went from 105.3 MB to 104.6 MB.
+Total: 53.193709 ms (FindLiveObjects: 0.462541 ms CreateObjectMapping: 0.101959 ms MarkObjects: 51.975916 ms  DeleteObjects: 0.652584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.78 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4684 unused Assets / (383.3 KB). Loaded Objects now: 5332.
+Memory consumption went from 105.0 MB to 104.6 MB.
+Total: 22.735333 ms (FindLiveObjects: 0.297208 ms CreateObjectMapping: 0.107709 ms MarkObjects: 21.738166 ms  DeleteObjects: 0.591666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
