@@ -89,9 +89,7 @@ public class VenueBooking : MonoBehaviour
         // for debug testing
         Debug.Log($"CalculateDate('mon'): 20240729  {CalculateDate("mon")}");
         Debug.Log($"CalculateDate('sat'): 20240727 {CalculateDate("sat")}");
-        Debug.Log($"CalculateDate('monday'): {CalculateDate("monday")}");
-        Debug.Log($"CalculateDate('monday'): {CalculateDate("monday")}");
-        Debug.Log($"CalculateDate('monday'): {CalculateDate("monday")}");
+
     }
     void OnEnable()
     {
@@ -240,11 +238,13 @@ public class VenueBooking : MonoBehaviour
             }
         }
 
-        // Iterate through the available slots
-        foreach (var dayEntry in bookableData.available)
+        // Iterate through the available slots, assign to availableDict state variable
+        foreach (KeyValuePair<string, List<int>> dayEntry in bookableData.available)
         {
+            availableDict = new Dictionary<string, List<int>>();
             string day = dayEntry.Key;
             List<int> availableSlots = dayEntry.Value;
+            availableSlots.Sort();
 
             List<int> list = new List<int>();
 
@@ -909,15 +909,7 @@ public class VenueBooking : MonoBehaviour
 
     private string CalculateDate(string day)
     {
-        //TODO: only for debugging delete this
-        print(SystemTime.GetDayOfWeek(SystemTime.Now()));
-        print(SystemTime.GetMonth(SystemTime.Now()));
-        print(SystemTime.GetYear(SystemTime.Now()));
-        print(SystemTime.GetDate(SystemTime.Now()));
-        print(SystemTime.GetHour(SystemTime.Now()));
-        print(SystemTime.GetMinute(SystemTime.Now()));
-        print(SystemTime.GetHHMM(SystemTime.Now()));
-        print(SystemTime.GetYYYYMMDD(SystemTime.Now()));
+
         DateTime dateTime = SystemTime
             .AddDate(SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]);
         return SystemTime.GetYear(dateTime) + SystemTime.GetMonth(dateTime) + SystemTime.GetDate(dateTime);
@@ -926,6 +918,7 @@ public class VenueBooking : MonoBehaviour
     {
         return dateDict[date];
     }
+
     private int CalculateSum(Dictionary<string, List<int>> selectedBookings)
     {
         int res = 0;
@@ -936,6 +929,8 @@ public class VenueBooking : MonoBehaviour
         return res;
     }
     // update every 3 seconds
+
+
     IEnumerator UpdateVenueOpenPanel()
     {
         while (true)

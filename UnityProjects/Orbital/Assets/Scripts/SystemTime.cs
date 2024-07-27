@@ -44,8 +44,25 @@ public static class SystemTime
                 return "sat";
             case "Sunday":
                 return "sun";
+            case "monday":
+                return "mon";
+            case "tuesday":
+                return "tue";
+            case "wednesday":
+                return "wed";
+            case "thursday":
+                return "thu";
+            case "friday":
+                return "fri";
+            case "saturday":
+                return "sat";
+            case "sunday":
+                return "sun";
+
+
             default:
                 return day;
+
         }
 
     }

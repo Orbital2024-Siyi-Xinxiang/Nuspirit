@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 13666438}
   - component: {fileID: 13666437}
   m_Layer: 5
-  m_Name: Sunday
+  m_Name: sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 20927882}
   - component: {fileID: 20927881}
   m_Layer: 5
-  m_Name: Friday
+  m_Name: fri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3419,7 +3419,7 @@ GameObject:
   - component: {fileID: 240278962}
   - component: {fileID: 240278961}
   m_Layer: 5
-  m_Name: Saturday
+  m_Name: sat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10176,7 +10176,7 @@ GameObject:
   - component: {fileID: 718255369}
   - component: {fileID: 718255368}
   m_Layer: 5
-  m_Name: Monday
+  m_Name: mon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16756,7 +16756,7 @@ GameObject:
   - component: {fileID: 1300550389}
   - component: {fileID: 1300550388}
   m_Layer: 5
-  m_Name: Wednesday
+  m_Name: wed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17924,7 +17924,7 @@ GameObject:
   - component: {fileID: 1361527243}
   - component: {fileID: 1361527242}
   m_Layer: 5
-  m_Name: Tuesday
+  m_Name: tue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26495,7 +26495,7 @@ GameObject:
   - component: {fileID: 1981515220}
   - component: {fileID: 1981515219}
   m_Layer: 5
-  m_Name: Thursday
+  m_Name: thu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
