@@ -60,7 +60,6 @@ public class VenueBooking : MonoBehaviour
     private string userId;
 
     // utilities
-    private Dictionary<string, int> dayDict;
     private Dictionary<string, string> dateDict;  // eg.: 20240724: monday,..
 
     // state variables needed to keep track of
@@ -86,15 +85,10 @@ public class VenueBooking : MonoBehaviour
             Destroy(gameObject); // Destroy the duplicate instance
         }
 
-        // for debug testing
-        Debug.Log($"CalculateDate('mon'): 20240729  {CalculateDate("mon")}");
-        Debug.Log($"CalculateDate('sat'): 20240727 {CalculateDate("sat")}");
-
     }
     void OnEnable()
     {
         AssignSizeData();
-        AssignDayDict();
         AssignDateDict();
         availableDict = new Dictionary<string, List<int>>();
         selectedBookings = new Dictionary<string, List<int>>();
@@ -113,8 +107,8 @@ public class VenueBooking : MonoBehaviour
     }
     public async void InitializeData(VenueBookable data)
     {
+        Debug.Log("start initializing bookable");
         db = FirebaseFirestore.DefaultInstance;
-
         bookableData = data;
         userId = urlSchemeHandler.userId;
 
@@ -698,7 +692,7 @@ public class VenueBooking : MonoBehaviour
         int div = index / 3;
         float distanceH = index * height + div * addHeight;
 
-        Vector2 position = new Vector2(initX + dayDict[day] * width, initY - distanceH);
+        Vector2 position = new Vector2(initX + SystemTime.dayDict[day] * width, initY - distanceH);
         GameObject rect = Instantiate(unBooked, position, Quaternion.identity);
 
         rect.transform.SetParent(VenueOpenPanel.transform, false);
@@ -711,7 +705,7 @@ public class VenueBooking : MonoBehaviour
         int div = index / 3;
         float distanceH = index * height + div * addHeight;
 
-        Vector2 position = new Vector2(initX + dayDict[day] * width, initY - distanceH);
+        Vector2 position = new Vector2(initX + SystemTime.dayDict[day] * width, initY - distanceH);
         GameObject rect = Instantiate(booked, position, Quaternion.identity);
 
         rect.transform.SetParent(VenueOpenPanel.transform, false);
@@ -757,29 +751,19 @@ public class VenueBooking : MonoBehaviour
             }
         });
     }
-    private void AssignDayDict()
-    {
-        dayDict = new Dictionary<string, int>();
-        dayDict.Add("mon", 1);
-        dayDict.Add("tue", 2);
-        dayDict.Add("wed", 3);
-        dayDict.Add("thu", 4);
-        dayDict.Add("fri", 5);
-        dayDict.Add("sat", 6);
-        dayDict.Add("sun", 0);
-    }
+    
     private void AssignDateDict()
     {
         dateDict = new Dictionary<string, string>();
-        foreach (KeyValuePair<string, int> dayPair in dayDict)
+
+        foreach (KeyValuePair<string, int> dayPair in SystemTime.dayDict)
         {
             string day = dayPair.Key;
             string dateKey = CalculateDate(day);
             dateDict.Add(dateKey, day);
-            //// Your code here
-            //Debug.Log("Day: " + day + ", Value: " + value);
         }
     }
+
     // Method to show the warning message
     private void ShowWarning(string message)
     {
@@ -894,7 +878,9 @@ public class VenueBooking : MonoBehaviour
         foreach (Transform child in dateTitles.transform)
         {
             string day = child.gameObject.name;
-            string dateRes = "";
+            int m = int.Parse(CalculateDate(day).Substring(4,6));
+            int d = int.Parse(CalculateDate(day).Substring(6));
+            string dateRes = m.ToString() + "/" + d.ToString();
             child.gameObject.GetComponent<TMP_Text>().text = dateRes;
         }
 
@@ -908,16 +894,13 @@ public class VenueBooking : MonoBehaviour
 
     private string CalculateDate(string day)
     {
-        Debug.Log($"current month: {SystemTime.GetMonth(SystemTime.Now())}");
-
-
+        int numDiff = SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())];
         DateTime dateTime = SystemTime
-            .AddDate(SystemTime.dayDict[day] > SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]?
-            SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]:
-            (SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())] + 7));
+            .AddDate(numDiff >= 0 ? numDiff : numDiff + 7);
 
         return SystemTime.GetYear(dateTime) + SystemTime.GetMonth(dateTime) + SystemTime.GetDate(dateTime);
     }
+
     private string CalculateDay(string date) // pass date in YYYYMMDD form
     {
         return dateDict[date];

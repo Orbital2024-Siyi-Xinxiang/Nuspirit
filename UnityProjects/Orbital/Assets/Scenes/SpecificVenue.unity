@@ -20503,17 +20503,17 @@ MonoBehaviour:
   booked: {fileID: 6010522639790977261, guid: a4dff09b59bad47bcae4b650e57b3198, type: 3}
   unBooked: {fileID: 8539410189318937845, guid: 55356ba16b7454b6caebcd913b586780, type: 3}
   venueManager: {fileID: 1142968351}
-  gameStateManager: {fileID: 0}
+  gameStateManager: {fileID: 2128433854}
   createBookingButton: {fileID: 1891565114}
   removeBookingButton: {fileID: 266336844}
   clearAllBookingsButton: {fileID: 1141787738}
   bookingSelectionPrefab: {fileID: 5222459679410631164, guid: 34d4e65c752e54473a268a5916745447, type: 3}
-  singleSlotSelectionPrefab: {fileID: 0}
+  singleSlotSelectionPrefab: {fileID: 4707431449081363010, guid: 7c151361880e74c0d93544ce23b23ace, type: 3}
   confirmActionPanel: {fileID: 814673114}
   warningPanel: {fileID: 1805905306}
   urlSchemeHandler: {fileID: 2128623266}
   dateTitles: {fileID: 1806227753}
-  highlightCurrentDate: {fileID: 0}
+  highlightCurrentDate: {fileID: 408606869}
 --- !u!1 &1545791536
 GameObject:
   m_ObjectHideFlags: 0

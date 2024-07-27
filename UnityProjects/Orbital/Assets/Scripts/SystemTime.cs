@@ -87,7 +87,10 @@ public static class SystemTime
         int hour = now.Hour;
         int minute = now.Minute;
         int second = now.Second;
-
+        if (day < 10)
+        {
+            return "0" + day.ToString();
+        }
         return day.ToString();
     }
 
@@ -99,8 +102,14 @@ public static class SystemTime
         int hour = now.Hour;
         int minute = now.Minute;
         int second = now.Second;
-
-        return month.ToString();
+        if (month < 10)
+        {
+            return "0" + month.ToString();
+        }
+        else
+        {
+            return month.ToString();
+        }
     }
 
     public static string GetHHMM(DateTime now)
@@ -127,6 +136,10 @@ public static class SystemTime
         int hour = now.Hour;
         int minute = now.Minute;
         int second = now.Second;
+        if (hour < 10)
+        {
+            return "0" + hour.ToString();
+        }
         return hour.ToString();
     }
 
@@ -138,6 +151,10 @@ public static class SystemTime
         int hour = now.Hour;
         int minute = now.Minute;
         int second = now.Second;
+        if (minute < 10)
+        {
+            return "0" + minute.ToString();
+        }
         return minute.ToString();
     }
 
@@ -149,6 +166,10 @@ public static class SystemTime
         int hour = now.Hour;
         int minute = now.Minute;
         int second = now.Second;
+        if (second < 10)
+        {
+            return "0" + second.ToString();
+        }
         return second.ToString();
     }
 
