@@ -36,6 +36,15 @@ public class GameStateManager : MonoBehaviour
     // TODO: when testing uncomment this, for production commented
     private void OnEnable()
     {
+        //TODO: only for debugging delete this
+        print(SystemTime.GetDayOfWeek(SystemTime.Now()));
+        print(SystemTime.GetMonth(SystemTime.Now()));
+        print(SystemTime.GetYear(SystemTime.Now()));
+        print(SystemTime.GetDate(SystemTime.Now()));
+        print(SystemTime.GetHour(SystemTime.Now()));
+        print(SystemTime.GetMinute(SystemTime.Now()));
+        print(SystemTime.GetHHMM(SystemTime.Now()));
+        print(SystemTime.GetYYYYMMDD(SystemTime.Now()));
         Initialize();
     }
 }

@@ -21,10 +21,34 @@ public static class SystemTime
         {2, "tue"},
         {3, "wed"},
         {4, "thu"},
-        {5, "fri"},
+        {5, "mon"},
         {6, "sat"},
         {0, "sun"}
     };
+
+    public static string ConvertToSystemDay(string day)
+    {
+        switch(day)
+        {
+            case "Monday":
+                return "mon";
+            case "Tuesday":
+                return "tue";
+            case "Wednesday":
+                return "wed";
+            case "Thursday":
+                return "thu";
+            case "Friday":
+                return "fri";
+            case "Saturday":
+                return "sat";
+            case "Sunday":
+                return "sun";
+            default:
+                return day;
+        }
+
+    }
 
     public static string GetYear(DateTime now)
     {
@@ -113,7 +137,7 @@ public static class SystemTime
 
     public static string GetDayOfWeek(DateTime now)
     {
-        return now.DayOfWeek.ToString();
+        return ConvertToSystemDay(now.DayOfWeek.ToString());
     }
 
     public static DateTime Now()

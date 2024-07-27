@@ -73,15 +73,7 @@ public class VenueBooking : MonoBehaviour
 
     void Start()
     {
-        //TODO: only for debugging delete this
-        print(SystemTime.GetDayOfWeek(SystemTime.Now()));
-        print(SystemTime.GetMonth(SystemTime.Now()));
-        print(SystemTime.GetYear(SystemTime.Now()));
-        print(SystemTime.GetDate(SystemTime.Now()));
-        print(SystemTime.GetHour(SystemTime.Now()));
-        print(SystemTime.GetMinute(SystemTime.Now()));
-        print(SystemTime.GetHHMM(SystemTime.Now()));
-        print(SystemTime.GetYYYYMMDD(SystemTime.Now()));
+
 
         // Ensure there is only one instance of VenueBooking
         if (Instance == null)
@@ -917,6 +909,15 @@ public class VenueBooking : MonoBehaviour
 
     private string CalculateDate(string day)
     {
+        //TODO: only for debugging delete this
+        print(SystemTime.GetDayOfWeek(SystemTime.Now()));
+        print(SystemTime.GetMonth(SystemTime.Now()));
+        print(SystemTime.GetYear(SystemTime.Now()));
+        print(SystemTime.GetDate(SystemTime.Now()));
+        print(SystemTime.GetHour(SystemTime.Now()));
+        print(SystemTime.GetMinute(SystemTime.Now()));
+        print(SystemTime.GetHHMM(SystemTime.Now()));
+        print(SystemTime.GetYYYYMMDD(SystemTime.Now()));
         DateTime dateTime = SystemTime
             .AddDate(SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]);
         return SystemTime.GetYear(dateTime) + SystemTime.GetMonth(dateTime) + SystemTime.GetDate(dateTime);

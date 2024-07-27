@@ -13228,17 +13228,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003490327}
   m_CullTransparentMesh: 1
---- !u!114 &1004191257 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8066790436725631458, guid: 34d4e65c752e54473a268a5916745447, type: 3}
-  m_PrefabInstance: {fileID: 2882333635565600259}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1009417253
 GameObject:
   m_ObjectHideFlags: 0
@@ -19257,17 +19246,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
---- !u!114 &1421511266 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6519880223565874863, guid: 34d4e65c752e54473a268a5916745447, type: 3}
-  m_PrefabInstance: {fileID: 2882333635565600259}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1427750145
 GameObject:
   m_ObjectHideFlags: 0
@@ -20524,18 +20502,18 @@ MonoBehaviour:
   bookableData: {fileID: 0}
   booked: {fileID: 6010522639790977261, guid: a4dff09b59bad47bcae4b650e57b3198, type: 3}
   unBooked: {fileID: 8539410189318937845, guid: 55356ba16b7454b6caebcd913b586780, type: 3}
-  chooseDayOptions: {fileID: 1421511266}
-  chooseTimeOptions: {fileID: 1004191257}
   venueManager: {fileID: 1142968351}
   gameStateManager: {fileID: 0}
   createBookingButton: {fileID: 1891565114}
   removeBookingButton: {fileID: 266336844}
   clearAllBookingsButton: {fileID: 1141787738}
   bookingSelectionPrefab: {fileID: 5222459679410631164, guid: 34d4e65c752e54473a268a5916745447, type: 3}
+  singleSlotSelectionPrefab: {fileID: 0}
   confirmActionPanel: {fileID: 814673114}
   warningPanel: {fileID: 1805905306}
   urlSchemeHandler: {fileID: 2128623266}
   dateTitles: {fileID: 1806227753}
+  highlightCurrentDate: {fileID: 0}
 --- !u!1 &1545791536
 GameObject:
   m_ObjectHideFlags: 0
