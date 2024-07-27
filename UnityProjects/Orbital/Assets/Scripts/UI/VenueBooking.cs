@@ -269,9 +269,12 @@ public class VenueBooking : MonoBehaviour
     {
 
         // TODO: initialize layouts
+        Debug.Log($"start initializing selected bookings for user id {userId}");
+
         DocumentReference docRef = db.Collection("users_bookings").Document(userId);
         docRef.GetSnapshotAsync().ContinueWithOnMainThread(task =>
         {
+            print("waiting for fetching to complete ... ");
             if (task.IsCompleted)
             {
                 DocumentSnapshot snapshot = task.Result;
@@ -281,10 +284,12 @@ public class VenueBooking : MonoBehaviour
                     selectedBookings = new Dictionary<string, List<int>>();
                     selectedDays = new List<string>();
                     Dictionary<string, object> documentFields = snapshot.ToDictionary();
+
                     foreach (KeyValuePair<string, object> dateField in documentFields)
                     {
                         Dictionary<string, int> value = (Dictionary<string, int>)dateField.Value;
 
+                        print($"value: {value}");
                         if (value != null)
                         {
                             if (value["bookable_id"].ToString() == bookableData.id)
@@ -318,10 +323,7 @@ public class VenueBooking : MonoBehaviour
                             Debug.LogError("cannot convert users_bookings fields correctly to dictionary");
                         }
                     }
-                    // finish assigning selectedBookings
-
-                    
-
+                    // finish assigning selectedBookings 
                 }
                 else
                 {
@@ -466,6 +468,7 @@ public class VenueBooking : MonoBehaviour
                 
                 GameObject newSelection =
                         Instantiate(bookingSelectionPrefab, new Vector3(0, tempPosYChange, 0), Quaternion.identity);
+
                 tempPosYChange += bookingSelectionHeight;
                 // set initial slot selection
                 TMP_Dropdown chooseDayOptions = newSelection.transform.GetChild(0).gameObject.GetComponentInChildren<TMP_Dropdown>();
@@ -494,8 +497,17 @@ public class VenueBooking : MonoBehaviour
                     Transform chooseTimeTransform = chooseTimeOptions.transform;
                     Transform addBtn = chooseTimeTransform.GetChild(0);
                     Transform removeBtn = chooseTimeTransform.GetChild(1);
-                    addBtn.gameObject.SetActive(true);
-                    removeBtn.gameObject.SetActive(false);
+                    if (addBtn != null && removeBtn != null)
+                    {
+                        addBtn.gameObject.SetActive(true);
+                        removeBtn.gameObject.SetActive(false);
+                    }
+                    else
+                    {
+                        Debug.LogError("add button or remove button missing !");
+                    }
+
+
                     addBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { SelectTimeSlot(dayString); });
                 }
                 else
@@ -529,8 +541,8 @@ public class VenueBooking : MonoBehaviour
                 }
 
                 float posYChange = bookingSelectionHeight + (slots.Count - 1) * singleSlotSelectionHeight;
-                createBookingButton.transform.position += new Vector3(0, posYChange, 0);
-                removeBookingButton.transform.position += new Vector3(0, posYChange, 0);
+                createBookingButton.transform.localPosition += new Vector3(0, posYChange, 0);
+                removeBookingButton.transform.localPosition += new Vector3(0, posYChange, 0);
 
             }
 
