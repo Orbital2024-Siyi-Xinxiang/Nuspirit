@@ -9,6 +9,7 @@ public class UrlSchemeHandler : MonoBehaviour
     void Start()
     {
         userId = "0";
+
         // Check if launched from a URL
         if (Application.absoluteURL.StartsWith("unityApp://"))
         {

@@ -97,14 +97,15 @@ public class VenueBooking : MonoBehaviour
 
     private void ResetButtonPositions()
     {
-        createBookingButton.transform.position = new Vector2(createBookingButton.transform.position.x, initBookingY);
-        removeBookingButton.transform.position = new Vector2(removeBookingButton.transform.position.x, initBookingY);
+        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, 46.772f);
+        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, 46.772f);
         foreach (Transform child in UserBookingPanel.transform)
         {
             if (child.gameObject.name == "BookingSelection" || child.gameObject.name == "BookingSelection(Clone)")
                 Destroy(child.gameObject);
         }
     }
+
     public async void InitializeData(VenueBookable data)
     {
         Debug.Log("start initializing bookable");
@@ -325,9 +326,7 @@ public class VenueBooking : MonoBehaviour
                 else
                 {
                     Debug.LogError("Failed to get document: " + task.Exception);
-                }
-
-                
+                } 
             }
 
             
@@ -542,9 +541,9 @@ public class VenueBooking : MonoBehaviour
         removeBookingButton.onClick.AddListener(delegate { RemoveBooking(selectedDays[-1]); });
         clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
 
-        RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
-        panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x,
-            createBookingButton.transform.position.y - initBookingY + singleSlotSelectionHeight);
+        //RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
+        //panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x,
+        //    createBookingButton.transform.position.y - initBookingY + singleSlotSelectionHeight);
     }
 
     private void UpdateTimeOptions(TMP_Dropdown chooseTimeOptions, string day, int selectedSlot)
