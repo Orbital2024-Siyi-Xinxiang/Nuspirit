@@ -116,11 +116,14 @@ public class VenueBooking : MonoBehaviour
         StartCoroutine(UpdateVenueOpenPanel());
         StartCoroutine(UpdateUserBookingPanel());
         StartCoroutine(UpdateHistoryBookingInfo());
+
+        // load panel sections
         await AssignBasicInfo();
         await LoadVenueOpenPanel();
         await RefreshUserBookingPanel();
         await LoadHistoricalBookingInfo();
     }
+    //TODO: open or not and venue name
     private Task AssignBasicInfo()
     {
         if (BasicInfo != null)
@@ -878,9 +881,17 @@ public class VenueBooking : MonoBehaviour
         foreach (Transform child in dateTitles.transform)
         {
             string day = child.gameObject.name;
-            int m = int.Parse(CalculateDate(day).Substring(4,6));
+            if (CalculateDate(day).Length < 8)
+            {
+                Debug.LogError($"Incorrect date calculated! {CalculateDate(day)} with length {CalculateDate(day).Length}");
+                return;
+            }
+
+            int m = int.Parse(CalculateDate(day).Substring(4, 2));
             int d = int.Parse(CalculateDate(day).Substring(6));
+
             string dateRes = m.ToString() + "/" + d.ToString();
+
             child.gameObject.GetComponent<TMP_Text>().text = dateRes;
         }
 

@@ -11,6 +11,7 @@ public class DataUpdater : MonoBehaviour
 {
     FirebaseFirestore db;
 
+    //TODO: aligning available with slots and booked in firebase
     // TODO: assign gameobjects from scene
     public VenueManager venueManager;
 
@@ -277,6 +278,7 @@ public class DataUpdater : MonoBehaviour
 
         return result;
     }
+
 
     private void updateUsers()
     {
