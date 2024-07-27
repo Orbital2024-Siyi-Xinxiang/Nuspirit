@@ -21,7 +21,6 @@ public class VenueBooking : MonoBehaviour
     public GameObject HistoricalBookingInfo;
 
     public VenueBookable bookableData;
-
     public GameObject booked;
     public GameObject unBooked;
 
@@ -67,12 +66,23 @@ public class VenueBooking : MonoBehaviour
     // state variables needed to keep track of
     private Dictionary<string, List<int>> availableDict;
     private Dictionary<string, List<int>> selectedBookings;
-    private List<string> selectedDays = new List<string>(); // this list is for 
+    private List<string> selectedDays = new List<string>(); // this list is for
 
     // Singleton instance
     public static VenueBooking Instance;
+
     void Start()
-    { 
+    {
+        //TODO: only for debugging delete this
+        print(SystemTime.GetDayOfWeek(SystemTime.Now()));
+        print(SystemTime.GetMonth(SystemTime.Now()));
+        print(SystemTime.GetYear(SystemTime.Now()));
+        print(SystemTime.GetDate(SystemTime.Now()));
+        print(SystemTime.GetHour(SystemTime.Now()));
+        print(SystemTime.GetMinute(SystemTime.Now()));
+        print(SystemTime.GetHHMM(SystemTime.Now()));
+        print(SystemTime.GetYYYYMMDD(SystemTime.Now()));
+
         // Ensure there is only one instance of VenueBooking
         if (Instance == null)
         {
@@ -83,6 +93,13 @@ public class VenueBooking : MonoBehaviour
             Debug.LogWarning("Multiple instances of VenueBooking found!");
             Destroy(gameObject); // Destroy the duplicate instance
         }
+
+        // for debug testing
+        Debug.Log($"CalculateDate('mon'): 20240729  {CalculateDate("mon")}");
+        Debug.Log($"CalculateDate('sat'): 20240727 {CalculateDate("sat")}");
+        Debug.Log($"CalculateDate('monday'): {CalculateDate("monday")}");
+        Debug.Log($"CalculateDate('monday'): {CalculateDate("monday")}");
+        Debug.Log($"CalculateDate('monday'): {CalculateDate("monday")}");
     }
     void OnEnable()
     {
@@ -359,6 +376,7 @@ public class VenueBooking : MonoBehaviour
             ShowWarning("cannot book more than 5 slots");
             return;
         }
+
         if (!selectedDays.Contains(day))
         {
             selectedDays.Add(day);
@@ -576,6 +594,10 @@ public class VenueBooking : MonoBehaviour
     //TODO: handle maximum select time slot
     private void SelectTimeSlot(string day)
     {
+        if (CalculateSum(selectedBookings)>= 5)
+        {
+            ShowWarning("Cannot book more than 5 slots");
+        }
         if (!availableDict.ContainsKey(day))
         {
             ShowWarning($"no more available slot for day {day}!");
@@ -594,7 +616,6 @@ public class VenueBooking : MonoBehaviour
 
     private void SelectTimeSlot(string day, int startTime)
     {
-        // TODO: change availableDict and selectedBookings and selectedDays
         if (CalculateSum(selectedBookings) < 5)
         {
             // update selected bookings
@@ -610,7 +631,7 @@ public class VenueBooking : MonoBehaviour
             {
                 Debug.LogError($"already selected slot {startTime}");
             }
-            SaveBookingToDatabase(day, startTime);
+            
 
             // update availableDict
             if (!availableDict.ContainsKey(day))
@@ -626,6 +647,8 @@ public class VenueBooking : MonoBehaviour
                 availableDict[day].Remove(startTime);
             }
 
+            SaveBookingToDatabase(day, startTime);
+
         } else
         {
             ShowWarning("Cannot book more than 5 slots!");
@@ -635,19 +658,42 @@ public class VenueBooking : MonoBehaviour
     }
     private void RemoveTimeSlot(string day, int startTime)
     {
-        // TODO: implement add and delete booking details logic
         // TODO: change availableDict and selectedBookings and selectedDays
-        if (selectedBookings[day].Count >= 1 && selectedBookings[day].Contains(startTime))
+        if (!selectedBookings.ContainsKey(day))
         {
-
+            Debug.LogError("trying to remove a non-existent slot!");
+            return;
         }
-        else 
+        else
         {
+            if (selectedBookings[day].Count >= 1 && selectedBookings[day].Contains(startTime))
+            {
+                selectedBookings[day].Remove(startTime);
+                RemoveBookingFromDatabase(day, startTime);
+            }
+            else
+            {
+                Debug.LogError("trying to delete a non-existing slot");
+            }
+        }
 
+        if (!availableDict.ContainsKey(day))
+        {
+            availableDict.Add(day, new List<int> { startTime });
+        }
+
+        else if (availableDict[day].Contains(startTime))
+        {
+            Debug.LogError("already have slot in availableDict");
+        }
+        else
+        {
+            availableDict[day].Add(startTime);
         }
 
         UpdatePanelLayout();
     }
+
     //TODO: history booking (other users bookings) using venues_bookables collection in firebase for data
     private Task LoadHistoricalBookingInfo()
     {
@@ -777,17 +823,21 @@ public class VenueBooking : MonoBehaviour
         initBookingX = 8f;
         initBookingY = 25.328f;
     }
-    //TODO: update venues_bookables database logic as well
+
     private void SaveBookingToDatabase(string day, int startTime)
     {
+        string keyString = CalculateDate(day) + startTime.ToString();
+        // Create a dictionary to represent the map field
+        Dictionary<string, int> mapField = new Dictionary<string, int>
+        {
+            { "bookable_id", int.Parse(bookableData.id)},
+            { "unity_venue_id", int.Parse(venueManager.venue.id) },
+            { "venue_id", (gameStateManager.venueId) }
+        };
 
         Dictionary<string, object> dataToSave = new Dictionary<string, object>
         {
-            { "userId", userId },
-            { "slots", selectedSlots },
-            { "bookable_id", bookableData.id },
-            { "venue_id", gameStateManager.venueId },
-            { "unity_venue_id", venueManager.venue.id }
+            { keyString, mapField},
         };
 
         db.Collection("users_bookings").Document(userId)
@@ -803,12 +853,27 @@ public class VenueBooking : MonoBehaviour
                     Debug.LogError("Failed to save booking: " + task.Exception);
                 }
             });
+
+        // change bookableData.booked
+        bookableData.available[day].Add(startTime);
+        bookableData.available[day].Add(startTime + 100);
+
+        bookableData.booked[day].Add(startTime, urlSchemeHandler.userId);
+        bookableData.booked[day].Add(startTime + 100, urlSchemeHandler.userId);
+        LoadVenueOpenPanel();
     }
-    //TODO: update venues_bookables database and logic bookableData as well
+
+
     private void RemoveBookingFromDatabase(string day, int startTime)
     {
+        // Create a dictionary to hold the update data
+        Dictionary<string, object> updates = new Dictionary<string, object>
+        {
+            { CalculateDate(day) + startTime.ToString(), FieldValue.Delete }
+        };
+
         db.Collection("users_bookings").Document(userId)
-            .UpdateAsync(new Dictionary<string, object> { { "slots", FieldValue.ArrayRemove(startTime) } })
+            .UpdateAsync(updates)
             .ContinueWithOnMainThread(task =>
             {
                 if (task.IsCompleted && !task.IsFaulted)
@@ -821,6 +886,15 @@ public class VenueBooking : MonoBehaviour
                     Debug.LogError("Failed to remove booking: " + task.Exception);
                 }
             });
+
+        // change bookableData.booked
+        bookableData.booked[day].Remove(startTime);
+        bookableData.booked[day].Remove(startTime + 100);
+
+        bookableData.available[day].Remove(startTime);
+        bookableData.available[day].Remove(startTime + 100);
+        LoadVenueOpenPanel();
+        // change bookableData.available
     }
 
     private void AssignDateInfo()
@@ -840,6 +914,7 @@ public class VenueBooking : MonoBehaviour
         float posy = -42.4264f;
         highlightCurrentDate.transform.position = new Vector2(posx, posy);
     }
+
     private string CalculateDate(string day)
     {
         DateTime dateTime = SystemTime

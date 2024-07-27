@@ -16,6 +16,7 @@ public class VenueBookable : ScriptableObject
     public int capacity;
     public Vector2 position;
 
+
     // book info
     [SerializeField]
     public Dictionary<string, List<int>> slots;

@@ -6,24 +6,24 @@ public static class SystemTime
 {
     public static Dictionary<string, int> dayDict = new Dictionary<string, int>
     {
-        {"Monday", 1},
-        {"Tuesday", 2},
-        {"Wednesday", 3},
-        {"Thursday", 4},
-        {"Friday", 5},
-        {"Saturday", 6},
-        {"Sunday", 0}
+        {"mon", 1},
+        {"tue", 2},
+        {"wed", 3},
+        {"thu", 4},
+        {"fri", 5},
+        {"sat", 6},
+        {"sun", 0}
     };
     
     public static Dictionary<int, string>reverseDayDict = new Dictionary<int, string>
     {
-        {1, "Monday"},
-        {2, "Tuesday"},
-        {3, "Wednesday"},
-        {4, "Thursday"},
-        {5, "Friday"},
-        {6, "Saturday"},
-        {0, "Sunday"}
+        {1, "mon"},
+        {2, "tue"},
+        {3, "wed"},
+        {4, "thu"},
+        {5, "fri"},
+        {6, "sat"},
+        {0, "sun"}
     };
 
     public static string GetYear(DateTime now)
