@@ -97,8 +97,8 @@ public class VenueBooking : MonoBehaviour
 
     private void ResetButtonPositions()
     {
-        createBookingButton.transform.position = new Vector2(createBookingButton.transform.localPosition.x, initBookingY);
-        removeBookingButton.transform.position = new Vector2(removeBookingButton.transform.localPosition.x, initBookingY);
+        createBookingButton.transform.position = new Vector2(createBookingButton.transform.position.x, initBookingY);
+        removeBookingButton.transform.position = new Vector2(removeBookingButton.transform.position.x, initBookingY);
         foreach (Transform child in UserBookingPanel.transform)
         {
             if (child.gameObject.name == "BookingSelection" || child.gameObject.name == "BookingSelection(Clone)")
@@ -319,16 +319,21 @@ public class VenueBooking : MonoBehaviour
                     }
                     // finish assigning selectedBookings
 
-                    UpdatePanelLayout();
+                    
 
                 }
                 else
                 {
                     Debug.LogError("Failed to get document: " + task.Exception);
                 }
+
+                
             }
+
+            
         });
 
+        UpdatePanelLayout();
         return Task.CompletedTask;
     }
 
@@ -505,7 +510,7 @@ public class VenueBooking : MonoBehaviour
                             (newSelection.transform.GetChild(1).gameObject.transform.position +
                             new Vector3(0, singleSlotSelectionHeight, 0)),
                             Quaternion.identity);
-                        TMP_Dropdown newTimeOption = newSlot.GetComponent<TMP_Dropdown>();
+                        TMP_Dropdown newTimeOption = newSlot.GetComponentInChildren<TMP_Dropdown>();
                         tempPosYChange += singleSlotSelectionHeight;
                         int newSelectedSlot = slots[indexer];
                         UpdateTimeOptions(newTimeOption, previous, newSelectedSlot);
@@ -539,7 +544,7 @@ public class VenueBooking : MonoBehaviour
 
         RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
         panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x,
-            createBookingButton.transform.position.y + singleSlotSelectionHeight);
+            createBookingButton.transform.position.y - initBookingY + singleSlotSelectionHeight);
     }
 
     private void UpdateTimeOptions(TMP_Dropdown chooseTimeOptions, string day, int selectedSlot)

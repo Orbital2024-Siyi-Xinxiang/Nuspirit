@@ -20508,7 +20508,7 @@ MonoBehaviour:
   removeBookingButton: {fileID: 266336844}
   clearAllBookingsButton: {fileID: 1141787738}
   bookingSelectionPrefab: {fileID: 5222459679410631164, guid: 34d4e65c752e54473a268a5916745447, type: 3}
-  singleSlotSelectionPrefab: {fileID: 4707431449081363010, guid: 7c151361880e74c0d93544ce23b23ace, type: 3}
+  singleSlotSelectionPrefab: {fileID: 2066424743152602684, guid: 9b5ad58fc1321406baa12409af586338, type: 3}
   confirmActionPanel: {fileID: 814673114}
   warningPanel: {fileID: 1805905306}
   urlSchemeHandler: {fileID: 2128623266}
