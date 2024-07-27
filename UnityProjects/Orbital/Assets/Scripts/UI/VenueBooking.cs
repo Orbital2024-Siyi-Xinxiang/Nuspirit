@@ -894,9 +894,8 @@ public class VenueBooking : MonoBehaviour
         foreach (Transform child in dateTitles.transform)
         {
             string day = child.gameObject.name;
-            DateTime dateTime = SystemTime
-            .AddDate(SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]);
-            child.gameObject.GetComponent<TMP_Text>().text = dateTime.Month + "/" + dateTime.Date;
+            string dateRes = "";
+            child.gameObject.GetComponent<TMP_Text>().text = dateRes;
         }
 
         // highligh the current date
@@ -909,9 +908,14 @@ public class VenueBooking : MonoBehaviour
 
     private string CalculateDate(string day)
     {
+        Debug.Log($"current month: {SystemTime.GetMonth(SystemTime.Now())}");
+
 
         DateTime dateTime = SystemTime
-            .AddDate(SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]);
+            .AddDate(SystemTime.dayDict[day] > SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]?
+            SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())]:
+            (SystemTime.dayDict[day] - SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())] + 7));
+
         return SystemTime.GetYear(dateTime) + SystemTime.GetMonth(dateTime) + SystemTime.GetDate(dateTime);
     }
     private string CalculateDay(string date) // pass date in YYYYMMDD form
