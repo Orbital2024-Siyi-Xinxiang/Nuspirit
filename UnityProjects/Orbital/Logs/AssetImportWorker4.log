@@ -862,3 +862,53 @@ Memory consumption went from 135.7 MB to 134.5 MB.
 Total: 6.116334 ms (FindLiveObjects: 0.263167 ms CreateObjectMapping: 0.127666 ms MarkObjects: 4.721834 ms  DeleteObjects: 1.003292 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3288.359632 seconds.
+  path: Assets/Art/UI/minus 2.png
+  artifactKey: Guid(3d0e5a94512564da9a81234690b3684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/minus 2.png using Guid(3d0e5a94512564da9a81234690b3684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '03b67f01ea752fa5525f44dba0206547') in 0.342603833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.682192 seconds.
+  path: Assets/Art/UI/add.png
+  artifactKey: Guid(242f927ec701942ef8bcda83326b482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/add.png using Guid(242f927ec701942ef8bcda83326b482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3d8c06fb0435286aef87e7416ced139b') in 0.038751041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.147350 seconds.
+  path: Assets/Art/UI/spirit-with-glassses.png
+  artifactKey: Guid(4b8d21caca09642abb9ad7c3c1ad1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/spirit-with-glassses.png using Guid(4b8d21caca09642abb9ad7c3c1ad1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5b7e89c045dd2d6fb8d9b8dc865c20b7') in 0.11584725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.333620 seconds.
+  path: Assets/Art/UI/book_with_pen 2.png
+  artifactKey: Guid(00ff018db43084985968ae00f8914e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/book_with_pen 2.png using Guid(00ff018db43084985968ae00f8914e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '71719b903375b277d5685ce204c40fa6') in 0.096443958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.763081 seconds.
+  path: Assets/Art/UI/spirit_with_glasses_and_book 2.png
+  artifactKey: Guid(e1e0cf34c9b69408c94d9b83e5c2df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/spirit_with_glasses_and_book 2.png using Guid(e1e0cf34c9b69408c94d9b83e5c2df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '95d74be220919ad3ac3661b1a2d4f008') in 0.102739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
