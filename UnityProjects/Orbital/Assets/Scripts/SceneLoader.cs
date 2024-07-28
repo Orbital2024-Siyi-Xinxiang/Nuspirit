@@ -5,6 +5,7 @@ public class SceneLoader : MonoBehaviour
 {
     public string sceneToLoad;
     private string userId;
+    public GameStateManager gameStateManager;
 
     public void SetUserId(string userId)
     {
@@ -23,7 +24,7 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         sceneToLoad = "NoEntry";
-        //LoadInitialScene(); // Load the initial scene based on your logic
+        LoadInitialScene(); // Load the initial scene based on your logic
     }
 
     public void LoadInitialScene()
@@ -45,7 +46,7 @@ public class SceneLoader : MonoBehaviour
 
         if (scene == "SpecificVenue")
         {
-
+            gameStateManager.Initialize();
         }
     }
 }

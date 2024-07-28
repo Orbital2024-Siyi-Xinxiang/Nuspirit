@@ -51,7 +51,7 @@ public class Loading : MonoBehaviour
     {
         // Initially disable the LoadingMask
         LoadingMask = transform.GetChild(0).gameObject;
-        StartLoading();
+        //StartLoading();
     }
 
     // Method to start the loading process

@@ -1203,3 +1203,114 @@ Memory consumption went from 143.8 MB to 142.4 MB.
 Total: 5.325125 ms (FindLiveObjects: 0.237875 ms CreateObjectMapping: 0.113917 ms MarkObjects: 4.097458 ms  DeleteObjects: 0.875542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.20 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4687 unused Assets / (408.4 KB). Loaded Objects now: 5508.
+Memory consumption went from 127.0 MB to 126.6 MB.
+Total: 12.858375 ms (FindLiveObjects: 0.319375 ms CreateObjectMapping: 0.100458 ms MarkObjects: 11.813750 ms  DeleteObjects: 0.624375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30b447000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 9 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 1089ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.60 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4740 unused Assets / (1.0 MB). Loaded Objects now: 5510.
+Memory consumption went from 144.1 MB to 143.1 MB.
+Total: 6.304458 ms (FindLiveObjects: 0.241917 ms CreateObjectMapping: 0.122500 ms MarkObjects: 4.766125 ms  DeleteObjects: 1.173542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5980.972639 seconds.
+  path: Assets/Art/UI
+  artifactKey: Guid(e6369ed6a7b8a4db29b6cf0fc4be8634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI using Guid(e6369ed6a7b8a4db29b6cf0fc4be8634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0971c8397f07f24448dc55e53262044f') in 0.023645667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Art/UI/OptionsCloseButton.png
+  artifactKey: Guid(c9d68c26ec2e44e228dd8f0fe016e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/OptionsCloseButton.png using Guid(c9d68c26ec2e44e228dd8f0fe016e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '55de43f32159c2bc0acaf7235ada3a07') in 0.213263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.622181 seconds.
+  path: Assets/Art/UI/button_brown_cubic.png
+  artifactKey: Guid(6d6504c7cadf04451a7894a940da6b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/button_brown_cubic.png using Guid(6d6504c7cadf04451a7894a940da6b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c4594482ae0734e377acfdd1cd31bbd1') in 0.083281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art/UI/friend_request_color.png
+  artifactKey: Guid(3081f8ded4a124019bd60f8adb2759a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/friend_request_color.png using Guid(3081f8ded4a124019bd60f8adb2759a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1c3934851434cd6db1254892c5c5db32') in 0.006974334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

@@ -985,7 +985,7 @@ public class VenueBooking : MonoBehaviour
             // Call your async method
             yield return LoadVenueOpenPanel();
             // Wait for 3 seconds before calling it again
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(0.5f);
         }
     }
     IEnumerator UpdateUserBookingPanel()

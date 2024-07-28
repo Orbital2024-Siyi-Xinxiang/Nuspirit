@@ -10,6 +10,8 @@ public class GameStateManager : MonoBehaviour
     public VenueManager venueManager;
     public SceneLoader sceneLoader;
     public int venueId = 54619721;
+    public Loading loading;
+
     //public string testLevelId = "0";
 
 
@@ -31,12 +33,13 @@ public class GameStateManager : MonoBehaviour
     {
         venueId = int.Parse(id);
         Initialize();
+        loading.StartLoading();
     }
 
     // TODO: when testing uncomment this, for production commented
-    private void OnEnable()
-    {
+    //private void OnEnable()
+    //{
 
-        Initialize();
-    }
+    //    Initialize();
+    //}
 }
