@@ -274,42 +274,49 @@ public class VenueBooking : MonoBehaviour
         DocumentReference docRef = db.Collection("users_bookings").Document(userId);
         docRef.GetSnapshotAsync().ContinueWithOnMainThread(task =>
         {
-            print("waiting for fetching to complete ... ");
             if (task.IsCompleted)
             {
                 DocumentSnapshot snapshot = task.Result;
                 if (snapshot.Exists)
                 {
+                    //print("snapshot fetched successfully!!!");
                     // reset selectedBookings according to firebase firestore data users_bookings
                     selectedBookings = new Dictionary<string, List<int>>();
                     selectedDays = new List<string>();
+
                     Dictionary<string, object> documentFields = snapshot.ToDictionary();
 
                     foreach (KeyValuePair<string, object> dateField in documentFields)
                     {
-                        Dictionary<string, int> value = (Dictionary<string, int>)dateField.Value;
-
+                        Dictionary<string, object> value = (Dictionary<string, object>)dateField.Value;
+                        
                         print($"value: {value}");
+
                         if (value != null)
                         {
                             if (value["bookable_id"].ToString() == bookableData.id)
                             {
-                                if (dateField.Key.Length == 12)
+                                if (dateField.Key.Length >= 11)
                                 {
-                                    string dateString = dateField.Key.Substring(0, 9);
-                                    string timeString = dateField.Key.Substring(9, 12);
+                                    string dateString = dateField.Key.Substring(0, 8);
+                                    string timeString = dateField.Key.Substring(8);
                                     string dayString = CalculateDay(dateString);
+
+                                    print("dayString:" + dayString);
+                                    print("timeString" + timeString);
 
                                     if (selectedBookings.ContainsKey(dayString))
                                     {
                                         selectedBookings[dayString].Add(int.Parse(timeString));
-                                        if (!selectedDays.Contains(dayString))
-                                        {
-                                            selectedDays.Add(dayString);
-                                        }
+
                                     } else
                                     {
                                         selectedBookings.Add(dayString, new List<int>{ int.Parse(timeString) });
+                                    }
+
+                                    if (!selectedDays.Contains(dayString))
+                                    {
+                                        selectedDays.Add(dayString);
                                     }
                                 }
                                 else
@@ -333,6 +340,10 @@ public class VenueBooking : MonoBehaviour
 
             
         });
+
+
+        print(selectedBookings.Keys.ToList<string>().Count);
+        print(selectedDays.Count);
 
         UpdatePanelLayout();
         return Task.CompletedTask;
@@ -445,7 +456,7 @@ public class VenueBooking : MonoBehaviour
     {
         ResetButtonPositions();
 
-        float tempPosYChange = 0f;
+        float tempPosYChange = initBookingY;
 
         foreach (string day in selectedDays)
         {
@@ -497,18 +508,19 @@ public class VenueBooking : MonoBehaviour
                     Transform chooseTimeTransform = chooseTimeOptions.transform;
                     Transform addBtn = chooseTimeTransform.GetChild(0);
                     Transform removeBtn = chooseTimeTransform.GetChild(1);
+
                     if (addBtn != null && removeBtn != null)
                     {
-                        addBtn.gameObject.SetActive(true);
-                        removeBtn.gameObject.SetActive(false);
+                        //addBtn.gameObject.SetActive(true);
+                        //removeBtn.gameObject.SetActive(false);
+                        //addBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { SelectTimeSlot(dayString); });
                     }
                     else
                     {
                         Debug.LogError("add button or remove button missing !");
                     }
 
-
-                    addBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { SelectTimeSlot(dayString); });
+                    
                 }
                 else
                 {
@@ -541,8 +553,8 @@ public class VenueBooking : MonoBehaviour
                 }
 
                 float posYChange = bookingSelectionHeight + (slots.Count - 1) * singleSlotSelectionHeight;
-                createBookingButton.transform.localPosition += new Vector3(0, posYChange, 0);
-                removeBookingButton.transform.localPosition += new Vector3(0, posYChange, 0);
+                createBookingButton.transform.localPosition -= new Vector3(0, posYChange, 0);
+                removeBookingButton.transform.localPosition -= new Vector3(0, posYChange, 0);
 
             }
 
@@ -550,7 +562,9 @@ public class VenueBooking : MonoBehaviour
 
         // add listeners to three buttons for managing booking selections
         createBookingButton.onClick.AddListener(delegate { CreateBooking(); });
-        removeBookingButton.onClick.AddListener(delegate { RemoveBooking(selectedDays[-1]); });
+
+        removeBookingButton.onClick.AddListener(delegate { RemoveBooking(selectedDays.Last()); });
+
         clearAllBookingsButton.onClick.AddListener(ClearAllBookings);
 
         //RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
@@ -886,8 +900,9 @@ public class VenueBooking : MonoBehaviour
         bookableData.booked[day].Remove(startTime);
         bookableData.booked[day].Remove(startTime + 100);
 
-        bookableData.available[day].Remove(startTime);
-        bookableData.available[day].Remove(startTime + 100);
+        //TODO: update available scriptable object
+        //bookableData.available[day].Remove(startTime);
+        //bookableData.available[day].Remove(startTime + 100);
         LoadVenueOpenPanel();
         // change bookableData.available
     }
