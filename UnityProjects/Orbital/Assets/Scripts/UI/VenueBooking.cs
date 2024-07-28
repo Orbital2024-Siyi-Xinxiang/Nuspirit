@@ -97,8 +97,8 @@ public class VenueBooking : MonoBehaviour
 
     private void ResetButtonPositions()
     {
-        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, 46.772f);
-        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, 46.772f);
+        createBookingButton.transform.localPosition = new Vector2(createBookingButton.transform.localPosition.x, 143f);
+        removeBookingButton.transform.localPosition = new Vector2(removeBookingButton.transform.localPosition.x, 143f);
         foreach (Transform child in UserBookingPanel.transform)
         {
             if (child.gameObject.name == "BookingSelection" || child.gameObject.name == "BookingSelection(Clone)")
@@ -367,8 +367,14 @@ public class VenueBooking : MonoBehaviour
                 CreateBooking(availableDay);
                 flag = 1;
                 break;
+                
             }
         }
+        if (flag == 1)
+        {
+            return;
+        }
+
         if (flag == 0)
         {
             ShowWarning("No other available day!");
@@ -479,8 +485,9 @@ public class VenueBooking : MonoBehaviour
                 
                 GameObject newSelection =
                         Instantiate(bookingSelectionPrefab, new Vector3(0, tempPosYChange, 0), Quaternion.identity);
-
-                tempPosYChange += bookingSelectionHeight;
+                // Set the parent of newSelection to the transform of userBookingPanel
+                newSelection.transform.SetParent(UserBookingPanel.transform, false);
+                tempPosYChange -= bookingSelectionHeight;
                 // set initial slot selection
                 TMP_Dropdown chooseDayOptions = newSelection.transform.GetChild(0).gameObject.GetComponentInChildren<TMP_Dropdown>();
                 TMP_Dropdown chooseTimeOptions = newSelection.transform.GetChild(1).gameObject.GetComponentInChildren<TMP_Dropdown>();
@@ -493,6 +500,7 @@ public class VenueBooking : MonoBehaviour
                 chooseDayOptions.options.Insert(0, newOption);
                 chooseDayOptions.value = 0;
                 int selectedSlot = slots[0];
+
                 // Add listener to update time options when a day is selected
                 string previous = chooseDayOptions.options[chooseDayOptions.value].text;
                 
@@ -534,7 +542,7 @@ public class VenueBooking : MonoBehaviour
                             new Vector3(0, singleSlotSelectionHeight, 0)),
                             Quaternion.identity);
                         TMP_Dropdown newTimeOption = newSlot.GetComponentInChildren<TMP_Dropdown>();
-                        tempPosYChange += singleSlotSelectionHeight;
+                        tempPosYChange -= singleSlotSelectionHeight;
                         int newSelectedSlot = slots[indexer];
                         UpdateTimeOptions(newTimeOption, previous, newSelectedSlot);
 
@@ -543,10 +551,10 @@ public class VenueBooking : MonoBehaviour
                             Transform chooseTimeTransform = newTimeOption.transform;
                             Transform addBtn = chooseTimeTransform.GetChild(0);
                             Transform removeBtn = chooseTimeTransform.GetChild(1);
-                            addBtn.gameObject.SetActive(true);
-                            removeBtn.gameObject.SetActive(true);
-                            addBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { SelectTimeSlot(dayString); });
-                            removeBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { RemoveTimeSlot(dayString, newSelectedSlot); });
+                            //addBtn.gameObject.SetActive(true);
+                            //removeBtn.gameObject.SetActive(true);
+                            //addBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { SelectTimeSlot(dayString); });
+                            //removeBtn.gameObject.GetComponent<Button>().onClick.AddListener(delegate { RemoveTimeSlot(dayString, newSelectedSlot); });
                         }
 
                     }
@@ -830,7 +838,7 @@ public class VenueBooking : MonoBehaviour
         bookingSelectionWidth = 419.831f;
         singleSlotSelectionHeight = 36.743f;
         initBookingX = 8f;
-        initBookingY = 25.328f;
+        initBookingY = 117f;
     }
 
     private void SaveBookingToDatabase(string day, int startTime)
@@ -864,11 +872,11 @@ public class VenueBooking : MonoBehaviour
             });
 
         // change bookableData.booked
-        bookableData.available[day].Add(startTime);
-        bookableData.available[day].Add(startTime + 100);
+        //bookableData.available[day].Add(startTime);
+        //bookableData.available[day].Add(startTime + 100);
 
-        bookableData.booked[day].Add(startTime, urlSchemeHandler.userId);
-        bookableData.booked[day].Add(startTime + 100, urlSchemeHandler.userId);
+        //bookableData.booked[day].Add(startTime, urlSchemeHandler.userId);
+        //bookableData.booked[day].Add(startTime + 100, urlSchemeHandler.userId);
         LoadVenueOpenPanel();
     }
 
@@ -897,8 +905,8 @@ public class VenueBooking : MonoBehaviour
             });
 
         // change bookableData.booked
-        bookableData.booked[day].Remove(startTime);
-        bookableData.booked[day].Remove(startTime + 100);
+        //bookableData.booked[day].Remove(startTime);
+        //bookableData.booked[day].Remove(startTime + 100);
 
         //TODO: update available scriptable object
         //bookableData.available[day].Remove(startTime);
@@ -930,8 +938,9 @@ public class VenueBooking : MonoBehaviour
 
         int dayNum = SystemTime.dayDict[SystemTime.GetDayOfWeek(SystemTime.Now())];
         float posx = width * dayNum - 130.8f;
-        float posy = -42.4264f;
-        highlightCurrentDate.transform.position = new Vector2(posx, posy);
+
+        // highlight today
+        highlightCurrentDate.transform.localPosition = new Vector2(posx, highlightCurrentDate.transform.localPosition.y);
     }
 
     private string CalculateDate(string day)
