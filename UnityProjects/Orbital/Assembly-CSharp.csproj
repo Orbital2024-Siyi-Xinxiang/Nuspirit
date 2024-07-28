@@ -95,6 +95,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/TileSet.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/Interactable.cs" />
+    <Compile Include="Assets/Scripts/UI/HistoricalBookingInfo.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/Databases/CategoriesDatabase.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/Scripts/Debugger.cs" />
@@ -129,6 +130,7 @@
     <Compile Include="Assets/Scripts/VenueManagement/TileUtility.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/Scripts/UI/Loading.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/PlacementSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
