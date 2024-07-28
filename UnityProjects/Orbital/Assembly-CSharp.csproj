@@ -122,6 +122,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/SpiritualIslandQuitButton.cs" />
     <Compile Include="Assets/Scripts/AudioAndEffects/AudioManager.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/Joystick.cs" />
     <Compile Include="Assets/Scripts/URLSchemeHandler.cs" />

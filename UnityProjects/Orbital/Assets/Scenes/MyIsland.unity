@@ -408,11 +408,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 148091828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10546f703b9124719859a114d1413390, type: 3}
+  m_Script: {fileID: 11500000, guid: 04802d208d43142f88f633874784168d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backButton: {fileID: 148091830}
-  urlSchemeHandler: {fileID: 0}
+  backToFurnitureMarket: {fileID: 1892692112}
+  urlSchemeHandler: {fileID: 672289746}
 --- !u!1 &198528965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,8 +1826,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1234992726}
   m_HandleRect: {fileID: 1234992725}
   m_Direction: 0
-  m_Value: -0.00000035886856
-  m_Size: 0.41979367
+  m_Value: -0.00000040322973
+  m_Size: 0.42901033
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3406,6 +3406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: NoEntry
+  gameStateManager: {fileID: 0}
 --- !u!4 &1551010212
 Transform:
   m_ObjectHideFlags: 0

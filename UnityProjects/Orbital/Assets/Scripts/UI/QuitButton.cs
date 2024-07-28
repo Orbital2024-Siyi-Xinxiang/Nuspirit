@@ -7,7 +7,6 @@ public class QuitButton : MonoBehaviour
     public Button backButton;
     public UrlSchemeHandler UrlSchemeHandler;
     public GameStateManager gameStateManager;
-    public Button backToFurnitureMarket;
     public Button viewAllBookings;
 
     // Start is called before the first frame update
@@ -21,11 +20,7 @@ public class QuitButton : MonoBehaviour
             backButton.onClick.AddListener(NavigateBackToNativeApp);
         }
 
-        if (backToFurnitureMarket != null)
-        {
-            Debug.LogWarning("back to furniture market!!!");
-            backToFurnitureMarket.onClick.AddListener(NavigateToFurnitureMarket);
-        }
+
 
         if (viewAllBookings != null)
         {
@@ -44,12 +39,7 @@ public class QuitButton : MonoBehaviour
         Application.OpenURL(url);
     }
 
-    void NavigateToFurnitureMarket()
-    {
-        string url = $"swiftUIApp://{UrlSchemeHandler.userId}/FurnitureMarketView/na/na";
-        // Open the URL using Application.OpenURL
-        Application.OpenURL(url);
-    }
+
 
     void NavigateToMyBookings()
     {

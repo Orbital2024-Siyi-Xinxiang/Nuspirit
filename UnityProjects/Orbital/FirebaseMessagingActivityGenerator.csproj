@@ -62,8 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.cs" />
-    <Compile Include="Assets\Scripts\UI\Loading.cs" />
-    <Compile Include="Assets\Scripts\UI\NewMonoBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Firebase/Editor/Messaging/FirebaseMessagingActivityGenerator.asmdef" />
@@ -683,6 +681,38 @@
     </Reference>
     <Reference Include="Firebase.Editor">
       <HintPath>Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.AppCheck">
+      <HintPath>Assets/Firebase/Plugins/Firebase.AppCheck.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Crashlytics">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Crashlytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Functions">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Functions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Installations">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Installations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.RemoteConfig">
+      <HintPath>Assets/Firebase/Plugins/Firebase.RemoteConfig.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.DynamicLinks">
+      <HintPath>Assets/Firebase/Plugins/Firebase.DynamicLinks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Firebase.Crashlytics.Editor">
+      <HintPath>Assets/Firebase/Editor/Firebase.Crashlytics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
