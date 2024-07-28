@@ -236,10 +236,10 @@ public class VenueBooking : MonoBehaviour
             }
         }
 
+        availableDict = new Dictionary<string, List<int>>();
         // Iterate through the available slots, assign to availableDict state variable
         foreach (KeyValuePair<string, List<int>> dayEntry in bookableData.available)
         {
-            availableDict = new Dictionary<string, List<int>>();
             string day = dayEntry.Key;
             List<int> availableSlots = dayEntry.Value;
             availableSlots.Sort();
@@ -302,8 +302,8 @@ public class VenueBooking : MonoBehaviour
                                     string timeString = dateField.Key.Substring(8);
                                     string dayString = CalculateDay(dateString);
 
-                                    print("dayString:" + dayString);
-                                    print("timeString" + timeString);
+                                    //print("dayString:" + dayString);
+                                    //print("timeString" + timeString);
 
                                     if (selectedBookings.ContainsKey(dayString))
                                     {
@@ -341,10 +341,8 @@ public class VenueBooking : MonoBehaviour
             
         });
 
-
-        print(selectedBookings.Keys.ToList<string>().Count);
-        print(selectedDays.Count);
-
+        Debugger.PrintDict(selectedBookings, "selectedBookings after refresh");
+        Debugger.PrintDict(availableDict, "availableDict after refresh");
         UpdatePanelLayout();
         return Task.CompletedTask;
     }
@@ -383,6 +381,7 @@ public class VenueBooking : MonoBehaviour
 
     public void CreateBooking(string day)
     {
+        Debug.Log("start creating day" + day);
         if (CalculateSum(selectedBookings) >= 5)
         {
             ShowWarning("cannot book more than 5 slots");
@@ -414,11 +413,11 @@ public class VenueBooking : MonoBehaviour
             }
 
         }
-  
     }
 
     public void RemoveBooking(string day)
     {
+        Debug.Log("start removing day" + day);
         if (CalculateSum(selectedBookings) == 0)
         {
             ShowWarning("No user booking found!");
@@ -460,6 +459,7 @@ public class VenueBooking : MonoBehaviour
 
     private void UpdatePanelLayout()
     {
+        Debug.Log("Updating panel layout ...");
         ResetButtonPositions();
 
         float tempPosYChange = initBookingY;
@@ -492,6 +492,8 @@ public class VenueBooking : MonoBehaviour
                 TMP_Dropdown chooseDayOptions = newSelection.transform.GetChild(0).gameObject.GetComponentInChildren<TMP_Dropdown>();
                 TMP_Dropdown chooseTimeOptions = newSelection.transform.GetChild(1).gameObject.GetComponentInChildren<TMP_Dropdown>();
                 chooseDayOptions.ClearOptions();
+
+                Debugger.PrintDict(availableDict, "availableDict");
                 // Get the days that have at least one available slot
                 List<string> availableDays = availableDict.Keys.Where(day => availableDict[day].Count > 0 && day != dayString).ToList();
                 // Populate the chooseDayOptions dropdown
@@ -578,6 +580,8 @@ public class VenueBooking : MonoBehaviour
         //RectTransform panelRect = UserBookingPanel.GetComponent<RectTransform>();
         //panelRect.sizeDelta = new Vector2(panelRect.sizeDelta.x,
         //    createBookingButton.transform.position.y - initBookingY + singleSlotSelectionHeight);
+
+        Debug.Log("New Panel Layout READY");
     }
 
     private void UpdateTimeOptions(TMP_Dropdown chooseTimeOptions, string day, int selectedSlot)
@@ -585,7 +589,8 @@ public class VenueBooking : MonoBehaviour
         // Clear existing option;
         chooseTimeOptions.ClearOptions();
         int previous = selectedSlot;
-        
+
+        Debugger.PrintDict(availableDict, "updating time options according to availableDict, day" + day);
 
         if (availableDict.ContainsKey(day))
         {
@@ -643,6 +648,7 @@ public class VenueBooking : MonoBehaviour
 
     private void SelectTimeSlot(string day, int startTime)
     {
+
         if (CalculateSum(selectedBookings) < 5)
         {
             // update selected bookings
@@ -681,11 +687,15 @@ public class VenueBooking : MonoBehaviour
             ShowWarning("Cannot book more than 5 slots!");
         }
 
+        Debugger.PrintDict(selectedBookings, "selectedBookings after selectTimeSlot");
+        Debugger.PrintDict(availableDict, "availableDict after selectTimeSlot");
+        
+
         UpdatePanelLayout();
     }
     private void RemoveTimeSlot(string day, int startTime)
     {
-        // TODO: change availableDict and selectedBookings and selectedDays
+
         if (!selectedBookings.ContainsKey(day))
         {
             Debug.LogError("trying to remove a non-existent slot!");
@@ -718,6 +728,8 @@ public class VenueBooking : MonoBehaviour
             availableDict[day].Add(startTime);
         }
 
+        Debugger.PrintDict(selectedBookings, "selectedBookings after removeTimeSlot");
+        Debugger.PrintDict(availableDict, "availableDict after removeTimeSlot");
         UpdatePanelLayout();
     }
 
@@ -739,6 +751,7 @@ public class VenueBooking : MonoBehaviour
         rect.transform.SetParent(VenueOpenPanel.transform, false);
         // Set additional properties for the unbooked window if needed
     }
+
     private void InstantiateBooked(string day, int start, string bookerId)
     {
         //print($"instantiating booked {day} {start}, {userId}");
@@ -792,7 +805,6 @@ public class VenueBooking : MonoBehaviour
             }
         });
     }
-    
     private void AssignDateDict()
     {
         dateDict = new Dictionary<string, string>();
@@ -804,7 +816,6 @@ public class VenueBooking : MonoBehaviour
             dateDict.Add(dateKey, day);
         }
     }
-
     // Method to show the warning message
     private void ShowWarning(string message)
     {
@@ -967,8 +978,6 @@ public class VenueBooking : MonoBehaviour
         return res;
     }
     // update every 3 seconds
-
-
     IEnumerator UpdateVenueOpenPanel()
     {
         while (true)

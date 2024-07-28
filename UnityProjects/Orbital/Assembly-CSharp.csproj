@@ -97,6 +97,7 @@
     <Compile Include="Assets/Scripts/VenueObjects/Interactable.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/Databases/CategoriesDatabase.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/Scripts/Debugger.cs" />
     <Compile Include="Assets/Scripts/Firebase/DataUpdater.cs" />
     <Compile Include="Assets/Scripts/VenueObjects/Facility.cs" />
     <Compile Include="Assets/Scripts/UI/BackToLandingView.cs" />

@@ -14,8 +14,6 @@ public class DataUpdater : MonoBehaviour
     //TODO: aligning available with slots and booked in firebase
     // TODO: assign gameobjects from scene
     public VenueManager venueManager;
-
-
     private Venue venue;
     private VenueBookable[] venueBookables;
 
@@ -120,8 +118,6 @@ public class DataUpdater : MonoBehaviour
                     venueBookable.slots = newSlots;
                     hasChanges = true;
                 }
-
-                
             }
 
             // Update the available
