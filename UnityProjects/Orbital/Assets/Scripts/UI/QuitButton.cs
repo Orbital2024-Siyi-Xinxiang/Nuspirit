@@ -6,8 +6,9 @@ public class QuitButton : MonoBehaviour
     // Button reference to attach in the Inspector
     public Button backButton;
     public UrlSchemeHandler UrlSchemeHandler;
-    public VenueManager venueManager;
-
+    public GameStateManager gameStateManager;
+    public Button backToFurnitureMarket;
+    public Button viewAllBookings;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,18 @@ public class QuitButton : MonoBehaviour
             Debug.LogWarning("button clicked!");
             backButton.onClick.AddListener(NavigateBackToNativeApp);
         }
+
+        if (backToFurnitureMarket != null)
+        {
+            Debug.LogWarning("back to furniture market!!!");
+            backToFurnitureMarket.onClick.AddListener(NavigateToFurnitureMarket);
+        }
+
+        if (viewAllBookings != null)
+        {
+            Debug.LogWarning("view all user bookings!");
+            viewAllBookings.onClick.AddListener(NavigateToMyBookings);
+        }
     }
 
     // Function to navigate back to the native iOS app
@@ -26,7 +39,21 @@ public class QuitButton : MonoBehaviour
     {
         // Construct the URL scheme to navigate back
 
-        string url = $"swiftUIApp://na/MainMapView/unsubscribe/{venueManager.venue.id}";
+        string url = $"swiftUIApp://{UrlSchemeHandler.userId}/MainMapView/unsubscribe/{gameStateManager.venueId}";
+        // Open the URL using Application.OpenURL
+        Application.OpenURL(url);
+    }
+
+    void NavigateToFurnitureMarket()
+    {
+        string url = $"swiftUIApp://{UrlSchemeHandler.userId}/FurnitureMarketView/na/na";
+        // Open the URL using Application.OpenURL
+        Application.OpenURL(url);
+    }
+
+    void NavigateToMyBookings()
+    {
+        string url = $"swiftUIApp://{UrlSchemeHandler.userId}/MyBookingsView/na/na";
         // Open the URL using Application.OpenURL
         Application.OpenURL(url);
     }

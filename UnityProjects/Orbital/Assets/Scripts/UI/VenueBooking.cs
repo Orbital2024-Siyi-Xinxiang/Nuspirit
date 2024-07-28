@@ -24,7 +24,7 @@ public class VenueBooking : MonoBehaviour
     public GameObject booked;
     public GameObject unBooked;
 
-    //TODO: assign in unity editor
+    
     public VenueManager venueManager;
     public GameStateManager gameStateManager;
     public Button createBookingButton;
@@ -445,6 +445,7 @@ public class VenueBooking : MonoBehaviour
 
     public void ClearAllBookings()
     {
+        confirmActionPanel.Initialize("Clear all bookings?", 1);
         if (CalculateSum(selectedBookings) == 0)
         {
             ShowWarning("No user booking found!");

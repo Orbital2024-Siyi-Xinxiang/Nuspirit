@@ -9011,9 +9011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16b201bdd4a847558c88618e45b4630, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backButton: {fileID: 0}
-  UrlSchemeHandler: {fileID: 0}
-  venueManager: {fileID: 0}
+  backButton: {fileID: 581128641}
+  UrlSchemeHandler: {fileID: 2128623266}
+  gameStateManager: {fileID: 2128433854}
+  backToFurnitureMarket: {fileID: 0}
+  viewAllBookings: {fileID: 0}
 --- !u!1 &592410391
 GameObject:
   m_ObjectHideFlags: 0
