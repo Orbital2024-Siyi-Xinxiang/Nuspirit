@@ -27,8 +27,27 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:Orbital/TestPlans/Orbital.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:Orbital/Views/DatabaseTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:../UserProfileTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:../LocationTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:../UnityScenesTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:../MultiPlayerTestPlan.xctestplan">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"

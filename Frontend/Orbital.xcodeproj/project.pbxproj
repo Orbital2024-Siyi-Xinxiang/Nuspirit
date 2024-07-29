@@ -220,6 +220,8 @@
 		B58450922C32ADF700234AEC /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
 		B58450972C32C0CC00234AEC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B58450A22C32C21B00234AEC /* UnityMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityMessage.swift; sourceTree = "<group>"; };
+		B58E60572C573B320012D7F0 /* Orbital.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Orbital.xctestplan; path = Orbital/TestPlans/Orbital.xctestplan; sourceTree = SOURCE_ROOT; };
+		B58E60582C573B470012D7F0 /* DatabaseTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = DatabaseTestPlan.xctestplan; path = Orbital/Views/DatabaseTestPlan.xctestplan; sourceTree = SOURCE_ROOT; };
 		B593936A2C0A2B680025B3D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		B5A040A92BFF0785006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
 		B5A040AB2BFF07E1006B92E8 /* AuthKey_NAFC44L3FZ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_NAFC44L3FZ.p8; sourceTree = "<group>"; };
@@ -572,6 +574,8 @@
 				B5C92A622BF8793500121E42 /* UniversityTown */,
 				B5B85E7D2C00CCA400F322C3 /* CentralLib.swift */,
 				B54FD3AD2C078F4D0060F578 /* BuildingView.swift */,
+				B58E60572C573B320012D7F0 /* Orbital.xctestplan */,
+				B58E60582C573B470012D7F0 /* DatabaseTestPlan.xctestplan */,
 			);
 			path = Venues;
 			sourceTree = "<group>";

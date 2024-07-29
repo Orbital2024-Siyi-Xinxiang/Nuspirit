@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "9917175D-88AD-443D-9FF0-F44849832FA2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Orbital.xcodeproj",
+        "identifier" : "5BC6DE1A2BF0A7A40031650B",
+        "name" : "OrbitalTests"
+      }
+    }
+  ],
+  "version" : 1
+}

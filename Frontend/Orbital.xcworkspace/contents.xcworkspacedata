@@ -7,4 +7,16 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../UserProfileTestPlan.xctestplan">
+   </FileRef>
+   <FileRef
+      location = "group:../LocationTestPlan.xctestplan">
+   </FileRef>
+   <FileRef
+      location = "group:../UnityScenesTestPlan.xctestplan">
+   </FileRef>
+   <FileRef
+      location = "group:../MultiPlayerTestPlan.xctestplan">
+   </FileRef>
 </Workspace>
