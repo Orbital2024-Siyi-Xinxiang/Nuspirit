@@ -1,0 +1,15 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '13.0'
+
+target 'UnityFramework' do
+  pod 'Firebase/Analytics', '10.28.1'
+  pod 'Firebase/Auth', '10.28.1'
+  pod 'Firebase/Core', '10.28.1'
+  pod 'Firebase/Firestore', '10.28.1'
+  pod 'Firebase/Messaging', '10.28.1'
+  pod 'Firebase/Storage', '10.28.1'
+end
+target 'Unity-iPhone' do
+end
+use_frameworks! :linkage => :static

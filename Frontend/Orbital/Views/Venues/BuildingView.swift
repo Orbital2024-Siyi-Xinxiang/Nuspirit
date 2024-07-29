@@ -28,25 +28,15 @@ struct BuildingView: View {
         }
         .navigationBarTitle("Building Details", displayMode: .inline)
         .onAppear {
+            
+            print("start navigating to specific venue");
+            
+            
             fetchVenueDetails()
             NotificationService.shared.subscribeToVenueTopic(buildingID: buildingID)
             startTimer()
-            
-            let userId = FirebaseAuthService().getCurrentUid()
-            let scene = "SpecificVenue"
-            let buildingID = buildingID
-            
-            if let url = URL(string:"unityApp://\(userId)/\(scene)/\(buildingID)/na")
-            {
-                if UIApplication.shared.canOpenURL(url) {
-                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                } else {
-                    print("Cannot open url of app 'unityApp'")
-                }
-                
-            } else {
-                print("Failed to construct URL")
-            }
+            navigateToSpecificVenue()
+
             
             //            Unity.shared.show()
             //            Unity.shared.sendMessage(
@@ -68,6 +58,19 @@ struct BuildingView: View {
             if let location = notification.userInfo?["location"] as? CLLocation {
                 checkUserStillness(location: location)
             }
+        }
+    }
+    
+    private func navigateToSpecificVenue() {
+        let userId = FirebaseAuthService().getCurrentUid()
+        let scene = "SpecificVenue"
+        let id = buildingID
+        let urlString = "unityApp://\(userId)/\(scene)/\(id)/na"
+ 
+        if let url = URL(string: urlString) {
+            UIApplication.shared.open(url)
+        } else {
+            print("Invalid URL")
         }
     }
     

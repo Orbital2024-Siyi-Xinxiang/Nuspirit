@@ -1,4 +1,5 @@
-UnityProjects/Orbital/Assets/Firebase/
-UnityProjects/Orbital/Library/
 
+UnityScenes/Library/
+UnityScenes/Assets/Firebase/
+UnityScenes/iosBuild/Libraries/
 .fake

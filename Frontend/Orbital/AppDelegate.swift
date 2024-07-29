@@ -114,6 +114,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
             if path == "LandingView" {
                 // Notify your SwiftUI view to navigate to LandingView
                 NotificationCenter.default.post(name: Notification.Name("NavigateToLandingView"), object: nil)
+                self.window = UIWindow(frame: UIScreen.main.bounds)
+                self.window?.rootViewController = UIHostingController(rootView: LandingView())
+                self.window?.makeKeyAndVisible()
             }
             return true
         }
