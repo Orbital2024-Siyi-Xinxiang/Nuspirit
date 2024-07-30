@@ -161,8 +161,8 @@
     <Compile Include="Assets/Scripts/PlayerControl/RemainVisible.cs" />
     <Compile Include="Assets/Scripts/UI/Announcement.cs" />
     <Compile Include="Assets/Scripts/Firebase/FirebaseFirestoreManager.cs" />
-    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" />
     <Compile Include="Assets/Playables/VenuePlayableBehaviour.cs" />
+    <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/IBuildingState.cs" />
     <Compile Include="Assets/Scripts/SpiritualIsland/GridPlacement/RemovingState.cs" />
   </ItemGroup>
   <ItemGroup>
