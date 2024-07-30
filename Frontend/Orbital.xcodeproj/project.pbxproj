@@ -104,7 +104,6 @@
 		B5C92A532BF7CF1C00121E42 /* MyAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */; };
 		B5C92A582BF7CFB800121E42 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A572BF7CFB800121E42 /* Asset.swift */; };
 		B5C92A5A2BF7D69C00121E42 /* SpecificAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */; };
-		B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */; };
 		B5C92A662BF879C300121E42 /* COM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A652BF879C300121E42 /* COM1.swift */; };
 		B5C92A682BF879CF00121E42 /* COM2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A672BF879CF00121E42 /* COM2.swift */; };
 		B5C92A6B2BF879E000121E42 /* COM3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C92A6A2BF879E000121E42 /* COM3.swift */; };
@@ -243,7 +242,6 @@
 		B5C92A522BF7CF1C00121E42 /* MyAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsView.swift; sourceTree = "<group>"; };
 		B5C92A572BF7CFB800121E42 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		B5C92A592BF7D69C00121E42 /* SpecificAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificAssetView.swift; sourceTree = "<group>"; };
-		B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWallet.swift; sourceTree = "<group>"; };
 		B5C92A652BF879C300121E42 /* COM1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM1.swift; sourceTree = "<group>"; };
 		B5C92A672BF879CF00121E42 /* COM2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM2.swift; sourceTree = "<group>"; };
 		B5C92A6A2BF879E000121E42 /* COM3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM3.swift; sourceTree = "<group>"; };
@@ -553,7 +551,6 @@
 			isa = PBXGroup;
 			children = (
 				B5C92A572BF7CFB800121E42 /* Asset.swift */,
-				B5C92A5D2BF7D79100121E42 /* TopUpWallet.swift */,
 				B54FD3AF2C07B1760060F578 /* CustomAnnotation.swift */,
 				B5F9717C2C1834E300FAE7F8 /* UserAnnotaion.swift */,
 				B57442372C11FF2C009F6616 /* UserInfo.swift */,
@@ -948,7 +945,6 @@
 				B574423C2C1202A1009F6616 /* StartButtonView.swift in Sources */,
 				B54FD3B42C080EBF0060F578 /* ImageOverlay.swift in Sources */,
 				B57442342C11ACB9009F6616 /* Starbucks.swift in Sources */,
-				B5C92A5E2BF7D79100121E42 /* TopUpWallet.swift in Sources */,
 				5BC6DE162BF0A7A40031650B /* Orbital.xcdatamodeld in Sources */,
 				B5B05A3A2C1BEE5E009AFE94 /* SystemSettingsView.swift in Sources */,
 				B54FD3B22C07FF140060F578 /* UserProfileView.swift in Sources */,
