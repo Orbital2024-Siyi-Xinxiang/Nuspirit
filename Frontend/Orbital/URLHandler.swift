@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseMessaging
 
 struct URLHandler: View {
     @State private var userId: String = ""
@@ -68,10 +69,15 @@ struct URLHandler: View {
         
         if (currentView == "MainMapView") {
             if (action == "unsubscribe") {
-                // TODO: unsubscrive from venue with id {otherInfo}
-                // TODO: delete previous unsubscription logic
+                // Unsubscribe from Firebase Messaging topic
+                Messaging.messaging().unsubscribe(fromTopic: otherInfo) { error in
+                    if let error = error {
+                        print("Error unsubscribing from topic: \(error.localizedDescription)")
+                    } else {
+                        print("Successfully unsubscribed from topic: \(otherInfo)")
+                    }
+                }
             }
-            
         }
     }
 
