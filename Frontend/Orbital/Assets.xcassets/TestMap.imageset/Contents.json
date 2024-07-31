@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "TestMap.png",
+      "filename" : "WechatIMG1585.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "TestMap 1.png",
+      "filename" : "WechatIMG1585 1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "TestMap 2.png",
+      "filename" : "WechatIMG1585 2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

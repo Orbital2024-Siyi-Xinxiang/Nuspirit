@@ -7,14 +7,14 @@ struct LandingView: View {
         NavigationView {
             ZStack {
                 // Background image
-                Image("backgroundImage")
+                Image("background")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                 
                 VStack(spacing: 20) {
                     Spacer()
-                    Image(systemName: "house")
+                    Image("spirit-with-sunglasses-logo")
                         .resizable()
                         .frame(width: 100, height: 100)
                         .foregroundColor(.white)

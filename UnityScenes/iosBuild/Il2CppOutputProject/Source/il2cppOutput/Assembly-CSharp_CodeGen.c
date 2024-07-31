@@ -357,8 +357,10 @@ extern void Friends_navigateBackToContact_m60BD24EC50971696922A79F655A350C5F2D12
 extern void Friends_Update_m7096E6D2C23B2790ECDFA616406013F324BE25C7 (void);
 extern void Friends__ctor_mCB2B93BB712EBF117B26759728A91E3936ADAF75 (void);
 extern void HistoricalBookingInfo_Start_mD736AEBE5B9B04C9E39B2446DC779C092BC728E9 (void);
+extern void HistoricalBookingInfo_ShowWarning_m4F5179A9DE0642ADA2FFA42BCBECD36E476D6B58 (void);
 extern void HistoricalBookingInfo_Update_mA850AABF1A2A19991EE587BEB71EBF5502007463 (void);
 extern void HistoricalBookingInfo__ctor_mC52ADA79E75A1C854C52F472B31C4D7E76B7A015 (void);
+extern void HistoricalBookingInfo_U3CStartU3Eb__2_0_m72D125D740188E414330E25E5F53F2AC8374733D (void);
 extern void Loading_Start_mEFEEDC3894328DB8F818B306D94EDEB908C7E3EB (void);
 extern void Loading_StartLoading_mBBCA53823B5797A456ADF46530EC2932901A2978 (void);
 extern void Loading_EndLoadingAfterDelay_mBAD42FBD2C5835470E3FA7C543691BE9C3AF3954 (void);
@@ -773,7 +775,7 @@ extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_O
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (void);
-static Il2CppMethodPointer s_methodPointers[771] = 
+static Il2CppMethodPointer s_methodPointers[773] = 
 {
 	VenuePlayableBehaviour_CreatePlayable_mB6BCDC4237751EC1C5DB3859116BBA66A341D8EE,
 	VenuePlayableBehaviour__ctor_mBBE979ED6DD38E8FB9E6848F100A38CD530D4484,
@@ -1130,8 +1132,10 @@ static Il2CppMethodPointer s_methodPointers[771] =
 	Friends_Update_m7096E6D2C23B2790ECDFA616406013F324BE25C7,
 	Friends__ctor_mCB2B93BB712EBF117B26759728A91E3936ADAF75,
 	HistoricalBookingInfo_Start_mD736AEBE5B9B04C9E39B2446DC779C092BC728E9,
+	HistoricalBookingInfo_ShowWarning_m4F5179A9DE0642ADA2FFA42BCBECD36E476D6B58,
 	HistoricalBookingInfo_Update_mA850AABF1A2A19991EE587BEB71EBF5502007463,
 	HistoricalBookingInfo__ctor_mC52ADA79E75A1C854C52F472B31C4D7E76B7A015,
+	HistoricalBookingInfo_U3CStartU3Eb__2_0_m72D125D740188E414330E25E5F53F2AC8374733D,
 	Loading_Start_mEFEEDC3894328DB8F818B306D94EDEB908C7E3EB,
 	Loading_StartLoading_mBBCA53823B5797A456ADF46530EC2932901A2978,
 	Loading_EndLoadingAfterDelay_mBAD42FBD2C5835470E3FA7C543691BE9C3AF3954,
@@ -1547,7 +1551,7 @@ static Il2CppMethodPointer s_methodPointers[771] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876,
 };
-static const int32_t s_InvokerIndices[771] = 
+static const int32_t s_InvokerIndices[773] = 
 {
 	2438,
 	8508,
@@ -1903,6 +1907,8 @@ static const int32_t s_InvokerIndices[771] =
 	8508,
 	8508,
 	8508,
+	8508,
+	6599,
 	8508,
 	8508,
 	8508,
@@ -2374,7 +2380,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	771,
+	773,
 	s_methodPointers,
 	0,
 	NULL,

@@ -33,10 +33,10 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_GridModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_GridModule[4] = 
 {
-	{ 46167, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 46167, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 46167, 1, 92, 92, 34, 35, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 46167, 1, 92, 92, 35, 36, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 46169, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 46169, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 46169, 1, 92, 92, 34, 35, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 46169, 1, 92, 92, 35, 36, 1, kSequencePointKind_Normal, 0, 3 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_GridModule[];

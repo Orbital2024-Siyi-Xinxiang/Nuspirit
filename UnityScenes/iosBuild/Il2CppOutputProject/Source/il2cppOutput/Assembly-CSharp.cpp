@@ -33922,10 +33922,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UrlSchemeHandler_t42DBC7399F3C568
 		s_Il2CppMethodInitialized = true;
 	}
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UrlSchemeHandler_get_Instance_m59A48E3BD46BC9A98FFB32E16C826C54374FE253_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 5561));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 5562));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 5591));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 5592));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 5563));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 5593));
 		UrlSchemeHandler_t42DBC7399F3C5681D01F8177EC29E4C6135F0FF2* L_0 = ((UrlSchemeHandler_t42DBC7399F3C5681D01F8177EC29E4C6135F0FF2_StaticFields*)il2cpp_codegen_static_fields_for(UrlSchemeHandler_t42DBC7399F3C5681D01F8177EC29E4C6135F0FF2_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
 	}

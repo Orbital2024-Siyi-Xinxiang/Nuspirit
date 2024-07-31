@@ -21510,6 +21510,11 @@ struct HighlightOutline_t37312BFCFC557726FB58C51BCC9D6F6E0B1DEE46  : public Mono
 {
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___outlineImage;
 };
+struct HistoricalBookingInfo_t779A19A9110353F5C2DF61E4677C8466192E3774  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___searchButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___warningPanel;
+};
 struct InputManager_t29A2200021AE0E0EB6F34CB1B9DF031B3AE02677  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
@@ -31849,6 +31854,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5889[9] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5890[5] = 
 {
 	static_cast<int32_t>(offsetof(Friends_t7189A204F193BB00CD7882675B19F9B70E0B239C, ___friendInVenue)),static_cast<int32_t>(offsetof(Friends_t7189A204F193BB00CD7882675B19F9B70E0B239C, ___urlSchemeHandler)),static_cast<int32_t>(offsetof(Friends_t7189A204F193BB00CD7882675B19F9B70E0B239C, ___venueManager)),static_cast<int32_t>(offsetof(Friends_t7189A204F193BB00CD7882675B19F9B70E0B239C, ___userId)),static_cast<int32_t>(offsetof(Friends_t7189A204F193BB00CD7882675B19F9B70E0B239C, ___venueId)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5891[2] = 
+{
+	static_cast<int32_t>(offsetof(HistoricalBookingInfo_t779A19A9110353F5C2DF61E4677C8466192E3774, ___searchButton)),static_cast<int32_t>(offsetof(HistoricalBookingInfo_t779A19A9110353F5C2DF61E4677C8466192E3774, ___warningPanel)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5892[4] = 
 {
 	static_cast<int32_t>(offsetof(U3CEndLoadingAfterDelayU3Ed__3_t0A5BAAB6EF724FF5A612EA9BD3AD566077022204, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CEndLoadingAfterDelayU3Ed__3_t0A5BAAB6EF724FF5A612EA9BD3AD566077022204, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CEndLoadingAfterDelayU3Ed__3_t0A5BAAB6EF724FF5A612EA9BD3AD566077022204, ___delay)),static_cast<int32_t>(offsetof(U3CEndLoadingAfterDelayU3Ed__3_t0A5BAAB6EF724FF5A612EA9BD3AD566077022204, ___U3CU3E4__this)),};
