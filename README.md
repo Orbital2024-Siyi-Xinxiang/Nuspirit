@@ -7,6 +7,9 @@
 ### UserStories
 
 ## Repo Structure
+original zip files: 
+https://drive.google.com/file/d/1e8y6B_NvwoGE-JW-kdHgqF0EOmXTMHJi/view?usp=sharing
+
 This repo consists of one integrated workspace, two xcode projects(native swiftUI app & ios app built from unity project) and one native unity project. This separation of microservices is for optimization of ios performance. Due to native firebase SDK issues, current framework embedding solution doesn't work. (Refer to the single-feature documentations here: )
 
 ### For testing out unity project alone:
