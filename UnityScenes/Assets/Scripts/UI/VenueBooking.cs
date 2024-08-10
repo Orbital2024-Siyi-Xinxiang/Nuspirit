@@ -537,7 +537,6 @@ public class VenueBooking : MonoBehaviour
                 {
                     for (int indexer = 1; indexer < slots.Count; indexer++)
                     {
-
                         // Instantiate chooseTimeOptions
                         GameObject newSlot =
                             Instantiate(singleSlotSelectionPrefab,
@@ -836,6 +835,7 @@ public class VenueBooking : MonoBehaviour
             Debug.LogError("Warning message TMP_Text component not found in the first child of warningPanel.");
         }
     }
+
     private void AssignSizeData()
     {
         // initialize size data for booked and unbooked layouts

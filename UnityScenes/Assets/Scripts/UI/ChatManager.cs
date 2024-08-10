@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ChatManager : MonoBehaviour
 {
+	// firebase storage manager for managing emojis sent 
 	public FirebaseStorageManager firebaseStorageManager;
 
 	// Use this for initialization
@@ -16,5 +17,7 @@ public class ChatManager : MonoBehaviour
 	{
 			
 	}
+
+
 }
 

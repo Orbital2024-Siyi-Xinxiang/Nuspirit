@@ -26,6 +26,8 @@ public class SceneLoader : MonoBehaviour
     {
         
         sceneToLoad = "NoEntry";
+        // TODO: add logic to detect whether curretn scene is NoEntry
+        // add debug logic to reload scene if needed (entered twice)
         //LoadInitialScene(); // Load the initial scene based on your logic
     }
 
