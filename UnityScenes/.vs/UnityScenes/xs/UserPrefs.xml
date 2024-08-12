@@ -1,10 +1,4 @@
 ﻿<Properties StartupConfiguration="{EF2553DF-5388-06C9-B78C-31A531B8BC2F}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="23d13bd3-b139-44e1-8d22-a5eb2b267c4f" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Debugger.cs">
     <Files>
       <File FileName="Assets/Scripts/URLSchemeHandler.cs" />
@@ -28,7 +22,7 @@
       <File FileName="Assets/Scripts/UI/Announcement.cs" />
       <File FileName="Assets/Scripts/UI/ChatManager.cs" />
       <File FileName="Assets/Scripts/UI/CommunityChat.cs" />
-      <File FileName="Assets/Scripts/UI/HistoricalBookingInfo.cs" Line="12" Column="14" />
+      <File FileName="Assets/Scripts/UI/HistoricalBookingInfo.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueFacility.cs" />
       <File FileName="Assets/Scripts/ScriptableObjects/VenueModels/VenueSolidLayer.cs" />
       <File FileName="Assets/Scripts/SpiritualIsland/HighlightOutine.cs" />
@@ -45,7 +39,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UnityScenes" expanded="True">
+          <Node name="UnityScenes">
             <Node name="Assets" expanded="True">
               <Node name="Scenes" expanded="True" />
               <Node name="Scripts" expanded="True">
@@ -69,5 +63,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5b2e6f70-3eae-4bbf-9f6d-b0736a209ad4" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
